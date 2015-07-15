@@ -1,0 +1,15 @@
+= Agile IT management, a progressive approach: From startup to enterprise
+
+Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.
+
+There are many textbooks covering various aspects of information technology, from programming to security to databases. There are also number of "survey" textbooks available on "Information Technology," "Management Information Systems," and similar titles.
+
+****
+*What is a survey course?*
+
+According to http://www.merriam-webster.com/dictionary/survey%20course[www.merriam-webster.com], a survey course is
+
+_a class at a college or university that gives general information about a subject for students who have not studied it before : an introductory course at a college or university_
+****
+
+I teach just such a survey course, at the University of St. Thomas in St. Paul, Minnesota. While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library"), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.

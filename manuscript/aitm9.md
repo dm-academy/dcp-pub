@@ -12,8 +12,7 @@ Agile, DevOps, Lean, systems theory
 
 Coverage of the Agile movement from a systems perspective. Coverage of the theories underlying Agile as the reason for Agile success.
 
-
-Practical lab experience with lightweight virtualization and infrastructure as code
+Practicalxx lab experience with lightweight virtualization and infrastructure as code
 
 Introduction of work management (product management, ticketing and Kanban fundamentals)
 

@@ -106,7 +106,7 @@ In keeping with the entrepreneurial spirit that gave rise to the Agile movement 
 
 Here is a conceptual illustration of an IT management progression:
 
-image::ITProgression.png[]
+image::images/ITProgression.png[]
 
 As a structuring mechanism, I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
 

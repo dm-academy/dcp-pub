@@ -37,6 +37,18 @@ _This course will cover several topics related to IT infrastructure. The course 
 
 I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitmate faculty positions and afford a variety of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
 
+As the class progressed, we changed the course description as follows:
+
+****
+*http://www.stthomas.edu/gradsoftware/programs/catalog/#d.en.116975[SEIS 660 Information Technology Infrastructure]*
+
+_This course covers the engineering and operation of IT infrastructure, and related IT management practices in both theory and practice. Students participate in building and operating an end to end “IT supply chain” applying current industrial practices, demonstrating how IT services move from idea through production in a practical industrial setting and are managed and improved over time._
+
+_This lab simulation is then used to illuminate key IT management topics such as:  Cloud – Virtualization – Infrastructure as code – Web-scale IT – Continuous delivery –  Change and incident management – Monitoring and service management – IT process management – IT standards – Continuous improvement for IT._
+
+_Students will gain hands-on experience with virtualization, systems administration, DevOps, monitoring, collaboration, and industrial IT processes._
+****
+
 For the past three semesters I have assigned my book as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date.
 
 I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite. However, by the time I was halfway done with the first draft, I had a completely new book. Material from the previous work simply did not fit except on the margins.
@@ -121,4 +133,10 @@ The book however is not a complete dismissal of older models of IT delivery. Whe
 
 In terms of an Agile medium, the format of the book on Github will allow for better "random access" reviewing. This I think will be an improvement over the standard "read a big batch of my work please." I'll point to specific sections as they are completed, and as discussions progress on Twitter & other channels, an approach I think is more agile.
 
-Finally, I have not decided on a publishing channel. I am experimenting with LeanPub, but the final decision is pending.
+I will say more about the labs elsewhere, but I have found that developing good labs is extraordinarily labor-intensive. I intend that each chapter have a solid lab (or multiple alternatives) and would greatly value any contributions that align with the book's progression.
+
+Finally, I have not decided on a publishing channel. I am experimenting with LeanPub, but the final decision is pending. The work would always be free here, but I may put additional formatting work in and sell the resulting value-added product. I am  considering setting up a nonprofit of some sort to further the work. And I am still considering the licensing options. Interested in any ideas along these lines. 
+
+My stance on these issues depends directly on other people making substantial contributions. If that does not happen, I will consider other, more proprietary models, although I remain concerned for educational access and am not inclined to publish this solely as a $150.00 glossy textbook.
+
+If you have comments or questions, please log a https://github.com/dm-academy/aitm/issues[Github issue] on this repository. Or drop me a line at char AT dm-academy DOT com.

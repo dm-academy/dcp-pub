@@ -2,6 +2,8 @@
 
 :toc:
 
+Current status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. 
+
 == Overview
 
 Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.

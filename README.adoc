@@ -80,27 +80,27 @@ Elaborating the above outline, we have:
 
 ..... *Emergence*
 
-. _IT value_
-. _IT infrastructure_
-. _IT applications_
+. _IT value_. Why do we need computers? What can they do for us?
+. _IT infrastructure_ We want to build something. We have to choose a platform first.
+. _IT applications_ Let's start building something of use to someone.
 
 ..... *Collaboration*
 [start=4]
-. _Product management_
-. _Work management_
-. _Operations management_
+. _Product management_ What exactly is it we are building? How do we better define it for a bigger team?
+. _Work management_ How do we keep track and communicate at the most basic level?
+. _Operations management_ How do we sustain this surprisingly fragile computing-based service, in its ongoing delivery of IT value?
 
 ..... *Coordination*
 [start=7]
-. _Culture and organization_
-. _Process management_
-. _Project and resource management_
+. _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that?
+. _Process management_ OK, we have a structure. But work flows across it.
+. _Project and resource management_ Process is great, but we want to get bigger stuff done.
 
 ..... *Maturation*
 [start=10]
-. _Architecture and governance_
-. _Portfolio and analytics_
-. _Chaos and complexity_
+. _Architecture and governance_ We need better orientation on how the big picture fits together. We have major players and forces around us (vendors, regulators, security threats). We need to reduce redundancy and we *do* need to seek some economies of scale.
+. _Portfolio and analytics_ We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall system.
+. _Chaos, complexity, and the road ahead_ No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?
 
 ..... *Appendices*
 . _A review of IT frameworks and standards_
@@ -110,3 +110,15 @@ Elaborating the above outline, we have:
 There is benefit to restricting the chapters to 12, as a typical semester runs 14 weeks and the book then fits quite nicely. (Trying to modfiy the semester system is out of scope for this project.)
 
 I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
+
+My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that source control is a singularly important practice; it is the constraint which enables much of the benefits of Agile. Learning Github is a good use of your time, if you seek to teach the next generation of IT practitioners who will be entering into a world of "infrastruture as code" and pervasive use of source control.
+
+You may notice that the chapter titles don't necessarily reflect "Agile" terminology. This is also deliberate, as students are going into a widely diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
+
+The first word of the book's title is "Agile." That says everything right there, and for the rest, the proof will be in the reading. My intent is to involve many of the top Agile practitioners in the world in reviewing the sections most relevant to them, and I anticipate a high quality end result that is recognizably supportive of the Agile movement's goals and ambitions.
+
+The book however is not a complete dismissal of older models of IT delivery. Wherever possible, Agile is presented as an evolutionary step relative to what has gone before. The specifics of "what's different" are identified, in the interest of de-mystifying what can be a fraught and quasi-religious topic. In the words of Don Reinertsen, you can have "faith based Agile or science based Agile." This book is strictly interested in the latter.
+
+In terms of an Agile medium, the format of the book on Github will allow for better "random access" reviewing. This I think will be an improvement over the standard "read a big batch of my work please." I'll point to specific sections as they are completed, and as discussions progress on Twitter & other channels, an approach I think is more agile.
+
+Finally, I have not decided on a publishing channel. I am experimenting with LeanPub, but the final decision is pending.

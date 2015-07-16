@@ -2,7 +2,7 @@
 
 Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.
 
-This Readme is written primarily for potential collaborators and users of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
+This Readme is written primarily for potential collaborators and *customers* (in the sense of selecting for a course) of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
 
 1. fellow faculty with similar educational challenges, and
 2. my good friends in the practitioner community who might be interested in helping this cause.

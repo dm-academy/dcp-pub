@@ -2,11 +2,13 @@ A revolutionary new textbook for students of information technology.
 
 Prepares students for ACTUAL INDUSTRIAL IT EXPERIENCE, without being tightly coupled to particular technologies
 
+Unique progressive approach, from startup to enterprise. In readings, lecture and labs, students take on the persona appropriate to that scale and understand how technology practices evolve as organizations scale.
+
 Spans the entire IT experience from startup to mature enterprise.
 
 Coverage of the Agile movement from a systems perspective. Coverage of the theories underlying Agile, as the reason for Agile success.
 
-Practical lab experience with lightweight virtualization, containerization, and infrastructure as code
+Practical lab experience with lightweight virtualization, source control, containerization, and infrastructure as code
 
 Introduction of work management (product management, ticketing and Kanban fundamentals)
 

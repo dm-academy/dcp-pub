@@ -87,7 +87,9 @@ A smaller number of authors may start with the business motivation and then go i
 
 Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the *size and maturity of the organization*. College textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
 
-Finally, while Agile techniques are certainly mentioned, they are typically grafted on to a narrative that remains very functional. Mostly, Agile is discussed in the context of project management. Questions of end to end flow, product management, Agile infrastructure, culture and organization, the relationship to Lean, and many other such topics go unaddressed.
+Waterfall assumptions are found throughout many of these texts, not just as explicit discussion, but embedded pervasively as a mental model, that IT is "planned, built, and run."
+
+Finally, while Agile techniques are certainly mentioned, they are typically grafted onto the former narrative.  Mostly, Agile is discussed in the context of project management. Questions of end to end flow, product management, Agile infrastructure, culture and organization, the relationship to Lean, and many other such topics go unaddressed.
 
 As mentioned above, educators have a responsibility to effectively respond to the new realities of Lean product development and the end to end Agile transformation looming for enterprises. This can no longer be dismissed as "flavor of the month" or a fad. It is a fundamental transformation of business and society, ultimately based in Mark Andreessen's observation that "software is eating the world."
 

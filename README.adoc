@@ -110,7 +110,7 @@ image::ITProgression.png[]
 
 As a structuring mechanism, I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
 
-.... *Emergence*: The students are teamed as pairs of practitioners , each in a hypothetical startup, in a garage.
+.... *Inception*: The students are teamed as pairs of practitioners , each in a hypothetical startup, in a garage.
 
 .... *Collaboration*: The students are in teams of 6-11, enough for specialization to emerge, but still intensely collaborative.
 
@@ -120,7 +120,7 @@ As a structuring mechanism, I have tested this in the classroom with some succes
 
 Elaborating the above outline into chapters, we have:
 
-..... *Emergence*
+..... *Inception*
 
 . _IT value_. Why do we need computers? What can they do for us?
 . _IT infrastructure_ We want to build something. We have to choose a platform first.

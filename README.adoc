@@ -88,6 +88,8 @@ A smaller number of authors may start with the business motivation and then go i
 
 Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the size of the organization. Textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
 
+Finally, while Agile techniques are certainly mentioned, they are typically grafted on to a narrative that remains very functional. Mostly, Agile may be discussed in the context of project management, but overall questions of end to end flow, product management, Agile infrastructure, culture and organization, and many other such topics go unaddressed. This is a problem, as we are starting to see shakeups in the talent market due to larger enterprises adopting Agile. I am aware of hundreds of experienced IT professionals being laid off in my region, due at least in part to Agile transformations.
+
 == The proposed structure
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:

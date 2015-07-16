@@ -102,7 +102,7 @@ As mentioned above, educators have a responsibility to effectively respond to th
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
 
-.... *Emergence*: The students are a pair of practitioners in a startup, in a garage.
+.... *Emergence*: The students are teamed as pairs of practitioners , each in a hypothetical startup, in a garage.
 
 .... *Collaboration*: The students are in teams of 6-11, enough for specialization to emerge, but still intensely collaborative.
 
@@ -150,6 +150,8 @@ You may notice that the chapter titles don't necessarily reflect "Agile" termino
 The first word of the book's title is "Agile." That says everything right there, and for the rest, the proof will be in the reading. My intent is to involve many of the top Agile practitioners in the world in reviewing the sections most relevant to them, and I anticipate a high quality end result that is recognizably supportive of the Agile movement's goals and ambitions.
 
 The book however is not a complete dismissal of older models of IT delivery. Wherever possible, Agile is presented as an evolutionary step relative to what has gone before. The specifics of "what's different" are identified, in the interest of de-mystifying what can be a fraught and quasi-religious topic. In the words of Don Reinertsen, you can have "faith based Agile or science based Agile." This book is strictly interested in the latter.
+
+The interesting thing about this emergence model is that it can be understood also as an individual's progression within a larger enterprise. Even if one starts from Day 1 at a Fortune 100 corporation, I believe the progression of one's understanding still progresses through individual, to team, to "team of teams," to enterprise. Of course, one may "stop" evolving one's understanding at any of these stages, with corresponding implications for one's career. 
 
 == Participating, and the road ahead
 

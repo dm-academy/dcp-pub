@@ -16,5 +16,4 @@ DRAFT v0.01
 
 ****
 
-include::book/01-front-matter/preface.adoc[]
-
+include::book/00-front-matter/00-preface.adoc[]

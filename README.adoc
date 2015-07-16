@@ -86,7 +86,7 @@ In keeping with the entrepreneurial spirit that gave rise to the Agile movement 
 
 .... *Coordination*: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
 
-.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamcis of running IT at massive scale.
+.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running IT at massive scale.
 
 Elaborating the above outline, we have:
 

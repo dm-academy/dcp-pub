@@ -24,7 +24,7 @@ As you can imagine, this breadth of experience poses some challenges, but also p
 
 While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like.
 
-As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that IT education in this country is broken.
+As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that *IT education in this country is broken*.
 
 This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.]
 
@@ -157,7 +157,7 @@ I need reviewers and content contributors. I especially appreciate well-informed
 
 My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that *source control is a singularly important practice*; it is the constraint which enables much of the benefits of Agile.
 
-Learning Github is a good use of your time ,if you seek to teach the next generation of IT practitioners. They are heading out into a world of "infrastruture as code" and pervasive use of source control. Github portfolios are increasingly selection criteria in the hiring process for IT professionals. 
+Learning Github is a good use of your time ,if you seek to teach the next generation of IT practitioners. They are heading out into a world of "infrastruture as code" and pervasive use of source control. Github portfolios are increasingly selection criteria in the hiring process for IT professionals.
 
 In terms of an Agile medium, the format of the book on Github will allow for better "random access" reviewing. This I think will be an improvement over the standard "read a big batch of my work please." I'll point to specific sections as they are completed, and as discussions progress on Twitter & other channels, an approach I think is more agile.
 

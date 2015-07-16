@@ -151,7 +151,7 @@ The first word of the book's title is "Agile." That says everything right there,
 
 The book however is not a complete dismissal of older models of IT delivery. Wherever possible, Agile is presented as an evolutionary step relative to what has gone before. The specifics of "what's different" are identified, in the interest of de-mystifying what can be a fraught and quasi-religious topic. In the words of Don Reinertsen, you can have "faith based Agile or science based Agile." This book is strictly interested in the latter.
 
-The interesting thing about this emergence model is that it can be understood also as an individual's progression within a larger enterprise. Even if one starts from Day 1 at a Fortune 100 corporation, I believe the progression of one's understanding still progresses through individual, to team, to "team of teams," to enterprise. Of course, one may "stop" evolving one's understanding at any of these stages, with corresponding implications for one's career. 
+This emergence model can also be understood also as an individual's progression within a larger enterprise. Even if one starts from Day 1 at a Fortune 100 corporation, I believe the progression of one's understanding still progresses through individual, to team, to "team of teams," to enterprise. Of course, one may "stop" evolving one's understanding at any of these stages, with corresponding implications for one's career. 
 
 == Participating, and the road ahead
 

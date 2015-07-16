@@ -147,7 +147,7 @@ Elaborating the above outline into chapters, we have:
 . _Towards a theory of IT management_
 . _Architectural depictions_
 
-The central advantage of this approach is that it is ideal for the new student. There really are no prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Discussions of complex nuanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student. 
+The central advantage of this approach is that it is ideal for the new student. There really are no prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Discussions of complex nuanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student.
 
 I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
 
@@ -167,7 +167,7 @@ I need reviewers and content contributors. I especially appreciate well-informed
 
 My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that *source control is a singularly important practice*; it is the constraint which enables much of the benefits of Agile.
 
-Learning Github is a good use of your time ,if you seek to teach the next generation of IT practitioners. They are heading out into a world of "infrastruture as code" and pervasive use of source control. Github portfolios are increasingly selection criteria in the hiring process for IT professionals.
+Learning Github is a good use of your time, if you seek to teach the next generation of IT practitioners. They are heading out into a world of "infrastruture as code" and pervasive use of source control. Github portfolios are increasingly selection criteria in the hiring process for IT professionals.
 
 In terms of an Agile medium, the format of the book on Github will allow for better "random access" reviewing. This I think will be an improvement over the standard "read a big batch of my work please." I'll point to specific sections as they are completed, and as discussions progress on Twitter & other channels, an approach I think is more agile.
 

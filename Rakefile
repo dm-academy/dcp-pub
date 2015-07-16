@@ -22,11 +22,11 @@ namespace :book do
     #`bundle exec asciidoctor-epub3 -a ebook-format=kf8 agile.asc`
     #puts " -- Mobi output at agile.mobi"
     # prefer a2x conversion
-    puts "Converting to PDF... (this one takes a while)"
-    `bundle exec asciidoctor-pdf aitm.adoc 2>/dev/null`
-    `bundle exec asciidoctor-pdf aitm.adoc`
+    #puts "Converting to PDF... (this one takes a while)"
+    #`bundle exec asciidoctor-pdf aitm.adoc 2>/dev/null`
+    #`bundle exec asciidoctor-pdf aitm.adoc`
 
-    puts " -- PDF  output at agile.pdf"
+    #puts " -- PDF  output at agile.pdf"
   end
 end
 

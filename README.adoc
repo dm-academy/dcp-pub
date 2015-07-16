@@ -11,6 +11,11 @@ This Readme is written primarily for potential collaborators and *customers* of 
 1. fellow faculty with similar educational challenges, and
 2. my good friends in the practitioner community who might be interested in helping this cause.
 
+This README covers:
+
+* Personal history
+* A vision for a new, collaborative Agile text
+
 == Some personal history
 
 I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are  fresh out of a non-technical four-year liberal arts degree, and some are experienced technology professionals who have worked for years in the region's many Fortune 500 corporations.
@@ -25,7 +30,7 @@ This may seem like a presumptuous thing for an adjunct faculty to say, but my da
 
 This is a problem, as we are starting to see shakeups in the talent market due to larger enterprises adopting Agile. I am aware of hundreds of experienced IT professionals being laid off in my region, due at least in part to Agile transformations. A new pedagogy is called for. (This is why I have also helped found the http://www.meetup.com/Agile-Study-Group/[Minnesota Agile Study Group], a meeting place for local faculty and professionals to interact on these topics.)
 
-== SEIS 660 at the University of St. Thomas
+=== SEIS 660 at the University of St. Thomas
 I wrote my first book in 2006, the well-received http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
 
 In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
@@ -50,7 +55,7 @@ _Students will gain hands-on experience with virtualization, systems administrat
 
 While my spring 2015 class was about half full, based on the older ITIL description, my fall 2015 section filled to capacity immediately when the new description was published.
 
-== Considering a 3rd edition
+=== Considering a 3rd edition
 
 For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date.
 

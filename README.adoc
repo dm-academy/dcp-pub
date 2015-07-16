@@ -1,5 +1,7 @@
 = Agile IT management, from startup to enterprise
 
+:toc:
+
 == Overview
 
 Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.

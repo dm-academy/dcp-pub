@@ -100,7 +100,13 @@ As mentioned above, educators have a responsibility to effectively respond to th
 
 === The proposed structure
 
-In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
+In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. H
+
+Here is a conceptual illustration of what I term a "conjecture" of IT management progression:
+
+image::ITProgression.png[]
+
+As a structuring mechanism, I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
 
 .... *Emergence*: The students are teamed as pairs of practitioners , each in a hypothetical startup, in a garage.
 

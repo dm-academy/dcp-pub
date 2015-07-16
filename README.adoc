@@ -2,7 +2,7 @@
 
 :toc:
 
-Current status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. Stop back in a few weeks and you'll see actual content. 
+Current status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. Stop back in a few weeks and you'll see actual content.
 
 == Overview
 
@@ -104,7 +104,7 @@ As mentioned above, educators have a responsibility to effectively respond to th
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach.
 
-Here is a conceptual illustration of what I term a "conjecture" of IT management progression:
+Here is a conceptual illustration of an IT management progression:
 
 image::ITProgression.png[]
 

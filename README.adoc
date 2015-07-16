@@ -100,7 +100,7 @@ As mentioned above, educators have a responsibility to effectively respond to th
 
 === The proposed structure
 
-In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. H
+In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach.
 
 Here is a conceptual illustration of what I term a "conjecture" of IT management progression:
 

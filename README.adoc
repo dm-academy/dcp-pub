@@ -13,17 +13,9 @@ This Readme is written primarily for potential collaborators and *customers* of 
 
 There are many textbooks covering various aspects of information technology, from programming to security to databases. There are also number of "survey" textbooks available on "Information Technology," "Management Information Systems," and similar titles.
 
-****
-*What is a survey course?*
-
-According to http://www.merriam-webster.com/dictionary/survey%20course[www.merriam-webster.com], a survey course is
-
-_a class at a college or university that gives general information about a subject for students who have not studied it before : an introductory course at a college or university_
-****
-
 == Some personal history
 
-I teach just such a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are  fresh out of a non-technical four-year liberal arts degree, and some are experienced technology professionals who have worked for decades in the region's many Fortune 500 corporations.
+I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are  fresh out of a non-technical four-year liberal arts degree, and some are experienced technology professionals who have worked for decades in the region's many Fortune 500 corporations.
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
 

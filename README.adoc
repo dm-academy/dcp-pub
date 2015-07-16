@@ -1,8 +1,10 @@
 = Agile IT management, from startup to enterprise
 
+== Overview
+
 Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.
 
-This Readme is written primarily for potential collaborators and *customers* (in the sense of selecting for a course) of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
+This Readme is written primarily for potential collaborators and *customers* of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
 
 1. fellow faculty with similar educational challenges, and
 2. my good friends in the practitioner community who might be interested in helping this cause.
@@ -17,6 +19,8 @@ According to http://www.merriam-webster.com/dictionary/survey%20course[www.merri
 _a class at a college or university that gives general information about a subject for students who have not studied it before : an introductory course at a college or university_
 ****
 
+== Some personal history
+
 I teach just such a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are  fresh out of a non-technical four-year liberal arts degree, and some are experienced technology professionals who have worked for decades in the region's many Fortune 500 corporations.
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
@@ -28,6 +32,8 @@ As of this writing (July 2015) I am looking forward to teaching my class a fourt
 This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.]
 
 I wrote my first book in 2006, the well-received http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
+
+== SEIS 660 at the University of St. Thomas
 
 In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
 
@@ -49,6 +55,8 @@ _This lab simulation is then used to illuminate key IT management topics such as
 _Students will gain hands-on experience with virtualization, systems administration, DevOps, monitoring, collaboration, and industrial IT processes._
 ****
 
+== Considering a 3rd edition
+
 For the past three semesters I have assigned my book as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date.
 
 I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite. However, by the time I was halfway done with the first draft, I had a completely new book. Material from the previous work simply did not fit except on the margins.
@@ -66,6 +74,8 @@ Hence this project.
 
 _Checkpoint: Yes, this README is long. If you have made it this far, great. I am looking for a few good collaborators, not a cast of thousands._
 
+== The vision for a new Agile textbook
+
 So, what exactly IS this textbook, anyhow?
 
 * It is the first general, survey-level text on IT management with a specific Agile and Lean IT orientation.
@@ -78,6 +88,8 @@ A smaller number of authors may start with the business motivation and then go i
 
 Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the size of the organization. Textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
 
+== The proposed structure
+
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
 
 .... *Emergence*: The students are a pair of practitioners in a startup, in a garage.
@@ -88,7 +100,7 @@ In keeping with the entrepreneurial spirit that gave rise to the Agile movement 
 
 .... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running IT at massive scale.
 
-Elaborating the above outline, we have:
+Elaborating the above outline into chapters, we have:
 
 ..... *Emergence*
 
@@ -123,13 +135,15 @@ There is benefit to restricting the chapters to 12, as a typical semester runs 1
 
 I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
 
-My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that source control is a singularly important practice; it is the constraint which enables much of the benefits of Agile. Learning Github is a good use of your time, if you seek to teach the next generation of IT practitioners who will be entering into a world of "infrastruture as code" and pervasive use of source control.
-
 You may notice that the chapter titles don't necessarily reflect "Agile" terminology. This is also deliberate, as students are going into a widely diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 
 The first word of the book's title is "Agile." That says everything right there, and for the rest, the proof will be in the reading. My intent is to involve many of the top Agile practitioners in the world in reviewing the sections most relevant to them, and I anticipate a high quality end result that is recognizably supportive of the Agile movement's goals and ambitions.
 
 The book however is not a complete dismissal of older models of IT delivery. Wherever possible, Agile is presented as an evolutionary step relative to what has gone before. The specifics of "what's different" are identified, in the interest of de-mystifying what can be a fraught and quasi-religious topic. In the words of Don Reinertsen, you can have "faith based Agile or science based Agile." This book is strictly interested in the latter.
+
+== Participating, and the road ahead
+
+My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that source control is a singularly important practice; it is the constraint which enables much of the benefits of Agile. Learning Github is a good use of your time, if you seek to teach the next generation of IT practitioners who will be entering into a world of "infrastruture as code" and pervasive use of source control.
 
 In terms of an Agile medium, the format of the book on Github will allow for better "random access" reviewing. This I think will be an improvement over the standard "read a big batch of my work please." I'll point to specific sections as they are completed, and as discussions progress on Twitter & other channels, an approach I think is more agile.
 

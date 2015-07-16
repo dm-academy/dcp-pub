@@ -1,11 +1,13 @@
 = Agile IT management, a progressive approach: From startup to enterprise
 
-Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques. This Readme is written primarily for potential collaborators and users of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
+Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.
+
+This Readme is written primarily for potential collaborators and users of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
 
 1. fellow faculty with similar educational challenges, and
 2. my good friends in the practitioner community who might be interested in helping this cause.
 
- There are many textbooks covering various aspects of information technology, from programming to security to databases. There are also number of "survey" textbooks available on "Information Technology," "Management Information Systems," and similar titles.
+There are many textbooks covering various aspects of information technology, from programming to security to databases. There are also number of "survey" textbooks available on "Information Technology," "Management Information Systems," and similar titles.
 
 ****
 *What is a survey course?*
@@ -19,8 +21,12 @@ I teach just such a survey course, at the University of St. Thomas in St. Paul, 
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
 
-While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library"), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.
+While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus on servers, operating systems, storage, networking, data centers, and the like
 
 As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that IT education in this country is broken.
 
-This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system. 
+This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.]
+
+I wrote my first book in 2006, the well-received _Architecture and Patterns for IT Service Management: Resource Planning, Service Management and Governance (Making Shoes for the Cobbler's Children)_. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
+
+In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course, which at the time had a very sparse definition:

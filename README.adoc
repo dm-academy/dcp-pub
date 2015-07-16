@@ -84,6 +84,8 @@ So, what exactly IS this textbook, anyhow?
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
 
+=== Current textbooks
+
 Most authors of IT/MIS survey texts struggle in my opinion with structuring their narrative. Many start by discussing (in too much depth) various computing fundamentals and then switch to a laundry list of assorted topics, including business needs for computing, project management, programming, database and network management, IT processes, security, and so forth.
 
 A smaller number of authors may start with the business motivation and then go into the functional areas, but in either case these narratives are rather fragmented.
@@ -96,7 +98,7 @@ Finally, while Agile techniques are certainly mentioned, they are typically graf
 
 As mentioned above, educators have a responsibility to effectively respond to the new realities of Lean product development and the end to end Agile transformation looming for enterprises. This can no longer be dismissed as "flavor of the month" or a fad. It is a fundamental transformation of business and society, ultimately based in Mark Andreessen's observation that "software is eating the world."
 
-== The proposed structure
+=== The proposed structure
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
 
@@ -151,7 +153,11 @@ The book however is not a complete dismissal of older models of IT delivery. Whe
 
 == Participating, and the road ahead
 
-My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that source control is a singularly important practice; it is the constraint which enables much of the benefits of Agile. Learning Github is a good use of your time, if you seek to teach the next generation of IT practitioners who will be entering into a world of "infrastruture as code" and pervasive use of source control.
+I need reviewers and content contributors. I especially appreciate well-informed sidebars on specific topics and will give full in-text authorial credit for such. Or, you can help with the body of the text. I also want to cultivate an ecosystem of labs, but that is a different story.
+
+My desire is that interested parties contribute to this project via standard Github techniques. I realize this places a barrier for some otherwise qualified contributors, but this is deliberate. I believe that *source control is a singularly important practice*; it is the constraint which enables much of the benefits of Agile.
+
+Learning Github is a good use of your time ,if you seek to teach the next generation of IT practitioners. They are heading out into a world of "infrastruture as code" and pervasive use of source control. Github portfolios are increasingly selection criteria in the hiring process for IT professionals. 
 
 In terms of an Agile medium, the format of the book on Github will allow for better "random access" reviewing. This I think will be an improvement over the standard "read a big batch of my work please." I'll point to specific sections as they are completed, and as discussions progress on Twitter & other channels, an approach I think is more agile.
 

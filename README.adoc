@@ -21,7 +21,7 @@ I teach just such a survey course, at the University of St. Thomas in St. Paul, 
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
 
-While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus on servers, operating systems, storage, networking, data centers, and the like
+While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like.
 
 As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that IT education in this country is broken.
 
@@ -135,7 +135,7 @@ In terms of an Agile medium, the format of the book on Github will allow for bet
 
 I will say more about the labs elsewhere, but I have found that developing good labs is extraordinarily labor-intensive. I intend that each chapter have a solid lab (or multiple alternatives) and would greatly value any contributions that align with the book's progression.
 
-Finally, I have not decided on a publishing channel. I am experimenting with LeanPub, but the final decision is pending. The work would always be free here, but I may put additional formatting work in and sell the resulting value-added product. I am  considering setting up a nonprofit of some sort to further the work. And I am still considering the licensing options. Interested in any ideas along these lines. 
+Finally, I have not decided on a publishing channel. I am experimenting with LeanPub, but the final decision is pending. The work would always be free here, but I may put additional formatting work in and sell the resulting value-added product. I am  considering setting up a nonprofit of some sort to further the work. And I am still considering the licensing options. Interested in any ideas along these lines.
 
 My stance on these issues depends directly on other people making substantial contributions. If that does not happen, I will consider other, more proprietary models, although I remain concerned for educational access and am not inclined to publish this solely as a $150.00 glossy textbook.
 

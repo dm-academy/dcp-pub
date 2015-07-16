@@ -25,9 +25,8 @@ As of this writing (July 2015) I am looking forward to teaching my class a fourt
 
 This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.]
 
-I wrote my first book in 2006, the well-received http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
-
 == SEIS 660 at the University of St. Thomas
+I wrote my first book in 2006, the well-received http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
 
 In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
 
@@ -49,11 +48,15 @@ _This lab simulation is then used to illuminate key IT management topics such as
 _Students will gain hands-on experience with virtualization, systems administration, DevOps, monitoring, collaboration, and industrial IT processes._
 ****
 
+While my spring 2015 class was about half full, based on the older ITIL description, my fall 2015 section filled to capacity immediately when the new description was published.
+
 == Considering a 3rd edition
 
-For the past three semesters I have assigned my book as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date.
+For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date.
 
-I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite. However, by the time I was halfway done with the first draft, I had a completely new book. Material from the previous work simply did not fit except on the margins.
+I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite.
+
+However, by the time I was halfway done with the first draft, I had a completely new book. Material from the previous work simply did not fit.
 
 A number of factors converged at this point:
 
@@ -76,13 +79,15 @@ So, what exactly IS this textbook, anyhow?
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
 
-I say this last point after extensive review of competing publications and the lecture sequences of various survey courses similar to mine. Most authors of IT survey texts struggle in my opinion with structuring their text. Many start by discussing (in too much depth) various computing fundamentals and then switch to a laundry list of various topics, including business needs for computing, project management, programming, database and network management, security, and so forth.
+I say this last point after extensive review of competing texts and the lecture sequences of various survey courses similar to mine. Most authors of IT/MIS survey texts struggle in my opinion with structuring their narrative. Many start by discussing (in too much depth) various computing fundamentals and then switch to a laundry list of various topics, including business needs for computing, project management, programming, database and network management, security, and so forth.
 
 A smaller number of authors may start with the business motivation and then go into the functional areas, but in either case these narratives are rather fragmented.
 
-Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the size of the organization. Textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
+Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the *size and maturity of the organization*. College textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
 
-Finally, while Agile techniques are certainly mentioned, they are typically grafted on to a narrative that remains very functional. Mostly, Agile may be discussed in the context of project management, but overall questions of end to end flow, product management, Agile infrastructure, culture and organization, and many other such topics go unaddressed. This is a problem, as we are starting to see shakeups in the talent market due to larger enterprises adopting Agile. I am aware of hundreds of experienced IT professionals being laid off in my region, due at least in part to Agile transformations.
+Finally, while Agile techniques are certainly mentioned, they are typically grafted on to a narrative that remains very functional. Mostly, Agile is discussed in the context of project management. Questions of end to end flow, product management, Agile infrastructure, culture and organization, the relationship to Lean, and many other such topics go unaddressed.
+
+This is a problem, as we are starting to see shakeups in the talent market due to larger enterprises adopting Agile. I am aware of hundreds of experienced IT professionals being laid off in my region, due at least in part to Agile transformations. A new pedagogy is called for. (This is why I have also founded the http://www.meetup.com/Agile-Study-Group/[Minnesota Agile Study Group], a meeting place for local faculty and professionals to interact on these topics.)
 
 == The proposed structure
 

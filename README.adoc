@@ -1,4 +1,4 @@
-= Agile IT management, a progressive approach: From startup to enterprise
+= Agile IT management, from startup to enterprise
 
 Welcome to the first comprehensive college level textbook covering Agile and Lean IT management techniques.
 
@@ -27,6 +27,53 @@ As of this writing (July 2015) I am looking forward to teaching my class a fourt
 
 This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.]
 
-I wrote my first book in 2006, the well-received _Architecture and Patterns for IT Service Management: Resource Planning, Service Management and Governance (Making Shoes for the Cobbler's Children)_. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
+I wrote my first book in 2006, the well-received http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
 
-In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course, which at the time had a very sparse definition:
+In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
+
+****
+_This course will cover several topics related to IT infrastructure. The course will cover Information Technology Infrastructure Library (ITIL) which is the most widely adopted approach for IT Service Management. It provides a practical framework for identifying, planning, delivering and supporting IT services to the business._
+****
+
+I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitmate faculty positions and afford a variety of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
+
+For the past three semesters I have assigned my book as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date.
+
+I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite. However, by the time I was halfway done with the first draft, I had a completely new book. Material from the previous work simply did not fit except on the margins.
+
+A number of factors converged at this point:
+
+* My view that the "medium is the message" and this extends to choice of authoring approach, intellectual property, DRM, and publisher
+* Contacts with local and international faculty and thought leaders, and a desire to openly collaborate with them on making the book as good as possible
+* A desire to freely share at least a rough version of the book, both for marketing purposes and in the interests of giving back to the global IT community
+* A desire to be able to rapidly update the book with as little friction as possible
+* A practical realization that the book might get more uptake globally if available as free and open source IP
+* The fact I had already started to https://github.com/StThomas-SEIS660[publish my labs on Github], and had in fact had developed a reasonably sophisticated "DevOps in a Box" toolchain (the https://github.com/CharlesTBetz/Calavera[Calavera project], which has attracted collaborators from the US, Spain, and Israel).
+
+Hence this project.
+
+_Checkpoint: Yes, this README is long. If you have made it this far, great. I am looking for a few good collaborators, not a cast of thousands._
+
+So, what exactly IS this textbook, anyhow?
+
+* It is the first general, survey-level text on IT management with a specific Agile and Lean IT orientation.
+* It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
+* It has a unique and innovative narrative structure.
+
+I say this last point after extensive review of competing publications and the lecture sequences of various survey courses similar to mine. Most authors of IT survey texts struggle in my opinion with structuring their text. Many start by discussing (in too much depth) various computing fundamentals and then switch to a laundry list of various topics, including business needs for computing, project management, programming, database and network management, security, and so forth.
+
+A smaller number of authors may start with the business motivation and then go into the functional areas, but in either case these narratives are rather fragmented.
+
+Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the size of the organization. Textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
+
+In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach. I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
+
+A. Emergence: The students are a pair of practitioners in a startup, in a garage.
+
+B: The students are in teams of 6-11, enough for specialization to emerge, but still intensely collaborative.
+
+C: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
+
+D: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamcis of running IT at massive scale.
+
+I have spent considerable time thinking about the correct ordering of the chapters within these sections. This is an area where I want critical review, but also have strong opinions. Exploding the above outline, we have:

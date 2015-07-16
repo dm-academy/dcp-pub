@@ -81,7 +81,7 @@ So, what exactly IS this textbook, anyhow?
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
 
-Most authors of IT/MIS survey texts struggle in my opinion with structuring their narrative. Many start by discussing (in too much depth) various computing fundamentals and then switch to a laundry list of assorted topics, including business needs for computing, project management, programming, database and network management, security, and so forth.
+Most authors of IT/MIS survey texts struggle in my opinion with structuring their narrative. Many start by discussing (in too much depth) various computing fundamentals and then switch to a laundry list of assorted topics, including business needs for computing, project management, programming, database and network management, IT processes, security, and so forth.
 
 A smaller number of authors may start with the business motivation and then go into the functional areas, but in either case these narratives are rather fragmented.
 

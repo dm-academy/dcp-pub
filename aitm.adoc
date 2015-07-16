@@ -1,0 +1,20 @@
+Agile IT Management: From Startup to Enterprise
+===============================================
+:doctype:   book
+:docinfo:
+:toc:
+:toclevels: 3
+:front-cover-image: image::images/ITProgression.png[]
+:numbered:
+
+image::images/ITProgression.png[scaledwidth="100%"]
+
+****
+
+DRAFT v0.01
+
+
+****
+
+include::book/01-front-matter/preface.adoc[]
+

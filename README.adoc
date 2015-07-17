@@ -122,7 +122,7 @@ Few if any discuss the challenging questions of scaling IT management, and the s
 
 ==== The proposed structure
 
-In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' _The Lean Startup_, I am structuing this book around a progressive, evolutionary approach.
+In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] I am structuring this book around a progressive, evolutionary approach.
 
 Here is a conceptual illustration of an IT management progression:
 

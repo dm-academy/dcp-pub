@@ -1,2 +1,2 @@
 == Preface
-This is the start of the preface.
+This is the start of the preface. Like an executive summary, this is to be written last.

@@ -35,13 +35,21 @@ This is a problem, as we are starting to see shakeups in the talent market due t
 === SEIS 660 at the University of St. Thomas
 I wrote my first book in 2006, the well-received http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
 
-In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Bhabani asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
+In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Dr. Misra asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
 
 ****
 _This course will cover several topics related to IT infrastructure. The course will cover Information Technology Infrastructure Library (ITIL) which is the most widely adopted approach for IT Service Management. It provides a practical framework for identifying, planning, delivering and supporting IT services to the business._
 ****
 
 I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitmate faculty positions and afford a variety of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
+
+The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not communicating effectively.
+
+For example, in the ITIL framework, one learns that "an Incident is different from a Problem." From the perspective of a student new to IT, that is a meaningless semantic distinction that will certainly not be retained after the class, if they even manage to remember it for the final.
+
+I also had a team project approach that immediately started the students out as the IT leadership team of a large corporation. This also generated feedback to the effect that the students wanted something more practical; they were not going to be immediately hired as senior executives!
+
+I took this feedback seriously, of course. I especially gave thought to a practical aspect, and so started to develop a lab component. This was and is popular with the students, consistently mentioned favorably in class evaluations. I also started to think about different approaches for structuring the class that would make more sense for a survey class with a wide spectrum of experience. The fruits of this are detailed below. 
 
 As the class progressed, we changed the course description as follows:
 
@@ -112,7 +120,7 @@ As a structuring mechanism, I have tested this in the classroom with some succes
 
 .... *Inception*: The students are teamed as pairs of practitioners , each in a hypothetical startup, in a garage.
 
-.... *Collaboration*: The students are in teams of 6-11, enough for specialization to emerge, but still intensely collaborative.
+.... *Collaboration*: The students are in teams of 6-9, enough for specialization to emerge, but still intensely collaborative. A startup that has started to become viable.
 
 .... *Coordination*: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
 
@@ -149,7 +157,7 @@ Elaborating the above outline into chapters, we have:
 . _Towards a theory of IT management_
 . _Architectural depictions_
 
-The central advantage of this approach is that it is ideal for the new student. There really are no prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Discussions of complex nuanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student.
+The central advantage of this approach is that it is ideal for the new student. There really are no prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Discussions of advanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student.
 
 I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
 

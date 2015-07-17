@@ -86,7 +86,7 @@ A number of factors converged at this point:
 
 Hence this project.
 
-_Checkpoint: Yes, this README is long. If you have made it this far, great. I am looking for a few good collaborators, not a cast of thousands._
+_Checkpoint: Yes, this README is long. If you have made it this far, great. I am looking for a few good collaborators._
 
 === The vision for a new Agile textbook
 

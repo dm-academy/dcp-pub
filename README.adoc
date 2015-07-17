@@ -2,7 +2,7 @@
 
 :toc:
 
-_Note, if you came to this via the Github repository, you might want to look at the content which is now being rendered to http://dm-academy.github.io/aitm/[Github Pages]. Same stuff, but more navigable and the whole book will be there._
+_Note, if you came to this via the Github repository, you might want to look at the content which is now being rendered to http://dm-academy.github.io/aitm/[Github Pages]. Same stuff, but more navigable and the whole book will be there. If you're already on Github Pages (http://dm-academy.github.io/aitm/) never mind._
 
 Current status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. Stop back in a few weeks and you'll see actual content.
 

@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # ya hey look everyone Charlie's about the worst shell scripter you ever saw :-)
+# don't go running this thing without a thorough understanding.
+# (well, it probably wouldn't hurt you, but it'll certainly blow up all over the place.)
 
 # this builds the book as html and pdf, and pushes to the working and pages repos in one command.
 
@@ -21,6 +23,8 @@ cp *.pdf ../aitm-pages/
 a2x --verbose -fpdf -dbook --fop --icons --icons-dir=$HOME/opt/asciidoc/images/icons aitm.adoc
 
 # this really feels ugly & brittle.
+# dependent on successfully changing directories along relative paths.
+
 # commit to repo
 git add . -A && git commit -m "commit" && git push origin master
 

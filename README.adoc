@@ -8,7 +8,7 @@ Current status as of 7/16/2015: I have ~60,000 words in Scrivener that I am star
 
 === Overview
 
-Welcome to Agile IT Management. This text is intended to bring an Agile and Lean perspective to survey classes in IT and MIS.  
+Welcome to Agile IT Management, the first general, survey-level text on IT management with an Agile and Lean IT orientation.
 
 This Readme is written primarily for potential collaborators and *customers* of the book:footnote:[Of course, if you are a student to whom this book has been assigned, feel free to read this if you're curious about the origins of this work.]
 

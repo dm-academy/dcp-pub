@@ -175,7 +175,7 @@ I have spent considerable time thinking (agonizing) about the correct ordering o
 
 There is benefit to restricting the chapters to 12, as a typical semester runs 14 weeks and the book then fits quite nicely. (Trying to modfiy the semester system is out of scope for this project.) Of course, a two-semester series, with 2 weeks per chapter, would also work well; each half of the book is also a logical unit.
 
-You may notice that the chapter titles don't necessarily reflect "Agile" terminology. This is also deliberate, as students are going into a widely diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
+You may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 
 The first word of the book's title is "Agile." That declares the orientation, and the proof will be in the reading. My intent is to involve many of the top Agile practitioners in the world in reviewing the sections most relevant to them, and I anticipate a high quality end result that is recognizably supportive of the Agile movement's goals and ambitions.
 

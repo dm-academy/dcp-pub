@@ -47,7 +47,7 @@ I readily accepted the opportunity. Adjunct positions, while notoriously ill-com
 
 The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not communicating effectively.
 
-For example, in the ITIL framework, one learns that "an Incident is different from a Problem." From the perspective of a student new to IT, that is a meaningless semantic distinction. Absent practical reinforcement, it certainly not be retained after the class, if they even manage to remember it for the final.
+For example, in the ITIL framework, one learns that "an Incident is different from a Problem." From the perspective of a student new to IT, that is a meaningless semantic distinction. Absent practical reinforcement, it will not be retained after the class, if they even manage to remember it for the final.
 
 I also had a team project approach that immediately started the students out as the IT leadership team of a large corporation. This also generated feedback to the effect that the students wanted something more practical; they were not going to be immediately hired as senior executives!
 

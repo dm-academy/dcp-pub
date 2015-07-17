@@ -67,7 +67,7 @@ While my spring 2015 class was about half full, based on the older ITIL descript
 
 === Considering a 3rd edition
 
-For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date. In particular, it had a strongly architectural approach, approaching the IT management problem as views on a model. I do not recommend this as a pedagogical approach for a survey class. 
+For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date. In particular, it had a strongly architectural approach, approaching the IT management problem as views on a model. I do not recommend this as a pedagogical approach for a survey class.
 
 I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite.
 
@@ -100,13 +100,15 @@ Most authors of IT/MIS survey texts struggle in my opinion with structuring thei
 
 A smaller number of authors may start with the business motivation and then go into the functional areas, but in either case these narratives are rather fragmented.
 
-Perhaps worse, there is almost no reocgnition that computers and their usage are different matters depending on the *size and maturity of the organization*. College textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
-
 Waterfall assumptions are found throughout many of these texts, not just as explicit discussion, but embedded pervasively as a mental model, that IT is "planned, built, and run."
 
-Finally, while Agile techniques are certainly mentioned, they are typically grafted onto the former narrative.  Mostly, Agile is discussed in the context of project management. Questions of end to end flow, product management, Agile infrastructure, culture and organization, the relationship to Lean, and many other such topics go unaddressed.
+While Agile techniques are certainly mentioned, they are typically grafted onto the former narrative.  Mostly, Agile is discussed in the context of project management. Questions of end to end flow, product management, Agile infrastructure, culture and organization, the relationship to Lean, and many other such topics go unaddressed.
 
 As mentioned above, educators have a responsibility to effectively respond to the new realities of Lean product development and the end to end Agile transformation looming for enterprises. This can no longer be dismissed as "flavor of the month" or a fad. It is a fundamental transformation of business and society, ultimately based in Mark Andreessen's observation that "software is eating the world."
+
+There is almost no reocgnition that the management of information technology differs greatly depending on the *size and maturity of the organization*. College textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
+
+Few if any discuss the challenging questions of scaling IT management, and the state transitions it implies. I believe in embracing the scaling problem we can develop an effective pedagogy that can orient even the greenest student.
 
 === The proposed structure
 

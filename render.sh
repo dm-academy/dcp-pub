@@ -20,7 +20,7 @@ cp *.html ../aitm-pages/
 cp *.pdf ../aitm-pages/
 
 # build pdf
-a2x --verbose -fpdf -dbook --fop --icons --icons-dir=$HOME/opt/asciidoc/images/icons aitm.adoc
+# a2x --verbose -fpdf -dbook --fop --icons --icons-dir=$HOME/opt/asciidoc/images/icons aitm.adoc
 
 # this really feels ugly & brittle.
 # dependent on successfully changing directories along relative paths.

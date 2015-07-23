@@ -18,11 +18,15 @@ DRAFT v0.01
 
 _Note: The README is temporarily included in the actual book build. This will likely be removed for final publication._
 
+:numbered!:
+
 include::README.adoc[]
 
 include::book/00-front-matter/00-preface.adoc[]
 
 include::book/00-front-matter/01-intro.adoc[]
+
+:numbered:
 
 include::book/01-section-I/00-section-I-intro.adoc[]
 

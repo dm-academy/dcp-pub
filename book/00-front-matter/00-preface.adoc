@@ -2,11 +2,11 @@
 
 Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of
 
-	●	enterprise architecture,
-	●	program and project management,
-	●	business process management,
-	●	IT service management practices, and
-	●	IT governance concerns
+* enterprise architecture,
+* program and project management,
+* business process management,
+* IT service management practices, and
+* IT governance concerns
 
 The challenges of this legacy will be extensively documented and analyzed in this book. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
 

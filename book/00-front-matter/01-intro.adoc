@@ -9,7 +9,7 @@ In keeping with the entrepreneurial spirit that gave rise to the Agile movement 
 * _Startup CEO_
 * _Lean Startup_
 
-test
+[links & authors]
 
 However, this is not a textbook (or course) on a full startup process. It remains IT-centric. The book is also intended to be relevant to students entering directly into large, established enterprises. In fact, because it progresses through the four contexts:
 
@@ -30,7 +30,7 @@ Finally, whether you are in a startup, or on a journey within a larger, establis
 * Channel partners
 * Auditors and regulators
 
-While we cannot cover these in any depth, they will enter into the text here, just as they will likely enter into your consciousness as you progress in your IT career.
+Part of maturing in one's career is understanding how all these relationships figure into your own overall system of value delivery. This will be a lifelong journey for you; my intent is to give you some useful tools.
 
 === This book's structure
 

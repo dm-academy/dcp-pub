@@ -1,2 +1,20 @@
 == Preface
-This is the start of the preface.
+
+Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of
+
+	●	enterprise architecture,
+	●	program and project management,
+	●	business process management,
+	●	IT service management practices, and
+	●	IT governance concerns
+
+The challenges of this legacy will be extensively documented and analyzed in this book. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
+
+_“…some will tell you that when things are this bad, you throw it all away and start again. It's ironic: The same people who would champion incremental and evolutionary approaches to product development seem only too eager to recommend disruptive and revolutionary changes in people-based systems – in which the outcomes are so much less certain.”_ <<Burrows2014>>, Kindle Locations 827-829.
+
+IT management at scale within an organization is a complex system. Complex systems do not respond well to dramatic perturbations. They are best changed incrementally, with careful monitoring of the consequences of each small change. (This is the systems theory foundation underlying the Agile movement, that explains its success.)
+
+So, how do we undertake Agile transformation? For longer term, more ambitious goals, while we cannot plan in advance how any given change initiative will play out, we *can* develop situational awareness.
+The idea of the OODA loop is popular in the Agile community. OODA stands for Orient, Observe, Decide, Act, a set of concepts developed by Air Force colonel John Boyd in analyzing the performance of aviators in the Korean War. The faster an actor can move through this cycle, the more effective they will be.
+
+I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to orient you to the overall IT management landscape and problem domain, and provide you a well documented set of observations on its current state and challenges. My hope is that these observations will guide you to more effective decisions and actions in your journey toward IT excellence.

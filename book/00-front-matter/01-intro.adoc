@@ -1,7 +1,6 @@
 == Introduction
 
-
-==== This book's structure
+=== A process of emergence
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] I am structuring this book around a progressive, evolutionary approach. Your journey will reflects a process of emergence. Such processes are most often associated with founding and scaling a startup. There are many helpful books on this topic, such as:
 
@@ -30,6 +29,8 @@ Finally, whether you are in a startup, or on a journey within a larger, establis
 * Auditors and regulators
 
 While we cannot cover these in any depth, they will enter into the text here, just as they will likely enter into your consciousness as you progress in your IT career.
+
+=== This book's structure
 
 Here is a conceptual illustration of an IT management progression:
 

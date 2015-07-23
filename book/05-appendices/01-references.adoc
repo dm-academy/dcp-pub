@@ -16,7 +16,7 @@
 
 - [[[Bouwman]]]: Bouwman, J.-J. & Heistek, M. (), "ITIL and DevOps at war in the enterprise,"" https://www.youtube.com/watch?v=_dDsdbkSgOc, 'DevOpsDays'.
 
-- [[[Burrows2015]]]: Burrows, Mike. (2014) _Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_. Sequim, WA, Blue Hole Press.
+- [[[Burrows2014]]]: Burrows, Mike. (2014) _Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_. Sequim, WA, Blue Hole Press.
 
 - [[[Buschmann1996]]]: Buschmann, F. (1996), _Pattern-oriented software architecture : a system of patterns_, Wiley, Chichester ; New York
 

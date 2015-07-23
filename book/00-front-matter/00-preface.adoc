@@ -113,7 +113,7 @@ So, what exactly IS this textbook, anyhow?
 
 ****
 *Current Agile texts*
-There are hundreds of books on Agile. In this section I will seek to credit specifically collegiate texts that may also be of interest. 
+There are hundreds of books on Agile. In this section I will seek to credit specifically collegiate texts that may also be of interest.
 
 * Ashmore, Sondra and Kristin Runyan, http://www.amazon.com/Introduction-Agile-Methods-Sondra-Ashmore/dp/032192956X[_Introduction to Agile Methods_]
 
@@ -132,3 +132,5 @@ As mentioned above, educators have a responsibility to effectively respond to th
 Finally, there is almost no recognition that the management of information technology differs greatly depending on the *size and maturity of the organization*. College textbooks tend to assume that students are interacting with computers in the context of large, bureaucratic organizations. A smaller percentage may talk about computers and software as products to be developed and marketed in their own right.
 
 Few if any discuss the challenging questions of scaling IT management, and the state transitions it implies. I believe *in embracing the scaling problem we can develop an effective pedagogy that can orient even the greenest student*.
+
+The structure of the book is documented in the next section, Introduction. 

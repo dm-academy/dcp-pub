@@ -1,2 +1,65 @@
 == Introduction
-This is the start of the introduction.
+
+
+==== This book's structure
+
+In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] I am structuring this book around a progressive, evolutionary approach.
+
+Here is a conceptual illustration of an IT management progression:
+
+image::images/ITProgression.png[]
+
+As a structuring mechanism, I have tested this in the classroom with some success. I divide a 13-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
+
+.... *Inception*: The students are teamed as pairs of practitioners , each in a hypothetical startup, in a garage.
+
+.... *Collaboration*: The students are in teams of 6-9, enough for specialization to emerge, but still intensely collaborative. A startup that has started to become viable.
+
+.... *Coordination*: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
+
+.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running IT at massive scale.
+
+Elaborating the above outline into chapters, we have:
+
+..... *Inception*
+
+. _IT value_. Why do we need computers? What can they do for us?
+. _IT infrastructure_ We want to build something. We have to choose a platform first.
+. _IT applications_ Let's start building something of use to someone.
+
+..... *Collaboration*
+[start=4]
+. _Product management_ What exactly is it we are building? How do we better define it for a bigger team?
+. _Work management_ How do we keep track and communicate at the most basic level?
+. _Operations management_ How do we sustain this surprisingly fragile computing-based service, in its ongoing delivery of IT value?
+
+..... *Coordination*
+[start=7]
+. _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that?
+. _Process management_ OK, we have a structure. But work flows across it.
+. _Project and resource management_ Process is great, but we want to get bigger stuff done.
+
+..... *Maturation*
+[start=10]
+. _Architecture and governance_ We need better orientation on how the big picture fits together. We have major players and forces around us (vendors, regulators, security threats). We need to reduce redundancy and we *do* need to seek some economies of scale.
+. _Portfolio and analytics_ We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall system.
+. _Chaos, complexity, and the road ahead_ No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?
+
+..... *Appendices*
+. _A review of IT frameworks and standards_
+. _Towards a theory of IT management_
+. _Architectural depictions_
+
+The central advantage of this approach is that it is ideal for the new student. There really are no prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Discussions of advanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student.
+
+I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
+
+There is benefit to restricting the chapters to 12, as a typical semester runs 14 weeks and the book then fits quite nicely. (Trying to modfiy the semester system is out of scope for this project.) Of course, a two-semester series, with 2 weeks per chapter, would also work well; each half of the book is also a logical unit.
+
+You may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
+
+The first word of the book's title is "Agile." That declares the orientation, and the proof will be in the reading. My intent is to involve experienced Agile practitioners in contributing to the sections most relevant to them, and I anticipate a high quality end result that is recognizably supportive of the Agile movement's goals and ambitions.
+
+The book however is not a complete dismissal of older models of IT delivery. Wherever possible, Agile is presented as an evolutionary step relative to what has gone before. The specifics of "what's different" are identified, in the interest of de-mystifying what can be a fraught and quasi-religious topic. In the words of Don Reinertsen, you can have "faith based Agile or science based Agile." This book is strictly interested in the latter. Pointers to relevant theory are included, although this is NOT a theoretical text. That will come later...footnote:[Effective pedagogy requires theory. I seek assistance in both the emerging theory of IT, and relevant theories of pedagogy. I am an amateur in both.]
+
+*This emergence model can also be understood as an individual's progression within a larger enterprise.* Even if one starts from Day 1 at a Fortune 100 corporation, I believe the progression of one's understanding still progresses through individual, to team, to "team of teams," to enterprise. Of course, one may "stop" evolving one's understanding at any of these stages, with corresponding implications for one's career.

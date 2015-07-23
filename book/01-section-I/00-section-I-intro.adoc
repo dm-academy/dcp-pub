@@ -1,3 +1,9 @@
 == Section I: Inception
 
 This is the introduction to Section I.
+
+In this section, we  explore the fundamentals of information technology delivery.
+
+Scenario: You are working in a startup, alone or with one partner. You are always in the same room, easily able to carry on a running conversation about your efforts and progress. You have no time or resources to spend on anything except keeping your new system alive and running.
+
+While this is not a book about any particular computing language or platform, we need to describe some technical fundamentals. We’ll do so in as neutral a manner as possible. However, the specific technologies employed in this books’ accompanying labs are based on Ubuntu Linux and git, the distributed version control system created by Linus Torvalds to facilitate Linux development.

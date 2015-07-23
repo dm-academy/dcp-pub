@@ -22,4 +22,4 @@ include::README.adoc[]
 
 include::book/00-front-matter/00-preface.adoc[]
 
-include::book/01-front-matter/00-intro.adoc[]
+include::book/00-front-matter/01-intro.adoc[]

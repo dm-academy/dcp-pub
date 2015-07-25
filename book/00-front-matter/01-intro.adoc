@@ -9,7 +9,7 @@ In keeping with the entrepreneurial spirit that gave rise to the Agile movement 
 * _Startup CEO_
 * _Lean Startup_
 
-[links & authors]
+   [links & authors]
 
 However, this is not a textbook (or course) on a full startup process. It remains IT-centric. The book is also intended to be relevant to students entering directly into large, established enterprises. In fact, because it progresses through the four contexts:
 

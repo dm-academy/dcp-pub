@@ -1,5 +1,5 @@
 ifdef::<instructor-ed>[]
-: this would be included for instructors
+this would be included for instructors
 endif::<instructor-ed>[]
 
 == Preface
@@ -7,6 +7,7 @@ endif::<instructor-ed>[]
 Welcome to Agile IT Management, the first general, survey-level text on IT management written from an Agile and Lean IT perspective.
 
 This preface covers:
+
 * My personal history that led to this project
 
 * A vision for a new, collaborative Agile text

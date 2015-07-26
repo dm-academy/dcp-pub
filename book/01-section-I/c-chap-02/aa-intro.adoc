@@ -1,3 +1,5 @@
 === Chapter 2: Infrastructure Management
 
 ==== Introduction to Chapter 2
+
+Placeholder for Chapter 2 introduction.

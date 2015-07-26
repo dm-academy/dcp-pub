@@ -1,5 +1,6 @@
-
-tag::student[]
+ifdef::<instructor-ed>[]
+: this would be included for instructors
+endif::<instructor-ed>[]
 
 == Preface
 
@@ -33,7 +34,7 @@ I propose this book as an initial “OO” of the “OODA” loop for those seek
 A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products.
 A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing).
 
-end::student[]
+
 
 === Some personal history
 

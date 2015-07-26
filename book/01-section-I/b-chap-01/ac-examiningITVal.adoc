@@ -2,6 +2,8 @@
 
 ===== The "IT stack"
 
+Let's examine our user's value experience in more detail. 
+
 ===== The "IT service"
 
 ===== The IT service changes over time
@@ -18,9 +20,9 @@ So, what is IT value? I suggest the following:
 IT Value is found in qualifying the organization or individual to participate effectively (maximize utility, in economic terms) in information-rich environments. If the situation is competitive, it also consists of elevating their performance above peers.
 
 ****
-*IT automates what society has already deemed possible and acceptable.*
+*IT exists in a social context*
 
 Like the proverbial fish that doesn't understand water (because water it all it knows), we may lose sight of the laws and customs that enable us to use computers in the ways covered in this chapter.
 
-For example, the ability for banks to hold money as electronic bits on a computer is rooted in the earliest history of banking and the emergence of centralized settlement and clearing mechanisms. The existence of global Internet connectivity relies on laws supporting utility easements and rights of way. Without a social infrastructure, social and collaborative technology has no meaning. 
+For example, the ability for banks to hold money as electronic bits on a computer is rooted in the earliest history of banking and the emergence of centralized settlement and clearing mechanisms. The existence of global Internet connectivity relies on laws supporting utility easements and rights of way. Without a social infrastructure, social and collaborative technology has no meaning.
 ****

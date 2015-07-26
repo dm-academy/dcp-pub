@@ -8,6 +8,16 @@ _7/23/2015 Work in progress: I am moving most of this README to the http://dm-ac
 
 Current status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. Stop back in a few weeks and you'll see actual content.
 
+=== Views on the book
+
+There are two main views on the book:
+
+* The http://dm-academy.github.io/aitm/[student edition]
+
+* The http://dm-academy.github.io/aitm/aitm-instructor.html[instructor's edition], with additional commentary and background
+
+Both are generated from the same source files. Include macros are used to include the additional instructor commentary. 
+
 === Participating
 
 I need reviewers and content contributors. I especially appreciate well-informed sidebars on specific topics and will give full in-text authorial credit for such. Or, you can help with the body of the text. I also want to cultivate an ecosystem of labs, but that is a different story.

@@ -10,7 +10,7 @@ A woman is wondering if she can afford to dine out that evening.
 
 * She also uses her mobile device to make a reservation and contact some friends to join her.
 
-* Finally, she uses the navigation capabilities of that device to avoid heavy traffic, arriving at the restaurant in time for an enjoyable evening with her friends.
+* Finally, she uses social navigation software to avoid heavy traffic, arriving at the restaurant in time for an enjoyable evening with her friends.
 
 Information technology pervaded this experience. The origins, layers and complex connections of the distributed systems involved are awe-inspiring to consider.
 

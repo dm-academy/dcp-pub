@@ -4,6 +4,8 @@
 
 Placeholder for chapter 3 introduction.
 
+* Sidebar: Systems theory and fast feedback
+
 * What is an "application" (draw on EE, a toaster is an "application" of AC current)
 
 * Application lifecycle

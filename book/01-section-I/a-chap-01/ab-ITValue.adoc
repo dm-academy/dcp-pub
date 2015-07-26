@@ -4,8 +4,6 @@ Consider the following scenario:
 
 A woman is wondering if she can afford to dine out that evening. She uses her mobile device to access her banking information and determines that in fact she does have enough money to do so. She also uses her mobile device to make a reservation and contact some friends to join her. Finally, she uses the navigation capabilities of that device to avoid heavy traffic, arriving at the restaurant in time for an enjoyable evening with her friends.
 
-x
-
 image::images/01-woman.jpg[]
 
 Information technology pervaded this experience. The origins, layers and complex connections of the distributed systems involved are awe-inspiring to consider.

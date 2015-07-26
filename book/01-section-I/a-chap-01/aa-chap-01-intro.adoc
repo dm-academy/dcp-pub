@@ -3,3 +3,6 @@
 ==== Chapter introduction
 
 This is the start of the introduction to Chapter 1.
+
+   * brief historical context
+   * London "counting-house" manager for comparison??

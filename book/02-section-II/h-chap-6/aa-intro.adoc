@@ -6,7 +6,12 @@ Placeholder for chapter 6 introduction.
 
 * Defining "operations" (vs. product mgmt)
 
+* OODA & situational awareness
+
 * Web-scale IT
+
+* Impact & dependency
+
 
 ****
 Sidebar: Introducing Limoncelli.

@@ -8,4 +8,14 @@ Sidebar: Introducing Leffingwell.
 
 Placeholder for chapter 8 introduction.
 
+* Process management basics
+
+* Function vs process
+
+* Process at Toyota
+
 * Self-organizing (kanban) processes vs. formalized process frameworks.
+
+* Process antipatterns (should I do more with antipatterns in each chapter?)
+
+* 

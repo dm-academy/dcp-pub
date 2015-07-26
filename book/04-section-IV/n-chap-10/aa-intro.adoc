@@ -4,6 +4,15 @@
 
 Placeholder for chapter 10 introduction.
 
+* Architecture
+ - Also heavily involved in next chapter, which can be understood as "advanced architecture"
+
+* Defining architecture
+
+* Defining governance
+
+
+
 ****
 Sidebar: Introducing Soley.
 ****

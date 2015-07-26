@@ -5,7 +5,7 @@
 Placeholder for chapter 4 introduction.
 
 ****
-Sidebar: Introducing Anderson.
+Sidebar: Introducing Reinertsen.
 ****
 
 Assumption: This was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
@@ -15,3 +15,9 @@ Assumption: This was largely tacit in Section I. Need more formalized approaches
 * Behavior-driven development.
 
 * The role of the product owner.
+
+* Importance of small batch sizes
+
+****
+Sidebar: Introducing Sussna.
+****

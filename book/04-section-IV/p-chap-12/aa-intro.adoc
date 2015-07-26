@@ -5,5 +5,15 @@
 Placeholder for chapter 12 introduction.
 
 ****
+Sidebar: Introducing Burgess.
+****
+
+* complexity (w/r/t Burgess)
+
+* stability, state, etc
+
+* complex system failures
+
+****
 Sidebar: Introducing Snowden & Taleb.
 ****

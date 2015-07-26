@@ -1,11 +1,16 @@
 Agile IT Management: From Startup to Enterprise
 ===============================================
+
+ifdef::instructor-ed[]
+*Instructor's Edition*
+endif::instructor-ed[]
+
 :doctype:   book
 :docinfo:
 :toc:
 :toclevels: 3
 :front-cover-image: image::images/ITProgression.png[]
-:instructor-ed: 
+:instructor-ed:
 :numbered:
 
 image::images/ITProgression.png[scaledwidth="100%"]

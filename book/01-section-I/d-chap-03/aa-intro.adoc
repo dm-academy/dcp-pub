@@ -10,4 +10,7 @@ Placeholder for chapter 3 introduction.
 
 * Application toolchain (source control introduced in prev chapter)
 
-* Pace of change
+* Introduction to DevOps
+ - 10 deploys a day, Phoenix Project, etc
+
+ 

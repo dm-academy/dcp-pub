@@ -3,3 +3,8 @@
 ==== Introduction to chapter 5
 
 Placeholder for chapter 5 introduction.
+
+* Kanban
+
+* Scrum and the Scrum master.
+ - Relationship to product owner.

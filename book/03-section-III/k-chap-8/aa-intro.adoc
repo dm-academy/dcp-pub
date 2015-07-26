@@ -3,3 +3,5 @@
 ==== Introduction to chapter 8
 
 Placeholder for chapter 8 introduction.
+
+* Self-organizing (kanban) processes vs. formalized process frameworks.

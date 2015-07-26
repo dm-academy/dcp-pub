@@ -3,3 +3,11 @@
 ==== Introduction to chapter 4
 
 Placeholder for chapter 4 introduction.
+
+Assumption: This was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
+
+* LeanUX and Continuous Design.
+
+* Behavior-driven development.
+
+* The role of the product owner. 

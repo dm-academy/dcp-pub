@@ -10,4 +10,4 @@ Assumption: This was largely tacit in Section I. Need more formalized approaches
 
 * Behavior-driven development.
 
-* The role of the product owner. 
+* The role of the product owner.

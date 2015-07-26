@@ -1,5 +1,23 @@
 == Section II: Collaboration
 
-Placeholder for section II introduction
+=== Section II introduction
 
-* Introduce Lean
+Scenario: Your startup has met with some success and you are now a team. You're all in the same location, and can easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done.
+
+*Chapter 4: Product Management*
+
+You (as the startup leader) are spending more time with investors and customers, and maintaining alignment around your original product vision is becoming more challenging as you are pulled in various directions. You need some means of keeping the momentum here.
+
+*Chapter 5: Work Management*
+
+Even with a small team of 5 people (let alone 8 or 9), it's too easy for balls to get dropped as work moves between key contributors. You probably don't need a complex software-based process management tool yet, but you do need some way of keeping track of work in process.
+
+*Chapter 6: Operations Management*
+
+Since Chapter 3, your application developers have been running your systems and even answering the occasional phone call from customers. You're big enough that you need a bit more specialization. You've got dedicated support staff answering the phone calls and you are finding that, even if you rotate operational responsibilities across developers, they are still distinct responsibilities that are not compatible with heads-down, focused software development.
+
+=== An introduction to Lean
+
+Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement.
+
+_etc_

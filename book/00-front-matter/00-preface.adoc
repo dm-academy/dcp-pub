@@ -104,6 +104,8 @@ A number of factors converged at this point:
 
 Hence this project.
 
+_End instructor's note_
+
 endif::instructor-ed[]
 
 === The vision for a new Agile textbook

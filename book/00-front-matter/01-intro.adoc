@@ -4,10 +4,10 @@
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] I am structuring this book around a progressive, evolutionary approach. Your journey will reflects a process of emergence. Such processes are most often associated with founding and scaling a startup. There are many helpful books on this topic, such as:
 
-* _Nail it then scale it_
-* _Scaling Up_
-* _Startup CEO_
-* _Lean Startup_
+* http://www.amazon.com/Nail-then-Scale-Entrepreneurs-Breakthrough/dp/0983723605[_Nail it then scale it_] by Furr and Ahlstrom
+* http://www.amazon.com/Scaling-Up-Companies-Rockefeller-Habits-ebook/dp/B00O5RR7QO/[_Scaling Up_] by Harnish
+* http://www.amazon.com/Startup-CEO-Scaling-Business-Website/dp/1118548361[_Startup CEO_] by Blumberg
+* http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/ref=pd_bxgy_14_img_y[_The Lean Startup_] by Ries
 
    [links & authors]
 

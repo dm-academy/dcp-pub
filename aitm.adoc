@@ -40,7 +40,7 @@ include::book/01-section-I/c-chap-02/aa-intro.adoc[]
 
 include::book/01-section-I/d-chap-03/aa-intro.adoc[]
 
-include::book/02-section-II/e-section-intro.adoc/00-section-intro[]
+include::book/02-section-II/e-section-intro/00-section-intro.adoc[]
 
 include::book/02-section-II/f-chap-4/aa-intro.adoc[]
 

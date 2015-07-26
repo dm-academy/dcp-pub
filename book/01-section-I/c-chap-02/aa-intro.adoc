@@ -14,7 +14,7 @@
 
 * Cloud systems
 
-* Servers vs services
+* Servers vs containers vs services
 
 * Operations (not too much as that is the topic of Ch 6)
 

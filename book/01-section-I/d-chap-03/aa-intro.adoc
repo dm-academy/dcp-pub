@@ -8,9 +8,17 @@ Placeholder for chapter 3 introduction.
 
 * Application lifecycle
 
+* Introduction to Agile proper
+ - history, manifesto, etc
+
 * Application toolchain (source control introduced in prev chapter)
+ - Requirements approaches (more on this in chapter 4)
+ - Build tool
+ - Package repo
 
 * Introduction to DevOps
  - 10 deploys a day, Phoenix Project, etc
 
- 
+* Trends in AD
+ - Fast pace of innovation
+ - Re-use & external code

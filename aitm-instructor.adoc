@@ -5,7 +5,7 @@ Agile IT Management: From Startup to Enterprise
 :toc:
 :toclevels: 3
 :front-cover-image: image::images/ITProgression.png[]
-:instructor-ed:
+:instructor-ed: true
 :numbered:
 
 image::images/ITProgression.png[scaledwidth="100%"]

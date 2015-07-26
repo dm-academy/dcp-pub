@@ -4,7 +4,7 @@
 
 *Chapter summary*
 
-* Defining "infrastructure"
+* Defining "IT infrastructure"
  - How an IT system *runs*, as opposed to what it *does*.
  - The ingredients (OS, language, services)
 

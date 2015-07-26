@@ -1,6 +1,6 @@
-ifdef::<instructor-ed>[]
+ifdef::instructor-ed[]
 this would be included for instructors
-endif::<instructor-ed>[]
+endif::instructor-ed[]
 
 == Preface
 

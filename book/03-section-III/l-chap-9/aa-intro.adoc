@@ -1,5 +1,16 @@
-=== Chapter 9: Project Management
+=== Chapter 9: Project & Reource Management
 
 ==== Introduction to chapter 9
 
-Placeholder for chapter 9 introduction.
+Chapter outline
+
+* Introduction to project management
+
+* Is project management still needed in a product-centric world?
+ - yes. Google & FB both use it.
+
+* The estimation controversy
+
+* Project management antipatterns
+
+* The future of project management

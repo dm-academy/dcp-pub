@@ -4,6 +4,7 @@ namespace :book do
     Dir.mkdir 'images' unless Dir.exists? 'images'
     Dir.glob("book/**/images/*").each do |image|
       FileUtils.copy(image, "images/" + File.basename(image))
+      # all images must be uniquely named
     end
   end
 

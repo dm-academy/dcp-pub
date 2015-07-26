@@ -1,7 +1,3 @@
-ifdef::instructor-ed[]
-this would be included for instructors
-endif::instructor-ed[]
-
 == Preface
 
 Welcome to Agile IT Management, the first general, survey-level text on IT management written from an Agile and Lean IT perspective.
@@ -36,6 +32,7 @@ A primary goal of this book, as a textbook, is to prepare the student for an inf
 A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing).
 
 
+ifdef::instructor-ed[]
 
 === Some personal history
 
@@ -136,3 +133,5 @@ Finally, there is almost no recognition that the management of information techn
 Few if any discuss the challenging questions of scaling IT management, and the state transitions it implies. I believe *in embracing the scaling problem we can develop an effective pedagogy that can orient even the greenest student*.
 
 The structure of the book is documented in the next section, Introduction.
+
+endif::instructor-ed[]

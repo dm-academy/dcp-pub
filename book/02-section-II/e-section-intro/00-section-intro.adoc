@@ -10,7 +10,7 @@ You (as the startup leader) are spending more time with investors and customers,
 
 *Chapter 5: Work Management*
 
-Even with a small team of 5 people (let alone 8 or 9), it's too easy for balls to get dropped as work moves between key contributors. You probably don't need a complex software-based process management tool yet, but you do need some way of keeping track of work in process.
+Even with a small team of 5 people (let alone 8 or 9), it's too easy for balls to get dropped as work moves between key contributors. You probably don't need a complex software-based process management tool yet, but you do need some way of managing work in process.
 
 *Chapter 6: Operations Management*
 

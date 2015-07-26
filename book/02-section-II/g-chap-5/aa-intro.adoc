@@ -4,6 +4,12 @@
 
 Placeholder for chapter 5 introduction.
 
+****
+Sidebar: Introducing Anderson.
+****
+
+* Limiting Work in Process
+
 * Kanban
 
 * Scrum and the Scrum master.

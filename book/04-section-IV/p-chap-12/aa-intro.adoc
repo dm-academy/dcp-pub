@@ -3,3 +3,7 @@
 ==== Introduction to chapter 12
 
 Placeholder for chapter 12 introduction.
+
+****
+Sidebar: Introducing Snowden & Taleb.
+****

@@ -3,3 +3,7 @@
 ==== Introduction to chapter 10
 
 Placeholder for chapter 10 introduction.
+
+****
+Sidebar: Introducing Soley.
+****

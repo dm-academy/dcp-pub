@@ -4,6 +4,10 @@
 
 Placeholder for chapter 4 introduction.
 
+****
+Sidebar: Introducing Anderson.
+****
+
 Assumption: This was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
 
 * LeanUX and Continuous Design.

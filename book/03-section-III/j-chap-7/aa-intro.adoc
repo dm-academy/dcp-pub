@@ -3,3 +3,7 @@
 ==== Introduction to chapter 7
 
 Placeholder for chapter 6 introduction.
+
+****
+Sidebar: Introducing Rother.
+****

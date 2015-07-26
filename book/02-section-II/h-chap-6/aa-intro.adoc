@@ -3,3 +3,11 @@
 ==== Introduction to chapter 6
 
 Placeholder for chapter 6 introduction.
+
+* Defining "operations" (vs. product mgmt)
+
+* Web-scale IT
+
+****
+Sidebar: Introducing Limoncelli.
+****

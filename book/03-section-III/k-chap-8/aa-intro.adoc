@@ -2,6 +2,10 @@
 
 ==== Introduction to chapter 8
 
+****
+Sidebar: Introducing Leffingwell.
+****
+
 Placeholder for chapter 8 introduction.
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.

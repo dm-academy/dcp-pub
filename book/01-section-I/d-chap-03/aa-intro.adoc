@@ -3,3 +3,11 @@
 ==== Introduction to chapter 3
 
 Placeholder for chapter 3 introduction.
+
+* What is an "application" (draw on EE, a toaster is an "application" of AC current)
+
+* Application lifecycle
+
+* Application toolchain (source control introduced in prev chapter)
+
+* Pace of change

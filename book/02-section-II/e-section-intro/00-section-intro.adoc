@@ -1,3 +1,5 @@
 == Section II: Collaboration
 
-Placeholder for section II introduction 
+Placeholder for section II introduction
+
+* Introduce Lean

@@ -34,6 +34,6 @@ include::book/01-section-I/a-chap-01/aa-chap-01-intro.adoc[]
 
 include::book/01-section-I/a-chap-01/ab-ITValue.adoc[]
 
-include::ook/01-section-I/a-chap-01/ac-examiningITVal.adoc[]
+include::book/01-section-I/a-chap-01/ac-examiningITVal.adoc[]
 
 include::book/05-appendices/01-references.adoc[]

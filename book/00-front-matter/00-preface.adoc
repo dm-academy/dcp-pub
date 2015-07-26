@@ -32,7 +32,7 @@ A primary goal of this book, as a textbook, is to prepare the student for an inf
 A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing).
 
 
-ifdef::instructor-ed[]
+
 
 === Some personal history
 
@@ -41,6 +41,8 @@ I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota,
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
 
 While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like.
+
+ifdef::instructor-ed[]
 
 As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that *IT education in this country is broken*.
 
@@ -100,6 +102,8 @@ A number of factors converged at this point:
 
 Hence this project.
 
+endif::instructor-ed[]
+
 === The vision for a new Agile textbook
 
 So, what exactly IS this textbook, anyhow?
@@ -133,5 +137,3 @@ Finally, there is almost no recognition that the management of information techn
 Few if any discuss the challenging questions of scaling IT management, and the state transitions it implies. I believe *in embracing the scaling problem we can develop an effective pedagogy that can orient even the greenest student*.
 
 The structure of the book is documented in the next section, Introduction.
-
-endif::instructor-ed[]

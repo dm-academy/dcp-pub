@@ -1,5 +1,5 @@
-=== Chapter 6: Operations Management
+=== Chapter 10: Architecture and governance
 
-==== Introduction to chapter 6
+==== Introduction to chapter 10
 
-Placeholder for chapter 6 introduction.
+Placeholder for chapter 10 introduction.

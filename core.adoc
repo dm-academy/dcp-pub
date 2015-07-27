@@ -1,6 +1,6 @@
-include::book/0-front-matter/00.00-preface.adoc[]
+include::book/0-front-matter/1.00-preface.adoc[]
 
-include::book/0-front-matter/00.01-intro.adoc[]
+include::book/0-front-matter/1.01-intro.adoc[]
 
 include::book/1-section-I/01.00-section-I-intro/01.00.00-section-I-intro.adoc[]
 

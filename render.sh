@@ -32,5 +32,5 @@ git add . -A && git commit -m "commit"
 # push to pages.
 cd ../aitm-pages
 git add . && git commit -m "commit"
-git push origin gh-pages
+# git push origin gh-pages
 cd ../aitm

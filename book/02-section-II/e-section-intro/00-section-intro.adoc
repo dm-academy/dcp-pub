@@ -15,9 +15,3 @@ Even with a small team of 5 people (let alone 8 or 9), it's too easy for balls t
 *Chapter 6: Operations Management*
 
 Since Chapter 3, your application developers have been running your systems and even answering the occasional phone call from customers. You're big enough that you need a bit more specialization. You've got dedicated support staff answering the phone calls and you are finding that, even if you rotate operational responsibilities across developers, they are still distinct responsibilities that are not compatible with heads-down, focused software development.
-
-=== An introduction to Lean
-
-Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement.
-
-_etc_

@@ -3,7 +3,9 @@ Tables and checklists for internal consistency
 
 |=======
 |What |Intro |1 | 2| 3| 4| 5| 6| 7| 8| 9| 10| 11| 12
-|Learning Objectives |na | x| | | | | | | | | | |
+| Chapter Introduction | | | | | | | | | | | | |
+| Chapter Outline | | | | | | | | | | | | |
+| Learning Objectives |na | x| | | | | | | | | | |
 | | | | | | | | | | | | | |
 | | | | | | | | | | | | | |
 | | | | | | | | | | | | | |
@@ -12,4 +14,6 @@ Tables and checklists for internal consistency
 
 Todos
 
-Align introduction chapter summaries with sectional chapter summaries. 
+Align introduction chapter summaries with sectional chapter summaries.
+
+Find framework to transform to website.

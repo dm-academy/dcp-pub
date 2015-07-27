@@ -2,7 +2,11 @@
 
 ==== Introduction to Chapter 2
 
-*Chapter summary*
+As mentioned in the section introduction, you cannot start writing code until you choose a programming language, which also has implications for how you ultimately deliver your IT-based product. (You may have a difficult time writing an app for a mobile phone if you choose the COBOL programming language!)
+
+You also need to understand something of how computers are operated, enough so that you can make a decision on how your system will run. Most startups choose to run IT services on infrastructure owned by a Cloud provider, but there are other options.
+
+===== Chapter summary
 
 * Defining "IT infrastructure"
  - How an IT system *runs*, as opposed to what it *does*.
@@ -32,3 +36,5 @@ Sidebar: Introducing Allspaw.
 
 Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
 ****
+
+===== Learning objectives

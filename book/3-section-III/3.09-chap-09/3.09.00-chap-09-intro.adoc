@@ -28,3 +28,4 @@ Sidebar: Introducing Scaled Agile Framework (Leffingwell)
   - IT talent
   - DSE - alternate view to PBR
   - More to come in portfolio mgmt
+  - Last responsible moment

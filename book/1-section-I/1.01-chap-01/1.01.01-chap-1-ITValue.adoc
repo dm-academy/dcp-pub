@@ -1,6 +1,6 @@
 ==== What is IT value?
 
-image::images/01-woman.jpg[]
+image::images/1.01-woman.jpg[]
 
 Consider the following scenario:
 
@@ -45,7 +45,7 @@ Clearly, information technology added value to her life and helped maximize her 
 
 _Discuss: How does information technology contribute to your enjoyment of life and experiences of value?_
 
-image::images/01-friends.jpg[]
+image::images/1.01-friends.jpg[]
 
 picture credits:
 

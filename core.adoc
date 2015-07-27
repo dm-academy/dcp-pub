@@ -2,9 +2,9 @@ include::book/0-front-matter/0.00-preface.adoc[]
 
 include::book/0-front-matter/0.01-intro.adoc[]
 
-//include::book/1-section-I/1.00-section-I-intro/1.00.00-section-I-intro.adoc[]
+include::book/1-section-I/1.00-section-I-intro/1.00.00-section-I-intro.adoc[]
 
-//include::book/1-section-I/1.01-chap-1/1.01.00-chap-1-intro.adoc[]
+include::book/1-section-I/1.01-chap-1/1.01.00-chap-1-intro.adoc[]
 
 //include::book/1-section-I/1.01-chap-1/1.01.01-chap-1-ITValue.adoc[]
 

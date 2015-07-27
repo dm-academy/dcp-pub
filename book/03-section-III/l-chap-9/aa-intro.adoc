@@ -6,7 +6,7 @@ Chapter outline
 
 * Introduction to project management
  - PMBOK etc (also covered in Appendix)
- - Scrum and XP
+ - Scrum and XP (Scrum introduced in 5, need to figure out correct allocation)
 
 * Is project management still needed in a product-centric world?
  - yes. Google & FB both use it.

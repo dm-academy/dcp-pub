@@ -2,17 +2,17 @@ include::book/0-front-matter/0.00-preface.adoc[]
 
 include::book/0-front-matter/0.01-intro.adoc[]
 
-include::book/1-section-I/01.00-section-I-intro/01.00.00-section-I-intro.adoc[]
+include::book/1-section-I/1.00-section-I-intro/01.00.00-section-I-intro.adoc[]
 
-include::book/1-section-I/01.01-chap-01/01.01.00-chap-1-intro.adoc[]
+include::book/1-section-I/1.01-chap-01/01.01.00-chap-1-intro.adoc[]
 
-include::book/1-section-I/01.01-chap-01/01.01.01-chap-1-ITValue.adoc[]
+include::book/1-section-I/1.01-chap-01/01.01.01-chap-1-ITValue.adoc[]
 
-include::book/1-section-I/01.01-chap-01/01.01.02-chap-1-examiningITVal.adoc[]
+include::book/1-section-I/1.01-chap-01/01.01.02-chap-1-examiningITVal.adoc[]
 
-include::book/1-section-I/01.02-chap-02/01.02.00-chap-02-intro.adoc[]
+include::book/1-section-I/1.02-chap-02/01.02.00-chap-02-intro.adoc[]
 
-include::book/1-section-I/01.03-chap-03/01.03.00-chap-03-intro.adoc[]
+include::book/1-section-I/1.03-chap-03/01.03.00-chap-03-intro.adoc[]
 
 include::book/2-section-II/e-section-intro/00-section-intro.adoc[]
 

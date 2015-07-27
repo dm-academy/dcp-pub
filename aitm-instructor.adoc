@@ -30,7 +30,7 @@ nclude::book/00-front-matter/00.00-preface.adoc[]
 
 include::book/00-front-matter/00.01-intro.adoc[]
 
-include::book/01-section-I/01.00-section-intro/01.00.00-section-I-intro.adoc[]
+include::book/01-section-I/01.00-section-I-intro/01.00.00-section-I-intro.adoc[]
 
 include::book/01-section-I/01.01-chap-01/01.01.00-chap-1-intro.adoc[]
 

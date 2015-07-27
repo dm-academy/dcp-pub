@@ -8,7 +8,7 @@ There are no shortage of contractos and consultants all advocating various flavo
 
 === Section III introduction
 
-Scenario:
+Scenario: 
 
 *Chapter 7: Culture and Organization*
  We're getting big.  How are we formally structured? Why this way and not that? Who are we? What are the unspoken assumptions that underly our daily work?

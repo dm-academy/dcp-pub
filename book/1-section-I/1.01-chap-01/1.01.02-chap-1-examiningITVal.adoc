@@ -9,7 +9,7 @@ In order to view her balance, our user is probably using an application download
 _re-used, thematic slides to be redrawn_
 _draw the narrative out of the images_
 
-image::images/01-ITStack.png[]
+image::images/1.01-ITStack.png[]
 
 ****
 *Use of the word "architecture" in information technology*
@@ -33,11 +33,11 @@ Definitional discussions - "service," "application," "system," etc
 ===== The IT service changes over time
 _reused graphic to be redrawn_
 
-image::images/01-ITSvcChg.png[]
+image::images/1.01-ITSvcChg.png[]
 
 ===== The IT service lifecycle
 
-image::images/01-ITStates.png[]
+image::images/1.01-ITStates.png[]
 
 
 ===== The IT user vs IT customer

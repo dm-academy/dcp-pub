@@ -7,9 +7,9 @@ Placeholder for chapter 10 introduction.
 * Architecture
  - Also important in next chapter, which can be understood as "advanced architecture"
 
- ****
- Sidebar: Introducing Open Group and OMG.
- ****
+****
+Sidebar: Introducing Open Group and OMG.
+****
 
 * Defining architecture
  - Enteprise

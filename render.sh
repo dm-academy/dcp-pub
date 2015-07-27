@@ -27,10 +27,10 @@ cp *.pdf ../aitm-pages/
 
 # commit to repo
 git add . -A && git commit -m "commit"
-# git push origin master
+git push origin master
 
 # push to pages.
 cd ../aitm-pages
 git add . && git commit -m "commit"
-# git push origin gh-pages
+git push origin gh-pages
 cd ../aitm

@@ -16,14 +16,15 @@ Sidebar: Introducing Kim & Humble
 
 * Introduction to Agile proper
  - history, manifesto, etc
+ * Introduction to DevOps
+  - 10 deploys a day, Phoenix Project, etc
 
 * Application toolchain (source control introduced in prev chapter)
  - Requirements approaches (more on this in chapter 4)
+ - Test-driven development
+ - Continuous integration
  - Build tool
  - Package repo
-
-* Introduction to DevOps
- - 10 deploys a day, Phoenix Project, etc
 
 * Trends in AD
  - Fast pace of innovation

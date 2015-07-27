@@ -13,10 +13,10 @@ Sidebar: Introducing Rother.
  - Examples from Rother, Toyota Kata (best book for answering "what is culture")
  - Taylor & cultural antipatterns (including the 'you just don't get X' antipattern)
 
- ****
- Sidebar: Introducing Narayan and Mintzberg.
- ****
- 
+****
+Sidebar: Introducing Narayan and Mintzberg.
+****
+
 * Organizational fundamentals
  - Line vs staff
  - Functional vs product-oriented example

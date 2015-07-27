@@ -5,13 +5,13 @@
 Placeholder for chapter 10 introduction.
 
 * Architecture
- - Also heavily involved in next chapter, which can be understood as "advanced architecture"
+ - Also important in next chapter, which can be understood as "advanced architecture"
 
 * Defining architecture
 
 * Defining governance
 
-
+* Scaled Agile Framework
 
 ****
 Sidebar: Introducing Soley.

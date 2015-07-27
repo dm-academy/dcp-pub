@@ -5,3 +5,5 @@
 Placeholder for chapter 11 introduction.
 
 * lifecycles here?
+
+* Architecture and analytics

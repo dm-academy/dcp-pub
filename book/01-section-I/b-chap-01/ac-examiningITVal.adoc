@@ -26,6 +26,10 @@ _current thinking on service definition?_
 
 image::images/01-ITmomentTruth.png[]
 
+Definitional discussions - "service," "application," "system," etc
+
+"inside out" vs "outside in" thinking, useful themes but beware of applying them as absolutes - they are always relative.
+
 ===== The IT service changes over time
 _reused graphic to be redrawn_
 

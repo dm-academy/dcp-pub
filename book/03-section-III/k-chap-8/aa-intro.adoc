@@ -3,7 +3,7 @@
 ==== Introduction to chapter 8
 
 ****
-Sidebar: Introducing Leffingwell.
+Sidebar: Introducing ITIL.
 ****
 
 Placeholder for chapter 8 introduction.

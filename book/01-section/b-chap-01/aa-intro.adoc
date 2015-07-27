@@ -16,3 +16,7 @@ Chapter outline:
 * Conclusion
 
 Learning objectives for this chapter:
+
+* Explain "IT value" in everyday terms
+* Distinguish between IT service and IT system
+* Discss how IT services change over time

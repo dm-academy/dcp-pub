@@ -4,6 +4,17 @@
 
 Placeholder for chapter 11 introduction.
 
-* lifecycles here?
+* the IT lifecycles
+ - Application service
+ - Infrastructure service
+ - Asset
+ - Technology Product
 
 * Architecture and analytics
+
+* The IT data warehouse
+
+****
+Sidebar: IT analytics experts
+Magennis, Cantor, etc
+****

@@ -13,6 +13,10 @@ Chapter outline
 
 * Project management antipatterns
 
+****
+Sidebar: Introducing Scaled Agile Framework (Leffingwell)
+****
+
 * The estimation controversy
 
 * The future of project management

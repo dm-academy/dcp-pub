@@ -12,7 +12,7 @@ Sidebar: Introducing Burgess.
 
 * stability, state, etc
 
-* complex system failures
+* complex system failures (Allspaw sidebar?)
 
 * Thought experiment on complete mainstreaming of IT
 

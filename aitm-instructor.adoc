@@ -1,5 +1,5 @@
 Agile IT Management: From Startup to Enterprise (Instructor's Edition)
-===================================================
+======================================================================
 :doctype:   book
 :docinfo:
 :toc:

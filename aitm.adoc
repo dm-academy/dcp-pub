@@ -26,7 +26,7 @@ include::book/00-front-matter/00-preface.adoc[]
 
 include::book/00-front-matter/01-intro.adoc[]
 
-include::book/01-section/a-section-intro/00-section-intro.adoc[]
+include::book/01-section/01.00-section-intro/00-section-intro.adoc[]
 
 include::book/01-section/b-chap-01/aa-intro.adoc[]
 

@@ -10,57 +10,57 @@ include::book/1-section-I/1.01-chap-1/1.01.01-chap-1-ITValue.adoc[]
 
 include::book/1-section-I/1.01-chap-1/1.01.02-chap-1-examiningITVal.adoc[]
 
-include::book/1-section-I/1.01-chap-1/1.01.99-chap-1-conclusion.adoc[]
+//include::book/1-section-I/1.01-chap-1/1.01.99-chap-1-conclusion.adoc[]
 
 include::book/1-section-I/1.02-chap-2/1.02.00-chap-2-intro.adoc[]
 
-include::book/1-section-I/1.02-chap-2/1.02.99-chap-2-conclusion.adoc[]
+//include::book/1-section-I/1.02-chap-2/1.02.99-chap-2-conclusion.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.00-chap-3-intro.adoc[]
 
-include::book/1-section-I/1.03-chap-3/1.03.99-chap-3-conclusion.adoc[]
+//include::book/1-section-I/1.03-chap-3/1.03.99-chap-3-conclusion.adoc[]
 
 include::book/2-section-II/2.00-section-II-intro/2.00.00-section-II-intro.adoc[]
 
 include::book/2-section-II/2.04-chap-4/2.04.00-chap-4-intro.adoc[]
 
-include::book/2-section-II/2.04-chap-4/2.04.99-chap-4-conclusion.adoc[]
+//include::book/2-section-II/2.04-chap-4/2.04.99-chap-4-conclusion.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.00-chap-5-intro.adoc[]
 
-include::book/2-section-II/2.05-chap-5/2.05.99-chap-5-conclusion.adoc[]
+//include::book/2-section-II/2.05-chap-5/2.05.99-chap-5-conclusion.adoc[]
 
 include::book/2-section-II/2.06-chap-6/2.06.00-chap-6-intro.adoc[]
 
-include::book/2-section-II/2.06-chap-6/2.06.99-chap-6-conclusion.adoc[]
+//include::book/2-section-II/2.06-chap-6/2.06.99-chap-6-conclusion.adoc[]
 
 include::book/3-section-III/3.00-section-III-intro/3.00-section-III-intro.adoc[]
 
 include::book/3-section-III/3.07-chap-7/3.07.00-chap-7-intro.adoc[]
 
-include::book/3-section-III/3.07-chap-7/3.07.99-chap-7-conclusion.adoc[]
+//include::book/3-section-III/3.07-chap-7/3.07.99-chap-7-conclusion.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.00-chap-8-intro.adoc[]
 
-include::book/3-section-III/3.08-chap-8/3.08.99-chap-8-conclusion.adoc[]
+//include::book/3-section-III/3.08-chap-8/3.08.99-chap-8-conclusion.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.00-chap-9-intro.adoc[]
 
-include::book/3-section-III/3.09-chap-9/3.09.99-chap-9-conclusion.adoc[]
+//include::book/3-section-III/3.09-chap-9/3.09.99-chap-9-conclusion.adoc[]
 
 include::book/4-section-IV/4.00-section-IV-intro/4.00-section-IV-intro.adoc[]
 
 include::book/4-section-IV/4.10-chap-10/4.10.00-chap-10-intro.adoc[]
 
-include::book/4-section-IV/4.10-chap-10/4.10.99-chap-10-conclusion.adoc[]
+//include::book/4-section-IV/4.10-chap-10/4.10.99-chap-10-conclusion.adoc[]
 
 include::book/4-section-IV/4.11-chap-11/4.11.00-chap-11-intro.adoc[]
 
-include::book/4-section-IV/4.11-chap-11/4.11.99-chap-11-conclusion.adoc[]
+//include::book/4-section-IV/4.11-chap-11/4.11.99-chap-11-conclusion.adoc[]
 
 include::book/4-section-IV/4.12-chap-12/4.12.00-chap-12-intro.adoc[]
 
-include::book/4-section-IV/4.12-chap-12/4.12.99-chap-12-conclusion.adoc[]
+//include::book/4-section-IV/4.12-chap-12/4.12.99-chap-12-conclusion.adoc[]
 
 include::book/5-appendices/5.00-section-intro.adoc[]
 

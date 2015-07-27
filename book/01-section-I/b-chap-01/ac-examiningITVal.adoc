@@ -7,6 +7,7 @@ Let's examine our user's value experience in more detail, without getting unnece
 In order to view her balance, our user is probably using an application downloaded from a "store" of applications made avaialble to her device. Whether she is using a smartphone, a tablet, or even a laptop, the system "architecture" is generally the same
 
 _re-used, thematic slides to be redrawn_
+_draw the narrative out of the images_
 
 image::images/01-ITStack.png[]
 

@@ -1,6 +1,6 @@
 === Chapter 1. IT Value
 
-==== Chapter introduction
+==== Introduction to Chapter 1
 
 You are interested in starting a new company, perhaps based on some kind of software product. Or perhaps you find yourself working as a team member in a large enterprise, just starting out and trying to make sense of all the complexity and information coming at you every day.
 

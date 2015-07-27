@@ -1,13 +1,20 @@
 == Section III: Coordination
 
+Scenario: Your company has continued to grow and you are now becoming a large organization. You are encountering the "team of teams" problem; you are to a size where no matter how you slice your organization, you have issues making sure that work flows well through the system.
+
+You also are seeing more and more specialization in your organization, with the tendency of functional specialists to identify more with their field than with the needs of your customers and your business.
+
+There are no shortage of contractos and consultants all advocating various flavors of process and project management, some advocating older approaches and others proposing newer Agile & Lean perspectives. The very concepts of process and project management are occasionally called into question by both your employees and various "thought leaders," and it's all very confusing. Welcome to IT management, circa 2015. 
+
 === Section III introduction
 
 Scenario:
 
 *Chapter 7: Culture and Organization*
+You are
 
 
-*Chapter 5: Work Management*
+*Chapter 8: Process Management*
 
 
-*Chapter 6: Operations Management*
+*Chapter 8: Project and Resource Management*

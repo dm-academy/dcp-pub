@@ -9,13 +9,18 @@ Sidebar: Introducing Leffingwell.
 Placeholder for chapter 8 introduction.
 
 * Process management basics
+ - BPM community
 
 * Function vs process
+
+* IT "process" frameworks (ITIL etc - also in appendix)
 
 * Process at Toyota
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
+* Process in product-centric organizations
+
 * Process antipatterns (should I do more with antipatterns in each chapter?)
 
-* 
+*

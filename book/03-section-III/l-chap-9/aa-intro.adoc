@@ -5,12 +5,21 @@
 Chapter outline
 
 * Introduction to project management
+ -PMBOK etc (also covered in Appendix)
 
 * Is project management still needed in a product-centric world?
  - yes. Google & FB both use it.
 
-* The estimation controversy
-
 * Project management antipatterns
 
+* The estimation controversy
+
 * The future of project management
+
+* Resource management (yes, it's a terrible name)
+  _get permission for Dilbert cartoon "I am not a resource"_
+
+* Supply and demand.
+  - IT talent
+  - DSE - alternate view to PBR
+  - More to come in portfolio mgmt

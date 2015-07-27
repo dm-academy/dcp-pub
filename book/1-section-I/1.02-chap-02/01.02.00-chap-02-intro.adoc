@@ -38,3 +38,7 @@ Virtualization was predicted in the earliest theories that led to the developmen
 ****
 
 ===== Learning objectives
+* Understand fundamental principles of operating computers as infrastructure for a service. 
+* Understand Cloud as a computing option
+* Understand basic principles of "infrastructure as code"
+* Understand the importance and basic practices of source code control and why it applies to infrastructure management

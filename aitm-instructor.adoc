@@ -26,7 +26,7 @@ _Note: The README is temporarily included in the actual book build. This will li
 
 include::README.adoc[]
 
-nclude::book/00-front-matter/00.00-preface.adoc[]
+include::book/00-front-matter/00.00-preface.adoc[]
 
 include::book/00-front-matter/00.01-intro.adoc[]
 

@@ -3,7 +3,7 @@
 ==== Introduction to chapter 4
 
 ****
-* Product Management?
+*Product Management?*
 "Product management?" In a book on IT management? Those of you with industry experience, especially backgrounds in project-based enterprise software development, may be unfamiliar with the term. However, a focus on product development is one of the distinguishing features of Agile development, even if that development is taking place in a larger enterprise context.
 ****
 

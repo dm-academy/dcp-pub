@@ -1,9 +1,9 @@
 === Chapter 3: Application Delivery
 
 ==== Introduction to chapter 3
-Now that we have some idea of IT value, 
+Now that we have some idea of IT value,
 
-
+===== Chapter outline
 ****
 Sidebar: Systems theory and idea of feedback
 ****
@@ -32,3 +32,6 @@ Sidebar: Introducing Kim & Humble
 * Trends in AD
  - Fast pace of innovation
  - Re-use & external code
+
+===== Learning objectives
+ 

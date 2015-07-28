@@ -11,8 +11,7 @@ image::images/ITProgression.png[scaledwidth="100%"]
 
 ****
 
-DRAFT v0.01
-
+DRAFT v0.02
 
 ****
 

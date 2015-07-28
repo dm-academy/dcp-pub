@@ -4,6 +4,10 @@
 
 Scenario: Your startup has met with some success and you are now a team. You're all in the same location, and can easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done.
 
+****
+Sidebar: Systems theory and idea of feedback
+****
+
 *Chapter 4: Product Management*
 
 You (as the startup leader) are spending more time with investors and customers, and maintaining alignment around your original product vision is becoming more challenging as you are pulled in various directions. You need some means of keeping the momentum here.

@@ -116,6 +116,8 @@ So, what exactly IS this textbook, anyhow?
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
 
+_positioning this book vis a vis systems engineering, computer science, etc_
+
 ==== Current textbooks
 
 ****

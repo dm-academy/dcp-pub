@@ -7,3 +7,4 @@ Conclusion placeholder
 ===== Research & practice
 
 ===== Further reading
+* Reinertsen, Principles of Product Development Flow

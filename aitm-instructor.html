@@ -837,6 +837,9 @@ A central theme of the book is that “IT,” considered as a component, represe
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p><em>positioning this book vis a vis systems engineering, computer science, etc</em></p>
+</div>
 <div class="sect3">
 <h4 id="_current_textbooks">Current textbooks</h4>
 <div class="sidebarblock">
@@ -1544,23 +1547,39 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="sect4">
 <h5 id="_further_reading_2">Further reading</h5>
-
+<div class="paragraph">
+<p>Limoncelli
+Allspaw</p>
+</div>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_chapter_3_application_delivery">Chapter 3: Application Delivery</h3>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_3">Introduction to chapter 3</h4>
-<div class="paragraph">
-<p>Now that we have some idea of IT value,</p>
-</div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sidebar: Systems theory and idea of feedback</p>
+<p><em>Instructor&#8217;s note</em>
+I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapter 4. So, this chapter presents Agile and related concepts like iterative development without examining the underlying principles.</p>
+</div>
+<div class="paragraph">
+<p>I do this because I have discovered that theory sometimes works better in retrospect. Many students increasingly come in with some exposure to Agile methods at least, and Chapter 3 will seem comfortable and familiar. In Chapter 4 we challenge them with <strong>why</strong> Agile works.</p>
 </div>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_introduction_to_chapter_3">Introduction to chapter 3</h4>
+<div class="paragraph">
+<p>Now that we have some idea of IT value (and how we might turn it into a product), and have decided on some infrastructure, we can start building.</p>
+</div>
+<div class="paragraph">
+<p>IT systems that directly create value for non-technical users are usually called "applications," or sometimes "services." As discussed in chapter 1, they enable value experiences in areas as diverse as consumer banking, entertainment and hospitality, and personal transportation. In fact it is difficult to think of any aspect of modern life untouched by applications. (This overall trend is sometimes called digital transformation.)</p>
+</div>
+<div class="paragraph">
+<p>Applications are built from software, the development of which is a core concern for any IT-centric product strategy. Software development is a well established career, and a fast-moving field with new technologies, frameworks, and schools of thought emerging weekly, it seems.</p>
+</div>
+<div class="paragraph">
+<p>This chapter will study applications and the software lifecycle, from requirements through construction, testing, building, and deployment into modern production environments. It also discusses earlier approaches to software development, the rise of the Agile movement, and its current manifestation in the practice of DevOps.</p>
 </div>
 <div class="sect4">
 <h5 id="_chapter_outline_2">Chapter outline</h5>
@@ -1570,7 +1589,39 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>What is an "application" (draw on EE, a toaster is an "application" of AC current)</p>
 </li>
 <li>
+<p>How applications have been delivered over time</p>
+<div class="ulist">
+<ul>
+<li>
+<p>How installed</p>
+</li>
+<li>
+<p>How experienced</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Basic application vs service vs software.</p>
+</li>
+<li>
+<p>Systems engineering (e.g. complex aerospace hardware/software systems) uses different terminology.</p>
+</li>
+<li>
 <p>Application lifecycle</p>
+</li>
+<li>
+<p>Earlier software development</p>
+<div class="ulist">
+<ul>
+<li>
+<p>"Waterfall" that wasn&#8217;t</p>
+</li>
+<li>
+<p>Project mgmt history under McNamara</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>Introduction to Agile proper</p>
@@ -1617,6 +1668,9 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>Continuous integration</p>
 </li>
 <li>
+<p>Inspections and static analysis</p>
+</li>
+<li>
 <p>Build tool</p>
 </li>
 <li>
@@ -1643,7 +1697,22 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="sect4">
 <h5 id="_learning_objectives_2">Learning objectives</h5>
-
+<div class="ulist">
+<ul>
+<li>
+<p>Define "application" as opposed to "infrastructure"</p>
+</li>
+<li>
+<p>Describe the full application lifecycle</p>
+</li>
+<li>
+<p>Define "Agile" in terms of software development</p>
+</li>
+<li>
+<p>Identify the major components of an end-to-end DevOps delivery pipeline.</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -1661,7 +1730,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="sect4">
 <h5 id="_further_reading_3">Further reading</h5>
-
+<div class="paragraph">
+<p>Fowler, Refactoring
+McConnell, Code Complete.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1674,6 +1746,13 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <h3 id="_section_ii_introduction">Section II introduction</h3>
 <div class="paragraph">
 <p>Scenario: Your startup has met with some success and you are now a team. You&#8217;re all in the same location, and can easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>Sidebar: Systems theory and idea of feedback</p>
+</div>
+</div>
 </div>
 <div class="paragraph">
 <p><strong>Chapter 4: Product Management</strong></p>
@@ -1773,7 +1852,13 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="sect4">
 <h5 id="_further_reading_4">Further reading</h5>
-
+<div class="ulist">
+<ul>
+<li>
+<p>Reinertsen, Principles of Product Development Flow</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>

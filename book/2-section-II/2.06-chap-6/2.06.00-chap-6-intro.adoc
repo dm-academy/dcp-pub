@@ -1,8 +1,22 @@
 === Chapter 6: Operations Management
 
+ifdef::instructor-ed[]
+
+****
+_Instructor's note_
+
+Although this is entitled "operations management" it also brings in infrastructure engineering at a higher level, assuming that the product is continuing to scale up. Chapter 12 will revisit infrastructure engineering and operations in terms of the most highly scaled and complex Web-scale systems.
+
+Thus, Chapters 2, 6, and 12 constitute a sort of "infrastructure and operations" track within the book.
+
+****
+endif::instructor-ed[]
+
 ==== Introduction to chapter 6
 
-Placeholder for chapter 6 introduction.
+As your product gains more use, you find that running it inevitably becomes a distinct concern from building it. For all their logic, computers are still surprisingly unreliable. Servers running well tested software that remain "up" for weeks all of a sudden hang and have to be rebooted. Sometimes it's clear why (for example, a log filled up that no-one expected) and in other cases there just is no explanation.
+
+Engineering and operating complex IT-based distributed systems is a significant engineering challenge. Even with infrastructure as code, it is distinct from software development per se. Quesions of scalability, performance, caching, load balancing, and so forth usually become apparent first through feedback from the operations team.
 
 ****
 Sidebar: Introducing Limoncelli.

@@ -31,6 +31,8 @@ Sidebar: Introducing Allspaw.
 
 * The critical importance of source control
 
+* Scalability and infrastructure architecture - looking ahead
+
 ****
 *Did you know?*
 

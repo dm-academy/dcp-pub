@@ -14,7 +14,7 @@ _Instructor's note_
 endif::instructor-ed[]
 
 
-You're a team. You need to get work done. People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. You have support calls increasingly coming in that result in fixes and new features, as well as your product strategy, and it's all getting complicated.
+You're a team. You need to get work done. People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. Beyond your product strategy, you have support calls increasingly coming in that result in fixes and new features, and it's all getting complicated.
 
 You already have product owner. You now institute Scrum practices of a managed backlog, daily standups and sprints. You also use Kanban-style task boards, which are essential for things like support-driven work, but the relationship of these to your Scrum practices is a matter of some ongoing debate.
 

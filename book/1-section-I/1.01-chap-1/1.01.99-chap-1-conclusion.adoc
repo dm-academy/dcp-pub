@@ -7,4 +7,5 @@ Conclusion placeholder
 ===== Research & practice
 
 ===== Further reading
+
 * The Lean Startup, Ries

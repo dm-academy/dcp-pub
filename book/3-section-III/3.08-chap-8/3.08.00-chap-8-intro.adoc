@@ -23,6 +23,8 @@ Placeholder for chapter 8 introduction.
 
 * Process antipatterns (should I do more with antipatterns in each chapter?)
 
+* The service catalog
+
 ****
 Sidebar: Quality and Continuous Improvement
 ****

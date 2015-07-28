@@ -2,7 +2,7 @@
 
 === Section II introduction
 
-Scenario: Your startup has met with some success and you are now a team. You're all in the same location, and can easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done.
+Scenario: Your startup has met with some success and you are now a team. With new people comes the need to increasingly formalize your product direction, so people are building the right thing. You're all in the same location, and can still easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
 
 ****
 Sidebar: Systems theory and idea of feedback
@@ -18,4 +18,4 @@ Even with a small team of 5 people (let alone 8 or 9), it's too easy for balls t
 
 *Chapter 6: Operations Management*
 
-Since Chapter 3, your application developers have been running your systems and even answering the occasional phone call from customers. You're big enough that you need a bit more specialization. You've got dedicated support staff answering the phone calls and you are finding that, even if you rotate operational responsibilities across developers, they are still distinct responsibilities that are not compatible with heads-down, focused software development.
+Since Chapter 3, your application developers have been running your systems and even answering the occasional phone call from customers. You're big enough that you need a bit more specialization. You've got dedicated support staff answering the phone calls and you are finding that, even if you rotate operational responsibilities across developers, it is still a distinct kind of "interrupt-driven" work that is not compatible with heads-down, focused software development.

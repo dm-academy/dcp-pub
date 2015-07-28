@@ -10,6 +10,10 @@ Sidebar: Introducing Limoncelli.
 
 * Defining "operations" (vs. product mgmt)
 
+* Kinds of work (where is that original concept)
+ - interrupt-driven
+ - etc
+
 * Classic model (24x7, oncall, etc)
  - Mention ITIL (more depth in chapter 8)
 

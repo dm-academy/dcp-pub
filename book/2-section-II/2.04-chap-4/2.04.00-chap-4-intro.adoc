@@ -2,7 +2,16 @@
 
 ==== Introduction to chapter 4
 
-Placeholder for chapter 4 introduction.
+****
+* Product Management?
+"Product management?" In a book on IT management? Those of you with industry experience, especially backgrounds in project-based enterprise software development, may be unfamiliar with the term. However, a focus on product development is one of the distinguishing features of Agile development, even if that development is taking place in a larger enterprise context.
+****
+
+As you grow your company, you are bringing more people in. You become concerned that they need to share the same vision that inspired you to create this company. This is the goal of product management. User experience and behavior-driven design are key factors here. 
+
+Furthermore, while we covered Agile principles and practices in some detail last chapter, we did not discuss *why* they work. In this chapter, we will cover the Lean theory of product management that provides a basis for Agile practices, in particular the work of Don Reinertsen.
+
+====== Chapter 4 outline
 
 * Lean introduction
  - Lean manufacturing vs Lean product development
@@ -16,7 +25,7 @@ _etc_
 Sidebar: Introducing Reinertsen.
 ****
 
-Assumption: This was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
+Assumption: Product strategy was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
 
 * LeanUX and Continuous Design.
 
@@ -26,6 +35,10 @@ Assumption: This was largely tacit in Section I. Need more formalized approaches
 
 * Importance of small batch sizes
 
+* Product development as creation of information
+
 ****
 Sidebar: Introducing Sussna.
 ****
+
+====== Chapter 4 learning objectives

@@ -12,8 +12,7 @@ But you have great resources at your command, and you're as well positioned as a
 We need better orientation on how the big picture fits together. We have major players and forces around us (vendors, regulators, security threats). Some of the investments we have made in technology platforms are getting old. Switching to a new platform is looking to be a "bet the company" big bet. We also have technical debt. We need to reduce redundancy and we *do* need to seek some economies of scale.
 
 *Chapter 11: Portfolio and Analytics*
-We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall dynamic system.
-
+We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall dynamic system, without falling into the trap of metrics for the sake of metrics. 
 
 *Chapter 12: Complexity, chaos, and the road ahead*
 No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?

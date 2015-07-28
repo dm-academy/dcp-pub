@@ -2,7 +2,7 @@
 
 ==== Introduction to chapter 10
 
-Placeholder for chapter 10 introduction.
+Architecture and governance are two topics that become more important as a company scales up and ages. Decisions that might have been made quickly and casually by a product or project team a
 
 * Architecture
  - Also important in next chapter, which can be understood as "advanced architecture"

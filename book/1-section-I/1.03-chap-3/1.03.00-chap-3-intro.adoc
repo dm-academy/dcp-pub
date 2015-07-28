@@ -3,10 +3,11 @@
 ==== Introduction to chapter 3
 Now that we have some idea of IT value,
 
-===== Chapter outline
 ****
 Sidebar: Systems theory and idea of feedback
 ****
+
+===== Chapter outline
 
 * What is an "application" (draw on EE, a toaster is an "application" of AC current)
 
@@ -34,4 +35,3 @@ Sidebar: Introducing Kim & Humble
  - Re-use & external code
 
 ===== Learning objectives
- 

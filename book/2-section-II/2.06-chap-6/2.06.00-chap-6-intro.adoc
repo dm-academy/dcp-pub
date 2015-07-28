@@ -22,6 +22,8 @@ Engineering and operating complex IT-based distributed systems is a significant 
 Sidebar: Introducing Limoncelli.
 ****
 
+===== Chapter 6 outline
+
 * Defining "operations" (vs. product mgmt)
 
 * Kinds of work (where is that original concept)
@@ -40,3 +42,10 @@ Sidebar: Introducing Limoncelli.
 * Web-scale IT
 
 * Antifragility
+
+
+===== Chapter 6 learning objectives
+
+* Distinguish kinds of work, esp operational vs development
+* Describe operational feedback into product design & the kinds of concerns it raises
+* Describe impact and dependency analysis and why it is important

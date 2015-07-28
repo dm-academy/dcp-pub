@@ -14,25 +14,27 @@ Furthermore, while we covered Agile principles and practices in some detail last
 
 ===== Chapter 4 outline
 
-* Lean introduction
+* Lean introduction.
  - Lean manufacturing vs Lean product development
  - Applicability to IT
 
-Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement.
-
-_etc_
+Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement. _etc_
 
 ****
-Sidebar: Introducing Reinertsen.
+Sidebar: Introducing Don Reinertsen.
 ****
 
 Assumption: Product strategy was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
+
+* Product vs project management
 
 * LeanUX and Continuous Design.
 
 * Behavior-driven development.
 
 * The role of the product owner.
+
+* Queuing?? (Or in chapter 8?)
 
 * Importance of small batch sizes
 
@@ -43,3 +45,8 @@ Sidebar: Introducing Sussna.
 ****
 
 ===== Chapter 4 learning objectives
+
+* Define and distinguish product versus project management
+* Define and distinguish Lean manufacturing versus Lean product development
+* Describe key principles of user experience (UX) and behavior-driven development
+* Describe relationship between small batch sizes, limited work in process and fast feedback

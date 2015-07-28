@@ -7,3 +7,7 @@ Conclusion placeholder
 ===== Research & practice
 
 ===== Further reading
+
+* Burrows
+* Anderson
+* Sutherland

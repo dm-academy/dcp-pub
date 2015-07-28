@@ -1,16 +1,50 @@
+
 === Chapter 5: Work Management
 
 ==== Introduction to chapter 5
 
-Placeholder for chapter 5 introduction.
+ifdef::instructor-ed[]
 
 ****
-Sidebar: Introducing Anderson.
+_Instructor's note_
+
+"Work management" is an unusual title, deliberately chosen to distinguish the emergence of tracking and ticketing systems at earlier stages of organizational growth. At this point, a fully realized process framework may not be needed, and the organization may not see a need to distinguish precisely between types of work processes. "It's all just work" at this stage.
+
+****
+endif::instructor-ed[]
+
+
+You're a team. You need to get work done. People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. You have support calls increasingly coming in that result in fixes and new features, as well as your product strategy, and it's all getting complicated.
+
+You already have product owner. You now institute Scrum practices of a managed backlog, daily standups and sprints. You also use Kanban-style task boards, which are essential for things like support-driven work, but the relationship of these to your Scrum practices is a matter of some ongoing debate.
+
+You also may become aware of the idea of "ticketing," if you have people with previous service desk experience. How this relates to your Kanban approach is also a question.
+
+****
+Sidebar: Introducing Anderson and Sutherland
 ****
 
-* Limiting Work in Process
+===== Chapter 5 outline
 
 * Kanban
+ - Origins
+ - Practices
+ - To automate or no?
 
-* Scrum and the Scrum master.
+* Scrum
+ - Origins of Scrum
+ - Roles and practices
  - Relationship to product owner.
+
+* Relationship of Scrum to Kanban
+
+* Basic help desk ticketing
+
+ * A look ahead to more formalized process architectures
+
+===== Chapter 5 learning objectives
+
+* Define Kanban and identify its key practices
+* Define Scrum and identify its key practices
+* Compare and contrast Scrum and Kanban
+* Describe basic help desk ticketing.

@@ -17,3 +17,5 @@ Todos
 Align introduction chapter summaries with sectional chapter summaries.
 
 Find framework to transform to website.
+
+Make sure person voice ("we" vs "you" is consistent)

@@ -2,6 +2,13 @@
 
 ==== Introduction to chapter 8
 
+No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall  performance is an ongoing activity in most if not all organizations.
+
+However, some less than effective things have been done in the name of "process." Both ITIL and the Capability Maturity Model-Integrated claim to be "process"-oriented, but their results have been questioned. In particular, there is risk in allowing processes to proliferate - the organization can only tolerate a certain number of processes before people start to become confused and demoralized by all the "bureaucracy." Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model.
+
+Nevertheless, process remains an important tool in the toolkit for organization design.
+
+===== Chapter 8 overview
 ****
 Sidebar: Introducing ITIL.
 ****
@@ -10,21 +17,33 @@ Placeholder for chapter 8 introduction.
 
 * Process management basics
  - BPM community
+ - Process as a Mintzberg liaison mechanism
 
 * Function vs process
 
-* IT "process" frameworks (ITIL etc - also in appendix)
+* process vs execution (execution includes concern for resource)
 
 * Process at Toyota
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
+* IT "process" frameworks (ITIL etc - also in appendix)
+
 * Process in product-centric organizations
 
 * Process antipatterns (should I do more with antipatterns in each chapter?)
+ - Process proliferation
+ - Process without execution model (demand management failure)
 
 * The service catalog
 
 ****
 Sidebar: Quality and Continuous Improvement
 ****
+
+===== Chapter 8 learning objectives
+
+* Describe a business process and how it crosses functions
+* Describe the relationship between business process and business performance
+* Describe the origins, purpose, and scope of ITIL and CMMI
+* Identify the problems of process proliferation with respect to execution and demand

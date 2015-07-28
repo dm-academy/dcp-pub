@@ -39,7 +39,7 @@ Sidebar: Introducing Limoncelli.
 
 * State & stability (Burgess?)
 
-* Web-scale IT
+* Web-scale IT (first pass)
 
 * Antifragility
 

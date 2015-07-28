@@ -2,14 +2,21 @@
 
 ==== Introduction to chapter 7
 
-Placeholder for chapter 7 introduction.
+You are going through a critical juncture, the "team of teams" transition. You have increasingly specialized people delivering an increasingly complex product, or perhaps even several distinct products. You are in constant discussions around the tension between functional depth versus cross functional delivery.
+
+Many of your employees and consultants emphasize the role of culture, but what do they mean? Is there such a thing as a "good" culture? How is one culture better than another? How can you retain that startup feel you had previously, when things are getting this big?
+
+You often think about how your company should be structured. There is no shortage of opinions there either. From functional centers of excellence to cross-functional product teams, and from strictly hierarchical models to radical models like holacracy, there seems to be an infinite variety of choices here.
 
 ****
 Sidebar: Introducing Rother.
 ****
 
+===== Chapter 7 outline
+
 * What is culture?
  - "The way we think"
+ - Culture four-box (forget author)
  - Examples from Rother, Toyota Kata (best book for answering "what is culture")
  - Taylor & cultural antipatterns (including the 'you just don't get X' antipattern)
  - Culture != 'collaborate & be nice'
@@ -22,7 +29,15 @@ Sidebar: Introducing Narayan and Mintzberg.
  - Line vs staff
  - Functional vs product-oriented example
  - Recent Dan Jones HBR article on Lean organization & functional expertise
+ - T-shaped people as essential to product teams (Reinertsen principle)
 
 ****
 Sidebar: Spotify overview
 ****
+
+===== Chapter 7 learning objectives
+
+* understand X's concept of culture (4 box)
+* identify key cultural themes from Toyota Kata
+* distinguish between functional versus product organization
+* _something with Mintzberg and/or Narayan_

@@ -10,3 +10,6 @@ Conclusion placeholder
 
 * Fowler, Refactoring
 * McConnell, Code Complete.
+* Humble & Farley, Continuous Delivery
+* Kim et all, Phoenix Project
+* Continuous Integration

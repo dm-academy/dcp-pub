@@ -8,5 +8,5 @@ Conclusion placeholder
 
 ===== Further reading
 
-Fowler, Refactoring
-McConnell, Code Complete.
+* Fowler, Refactoring
+* McConnell, Code Complete.

@@ -1,12 +1,19 @@
 === Chapter 9: Project & Resource Management
 
+Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because the necessary information is not available. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
+
+However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning has not gone away and without project management, financial planning meets difficult challenges. The very concept of having a vision becomes problematic without some ability to plan.
+
+Because of this, this chapter also covers IT financial management at a very introductory level. 
+
 ==== Introduction to chapter 9
 
-Chapter outline
+===== Chapter 9 outline
 
 * Introduction to project management
  - PMBOK etc (also covered in Appendix)
  - Scrum and XP (Scrum introduced in 5, need to figure out correct allocation)
+  - Notice that Scrum originated from Sutherland's study of product management, not project management
 
 * Is project management still needed in a product-centric world?
  - yes. Google & FB both use it.
@@ -23,6 +30,8 @@ Sidebar: Introducing Scaled Agile Framework (Leffingwell)
 
 * Resource management (yes, it's a terrible name)
   _get permission for Dilbert cartoon "I am not a resource"_
+  -SFIA framework
+  -Approaches to time tracking
 
 * Supply and demand.
   - IT talent
@@ -30,3 +39,12 @@ Sidebar: Introducing Scaled Agile Framework (Leffingwell)
   - More to come in portfolio mgmt
   - Last responsible moment
   - Ops theory - process, project, execution, resource & scheduling constraints
+
+  * Introduction to IT financial management
+  
+
+===== Chapter 9 learning objectives
+* Identify the basic practices of project management
+* Identify the basic concerns of IT resource management
+* Identify the basic concerns of IT financial management
+

@@ -4,7 +4,7 @@ Project management is traditionally defined as the execution of a given scope of
 
 However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning has not gone away and without project management, financial planning meets difficult challenges. The very concept of having a vision becomes problematic without some ability to plan.
 
-Because of this, this chapter also covers IT financial management at a very introductory level. 
+Because of this, this chapter also covers IT financial management at a very introductory level.
 
 ==== Introduction to chapter 9
 
@@ -41,10 +41,9 @@ Sidebar: Introducing Scaled Agile Framework (Leffingwell)
   - Ops theory - process, project, execution, resource & scheduling constraints
 
   * Introduction to IT financial management
-  
+
 
 ===== Chapter 9 learning objectives
 * Identify the basic practices of project management
 * Identify the basic concerns of IT resource management
 * Identify the basic concerns of IT financial management
-

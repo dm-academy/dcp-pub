@@ -37,6 +37,10 @@ Sidebar: Introducing Limoncelli.
 
  * Impact & dependency
 
+****
+Sidebar: Configuration Management and the CMDB
+****
+
 * State & stability (Burgess?)
 
 * Web-scale IT (first pass)

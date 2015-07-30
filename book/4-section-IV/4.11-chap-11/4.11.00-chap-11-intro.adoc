@@ -1,16 +1,30 @@
 === Chapter 11: Portfolio and Analytics
 
+****
+*Collaborator's note*
+I am debating whether the chapters should be
+
+* 10. Architecture and Analytics
+* 11. Portfolio and Governance
+
+****
+
 ==== Introduction to chapter 11
+Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well. 
 
-Placeholder for chapter 11 introduction.
+To enable the most effective IT portfolio management, large IT organizations are increasingly creating their own, internally-oriented data warehouses for the "business of IT." (These are not CMDBs, another majore form of IT data store covered in previous chapters.) Such data warehouses can enable both exploratory analytics as well as better aligning regular metrics-based reporting.
 
+===== Chapter 11 outline
 * the IT lifecycles
  - Application service
  - Infrastructure service
- - Asset
+ - Asset (including physical estate)
  - Technology Product
 
+* Relationship of portfolio data to governance
+
 * Architecture and analytics
+- Capacity management
 
 * The IT data warehouse
 
@@ -18,3 +32,8 @@ Placeholder for chapter 11 introduction.
 Sidebar: IT analytics experts
 Magennis, Cantor, etc
 ****
+
+===== Chapter 11 learning objectives
+
+==== Chapter 11 content to be moved to new file
+Over time, the IT operation develops significant data by which to manage itself. It may develop one or more definitive portfolio list, typically applications, services, assets, and/or technology products. Distinguishing and baselining high quality versions of these data sets can consume inordinate resource, and yet managing the IT organization at scale is nearly impossible without them.. [_didn't want to discuss data per se in the introduction_]

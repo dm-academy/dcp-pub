@@ -21,9 +21,11 @@ Placeholder for chapter 8 introduction.
 
 * Function vs process
 
+* Practice vs process
+
 * process vs execution (execution includes concern for resource)
 
-* Process at Toyota
+* "Process" at Toyota (Rother)
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
@@ -35,7 +37,7 @@ Placeholder for chapter 8 introduction.
  - Process proliferation
  - Process without execution model (demand management failure)
 
-* The service catalog
+* SLAs and the service catalog
 
 ****
 Sidebar: Quality and Continuous Improvement

@@ -10,9 +10,11 @@ I am debating whether the chapters should be
 ****
 
 ==== Introduction to chapter 11
-Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well. 
+Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well.
 
-To enable the most effective IT portfolio management, large IT organizations are increasingly creating their own, internally-oriented data warehouses for the "business of IT." (These are not CMDBs, another majore form of IT data store covered in previous chapters.) Such data warehouses can enable both exploratory analytics as well as better aligning regular metrics-based reporting.
+Analytics and metrics are a related topic for IT management. There are many ways that metrics can be used and misused. A clear understanding of organizational goals is essential to any metrics strategy. Analytics similarly requre an overall framework of continuous improvement so that their insights lead to real actions and value.
+
+
 
 ===== Chapter 11 outline
 * the IT lifecycles
@@ -21,19 +23,22 @@ To enable the most effective IT portfolio management, large IT organizations are
  - Asset (including physical estate)
  - Technology Product
 
-* Relationship of portfolio data to governance
-
-* Architecture and analytics
-- Capacity management
-
-* The IT data warehouse
-
+* IT analytics
+ - grounded in continuous improvement
+ - Portfolio and process data
+ - The IT data warehouse
+ - Looking ahead: Big Data, machine learning, text analytics
+ 
 ****
 Sidebar: IT analytics experts
 Magennis, Cantor, etc
 ****
 
 ===== Chapter 11 learning objectives
+
+* Identify the major IT lifecycles and their interactions
+* Identify various use cases for IT analytics
+
 
 ==== Chapter 11 content to be moved to new file
 Over time, the IT operation develops significant data by which to manage itself. It may develop one or more definitive portfolio list, typically applications, services, assets, and/or technology products. Distinguishing and baselining high quality versions of these data sets can consume inordinate resource, and yet managing the IT organization at scale is nearly impossible without them.. [_didn't want to discuss data per se in the introduction_]

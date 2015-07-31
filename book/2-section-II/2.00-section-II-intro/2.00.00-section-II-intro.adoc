@@ -4,7 +4,7 @@
 
 *Scenario*
 
-Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. With even with a few new people comes the need to increasingly formalize your product direction, so people are building the right thing. You're all in the same location, and can still easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
+Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. With even with a few new people comes the need to more clearly establish your product direction, so people are building the right thing. You're all in the same location, and can still communicate informally, but there is enough going on that you need a more organized approach to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
 
 ****
 Sidebar: Systems theory and idea of feedback
@@ -12,7 +12,7 @@ Sidebar: Systems theory and idea of feedback
 
 *Chapter 4: Product Management*
 
-You (as the startup leader) are spending more time with investors and customers, and maintaining alignment around your original product vision is becoming more challenging as you are pulled in various directions. You need some means of keeping the momentum here.
+You (as the startup leader) are spending more time with investors and customers, and maintaining alignment around your original product vision is becoming more challenging as you are pulled in various directions. You need some means of keeping the momentum here. And the concept of "product management," you're finding, represents a rich set of ideas for managing your team's efforts at this stage of the game.  
 
 *Chapter 5: Work Management*
 

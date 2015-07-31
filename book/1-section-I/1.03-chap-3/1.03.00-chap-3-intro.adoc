@@ -17,7 +17,7 @@ IT systems that directly create value for non-technical users are usually called
 
 Applications are built from software, the development of which is a core concern for any IT-centric product strategy. Software development is a well established career, and a fast-moving field with new technologies, frameworks, and schools of thought emerging weekly, it seems.
 
-This chapter will study applications and the software lifecycle, from requirements through construction, testing, building, and deployment into modern production environments. It also discusses earlier approaches to software development, the rise of the Agile movement, and its current manifestation in the practice of DevOps.
+This chapter will cover applications and the software lifecycle, from requirements through construction, testing, building, and deployment into modern production environments. It also discusses earlier approaches to software development, the rise of the Agile movement, and its current manifestation in the practice of DevOps.
 
 ===== Chapter outline
 

@@ -19,9 +19,9 @@ Placeholder for chapter 8 introduction.
  - BPM community
  - Process as a Mintzberg liaison mechanism
 
- ****
- Sidebar: Can microservices eliminate most or all need for cross-team communication & liaison mechanisms?
- ****
+****
+Sidebar: Can microservices eliminate most or all need for cross-team communication & liaison mechanisms?
+****
 
 * Function vs process
 

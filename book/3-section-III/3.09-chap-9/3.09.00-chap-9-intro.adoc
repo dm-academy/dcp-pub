@@ -30,12 +30,13 @@ Sidebar: Introducing Scaled Agile Framework (Leffingwell)
 
 * Resource management (yes, it's a terrible name)
   _get permission for Dilbert cartoon "I am not a resource"_
-  -SFIA framework
-  -Approaches to time tracking
+  - SFIA framework
+  - Approaches to time tracking
 
 * Supply and demand.
   - IT talent
-  - DSE - alternate view to PBR
+  - DSE - alternate view to PBR]
+  - 2 dimensions of demand management
   - More to come in portfolio mgmt
   - Last responsible moment
   - Ops theory - process, project, execution, resource & scheduling constraints

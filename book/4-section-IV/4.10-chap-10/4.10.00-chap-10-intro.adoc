@@ -33,7 +33,7 @@ Sidebar: Introducing ISACA
 * Defining governance
 * The role of internal audit
 
- _ask Patrick Stachenko to write sidebar on how audit moved into IT_
+_ask Patrick Stachenko to write sidebar on how audit moved into IT_
 
 * Governance, Risk & Compliance as a general space
 

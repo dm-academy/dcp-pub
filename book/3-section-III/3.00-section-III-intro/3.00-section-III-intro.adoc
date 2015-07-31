@@ -2,7 +2,7 @@
 
 *Scenario*
 
-You also are seeing more and more specialization in your organization, with the tendency of functional specialists to identify more with their field than with the needs of your customers and your business.
+You are now a "team of teams," at a size where face to face communication is increasingly supplemented by other forms of communication and coordination. You are seeing more and more specialization in your organization, with the tendency of functional specialists to identify more with their field than with the needs of your customers and your business.
 
 There are no shortage of contractors and consultants all advocating various flavors of process and project management, some advocating older approaches and "frameworks" and others proposing newer Agile & Lean perspectives. The very concepts of process and project management are occasionally called into question by both your employees and various "thought leaders," and it's all very confusing. Welcome to IT management, circa 2015.
 
@@ -11,7 +11,7 @@ There are no shortage of contractors and consultants all advocating various flav
 Scenario:
 
 *Chapter 7: Culture and Organization*
- We're getting big.  How are we formally structured? Why this way and not that? Who are we? What are the unspoken assumptions that underly our daily work?
+ We're getting big.  How are we formally structured? How are people grouped, and to whom do they report, with what kind of expectations? Why this way and not that? Who are we? What are the unspoken assumptions that underly our daily work?
 
 *Chapter 8: Process Management*
 OK, we have a structure. But work flows across it. We've been managing work for some time (since Chapter 5.) At this point, however, our increasingly specialized organization needs some specialization of processes, and without some kind of coordination  we run the risk of two teams trying to change the same thing at the same time. We're also hearing more and more about "quality" and "continuous improvement" - what's all that about?

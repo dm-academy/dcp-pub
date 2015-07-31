@@ -76,8 +76,8 @@ Elaborating the above outline into chapters, we have:
 
 ..... *Appendices*
 . _A review of IT frameworks and standards_
-. _Towards a theory of IT management_
 . _Architectural depictions_
+. _Towards a theory of IT management_
 
 The central advantage of this approach is that it is ideal for the new student. There really are no prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Discussions of advanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student.
 

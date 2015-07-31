@@ -20,7 +20,7 @@ The challenges of this legacy will be extensively documented and analyzed in thi
 
 _“…some will tell you that when things are this bad, you throw it all away and start again. It's ironic: The same people who would champion incremental and evolutionary approaches to product development seem only too eager to recommend disruptive and revolutionary changes in people-based systems – in which the outcomes are so much less certain.”_ <<Burrows2014>>, Kindle Locations 827-829.
 
-IT management at scale within an organization is a complex system. Complex systems do not respond well to dramatic perturbations. They are best changed incrementally, with careful monitoring of the consequences of each small change. (This is the systems theory foundation underlying the Agile movement, that explains its success.)
+IT management at scale within an organization is a complex system. Complex systems do not respond well to dramatic perturbations. They are best changed incrementally, with careful monitoring of the consequences of each small change. (This is part of the systems theory foundation underlying the Agile movement.)
 
 So, how do we undertake Agile transformation? For longer term, more ambitious goals, while we cannot plan in advance how any given change initiative will play out, we *can* develop situational awareness.
 
@@ -28,11 +28,7 @@ The idea of the OODA loop is popular in the Agile community. OODA stands for Ori
 
 I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to provide the student with a well documented set of observations on IT's current challenges that can orient you for more effective decisions and actions in your journey toward IT excellence.
 
-A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products.
-A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing).
-
-
-
+A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
 
 === Some personal history
 

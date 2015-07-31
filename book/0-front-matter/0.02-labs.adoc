@@ -12,22 +12,23 @@ I have found great utility in the use of lightweight virtualization technologies
 
 At this writing I maintain my labs publicly on Github.  My syllabus and lab structure is under continual improvement. This is my current aspirational plan.
 
+[cols="5*", options="header"]
 |====
 |Lecture|Topic|Business lab |Technical lab |Team size
 |Course introduction |Structure, approach ||Basic Linux command line |Individual
-|SECTION I: INCEPTION||||
+5+|SECTION I: INCEPTION
 |Chapter 1 |IT value |Defining an IT product |Cloud and infrastructure as code | 2
 |Chapter 2 |IT Infrastructure | |Cloud and infrastructure as code | 2
 |Chapter 3 |Applications||Continuous delivery pipeline | 2
-|SECTION II: COLLABORATION ||||
+5+|SECTION II: COLLABORATION
 |Chapter 4 |Product management ||Continuous delivery pipeline |6-8
 |Chapter 5 |Work management ||Ticketing and kanban |6-8
 |Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
-|SECTION III: COORDINATION ||||
+5+|SECTION III: COORDINATION
 |Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) |Continue Nagios | >11 (full class)
 |Chapter 8 |Process management | |Open-source ITSM suite | >11 (full class)
 |Chapter 9 |Project & resource management | |Open-source project tool | >11 (full class)
-|SECTION IV: MATURATION ||||
+5+|SECTION IV: MATURATION
 |Chapter 10 |Architecture & governance | Enterprise architecture & risk mgmt | | 5
 |Chapter 11 |Portfolio and analytics |Portfolio simulation |Porfolio simulation with R? | 5
 |Chapter 12 |Complexity and chaos | Complex Incident Simulation | |5

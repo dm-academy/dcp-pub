@@ -53,6 +53,7 @@ Sidebar: Introducing Kim & Humble
 
 * Trends in AD
  - Fast pace of innovation
+ - Microservices
  - Re-use & external code
 
 ===== Learning objectives
@@ -60,4 +61,4 @@ Sidebar: Introducing Kim & Humble
 * Define "application" as opposed to "infrastructure"
 * Describe the full application lifecycle
 * Define "Agile" in terms of software development
-* Identify the major components of an end-to-end DevOps delivery pipeline. 
+* Identify the major components of an end-to-end DevOps delivery pipeline.

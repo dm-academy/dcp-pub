@@ -30,10 +30,10 @@ Sidebar: Introducing Limoncelli.
  - interrupt-driven
  - etc
 
+ * OODA & situational awareness
+  - Event management and monitoring
 * Classic model (24x7, oncall, etc)
  - Mention ITIL (more depth in chapter 8)
-
- * OODA & situational awareness
 
  * Impact & dependency
 
@@ -42,6 +42,8 @@ Sidebar: Configuration Management and the CMDB
 ****
 
 * State & stability (Burgess?)
+
+* Control theory?
 
 * Web-scale IT (first pass)
 

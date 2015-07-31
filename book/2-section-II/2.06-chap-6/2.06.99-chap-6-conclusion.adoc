@@ -8,5 +8,6 @@ Conclusion placeholder
 
 ===== Further reading
 
-Allspaw
-Limoncelli
+* Allspaw
+
+* Limoncelli

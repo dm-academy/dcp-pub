@@ -1,0 +1,43 @@
+== Labs
+
+_note, this may be broken out into separate volume_
+
+With three chapters in each section, the book can be covered in one intense semester at a chapter a week, although expanding it to a two-semester treatment would allow for more in depth coverage and increased lab exposure.
+
+I give great credit to both my students and Dr. Misra for challenging me to add a practical component to the course. This required new thinking on my part. How to demonstrate IT management at scale in a lab setting? I have learned that a hands on component is critical, as IT management discussions can be  abstract and meaningless to many students. (”Incidents are different from Problems!”)
+
+Ten years ago, the best that would have been possible would be paper case studies, perhaps augmented with spreadsheets. But new options are now available. The power of modern computers (even lightweight laptops) coupled with the widespread availability of open source software, makes it is now possible to expose students to industrial computing in a meaningful, experiential way.
+
+I have found great utility in the use of lightweight virtualization technologies such as Vagrant, Virtualbox and Docker.  I recommend this approach wholeheartedly. I am always interested in hearing from other instructors who are working from the same approach.
+
+At this writing I maintain my labs publicly on Github.  My syllabus and lab structure is under continual improvement, but at this writing roughly follows this sequence:
+
+|====
+|Lecture|Topic|Business lab |Technical lab |Team size
+|Course introduction |Structure, approach ||Basic Linux command line |Individual
+|SECTION I: INCEPTION||||
+|Chapter 1 |IT value |Defining an IT product || 2
+|Chapter 2 |IT Infrastructure | |Cloud and infrastructure as code | 2
+|Chapter 3 |Applications||Infrastructure as code | 2
+|SECTION II: COLLABORATION ||||
+|Chapter 4 |Product management ||Continuous delivery pipeline |6-8
+|Chapter 5 |Work management ||Ticketing and kanban |6-8
+|Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
+|SECTION III: COORDINATION ||||
+|Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) | | >11 (full class)
+|Chapter 8 |Process management | |Open-source ITSM suite | >11 (full class)
+|Chapter 9 |Project & resource management | |Open-source project tool | >11 (full class)
+|SECTION IV: MATURATION ||||
+|Chapter 10 |Architecture & governance | Enterprise architecture & risk mgmt | | 5
+|Chapter 11 |Portfolio and analytics |Portfolio simulation |Porfolio simulation with R? | 5
+|Chapter 12 |Complexity and chaos | Complex Incident Simulation | |5
+|====
+
+I use a central server in teaching my classes, but even that is not necessary. This class can be taught with a zero computing budget, assuming that each team of students at least has access to a modern laptop and a fast Internet connection. As of this writing, I am using free and open source versions of Chef, Jenkins, iTOP, jUnit, Ant, and other tools (see github for the current approach).
+
+Some may question the inclusion of command-line experience, but without some common technical platform it is hard to provide a meaningful “hands-on” experience in the first half of the course. I structure my class on the assumption that the students are at least willing to learn computing techniques, with no prerequisites beyond that. Not even a programming language is required; the Java currently used as a sample is minimal.
+
+Truly beginning students will have to work at the Linux tutorials, but all they need master is basic command line navigation, and I have found this possible with a diverse student body. The labs for the second half of the course use experiential paper-based classroom exercises, GUI-based software, databases, and office productivity tools.
+
+
+*** todo: should every chapter have an enterprise as well as startup reading?

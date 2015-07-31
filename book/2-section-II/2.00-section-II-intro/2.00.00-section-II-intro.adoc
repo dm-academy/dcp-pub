@@ -2,7 +2,7 @@
 
 === Section II introduction
 
-Scenario: Your startup has met with some success and you are now a team. With new people comes the need to increasingly formalize your product direction, so people are building the right thing. You're all in the same location, and can still easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
+Scenario: Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. With even with a few new people comes the need to increasingly formalize your product direction, so people are building the right thing. You're all in the same location, and can still easily communicate informally, but there is enough going on that you need more formalized approaches to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
 
 ****
 Sidebar: Systems theory and idea of feedback

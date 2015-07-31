@@ -68,8 +68,10 @@ Elaborating the above outline into chapters, we have:
 
 ..... *Maturation*
 [start=10]
-. _Architecture and governance_ We need better orientation on how the big picture fits together. We have major players and forces around us (vendors, regulators, security threats). Some of the investments we have made in technology platforms are getting old. Switching to a new platform is looking to be a "bet the company" big bet. We also have technical debt. We need to reduce redundancy and we *do* need to seek some economies of scale.
+. _Architecture and governance_ We need to understand the big picture, reduce technical debt and redundancy, obtain better economies of scale, and cope with external forces (regulators, vendor partners, security adversaries, auditors) increasingly defining our options.
+
 . _Portfolio and analytics_ We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall dynamic system.
+
 . _Chaos, complexity, and the road ahead_ No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?
 
 ..... *Appendices*

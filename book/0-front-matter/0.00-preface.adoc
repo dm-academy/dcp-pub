@@ -40,7 +40,7 @@ I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota,
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
 
-While my class is titled "IT Infrastructure" for historical reasons (related to something called the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like.
+While my class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), the class was intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like.
 
 ifdef::instructor-ed[]
 
@@ -61,7 +61,7 @@ In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on th
 _This course will cover several topics related to IT infrastructure. The course will cover Information Technology Infrastructure Library (ITIL) which is the most widely adopted approach for IT Service Management. It provides a practical framework for identifying, planning, delivering and supporting IT services to the business._
 ****
 
-I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitmate faculty positions and afford a variety of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
+I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitmate faculty positions and afford a number of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
 
 The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not communicating effectively.
 
@@ -87,7 +87,7 @@ While my spring 2015 class was about half full, based on the older ITIL descript
 
 ==== Considering a 3rd edition
 
-For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this book as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date. In particular, it had a strongly architectural approach, approaching the IT management problem as a series of https://en.wikipedia.org/wiki/4%2B1_architectural_view_model[views on a model]. I do not recommend this as a pedagogical approach for a survey class.
+For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date. In particular, it had a strongly architectural approach, approaching the IT management problem as a series of https://en.wikipedia.org/wiki/4%2B1_architectural_view_model[views on a model]. I do not recommend this as a pedagogical approach for a survey class.
 
 I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite.
 
@@ -115,10 +115,9 @@ So, what exactly IS this textbook, anyhow?
 * It is the first general, survey-level text on IT management with a specific Agile and Lean IT orientation.
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
+* Because it is written with continuous integration and print on demand techniques, it can be continually updated to reflect current industry trends
 
 _positioning this book vis a vis systems engineering, computer science, etc - is there some kind of matrix?_
-
-_because it is written with continuous integration and print on demand techniques, it can be continually updated to reflect current industry trends_
 
 
 ==== Current textbooks

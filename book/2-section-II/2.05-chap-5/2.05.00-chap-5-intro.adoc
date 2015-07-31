@@ -29,6 +29,8 @@ Sidebar: Introducing Anderson and Sutherland
 * Kanban
  - Origins
  - Practices
+  - Visualize
+  - Limit WIP
  - To automate or no?
 
 * Scrum

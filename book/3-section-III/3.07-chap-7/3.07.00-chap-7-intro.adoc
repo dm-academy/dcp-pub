@@ -2,6 +2,9 @@
 
 ==== Introduction to chapter 7
 
+_Complexity responds to competence, not authority._
+_Steve Denning_
+
 You are going through a critical juncture, the "team of teams" transition. You have increasingly specialized people delivering an increasingly complex product, or perhaps even several distinct products. You are in constant discussions around the tension between functional depth versus cross functional delivery.
 
 Many of your employees and consultants emphasize the role of culture, but what do they mean? Is there such a thing as a "good" culture? How is one culture better than another? How can you retain that startup feel you had previously, when things are getting this big?
@@ -36,7 +39,7 @@ Sidebar: Spotify overview
 
 ===== Chapter 7 learning objectives
 
-* understand various concepts of culture 
+* understand various concepts of culture
 * identify key cultural themes from Toyota Kata
 * distinguish between functional versus product organization
 * _something with Mintzberg and/or Narayan_

@@ -37,6 +37,8 @@ Sidebar: Introducing ISACA
 
 * Governance, Risk & Compliance as a general space
 
+*  "Rogue" IT
+
 ===== Chapter 10 learning objectives
 * Identify the basic types of IT architecture
 * Describe basic architectural practices

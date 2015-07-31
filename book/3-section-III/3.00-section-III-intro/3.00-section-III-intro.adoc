@@ -1,6 +1,6 @@
 == Section III: Coordination
 
-Scenario: Your company has continued to grow and you are now becoming a large organization. You are encountering the "team of teams" problem; you are to a size where no matter how you slice your organization, you have issues making sure that work flows well through the system.
+*Scenario*
 
 You also are seeing more and more specialization in your organization, with the tendency of functional specialists to identify more with their field than with the needs of your customers and your business.
 

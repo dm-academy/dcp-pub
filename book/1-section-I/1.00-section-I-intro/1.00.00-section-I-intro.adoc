@@ -4,7 +4,9 @@ This is the introduction to Section I.
 
 In this section, we  explore the fundamentals of information technology delivery.
 
-Scenario: You are working in a startup, alone or with one partner. You are always in the same room, easily able to carry on a running conversation about your efforts and progress. You have no time or resources to spend on anything except keeping your new system alive and running.
+*Scenario*
+
+You are working in a startup, alone or with one partner. You are always in the same room, easily able to carry on a running conversation about your efforts and progress. You have no time or resources to spend on anything except keeping your new system alive and running.
 
 *Chapter 1: IT Value*
 

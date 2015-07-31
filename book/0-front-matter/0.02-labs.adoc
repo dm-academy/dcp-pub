@@ -10,21 +10,21 @@ Ten years ago, the best that would have been possible would be paper case studie
 
 I have found great utility in the use of lightweight virtualization technologies such as Vagrant, Virtualbox and Docker.  I recommend this approach wholeheartedly. I am always interested in hearing from other instructors who are working from the same approach.
 
-At this writing I maintain my labs publicly on Github.  My syllabus and lab structure is under continual improvement, but at this writing roughly follows this sequence:
+At this writing I maintain my labs publicly on Github.  My syllabus and lab structure is under continual improvement. This is my current aspirational plan.
 
 |====
 |Lecture|Topic|Business lab |Technical lab |Team size
 |Course introduction |Structure, approach ||Basic Linux command line |Individual
 |SECTION I: INCEPTION||||
-|Chapter 1 |IT value |Defining an IT product || 2
+|Chapter 1 |IT value |Defining an IT product |Cloud and infrastructure as code | 2
 |Chapter 2 |IT Infrastructure | |Cloud and infrastructure as code | 2
-|Chapter 3 |Applications||Infrastructure as code | 2
+|Chapter 3 |Applications||Continuous delivery pipeline | 2
 |SECTION II: COLLABORATION ||||
 |Chapter 4 |Product management ||Continuous delivery pipeline |6-8
 |Chapter 5 |Work management ||Ticketing and kanban |6-8
 |Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
 |SECTION III: COORDINATION ||||
-|Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) | | >11 (full class)
+|Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) |Continue Nagios | >11 (full class)
 |Chapter 8 |Process management | |Open-source ITSM suite | >11 (full class)
 |Chapter 9 |Project & resource management | |Open-source project tool | >11 (full class)
 |SECTION IV: MATURATION ||||

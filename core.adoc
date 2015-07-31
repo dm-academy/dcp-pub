@@ -13,6 +13,8 @@ include::book/1-section-I/1.01-chap-1/1.01.01-chap-1-ITValue.adoc[]
 
 include::book/1-section-I/1.01-chap-1/1.01.02-chap-1-examiningITVal.adoc[]
 
+include::book/1-section-I/1.01-chap-1/1.01.03-chap-1-examiningITVal.adoc[]
+
 include::book/1-section-I/1.01-chap-1/1.01.99-chap-1-conclusion.adoc[]
 
 include::book/1-section-I/1.02-chap-2/1.02.00-chap-2-intro.adoc[]

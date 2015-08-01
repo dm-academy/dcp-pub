@@ -22,3 +22,24 @@ However, in the past few years, some powerful infrastructure concepts have solid
 This might seem like a big detour - you are in a hurry to start writing code! But industry practice is clear. You check your code into source control from Day One. You define your server configurations as recipes, manifests, or at least shell scripts, and check those definitions into source control as well. You keep track of what you have downloaded from the Internet and what version of stuff you are using. Always downloading the “latest” package from its upstream creator might seem like the way to stay current, but it will kill you when stuff works on one server but not on another.
 
 So, you need to understand a few things and make a few decisions, that you will be living with for a while, and will not be easily changed.
+
+****
+*Sidebar: What is Infrastructure?*
+Infrastructure is a tricky word. Google defines it thus:
+
+￼_The basic physical and organizational structures and facilities (e.g., buildings, roads, and power supplies) needed for the operation of a society or enterprise._
+
+In general, it connotes the stuff behind the scenes, the things you need but don’t want to spend a lot of time thinking about.
+
+We will spend a lot of time examining what we mean by “infrastructure” in this book, as it is fundamental to understanding the “business of IT.”
+
+This book defines “IT infrastructure” as “the set of IT concerns that are of particular interest to IT.”
+
+* An application or business service is consumed by people who are NOT primarily concerned with IT.
+* An IT infrastructure service is a service consumed by other IT-centric teams and capabilities.
+
+We try to be precise. IT infrastructure is one form of infrastructure. Other kinds of infrastructure might include mechanical, electrical, and plant investments (ME&P). IT infrastructure, like IT itself, is defined by its fundamental dependence on information and computing theory [link Chapter 1].
+
+The interesting thing is that today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born.
+
+Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure. 

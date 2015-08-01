@@ -4,9 +4,13 @@ Welcome to Agile IT Management, the first general, survey-level text on IT manag
 
 This preface covers:
 
+* Some comments on the IT industry and the rise of Agile
+
 * My personal history that led to this project
 
 * A vision for a new, collaborative Agile text
+
+=== The IT industry, and the rise of Agile
 
 Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of
 
@@ -16,7 +20,7 @@ Both the IT industry, and my understanding of it, have transformed dramatically 
 * IT service management practices, and
 * IT governance concerns
 
-The challenges of this legacy will be extensively documented and analyzed in this book. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
+The challenges of this legacy are an ongoing theme through this introductory text. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
 
 _“…some will tell you that when things are this bad, you throw it all away and start again. It's ironic: The same people who would champion incremental and evolutionary approaches to product development seem only too eager to recommend disruptive and revolutionary changes in people-based systems – in which the outcomes are so much less certain.”_ <<Burrows2014>>, Kindle Locations 827-829.
 
@@ -36,7 +40,7 @@ I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota,
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- one of the topics in this book and its related materials.
 
-My class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), ands was intended from its creation to cover the management of IT broadly. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like. Rather it serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth. 
+My class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), ands was intended from its creation to cover the management of IT broadly. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like. Rather it serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.
 
 ifdef::instructor-ed[]
 

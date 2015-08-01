@@ -19,7 +19,7 @@ There is a near-infinite amount of material, debate, discussion, books, blogs, l
 
 *** continue to revisit these assumptions
 
-This is where this textbook differs from many previous textbooks. 
+This is where this textbook differs from many previous textbooks.
 
 Experienced IT professionals may be jumping up and down at this point, saying “How can you be thinking about infrastructure before you have gone deeply into requirements?”
 

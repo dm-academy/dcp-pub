@@ -12,7 +12,7 @@ Therefore, “information technology” is defined as the edifice of theory and 
 
 image::images/1.01-proportionOfIT.png[]
 
-Information technology (”IT” for the rest of this book) increasingly permeates business operations and social interactions (figure XX). As it increases its pervasiveness, it becomes difficult to disentangle and analyze it. However, doing so remains essential. Without a line of sight back to the intellectual foundations, technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
+Information technology (”IT” for the rest of this book) increasingly permeates business operations and social interactions (figure XX). As it increases its pervasiveness, it becomes difficult to disentangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
 
 ****
 *Sidebar: Cargo cult*
@@ -23,45 +23,50 @@ On further investigation, it became clear that the natives were seeking more “
 
 In 1974, the noted physicist Richard Feynman gave a speech at Caltech in which he coined the immortal phrase “cargo cult science.” His intent was to caution against activities which appear to follow the external form of science, but lack the essential understanding at its core.
 
-
-
 It should be noted, as with most archetypes of this sort, that there are questions around the accuracy of the original accounts and Western interpretations and mythmaking around what was seen. However there is no question that the phenomena were observed. There is also no doubt that “cargo cult thinking” is a useful cautionary metaphor.
 ****
 
-Nicholas Carr predicated that since IT no longer is a strategic concern, it will start to pervade modern business operations. Just as business no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.
+Nicholas Carr, in his controversial _Harvard Business Review_ article "IT Doesn't Matter," recognized that IT was becoming commoditized in an important sense. As Cloud providers started to offer utility-style computing, the choice of vendors like HP vs IBM was no longer strategic. Looking to history, Carr argued that just as business no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.
 
-Carr’s hypothesis has insight -- there is no question IT is becoming pervasive -- but ultimately reflects a narrow view of what “IT” is. If “IT” were merely computation, then perhaps it can simply be embedded throughout a business. But IT has aspects that are not comparable to electrical power. As it pervades all aspects of business operations, it brings its concerns with it: complexity, fragility, and the skills required to cope with them. It also radically transforms industries: from retail to transportation to manufacturing to genetics, applied, software-centric IT is unleashing remarkable economic disruption.
+Carr’s hypothesis has insight -- there is no question IT is becoming pervasive -- but ultimately reflects a narrow view of what “IT” is. If “IT” were merely computation, then perhaps it can simply be embedded throughout a business like electricity. But IT has aspects that are not comparable to electrical power. As it pervades all aspects of business operations, it brings its concerns with it: complexity, fragility, and the skills required to cope with them. It also radically transforms industries: from retail to transportation to manufacturing to genetics, applied, software-centric IT is unleashing remarkable economic disruption.
 
-The interesting question for any activity’s dependence on IT is not "does it or doesn't it depend on IT” but rather “how much?” If we accept that almost every operational action has some IT component, can we at least determine the degree? A lawyer may depend on a cell phone, but beyond its provision as a commodity service needs little else to deliver the legal strategies a firm needs. A graphic designer may use computerized graphic tools, but these have become relatively standardized and commoditized in the past twenty years, and probably are not a source of competitive advantage in the quest for new marketing clients.
+A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provision as a commodity service needs little else to deliver the legal strategies a firm needs. A graphic designer may use computerized graphic tools, but these have become relatively standardized and commoditized in the past twenty years, and probably are not a source of competitive advantage in the quest for new marketing clients.
 
 On the other hand, consider a text analytic algorithm that replaces dozens of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This *is* strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these -- and they seem to be increasing -- IT matters very much.
 
 In the digitally transforming economy, traditional “back office” IT organizations find themselves called on to envision, develop, and support market-facing applications of IT. And what starts with one market-facing use case can quickly expand into entire portfolios.  It is such cases that this book is particularly concerned with.
 
-So, how do we define an IT problem, as opposed to other kinds of business problems? An IT problem is any problem where you are primarily constrained by your capability and understanding of IT, as defined above.
+So, how do we define an IT problem, as opposed to other kinds of business problems? An IT problem is any problem where you are primarily constrained by your capability and understanding of IT.
 
-* If you need computer scientists, engineers who understand information theory, you are doing IT.
-* If you need people who at least understand when your information-centric problems might need to be referred to the theorists, you are likely doing IT.
-* If you need people who are skilled in building upon those fundamentals,  and operating technical platforms such as computers and routers, you are doing IT.
+* If you need computer scientists or engineers who understand the fundamentals of information theory and computer science, you are doing IT.
+* If you need people who understand when your information-centric problems might need to be referred to such theorists and enginers, you are likely doing IT.
+* If you need people who are skilled in building upon those fundamentals,  and operating technical platforms derived from them (such as programming languages, general purpose computers, and routers), you are doing IT.
 
 And regardless of where the IT is housed (under a traditional CIO, an operations capability, a Chief Marketing Officer, or a “line of business”),  when it is critical to operations, certain concerns inevitably follow:
 
-* Requirements
+* Requirements (i.e. your intent for IT)
 * Sourcing and provisioning
+* IT-centric product design and construction
 * Configuration and change management
 * Support
 * Improvement
 
-Executives who take control of information technology in hopes of making it more agile are often surprised to find that these concerns were not mere bureaucracy, but instead had well grounded origins in past failures. Ignoring these lessons is perilous. And yet, there is no question that the modern, process-heavy IT organization is dysfunctional from a business point of view: a central theme of this book.
+Executives who take control of information technology in hopes of making it more agile are often surprised to find that these concerns were not mere bureaucracy, but instead had well grounded origins in past failures. Ignoring these lessons is perilous.
+
+And yet, the traditional, process-heavy IT organization does seem dysfunctional from a business point of view: a central theme of this book.
 
 ****
 *Sidebar: Corporate function vs. problem domain*
 
 Discussions of “information technology” become contentious because some think of the traditional organization, while others think of the general problem area.
 
-IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” it is referring to this organizational tradition. We are less interested in the future of IT as a distinct organizational structure. There are many different models, from fully centralized to fully embedded.
+IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” the author using the termf is referring to this organizational tradition. 
 
-“Information technology” also has a different connotation, reflecting its historic origins. In this connotation, we look to IT’s common origins in automating laborious and error prone processes of computation, through the application of digital logic technologies based on information transmission. Regardless of organizational form or delivery methods, IT is defined by these origins. And there are notable common threads through this problem domain: the fragility and complexity of these systems, the need for layered abstractions in their management, and more.
+*We are less interested in the future of IT as a distinct organizational structure. There are many different models, from fully centralized to fully embedded.* Organizational structure will be discussed in Chapter 7.
+
+For this book, we define “Information technology” in terms of its historic origins. We look to IT’s common origins in automating the laborious and error prone processes of computation, through the application of digital logic technologies based on information transmission.
+
+Regardless of organizational form or delivery methods, IT is defined by these origins. And there are notable common threads through this problem domain: the fragility and complexity of these systems, the need for layered abstractions in their management, and more.
 
 It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.
 

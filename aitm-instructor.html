@@ -458,6 +458,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_chapter_2_infrastructure_management">Chapter 2: Infrastructure Management</a>
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_2">Introduction to Chapter 2</a></li>
+<li><a href="#_infrastructure_overview">Infrastructure overview</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -1850,6 +1851,52 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_infrastructure_overview">Infrastructure overview</h4>
+<div class="paragraph">
+<p>In the previous chapter, you developed a product idea and a proposed Minimum Marketable Feature. Some part of that Minimum Marketable Feature requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)</p>
+</div>
+<div class="paragraph">
+<p>You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions; shut down your Twitter and Facebook feeds, and are ready to start building.</p>
+</div>
+<div class="paragraph">
+<p>Not so fast.</p>
+</div>
+<div class="paragraph">
+<p>Before you can start writing code, you need some kind of a platform. You need to decide what language you are going to write in, or what framework you are going to configure, and how that effort is going to result in an operational system capable of rendering IT services.</p>
+</div>
+<div class="paragraph">
+<p>In previous decades, books such as this might have gone into the specifics of particular platforms: mainframe vs. minicomputers, COBOL vs Fortran, Windows vs Unix, etc. Of course, this is why those books are dated and out of print.</p>
+</div>
+<div class="paragraph">
+<p>You are probably swimming in a sea of advice and options regarding your technical choices. At this writing, JavaScript is a leading choice, in conjunction with various frameworks and NoSQL options (e.g. the MEAN stack, for MongoDB, Express, Angular, and Node.js), but millions of developers are still writing Java and .Net, and Ruby and Python have significant followings. Linux is arguably the leading platform, but commercial Unix and Microsoft platforms are still strong.</p>
+</div>
+<div class="paragraph">
+<p>However, in the past few years, some powerful infrastructure concepts have solidified that are independent of particular platforms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Automation and “infrastructure as code”</p>
+</li>
+<li>
+<p>The centrality of source control</p>
+</li>
+<li>
+<p>The importance of package management</p>
+</li>
+<li>
+<p>Policy-based infrastructure management</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This might seem like a big detour - you are in a hurry to start writing code! But industry practice is clear. You check your code into source control from Day One. You define your server configurations as recipes, manifests, or at least shell scripts, and check those definitions into source control as well. You keep track of what you have downloaded from the Internet and what version of stuff you are using. Always downloading the “latest” package from its upstream creator might seem like the way to stay current, but it will kill you when stuff works on one server but not on another.</p>
+</div>
+<div class="paragraph">
+<p>So, you need to understand a few things and make a few decisions, that you will be living with for a while, and will not be easily changed.</p>
 </div>
 </div>
 <div class="sect3">

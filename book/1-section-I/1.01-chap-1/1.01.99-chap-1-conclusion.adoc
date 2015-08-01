@@ -8,4 +8,5 @@ Conclusion placeholder
 
 ===== Further reading
 
+* http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319[_Code_], Charles Petzold
 * The Lean Startup, Ries

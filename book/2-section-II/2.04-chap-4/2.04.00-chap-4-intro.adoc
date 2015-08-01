@@ -28,6 +28,9 @@ Assumption: Product strategy was largely tacit in Section I. Need more formalize
 
 * Product vs project management
 
+* Lean Startup
+ - Minimum Viable Product etc
+
 * LeanUX and Continuous Design.
 
 * Behavior-driven development.

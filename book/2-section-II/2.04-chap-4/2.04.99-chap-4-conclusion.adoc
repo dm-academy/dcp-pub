@@ -8,3 +8,4 @@ Conclusion placeholder
 
 ===== Further reading
 * Reinertsen, Principles of Product Development Flow
+* http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/

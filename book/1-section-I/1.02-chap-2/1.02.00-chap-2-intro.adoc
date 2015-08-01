@@ -33,11 +33,6 @@ Sidebar: Introducing Allspaw.
 
 * Scalability and infrastructure architecture - looking ahead
 
-****
-*Did you know?*
-
-Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
-****
 
 ===== Learning objectives
 * Understand fundamental principles of operating computers as infrastructure for a service.

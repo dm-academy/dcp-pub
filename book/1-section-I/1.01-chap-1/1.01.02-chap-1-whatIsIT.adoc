@@ -60,7 +60,7 @@ And yet, the traditional, process-heavy IT organization does seem dysfunctional 
 
 Discussions of “information technology” become contentious because some think of the traditional organization, while others think of the general problem area.
 
-IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” the author using the termf is referring to this organizational tradition. 
+IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” the author using the termf is referring to this organizational tradition.
 
 *We are less interested in the future of IT as a distinct organizational structure. There are many different models, from fully centralized to fully embedded.* Organizational structure will be discussed in Chapter 7.
 

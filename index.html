@@ -1212,7 +1212,16 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <div class="sect3">
 <h4 id="_introduction_to_chapter_1">Introduction to Chapter 1</h4>
 <div class="paragraph">
-<p>You are interested in starting a new company, perhaps based on some kind of software product. Or perhaps you find yourself working as a team member in a large enterprise, just starting out and trying to make sense of all the complexity and information coming at you every day.</p>
+<p>As noted at the outset, you are one or two people in a startup. You are building a product of which IT is a significant part (otherwise why are you reading this book/in this class?) Your motivations are entrepreneurial; you want to create a successful business.</p>
+</div>
+<div class="paragraph">
+<p>You might be housed within a larger enterprise, but the thought experiment here is that you have substantial autonomy to order your efforts.</p>
+</div>
+<div class="paragraph">
+<p>You want to do something that has a unique IT component. Regardless of your business, you will need accounting and legal services at a minimum, and very quickly payroll and HR, and so forth. Those things can (and should) be purchased as commodity services, if you are a small entrepreneur (I am not aware of any convincing arguments to the contrary, unless you are absolutely on the smallest of shoestring budgets and can work 100 hour weeks).</p>
+</div>
+<div class="paragraph">
+<p>Your unique value proposition will be expressed to some degree in unique IT software. While this software may be based on well understood products, the configuration and logic you construct will be all your own. Because of this, you are now (whether you intend or not) a producer (or soon to be) of IT services.</p>
 </div>
 <div class="paragraph">
 <p>Before we can talk about building and managing information technology (IT), we need to understand what it is and why people want it. We&#8217;ll start this chapter by looking at an IT value experience that may seem very familiar. Then we&#8217;ll dig further into concepts like the "IT stack" and the "IT service" and how they change over time.</p>
@@ -1699,16 +1708,6 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </li>
 </ul>
 </div>
-<div class="sidebarblock">
-<div class="content">
-<div class="paragraph">
-<p><strong>Did you know?</strong></p>
-</div>
-<div class="paragraph">
-<p>Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).</p>
-</div>
-</div>
-</div>
 </div>
 <div class="sect4">
 <h5 id="_learning_objectives">Learning objectives</h5>
@@ -1820,7 +1819,202 @@ Infrastructure is a tricky word. Google defines it thus:</p>
 </div>
 <div class="sect3">
 <h4 id="_from_physical_compute_to_cloud">From "physical" compute to Cloud</h4>
-
+<div class="paragraph">
+<p>What do we even mean by “Cloud”?</p>
+</div>
+<div class="paragraph">
+<p>First we need to understand what we mean by IT</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Computing cycles</p>
+</li>
+<li>
+<p>Memory &amp; storage</p>
+</li>
+<li>
+<p>Communications</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Those are the fundamentals</p>
+</div>
+<div class="paragraph">
+<p>The idea of running IT as a utility service goes back years</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Complexity has been the problem</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Cloud origins</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Virtualization (we will discuss further)</p>
+</li>
+<li>
+<p>Managed hosting</p>
+</li>
+<li>
+<p>Web-scale IT</p>
+</li>
+<li>
+<p>“IT doesn’t matter”</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Virtualizaton</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Essentially, a computer within a computer.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-virt.png" alt="1.02 virt">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>There is a host system that can instantiate one or more guests.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The host system knows about the guests, but the guests do not know about the host (except as a peer system on the network, perhaps).</p>
+</li>
+<li>
+<p>The physical resources allocated can vary according to demand</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>The technical details are deep. Talk to your
+OS instructor.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-virtualization-types.png" alt="1.02 virtualization types">
+</div>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>Did you know?</strong></p>
+</div>
+<div class="paragraph">
+<p>Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).</p>
+</div>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Multi-tenancy</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Multi-tenancy is where multiple customers share physical resources that provide the illusion of being dedicated</p>
+</li>
+<li>
+<p>The phone system has been multi-tenant ever since they got rid of party lines.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Virtualization vs containers</p>
+</div>
+<div class="paragraph">
+<p>Virtualization benefits</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-virt-benefits.png" alt="1.02 virt benefits">
+</div>
+</div>
+<div class="paragraph">
+<p>Why virtualize?</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Great for heterogeneous workloads – lots of miscellaneous applications &amp; services running on underutilized servers</p>
+</li>
+<li>
+<p>What about where the application is large and virtualization is mostly overhead?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Still may make sense</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Management consistency</p>
+</li>
+<li>
+<p>Ease of restoration</p>
+</li>
+<li>
+<p>Database professionals still don’t like it</p>
+<div class="ulist">
+<ul>
+<li>
+<p>“The database IS virtualization” they will say</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Virtualizaiton vs cloud</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>“Cloud is not just virtualization” many critics will say</p>
+</li>
+<li>
+<p>Financial model</p>
+</li>
+<li>
+<p>Tenancy model</p>
+</li>
+<li>
+<p>Provisioning model</p>
+</li>
+<li>
+<p>Services beyond raw compute, storage and network</p>
+</li>
+<li>
+<p>Self-service, API-driven</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Traditional managed hosting vs cloud
+* Managed services: “your mess for less”
+* Cloud: “clean it up first”</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_choosing_infrastructure">Choosing infrastructure</h4>
@@ -2460,6 +2654,16 @@ As stated in Version Control with Git:</p>
 <p>Product vs project management</p>
 </li>
 <li>
+<p>Lean Startup</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Minimum Viable Product etc</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
 <p>LeanUX and Continuous Design.</p>
 </li>
 <li>
@@ -2526,6 +2730,9 @@ As stated in Version Control with Git:</p>
 <ul>
 <li>
 <p>Reinertsen, Principles of Product Development Flow</p>
+</li>
+<li>
+<p><a href="http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/" class="bare">http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/</a></p>
 </li>
 </ul>
 </div>

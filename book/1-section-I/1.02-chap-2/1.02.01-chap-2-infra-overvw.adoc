@@ -42,4 +42,4 @@ We try to be precise. IT infrastructure is one form of infrastructure. Other kin
 
 The interesting thing is that today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born.
 
-Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure. 
+Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.

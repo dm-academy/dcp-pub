@@ -461,6 +461,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_introduction_to_chapter_2">Introduction to Chapter 2</a></li>
 <li><a href="#_infrastructure_overview">Infrastructure overview</a></li>
 <li><a href="#_choosing_infrastructure">Choosing infrastructure</a></li>
+<li><a href="#_infrastructure_as_code">Infrastructure as code</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -715,7 +716,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are fresh out of a non-technical four-year liberal arts degree, and some have years of IT experience in businesses of various sizes, including the region&#8217;s many Fortune 500 corporations.</p>
 </div>
 <div class="paragraph">
-<p>As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other&#8201;&#8212;&#8201;one of the topics in this book and its related materials.</p>
+<p>As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other&#8201;&#8212;&#8201;to be covered in the associated lab materials.</p>
 </div>
 <div class="paragraph">
 <p>My class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), ands was intended from its creation to cover the management of IT broadly. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like. Rather it serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.</p>
@@ -2048,6 +2049,72 @@ There is a near-infinite amount of material, debate, discussion, books, blogs, l
 </div>
 <div class="paragraph">
 <p><em>Iterative was not possible with earlier technical platforms.</em></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_infrastructure_as_code">Infrastructure as code</h4>
+<div class="paragraph">
+<p>So, what is infrastructure as code?</p>
+</div>
+<div class="paragraph">
+<p>As cloud infrastructures have scaled, there has been an increasing need to configure many servers identically. Auto-scaling (adding more servers in response to increasing load) has become a widely used strategy as well. Both call for increased automation in the provisioning of IT infrastructure. It is simply not possible for a human being to be hands on at all times in configuring and enabling such infrastructures, so automation is called for.
+In years past, infrastructure administrators relied on ad-hoc issuance of commands either at an operations console, or via a GUI-based application. Shell scripts might be used for various repetitive processes, but administrators by tradition and culture were empowered to issue arbitrary commands to alter the state of the running system directly.
+The following passage from The Phoenix Project captures some of the issues. The speaker is Wes, the infrastructure manager, who is discussing a troubleshooting scenario:</p>
+</div>
+<div class="paragraph">
+<p>“Several months ago, we were three hours into a Sev 1 outage, and we bent over backward not to escalate to Brent. But eventually, we got to a point where we were just out of ideas, and we were starting to make things worse. So, we put Brent on the problem.” He shakes his head, recalling the memory, “He sat down at the keyboard, and it’s like he went into this trance. Ten minutes later, the problem is fixed. Everyone is happy and relieved that the system came back up. But then someone asked, ‘How did you do it?’ And I swear to God, Brent just looked back at him blankly and said, ‘I have no idea. I just did it.’”</p>
+</div>
+<div class="paragraph">
+<p>(Kim, Gene; Behr, Kevin ; Spafford, George (2013-01-10). The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win (p. 116). IT Revolution Press. Kindle Edition.)</p>
+</div>
+<div class="paragraph">
+<p>Obviously (and as discussed in the Phoenix Project), “close your eyes and go into a trance” is not a repeatable process. It is not a procedure or operation that can be archived and distributed across multiple servers. So, shell scripts or more advanced forms of automation are written and increasingly, all actual server configuration is based on such pre-developed specification. It is becoming more and more rare for a systems administrator to actually “log in” to a server and execute configuration-changing commands in an ad-hoc manner (as Brent).
+In fact, because virtualization is becoming so powerful, servers increasingly are destroyed and rebuilt at the first sign of any trouble. In this way, it is certain that the server’s configuration is as intended. This again is a relatively new practice. Previously, because of the expense and complexity of bare-metal servers, and the cost of having them offline, great pains were taken to fix troubled servers - systems administrators would spend hours or days troubleshooting obscure configuration problems and certain servers might start to develop “personalities.”</p>
+</div>
+<div class="paragraph">
+<p>In presenting infrastructure as code at its simplest, we will start with the concept of a shell script. While this is not a deep Linux book (there are many others out there, starting with the excellent O’Reilly lineup), some basic technical literacy is assumed in this book.
+Consider the following set of commands:</p>
+</div>
+<div class="paragraph">
+<p>$ mkdir foo
+$ cd foo
+$ touch x y z
+$ cd ..
+$ mkdir bar
+$ cd bar
+$ touch a b c</p>
+</div>
+<div class="paragraph">
+<p>What does this do? It tells the computer, “Create two directories, one named foo and one named bar. In the one named foo, create three blank files named x,y, and z; in the one named bar, create three blank file, named a, b, and c.”</p>
+</div>
+<div class="paragraph">
+<p>If you find yourself (with the appropriate permissions) at a Unix command prompt, and run those commands, you will wind up with a configuration that could be visualized as this:
+￼</p>
+</div>
+<div class="paragraph">
+<p>(If you don’t understand this, you should probably spend a couple hours with a Linux tutorial).</p>
+</div>
+<div class="paragraph">
+<p>Configuration, you ask? Something this trivial? Yes, directory and file layout counts as configuration and in some cases is critical.</p>
+</div>
+<div class="paragraph">
+<p>Now, what if we take that same set of commands, and put them in a file thus:</p>
+</div>
+<div class="paragraph">
+<p>#!/bin/bash
+mkdir foo
+cd foo
+touch x y z
+cd ..
+mkdir bar
+cd bar
+touch a b c</p>
+</div>
+<div class="paragraph">
+<p>We might name that file iac.sh, set its permissions correctly, and run it.  If we did so in an empty directory, we’d again wind up with that same configuration. (If we did it in a directory already containing foo and bar directories, we’d get errors. More on this to come.)
+This will be familiar material to many of you, including the fact that beyond creating directories and files we can use shell scripts to create and destroy virtual servers, install and remove software, set up and delete users, check on the status of running processes, and much more. This is all well understood and not the purpose of this book; there is plenty of material on these topics as noted above.
+Let’s return to our iac.sh file. It’s valuable. It documents our intentions for how this configuration should look. We can reliably run it on thousands of machines and it will always give us two directories and six files. In terms of the previous section, we might choose to run it on every new server we create. We want to establish it as a known resource in our technical ecosystem.
+This is where version control comes in.</p>
 </div>
 </div>
 <div class="sect3">

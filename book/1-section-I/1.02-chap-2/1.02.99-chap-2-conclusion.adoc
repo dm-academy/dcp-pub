@@ -8,5 +8,7 @@ Conclusion placeholder
 
 ===== Further reading
 
+* Linux in a Nutshell
+* Pro Git
 * Limoncelli
 * Allspaw

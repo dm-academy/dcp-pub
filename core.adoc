@@ -25,6 +25,10 @@ include::book/1-section-I/1.02-chap-2/1.02.02-chap-2-choosing-infra.adoc[]
 
 include::book/1-section-I/1.02-chap-2/1.02.03-chap-2-infraCode.adoc[]
 
+include::book/1-section-I/1.02-chap-2/1.02.04-chap-2-metadata.adoc[]
+
+include::book/1-section-I/1.02-chap-2/1.02.05-chap-2-source-control.adoc[]
+
 include::book/1-section-I/1.02-chap-2/1.02.99-chap-2-conclusion.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.00-chap-3-intro.adoc[]

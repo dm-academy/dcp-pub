@@ -455,8 +455,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_2">Introduction to Chapter 2</a></li>
 <li><a href="#_infrastructure_overview">Infrastructure overview</a></li>
+<li><a href="#_from_physical_compute_to_cloud">From "physical" compute to Cloud</a></li>
 <li><a href="#_choosing_infrastructure">Choosing infrastructure</a></li>
 <li><a href="#_infrastructure_as_code">Infrastructure as code</a></li>
+<li><a href="#_sidebar_what_is_metadata">Sidebar: What is metadata?</a></li>
+<li><a href="#_source_control">Source control</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -1816,6 +1819,10 @@ Infrastructure is a tricky word. Google defines it thus:</p>
 </div>
 </div>
 <div class="sect3">
+<h4 id="_from_physical_compute_to_cloud">From "physical" compute to Cloud</h4>
+
+</div>
+<div class="sect3">
 <h4 id="_choosing_infrastructure">Choosing infrastructure</h4>
 <div class="paragraph">
 <p>There is ferocious turbulence in the IT infrastructure market. Cloud technologies, DevOps, various platform wars… As an entrepreneur, you need to understand what technical trends matter and what are more of same?</p>
@@ -1995,6 +2002,144 @@ This is where version control comes in.</p>
 </div>
 </div>
 <div class="sect3">
+<h4 id="_sidebar_what_is_metadata">Sidebar: What is metadata?</h4>
+<div class="paragraph">
+<p>An understanding of the term "metadata" is required for this book&#8217;s approach to IT management.</p>
+</div>
+<div class="paragraph">
+<p>Metadata is a tricky term, that tends to generate confusion. The term “meta” implies a concept that is somehow self-referential, and/or operating at a higher level of abstraction. So,</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the term meta-discussion is a discussion about the discussion;</p>
+</li>
+<li>
+<p>meta-cognition is cognition about cognition, and</p>
+</li>
+<li>
+<p>meta-data (aka metadata) is data about data.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Some examples:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>In traditional data management, metadata is the description of the data structures, especially from a business point of view. A database column might be named “CUST_L_NM,” but the business description or metadata would be “The given last, family, or surname of the customer.”</p>
+</li>
+<li>
+<p>In document management, the document metadata is the record of who created the document and when, when it was last updated, and so forth. Failure to properly sanitize document metadata has led to various privacy and data security related issues.</p>
+</li>
+<li>
+<p>In telephony,  “data” is the actual call signal — the audio of the phone conversation, nowadays usually digitally encoded. Metadata on the other hand is all the information about the call: from who to who, when, how long, and so forth.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In computer systems, metadata can be difficult to isolate. Sometimes, computing professionals will speak of a “metadata” layer that may define physical database structures, data extracts, business process behavior, even file locations. The trouble is, from a computer’s point of view, a processing instruction is an instruction, and the prefix “meta” has no real meaning.</p>
+</div>
+<div class="paragraph">
+<p>Because of this, I favor a principle that metadata is by definition non-runtime. It is documentation, usually represented as structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s logic or configuration, plain and simple.</p>
+</div>
+<div class="paragraph">
+<p>So what about our infrastructure as code example? The artifact - the configuration file, the script - is NOT metadata, because it is executable. But the source repository commit IS metadata. It has no meaning for the script. The dependency is one way - without the artifact, the commit ID is meaningless, but the artifact is completely ignorant of the commit. However, the commit may become an essential data point for human beings trying to make sense of the state of a resource defined by that artifact.</p>
+</div>
+<div class="paragraph">
+<p><strong>In this microcosm, we see the origins of IT management.</strong>
+It is not always easy to apply this approach in practice. There can be edge cases. But <strong>the concept of metadata provides a basis for distinguishing the <em>management</em> of information technology from the actual <em>practice</em> of information technology.</strong></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_source_control">Source control</h4>
+<div class="paragraph">
+<p>Now, because this is a general book on IT management, we’re going to take a bit of a different turn here. As mentioned previously, there are numerous sources available to you to learn Linux scripting, policy-based configuration management of infrastructure, and source control. Competency with source control is essential to your career and you should devote some serious time to it. This book has a different purpose: to orient you to the fundamental principles and architectures of IT management at all scales.</p>
+</div>
+<div class="paragraph">
+<p>We are going to take a very deep and targeted look at source control (aka software configuration management) because it is here that we start to see the emergence of an architecture of IT management. It is in the source control system that we first start to see metadata emerge as an independent concern.</p>
+</div>
+<div class="paragraph">
+<p>(For a definition of metadata, see the sidebar.)</p>
+</div>
+<div class="paragraph">
+<p>The concept of a “commit” is a rich foundation for IT management and governance. It both represents the state of the computing system as well as providing evidence of the human activity surrounding it.</p>
+</div>
+<div class="paragraph">
+<p>As we will see in Chapter 3, the “commit” identifier is directly referenced by build activity, which in turn is referenced by the release activity, which is typically visible across the IT value chain.</p>
+</div>
+<div class="paragraph">
+<p>Also, the concept of an atomic “commit” is essential to the concept of a “branch” - a temporarily segregation of an experimental version, so that various alterations can be tried without compromising the overall system stability. Starting at the point of a “commit,” the branched version also becomes evidence of human activity around a potential future for the system. In some environments, the branch is automatically created with the assignment of a requirement or story - again, more on this to come in chapter 3.  In other environments, the very concept of branching is avoided.</p>
+</div>
+<div class="paragraph">
+<p><em>The concept of a commit is ur-metadata and the foundation of all IT management and governance.</em></p>
+</div>
+<div class="paragraph">
+<p>The concept of a software version control system (variously known as source control, revision control, software configuration management, and other terms) is our first major software system for the “business of IT.” (The virtualization architecture previously discussed is what is under management; the source control system is part of the management architecture.)</p>
+</div>
+<div class="paragraph">
+<p>The evolution of version control systems to the pivotal role they now hold has been somewhat unexpected. While version control was always deemed important for software artifacts, it has only recently become the preferred paradigm for managing infrastructure state as well.  Because of this, a version control system is easily and without question the first IT management system you should acquire and implement.</p>
+</div>
+<div class="paragraph">
+<p>(It’s significant that the Agile Alliance indicates “version control” as one of the four foundational areas of Agile, along with team, iterative development, and incremental development.)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>agile alliance map</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>So, what is source control?</p>
+</div>
+<div class="paragraph">
+<p>Source control is like your file system, if it remembered all the changes you make to its contents, and could tell you the differences between any two versions, and also bring back the version you had at any point in time.
+Source control, as you may imagine, is critical for any kind of system with complex, changing content, especially when many people are working on that content.</p>
+</div>
+<div class="paragraph">
+<p>You can find many references to source control on the Internet and in books such as <em>Pro Git</em> by Scott Chacon and Ben Straub. As it is the most important foundational technology for professional IT, whether in a garage or in the largest corporations, you need to have a deep familiarity with it.</p>
+</div>
+<div class="paragraph">
+<p>Source control is at its most powerful when dealing with symbolic data, which we usually see as text files. It is less useful in dealing with unstructured, binary data, such as image files.</p>
+</div>
+<div class="paragraph">
+<p>This is because symbolic files can be “differenced” in a way that is meaningful to humans. If I change “abc” to “abd” it is clear that the third character has been changed from “c” to “d.”</p>
+</div>
+<div class="paragraph">
+<p>On the other hand, if I take a picture (e.g. as a JPEG file) and alter one pixel, and compare the resulting before and after binary files in terms of their data, it would be more difficult to understand what had changed. I would be able to easily tell that they are two different files (they would have different checksums), but they would look very similar.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>consider an illustration</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>IT starts with symbolic files. Text editors create source code, scripts, and configuration files. These may be transformed in defined ways (e.g. by compilers and build tools) but the human understandable end of the process is mostly based on text files.</p>
+</div>
+<div class="paragraph">
+<p>We care very much about when a text file changes. One wrong character can completely alter the behavior of a large, complex system. Therefore, our configuration management approach must track to that level of detail.</p>
+</div>
+<div class="paragraph">
+<p>Although implementation details may differ, all version control systems have some concept of “commit.”
+As stated in Version Control with Git:</p>
+</div>
+<div class="paragraph">
+<p><em>In Git, a commit is used to record changes to a repository  . . . Every Git commit represents a single, atomic changeset with respect to the previous state. Regardless of the number of directories, files, lines, or bytes that change with a commit… either all changes apply or none do. In terms of the underlying object model, atomicity just makes sense: A commit snapshot represents the total set of modified files and directories…  Git doesn’t care why files are changing. That is, the content of the changes doesn’t matter. As the developer, you might move a function from here to there and expect this to be handled as one unitary move. But you could, alternatively, commit the removal and then later commit the addition. Git doesn’t care. It has nothing to do with the semantics of what is in the files.</em></p>
+</div>
+<div class="paragraph">
+<p>(Loeliger, Jon; McCullough, Matthew (2012-08-14). Version Control with Git: Powerful tools and techniques for collaborative software development (Kindle Locations 1520-1528). O&#8217;Reilly Media. Kindle Edition.)</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Discussion of branching &amp; merging?</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
 <h4 id="_conclusion_2">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
@@ -2011,6 +2156,12 @@ This is where version control comes in.</p>
 <h5 id="_further_reading_2">Further reading</h5>
 <div class="ulist">
 <ul>
+<li>
+<p>Linux in a Nutshell</p>
+</li>
+<li>
+<p>Pro Git</p>
+</li>
 <li>
 <p>Limoncelli</p>
 </li>

@@ -47,3 +47,5 @@ The interesting thing is that today’s application becomes tomorrow’s infrast
 
 Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.
 ****
+
+==== From "physical" compute to Cloud

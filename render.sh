@@ -21,16 +21,3 @@ cp *.pdf ../aitm-pages/
 
 # build pdf
 # a2x --verbose -fpdf -dbook --fop --icons --icons-dir=$HOME/opt/asciidoc/images/icons aitm.adoc
-
-# this really feels ugly & brittle.
-# dependent on successfully changing directories along relative paths.
-
-# commit to repo
-git add . -A && git commit -m "commit"
-git push origin master
-
-# push to pages.
-cd ../aitm-pages
-git add . && git commit -m "commit"
-git push origin gh-pages
-cd ../aitm

@@ -1,4 +1,4 @@
-==== Defining IT value
+==== Defining IT, and IT value
 
 We’ve started this book in the previous section, by first defining IT value. This is deliberate. But what is IT, anyways?
 
@@ -9,6 +9,7 @@ We’ve started this book in the previous section, by first defining IT value. T
 None of these are how this book defines “IT.” Although this is not a technical book on computer science or software engineering, the intent is that it reflects and is compatible with academic theory.
 
 Therefore, “information technology” is defined as the edifice of theory and practice based on the work of Claude Shannon, Alan Turing, Alonzo Church, John von Neumann, and the other pioneers who defined the central problems of information theory, digital logic, and computability.
+
 As information technology (”IT” for the rest of this book) increasingly permeates business operations and social interactions, it becomes difficult to disentangle and analyze. However, doing so remains essential. Without a line of sight back to the intellectual foundations, technology risks becoming magic, and its users risk becoming a cargo cult.
 
 ****

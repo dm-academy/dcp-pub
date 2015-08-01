@@ -1,0 +1,24 @@
+==== Infrastructure overview
+
+In the previous chapter, you developed a product idea and a proposed Minimum Marketable Feature. Some part of that Minimum Marketable Feature requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)
+
+You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions; shut down your Twitter and Facebook feeds, and are ready to start building.
+
+Not so fast.
+
+Before you can start writing code, you need some kind of a platform. You need to decide what language you are going to write in, or what framework you are going to configure, and how that effort is going to result in an operational system capable of rendering IT services.
+
+In previous decades, books such as this might have gone into the specifics of particular platforms: mainframe vs. minicomputers, COBOL vs Fortran, Windows vs Unix, etc. Of course, this is why those books are dated and out of print.
+
+You are probably swimming in a sea of advice and options regarding your technical choices. At this writing, JavaScript is a leading choice, in conjunction with various frameworks and NoSQL options (e.g. the MEAN stack, for MongoDB, Express, Angular, and Node.js), but millions of developers are still writing Java and .Net, and Ruby and Python have significant followings. Linux is arguably the leading platform, but commercial Unix and Microsoft platforms are still strong.
+
+However, in the past few years, some powerful infrastructure concepts have solidified that are independent of particular platforms:
+
+* Automation and “infrastructure as code”
+* The centrality of source control
+* The importance of package management
+* Policy-based infrastructure management
+
+This might seem like a big detour - you are in a hurry to start writing code! But industry practice is clear. You check your code into source control from Day One. You define your server configurations as recipes, manifests, or at least shell scripts, and check those definitions into source control as well. You keep track of what you have downloaded from the Internet and what version of stuff you are using. Always downloading the “latest” package from its upstream creator might seem like the way to stay current, but it will kill you when stuff works on one server but not on another.
+
+So, you need to understand a few things and make a few decisions, that you will be living with for a while, and will not be easily changed.

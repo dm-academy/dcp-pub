@@ -459,6 +459,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_2">Introduction to Chapter 2</a></li>
 <li><a href="#_infrastructure_overview">Infrastructure overview</a></li>
+<li><a href="#_choosing_infrastructure">Choosing infrastructure</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -1937,6 +1938,9 @@ Infrastructure is a tricky word. Google defines it thus:</p>
 </div>
 </div>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_choosing_infrastructure">Choosing infrastructure</h4>
 <div class="paragraph">
 <p>There is ferocious turbulence in the IT infrastructure market. Cloud technologies, DevOps, various platform wars… As an entrepreneur, you need to understand what technical trends matter and what are more of same?</p>
 </div>
@@ -1960,14 +1964,19 @@ Infrastructure is a tricky word. Google defines it thus:</p>
 <p>The two questions are related. If you want to develop on a LAMP stack, you need a Cloud provider that will support you in this. While most are very flexible, you will need to consider the specific support levels they are offering; a provider that supports the platform (and not just the operating system) might be more valuable, but there may be higher costs and other tradeoffs.
 There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book. However, this book has certain biases and assumptions.</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>●    Your system will be built at least in part with some form of programming language which is human-readable and compiled or interpreted into binary instructions
-●    Your system will run on general purpose digital computers using well known technologies.
-●    Your computing environment is networked in a standard way
-●    You use the concept of a software pipeline, in which new functionality is developed in a scope distinct from what is currently offered as your product/service. New functionality moves through the pipeline at significant volumes and velocity and you are concerned with optimizing this overall flow.</pre>
-</div>
-</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Your system will be built at least in part with some form of programming language which is human-readable and compiled or interpreted into binary instructions</p>
+</li>
+<li>
+<p>Your system will run on general purpose digital computers using well known technologies.</p>
+</li>
+<li>
+<p>Your computing environment is networked in a standard way</p>
+</li>
+<li>
+<p>You use the concept of a software pipeline, in which new functionality is developed in a scope distinct from what is currently offered as your product/service. New functionality moves through the pipeline at significant volumes and velocity and you are concerned with optimizing this overall flow.</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1975,22 +1984,48 @@ There is a near-infinite amount of material, debate, discussion, books, blogs, l
 </li>
 </ul>
 </div>
+</li>
+</ul>
+</div>
 <div class="paragraph">
-<p>Experienced IT professionals may be jumping up and down at this point, saying “How can you be thinking about infrastructure before you have gone deeply into requirements?”
-Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements.
-There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.
-So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis paralysis. But be critical of everything especially in your first few weeks of development. Ask yourself
-	•	can I see myself doing things this way for the next year?
-	•	Will I be able to train people in this?
-	•	Will this scale to a bigger codebase? Higher performance? Faster throughput of new features?
-If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.
-In Scrum-based development, they use the concept of a “spike” to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.</p>
+<p>This is where this textbook differs from many previous textbooks.</p>
+</div>
+<div class="paragraph">
+<p>Experienced IT professionals may be jumping up and down at this point, saying “How can you be thinking about infrastructure before you have gone deeply into requirements?”</p>
+</div>
+<div class="paragraph">
+<p>Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements.</p>
+</div>
+<div class="paragraph">
+<p>There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.</p>
+</div>
+<div class="paragraph">
+<p>So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis paralysis. But be critical of everything especially in your first few weeks of development. Ask yourself</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>can I see myself doing things this way for the next year?</p>
+</li>
+<li>
+<p>Will I be able to train people in this?</p>
+</li>
+<li>
+<p>Will this scale to a bigger codebase? Higher performance? Faster throughput of new features?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.</p>
+</div>
+<div class="paragraph">
+<p>In Scrum-based development, they use the concept of a “spike” to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.</p>
 </div>
 <div class="paragraph">
 <p><a href="https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio" class="bare">https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio</a></p>
 </div>
 <div class="paragraph">
-<p>Iterative was not possible with earlier technical platforms.</p>
+<p><em>Iterative was not possible with earlier technical platforms.</em></p>
 </div>
 </div>
 <div class="sect3">

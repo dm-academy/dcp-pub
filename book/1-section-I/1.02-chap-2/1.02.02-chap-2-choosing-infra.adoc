@@ -1,3 +1,5 @@
+==== Choosing infrastructure
+
 There is ferocious turbulence in the IT infrastructure market. Cloud technologies, DevOps, various platform wars… As an entrepreneur, you need to understand what technical trends matter and what are more of same?
 
 In particular, you will need to make some level of commitment to your technical architecture. And at some point you *WILL* be asked, “You’re still using X?”
@@ -10,25 +12,31 @@ As a startup, you have two major decisions to make in product development:
 The two questions are related. If you want to develop on a LAMP stack, you need a Cloud provider that will support you in this. While most are very flexible, you will need to consider the specific support levels they are offering; a provider that supports the platform (and not just the operating system) might be more valuable, but there may be higher costs and other tradeoffs.
 There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book. However, this book has certain biases and assumptions.
 
-	●	Your system will be built at least in part with some form of programming language which is human-readable and compiled or interpreted into binary instructions
-	●	Your system will run on general purpose digital computers using well known technologies.
-	●	Your computing environment is networked in a standard way
-	●	You use the concept of a software pipeline, in which new functionality is developed in a scope distinct from what is currently offered as your product/service. New functionality moves through the pipeline at significant volumes and velocity and you are concerned with optimizing this overall flow.
+* Your system will be built at least in part with some form of programming language which is human-readable and compiled or interpreted into binary instructions
+* Your system will run on general purpose digital computers using well known technologies.
+* Your computing environment is networked in a standard way
+* You use the concept of a software pipeline, in which new functionality is developed in a scope distinct from what is currently offered as your product/service. New functionality moves through the pipeline at significant volumes and velocity and you are concerned with optimizing this overall flow.
 
 *** continue to revisit these assumptions
 
+This is where this textbook differs from many previous textbooks. 
 
 Experienced IT professionals may be jumping up and down at this point, saying “How can you be thinking about infrastructure before you have gone deeply into requirements?”
-Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements.
-There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.
-So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis paralysis. But be critical of everything especially in your first few weeks of development. Ask yourself
-	•	can I see myself doing things this way for the next year?
-	•	Will I be able to train people in this?
-	•	Will this scale to a bigger codebase? Higher performance? Faster throughput of new features?
-If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.
-In Scrum-based development, they use the concept of a “spike” to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.
 
+Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements.
+
+There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.
+
+So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis paralysis. But be critical of everything especially in your first few weeks of development. Ask yourself
+
+* can I see myself doing things this way for the next year?
+* Will I be able to train people in this?
+* Will this scale to a bigger codebase? Higher performance? Faster throughput of new features?
+
+If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.
+
+In Scrum-based development, they use the concept of a “spike” to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.
 
 https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio
 
-Iterative was not possible with earlier technical platforms. 
+_Iterative was not possible with earlier technical platforms._

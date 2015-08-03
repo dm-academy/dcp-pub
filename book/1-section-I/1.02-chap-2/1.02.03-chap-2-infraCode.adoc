@@ -54,7 +54,10 @@ Now, what if we take that same set of commands, and put them in a file thus:
 
 We might name that file iac.sh, set its permissions correctly, and run it (so that the computer executes all the commands for us, rather than us running them one at a time at the console).  If we did so in an empty directory, we’d again wind up with that same configuration. (If we did it in a directory already containing foo and bar directories, we’d get errors. More on this to come.)
 
-This will be familiar material to many of you, including the fact that beyond creating directories and files we can use shell scripts to create and destroy virtual servers, install and remove software, set up and delete users, check on the status of running processes, and much more. This is all well understood and not the purpose of this book; there is plenty of material on these topics.
+This will be familiar material to many of you, including the fact that beyond creating directories and files we can use shell scripts to create and destroy virtual servers, install and remove software, set up and delete users, check on the status of running processes, and much more.
 
-Let’s return to our iac.sh file. It’s valuable. It documents our intentions for how this configuration should look. We can reliably run it on thousands of machines and it will always give us two directories and six files. In terms of the previous section, we might choose to run it on every new server we create. We want to establish it as a known resource in our technical ecosystem.
-This is where version control comes in.
+The state of the art in infrastructure configuration is not to use shell scripts at all but rather policy-based infrastructure management approaches ...
+
+_describe modern infra managers, policy management, auto-scaling as an example, provide an example Chef script.._
+
+Let’s return to our iac.sh file. It’s valuable. It documents our intentions for how this configuration should look. We can reliably run it on thousands of machines and it will always give us two directories and six files. In terms of the previous section, we might choose to run it on every new server we create. We want to establish it as a known resource in our technical ecosystem. This is where version control comes in.

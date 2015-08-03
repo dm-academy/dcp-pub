@@ -19,3 +19,9 @@ Align introduction chapter summaries with sectional chapter summaries.
 Find framework to transform to website.
 
 Make sure person voice ("we" vs "you" is consistent)
+
+Create contributor's view
+
+Principles:
+
+* Use that iterative product diagram - we want every chapter to represent a working core - or at least every section - 

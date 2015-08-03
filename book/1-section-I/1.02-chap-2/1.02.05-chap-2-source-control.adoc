@@ -10,7 +10,7 @@ The concept of a “commit” is a rich foundation for IT management and governa
 
 As we will see in Chapter 3, the “commit” identifier is directly referenced by build activity, which in turn is referenced by the release activity, which is typically visible across the IT value chain.
 
-Also, the concept of an atomic “commit” is essential to the concept of a “branch” - a temporarily segregation of an experimental version, so that various alterations can be tried without compromising the overall system stability. Starting at the point of a “commit,” the branched version also becomes evidence of human activity around a potential future for the system. In some environments, the branch is automatically created with the assignment of a requirement or story - again, more on this to come in chapter 3.  In other environments, the very concept of branching is avoided.
+Also, the concept of an atomic “commit” is essential to the concept of a “branch” - the creation of an experimental version, completely separate from the main version, so that various alterations can be tried without compromising the overall system stability. Starting at the point of a “commit,” the branched version also becomes evidence of human activity around a potential future for the system. In some environments, the branch is automatically created with the assignment of a requirement or story - again, more on this to come in chapter 3.  In other environments, the very concept of branching is avoided.
 
 _The concept of a commit is ur-metadata and the foundation of all IT management and governance._
 

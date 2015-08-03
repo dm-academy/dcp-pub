@@ -2188,11 +2188,16 @@ touch a b c</pre>
 <p>We might name that file iac.sh, set its permissions correctly, and run it (so that the computer executes all the commands for us, rather than us running them one at a time at the console).  If we did so in an empty directory, we’d again wind up with that same configuration. (If we did it in a directory already containing foo and bar directories, we’d get errors. More on this to come.)</p>
 </div>
 <div class="paragraph">
-<p>This will be familiar material to many of you, including the fact that beyond creating directories and files we can use shell scripts to create and destroy virtual servers, install and remove software, set up and delete users, check on the status of running processes, and much more. This is all well understood and not the purpose of this book; there is plenty of material on these topics.</p>
+<p>This will be familiar material to many of you, including the fact that beyond creating directories and files we can use shell scripts to create and destroy virtual servers, install and remove software, set up and delete users, check on the status of running processes, and much more.</p>
 </div>
 <div class="paragraph">
-<p>Let’s return to our iac.sh file. It’s valuable. It documents our intentions for how this configuration should look. We can reliably run it on thousands of machines and it will always give us two directories and six files. In terms of the previous section, we might choose to run it on every new server we create. We want to establish it as a known resource in our technical ecosystem.
-This is where version control comes in.</p>
+<p>The state of the art in infrastructure configuration is not to use shell scripts at all but rather policy-based infrastructure management approaches &#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p><em>describe modern infra managers, policy management, auto-scaling as an example, provide an example Chef script..</em></p>
+</div>
+<div class="paragraph">
+<p>Let’s return to our iac.sh file. It’s valuable. It documents our intentions for how this configuration should look. We can reliably run it on thousands of machines and it will always give us two directories and six files. In terms of the previous section, we might choose to run it on every new server we create. We want to establish it as a known resource in our technical ecosystem. This is where version control comes in.</p>
 </div>
 </div>
 <div class="sect3">
@@ -2236,7 +2241,7 @@ This is where version control comes in.</p>
 <p>In computer systems, metadata can be difficult to isolate. Sometimes, computing professionals will speak of a “metadata” layer that may define physical database structures, data extracts, business process behavior, even file locations. The trouble is, from a computer’s point of view, a processing instruction is an instruction, and the prefix “meta” has no real meaning.</p>
 </div>
 <div class="paragraph">
-<p>Because of this, I favor a principle that metadata is by definition non-runtime. It is documentation, usually represented as structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s logic or configuration, plain and simple.</p>
+<p>Because of this, I favor a principle that metadata is by definition non-runtime. It is documentation, usually represented as structured or semi-structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s digital logic or configuration, plain and simple.</p>
 </div>
 <div class="paragraph">
 <p>So what about our infrastructure as code example? The artifact - the configuration file, the script - is NOT metadata, because it is executable. But the source repository commit IS metadata. It has no meaning for the script. The dependency is one way - without the artifact, the commit ID is meaningless, but the artifact is completely ignorant of the commit. However, the commit may become an essential data point for human beings trying to make sense of the state of a resource defined by that artifact.</p>
@@ -2264,7 +2269,7 @@ It is not always easy to apply this approach in practice. There can be edge case
 <p>As we will see in Chapter 3, the “commit” identifier is directly referenced by build activity, which in turn is referenced by the release activity, which is typically visible across the IT value chain.</p>
 </div>
 <div class="paragraph">
-<p>Also, the concept of an atomic “commit” is essential to the concept of a “branch” - a temporarily segregation of an experimental version, so that various alterations can be tried without compromising the overall system stability. Starting at the point of a “commit,” the branched version also becomes evidence of human activity around a potential future for the system. In some environments, the branch is automatically created with the assignment of a requirement or story - again, more on this to come in chapter 3.  In other environments, the very concept of branching is avoided.</p>
+<p>Also, the concept of an atomic “commit” is essential to the concept of a “branch” - the creation of an experimental version, completely separate from the main version, so that various alterations can be tried without compromising the overall system stability. Starting at the point of a “commit,” the branched version also becomes evidence of human activity around a potential future for the system. In some environments, the branch is automatically created with the assignment of a requirement or story - again, more on this to come in chapter 3.  In other environments, the very concept of branching is avoided.</p>
 </div>
 <div class="paragraph">
 <p><em>The concept of a commit is ur-metadata and the foundation of all IT management and governance.</em></p>

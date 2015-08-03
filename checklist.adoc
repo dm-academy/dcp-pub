@@ -24,4 +24,4 @@ Create contributor's view
 
 Principles:
 
-* Use that iterative product diagram - we want every chapter to represent a working core - or at least every section - 
+* Use that iterative product diagram - we want every chapter to represent a working core - or at least every section - eg section 1 does need all 3 - 

@@ -1,4 +1,6 @@
-At the end of the last scenario, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:
+==== Scenario
+
+At the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:
 
 |====
 |Stack 1 |Stack 2 |Stack 3 |Stack 4

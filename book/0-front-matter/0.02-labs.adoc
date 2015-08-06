@@ -26,8 +26,8 @@ At this writing I maintain my labs publicly on Github.  My syllabus and lab stru
 |Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
 5+|SECTION III: COORDINATION
 |Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) |Continue Nagios | >11 (full class)
-|Chapter 8 |Process management | |Open-source ITSM suite | >11 (full class)
-|Chapter 9 |Project & resource management | |Open-source project tool | >11 (full class)
+|Chapter 8 |Project & resource management | |Open-source project tool | >11 (full class)
+|Chapter 9 |Process management | |Open-source ITSM suite | >11 (full class)
 5+|SECTION IV: MATURATION
 |Chapter 10 |Architecture & governance | Enterprise architecture & risk mgmt | | 5
 |Chapter 11 |Portfolio and analytics |Portfolio simulation |Porfolio simulation with R? | 5

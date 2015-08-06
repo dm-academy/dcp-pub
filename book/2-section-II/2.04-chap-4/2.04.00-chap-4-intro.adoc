@@ -47,6 +47,8 @@ Assumption: Product strategy was largely tacit in Section I. Need more formalize
 Sidebar: Introducing Sussna.
 ****
 
+_see http://www.aha.io/ - lab?_
+
 ===== Chapter 4 learning objectives
 
 * Define and distinguish product versus project management

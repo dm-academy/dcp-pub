@@ -44,7 +44,7 @@ As a structuring mechanism, I have tested this in the classroom with some succes
 
 .... *Coordination*: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
 
-.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running IT at massive scale.
+.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running hetergeneous IT at massive scale.
 
 Elaborating the above outline into chapters, we have:
 
@@ -63,14 +63,14 @@ Elaborating the above outline into chapters, we have:
 ..... *Coordination*
 [start=7]
 . _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that?
-. _Process management_ OK, we have a structure. But work flows across it.
-. _Project and resource management_ Process is great, but we want to get bigger stuff done.
+. _Project and resource management_ Work is becoming larger and more complex. We need the ability to track and execute larger segments of it.
+. _Process management_ We have a structure. Work needs to flow across it.
 
 ..... *Maturation*
 [start=10]
-. _Architecture and governance_ We need to understand the big picture, reduce technical debt and redundancy, obtain better economies of scale, and cope with external forces (regulators, vendor partners, security adversaries, auditors) increasingly defining our options.
+. _Architecture and governance_ We need to understand the big picture of interacting lifecycles, reduce technical debt and redundancy, obtain better economies of scale, and cope with external forces (regulators, vendor partners, security adversaries, auditors) increasingly defining our options.
 
-. _Portfolio and analytics_ We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall dynamic system.
+. _Portfolio and analytics_ We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall dynamic system. There are a wide variety of practices, techniques, and concerns that emerge at this point.
 
 . _Chaos, complexity, and the road ahead_ No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?
 
@@ -89,7 +89,9 @@ I have spent considerable time thinking (agonizing) about the correct ordering o
 
 There is benefit to restricting the chapters to 12, as a typical semester runs 14 weeks and the book then fits quite nicely, with one chapter per class and allowing for an introductory session and final exam. (Trying to modfiy the semester system is out of scope for this project.) Of course, a two-semester series, with 2 weeks per chapter, would also work well; each half of the book is also a logical unit.
 
-The governing thought experiment is, "what would I turn my attention to next as my IT-based concerns scale up?" For example, I think process management correctly comes before project management; projects depend on having some operational foundation, I perceive, while process-driven organizations do not necessarily need projects (and in the product-centered world, some reportedly avoid them).
+The governing thought experiment is, "what would I turn my attention to next as my IT-based concerns scale up?" For example, I think work management (implying rudimentary workflow) correctly comes before formalized project management, and project management comes before fully formalized process management (including frameworks such as CMMI, COBIT and ITIL).
+
+Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations adopt ITIL or CMM before formalizing project management, that would indicate that chapters 8 and 9 should be flipped.
 
 Also, you may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 

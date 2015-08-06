@@ -1,55 +1,50 @@
-=== Chapter 8: Process Management
+=== Chapter 8: Project & Resource Management
+
+Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because the necessary information is not available. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
+
+However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning has not gone away and without project management, financial planning meets difficult challenges. The very concept of having a vision becomes problematic without some ability to plan.
+
+Because of this, this chapter also covers IT financial management at a very introductory level.
 
 ==== Introduction to chapter 8
 
-No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall  performance is an ongoing activity in most if not all organizations.
+===== Chapter 8 outline
 
-However, some less than effective things have been done in the name of "process." Both ITIL and the Capability Maturity Model-Integrated claim to be "process"-oriented, but their results have been questioned. In particular, there is risk in allowing processes to proliferate - the organization can only tolerate a certain number of processes before people start to become confused and demoralized by all the "bureaucracy." Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model.
+* Introduction to project management
+ - PMBOK etc (also covered in Appendix)
+ - Scrum and XP (Scrum introduced in 5, need to figure out correct allocation)
+  - Notice that Scrum originated from Sutherland's study of product management, not project management
 
-Nevertheless, process remains an important tool in the toolkit for organization design.
+* Is project management still needed in a product-centric world?
+ - yes. Google & FB both use it.
 
-===== Chapter 8 overview
-****
-Sidebar: Introducing ITIL.
-****
-
-Placeholder for chapter 8 introduction.
-
-* Process management basics
- - BPM community
- - Process as a Mintzberg liaison mechanism
+* Project management antipatterns
 
 ****
-Sidebar: Can microservices eliminate most or all need for cross-team communication & liaison mechanisms?
+Sidebar: Introducing Scaled Agile Framework (Leffingwell)
 ****
 
-* Function vs process
+* The estimation controversy (sidebar?)
 
-* Practice vs process
+* The future of project management
 
-* process vs execution (execution includes concern for resource)
+* Resource management (yes, it's a terrible name)
+  _get permission for Dilbert cartoon "I am not a resource"_
+  - SFIA framework
+  - Approaches to time tracking
 
-* "Process" at Toyota (Rother)
+* Supply and demand.
+  - IT talent
+  - DSE - alternate view to PBR]
+  - 2 dimensions of demand management
+  - More to come in portfolio mgmt
+  - Last responsible moment
+  - Ops theory - process, project, execution, resource & scheduling constraints
 
-* Self-organizing (kanban) processes vs. formalized process frameworks.
+  * Introduction to IT financial management
 
-* IT "process" frameworks (ITIL etc - also in appendix)
-
-* Process in product-centric organizations
-
-* Process antipatterns (should I do more with antipatterns in each chapter?)
- - Process proliferation
- - Process without execution model (demand management failure)
-
-* SLAs and the service catalog
-
-****
-Sidebar: Quality and Continuous Improvement
-****
 
 ===== Chapter 8 learning objectives
-
-* Describe a business process and how it crosses functions
-* Describe the relationship between business process and business performance
-* Describe the origins, purpose, and scope of ITIL and CMMI
-* Identify the problems of process proliferation with respect to execution and demand
+* Identify the basic practices of project management
+* Identify the basic concerns of IT resource management
+* Identify the basic concerns of IT financial management

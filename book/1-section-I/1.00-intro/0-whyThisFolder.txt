@@ -1,0 +1,1 @@
+If I don't put another folder here, the section intro as a file sorts below the chapter folders. Same for the other sections.

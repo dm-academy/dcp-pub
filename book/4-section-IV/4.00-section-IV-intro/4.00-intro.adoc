@@ -1,0 +1,20 @@
+== Section IV: Maturation
+
+=== Section IV introduction
+
+*Scenario*
+
+You are now running one of the larger and more complex IT-based operations on the planet, with an annual IT budget of hundreds of millions or billions of dollars. You have thousands of programmers, systems engineers, and IT managers, with a wide variety of responsibilities.  IT is in your market-facing products and in your back-office operations. In fact, it's sometimes hard to distinguish the boundaries as your company transforms into a digital business.
+
+Agile techniques remain important to you, but things are getting complex and you're testing the boundaries of what is possible. How can you operate at the scale you've achieved and still be Agile? As usual in life, you're finding that there are always tradeoffs. Decisions you made long ago come back to haunt you, security threats are increasing, and at your scale there's no escaping the auditors.
+
+But you have great resources at your command, and you're as well positioned as any of your competitors to meet the challenges ahead. And in the end, that's all you need.
+
+*Chapter 10: Architecture and Governance*
+We need better orientation on how the big picture fits together. We have major players and forces around us (vendors, regulators, security threats). Some of the investments we have made in technology platforms are getting old. Switching to a new platform is looking to be a "bet the company" big bet. We also have technical debt. We need to reduce redundancy and we *do* need to seek some economies of scale.
+
+*Chapter 11: Portfolio and Analytics*
+We need to define our investment strategy based on a sound understanding of both business needs and technology limitations. We need to measure this massive IT estate and understand it as an overall dynamic system, without falling into the trap of metrics for the sake of metrics.
+
+*Chapter 12: Complexity, chaos, and the road ahead*
+No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?

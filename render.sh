@@ -14,7 +14,7 @@
 
 #build html
 bundle exec rake book:build
-mv aitm.html index.html  # hack, I should figure out the CLI parm for the rake command
+mv aitm-student.html index.html  # hack, I should figure out the CLI parm for the rake command
 cp -R images ../aitm-pages/
 cp *.html ../aitm-pages/
 cp *.pdf ../aitm-pages/

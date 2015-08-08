@@ -1,13 +1,11 @@
-Agile IT Management: From Startup to Enterprise (Instructor's Edition)
-======================================================================
+Agile IT Management: From Startup to Enterprise (Student Edition)
+=================================================================
 :doctype:   book
 :docinfo:
 :toc:
 :toclevels: 3
 :front-cover-image: image::images/ITProgression.png[]
-:instructor-ed:
 :numbered:
-
 
 _Note: The README is temporarily included in the actual book build. This will likely be removed for final publication._
 

@@ -28,7 +28,7 @@ This chapter also presents an overview of source control, as even your infrastru
 
 Finally, you're ready to start building something. While this is not a book on software development or programming languages, it's important to understand some basics and at least see them in action.
 
-This is also the "DevOps" chapter; it's not just about writing code, but about the entire end to end system that gets the code you are writing from your workstation. From source repository to build manager to package repository to production, we'll cover a basic toolchain that will help you understand modern industrial practices.
+This is also the "DevOps" chapter; it's not just about writing code, but about the entire end to end system that gets the code you are writing from your workstation, into collaborative environments, and finally to a state where it can be accessed by end users. From source repository to build manager to package repository to production, we'll cover a basic toolchain that will help you understand modern industrial practices.
 
 *This section's lab approach*
 

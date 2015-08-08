@@ -1,19 +1,13 @@
-Agile IT Management: From Startup to Enterprise
-===============================================
+Agile IT Management: From Startup to Enterprise (Collaborative Draft)
+======================================================================
 :doctype:   book
 :docinfo:
 :toc:
 :toclevels: 3
 :front-cover-image: image::images/ITProgression.png[]
+:instructor-ed:
+:collaborator-draft:
 :numbered:
-
-image::images/ITProgression.png[scaledwidth="100%"]
-
-****
-
-DRAFT v0.02
-
-****
 
 _Note: The README is temporarily included in the actual book build. This will likely be removed for final publication._
 

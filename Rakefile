@@ -11,9 +11,10 @@ namespace :book do
   desc 'build basic book formats'
   task :build => :prebuild do
     puts "Converting to HTML..."
-    `bundle exec asciidoctor aitm.adoc`
+    `bundle exec asciidoctor aitm-student.adoc`
     `bundle exec asciidoctor aitm-instructor.adoc`
-    puts " -- HTML output at aitm.html, aitm-instructor.html"
+    `bundle exec asciidoctor aitm-collaborator.adoc`
+    puts " -- HTML output at aitm-student.html, aitm-instructor.html, aitm-collaborator.html"
 
 
     #puts "Converting to EPub..."

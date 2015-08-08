@@ -18,6 +18,8 @@ In fact, because virtualization is becoming so powerful, servers increasingly ar
 
 Previously, because of the expense and complexity of bare-metal servers, and the cost of having them offline, great pains were taken to fix troubled servers. Systems administrators would spend hours or days troubleshooting obscure configuration problems, such as residual settings left by removed software. Certain servers might start to develop “personalities.” Industry practice has changed dramatically here since around 2010.
 
+===== A simple infrastructure as code example
+
 *Note, the below section is illustrative only, and is not intended as a lab. The associated lab for this book goes into much more depth on these topics.*
 
 In presenting infrastructure as code at its simplest, we will start with the concept of a shell script. While this is not a deep Linux book (there are many others out there, starting with the excellent O’Reilly lineup), some basic technical literacy is assumed in this book.

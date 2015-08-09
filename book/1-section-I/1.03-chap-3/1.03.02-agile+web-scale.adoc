@@ -1,0 +1,107 @@
+==== Agile and Web-scale IT
+
+This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)
+
+We now understand that the product development process starts with a concept of requirement (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..
+
+When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development.”
+
+What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it. (***cite Royce) Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
+
+image::images/waterfall.png[]
+
+First, requirements needed to be extensively captured and analyzed before the work of development should commence.
+So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.”
+
+The analysis phase was used to develop a more structured understanding of the requirements, e.g. conceptual and logical data models, process models, business rules, and so forth.
+
+In the design phase, the actual technical platforms would be chosen; major subsystems determined with their connection points, initial volumetrics translated into system sizing, and so forth. (Perhaps hardware would not be ordered until this point, leading to issues with developers now being “ready” but hardware not available for weeks or months yet.)
+
+Only AFTER extensive requirements, analysis, and design would coding take place (implementation). There was furthermore separation of duties between developers and testers. Developers would write code and testers would try to break it, filing bug reports that the developers would then need to respond to.
+
+Another model sometimes encountered at this time was the V-model. This was intended to better represent the various levels of abstraction operating in the systems delivery activity. Requirements operate at various levels, from high level business intent through detailed specifications. It is all too possible that a system is “successfully” implemented at lower levels of specification, but fails to satisfy the original higher level intent.
+
+image::images/1.03-vmodel.png[]
+
+The failures of these approaches at scale are by now well known. Large distributed teams would wrestle with thousands of requirements. The customer would “sign off” on multiple large binders, with widely varying degrees of understanding of what they were agreeing to. Documentation became an end in itself, and yet did not meet its objectives of ensuring continuity if staff turned over.
+The development team would design and build out extensive product implementations without checking the results with customers. And they would defer testing that various component parts would effectively interoperate, until the very end of the project when the time came to assemble the whole system.
+
+Failure after failure of this approach is apparent in the historical record (***Glass et al, but not Standish). This led to the perception of a “software crisis.”  (It should also be noted that many large systems were effectively constructed and operated, and that there are reasonable criticisms of the concept of a “software crisis” (French author)).
+
+It should be noted that successful development efforts existed back to the earliest days of computing (otherwise, we probably wouldn’t have computers, or at least not so many). Many of these successful efforts used prototypes and other means of building understanding and proving out approaches. But highly publicized failures continued, and a substantial movement against “waterfall” development started to take shape.
+
+By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)
+
+Various authors assembled in XXXX and developed the Agile Manifesto, which further emphasized an emergent set of values and practices:
+
+****
+*The Agile Manifesto*
+We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:
+
+* Individuals and interactions over processes and tools
+* Working software over comprehensive documentation
+* Customer collaboration over contract negotiation
+* Responding to change over following a plan
+
+That is, while there is value in the items on
+the right, we value the items on the left more.
+
+The Manifesto authors further stated:
+
+We follow these principles:
+
+Our highest priority is to satisfy the customer
+through early and continuous delivery
+of valuable software.
+
+Welcome changing requirements, even late in
+development. Agile processes harness change for
+the customer's competitive advantage.
+
+Deliver working software frequently, from a
+couple of weeks to a couple of months, with a
+preference to the shorter timescale.
+
+Business people and developers must work
+together daily throughout the project.
+
+Build projects around motivated individuals.
+Give them the environment and support they need,
+and trust them to get the job done.
+
+The most efficient and effective method of
+conveying information to and within a development
+team is face-to-face conversation.
+
+Working software is the primary measure of progress.
+
+Agile processes promote sustainable development.
+The sponsors, developers, and users should be able
+to maintain a constant pace indefinitely.
+
+Continuous attention to technical excellence
+and good design enhances agility.
+
+Simplicity--the art of maximizing the amount
+of work not done--is essential.
+
+The best architectures, requirements, and designs
+emerge from self-organizing teams.
+
+At regular intervals, the team reflects on how
+to become more effective, then tunes and adjusts
+its behavior accordingly.
+
+****
+
+The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery. Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).
+
+Web-based systems integrate the software development lifecycle tightly with operational concerns. The development of new functionality is moved rapidly into a user-facing state, as opposed to previous models where software development was more distant in time and personnel from operations staff. We will talk more of product-centricity and the overall DevOps movement in the next section.
+
+Software was moving more directly into an operational state, and developers and operators were part of the same economic concern (contract software development never gained favor in the Silicon Valley web-scale community). So, it was possible to start breaking down the walls between “development” and “operations,” and that is just what happened.
+
+This new world also did not function at all in terms of large requirements specifications. Capturing a requirement, analyzing and designing to it, implementing it, testing that implementation, and deploying the result to the end user for feedback became something that needed to happen at speed, with high repeatability.
+
+These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base. Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never full understood in any event.) This has paid off in many cases.

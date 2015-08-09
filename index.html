@@ -467,6 +467,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_3">Introduction to chapter 3</a></li>
 <li><a href="#_scenario">Scenario</a></li>
+<li><a href="#_agile_and_web_scale_it">Agile and Web-scale IT</a></li>
+<li><a href="#_devops_and_related_practices">Devops and related practices</a></li>
 <li><a href="#_conclusion_3">Conclusion</a></li>
 </ul>
 </li>
@@ -1443,7 +1445,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>If you need computer scientists or engineers who understand the fundamentals of information theory and computer science, you are doing IT.</p>
 </li>
 <li>
-<p>If you need people who understand when your information-centric problems might need to be referred to such theorists and enginers, you are likely doing IT.</p>
+<p>If you need people who understand when your information-centric problems might need to be referred to such theorists and engineers, you are likely doing IT.</p>
 </li>
 <li>
 <p>If you need people who are skilled in building upon those fundamentals,  and operating technical platforms derived from them (such as programming languages, general purpose computers, and routers), you are doing IT.</p>
@@ -2244,7 +2246,7 @@ touch a b c</pre>
 <p>In computer systems, metadata can be difficult to isolate. Sometimes, computing professionals will speak of a “metadata” layer that may define physical database structures, data extracts, business process behavior, even file locations. The trouble is, from a computer’s point of view, a processing instruction is an instruction, and the prefix “meta” has no real meaning.</p>
 </div>
 <div class="paragraph">
-<p>Because of this, I favor a principle that metadata is by definition non-runtime. It is documentation, usually represented as structured or semi-structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s digital logic or configuration, plain and simple.</p>
+<p>Because of this, I favor a principle that <strong>metadata is by definition non-runtime.</strong> It is documentation, usually represented as structured or semi-structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s digital logic or configuration, plain and simple.</p>
 </div>
 <div class="paragraph">
 <p>So what about our infrastructure as code example? The artifact - the configuration file, the script - is NOT metadata, because it is executable. But the source repository commit IS metadata. It has no meaning for the script. The dependency is one way - without the artifact, the commit ID is meaningless, but the artifact is completely ignorant of the commit. However, the commit may become an essential data point for human beings trying to make sense of the state of a resource defined by that artifact.</p>
@@ -2568,6 +2570,509 @@ As stated in Version Control with Git:</p>
 </div>
 <div class="paragraph">
 <p>What is meant by a continuous delivery pipeline? Here is an overview.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_agile_and_web_scale_it">Agile and Web-scale IT</h4>
+<div class="paragraph">
+<p>This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)</p>
+</div>
+<div class="paragraph">
+<p>We now understand that the product development process starts with a concept of requirement (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..</p>
+</div>
+<div class="paragraph">
+<p>When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development.”</p>
+</div>
+<div class="paragraph">
+<p>What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it. (***cite Royce) Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/waterfall.png" alt="waterfall">
+</div>
+</div>
+<div class="paragraph">
+<p>First, requirements needed to be extensively captured and analyzed before the work of development should commence.
+So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.”</p>
+</div>
+<div class="paragraph">
+<p>The analysis phase was used to develop a more structured understanding of the requirements, e.g. conceptual and logical data models, process models, business rules, and so forth.</p>
+</div>
+<div class="paragraph">
+<p>In the design phase, the actual technical platforms would be chosen; major subsystems determined with their connection points, initial volumetrics translated into system sizing, and so forth. (Perhaps hardware would not be ordered until this point, leading to issues with developers now being “ready” but hardware not available for weeks or months yet.)</p>
+</div>
+<div class="paragraph">
+<p>Only AFTER extensive requirements, analysis, and design would coding take place (implementation). There was furthermore separation of duties between developers and testers. Developers would write code and testers would try to break it, filing bug reports that the developers would then need to respond to.</p>
+</div>
+<div class="paragraph">
+<p>Another model sometimes encountered at this time was the V-model. This was intended to better represent the various levels of abstraction operating in the systems delivery activity. Requirements operate at various levels, from high level business intent through detailed specifications. It is all too possible that a system is “successfully” implemented at lower levels of specification, but fails to satisfy the original higher level intent.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.03-vmodel.png" alt="1.03 vmodel">
+</div>
+</div>
+<div class="paragraph">
+<p>The failures of these approaches at scale are by now well known. Large distributed teams would wrestle with thousands of requirements. The customer would “sign off” on multiple large binders, with widely varying degrees of understanding of what they were agreeing to. Documentation became an end in itself, and yet did not meet its objectives of ensuring continuity if staff turned over.
+The development team would design and build out extensive product implementations without checking the results with customers. And they would defer testing that various component parts would effectively interoperate, until the very end of the project when the time came to assemble the whole system.</p>
+</div>
+<div class="paragraph">
+<p>Failure after failure of this approach is apparent in the historical record (***Glass et al, but not Standish). This led to the perception of a “software crisis.”  (It should also be noted that many large systems were effectively constructed and operated, and that there are reasonable criticisms of the concept of a “software crisis” (French author)).</p>
+</div>
+<div class="paragraph">
+<p>It should be noted that successful development efforts existed back to the earliest days of computing (otherwise, we probably wouldn’t have computers, or at least not so many). Many of these successful efforts used prototypes and other means of building understanding and proving out approaches. But highly publicized failures continued, and a substantial movement against “waterfall” development started to take shape.</p>
+</div>
+<div class="paragraph">
+<p>By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)</p>
+</div>
+<div class="paragraph">
+<p>Various authors assembled in XXXX and developed the Agile Manifesto, which further emphasized an emergent set of values and practices:</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>The Agile Manifesto</strong>
+We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Individuals and interactions over processes and tools</p>
+</li>
+<li>
+<p>Working software over comprehensive documentation</p>
+</li>
+<li>
+<p>Customer collaboration over contract negotiation</p>
+</li>
+<li>
+<p>Responding to change over following a plan</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>That is, while there is value in the items on
+the right, we value the items on the left more.</p>
+</div>
+<div class="paragraph">
+<p>The Manifesto authors further stated:</p>
+</div>
+<div class="paragraph">
+<p>We follow these principles:</p>
+</div>
+<div class="paragraph">
+<p>Our highest priority is to satisfy the customer
+through early and continuous delivery
+of valuable software.</p>
+</div>
+<div class="paragraph">
+<p>Welcome changing requirements, even late in
+development. Agile processes harness change for
+the customer&#8217;s competitive advantage.</p>
+</div>
+<div class="paragraph">
+<p>Deliver working software frequently, from a
+couple of weeks to a couple of months, with a
+preference to the shorter timescale.</p>
+</div>
+<div class="paragraph">
+<p>Business people and developers must work
+together daily throughout the project.</p>
+</div>
+<div class="paragraph">
+<p>Build projects around motivated individuals.
+Give them the environment and support they need,
+and trust them to get the job done.</p>
+</div>
+<div class="paragraph">
+<p>The most efficient and effective method of
+conveying information to and within a development
+team is face-to-face conversation.</p>
+</div>
+<div class="paragraph">
+<p>Working software is the primary measure of progress.</p>
+</div>
+<div class="paragraph">
+<p>Agile processes promote sustainable development.
+The sponsors, developers, and users should be able
+to maintain a constant pace indefinitely.</p>
+</div>
+<div class="paragraph">
+<p>Continuous attention to technical excellence
+and good design enhances agility.</p>
+</div>
+<div class="paragraph">
+<p>Simplicity&#8212;&#8203;the art of maximizing the amount
+of work not done&#8212;&#8203;is essential.</p>
+</div>
+<div class="paragraph">
+<p>The best architectures, requirements, and designs
+emerge from self-organizing teams.</p>
+</div>
+<div class="paragraph">
+<p>At regular intervals, the team reflects on how
+to become more effective, then tunes and adjusts
+its behavior accordingly.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery. Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).</p>
+</div>
+<div class="paragraph">
+<p>Web-based systems integrate the software development lifecycle tightly with operational concerns. The development of new functionality is moved rapidly into a user-facing state, as opposed to previous models where software development was more distant in time and personnel from operations staff. We will talk more of product-centricity and the overall DevOps movement in the next section.</p>
+</div>
+<div class="paragraph">
+<p>Software was moving more directly into an operational state, and developers and operators were part of the same economic concern (contract software development never gained favor in the Silicon Valley web-scale community). So, it was possible to start breaking down the walls between “development” and “operations,” and that is just what happened.</p>
+</div>
+<div class="paragraph">
+<p>This new world also did not function at all in terms of large requirements specifications. Capturing a requirement, analyzing and designing to it, implementing it, testing that implementation, and deploying the result to the end user for feedback became something that needed to happen at speed, with high repeatability.</p>
+</div>
+<div class="paragraph">
+<p>These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base. Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never full understood in any event.) This has paid off in many cases.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_devops_and_related_practices">Devops and related practices</h4>
+<div class="paragraph">
+<p>Consider the Lean Software challenge by Mary and Tom Poppendieck: (***cite)</p>
+</div>
+<div class="paragraph">
+<p>How long would it take you to change one line of code?</p>
+</div>
+<div class="paragraph">
+<p>The implicit goal is that the organization should be able to change one line of code, and in fact might want to do so on an ongoing basis.</p>
+</div>
+<div class="paragraph">
+<p>There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence.</p>
+</div>
+<div class="paragraph">
+<p>Achieving this goal is feasible but requires a different approach&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Applied in an IT setting, a number of practitioners have explored this approach and encountered great success. Key initial milestones included</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The establishment of “test-driven development” as a key best practice in creating software</p>
+</li>
+<li>
+<p>Duvall’s book “Continuous Integration”</p>
+</li>
+<li>
+<p>Allspaw &amp; X’s seminal “10 Deploys a Day” presentation describing at Etsy</p>
+</li>
+<li>
+<p>Humble &amp; Farley’s “Continuous Delivery”</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Create a Repeatable, Reliable Process for Releasing Software</p>
+</li>
+<li>
+<p>Automate Almost Everything</p>
+</li>
+<li>
+<p>Keep Everything in Version Control</p>
+</li>
+<li>
+<p>If It Hurts, Do It More Frequently, and Bring the Pain Forward</p>
+</li>
+<li>
+<p>Build Quality In</p>
+</li>
+<li>
+<p>Done Means Released</p>
+</li>
+<li>
+<p>Everybody Is Responsible for the Delivery Process</p>
+</li>
+<li>
+<p>Continuous Improvement
+(***cite)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Humble’s book is recommended unreservedly.</p>
+</div>
+<div class="paragraph">
+<p>Let’s go into a little detail on the essential Agile practices.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Test driven development</p>
+</li>
+<li>
+<p>Ongoing refactoring</p>
+</li>
+<li>
+<p>Continuous integration</p>
+</li>
+<li>
+<p>Continuous deployment</p>
+</li>
+</ul>
+</div>
+<div class="sect4">
+<h5 id="_describing_system_intent">Describing system intent</h5>
+<div class="paragraph">
+<p>So, you’ve got an idea for a product value experience, and you have tools for creating it and infrastructure for running it. It’s time to start building shippable product.
+In order to do this, you need to express what you need the product to do. The conceptual tool used to do this is called Requirement.
+The literal word “Requirement” has fallen out of favor with the rise of Agile, and has a number of synonyms and variations:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Use case</p>
+</li>
+<li>
+<p>User story</p>
+</li>
+<li>
+<p>Nonfunctional requirement</p>
+</li>
+<li>
+<p>Epic</p>
+</li>
+<li>
+<p>Architectural epic</p>
+</li>
+<li>
+<p>Architectural requirement</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill.</p>
+</div>
+<div class="paragraph">
+<p><em>I’m sure we can find a million references on this</em></p>
+</div>
+<div class="paragraph">
+<p>The requirement calls for work to be performed.</p>
+</div>
+<div class="paragraph">
+<p>An large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.</p>
+</div>
+<div class="paragraph">
+<p>Because the requirement leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_test_driven_development">Test-driven development</h5>
+<div class="paragraph">
+<p>Test-driven development. (Sidebar)</p>
+</div>
+<div class="paragraph">
+<p>As Martin Fowler says,</p>
+</div>
+<div class="paragraph">
+<p>The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else.
+(***http://martinfowler.com/books/meszaros.html)</p>
+</div>
+<div class="paragraph">
+<p>In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in eXtreme Programming: write the test first. Thus:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Given a “user story” (I.e requirement), figure out a test that will demonstrate its successful implementation.</p>
+</li>
+<li>
+<p>Write this test using the established testing framework.</p>
+</li>
+<li>
+<p>Write the code that fulfills the test</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Some readers may be thinking, “I know how to write a little code, but what is this about using code to write a test?”</p>
+</div>
+<div class="paragraph">
+<p>While we avoid much indepth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the Calavera project, the basis for the companion labs to this book. Let’s say we want a function that will take a string of characters and wrap it in some HTML “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.</p>
+</div>
+<div class="paragraph">
+<p>We write the test first:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>public class TestClass1 {
+ private H1Class a;  //
+ @Before
+ public void setUp() throws Exception {
+  this.a = new H1Class("TestWebMessage");
+ }
+ @Test
+  public void testTrue() {
+    assertEquals("string correctly generated",
+     "&lt;h1&gt;TestWebMessage&lt;/h1&gt;",
+     this.a.webMessage());// string built correctly
+  }
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then, we write the class:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre> public class H1Class {
+  String strMsg;
+  public String webMessage()
+    {
+      return "&lt;h1&gt;" + strMsg + "&lt;/h1&gt;";
+    }
+}</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>When we run the test harness correctly (e.g. using a build tool such as Ant or Maven), the test class</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>creates an instance of the class H1Class, based on a string “TestWebMessage”, and</p>
+</li>
+<li>
+<p>confirms that the returned string is “&lt;h1&gt;TestWebMessage&lt;/h1&gt;”.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>If that string is not correctly generated, or the class cannot be created, or any other error occurs, the test fails and this is then reported via error results at the console, or (in the case of automated build) will be detected by the build manager and displayed as the build outcome.</p>
+</div>
+<div class="paragraph">
+<p>Other languages use different approaches from that shown here, but every serious programming environment at this point supports test-driven development.</p>
+</div>
+<div class="paragraph">
+<p>The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.</p>
+</div>
+<div class="paragraph">
+<p>Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. For example, it’s reported that Google runs 100 million automated tests daily. (cite).  It has been successfully employed also in hardware development. (cite)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Pyramid vs cupcake
+<a href="http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&amp;utm_medium=social&amp;utm_source=twitter" class="bare">http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&amp;utm_medium=social&amp;utm_source=twitter</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_refactoring">Refactoring</h5>
+<div class="paragraph">
+<p>Test-driven development enables the next major practice, that of refactoring. As defined by Martin Fowler,</p>
+</div>
+<div class="paragraph">
+<p><em>Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. (<strong>*</strong> cite)</em></p>
+</div>
+<div class="paragraph">
+<p>Refactoring is how you address technical debt. What is technical debt? Technical debt is defined by Wikipedia as</p>
+</div>
+<div class="paragraph">
+<p><em>…the eventual consequences of poor system design, software architecture or software development within a codebase. The debt can be thought of as work that needs to be done before a particular job can be considered complete or proper. If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.
+Analogous to monetary debt, technical debt is not necessarily a bad thing, and sometime technical debt is required to move project forwards.
+<a href="http://en.wikipedia.org/wiki/Technical_debt" class="bare">http://en.wikipedia.org/wiki/Technical_debt</a></em></p>
+</div>
+<div class="paragraph">
+<p>Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities. Prioritizing the relative investment of repaying technical debt vs. developing new functionality will be examined in future sections, but at least you now know the tools and concepts.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_continuous_integration">Continuous integration</h5>
+<div class="paragraph">
+<p>The term “continuous integration” was popularized by Duvall in his book of the same name.</p>
+</div>
+<div class="paragraph">
+<p>In order to understand why continuous integration is important, it is necessary to further discuss the concept of source control and how it is employed in real world settings.
+Imagine you have been working for some time with your partner in your startup (or on your small team) and you have three code modules. You are writing the web front end (file set A), your partner is writing the administrative tools and reporting (file set B), and you both partner on the data access layer (file set C).
+The conflict of course arises on the file set C that you both need to work on.  A and B are mostly independent of each other, but changes to any part of C can have an impact on both your modules.</p>
+</div>
+<div class="paragraph">
+<p>If changes are frequently needed to C, and yet you cannot split it into logically separate modules, you have a problem; you cannot both work on the same file at the same time. You also are concerned that the other person does not introduce changes into C that “break” the code in your module A.</p>
+</div>
+<div class="paragraph">
+<p>In smaller environments, or under older practices, perhaps there is no conflict, or perhaps you can agree to take turns. But even if you are taking turns, you still need to test your code in A to make sure it’s not been broken by changes your partner made in C.
+And what if you really both need to work on C at the same time?</p>
+</div>
+<div class="paragraph">
+<p>These problems have driven the evolution of software configuration management for decades. Current practices are well developed and represent a highly evolved understanding gained through the painful trial and error of many development teams over many years.</p>
+</div>
+<div class="paragraph">
+<p>Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously.
+Wait, you say. How can that work?</p>
+</div>
+<div class="paragraph">
+<p>This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are developer, the day’s work might be as follows:
+8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.
+8:30 AM: You define a test and start developing the code to fulfill it.</p>
+</div>
+<div class="paragraph">
+<p>10 AM: You are closing in on wrapping up the first requirement. You check the source repository. Your partner has checked in some new code, so you pull it down to your local repository. You run all the automated tests and nothing breaks, so you’re fine.</p>
+</div>
+<div class="paragraph">
+<p>10:30 You complete your first update of the day; it passes all tests on your workstation. You commit it to the master repository. The master repository is continually monitored by the build server, which takes the code you created and deploys it, along with all necessary configurations, to a dedicated build server (which might be just a virtual machine or transient container). All tests pass there (the test you defined as indicating success for the module, as well as a host of older tests that are routinely run whenever the code is updated.</p>
+</div>
+<div class="paragraph">
+<p>11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.</p>
+</div>
+<div class="paragraph">
+<p>And so it goes. These practices arose in response to the phenomenon of “merge hell” that was seen in older development approaches. In previous methods, to develop a new release, the code would be copied into a very long-lived branch. Ongoing “maintenance” fixes of the existing code base would also continue, and the two code bases would inevitably diverge. Switching over to the “new” code base might mean that once-fixed bugs (bugs that had been addressed by maintenance activities) would show up again, and of course this would not be acceptable.</p>
+</div>
+<div class="paragraph">
+<p>So, when the newer development was complete, it would need to be merged back into the older line of code, and this was rarely if ever easy. In a worst case scenario, the new development might have to be redone.</p>
+</div>
+<div class="paragraph">
+<p>Enter continuous integration. The key practices include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Source control (hopefully we have been harping on this enough that you are taking it seriously by now). Distributed version control systems such as git are especially popular, although older centralized products are starting to adopt some of their functionality (blog re: DVCS hype)</p>
+</li>
+<li>
+<p>Test-driven development</p>
+</li>
+<li>
+<p>Automated build activities</p>
+</li>
+<li>
+<p>Frequent integration of short-lived development branches with the main code repository (“mainline” or “trunk”)</p>
+</li>
+<li>
+<p>A defined package repository as a definitive location for the build output.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The idea that “Crucially, if the build fails, the development team stops whatever they are doing and fixes the problem immediately” (***humble) has been argued against at <a href="http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html" class="bare">http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html</a>.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_continuous_deployment">Continuous Deployment</h5>
+<div class="paragraph">
+<p>Finally, assuming that continuous integration is running effectively, one can take the last mile step and deploy the now tested and built software to pre-production or production environments.</p>
+</div>
+<div class="paragraph">
+<p>At this point, the software can undergo user testing, load testing, integration testing, and so forth. Once those tests are passed, it can be deployed to production.
+(What is “production,” anyways? We’ll talk about environments in Section 2. For now, you just need to know that when an IT-based product is “in production,” that means it is live and available to its intended base of end users or customers.)</p>
+</div>
+<div class="paragraph">
+<p>Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.</p>
+</div>
 </div>
 </div>
 <div class="sect3">

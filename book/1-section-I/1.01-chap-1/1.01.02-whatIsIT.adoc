@@ -39,7 +39,7 @@ In the digitally transforming economy, traditional “back office” IT organiza
 So, how do we define an IT problem, as opposed to other kinds of business problems? An IT problem is any problem where you are primarily constrained by your capability and understanding of IT.
 
 * If you need computer scientists or engineers who understand the fundamentals of information theory and computer science, you are doing IT.
-* If you need people who understand when your information-centric problems might need to be referred to such theorists and enginers, you are likely doing IT.
+* If you need people who understand when your information-centric problems might need to be referred to such theorists and engineers, you are likely doing IT.
 * If you need people who are skilled in building upon those fundamentals,  and operating technical platforms derived from them (such as programming languages, general purpose computers, and routers), you are doing IT.
 
 And regardless of where the IT is housed (under a traditional CIO, an operations capability, a Chief Marketing Officer, or a “line of business”),  when it is critical to operations, certain concerns inevitably follow:

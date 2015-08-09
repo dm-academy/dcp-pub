@@ -1,0 +1,190 @@
+==== Devops and related practices
+
+Consider the Lean Software challenge by Mary and Tom Poppendieck: (***cite)
+
+How long would it take you to change one line of code?
+
+The implicit goal is that the organization should be able to change one line of code, and in fact might want to do so on an ongoing basis.
+
+There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence.
+
+Achieving this goal is feasible but requires a different approach...
+
+
+
+Applied in an IT setting, a number of practitioners have explored this approach and encountered great success. Key initial milestones included
+
+* The establishment of “test-driven development” as a key best practice in creating software
+* Duvall’s book “Continuous Integration”
+* Allspaw & X’s seminal “10 Deploys a Day” presentation describing at Etsy
+* Humble & Farley’s “Continuous Delivery”
+
+There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:
+
+* Create a Repeatable, Reliable Process for Releasing Software
+* Automate Almost Everything
+* Keep Everything in Version Control
+* If It Hurts, Do It More Frequently, and Bring the Pain Forward
+* Build Quality In
+* Done Means Released
+* Everybody Is Responsible for the Delivery Process
+ * Continuous Improvement
+(***cite)
+
+Humble’s book is recommended unreservedly.
+
+Let’s go into a little detail on the essential Agile practices.
+
+* Test driven development
+* Ongoing refactoring
+* Continuous integration
+* Continuous deployment
+
+===== Describing system intent
+
+So, you’ve got an idea for a product value experience, and you have tools for creating it and infrastructure for running it. It’s time to start building shippable product.
+In order to do this, you need to express what you need the product to do. The conceptual tool used to do this is called Requirement.
+The literal word “Requirement” has fallen out of favor with the rise of Agile, and has a number of synonyms and variations:
+
+* Use case
+* User story
+* Nonfunctional requirement
+* Epic
+* Architectural epic
+* Architectural requirement
+
+While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill.
+
+_I’m sure we can find a million references on this_
+
+The requirement calls for work to be performed.
+
+An large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.
+
+Because the requirement leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled.
+
+===== Test-driven development
+
+Test-driven development. (Sidebar)
+
+As Martin Fowler says,
+
+The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else.
+(***http://martinfowler.com/books/meszaros.html)
+
+In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in eXtreme Programming: write the test first. Thus:
+
+	1.	Given a “user story” (I.e requirement), figure out a test that will demonstrate its successful implementation.
+	2.	Write this test using the established testing framework.
+	3.	Write the code that fulfills the test
+
+Some readers may be thinking, “I know how to write a little code, but what is this about using code to write a test?”
+
+While we avoid much indepth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the Calavera project, the basis for the companion labs to this book. Let’s say we want a function that will take a string of characters and wrap it in some HTML “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.
+
+We write the test first:
+
+ public class TestClass1 {
+  private H1Class a;  //
+  @Before
+  public void setUp() throws Exception {
+   this.a = new H1Class("TestWebMessage");
+  }
+  @Test
+   public void testTrue() {
+     assertEquals("string correctly generated",
+      "<h1>TestWebMessage</h1>",
+      this.a.webMessage());// string built correctly
+   }
+ }
+
+Then, we write the class:
+
+ public class H1Class {
+  String strMsg;
+  public String webMessage()
+    {
+      return "<h1>" + strMsg + "</h1>";
+    }
+}
+
+When we run the test harness correctly (e.g. using a build tool such as Ant or Maven), the test class
+
+. creates an instance of the class H1Class, based on a string “TestWebMessage”, and
+. confirms that the returned string is “<h1>TestWebMessage</h1>”.
+
+If that string is not correctly generated, or the class cannot be created, or any other error occurs, the test fails and this is then reported via error results at the console, or (in the case of automated build) will be detected by the build manager and displayed as the build outcome.
+
+Other languages use different approaches from that shown here, but every serious programming environment at this point supports test-driven development.
+
+The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.
+
+Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. For example, it’s reported that Google runs 100 million automated tests daily. (cite).  It has been successfully employed also in hardware development. (cite)
+
+*** Pyramid vs cupcake
+http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&utm_medium=social&utm_source=twitter
+
+===== Refactoring
+
+Test-driven development enables the next major practice, that of refactoring. As defined by Martin Fowler,
+
+_Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. (*** cite)_
+
+Refactoring is how you address technical debt. What is technical debt? Technical debt is defined by Wikipedia as
+
+_…the eventual consequences of poor system design, software architecture or software development within a codebase. The debt can be thought of as work that needs to be done before a particular job can be considered complete or proper. If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.
+Analogous to monetary debt, technical debt is not necessarily a bad thing, and sometime technical debt is required to move project forwards.
+http://en.wikipedia.org/wiki/Technical_debt_
+
+Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities. Prioritizing the relative investment of repaying technical debt vs. developing new functionality will be examined in future sections, but at least you now know the tools and concepts.
+
+===== Continuous integration
+The term “continuous integration” was popularized by Duvall in his book of the same name.
+
+In order to understand why continuous integration is important, it is necessary to further discuss the concept of source control and how it is employed in real world settings.
+Imagine you have been working for some time with your partner in your startup (or on your small team) and you have three code modules. You are writing the web front end (file set A), your partner is writing the administrative tools and reporting (file set B), and you both partner on the data access layer (file set C).
+The conflict of course arises on the file set C that you both need to work on.  A and B are mostly independent of each other, but changes to any part of C can have an impact on both your modules.
+
+If changes are frequently needed to C, and yet you cannot split it into logically separate modules, you have a problem; you cannot both work on the same file at the same time. You also are concerned that the other person does not introduce changes into C that “break” the code in your module A.
+
+In smaller environments, or under older practices, perhaps there is no conflict, or perhaps you can agree to take turns. But even if you are taking turns, you still need to test your code in A to make sure it’s not been broken by changes your partner made in C.
+And what if you really both need to work on C at the same time?
+
+These problems have driven the evolution of software configuration management for decades. Current practices are well developed and represent a highly evolved understanding gained through the painful trial and error of many development teams over many years.
+
+Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously.
+Wait, you say. How can that work?
+
+This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are developer, the day’s work might be as follows:
+8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.
+8:30 AM: You define a test and start developing the code to fulfill it.
+
+10 AM: You are closing in on wrapping up the first requirement. You check the source repository. Your partner has checked in some new code, so you pull it down to your local repository. You run all the automated tests and nothing breaks, so you’re fine.
+
+10:30 You complete your first update of the day; it passes all tests on your workstation. You commit it to the master repository. The master repository is continually monitored by the build server, which takes the code you created and deploys it, along with all necessary configurations, to a dedicated build server (which might be just a virtual machine or transient container). All tests pass there (the test you defined as indicating success for the module, as well as a host of older tests that are routinely run whenever the code is updated.
+
+11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.
+
+And so it goes. These practices arose in response to the phenomenon of “merge hell” that was seen in older development approaches. In previous methods, to develop a new release, the code would be copied into a very long-lived branch. Ongoing “maintenance” fixes of the existing code base would also continue, and the two code bases would inevitably diverge. Switching over to the “new” code base might mean that once-fixed bugs (bugs that had been addressed by maintenance activities) would show up again, and of course this would not be acceptable.
+
+So, when the newer development was complete, it would need to be merged back into the older line of code, and this was rarely if ever easy. In a worst case scenario, the new development might have to be redone.
+
+Enter continuous integration. The key practices include:
+
+* Source control (hopefully we have been harping on this enough that you are taking it seriously by now). Distributed version control systems such as git are especially popular, although older centralized products are starting to adopt some of their functionality (blog re: DVCS hype)
+
+* Test-driven development
+* Automated build activities
+* Frequent integration of short-lived development branches with the main code repository (“mainline” or “trunk”)
+* A defined package repository as a definitive location for the build output.
+
+The idea that “Crucially, if the build fails, the development team stops whatever they are doing and fixes the problem immediately” (***humble) has been argued against at http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html.
+
+===== Continuous Deployment
+
+Finally, assuming that continuous integration is running effectively, one can take the last mile step and deploy the now tested and built software to pre-production or production environments.
+
+At this point, the software can undergo user testing, load testing, integration testing, and so forth. Once those tests are passed, it can be deployed to production.
+(What is “production,” anyways? We’ll talk about environments in Section 2. For now, you just need to know that when an IT-based product is “in production,” that means it is live and available to its intended base of end users or customers.)
+
+Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.

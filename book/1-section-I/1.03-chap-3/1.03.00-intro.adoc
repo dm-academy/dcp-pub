@@ -5,7 +5,7 @@ ifdef::instructor-ed[]
 _Instructor's note_
 I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapter 4. So, this chapter presents Agile and related concepts like iterative development without examining the underlying principles.
 
-I do this because I have discovered that theory sometimes works better in retrospect. Many students increasingly come in with some exposure to Agile methods at least, and Chapter 3 will seem comfortable and familiar. In Chapter 4 we challenge them with *why* Agile works.
+I do this because I have discovered that theory sometimes works better in retrospect. Many students increasingly come in with some exposure to Cloud and Agile methods at least, and Chapters 2 and 3 will seem comfortable and familiar. In Chapter 4 we challenge them with *why* Agile works.
 
 ****
 endif::instructor-ed[]

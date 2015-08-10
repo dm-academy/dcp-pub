@@ -7,10 +7,10 @@ You presumably have some resources (time and money). It’s Monday morning, you 
 Not so fast.
 
 Before you can start writing code, you need some kind of a platform. You need to decide what language you are going to write in, or what framework you are going to configure, and how that effort is going to result in an operational system capable of rendering IT services.
+`
+`You are probably swimming in a sea of advice and options regarding your technical choices. In previous decades, books such as this might have gone into the specifics of particular platforms: mainframe vs. minicomputers, COBOL vs Fortran, Windows vs Unix, etc.
 
-You are probably swimming in a sea of advice and options regarding your technical choices. In previous decades, books such as this might have gone into the specifics of particular platforms: mainframe vs. minicomputers, COBOL vs Fortran, Windows vs Unix, etc.
-
-At this writing, JavaScript is a leading choice, in conjunction with various frameworks and NoSQL options (e.g. the MEAN stack, for MongoDB, Express, Angular, and Node.js), but millions of developers are still writing Java and .Net, and Ruby and Python have significant followings. Linux is arguably the leading platform, but commercial Unix and Microsoft platforms are still strong.
+At this writing, JavaScript is a leading choice, in conjunction with various frameworks and NoSQL options (e.g. the MEAN stack, for MongoDB, Express, Angular, and Node.js), but millions of developers are still writing Java and .Net, and Ruby and Python have significant followings. Linux is arguably the leading platform, but commercial Unix and Microsoft platforms are still strong. And, periodically it's reported that the majority of the world's transactions *still* run on COBOL-based systems.
 
 However, in the past few years, some powerful infrastructure concepts have solidified that are independent of particular platforms:
 

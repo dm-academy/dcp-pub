@@ -1,6 +1,6 @@
 === Chapter 9: Process Management
 
-==== Introduction to chapter 8
+==== Introduction to chapter 9
 
 No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall  performance is an ongoing activity in most if not all organizations.
 

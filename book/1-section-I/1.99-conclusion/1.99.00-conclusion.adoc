@@ -1,3 +1,5 @@
+=== Section I Conclusion
+
 We are now at the end of the first section, and one quarter the way through this book (and this course, assuming you are taking a semester long treatment).
 
 You are now the proud master or mistress of a functioning startup. You have decided to provide some product that at least partially depends on an IT-based component that you need to actively develop.
@@ -10,5 +12,7 @@ Congratulations, you’ve got all the basics in place. Your product is starting 
 
 ****
 *Staying at Level 1*
-In your career, many - perhaps even the majority - of the people you meet and work with will be focused on Level 1 in their thinking and approach. 
+In your career, many - perhaps even the majority - of the people you meet and work with will be focused on Level 1 in their thinking and approach.
 ****
+
+_should we do section I readings/questions?_

@@ -1,0 +1,74 @@
+==== Test-driven development and refactoring
+
+Test-driven development. (Sidebar)
+
+As Martin Fowler says,
+
+The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else.
+(***http://martinfowler.com/books/meszaros.html)
+
+In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in eXtreme Programming: write the test first. Thus:
+
+	1.	Given a “user story” (I.e requirement), figure out a test that will demonstrate its successful implementation.
+	2.	Write this test using the established testing framework.
+	3.	Write the code that fulfills the test
+
+Some readers may be thinking, “I know how to write a little code, but what is this about using code to write a test?”
+
+While we avoid much indepth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the Calavera project, the basis for the companion labs to this book. Let’s say we want a function that will take a string of characters and wrap it in some HTML “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.
+
+We write the test first:
+
+ public class TestClass1 {
+  private H1Class a;  //
+  @Before
+  public void setUp() throws Exception {
+   this.a = new H1Class("TestWebMessage");
+  }
+  @Test
+   public void testTrue() {
+     assertEquals("string correctly generated",
+      "<h1>TestWebMessage</h1>",
+      this.a.webMessage());// string built correctly
+   }
+ }
+
+Then, we write the class:
+
+ public class H1Class {
+  String strMsg;
+  public String webMessage()
+    {
+      return "<h1>" + strMsg + "</h1>";
+    }
+}
+
+When we run the test harness correctly (e.g. using a build tool such as Ant or Maven), the test class
+
+. creates an instance of the class H1Class, based on a string “TestWebMessage”, and
+. confirms that the returned string is “<h1>TestWebMessage</h1>”.
+
+If that string is not correctly generated, or the class cannot be created, or any other error occurs, the test fails and this is then reported via error results at the console, or (in the case of automated build) will be detected by the build manager and displayed as the build outcome.
+
+Other languages use different approaches from that shown here, but every serious programming environment at this point supports test-driven development.
+
+The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.
+
+Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. For example, it’s reported that Google runs 100 million automated tests daily. (cite).  It has been successfully employed also in hardware development. (cite)
+
+*** Pyramid vs cupcake
+http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&utm_medium=social&utm_source=twitter
+
+===== Refactoring
+
+Test-driven development enables the next major practice, that of refactoring. As defined by Martin Fowler,
+
+_Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. (*** cite)_
+
+Refactoring is how you address technical debt. What is technical debt? Technical debt is defined by Wikipedia as
+
+_…the eventual consequences of poor system design, software architecture or software development within a codebase. The debt can be thought of as work that needs to be done before a particular job can be considered complete or proper. If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.
+Analogous to monetary debt, technical debt is not necessarily a bad thing, and sometime technical debt is required to move project forwards.
+http://en.wikipedia.org/wiki/Technical_debt_
+
+Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities. Prioritizing the relative investment of repaying technical debt vs. developing new functionality will be examined in future sections, but at least you now know the tools and concepts.

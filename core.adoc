@@ -37,9 +37,17 @@ include::book/1-section-I/1.03-chap-3/1.03.00-intro.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.01-scenario.adoc[]
 
-include::book/1-section-I/1.03-chap-3/1.03.02-agile+web-scale.adoc[]
+include::book/1-section-I/1.03-chap-3/1.03.02-agile-background.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.03-continuous-delivery.adoc[]
+
+include::book/1-section-I/1.03-chap-3/1.03.04-system-intent.adoc[]
+
+include::book/1-section-I/1.03-chap-3/1.03.05-test-driven.adoc[]
+
+include::book/1-section-I/1.03-chap-3/1.03.06-continuous-integration.adoc[]
+
+include::book/1-section-I/1.03-chap-3/1.03.07-continuous-deployment.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.99-conclusion.adoc[]
 

@@ -467,8 +467,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_3">Introduction to chapter 3</a></li>
 <li><a href="#_scenario">Scenario</a></li>
-<li><a href="#_agile_and_web_scale_it">Agile and Web-scale IT</a></li>
+<li><a href="#_background_of_the_agile_movement">Background of the "Agile" movement</a></li>
 <li><a href="#_devops_and_related_practices">Devops and related practices</a></li>
+<li><a href="#_describing_system_intent">Describing system intent</a></li>
+<li><a href="#_test_driven_development_and_refactoring">Test-driven development and refactoring</a></li>
+<li><a href="#_continuous_integration">Continuous integration</a></li>
+<li><a href="#_continuous_deployment">Continuous Deployment</a></li>
 <li><a href="#_conclusion_3">Conclusion</a></li>
 </ul>
 </li>
@@ -2573,7 +2577,7 @@ As stated in Version Control with Git:</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_agile_and_web_scale_it">Agile and Web-scale IT</h4>
+<h4 id="_background_of_the_agile_movement">Background of the "Agile" movement</h4>
 <div class="paragraph">
 <p>This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)</p>
 </div>
@@ -2826,8 +2830,9 @@ its behavior accordingly.</p>
 </li>
 </ul>
 </div>
-<div class="sect4">
-<h5 id="_describing_system_intent">Describing system intent</h5>
+</div>
+<div class="sect3">
+<h4 id="_describing_system_intent">Describing system intent</h4>
 <div class="paragraph">
 <p>So, you’ve got an idea for a product value experience, and you have tools for creating it and infrastructure for running it. It’s time to start building shippable product.
 In order to do this, you need to express what you need the product to do. The conceptual tool used to do this is called Requirement.
@@ -2871,8 +2876,8 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 <p>Because the requirement leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_test_driven_development">Test-driven development</h5>
+<div class="sect3">
+<h4 id="_test_driven_development_and_refactoring">Test-driven development and refactoring</h4>
 <div class="paragraph">
 <p>Test-driven development. (Sidebar)</p>
 </div>
@@ -2972,7 +2977,6 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 </li>
 </ul>
 </div>
-</div>
 <div class="sect4">
 <h5 id="_refactoring">Refactoring</h5>
 <div class="paragraph">
@@ -2993,8 +2997,9 @@ Analogous to monetary debt, technical debt is not necessarily a bad thing, and s
 <p>Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities. Prioritizing the relative investment of repaying technical debt vs. developing new functionality will be examined in future sections, but at least you now know the tools and concepts.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_continuous_integration">Continuous integration</h5>
+</div>
+<div class="sect3">
+<h4 id="_continuous_integration">Continuous integration</h4>
 <div class="paragraph">
 <p>The term “continuous integration” was popularized by Duvall in his book of the same name.</p>
 </div>
@@ -3063,8 +3068,8 @@ Wait, you say. How can that work?</p>
 <p>The idea that “Crucially, if the build fails, the development team stops whatever they are doing and fixes the problem immediately” (***humble) has been argued against at <a href="http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html" class="bare">http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html</a>.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_continuous_deployment">Continuous Deployment</h5>
+<div class="sect3">
+<h4 id="_continuous_deployment">Continuous Deployment</h4>
 <div class="paragraph">
 <p>Finally, assuming that continuous integration is running effectively, one can take the last mile step and deploy the now tested and built software to pre-production or production environments.</p>
 </div>
@@ -3074,7 +3079,6 @@ Wait, you say. How can that work?</p>
 </div>
 <div class="paragraph">
 <p>Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.</p>
-</div>
 </div>
 </div>
 <div class="sect3">

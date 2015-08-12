@@ -1,0 +1,22 @@
+==== Describing system intent
+
+So, you’ve got an idea for a product value experience, and you have tools for creating it and infrastructure for running it. It’s time to start building shippable product.
+In order to do this, you need to express what you need the product to do. The conceptual tool used to do this is called Requirement.
+The literal word “Requirement” has fallen out of favor with the rise of Agile, and has a number of synonyms and variations:
+
+* Use case
+* User story
+* Nonfunctional requirement
+* Epic
+* Architectural epic
+* Architectural requirement
+
+While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill.
+
+_I’m sure we can find a million references on this_
+
+The requirement calls for work to be performed.
+
+An large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.
+
+Because the requirement leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled.

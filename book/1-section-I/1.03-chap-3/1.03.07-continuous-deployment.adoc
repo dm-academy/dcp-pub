@@ -1,0 +1,8 @@
+==== Continuous Deployment
+
+Finally, assuming that continuous integration is running effectively, one can take the last mile step and deploy the now tested and built software to pre-production or production environments.
+
+At this point, the software can undergo user testing, load testing, integration testing, and so forth. Once those tests are passed, it can be deployed to production.
+(What is “production,” anyways? We’ll talk about environments in Section 2. For now, you just need to know that when an IT-based product is “in production,” that means it is live and available to its intended base of end users or customers.)
+
+Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.

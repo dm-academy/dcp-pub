@@ -43,6 +43,8 @@ include::book/1-section-I/1.03-chap-3/1.03.03-continuous-delivery.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.99-conclusion.adoc[]
 
+include::book/1-section-I/1.99-conclusion/1.99.00-conclusion.adoc[]
+
 include::book/2-section-II/2.00-intro/2.00.00-intro.adoc[]
 
 include::book/2-section-II/2.04-chap-4/2.04.00-intro.adoc[]

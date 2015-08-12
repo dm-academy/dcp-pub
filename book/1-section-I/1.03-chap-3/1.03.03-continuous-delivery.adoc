@@ -10,7 +10,7 @@ There is deep Lean/Agile theory behind this goal, theory developed in reaction t
 
 Achieving this goal is feasible but requires a different approach...
 
-Applied in an IT setting, a number of practitioners have explored this approach and encountered great success. Key initial milestones included
+  Applied in an IT setting, a number of practitioners have explored this approach and encountered great success. Key initial milestones included
 
 * The establishment of “test-driven development” as a key best practice in creating software
 * Duvall’s book “Continuous Integration”

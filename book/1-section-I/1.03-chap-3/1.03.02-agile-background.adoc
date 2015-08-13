@@ -1,4 +1,4 @@
-==== Background of the "Agile" movement
+==== History of the Agile movement
 
 This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)
 
@@ -8,7 +8,7 @@ When the author first joined Andersen Consulting (now Accenture) in 1998, we wer
 
 What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it. (***cite Royce) Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
 
-image::images/waterfall.png[]
+image::images/1.03-waterfall.png[]
 
 First, requirements needed to be extensively captured and analyzed before the work of development should commence.
 So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.”

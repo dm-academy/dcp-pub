@@ -8,6 +8,9 @@ Conclusion placeholder
 
 ===== Further reading
 
+* Lean Startup by Ries
+
+
  * http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319[_Code_], Charles Petzold
  * http://www.amazon.com/Information-History-Theory-Flood/dp/1400096235/ref=sr_1_1?s=books&ie=UTF8&qid=1438398170&sr=1-1&keywords=the+information[_The Information,_] James Glieck
 * http://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation-ebook/dp/B004J4XGN6/ref=sr_1_1?s=books&ie=UTF8&qid=1438398231&sr=1-1&keywords=the+lean+startup[_The Lean Startup_], Ries

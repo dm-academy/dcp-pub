@@ -31,6 +31,15 @@ Sidebar: Can microservices eliminate most or all need for cross-team communicati
 
 * "Process" at Toyota (Rother)
 
+****
+Sidebar: Lessons from manufacturing, operations research, etc
+
+Controversy of application to IT
+
+Will this have been foreshadowed? 
+****
+
+
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
 * IT "process" frameworks (ITIL etc - also in appendix)

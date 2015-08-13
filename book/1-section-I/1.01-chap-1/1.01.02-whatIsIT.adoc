@@ -1,4 +1,4 @@
-==== Defining IT, and IT value
+==== Defining Information Technology
 
 We’ve started this book in the previous section, by first defining IT value. This is deliberate. But what is IT, anyways?
 
@@ -32,7 +32,7 @@ Carr’s hypothesis has insight -- there is no question IT is becoming pervasive
 
 A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provision as a commodity service needs little else to deliver the legal strategies a firm needs. A graphic designer may use computerized graphic tools, but these have become relatively standardized and commoditized in the past twenty years, and probably are not a source of competitive advantage in the quest for new marketing clients.
 
-On the other hand, consider a text analytic algorithm that replaces dozens of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This *is* strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these -- and they seem to be increasing -- IT matters very much.
+On the other hand, consider a text analytic algorithm that replaces thousands of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This *is* strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these -- and they seem to be increasing -- IT matters very much.
 
 In the digitally transforming economy, traditional “back office” IT organizations find themselves called on to envision, develop, and support market-facing applications of IT. And what starts with one market-facing use case can quickly expand into entire portfolios.  It is such cases that this book is particularly concerned with.
 

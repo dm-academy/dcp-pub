@@ -451,8 +451,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_1">Introduction to Chapter 1</a></li>
 <li><a href="#_what_is_it_value">What is IT value?</a></li>
-<li><a href="#_defining_it_and_it_value">Defining IT, and IT value</a></li>
+<li><a href="#_defining_information_technology">Defining Information Technology</a></li>
 <li><a href="#_examining_an_it_value_experience">Examining an IT value experience</a></li>
+<li><a href="#_the_it_service_and_the_it_stack">The IT "service" and the IT "stack"</a></li>
+<li><a href="#_the_it_service_lifecycle">The IT service lifecycle</a></li>
+<li><a href="#_the_it_user_and_the_it_customer">The IT user and the IT customer</a></li>
 <li><a href="#_conclusion">Conclusion</a></li>
 </ul>
 </li>
@@ -463,7 +466,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_from_physical_compute_to_cloud">From "physical" compute to Cloud</a></li>
 <li><a href="#_choosing_infrastructure">Choosing infrastructure</a></li>
 <li><a href="#_infrastructure_as_code">Infrastructure as code</a></li>
-<li><a href="#_sidebar_what_is_metadata">Sidebar: What is metadata?</a></li>
+<li><a href="#_from_scripts_to_policies">From scripts to policies</a></li>
 <li><a href="#_source_control">Source control</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
@@ -471,13 +474,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_chapter_3_application_delivery">Chapter 3: Application Delivery</a>
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_3">Introduction to chapter 3</a></li>
-<li><a href="#_scenario">Scenario</a></li>
-<li><a href="#_background_of_the_agile_movement">Background of the "Agile" movement</a></li>
-<li><a href="#_devops_and_related_practices">Devops and related practices</a></li>
+<li><a href="#_history_of_the_agile_movement">History of the Agile movement</a></li>
+<li><a href="#_a_continuous_delivery_pipeline">A continuous delivery pipeline</a></li>
 <li><a href="#_describing_system_intent">Describing system intent</a></li>
 <li><a href="#_test_driven_development_and_refactoring">Test-driven development and refactoring</a></li>
 <li><a href="#_continuous_integration">Continuous integration</a></li>
-<li><a href="#_continuous_deployment">Continuous Deployment</a></li>
+<li><a href="#_continuous_deployment">Continuous deployment</a></li>
 <li><a href="#_conclusion_3">Conclusion</a></li>
 </ul>
 </li>
@@ -1388,10 +1390,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>An IT value experience</p>
 </li>
 <li>
-<p>Examining IT value</p>
+<p>What is "information technology"?</p>
 </li>
 <li>
-<p>The IT stack</p>
+<p>The IT "service" and the IT "stack"</p>
 </li>
 <li>
 <p>The IT service</p>
@@ -1523,7 +1525,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 </div>
 <div class="sect3">
-<h4 id="_defining_it_and_it_value">Defining IT, and IT value</h4>
+<h4 id="_defining_information_technology">Defining Information Technology</h4>
 <div class="paragraph">
 <p>We’ve started this book in the previous section, by first defining IT value. This is deliberate. But what is IT, anyways?</p>
 </div>
@@ -1583,7 +1585,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provision as a commodity service needs little else to deliver the legal strategies a firm needs. A graphic designer may use computerized graphic tools, but these have become relatively standardized and commoditized in the past twenty years, and probably are not a source of competitive advantage in the quest for new marketing clients.</p>
 </div>
 <div class="paragraph">
-<p>On the other hand, consider a text analytic algorithm that replaces dozens of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This <strong>is</strong> strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these&#8201;&#8212;&#8201;and they seem to be increasing&#8201;&#8212;&#8201;IT matters very much.</p>
+<p>On the other hand, consider a text analytic algorithm that replaces thousands of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This <strong>is</strong> strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these&#8201;&#8212;&#8201;and they seem to be increasing&#8201;&#8212;&#8201;IT matters very much.</p>
 </div>
 <div class="paragraph">
 <p>In the digitally transforming economy, traditional “back office” IT organizations find themselves called on to envision, develop, and support market-facing applications of IT. And what starts with one market-facing use case can quickly expand into entire portfolios.  It is such cases that this book is particularly concerned with.</p>
@@ -1669,8 +1671,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="sect3">
 <h4 id="_examining_an_it_value_experience">Examining an IT value experience</h4>
-<div class="sect4">
-<h5 id="_the_it_stack">The "IT stack"</h5>
+
+</div>
+<div class="sect3">
+<h4 id="_the_it_service_and_the_it_stack">The IT "service" and the IT "stack"</h4>
 <div class="paragraph">
 <p>Let&#8217;s examine our user&#8217;s value experience in more detail, without getting unnecessrily technical.</p>
 </div>
@@ -1699,16 +1703,13 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 </div>
 </div>
-</div>
-<div class="sect4">
-<h5 id="_the_it_service">The "IT service"</h5>
 <div class="paragraph">
 <p><em>discussion of momemt of truth, experience vs. system</em>
 <em>current thinking on service definition?</em></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/01-ITmomentTruth.png" alt="01 ITmomentTruth">
+<img src="images/1.01-ITmomentTruth.png" alt="1.01 ITmomentTruth">
 </div>
 </div>
 <div class="paragraph">
@@ -1718,8 +1719,8 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>"inside out" vs "outside in" thinking, useful themes but beware of applying them as absolutes - they are always relative.</p>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_the_it_service_changes_over_time">The IT service changes over time</h5>
+<div class="sect3">
+<h4 id="_the_it_service_lifecycle">The IT service lifecycle</h4>
 <div class="paragraph">
 <p><em>reused graphic to be redrawn</em></p>
 </div>
@@ -1728,17 +1729,14 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <img src="images/1.01-ITSvcChg.png" alt="1.01 ITSvcChg">
 </div>
 </div>
-</div>
-<div class="sect4">
-<h5 id="_the_it_service_lifecycle">The IT service lifecycle</h5>
 <div class="imageblock">
 <div class="content">
 <img src="images/1.01-ITStates.png" alt="1.01 ITStates">
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_the_it_user_vs_it_customer">The IT user vs IT customer</h5>
+<div class="sect3">
+<h4 id="_the_it_user_and_the_it_customer">The IT user and the IT customer</h4>
 <div class="paragraph">
 <p>But who paid for our user&#8217;s enjoyment? The bank and restaurant both had clear motivation for supporting a better on line experience, and people now expect that service organizations provide this. The bank experiences less customer turnover and increased likelihood that customers add additional services. The restaurant sees increased traffic and smoother flow from more efficient reservations. Both see increased competitiveness.</p>
 </div>
@@ -1755,7 +1753,6 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="paragraph">
 <p>For example, the ability for banks to hold money as electronic bits on a computer is rooted in the earliest history of banking and the emergence of centralized settlement and clearing mechanisms. The existence of global Internet connectivity relies on laws supporting utility easements and rights of way. Without a social infrastructure, social and collaborative technology has no meaning.</p>
-</div>
 </div>
 </div>
 </div>
@@ -1777,6 +1774,9 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <h5 id="_further_reading">Further reading</h5>
 <div class="ulist">
 <ul>
+<li>
+<p>Lean Startup by Ries</p>
+</li>
 <li>
 <p><a href="http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319"><em>Code</em></a>, Charles Petzold</p>
 </li>
@@ -2357,55 +2357,8 @@ touch a b c</pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_sidebar_what_is_metadata">Sidebar: What is metadata?</h4>
-<div class="paragraph">
-<p>An understanding of the term "metadata" is required for this book&#8217;s approach to IT management.</p>
-</div>
-<div class="paragraph">
-<p>Metadata is a tricky term, that tends to generate confusion. The term “meta” implies a concept that is somehow self-referential, and/or operating at a higher level of abstraction. So,</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>the term meta-discussion is a discussion about the discussion;</p>
-</li>
-<li>
-<p>meta-cognition is cognition about cognition, and</p>
-</li>
-<li>
-<p>meta-data (aka metadata) is data about data.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Some examples:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>In traditional data management, metadata is the description of the data structures, especially from a business point of view. A database column might be named “CUST_L_NM,” but the business description or metadata would be “The given last, family, or surname of the customer.”</p>
-</li>
-<li>
-<p>In document management, the document metadata is the record of who created the document and when, when it was last updated, and so forth. Failure to properly sanitize document metadata has led to various privacy and data security related issues.</p>
-</li>
-<li>
-<p>In telephony,  “data” is the actual call signal — the audio of the phone conversation, nowadays usually digitally encoded. Metadata on the other hand is all the information about the call: from who to who, when, how long, and so forth.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>In computer systems, metadata can be difficult to isolate. Sometimes, computing professionals will speak of a “metadata” layer that may define physical database structures, data extracts, business process behavior, even file locations. The trouble is, from a computer’s point of view, a processing instruction is an instruction, and the prefix “meta” has no real meaning.</p>
-</div>
-<div class="paragraph">
-<p>Because of this, I favor a principle that <strong>metadata is by definition non-runtime.</strong> It is documentation, usually represented as structured or semi-structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s digital logic or configuration, plain and simple.</p>
-</div>
-<div class="paragraph">
-<p>So what about our infrastructure as code example? The artifact - the configuration file, the script - is NOT metadata, because it is executable. But the source repository commit IS metadata. It has no meaning for the script. The dependency is one way - without the artifact, the commit ID is meaningless, but the artifact is completely ignorant of the commit. However, the commit may become an essential data point for human beings trying to make sense of the state of a resource defined by that artifact.</p>
-</div>
-<div class="paragraph">
-<p><strong>In this microcosm, we see the origins of IT management.</strong>
-It is not always easy to apply this approach in practice. There can be edge cases. But <strong>the concept of metadata provides a basis for distinguishing the <em>management</em> of information technology from the actual <em>practice</em> of information technology.</strong></p>
-</div>
+<h4 id="_from_scripts_to_policies">From scripts to policies</h4>
+
 </div>
 <div class="sect3">
 <h4 id="_source_control">Source control</h4>
@@ -2491,6 +2444,57 @@ As stated in Version Control with Git:</p>
 <div class="literalblock">
 <div class="content">
 <pre>Discussion of branching &amp; merging?</pre>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_sidebar_what_is_metadata">Sidebar: What is metadata?</h5>
+<div class="paragraph">
+<p>An understanding of the term "metadata" is required for this book&#8217;s approach to IT management.</p>
+</div>
+<div class="paragraph">
+<p>Metadata is a tricky term, that tends to generate confusion. The term “meta” implies a concept that is somehow self-referential, and/or operating at a higher level of abstraction. So,</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the term meta-discussion is a discussion about the discussion;</p>
+</li>
+<li>
+<p>meta-cognition is cognition about cognition, and</p>
+</li>
+<li>
+<p>meta-data (aka metadata) is data about data.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Some examples:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>In traditional data management, metadata is the description of the data structures, especially from a business point of view. A database column might be named “CUST_L_NM,” but the business description or metadata would be “The given last, family, or surname of the customer.”</p>
+</li>
+<li>
+<p>In document management, the document metadata is the record of who created the document and when, when it was last updated, and so forth. Failure to properly sanitize document metadata has led to various privacy and data security related issues.</p>
+</li>
+<li>
+<p>In telephony,  “data” is the actual call signal — the audio of the phone conversation, nowadays usually digitally encoded. Metadata on the other hand is all the information about the call: from who to who, when, how long, and so forth.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In computer systems, metadata can be difficult to isolate. Sometimes, computing professionals will speak of a “metadata” layer that may define physical database structures, data extracts, business process behavior, even file locations. The trouble is, from a computer’s point of view, a processing instruction is an instruction, and the prefix “meta” has no real meaning.</p>
+</div>
+<div class="paragraph">
+<p>Because of this, I favor a principle that <strong>metadata is by definition non-runtime.</strong> It is documentation, usually represented as structured or semi-structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s digital logic or configuration, plain and simple.</p>
+</div>
+<div class="paragraph">
+<p>So what about our infrastructure as code example? The artifact - the configuration file, the script - is NOT metadata, because it is executable. But the source repository commit IS metadata. It has no meaning for the script. The dependency is one way - without the artifact, the commit ID is meaningless, but the artifact is completely ignorant of the commit. However, the commit may become an essential data point for human beings trying to make sense of the state of a resource defined by that artifact.</p>
+</div>
+<div class="paragraph">
+<p><strong>In this microcosm, we see the origins of IT management.</strong>
+It is not always easy to apply this approach in practice. There can be edge cases. But <strong>the concept of metadata provides a basis for distinguishing the <em>management</em> of information technology from the actual <em>practice</em> of information technology.</strong></p>
 </div>
 </div>
 </div>
@@ -2693,64 +2697,7 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 </div>
 </div>
 <div class="sect3">
-<h4 id="_scenario">Scenario</h4>
-<div class="paragraph">
-<p>At the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:</p>
-</div>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Stack 1</th>
-<th class="tableblock halign-left valign-top">Stack 2</th>
-<th class="tableblock halign-left valign-top">Stack 3</th>
-<th class="tableblock halign-left valign-top">Stack 4</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C#</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Javascript, Express &amp; Angular</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oracle DB</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MS SQL Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MongoDB</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Websphere</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">.Net</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Web Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Commercial Unix</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Microsoft Windows</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat Linux</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ubuntu Linux</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are usually matters of personal choice and limited to developers’ desktops.</p>
-</div>
-<div class="paragraph">
-<p>The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. You want to set this up before developing a single line of code. It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).</p>
-</div>
-<div class="paragraph">
-<p>What is meant by a continuous delivery pipeline? Here is an overview.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_background_of_the_agile_movement">Background of the "Agile" movement</h4>
+<h4 id="_history_of_the_agile_movement">History of the Agile movement</h4>
 <div class="paragraph">
 <p>This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)</p>
 </div>
@@ -2765,7 +2712,7 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/waterfall.png" alt="waterfall">
+<img src="images/1.03-waterfall.png" alt="1.03 waterfall">
 </div>
 </div>
 <div class="paragraph">
@@ -2912,7 +2859,61 @@ its behavior accordingly.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_devops_and_related_practices">Devops and related practices</h4>
+<h4 id="_a_continuous_delivery_pipeline">A continuous delivery pipeline</h4>
+<div class="paragraph">
+<p>At the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Stack 1</th>
+<th class="tableblock halign-left valign-top">Stack 2</th>
+<th class="tableblock halign-left valign-top">Stack 3</th>
+<th class="tableblock halign-left valign-top">Stack 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C#</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Javascript, Express &amp; Angular</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Oracle DB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MS SQL Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MongoDB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Websphere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">.Net</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Web Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Commercial Unix</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Microsoft Windows</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat Linux</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ubuntu Linux</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are usually matters of personal choice and limited to developers’ desktops.</p>
+</div>
+<div class="paragraph">
+<p>The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. You want to set this up before developing a single line of code. It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).</p>
+</div>
+<div class="paragraph">
+<p>What is meant by a continuous delivery pipeline? Here is an overview.</p>
+</div>
 <div class="paragraph">
 <p>Consider the Lean Software challenge by Mary and Tom Poppendieck: (***cite)</p>
 </div>
@@ -3242,7 +3243,7 @@ Wait, you say. How can that work?</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_continuous_deployment">Continuous Deployment</h4>
+<h4 id="_continuous_deployment">Continuous deployment</h4>
 <div class="paragraph">
 <p>Finally, assuming that continuous integration is running effectively, one can take the last mile step and deploy the now tested and built software to pre-production or production environments.</p>
 </div>
@@ -3257,7 +3258,7 @@ Wait, you say. How can that work?</p>
 <div class="sect3">
 <h4 id="_conclusion_3">Conclusion</h4>
 <div class="paragraph">
-<p>Conclusion placeholder</p>
+<p>Looking forward: closing the loop via operations management</p>
 </div>
 <div class="sect4">
 <h5 id="_discussion_questions_3">Discussion questions</h5>
@@ -3303,15 +3304,19 @@ Wait, you say. How can that work?</p>
 <p>You understand the value that IT brings, and your own product’s needs for it. You have chosen at least a functioning platform for initial development, without falling into the trap of analysis paralysis, although at this point you should be keeping your options open if your initial platform choice doesn’t prove out.</p>
 </div>
 <div class="paragraph">
-<p>Finally, you have implemented at least a lightweight continuous delivery pipeline. You didn’t need to spend any money doing this, as so much powerful technology is freely available. In particular, from the start you have taken version control very seriously and have a stable, backed up source repository as a basis for your product development.
-You also have at least rudimentary systems for tracking requirements, building your software, storing your packages, and deploying them to your production environment.
-Congratulations, you’ve got all the basics in place. Your product is starting to attract sales and/or investors, and you’ve hired a few more people. Let’s talk about collaboration.</p>
+<p>Finally, you have implemented at least a lightweight continuous delivery pipeline. You didn’t need to spend any money doing this, as so much powerful technology is freely available. In particular, from the start you have taken version control very seriously and have a stable, backed up source repository as a basis for your product development.</p>
+</div>
+<div class="paragraph">
+<p>You also have at least rudimentary systems for tracking requirements, building your software, storing your packages, and deploying them to your production environment.</p>
+</div>
+<div class="paragraph">
+<p>Congratulations, you’ve got all the basics in place. Your product is starting to attract sales and/or investors, and you’ve hired a few more people. Let’s talk about collaboration.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
 <p><strong>Staying at Level 1</strong>
-In your career, many - perhaps even the majority - of the people you meet and work with will be focused on Level 1 in their thinking and approach.</p>
+In your career, many - perhaps even the majority - of the people you meet and work with will be focused on Level 1 in their thinking and approach. This is a fine thing and to be expected. Level 1 is where the real work is done.</p>
 </div>
 </div>
 </div>
@@ -4148,6 +4153,23 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 <li>
 <p>"Process" at Toyota (Rother)</p>
 </li>
+</ul>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p>Sidebar: Lessons from manufacturing, operations research, etc</p>
+</div>
+<div class="paragraph">
+<p>Controversy of application to IT</p>
+</div>
+<div class="paragraph">
+<p>Will this have been foreshadowed?</p>
+</div>
+</div>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>Self-organizing (kanban) processes vs. formalized process frameworks.</p>
 </li>
@@ -4513,7 +4535,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </div>
 <div class="sect4">
 <h5 id="_further_reading_11">Further reading</h5>
-
+<div class="paragraph">
+<p>Lean Enterprise, Humble</p>
+</div>
 </div>
 </div>
 </div>
@@ -4776,7 +4800,7 @@ Over time, the IT operation develops significant data by which to manage itself.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-08-06 09:22:43 PDT
+Last updated 2015-08-06 10:22:43 MDT
 </div>
 </div>
 </body>

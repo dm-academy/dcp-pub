@@ -55,3 +55,28 @@ _In Git, a commit is used to record changes to a repository  . . . Every Git com
 ifdef::collaborator-draft[]
   Discussion of branching & merging?
 endif::collaborator-draft[]
+
+===== Sidebar: What is metadata?
+
+An understanding of the term "metadata" is required for this book's approach to IT management.
+
+Metadata is a tricky term, that tends to generate confusion. The term “meta” implies a concept that is somehow self-referential, and/or operating at a higher level of abstraction. So,
+
+* the term meta-discussion is a discussion about the discussion;
+* meta-cognition is cognition about cognition, and
+* meta-data (aka metadata) is data about data.
+
+Some examples:
+
+* In traditional data management, metadata is the description of the data structures, especially from a business point of view. A database column might be named “CUST_L_NM,” but the business description or metadata would be “The given last, family, or surname of the customer.”
+* In document management, the document metadata is the record of who created the document and when, when it was last updated, and so forth. Failure to properly sanitize document metadata has led to various privacy and data security related issues.
+* In telephony,  “data” is the actual call signal — the audio of the phone conversation, nowadays usually digitally encoded. Metadata on the other hand is all the information about the call: from who to who, when, how long, and so forth.
+
+In computer systems, metadata can be difficult to isolate. Sometimes, computing professionals will speak of a “metadata” layer that may define physical database structures, data extracts, business process behavior, even file locations. The trouble is, from a computer’s point of view, a processing instruction is an instruction, and the prefix “meta” has no real meaning.
+
+Because of this, I favor a principle that *metadata is by definition non-runtime.* It is documentation, usually represented as structured or semi-structured data, but not usually a primary processing input or output. It might be “digital exhaust” - log files are a form of metadata. It is not executable. If it’s executable, it’s digital logic or configuration, plain and simple.
+
+So what about our infrastructure as code example? The artifact - the configuration file, the script - is NOT metadata, because it is executable. But the source repository commit IS metadata. It has no meaning for the script. The dependency is one way - without the artifact, the commit ID is meaningless, but the artifact is completely ignorant of the commit. However, the commit may become an essential data point for human beings trying to make sense of the state of a resource defined by that artifact.
+
+*In this microcosm, we see the origins of IT management.*
+It is not always easy to apply this approach in practice. There can be edge cases. But *the concept of metadata provides a basis for distinguishing the _management_ of information technology from the actual _practice_ of information technology.*

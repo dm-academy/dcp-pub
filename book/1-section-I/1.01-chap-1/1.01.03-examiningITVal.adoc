@@ -1,6 +1,6 @@
 ==== Examining an IT value experience
 
-===== The "IT stack"
+==== The IT "service" and the IT "stack"
 
 Let's examine our user's value experience in more detail, without getting unnecessrily technical.
 
@@ -19,28 +19,24 @@ image::images/1.01-ITStack.png[]
 This leads to some confusion, and occasional questions from "real" architects as to why IT people are calling themselves "architects." Perhaps a different choice of word would have been advisable.
 ****
 
-===== The "IT service"
-
 _discussion of momemt of truth, experience vs. system_
 _current thinking on service definition?_
 
-image::images/01-ITmomentTruth.png[]
+image::images/1.01-ITmomentTruth.png[]
 
 Definitional discussions - "service," "application," "system," etc
 
 "inside out" vs "outside in" thinking, useful themes but beware of applying them as absolutes - they are always relative.
 
-===== The IT service changes over time
+==== The IT service lifecycle
+
 _reused graphic to be redrawn_
 
 image::images/1.01-ITSvcChg.png[]
 
-===== The IT service lifecycle
-
 image::images/1.01-ITStates.png[]
 
-
-===== The IT user vs IT customer
+==== The IT user and the IT customer
 
 But who paid for our user's enjoyment? The bank and restaurant both had clear motivation for supporting a better on line experience, and people now expect that service organizations provide this. The bank experiences less customer turnover and increased likelihood that customers add additional services. The restaurant sees increased traffic and smoother flow from more efficient reservations. Both see increased competitiveness.
 

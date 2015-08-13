@@ -15,8 +15,8 @@ Before we can talk about building and managing information technology (IT), we n
 ===== Chapter outline:
 
 * An IT value experience
-* Examining IT value
-* The IT stack
+* What is "information technology"?
+* The IT "service" and the IT "stack"
 * The IT service
 * IT changing over time
 * Conclusion

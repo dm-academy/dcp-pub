@@ -1,4 +1,4 @@
-==== Continuous Deployment
+==== Continuous deployment
 
 Finally, assuming that continuous integration is running effectively, one can take the last mile step and deploy the now tested and built software to pre-production or production environments.
 

@@ -119,6 +119,10 @@ So, what exactly IS this textbook, anyhow?
 
 _positioning this book vis a vis systems engineering, computer science, etc - is there some kind of matrix?_
 
+Omissions in this book:
+
+* Big data
+* Security
 
 ==== Current textbooks
 

@@ -1,0 +1,7 @@
+==== The IT service lifecycle
+
+_reused graphic to be redrawn_
+
+image::images/1.01-ITSvcChg.png[]
+
+image::images/1.01-ITStates.png[]

@@ -19,7 +19,7 @@ include::book/1-section-I/1.01-chap-1/1.01.03-ITSvcStack.adoc[]
 
 include::book/1-section-I/1.01-chap-1/1.01.04-ITSvcLifecycle.adoc[]
 
-include::book/1-section-I/1.01-chap-1/1.01.04-ITSvcLifecycle.adoc[]
+include::book/1-section-I/1.01-chap-1/1.01.05-ITUserCust.adoc[]
 
 include::book/1-section-I/1.01-chap-1/1.01.99-conclusion.adoc[]
 

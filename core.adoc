@@ -15,7 +15,7 @@ include::book/1-section-I/1.01-chap-1/1.01.01-ITValue.adoc[]
 
 include::book/1-section-I/1.01-chap-1/1.01.02-whatIsIT.adoc[]
 
-include::book/1-section-I/1.01-chap-1/1.01.03-ITSvcStack.adoc[]
+include::book/1-section-I/1.01-chap-1/1.01.03-ITSvcSys.adoc[]
 
 include::book/1-section-I/1.01-chap-1/1.01.04-ITSvcLifecycle.adoc[]
 

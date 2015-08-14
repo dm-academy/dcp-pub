@@ -1,4 +1,4 @@
-==== The IT "service" and the IT "stack"
+==== IT services, systems, and applications
 
 Let's examine our user's value experience in more detail, without getting unnecessrily technical, and clarify some definitions along the way.
 
@@ -18,9 +18,7 @@ Each of these individual value experiences was co-created by our friend's desire
 
 image::images/1.01-ITValue.png[]
 
-In order to view her balance, our user is probably using an application downloaded from a "store" of applications made avaialble to her device.
-
-On her device, there is an intricate set of components performing functions such as
+In order to view her balance, our user is probably using an application downloaded from a "store" of applications made avaialble to her device. On her device, this "app" is part of an intricate set of components performing functions such as
 
 * connecting to the phone network
 * securely connecting over the phone network to the Internet and then to the bank
@@ -47,18 +45,34 @@ image::images/1.01-ITStack.png[]
 
 Consider: what does all this mean to our user? Does she care about cell phone towers, or middleware, or triply-redundant industrial-strength Power Distribution Units? Usually, not in the least.
 
-Therefore, as we study this world, we need to mantain awareness of her perspective. She is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it.
+Therefore, as we study this world, we need to mantain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends.
 
-Obviously we need to have a more precise way of describing the information technology, beyond just saying there is "lots" of it. A variety of terms are used:
+This might seem obvious, but information technology has a well deserved reputation for being too complicated for end users. One can be trying to achieve something that should be simple, and find oneself too easily in a conversation about technical network settings.
+
+This fundamental tension between *what* a system is supposed to do, versus *how* it does it, pervades IT management and will likely define your career. "Don't trouble me with the details, just give me the results" is the overall theme, and we encounter this reaction to complexity in many aspects of life. You may perceive similar concerns in:
+
+* demand vs. supply
+* problem vs. solution
+* outside-in vs. inside-out thinking
+* service vs. system
+* black-box vs glass box
+
+Terminology is important. We need to have a more precise way of describing the information technology, beyond just saying there is "lots" of it. A variety of terms are used in this text:
 
 * IT service
 * Application
 * IT system
+* IT infrastructure
 
 We also see discussion of components, resources, subsystems, assets, and many more terms.
 
 WARNING: There are many debates around these definitions. Sometimes these debates are helpful in clarifying the terminology you want to use on your team. But sometimes the debates don't add any value.  Beware of anyone who claims there is a "best practice" here.
 
+In general, in this book, we will use the following definitions:
 
+* An IT service is defined primarily in terms of WHAT not HOW
+* Defining an IT system may include a discussion of both WHAT it does and HOW it does it
+* An "application" usually means some IT service or system for end users who are not primarily concerned with IT other than wanting to get something done with it (e.g. go out to dinner)
+* "Infrastructure" usually means some IT service or system that primarily supports OTHER IT services or systems (e.g. a network "service" is not usually useful to end users without additional application services.)
 
-"inside out" vs "outside in" thinking, useful themes but beware of applying them as absolutes - they are always relative.
+Finally, the concept of the "IT stack" is important. Notice how long Figure 1.01.03 is and how it appears "stacked." Layered approaches to understanding IT are common; see Further Reading for useful references. 

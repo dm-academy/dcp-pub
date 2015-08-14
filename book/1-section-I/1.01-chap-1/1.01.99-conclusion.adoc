@@ -10,6 +10,9 @@ Conclusion placeholder
 
 * Lean Startup by Ries
 
+* discussions of IT stack
+* 
+
 
  * http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319[_Code_], Charles Petzold
  * http://www.amazon.com/Information-History-Theory-Flood/dp/1400096235/ref=sr_1_1?s=books&ie=UTF8&qid=1438398170&sr=1-1&keywords=the+information[_The Information,_] James Glieck

@@ -39,6 +39,14 @@ _ask Patrick Stachenko to write sidebar on how audit moved into IT_
 
 *  "Rogue" IT
 
+****
+*Use of the word "architecture" in information technology*
+
+"Architecture" is of course a word usually associated with physical construction: buildings, landscapes, etc. It was https://en.wikipedia.org/wiki/Computer_architecture[appropriated by systems engineers at IBM in 1959] to describe the problems of designing complex information processing hardware and software.
+
+This leads to some confusion, and occasional questions from "real" architects as to why IT people are calling themselves "architects." Perhaps a different choice of word would have been advisable.
+****
+
 ===== Chapter 10 learning objectives
 * Identify the basic types of IT architecture
 * Describe basic architectural practices

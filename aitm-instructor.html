@@ -466,7 +466,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_choosing_infrastructure">Choosing infrastructure</a></li>
 <li><a href="#_infrastructure_as_code">Infrastructure as code</a></li>
 <li><a href="#_from_scripts_to_policies">From scripts to policies</a></li>
-<li><a href="#_source_control">Source control</a></li>
+<li><a href="#_source_control_the_agile_foundation">Source control: the Agile foundation</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -1696,31 +1696,151 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>Let&#8217;s examine our user&#8217;s value experience in more detail, without getting unnecessrily technical, and clarify some definitions along the way.</p>
 </div>
 <div class="paragraph">
-<p><em>discussion of momemt of truth, experience vs. system</em>
-<em>current thinking on service definition?</em></p>
+<p>The first idea we need to cover is the "moment of truth." In terms of information technnology, this English-language cliche represents the user&#8217;s experience of value.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The "moment of truth" represents the user&#8217;s experience of value, from a product, good, or service.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>In the example, our friend seeking a relaxing night out had several moments of truth:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Consulting her bank balance, and subsequent financial transactions also reflecting what was stated to her</p>
+</li>
+<li>
+<p>Making a reservation and having it honored on arrival at the restaurant</p>
+</li>
+<li>
+<p>Arriving on time to the restaurant, courtesy of the traffic application</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Each of these individual value experiences was co-created by our friend&#8217;s desire for value, and the response of a set of IT resources.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/1.01-ITmomentTruth.png" alt="1.01 ITmomentTruth">
+<img src="images/1.01-ITValue.png" alt="1.01 ITValue">
+</div>
+</div>
+<div class="paragraph">
+<p>In order to view her balance, our user is probably using an application downloaded from a "store" of applications made avaialble to her device.</p>
+</div>
+<div class="paragraph">
+<p>On her device, there is an intricate set of components performing functions such as</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>connecting to the phone network</p>
+</li>
+<li>
+<p>securely connecting over the phone network to the Internet and then to the bank</p>
+</li>
+<li>
+<p>identifying the user to the bank&#8217;s systems</p>
+</li>
+<li>
+<p>requesting the necessary information (in this case, an account balance)</p>
+</li>
+<li>
+<p>receiving that information and converting it to a form that can be represented on a screeen</p>
+</li>
+<li>
+<p>finally, displaying the information on the screen</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The application, or "app," downloaded to the phone plays a primary role, but is enabled by:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the phone&#8217;s operating system and associated services</p>
+</li>
+<li>
+<p>the phone&#8217;s hardware</p>
+</li>
+<li>
+<p>the telecommunicatons infrastructure (cell phone towers, long distance fiber optic cables, switching offices, and much more)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Of course, without the banking systems on the other end, there is no bank balance to transmit. These systems are similar, but on a much larger scale than our friend&#8217;s device:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Internet and middleware services to receive the request from the international network</p>
+</li>
+<li>
+<p>Application services to validate the user&#8217;s identity and route the request to the appropriate handling service</p>
+</li>
+<li>
+<p>Data services to store the user&#8217;s banking information (account identity and transactions) along with millions of other customers</p>
+</li>
+<li>
+<p>Many additional services to detect fraud and security attacks, report on utilization, identify any errors in the systems, and much more.</p>
+</li>
+<li>
+<p>Physical data centers full of computers and associated hardware including massive power and cooling infrastructure, and protected by security systems and personnel.</p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.01-ITStack.png" alt="1.01 ITStack">
 </div>
 </div>
 <div class="paragraph">
 <p>Definitional discussions - "service," "application," "system," etc</p>
 </div>
 <div class="paragraph">
+<p>Obviously we need to have a more precise way of describing the information technology, beyond just saying there is "lots" of it. A variety of terms are used:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>IT service</p>
+</li>
+<li>
+<p>Application</p>
+</li>
+<li>
+<p>IT system</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>We also see discussion of components, resources, subsystems, assets, and many more terms.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+There are many debates around these definitions. Sometimes these debates are helpful in clarifying the terminology you want to use on your team. But sometimes the debates can go on too long, without any real value.  Beware of anyone who claims there is a "best practice" here.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
 <p>"inside out" vs "outside in" thinking, useful themes but beware of applying them as absolutes - they are always relative.</p>
-</div>
-<div class="paragraph">
-<p>In order to view her balance, our user is probably using an application downloaded from a "store" of applications made avaialble to her device. Whether she is using a smartphone, a tablet, or even a laptop, the system "architecture" is generally the same</p>
-</div>
-<div class="paragraph">
-<p><em>re-used, thematic slides to be redrawn</em>
-<em>draw the narrative out of the images</em></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/1.01-ITStack.png" alt="1.01 ITStack">
-</div>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2378,7 +2498,7 @@ touch a b c</pre>
 
 </div>
 <div class="sect3">
-<h4 id="_source_control">Source control</h4>
+<h4 id="_source_control_the_agile_foundation">Source control: the Agile foundation</h4>
 <div class="paragraph">
 <p>Now, because this is a general book on IT management, we’re going to take a bit of a different turn here. As mentioned previously, there are numerous sources available to you to learn Linux scripting, policy-based configuration management of infrastructure, and source control. Competency with source control is essential to your career and you should devote some serious time to it. This book has a different purpose: to orient you to the fundamental principles and architectures of IT management at all scales.</p>
 </div>
@@ -4375,6 +4495,19 @@ No matter how we try, stuff happens, and it&#8217;s getting harder to cope with 
 <p>"Rogue" IT</p>
 </li>
 </ul>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>Use of the word "architecture" in information technology</strong></p>
+</div>
+<div class="paragraph">
+<p>"Architecture" is of course a word usually associated with physical construction: buildings, landscapes, etc. It was <a href="https://en.wikipedia.org/wiki/Computer_architecture">appropriated by systems engineers at IBM in 1959</a> to describe the problems of designing complex information processing hardware and software.</p>
+</div>
+<div class="paragraph">
+<p>This leads to some confusion, and occasional questions from "real" architects as to why IT people are calling themselves "architects." Perhaps a different choice of word would have been advisable.</p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect4">

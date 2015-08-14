@@ -45,7 +45,9 @@ Of course, without the banking systems on the other end, there is no bank balanc
 
 image::images/1.01-ITStack.png[]
 
-Definitional discussions - "service," "application," "system," etc
+Consider: what does all this mean to our user? Does she care about cell phone towers, or middleware, or triply-redundant industrial-strength Power Distribution Units? Usually, not in the least.
+
+Therefore, as we study this world, we need to mantain awareness of her perspective. She is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it.
 
 Obviously we need to have a more precise way of describing the information technology, beyond just saying there is "lots" of it. A variety of terms are used:
 
@@ -55,14 +57,8 @@ Obviously we need to have a more precise way of describing the information techn
 
 We also see discussion of components, resources, subsystems, assets, and many more terms.
 
-WARNING: There are many debates around these definitions. Sometimes these debates are helpful in clarifying the terminology you want to use on your team. But sometimes the debates can go on too long, without any real value.  Beware of anyone who claims there is a "best practice" here.
+WARNING: There are many debates around these definitions. Sometimes these debates are helpful in clarifying the terminology you want to use on your team. But sometimes the debates don't add any value.  Beware of anyone who claims there is a "best practice" here.
+
+
 
 "inside out" vs "outside in" thinking, useful themes but beware of applying them as absolutes - they are always relative.
-
-****
-*Use of the word "architecture" in information technology*
-
-"Architecture" is of course a word usually associated with physical construction: buildings, landscapes, etc. It was https://en.wikipedia.org/wiki/Computer_architecture[appropriated by systems engineers at IBM in 1959] to describe the problems of designing complex information processing hardware and software.
-
-This leads to some confusion, and occasional questions from "real" architects as to why IT people are calling themselves "architects." Perhaps a different choice of word would have been advisable.
-****

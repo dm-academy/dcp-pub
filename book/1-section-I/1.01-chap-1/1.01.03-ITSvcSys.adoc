@@ -42,10 +42,13 @@ Of course, without the banking systems on the other end, there is no bank balanc
 * Physical data centers full of computers and associated hardware including massive power and cooling infrastructure, and protected by security systems and personnel.
 
 image::images/1.01-ITStack.png[]
+_insert cloud providers_
 
 Consider: what does all this mean to our user? Does she care about cell phone towers, or middleware, or triply-redundant industrial-strength Power Distribution Units? Usually, not in the least.
 
 Therefore, as we study this world, we need to mantain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends.
+
+_insert picture of user w/arrow encapsulating components_
 
 This might seem obvious, but information technology has a well deserved reputation for being too complicated for end users. One can be trying to achieve something that should be simple, and find oneself too easily in a conversation about technical network settings.
 
@@ -75,4 +78,4 @@ In general, in this book, we will use the following definitions:
 * An "application" usually means some IT service or system for end users who are not primarily concerned with IT other than wanting to get something done with it (e.g. go out to dinner)
 * "Infrastructure" usually means some IT service or system that primarily supports OTHER IT services or systems (e.g. a network "service" is not usually useful to end users without additional application services.)
 
-Finally, the concept of the "IT stack" is important. Notice how long Figure 1.01.03 is and how it appears "stacked." Layered approaches to understanding IT are common; see Further Reading for useful references. 
+Finally, the concept of the "IT stack" is important. Notice how long Figure 1.01.03 is and how it appears "stacked." Layered approaches to understanding IT are common; see Further Reading for useful references.

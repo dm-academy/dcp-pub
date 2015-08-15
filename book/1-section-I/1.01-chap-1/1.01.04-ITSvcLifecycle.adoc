@@ -1,7 +1,7 @@
 ==== The IT service lifecycle
 
-_reused graphic to be redrawn_
-
-image::images/1.01-ITSvcChg.png[]
+We've established that the IT service is based on a complex stack of technology, from local devices to global networks to massive data centers. Software and hardware are layered together in endlessly inventive ways 
 
 image::images/1.01-ITStates.png[]
+
+image::images/1.01-ITSvcChg.png[]

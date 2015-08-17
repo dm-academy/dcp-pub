@@ -454,7 +454,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_defining_information_technology">Defining Information Technology</a></li>
 <li><a href="#_it_services_systems_and_applications">IT services, systems, and applications</a></li>
 <li><a href="#_the_it_service_lifecycle">The IT service lifecycle</a></li>
-<li><a href="#_the_it_user_and_the_it_customer">The IT user and the IT customer</a></li>
+<li><a href="#_defining_user_customer_and_sponsor">Defining user, customer, and sponsor</a></li>
 <li><a href="#_conclusion">Conclusion</a></li>
 </ul>
 </li>
@@ -1230,7 +1230,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Chapter 4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Product management</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fail fast/risk mgmt</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Continuous delivery pipeline</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">6-8</p></td>
 </tr>
@@ -1279,7 +1279,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <td class="tableblock halign-left valign-top"><p class="tableblock">Chapter 10</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Architecture &amp; governance</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Enterprise architecture &amp; risk mgmt</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Archi (open source modeling tool)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
 </tr>
 <tr>
@@ -1971,12 +1971,90 @@ System retirement is often more complex and expensive than expected, and there a
 </div>
 </div>
 <div class="sect3">
-<h4 id="_the_it_user_and_the_it_customer">The IT user and the IT customer</h4>
+<h4 id="_defining_user_customer_and_sponsor">Defining user, customer, and sponsor</h4>
+<div class="paragraph">
+<p>In understanding IT value, it is essential to clarify the definitions of user, customer, and sponsor. Sometimes, the user <strong>is</strong> the customer. But more often, the user and the customer are different, and one may additionally need to distinguish the role of system or service sponsor.</p>
+</div>
+<div class="paragraph">
+<p>The following definitions may help</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The <strong>user</strong> is the person actually interacting with the IT-based service</p>
+</li>
+<li>
+<p>The <strong>customer</strong> is source of revenue for the service. If the service is part of a profit center, the customer is the person actually purchasing product (e.g. demand deposit banking.) If the service is part of a cost center (e.g. an HR system), the customer is best seen as an internal executive, as the actual revenue-producing customers are too far removed.</p>
+</li>
+<li>
+<p>The <strong>sponsor</strong> is the person who authorizes and controls the funding used to construct and operate the service</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Depending on the service type, these roles can be filled by the same or different people. Here are some examples:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Example</th>
+<th class="tableblock halign-left valign-top">User</th>
+<th class="tableblock halign-left valign-top">Customer</th>
+<th class="tableblock halign-left valign-top">Sponsor</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Online banking</p></td>
+<td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">Bank account holder</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vice president, consumer banking</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Customer-facing profit center with critical digital component</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Online restaurant reservation application</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Restaurant customers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Restaurant owners</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Product owner</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Profit-making digital product</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enterprise human resources application</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">HR analyst</p></td>
+<td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">Vice president, HR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cost center funded through corporate profits</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Online video streaming service</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">End video consumer (e.g. any family member)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Streaming account holder (e.g. parent)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Streaming video product owner</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Profit-making digital product</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Social traffic application</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Driver</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Advertiser, data consumer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Product owner</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
 <div class="paragraph">
 <p>So, who paid for our user&#8217;s enjoyment? The bank and restaurant both had clear motivation for supporting a better on line experience, and people now expect that service organizations provide this. The bank experiences less customer turnover and increased likelihood that customers add additional services. The restaurant sees increased traffic and smoother flow from more efficient reservations. Both see increased competitiveness.</p>
 </div>
 <div class="paragraph">
 <p>The traffic application is a somewhat different story. While it is an engineering marvel, there is still some question as to how to fund it long term. It requires a large user base to operate, and yet end users are unlikely to pay for it. At this writing, the service draws on advertising dollars from businesses wishing to advertise to passersby, and also sells its real-time data on traffic patterns to a variety of customers, such as developers considering investments along given routes.</p>
+</div>
+<div class="paragraph">
+<p>This last example well illustrates the maxim that "if you don&#8217;t know how the product is making money, you are the product."</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -1987,7 +2065,13 @@ System retirement is often more complex and expensive than expected, and there a
 <p>Like the proverbial fish that doesn&#8217;t understand water (because water it all it knows), we may lose sight of the laws and customs that enable us to use computers in the ways covered in this chapter.</p>
 </div>
 <div class="paragraph">
-<p>For example, the ability for banks to hold money as electronic bits on a computer is rooted in the earliest history of banking and the emergence of centralized settlement and clearing mechanisms. The existence of global Internet connectivity relies on laws supporting utility easements and rights of way. Without a social infrastructure, social and collaborative technology has no meaning.</p>
+<p>For example, the ability for banks to hold money as electronic bits on a computer is rooted in the earliest history of banking and the emergence of centralized settlement and clearing mechanisms. Cell phone companies rely on international treaties, and national laws and regulations allocating radio spectrum.</p>
+</div>
+<div class="paragraph">
+<p>The existence of physical voice and data connectivity relies on laws supporting utility easements and rights of way, and even treaties such as the Law of the Sea (how is it that undersea cables remain unmolested?).</p>
+</div>
+<div class="paragraph">
+<p>In short, without a social infrastructure, social and collaborative technology has no meaning.</p>
 </div>
 </div>
 </div>

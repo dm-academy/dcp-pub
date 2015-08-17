@@ -15,13 +15,13 @@ A woman is wondering if she can afford to dine out that evening.
 Information technology pervaded this experience. The origins, layers and complex connections of the distributed systems involved are awe-inspiring to consider.
 
 ****
-*Don't worry about the technological terms for now*
+IMPORTANT: *Don't worry about the technological terms for now*
 
 This is an introductory text. You may see terms below that are unfamiliar (Model-View-Controller, IP, packet switching). If you are reading this on line, you can follow the links, but it's not required.
 
 As you progress in your career, you will always be encountering new terminology. Part of what you need to learn is when it's important to dig into it, and when you can let it pass for a time.
 
-You should be able to understand the gist presented below, that these are complex systems based on a wide variety of technology, some of it old, some of it new.
+You should be able to understand the gist presented below, that these are complex systems based on a wide variety of technologies, some of them old, some new.
 ****
 
 The screen on her cell phone represents information accessed and presented via a https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller[Model-View-Controller framework], implemented in the latest version of https://developer.mozilla.org/en-US/docs/Web/JavaScript[Javascript], running on an https://en.wikipedia.org/wiki/Interpreter_(computing)[interpreter] that would have taxed a https://en.wikipedia.org/wiki/Mainframe_computer[mainframe] thirty years ago. The communication with her bank’s central systems is supported by https://en.wikipedia.org/wiki/LTE_(telecommunication)[4G LTE] data which in turn relies on the high-volume https://en.wikipedia.org/wiki/Internet_Protocol[IP backbone] networks operated by the http://searchnetworking.techtarget.com/definition/telecom-carrier[telecommunications carriers], based on research into https://en.wikipedia.org/wiki/Packet_switching[packet switching] now approaching 50 years’ old.

@@ -101,6 +101,8 @@ The book however is not a complete dismissal of older models of IT delivery. Whe
 
 *This emergence model can also be understood as an individual's progression within a larger enterprise.* Even if one starts from Day 1 at a Fortune 100 corporation, I believe the progression of one's understanding still progresses through individual, to team, to "team of teams," to enterprise. Of course, one may cease evolving one's understanding at any of these stages, with corresponding implications for one's career.
 
+Some of you may be familiar with the idea of a Minimum Viable Product, Minimum Marketable Release, or similar. In these terms, it is important to understand that each *section* of the book represents an MVP, but not each chapter. One can't begin to deliver IT value without the components discussed in each of Chapters 1-3. The chapters of each section are interdependent, in other words.  
+
 _End instructor's note_
 ****
 

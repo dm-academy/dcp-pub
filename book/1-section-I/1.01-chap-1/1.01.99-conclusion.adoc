@@ -1,6 +1,6 @@
 ==== Conclusion
 
-Conclusion placeholder
+In this chapter, we discussed the basic questions of information technology value and how it is experienced and developed. Through the mechanism of a hypothetical modern IT user, we covered (at a *very* high level) the necessary ingredients of the IT experience. We considered the user's moment of truth, and the massive IT complexity that sustains it. We also discussed a high level lifecycle model for IT applications and services, and explored some initial definitions for user, customer, and sponsor - critical distinctions to make in an age of digital transformation. 
 
 ===== Discussion questions
 

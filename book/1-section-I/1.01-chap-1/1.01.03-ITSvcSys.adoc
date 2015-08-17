@@ -4,7 +4,7 @@ Let's examine our user's value experience in more detail, without getting unnece
 
 The first idea we need to cover is the "moment of truth." In terms of information technnology, this English-language cliche represents the user's experience of value.
 
-NOTE: The "moment of truth" represents the user's experience of value, from a product, good, or service.
+IMPORTANT: The "moment of truth" represents the user's experience of value, from a product, good, or service.
 
 In the example, our friend seeking a relaxing night out had several moments of truth:
 
@@ -50,7 +50,7 @@ Therefore, as we study this world, we need to mantain awareness of her perspecti
 
 _insert picture of user w/arrow encapsulating components_
 
-This might seem obvious, but information technology has a well deserved reputation for being too complicated for end users. One can be trying to achieve something that should be simple, and find oneself too easily in a conversation about technical network settings.
+IMPORTANT: Always remember the user's experience. Information technology has a well deserved reputation for being too complicated for end users--for example, trying to do something that should be simple, and finding oneself in a technical conversation about  network settings.
 
 This fundamental tension between *what* a system is supposed to do, versus *how* it does it, pervades IT management and will likely define your career. "Don't trouble me with the details, just give me the results" is the overall theme, and we encounter this reaction to complexity in many aspects of life. You may perceive similar concerns in:
 

@@ -21,7 +21,7 @@ At this writing I maintain my labs publicly on Github.  My syllabus and lab stru
 |Chapter 2 |IT Infrastructure | |Cloud and infrastructure as code | 2
 |Chapter 3 |Applications||Continuous delivery pipeline | 2
 5+|SECTION II: COLLABORATION
-|Chapter 4 |Product management ||Continuous delivery pipeline |6-8
+|Chapter 4 |Product management |Fail fast/risk mgmt |Continuous delivery pipeline |6-8
 |Chapter 5 |Work management ||Ticketing and kanban |6-8
 |Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
 5+|SECTION III: COORDINATION
@@ -29,7 +29,7 @@ At this writing I maintain my labs publicly on Github.  My syllabus and lab stru
 |Chapter 8 |Project & resource management | |Open-source project tool | >11 (full class)
 |Chapter 9 |Process management | |Open-source ITSM suite | >11 (full class)
 5+|SECTION IV: MATURATION
-|Chapter 10 |Architecture & governance | Enterprise architecture & risk mgmt | | 5
+|Chapter 10 |Architecture & governance | Enterprise architecture & risk mgmt |Archi (open source modeling tool) | 5
 |Chapter 11 |Portfolio and analytics |Portfolio simulation |Porfolio simulation with R? | 5
 |Chapter 12 |Complexity and chaos | Complex Incident Simulation | |5
 |====

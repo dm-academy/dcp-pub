@@ -21,8 +21,10 @@ NOTE: System retirement is often more complex and expensive than expected, and t
 
 image::images/1.01-ITStates.png[]
 
-Figure XX - The essential states of the IT service.
+Figure XX - The essential states of the IT service
 
 So we see that the IT service evolves over time, through many repetitions ("iterations") of the improvement cycle. This entire process, from idea to decommissioning ("inspire to retire") can be understood as the _service lifecycle_.
 
 image::images/1.01-ITSvcChg.png[]
+
+Figure XX: The IT service lifecycle

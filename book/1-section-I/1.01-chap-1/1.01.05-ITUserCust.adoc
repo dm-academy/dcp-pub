@@ -13,9 +13,9 @@ Depending on the service type, these roles can be filled by the same or differen
 [cols="5*", options="header"]
 |====
 |Example |User |Customer |Sponsor |Notes
-|Online banking 2+|Bank account holder | Vice president, consumer banking | Customer-facing profit center with critical digital component
+|Online banking 2+^|Bank account holder | Vice president, consumer banking | Customer-facing profit center with critical digital component
 |Online restaurant reservation application |Restaurant customers |Restaurant owners |Product owner | Profit-making digital product
-|Enterprise human resources application |HR analyst 2+|Vice president, HR | Cost center funded through corporate profits
+|Enterprise human resources application |HR analyst 2+^|Vice president, HR | Cost center funded through corporate profits
 |Online video streaming service |End video consumer (e.g. any family member) |Streaming account holder (e.g. parent) |Streaming video product owner | Profit-making digital product
 |Social traffic application | Driver | Advertiser, data consumer | Product owner |
 |====

@@ -1,14 +1,28 @@
 ==== Conclusion
 
-In this chapter, we discussed the basic questions of information technology value and how it is experienced and developed. Through the mechanism of a hypothetical modern IT user, we covered (at a *very* high level) the necessary ingredients of the IT experience. We considered the user's moment of truth, and the massive IT complexity that sustains it. We also discussed a high level lifecycle model for IT applications and services, and explored some initial definitions for user, customer, and sponsor - critical distinctions to make in an age of digital transformation. 
+In this chapter, we discussed the basic questions of information technology value and how it is experienced and developed. Through the mechanism of a hypothetical modern IT user, we covered (at a *very* high level) the necessary ingredients of the IT experience. We considered the user's moment of truth, and the massive IT complexity that sustains it. We also discussed a high level lifecycle model for IT applications and services, and explored some initial definitions for user, customer, and sponsor - critical distinctions to make in an age of digital transformation.
+
+As you proceed into the course, the key takeway from this chapter is "why IT?" Why do people need it, and how is it valuable? That should always remain at the top of your mind as you proceed in your IT education.
 
 ===== Discussion questions
 
+. Discuss: How does information technology contribute to your enjoyment of life and experiences of value?
+
+. Read http://www.wsj.com/news/articles/SB20001424052702303743604579350710633713786["Apps Are Wrecking Mom-and-Pop Pizza Shops"] and discuss whether "IT matters" to the local pizzerias.
+
+. Read the Wikipedia articles on https://en.wikipedia.org/wiki/Mainframe_computer[mainframe computing] and https://en.wikipedia.org/wiki/Amazon_Web_Services[Amazon Web Services] and discuss with your team. What has changed in computing? What remains the same?
+
 ===== Research & practice
+
+. Go to any popular online service (Facebook, Netflix, Flickr, etc.) How would you describe the "moments of truth" or value experiences these sites offer users? There may be several.
+
+.  On your own or with a team, develop an idea for an IT-based product you could take to market. Present to the class.
+
+. (Continued) Who are the user, customer, and sponsor of your product? (See previous discussion in chapter.)
 
 ===== Further reading
 
-* discussions of IT stack
+* https://en.wikipedia.org/wiki/Technology_stack[definitions of IT stack] (follow links)
 
 * http://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319[_Code_], Charles Petzold
 * http://www.amazon.com/Information-History-Theory-Flood/dp/1400096235/ref=sr_1_1?s=books&ie=UTF8&qid=1438398170&sr=1-1&keywords=the+information[_The Information,_] James Glieck

@@ -11,7 +11,7 @@ At the end of the last chapter, you had determined a toolset for creating your n
 |Commercial Unix |Microsoft Windows  |Red Hat Linux |Ubuntu Linux
 |====
 
-You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are usually matters of personal choice and limited to developers’ desktops.
+You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.
 
 The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. You want to set this up before developing a single line of code. It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).
 

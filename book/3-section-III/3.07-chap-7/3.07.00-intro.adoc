@@ -32,6 +32,7 @@ Sidebar: Introducing Narayan and Mintzberg.
  - Functional vs product-oriented example
  - Recent Dan Jones HBR article on Lean organization & functional expertise
  - T-shaped people as essential to product teams (Reinertsen principle)
+ - Conway's law & the microservices challenge
 
 ****
 Sidebar: Spotify overview

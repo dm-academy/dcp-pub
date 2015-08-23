@@ -31,7 +31,8 @@ Assumption: Product strategy was largely tacit in Section I. Need more formalize
 * Lean Startup
  - Minimum Viable Product etc
 
-* LeanUX and Continuous Design.
+* LeanUX and Continuous Design. Design thinking
+ - Design thinking is changing an existing to a preferred state... (get quote from Sussna)
 
 * Behavior-driven development.
 
@@ -42,6 +43,8 @@ Assumption: Product strategy was largely tacit in Section I. Need more formalize
 * Importance of small batch sizes
 
 * Product development as creation of information
+
+* Cost of Delay
 
 ****
 Sidebar: Introducing Sussna.

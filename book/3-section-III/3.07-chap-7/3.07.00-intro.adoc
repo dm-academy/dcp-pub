@@ -33,7 +33,7 @@ Sidebar: Introducing Narayan and Mintzberg.
  - Recent Dan Jones HBR article on Lean organization & functional expertise
  - T-shaped people as essential to product teams (Reinertsen principle)
  - Conway's law & the microservices challenge
-
+ - Org change mgmt
 ****
 Sidebar: Spotify overview
 ****

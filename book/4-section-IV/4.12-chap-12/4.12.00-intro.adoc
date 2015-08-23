@@ -20,7 +20,13 @@ Sidebar: Introducing Burgess.
 
 * complex system failures (Allspaw sidebar?)
 
+* antifragility
+
 * Cynefin
+
+* self-steering, autopoeisis
+
+* post-industrial
 
 * Postscript: Thought experiment on complete mainstreaming of IT
 

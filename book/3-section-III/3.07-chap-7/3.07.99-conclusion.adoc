@@ -8,3 +8,5 @@ Conclusion placeholder
 
 ===== Further reading
 http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf
+
+http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management

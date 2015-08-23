@@ -48,6 +48,7 @@ Sidebar: Configuration Management and the CMDB
 * Web-scale IT (first pass)
 
 * Antifragility
+ - Chaos bestiary
 
 
 ===== Chapter 6 learning objectives

@@ -15,14 +15,14 @@ At this writing I maintain my labs publicly on Github.  My syllabus and lab stru
 [cols="5*", options="header"]
 |====
 |Lecture|Topic|Business lab |Technical lab |Team size
-|Course introduction |Structure, approach ||Basic Linux command line |Individual
+|Course introduction |Structure, approach |None|SSH & workstation setup |Individual
 5+|SECTION I: INCEPTION
-|Chapter 1 |IT value |Defining an IT product |Cloud and infrastructure as code | 2
-|Chapter 2 |IT Infrastructure | |Cloud and infrastructure as code | 2
+|Chapter 1 |IT value |Defining an IT product - review SaaS examples |Linux command line | 2
+|Chapter 2 |IT Infrastructure |Reviewing current IaaS offerings |Cloud and infrastructure as code - configuring a Vagrant machine manually & w/script that is checked into Github & modified | 2
 |Chapter 3 |Applications||Continuous delivery pipeline | 2
 5+|SECTION II: COLLABORATION
-|Chapter 4 |Product management |Fail fast/risk mgmt |Continuous delivery pipeline |6-8
-|Chapter 5 |Work management ||Ticketing and kanban |6-8
+|Chapter 4 |Product management |User stories. Fail fast/risk mgmt |Behavior-driven development |6-8
+|Chapter 5 |Work management 2+^|Scrum, ticketing and kanban |6-8
 |Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
 5+|SECTION III: COORDINATION
 |Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) |Continue Nagios | >11 (full class)

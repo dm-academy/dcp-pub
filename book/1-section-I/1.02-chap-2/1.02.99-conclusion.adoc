@@ -11,4 +11,5 @@ Conclusion placeholder
 * Linux in a Nutshell
 * Pro Git
 * Limoncelli
-* Allspaw
+* Allspaw (move?)
+* http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/

@@ -7,3 +7,4 @@ Conclusion placeholder
 ===== Research & practice
 
 ===== Further reading
+http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/

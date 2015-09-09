@@ -1,6 +1,14 @@
 == Labs
 
-_note, this may be broken out into separate volume_
+ifdef::collaborator-draft[]
+
+_Collaboration note_
+
+_Should labs be mentioned in this book or decoupled entirely?_
+
+_-ctb_
+
+endif::collaborator-draft[]
 
 With three chapters in each section, the book can be covered in one intense semester at a chapter a week, although expanding it to a two-semester treatment would allow for more in depth coverage and increased lab exposure.
 

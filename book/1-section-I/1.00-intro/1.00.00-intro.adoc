@@ -33,5 +33,3 @@ This is also the "DevOps" chapter; it's not just about writing code, but about t
 *This section's lab approach*
 
 While this is not a book about any particular computing language or platform, we need to describe some technical fundamentals. We’ll do so in as neutral a manner as possible. However, the specific technologies employed in this books’ accompanying labs are based on Ubuntu Linux and git, the distributed version control system created by Linus Torvalds to facilitate Linux development.
-
-  [break labs & their discussion out into different book]

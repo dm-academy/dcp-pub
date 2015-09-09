@@ -1,6 +1,6 @@
 ==== What is IT value?
 
-image::images/1.01-woman.jpg[]
+image::images/1.01a-woman.jpg[]
 
 Consider the following scenario:
 

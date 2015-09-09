@@ -1,5 +1,7 @@
 ==== IT services, systems, and applications
 
+===== Inside an IT service
+
 Let's examine our user's value experience in more detail, without getting unnecessrily technical, and clarify some definitions along the way.
 
 The first idea we need to cover is the "moment of truth." In terms of information technnology, this English-language cliche represents the user's experience of value.
@@ -42,15 +44,16 @@ Of course, without the banking systems on the other end, there is no bank balanc
 * Physical data centers full of computers and associated hardware including massive power and cooling infrastructure, and protected by security systems and personnel.
 
 image::images/1.01-ITStack.png[]
-_insert cloud providers_
 
 Consider: what does all this mean to our user? Does she care about cell phone towers, or middleware, or triply-redundant industrial-strength Power Distribution Units? Usually, not in the least.
 
-Therefore, as we study this world, we need to mantain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends.
+Therefore, as we study this world, we need to mantain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends. The moment of truth depends on the service; the service may contain great complexity, but part of its success lies in shielding the user from that complexity.
 
-_insert picture of user w/arrow encapsulating components_
+image::images/1.01-ITStack2.png[]
 
 IMPORTANT: Always remember the user's experience. Information technology has a well deserved reputation for being too complicated for end users--for example, trying to do something that should be simple, and finding oneself in a technical conversation about  network settings.
+
+===== What vs. how
 
 This fundamental tension between *what* a system is supposed to do, versus *how* it does it, pervades IT management and will likely define your career. "Don't trouble me with the details, just give me the results" is the overall theme, and we encounter this reaction to complexity in many aspects of life. You may perceive similar concerns in:
 
@@ -78,4 +81,4 @@ In general, in this book, we will use the following definitions:
 * An "application" usually means some IT service or system for end users who are not primarily concerned with IT other than wanting to get something done with it (e.g. go out to dinner)
 * "Infrastructure" usually means some IT service or system that primarily supports OTHER IT services or systems (e.g. a network "service" is not usually useful to end users without additional application services.)
 
-Finally, the concept of the "IT stack" is important. Notice how long Figure 1.01.03 is and how it appears "stacked." Layered approaches to understanding IT are common; see Further Reading for useful references.
+Finally, the concept of the "IT stack" is important. Notice how the different technology layers appear "stacked." Layered approaches to understanding IT are common; see Further Reading for useful references.

@@ -12,7 +12,7 @@ Therefore, “information technology” is defined as the edifice of theory and 
 
 image::images/1.01-ProportionOfIT.png[]
 
-Information technology (”IT” for the rest of this book) increasingly permeates business operations and social interactions (figure XX). As it increases its pervasiveness, it becomes difficult to disentangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
+Information technology (”IT” for the rest of this book) increasingly permeates business operations and social interactions. As it increases its pervasiveness, it becomes difficult to disentangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
 
 ****
 *Sidebar: Cargo cult*

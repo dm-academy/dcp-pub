@@ -1,5 +1,13 @@
 ==== Defining Information Technology
 
+ifdef::collaborator-draft[]
+
+Note: I am not entirely satisfied with this chapter. I am concerned that the discussion of Carr & related topics is a bit advanced for introductory students. However, this is intended as a graduate level text. Thoughts appreciated.
+
+-ctb
+
+endif::collaborator-draft[]
+
 ===== What is IT, anyways?
 
 We’ve started this book in the previous section, by first defining IT value. This is deliberate. But what is IT, anyways?

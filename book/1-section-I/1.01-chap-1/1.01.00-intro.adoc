@@ -1,5 +1,16 @@
 === Chapter 1. IT Value
 
+ifdef::collaborator-draft[]
+
+_Collaboration notes_
+
+_ I am concerned that the discussion of Carr & related topics is a bit advanced for introductory students. Or perhaps the flow is off. Thoughts appreciated._
+
+_-ctb_
+
+endif::collaborator-draft[]
+
+
 ==== Introduction to Chapter 1
 
 As noted at the outset, you are one or two people in a startup. You are building a product of which IT is a significant part (otherwise why are you reading this book/in this class?) Your motivations are entrepreneurial; you want to create a successful business.

@@ -6,7 +6,7 @@ ifdef::collaborator-draft[]
 
 _Collaboration notes_
 
-_ I am concerned that the discussion of Carr & related topics is a bit advanced for introductory students. Or perhaps the flow is off. Thoughts appreciated._
+_I am concerned that the discussion of Carr & related topics is a bit advanced for introductory students. Or perhaps the flow is off. Thoughts appreciated._
 
 _-ctb_
 

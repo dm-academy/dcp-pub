@@ -1,5 +1,7 @@
 === Chapter 1. IT Value
 
+==== Introduction to Chapter 1
+
 ifdef::collaborator-draft[]
 
 _Collaboration notes_
@@ -10,8 +12,6 @@ _-ctb_
 
 endif::collaborator-draft[]
 
-
-==== Introduction to Chapter 1
 
 As noted at the outset, you are one or two people in a startup. You are building a product of which IT is a significant part (otherwise why are you reading this book/in this class?) Your motivations are entrepreneurial; you want to create a successful business.
 

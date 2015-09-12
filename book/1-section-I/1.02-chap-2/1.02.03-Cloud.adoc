@@ -37,9 +37,7 @@ OS instructor.
 image::images/1.02-virtualization-types.png[]
 
 ****
-*Did you know?*
-
-Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
+NOTE: Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
 ****
 
 * Multi-tenancy

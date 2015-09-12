@@ -1,16 +1,18 @@
 ==== Infrastructure overview
 
-In the previous chapter, you developed a product idea and a proposed Minimum Marketable Feature. Some part of that Minimum Marketable Feature requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)
+In the previous chapter, you were introduced to the concept of a Moment of Truth, and in the final exercises asked to think of a product idea. Some part of that product requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)
 
 You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions; shut down your Twitter and Facebook feeds, and are ready to start building.
 
 Not so fast.
 
-Before you can start writing code, you need some kind of a platform. You need to decide what language you are going to write in, or what framework you are going to configure, and how that effort is going to result in an operational system capable of rendering IT services.
-`
-`You are probably swimming in a sea of advice and options regarding your technical choices. In previous decades, books such as this might have gone into the specifics of particular platforms: mainframe vs. minicomputers, COBOL vs Fortran, Windows vs Unix, etc.
+Before you can start writing code, you need some kind of a platform. It's hard to build before you decide on your tools.
 
-At this writing, JavaScript is a leading choice, in conjunction with various frameworks and NoSQL options (e.g. the MEAN stack, for MongoDB, Express, Angular, and Node.js), but millions of developers are still writing Java and .Net, and Ruby and Python have significant followings. Linux is arguably the leading platform, but commercial Unix and Microsoft platforms are still strong. And, periodically it's reported that the majority of the world's transactions *still* run on COBOL-based systems.
+You need to decide what language you are going to write in, or what framework you are going to configure, and how that effort is going to result in an operational system capable of rendering IT services.
+
+You are probably swimming in a sea of advice and options regarding your technical choices. In previous decades, books such as this might have gone into the specifics of particular platforms: mainframe vs. minicomputers, COBOL vs Fortran, Windows vs Unix, etc.
+
+At this writing, JavaScript is a leading choice, in conjunction with various frameworks and NoSQL options (e.g. the MEAN stack, for MongoDB, Express, Angular, and Node.js), but millions of developers are still writing Java and .Net, and Ruby and Python have significant followings. Linux is arguably the leading platform, but commercial Unix and Microsoft platforms are still strong. And, periodically it's reported that the majority of the world's transactions *still* run on http://blog.hackerrank.com/the-inevitable-return-of-cobol/[COBOL-based systems].
 
 However, in the past few years, some powerful infrastructure concepts have solidified that are independent of particular platforms:
 
@@ -47,81 +49,3 @@ The interesting thing is that today’s application becomes tomorrow’s infrast
 
 Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.
 ****
-
-==== From "physical" compute to Cloud
-
-What do we even mean by “Cloud”?
-
-First we need to understand what we mean by IT
-
-* Computing cycles
-* Memory & storage
-* Communications
-
-Those are the fundamentals
-
-The idea of running IT as a utility service goes back years
-
-* Complexity has been the problem
-
-Cloud origins
-
-* Virtualization (we will discuss further)
-* Managed hosting
-* Web-scale IT
-* “IT doesn’t matter”
-
-Virtualizaton
-
-* Essentially, a computer within a computer.
-
-image::images/1.02-virt.png[]
-
-* There is a host system that can instantiate one or more guests.
- - The host system knows about the guests, but the guests do not know about the host (except as a peer system on the network, perhaps).
- - The physical resources allocated can vary according to demand
-
-* The technical details are deep. Talk to your
-OS instructor.
-
-image::images/1.02-virtualization-types.png[]
-
-****
-*Did you know?*
-
-Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
-****
-
-* Multi-tenancy
- - Multi-tenancy is where multiple customers share physical resources that provide the illusion of being dedicated
- - The phone system has been multi-tenant ever since they got rid of party lines.
-
-
-Virtualization vs containers
-
-Virtualization benefits
-
-image::images/1.02-virt-benefits.png[]
-
-Why virtualize?
-
-* Great for heterogeneous workloads – lots of miscellaneous applications & services running on underutilized servers
-* What about where the application is large and virtualization is mostly overhead?
- - Still may make sense
-* Management consistency
-* Ease of restoration
-* Database professionals still don’t like it
- - “The database IS virtualization” they will say
-
-Virtualizaiton vs cloud
-
-* “Cloud is not just virtualization” many critics will say
-* Financial model
-* Tenancy model
-* Provisioning model
-* Services beyond raw compute, storage and network
-* Self-service, API-driven
-
-Traditional managed hosting vs cloud
-* Managed services: “your mess for less”
-* Cloud: “clean it up first”

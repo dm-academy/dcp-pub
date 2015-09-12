@@ -5,6 +5,7 @@ Conclusion placeholder
 ===== Discussion questions
 
 ===== Research & practice
+. Research Cloud providers and recommend which you would prefer to build your new product on. 
 
 ===== Further reading
 

@@ -29,9 +29,9 @@ include::book/1-section-I/1.02-chap-2/1.02.01-infra-overvw.adoc[]
 
 include::book/1-section-I/1.02-chap-2/1.02.02-choosing-infra.adoc[]
 
-include::book/1-section-I/1.02-chap-2/1.02.03-infraCode.adoc[]
+include::book/1-section-I/1.02-chap-2/1.02.03-Cloud.adoc[]
 
-include::book/1-section-I/1.02-chap-2/1.02.04-scripts2policies.adoc[]
+include::book/1-section-I/1.02-chap-2/1.02.04-infraCode.adoc[]
 
 include::book/1-section-I/1.02-chap-2/1.02.05-source-control.adoc[]
 

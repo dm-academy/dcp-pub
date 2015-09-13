@@ -25,6 +25,8 @@ Regardless of organizational form or delivery methods, IT is defined by these or
 
 It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.
 
+====== IT and digital transformation
+
 IT increasingly permeates business operations and social interactions. The breadth and depth of IT support for virtually all domains of society continues to expand. Lately, this is known as digital transformation.
 
 As it increases its pervasiveness, it becomes difficult to detangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
@@ -77,12 +79,5 @@ And regardless of where the IT is housed (under a traditional CIO, an operations
 Executives who take control of information technology in hopes of making it more agile are often surprised to find that these concerns were not mere bureaucracy, but instead had well grounded origins in past failures. Ignoring these lessons is perilous.
 
 And yet, the traditional, process-heavy IT organization does seem dysfunctional from a business point of view: a central theme of this book.
-
-
-
-****
-
-_IT is always a service, always a moment of truth - find from previous work_
-
 
 ￼

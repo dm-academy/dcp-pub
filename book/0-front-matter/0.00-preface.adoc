@@ -48,7 +48,7 @@ I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota,
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- to be covered in the associated lab materials.
 
-My class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), ands was intended from its creation to cover the management of IT broadly. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like. Rather it serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.
+My class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), and was intended from its creation to cover the management of IT broadly. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like. Rather, it serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.
 
 ifdef::instructor-ed[]
 
@@ -69,7 +69,7 @@ In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on th
 _This course will cover several topics related to IT infrastructure. The course will cover Information Technology Infrastructure Library (ITIL) which is the most widely adopted approach for IT Service Management. It provides a practical framework for identifying, planning, delivering and supporting IT services to the business._
 ****
 
-I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitmate faculty positions and afford a number of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
+I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitimate faculty positions and afford a number of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.
 
 The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not communicating effectively.
 

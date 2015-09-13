@@ -10,7 +10,7 @@ _-ctb_
 
 endif::collaborator-draft[]
 
-With three chapters in each section, the book can be covered in one intense semester at a chapter a week, although expanding it to a two-semester treatment would allow for more in depth coverage and increased lab exposure.
+With three chapters in each section, the book can be covered in one intense semester at a chapter a week, although expanding it to a two-semester treatment would allow for more in-depth coverage and increased lab exposure.
 
 I give great credit to both my students and Dr. Misra for challenging me to add a practical component to the course. This required new thinking on my part. How to demonstrate IT management at scale in a lab setting? I have learned that a hands on component is critical, as IT management discussions can be  abstract and meaningless to many students. (”Incidents are different from Problems!”)
 

@@ -2,9 +2,9 @@
 
 ===== Inside an IT service
 
-Let's examine our user's value experience in more detail, without getting unnecessrily technical, and clarify some definitions along the way.
+Let's examine our diner's value experience in more detail, without getting unnecessarily technical, and clarify some definitions along the way.
 
-The first idea we need to cover is the "moment of truth." In terms of information technnology, this English-language cliche represents the user's experience of value.
+The first idea we need to cover is the "moment of truth." In terms of information technnology, this English-language cliché represents the user's experience of value.
 
 IMPORTANT: The "moment of truth" represents the user's experience of value, from a product, good, or service.
 
@@ -20,7 +20,7 @@ Each of these individual value experiences was co-created by our friend's desire
 
 image::images/1.01-ITValue.png[]
 
-In order to view her balance, our user is probably using an application downloaded from a "store" of applications made avaialble to her device. On her device, this "app" is part of an intricate set of components performing functions such as
+In order to view her balance, our user is probably using an application downloaded from a "store" of applications made available to her device. On her device, this "app" is part of an intricate set of components performing functions such as
 
 * connecting to the phone network
 * securely connecting over the phone network to the Internet and then to the bank
@@ -33,7 +33,7 @@ The application, or "app," downloaded to the phone plays a primary role, but is 
 
 * the phone's operating system and associated services
 * the phone's hardware
-* the telecommunicatons infrastructure (cell phone towers, long distance fiber optic cables, switching offices, and much more)
+* the telecommunications infrastructure (cell phone towers, long distance fiber optic cables, switching offices, and much more)
 
 Of course, without the banking systems on the other end, there is no bank balance to transmit. These systems are similar, but on a much larger scale than our friend's device:
 
@@ -51,7 +51,7 @@ Therefore, as we study this world, we need to mantain awareness of her perspecti
 
 image::images/1.01-ITStack2.png[]
 
-IMPORTANT: Always remember the user's experience. Information technology has a well deserved reputation for being too complicated for end users--for example, trying to do something that should be simple, and finding oneself in a technical conversation about  network settings.
+IMPORTANT: Always remember the user's experience. Information technology has a well deserved reputation for being too complicated for end users--for example, trying to do something that should be simple, and finding oneself in a technical conversation about network settings.
 
 ===== What vs. how
 
@@ -72,7 +72,7 @@ Terminology is important. We need to have a more precise way of describing the i
 
 We also see discussion of components, resources, subsystems, assets, and many more terms.
 
-WARNING: There are many debates around these definitions. Sometimes these debates are helpful in clarifying the terminology you want to use on your team. But sometimes the debates don't add any value.  Beware of anyone who claims there is a "best practice" here.
+WARNING: There are many debates around these definitions. Sometimes these debates are helpful in clarifying the terminology you want to use on your team. But sometimes the debates don't add any value. Beware of anyone who claims there is a "best practice" here.
 
 In general, in this book, we will use the following definitions:
 

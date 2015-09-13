@@ -1,7 +1,5 @@
 == Preface
 
-Welcome to Agile IT Management, the first general, survey-level text on IT management written from an Agile and Lean IT perspective.
-
 This preface covers:
 
 * Some comments on the IT industry and the rise of Agile

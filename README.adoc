@@ -2,13 +2,10 @@
 
 :toc:
 
+
 _Note, if you came to this via the Github repository (https://github.com/dm-academy/aitm), you might want to look at the content which is now being rendered to http://dm-academy.github.io/aitm/[Github Pages]. Same stuff, but more navigable and the whole book will be there. If you're already on Github Pages (http://dm-academy.github.io/aitm/) never mind._
 
-_7/23/2015 Work in progress: I am moving most of this README to the http://dm-academy.github.io/aitm/#_preface[preface], but there will remain a placeholder w/pointers here._
-
-Status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. Stop back in a few weeks and you'll see actual content.
-
-Updated status as of 8/6/2015: Have a complete file system and placeholder files, first 2 chapters are reasonable first drafts, working on Chapter 3.
+Welcome to Agile IT Management, the first general, survey-level text on IT management written from an Agile and Lean IT perspective.
 
 === Views on the book
 
@@ -43,5 +40,13 @@ I have not decided on a publishing channel. I am experimenting with LeanPub, but
 My stance on these issues depends directly on other people making substantial contributions. If that does not happen, I will consider other, more proprietary models, although I remain concerned for educational access and am not inclined to publish this solely as a $150.00 glossy textbook.
 
 If you have comments or questions, please log a https://github.com/dm-academy/aitm/issues[Github issue] on this repository. Or drop me a line at char AT dm-academy DOT com.
+
+=== Progress notes
+
+_7/23/2015 Work in progress: I am moving most of this README to the http://dm-academy.github.io/aitm/#_preface[preface], but there will remain a placeholder w/pointers here._
+
+Status as of 7/16/2015: I have ~60,000 words in Scrivener that I am starting to transfer to Github. This is not a simple conversion, the material needs further rewriting as I do this. But this project is by no means starting from scratch. Stop back in a few weeks and you'll see actual content.
+
+Updated status as of 8/6/2015: Have a complete file system and placeholder files, first 2 chapters are reasonable first drafts, working on Chapter 2.
 
 _End of README, beginning of actual book build._

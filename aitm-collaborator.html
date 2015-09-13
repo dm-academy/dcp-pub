@@ -2542,21 +2542,14 @@ For a beginner-level introduction to the world of digital logic at its most fund
 <div class="paragraph">
 <p>For example, let&#8217;s say that the pixel values range from 1 to 10, with 1 being the darkest and 10 being the lightest (in reality, the range is much larger.) We might tell the computer:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Look at a pixel</p>
-</li>
-<li>
-<p>If it is between 0 and 3 add 2</p>
-</li>
-<li>
-<p>If it is between 4 and 6 add 1</p>
-</li>
-<li>
-<p>Repeat until all pixels are done</p>
-</li>
-</ol>
+<div class="literalblock">
+<div class="content">
+<pre>Look at a pixel
+If it is between 0 and 3 add 2
+If it is between 4 and 6 add 1
+Move to a new pixel
+Repeat the above 4 lines until all pixels are done</pre>
+</div>
 </div>
 <div class="paragraph">
 <p>At a more realistic level, the process might be executed as a batch on a workstation, for hundreds or thousands of photos at a time.</p>
@@ -2577,16 +2570,58 @@ If these concepts are strange to you, spend some time with the suggested Wikiped
 </table>
 </div>
 <div class="paragraph">
-<p><strong>Storage</strong> But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).</p>
+<p><strong>Storage</strong> But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the digital logic of the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).</p>
 </div>
 <div class="paragraph">
-<p>Many technologies <a href="http://www.zetta.net/history-of-computer-storage/">have been used for digital storage.</a> Increasingly, the IT professional need not be concerned with the physical infrastructure used for storing data. As we will cover in the next section, storage increasingly is experienced as a virtual resource, accessed through executing programmed logic on Cloud platforms. "Underneath the covers" the Cloud provider might be using various forms of storage, from RAM to solid state drives to tapes, but the end user is shielded from the implementation details (part of the definition of a service).</p>
+<p>Many technologies <a href="http://www.zetta.net/history-of-computer-storage/">have been used for digital storage.</a> Increasingly, the IT professional need not be concerned with the physical infrastructure used for storing data. As we will cover in the next section, storage increasingly is experienced as a virtual resource, accessed through executing programmed logic on Cloud platforms. "Underneath the covers" the Cloud provider might be using various forms of storage, from RAM to solid state drives to tapes, but the end user is,  <strong>ideally</strong>, shielded from the implementation details (part of the definition of a service).</p>
 </div>
 <div class="paragraph">
-<p>However, it is important to understand that in general, storage follows a hierarchy. Just as we might "store" a document by holding it in our hands, setting it on a desktop, filing it in a cabinet, or archiving it in a banker&#8217;s box in an offsite warehouse, so computer storage also has different levels of speed and accessibility.</p>
+<p>However, it is important to understand that in general, storage follows a <a href="https://en.wikipedia.org/wiki/Memory_hierarchy">hierarchy</a>. Just as we might "store" a document by holding it in our hands, setting it on a desktop, filing it in a cabinet, or archiving it in a banker&#8217;s box in an offsite warehouse, so computer storage also has different levels of speed and accessibility. If this is unfamiliar, see Wikipedia or research on your own; you should have a basic grasp of this issue.</p>
 </div>
 <div class="paragraph">
-<p>Cache is on the same chip as the processor.</p>
+<p><strong>Network</strong>
+We can change the state of some data, or store it. We also need to move it. This is the basic concern of <a href="https://en.wikipedia.org/wiki/Computer_network">networking</a>, to transmit data (or information) from one location to another. If you use your cell phone to look up your bank balance, there is network involved - otherwise, how did the data get from the bank&#8217;s computer in New Jersey to your cell phone in Minnesota?</p>
+</div>
+<div class="paragraph">
+<p>Networking is fairly intuitive; you may be familiar with coaxial cables for TV, or telephone lines strung from pole to pole in many areas. However, like storage, there is also a hierarchy of networking:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Intra-chip pathways</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Motherboard">Motherboard</a> and <a href="https://en.wikipedia.org/wiki/Backplane">backplane</a> circuits</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Local_area_network">Local area networks</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Wide_area_network">Wide area networks</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Backbone_network">Backbone networks</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Like storage, networking as a service increasingly is independent of implementation. The developer uses programmatic tools to define expected information transmission, and (again <strong>ideally</strong>) need not be concerned with the specific networking technologies or architectures serving their needs.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Eventually, scale matters. As your IT service&#8217;s usage increases, you will inevitably find that you need to start caring about technical details such as storage and networking implementations. The implementation decisions made by your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. While more technical, <a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a> provides a good overview of these issues.
+</td>
+</tr>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -3169,6 +3204,9 @@ It is not always easy to apply this approach in practice. There can be edge case
 </li>
 <li>
 <p><a href="http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/" class="bare">http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/</a></p>
+</li>
+<li>
+<p><a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a></p>
 </li>
 </ul>
 </div>

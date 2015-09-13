@@ -75,10 +75,11 @@ If we have a picture of our friend, and we use a digital filter to adjust the br
 
 For example, let's say that the pixel values range from 1 to 10, with 1 being the darkest and 10 being the lightest (in reality, the range is much larger.) We might tell the computer:
 
-. Look at a pixel
-. If it is between 0 and 3 add 2
-. If it is between 4 and 6 add 1
-. Repeat until all pixels are done
+   Look at a pixel
+   If it is between 0 and 3 add 2
+   If it is between 4 and 6 add 1
+   Move to a new pixel
+   Repeat the above 4 lines until all pixels are done
 
 At a more realistic level, the process might be executed as a batch on a workstation, for hundreds or thousands of photos at a time.
 
@@ -86,10 +87,25 @@ Computers process instructions at the level of "true" and "false," represented a
 
 IMPORTANT: If these concepts are strange to you, spend some time with the suggested Wikipedia articles, or otherwise researching the topics. Wikipedia in the area of fundamental computer concepts is generally accurate.
 
-*Storage* But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).
+*Storage* But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the digital logic of the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).
 
-Many technologies http://www.zetta.net/history-of-computer-storage/[have been used for digital storage.] Increasingly, the IT professional need not be concerned with the physical infrastructure used for storing data. As we will cover in the next section, storage increasingly is experienced as a virtual resource, accessed through executing programmed logic on Cloud platforms. "Underneath the covers" the Cloud provider might be using various forms of storage, from RAM to solid state drives to tapes, but the end user is shielded from the implementation details (part of the definition of a service).
+Many technologies http://www.zetta.net/history-of-computer-storage/[have been used for digital storage.] Increasingly, the IT professional need not be concerned with the physical infrastructure used for storing data. As we will cover in the next section, storage increasingly is experienced as a virtual resource, accessed through executing programmed logic on Cloud platforms. "Underneath the covers" the Cloud provider might be using various forms of storage, from RAM to solid state drives to tapes, but the end user is,  *ideally*, shielded from the implementation details (part of the definition of a service).
 
-However, it is important to understand that in general, storage follows a hierarchy. Just as we might "store" a document by holding it in our hands, setting it on a desktop, filing it in a cabinet, or archiving it in a banker's box in an offsite warehouse, so computer storage also has different levels of speed and accessibility.
+However, it is important to understand that in general, storage follows a https://en.wikipedia.org/wiki/Memory_hierarchy[hierarchy]. Just as we might "store" a document by holding it in our hands, setting it on a desktop, filing it in a cabinet, or archiving it in a banker's box in an offsite warehouse, so computer storage also has different levels of speed and accessibility. If this is unfamiliar, see Wikipedia or research on your own; you should have a basic grasp of this issue.
 
-Cache is on the same chip as the processor.
+*Network*
+We can change the state of some data, or store it. We also need to move it. This is the basic concern of https://en.wikipedia.org/wiki/Computer_network[networking], to transmit data (or information) from one location to another. If you use your cell phone to look up your bank balance, there is network involved - otherwise, how did the data get from the bank's computer in New Jersey to your cell phone in Minnesota?
+
+Networking is fairly intuitive; you may be familiar with coaxial cables for TV, or telephone lines strung from pole to pole in many areas. However, like storage, there is also a hierarchy of networking:
+
+* Intra-chip pathways
+* https://en.wikipedia.org/wiki/Motherboard[Motherboard] and https://en.wikipedia.org/wiki/Backplane[backplane] circuits
+* https://en.wikipedia.org/wiki/Local_area_network[Local area networks]
+* https://en.wikipedia.org/wiki/Wide_area_network[Wide area networks]
+* https://en.wikipedia.org/wiki/Backbone_network[Backbone networks]
+
+Like storage, networking as a service increasingly is independent of implementation. The developer uses programmatic tools to define expected information transmission, and (again *ideally*) need not be concerned with the specific networking technologies or architectures serving their needs.
+
+****
+IMPORTANT: Eventually, scale matters. As your IT service's usage increases, you will inevitably find that you need to start caring about technical details such as storage and networking implementations. The implementation decisions made by your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. While more technical, https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know] provides a good overview of these issues.
+****

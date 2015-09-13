@@ -14,3 +14,4 @@ Conclusion placeholder
 * Linux in a Nutshell
 * Pro Git
 * http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/
+* https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know]

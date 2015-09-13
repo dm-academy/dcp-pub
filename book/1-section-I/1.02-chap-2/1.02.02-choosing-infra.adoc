@@ -38,8 +38,10 @@ So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis 
 
 If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.
 
-In Scrum-based development, they use the concept of a “spike” to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.
+****
+TIP: *The technical "spike"*
 
-https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio
+In Scrum-based development, they use the concept of a https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio[“spike”] to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.
+****
 
 _Iterative was not possible with earlier technical platforms._

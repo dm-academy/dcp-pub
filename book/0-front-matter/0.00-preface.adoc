@@ -189,7 +189,10 @@ Omissions in this book:
 *Current Agile texts*
 There are hundreds of books on Agile. In this section I will seek to credit specifically collegiate texts that may also be of interest.
 
-* Ashmore, Sondra and Kristin Runyan, http://www.amazon.com/Introduction-Agile-Methods-Sondra-Ashmore/dp/032192956X[_Introduction to Agile Methods_]
+* Ashmore, Sondra and Kristin Runyan, http://www.goodreads.com/book/show/18349912-introduction-to-agile-methods[_Introduction to Agile Methods_]
+
+* Limoncelli, Thomas A., Strata R. Chalup, Christina J. Hogan http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[_The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2_]
+ - while not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
 
 ****
 

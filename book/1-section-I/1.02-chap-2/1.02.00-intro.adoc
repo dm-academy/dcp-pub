@@ -19,7 +19,7 @@ You also need to understand something of how computers are operated, enough so t
 ===== Chapter summary
 
 * Defining "IT infrastructure"
- - How an IT system *runs*, as opposed to what it *does*.
+ - How an IT system *runs*, as opposed to what it *does*
  - The ingredients (OS, language, services)
  - Physical vs virtual
  - Cloud systems
@@ -39,7 +39,7 @@ You also need to understand something of how computers are operated, enough so t
 
 
 ===== Learning objectives
-* Understand fundamental principles of operating computers as infrastructure for a service.
+* Understand fundamental principles of operating computers as infrastructure for a service
 * Understand Cloud as a computing option
 * Understand basic principles of "infrastructure as code"
 * Understand the importance and basic practices of source code control and why it applies to infrastructure management

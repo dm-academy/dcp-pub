@@ -8,6 +8,8 @@ _Collaboration notes_
 
 _I am concerned that the discussion of Carr & related topics is a bit advanced for introductory students. Or perhaps the flow is off. Thoughts appreciated._
 
+_Need to add discussion of Minimum Viable Product - essential precursor to Chapter 2_
+
 _-ctb_
 
 endif::collaborator-draft[]

@@ -2,6 +2,12 @@
 
 In the previous chapter, you were introduced to the concept of a Moment of Truth, and in the final exercises asked to think of a product idea. Some part of that product requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)
 
+****
+NOTE: Moment of Truth & Minimum Viable Product
+
+A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product's idea. 
+****
+
 You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions; shut down your Twitter and Facebook feeds, and are ready to start building.
 
 Not so fast.

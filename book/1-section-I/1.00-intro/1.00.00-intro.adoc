@@ -20,13 +20,13 @@ This chapter also covers the basics of how you'll approach building a product. I
 
 In this chapter, you have a general idea for a product and are ready to start building it. But not so fast... you need to decide some fundamentals first. How will your new product run? What will you use to build it?
 
-It's not possible to begin construction until you decide on your tools. This chapter will provide you an overview of computing infrastructure including Cloud hosting, and various approaches to system configuration.
+It's not possible to begin construction until you decide on your tools. This chapter will provide you an overview of computing infrastructure including Cloud hosting and various approaches to system configuration.
 
 This chapter also presents an overview of source control, as even your infrastructure depends on it in the new world of "infrastructure as code."
 
 *Chapter 3: Application delivery*
 
-Finally, you're ready to start building something. While this is not a book on software development or programming languages, it's important to understand some basics and at least see them in action.
+Finally, you're ready to start building something. While this is not a course on software development or programming languages, it's important to understand some basics and at least see them in action.
 
 This is also the "DevOps" chapter; it's not just about writing code, but about the entire end to end system that gets the code you are writing from your workstation, into collaborative environments, and finally to a state where it can be accessed by end users. From source repository to build manager to package repository to production, we'll cover a basic toolchain that will help you understand modern industrial practices.
 

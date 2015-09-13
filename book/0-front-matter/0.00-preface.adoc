@@ -56,7 +56,7 @@ _Instructor's note_
 
 As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that *IT education in this country is broken*.
 
-This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world, many of whom I count as friends. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.] "The students coming out don't even understand what source control is," goes one frequent complaint. And Agile methods, if mentioned at all, are presented in a context- and experience-free manner.
+This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.] "The students coming out don't even understand what source control is," goes one frequent complaint. And Agile methods, if mentioned at all, are presented in a context- and experience-free manner.
 
 This is a problem, as we are starting to see shakeups in the talent market due to larger enterprises adopting Agile. I am aware of hundreds of experienced IT professionals being laid off in my region, due at least in part to Agile transformations. A new pedagogy is called for. (This is why I have also helped found the http://www.meetup.com/Agile-Study-Group/[Minnesota Agile Study Group], a meeting place for local faculty and professionals to interact on these topics.)
 
@@ -92,6 +92,57 @@ _Students will gain hands-on experience with virtualization, systems administrat
 ****
 
 While my spring 2015 class was about half full, based on the older ITIL description, my fall 2015 section filled to capacity immediately when the new description was published.
+
+****
+Sidebar: Proposed premises of the https://github.com/MN-ASG/main[Agile Study Group]
+
+We offer the following premises, as a set of old vs. new contrasts:
+
+|====
+|*Old view*|*New view*
+|Lean/Agile is a cultural and generational phenomenon that will pass.
+|Lean/Agile  has sound empirical and theoretical foundations. Rather than being seen as a passing fad, it is better understood as the logical culmination of the great systems and management theorists of the 20th century (Deming, Forrester, et al.)
+
+
+|Theory is relevant for core computer science, but less so for IT industry practice.
+|There are relevant theories for software product management, work execution, and service operations that we as educators should be using to inform our pedagogy.
+
+|Teaching students an assortment of foundational theory and functional skills (computation, programming languages, networking, security, and more applied topics) is sufficient.
+|Students need to understand the collaborative software-based product lifecycle process as a socio-technical system.
+
+|The default organizing model of functionally specialized, maximally utilized IT organizations matrixed through projects and processes is effective and needs little further discussion.
+|Current IT management guidance overlooks critical insights of queueing theory, resulting in gridlock. Project and process management across functionally specialized centers of excellence is being challenged by product-centric approaches (e.g. Amazon’s “Two-pizza team” model).
+
+|Product design is not our field.
+|IT is an increasing component of products in general and this is transforming both the practices of IT and product management. It can be argued that all IT system development is a form of product design and delivery. +
+ +
+ The “business/IT” boundary continues to erode as part of this. The implications of this for traditional IT organizational design and performance management are radical and poorly addressed in in research and pedagogy.
+
+|Companies vary too greatly in how they employ IT and software graduates for academic training to cover practical issues.
+|There is an emerging practical industry consensus around how IT is best delivered. Regions where this is most advanced are reaping economic benefit. +
+ +
+Certain widely adopted  industry practices (*source control*, *continuous delivery*, and *computing infrastructure automation* in particular) need to be better reflected in current instructional approaches. Teaching them as isolated functional topics is insufficient. *They should pervade the IT student experience, just as antiseptic practices pervade medical education.*
+
+|Agile methods can be understood and taught as a subset of project management.
+|Lean/Agile IT is expanding upstream (via product management and increasing impact on organizational design) and downstream (via DevOps) from traditional project management and is challenging project management’s foundational assumptions. +
+ +
+Filtering Lean/Agile through a project management lens tends to reduce it to development-centric Agile practices such as Scrum, and diminishes the breadth of Agile theory and applicability. In fact, the future of project management is itself in question; significant concerns have been raised about the theoretical foundations and practical utility of project management as traditionally understood.
+
+
+|Industry partnerships are essential.
+|Yes, and we need to have additional experiential approaches, such as shared simulation testbeds and effective hands-on labs, for grounding students in current industrial practices so they are well prepared for their industry practicums.
+
+|Technology is moving too fast and we continually struggle with keeping up and staying relevant.
+|There is a new high value, well-grounded, stable pedagogical core we can identify, that can be translated at different levels for students of various interests and abilities. We do not need to resign ourselves to merely providing fashion-driven vocational training.
+|====
+
+Like any mental model, these contrasts are open to debate, refinement, and even elimination.
+
+
+Interested so far? Introducing the https://github.com/MN-ASG/main/blob/master/about-mn-asg.adoc[Minnesota Agile Study Group].
+
+
+****
 
 ==== Considering a 3rd edition
 

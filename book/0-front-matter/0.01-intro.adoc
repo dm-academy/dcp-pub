@@ -9,16 +9,14 @@ In keeping with the entrepreneurial spirit that gave rise to the Agile movement 
 * http://www.amazon.com/Startup-CEO-Scaling-Business-Website/dp/1118548361[_Startup CEO_] by Blumberg
 * http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898/ref=pd_bxgy_14_img_y[_The Lean Startup_] by Ries
 
-However, this is not a textbook (or course) on a full startup process. It remains IT-centric. *And, the book is also intended to be relevant to students entering directly into large, established enterprises.* In fact, because it progresses through the four contexts:
+However, this is not a textbook (or course) on a full startup process. It remains IT-centric. *And, the book is also intended to be relevant to students entering directly into large, established enterprises.* In fact, it prepares students for working in all stages of growth because it progresses through these four contexts:
 
 * Individual
 * Team
 * Small company
 * Enterprise
 
-It prepares you for working in companies at all stages of growth.
-
-Whether you are in a startup, or on a journey within a larger, established organization, you will (hopefully) become aware as you progress of a broadening context:
+Whether students are in a startup, or on a journey within a larger, established organization, they will (hopefully) become aware as they progress through a broadening context:
 
 * Other team members
 * Customers
@@ -44,7 +42,7 @@ As a structuring mechanism, I have tested this in the classroom with some succes
 
 .... *Coordination*: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
 
-.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running hetergeneous IT at massive scale.
+.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running heterogeneous IT at massive scale.
 
 Elaborating the above outline into chapters, we have:
 
@@ -85,7 +83,7 @@ ifdef::instructor-ed[]
 ****
 _Instructor's note_
 
-I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
+I have spent considerable time thinking (agonizing) about the correct ordering of the chapters within these sections. This is possibly the tenth or twelfth version of the chapter ordering. This is an area where I want critical review, but also have strong opinions.
 
 There is benefit to restricting the chapters to 12, as a typical semester runs 14 weeks and the book then fits quite nicely, with one chapter per class and allowing for an introductory session and final exam. (Trying to modfiy the semester system is out of scope for this project.) Of course, a two-semester series, with 2 weeks per chapter, would also work well; each half of the book is also a logical unit.
 

@@ -8,7 +8,7 @@ NOTE: Moment of Truth & Minimum Viable Product
 A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product's idea.
 ****
 
-You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions; shut down your Twitter and Facebook feeds, and are ready to start building.
+You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions, shut down your Twitter and Facebook feeds, and are ready to start building.
 
 Not so fast.
 
@@ -31,7 +31,7 @@ However, in the past few years, some powerful infrastructure concepts have solid
 
 This might seem like a detour - you are in a hurry to start writing code! But industry practice is clear. You check your code into source control from Day One. You define your server configurations as recipes, manifests, or at least shell scripts, and check those definitions into source control as well. You keep track of what you have downloaded from the Internet and what version of stuff you are using. Always downloading the “latest” package from its upstream creator might seem like the way to stay current, but it will kill you when stuff works on one server but not on another.
 
-So, you need to understand a few things and make a few decisions, that you will be living with for a while, and will not be easily changed.
+So, you need to understand a few things and make a few decisions that you will be living with for a while, and will not be easily changed.
 
 ===== What is Infrastructure?
 

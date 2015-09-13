@@ -1,16 +1,5 @@
 ==== From "physical" compute to Cloud
 
-There are many books (some in the Further Reading section for this chapter) on all aspects of IT infrastructure, which is a broad and deep topic. Our discussion of it here has to be high level, as appropriate for a survey course.
-
-
-
-First we need to understand what we mean by IT
-
-* Computing cycles
-* Memory & storage
-* Communications
-
-Those are the fundamentals
 
 The idea of running IT as a utility service goes back years
 

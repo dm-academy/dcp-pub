@@ -211,3 +211,7 @@ Finally, there is almost no recognition that the management of information techn
 Few if any discuss the challenging questions of scaling IT management, and the state transitions it implies. I believe *in embracing the scaling problem we can develop an effective pedagogy that can orient even the greenest student*.
 
 The structure of the book is documented in the next section, Introduction.
+
+==== Acknowledgements
+
+Thanks to Stephen Fralippolippi and Roger K. Williams for being the first Github contributors.

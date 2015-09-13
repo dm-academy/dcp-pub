@@ -5,12 +5,12 @@ Conclusion placeholder
 ===== Discussion questions
 
 ===== Research & practice
-. Research Cloud providers and recommend which you would prefer to build your new product on. 
+. Research Cloud providers and recommend which you would prefer to build your new product on.
 
 ===== Further reading
 
+* Limoncelli
+* Allspaw
 * Linux in a Nutshell
 * Pro Git
-* Limoncelli
-* Allspaw (move?)
 * http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/

@@ -5,7 +5,7 @@ In the previous chapter, you were introduced to the concept of a Moment of Truth
 ****
 NOTE: Moment of Truth & Minimum Viable Product
 
-A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product's idea. 
+A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product's idea.
 ****
 
 You presumably have some resources (time and money). It’s Monday morning, you have cleared all distractions; shut down your Twitter and Facebook feeds, and are ready to start building.
@@ -33,8 +33,8 @@ This might seem like a detour - you are in a hurry to start writing code! But in
 
 So, you need to understand a few things and make a few decisions, that you will be living with for a while, and will not be easily changed.
 
-****
-*Sidebar: What is Infrastructure?*
+===== What is Infrastructure?
+
 Infrastructure is a tricky word. Google defines it thus:
 
 ￼_The basic physical and organizational structures and facilities (e.g., buildings, roads, and power supplies) needed for the operation of a society or enterprise._
@@ -54,4 +54,17 @@ IT infrastructure is one form of infrastructure. Other kinds of infrastructure m
 The interesting thing is that today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born.
 
 Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.
-****
+
+===== Basic IT infrastructure concepts
+
+There are many books (some in the Further Reading section for this chapter) on all aspects of IT infrastructure, which is a broad and deep topic. Our discussion of it here has to be high level, as appropriate for a survey course.
+
+We've established http://dm-academy.github.io/aitm/#_defining_information_technology[what we mean by IT generally]. Pragmatically, there are three major physical aspects to "IT infrastructure" relevant to the practitioner:
+
+* Computing cycles (sometimes called just "compute")
+* Memory & storage (or "storage")
+* Networking & communications (or "network")
+
+Those are the fundamentals. We will discuss a wide variety of subsidiary concerns and concepts, but those are the big three.
+
+*Compute* is the 

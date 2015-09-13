@@ -16,7 +16,7 @@ As mentioned in the section introduction, you cannot start writing code until yo
 
 You also need to understand something of how computers are operated, enough so that you can make decisions on how your system will run. Most startups choose to run IT services on infrastructure owned by a Cloud provider, but there are other options.
 
-This is one of the more technical chapters. Supplementary reading may be required for those completely unfamiliar with computing. See http://dm-academy.github.io/aitm/aitm-collaborator.html#_assumptions_of_the_reader[Assumptions of the Reader] for notes on the book's approach.
+This is one of the more technical chapters. Supplementary reading may be required for those completely unfamiliar with computing. See http://dm-academy.github.io/aitm/index.html#_assumptions_of_the_reader[Assumptions of the Reader] for notes on the book's approach.
 
 ===== Chapter summary
 

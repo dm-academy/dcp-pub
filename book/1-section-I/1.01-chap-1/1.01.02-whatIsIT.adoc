@@ -15,9 +15,19 @@ Therefore, “information technology” is defined as the edifice of theory and 
 
 image::images/1.01-ProportionOfIT.png[]
 
-Information technology (”IT” for the rest of this book) increasingly permeates business operations and social interactions. The breadth and depth of IT support for virtually all domains of society continues to expand. Lately, this is known as digital transformation.
+Discussions of “information technology” become contentious because some think of the traditional organization, while others think of the general problem area. IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” the author using the term is referring to this organizational tradition.
 
-As it increases its pervasiveness, it becomes difficult to disentangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
+*We are less interested in the future of IT as a distinct organizational structure. There are many different models, from fully centralized to fully embedded.* Organizational structure will be discussed in Chapter 7.
+
+For this book, we define “Information technology” in terms of its historic origins. We look to IT’s common origins in automating the laborious and error prone processes of computation, through the application of digital logic technologies based on information transmission.
+
+Regardless of organizational form or delivery methods, IT is defined by these origins. And there are notable common threads through this problem domain: the fragility and complexity of these systems, the need for layered abstractions in their management, and more.
+
+It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.
+
+IT increasingly permeates business operations and social interactions. The breadth and depth of IT support for virtually all domains of society continues to expand. Lately, this is known as digital transformation.
+
+As it increases its pervasiveness, it becomes difficult to detangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
 
 ****
 *Sidebar: Cargo cult*
@@ -45,7 +55,7 @@ A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provi
 
 On the other hand, consider a text analytic algorithm that replaces thousands of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This *is* strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these -- and they seem to be increasing -- IT matters very much.
 
-In the digitally transforming economy, traditional “back office” IT organizations find themselves called on to envision, develop, and support market-facing applications of IT. And what starts with one market-facing use case can quickly expand into entire portfolios.  It is such cases that this book is particularly concerned with.
+In the digitally transforming economy, traditional “back office” IT organizations find themselves called on to envision, develop, and support market-facing applications of IT. And what starts with one market-facing use case can quickly expand into entire portfolios.  It is such cases that are of particular concern in this book.
 
 ====== Are you "doing IT?"
 
@@ -53,9 +63,9 @@ So, how do we define an IT problem, as opposed to other kinds of business proble
 
 * If you need computer scientists or engineers who understand the fundamentals of information theory and computer science, you are doing IT.
 * If you need people who understand when your information-centric problems might need to be referred to such theorists and engineers, you are likely doing IT.
-* If you need people who are skilled in building upon those fundamentals,  and operating technical platforms derived from them (such as programming languages, general purpose computers, and routers), you are doing IT.
+* If you need people who are skilled in building upon those fundamentals, and operating technical platforms derived from them (such as programming languages, general purpose computers, and routers), you are doing IT.
 
-And regardless of where the IT is housed (under a traditional CIO, an operations capability, a Chief Marketing Officer, or a “line of business”),  when it is critical to operations, certain concerns inevitably follow:
+And regardless of where the IT is housed (under a traditional CIO, an operations capability, a Chief Marketing Officer, or a “line of business”), when it is critical to operations, certain concerns inevitably follow:
 
 * Requirements (i.e. your intent for IT)
 * Sourcing and provisioning
@@ -68,20 +78,7 @@ Executives who take control of information technology in hopes of making it more
 
 And yet, the traditional, process-heavy IT organization does seem dysfunctional from a business point of view: a central theme of this book.
 
-****
-*Sidebar: Corporate function vs. problem domain*
 
-Discussions of “information technology” become contentious because some think of the traditional organization, while others think of the general problem area.
-
-IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” the author using the term is referring to this organizational tradition.
-
-*We are less interested in the future of IT as a distinct organizational structure. There are many different models, from fully centralized to fully embedded.* Organizational structure will be discussed in Chapter 7.
-
-For this book, we define “Information technology” in terms of its historic origins. We look to IT’s common origins in automating the laborious and error prone processes of computation, through the application of digital logic technologies based on information transmission.
-
-Regardless of organizational form or delivery methods, IT is defined by these origins. And there are notable common threads through this problem domain: the fragility and complexity of these systems, the need for layered abstractions in their management, and more.
-
-It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.
 
 ****
 

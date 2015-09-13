@@ -67,4 +67,29 @@ We've established http://dm-academy.github.io/aitm/#_defining_information_techno
 
 Those are the fundamentals. We will discuss a wide variety of subsidiary concerns and concepts, but those are the big three.
 
-*Compute* is the 
+*Compute* is the resource that performs the rapid, clock-driven digital logic that transforms data inputs to outputs.
+
+TIP: For a beginner-level introduction to the world of digital logic at its most fundamental, see  http://www.goodreads.com/book/show/44882.Code[_Code_], by Charles Petzold.
+
+If we have a picture of our friend, and we use a digital filter to adjust the brightness, that is an application of compute power. The picture is made up of "pixels" which are nothing but numbers representing the color of some tiny square of the picture. Each of those numbers needs to be evaluated and the brightness adjusted.
+
+For example, let's say that the pixel values range from 1 to 10, with 1 being the darkest and 10 being the lightest (in reality, the range is much larger.) We might tell the computer:
+
+. Look at a pixel
+. If it is between 0 and 3 add 2
+. If it is between 4 and 6 add 1
+. Repeat until all pixels are done
+
+At a more realistic level, the process might be executed as a batch on a workstation, for hundreds or thousands of photos at a time.
+
+Computers process instructions at the level of "true" and "false," represented as https://en.wikipedia.org/wiki/Binary_number[binary] "1s" and "0s." Because humans cannot easily understand binary data and processing, higher-level abstractions of https://en.wikipedia.org/wiki/Machine_code[machine code] and https://en.wikipedia.org/wiki/Programming_language[programming languages] are used.
+
+IMPORTANT: If these concepts are strange to you, spend some time with the suggested Wikipedia articles, or otherwise researching the topics. Wikipedia in the area of fundamental computer concepts is generally accurate.
+
+*Storage* But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).
+
+Many technologies http://www.zetta.net/history-of-computer-storage/[have been used for digital storage.] Increasingly, the IT professional need not be concerned with the physical infrastructure used for storing data. As we will cover in the next section, storage increasingly is experienced as a virtual resource, accessed through executing programmed logic on Cloud platforms. "Underneath the covers" the Cloud provider might be using various forms of storage, from RAM to solid state drives to tapes, but the end user is shielded from the implementation details (part of the definition of a service).
+
+However, it is important to understand that in general, storage follows a hierarchy. Just as we might "store" a document by holding it in our hands, setting it on a desktop, filing it in a cabinet, or archiving it in a banker's box in an offsite warehouse, so computer storage also has different levels of speed and accessibility.
+
+Cache is on the same chip as the processor.

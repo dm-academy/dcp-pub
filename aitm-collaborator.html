@@ -1454,7 +1454,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>In this chapter, you have a general idea for a product and are ready to start building it. But not so fast&#8230;&#8203; you need to decide some fundamentals first. How will your new product run? What will you use to build it?</p>
 </div>
 <div class="paragraph">
-<p>It&#8217;s not possible to begin construction until you decide on your tools. This chapter will provide you an overview of computing infrastructure including Cloud hosting, and various approaches to system configuration.</p>
+<p>It&#8217;s not possible to begin construction until you decide on your tools. This chapter will provide you an overview of computing infrastructure including Cloud hosting and various approaches to system configuration.</p>
 </div>
 <div class="paragraph">
 <p>This chapter also presents an overview of source control, as even your infrastructure depends on it in the new world of "infrastructure as code."</p>
@@ -2508,7 +2508,71 @@ Moment of Truth &amp; Minimum Viable Product
 <p>Those are the fundamentals. We will discuss a wide variety of subsidiary concerns and concepts, but those are the big three.</p>
 </div>
 <div class="paragraph">
-<p><strong>Compute</strong> is the</p>
+<p><strong>Compute</strong> is the resource that performs the rapid, clock-driven digital logic that transforms data inputs to outputs.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+For a beginner-level introduction to the world of digital logic at its most fundamental, see  <a href="http://www.goodreads.com/book/show/44882.Code"><em>Code</em></a>, by Charles Petzold.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If we have a picture of our friend, and we use a digital filter to adjust the brightness, that is an application of compute power. The picture is made up of "pixels" which are nothing but numbers representing the color of some tiny square of the picture. Each of those numbers needs to be evaluated and the brightness adjusted.</p>
+</div>
+<div class="paragraph">
+<p>For example, let&#8217;s say that the pixel values range from 1 to 10, with 1 being the darkest and 10 being the lightest (in reality, the range is much larger.) We might tell the computer:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Look at a pixel</p>
+</li>
+<li>
+<p>If it is between 0 and 3 add 2</p>
+</li>
+<li>
+<p>If it is between 4 and 6 add 1</p>
+</li>
+<li>
+<p>Repeat until all pixels are done</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>At a more realistic level, the process might be executed as a batch on a workstation, for hundreds or thousands of photos at a time.</p>
+</div>
+<div class="paragraph">
+<p>Computers process instructions at the level of "true" and "false," represented as <a href="https://en.wikipedia.org/wiki/Binary_number">binary</a> "1s" and "0s." Because humans cannot easily understand binary data and processing, higher-level abstractions of <a href="https://en.wikipedia.org/wiki/Machine_code">machine code</a> and <a href="https://en.wikipedia.org/wiki/Programming_language">programming languages</a> are used.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+If these concepts are strange to you, spend some time with the suggested Wikipedia articles, or otherwise researching the topics. Wikipedia in the area of fundamental computer concepts is generally accurate.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>Storage</strong> But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).</p>
+</div>
+<div class="paragraph">
+<p>Many technologies <a href="http://www.zetta.net/history-of-computer-storage/">have been used for digital storage.</a> Increasingly, the IT professional need not be concerned with the physical infrastructure used for storing data. As we will cover in the next section, storage increasingly is experienced as a virtual resource, accessed through executing programmed logic on Cloud platforms. "Underneath the covers" the Cloud provider might be using various forms of storage, from RAM to solid state drives to tapes, but the end user is shielded from the implementation details (part of the definition of a service).</p>
+</div>
+<div class="paragraph">
+<p>However, it is important to understand that in general, storage follows a hierarchy. Just as we might "store" a document by holding it in our hands, setting it on a desktop, filing it in a cabinet, or archiving it in a banker&#8217;s box in an offsite warehouse, so computer storage also has different levels of speed and accessibility.</p>
+</div>
+<div class="paragraph">
+<p>Cache is on the same chip as the processor.</p>
 </div>
 </div>
 </div>

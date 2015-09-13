@@ -4,12 +4,15 @@ There is ferocious turbulence in the IT infrastructure market. Cloud technologie
 
 In particular, you will need to make some level of commitment to your technical architecture. And at some point you *WILL* be asked, “You’re still using X?”
 
-As a startup, you have two major decisions to make in product development:
+As a startup, you have a couple initial decisions to make regarding infrastructure and tools:
 
-- What toolset should I use to create my product?
-- What is my approach for exposing that product to the world? As a startup, it would seem likely that you would use a commodity cloud provider. This text is based on this assumption (physical IT asset management will be discussed in Sections 3 and 4), but is there any reason why that would not work for you?
+- What is my vision for bringing my product to the world?
+- What toolset should I use to forward this vision?
+
+As a startup, it would seem likely that you would use a commodity cloud provider. This text is based on this assumption (physical IT asset management will be discussed in Sections 3 and 4), but is there any reason why that would not work for you?
 
 The two questions are related. If you want to develop on a LAMP stack, you need a Cloud provider that will support you in this. While most are very flexible, you will need to consider the specific support levels they are offering; a provider that supports the platform (and not just the operating system) might be more valuable, but there may be higher costs and other tradeoffs.
+
 There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book. However, this book has certain biases and assumptions.
 
 * Your system will be built at least in part with some form of programming language which is human-readable and compiled or interpreted into binary instructions

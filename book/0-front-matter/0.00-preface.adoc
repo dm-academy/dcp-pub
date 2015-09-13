@@ -212,6 +212,11 @@ Few if any discuss the challenging questions of scaling IT management, and the s
 
 The structure of the book is documented in the next section, Introduction.
 
+==== Assumptions of the reader
+
+* This book is written at the college level. It is currently available only in English.
+* There is no assumption of deep IT experience, but a person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.
+
 ==== Acknowledgements
 
 Thanks to Stephen Fralippolippi and Roger K. Williams for being the first Github contributors.

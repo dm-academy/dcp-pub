@@ -2739,22 +2739,20 @@ Scrum-based development uses the concept of a <a href="https://www.scrumalliance
 <div class="sect3">
 <h4 id="_from_physical_compute_to_cloud">From "physical" compute to Cloud</h4>
 <div class="paragraph">
-<p>The idea of running IT as a utility service goes back at least to 1965 and the publication of <em>The Challenge of the Computer Utliity</em>, by Douglas Parkhill.</p>
+<p>According to the <a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">National Institute for Standards and Technology</a>, Cloud is:</p>
 </div>
-<div class="imageblock">
+<div class="sidebarblock">
 <div class="content">
-<img src="images/1.02-parkhill.png" alt="1.02 parkhill">
+<div class="paragraph">
+<p><em>a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.</em></p>
+</div>
 </div>
 </div>
 <div class="paragraph">
-<p><em>Figure XX. The author&#8217;s copy</em>
- [need better pic]</p>
+<p>Before Cloud, people generally bought computers of varying sizes and power ratings to deliver the IT value they sought. With Cloud services, the same compute capacity can be rented or leased by the minute or hour, and accessed over the Internet.</p>
 </div>
 <div class="paragraph">
-<p>While the conceptual idea of Cloud and utility computing was foreseeable fifty years ago, it took many years of hard-won IT evolution to support the vision. Reliable hardware of exponentially increasing performance, robust open-source software, Internet backbones of massive speed and capacity, and many other factors converged towards this end.</p>
-</div>
-<div class="paragraph">
-<p>We will discuss the following aspects:</p>
+<p>There is much to learn about Cloud computing. In this introduction, we will discuss the following aspects:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2775,7 +2773,7 @@ Scrum-based development uses the concept of a <a href="https://www.scrumalliance
 <div class="sect4">
 <h5 id="_virtualizaton">Virtualizaton</h5>
 <div class="paragraph">
-<p>Virtualization is essentially a computer within a computer. In order to understand this, we need to understand a little bit about operating systems and how they relate to the physical computer.</p>
+<p><a href="https://en.wikipedia.org/wiki/Virtualization">Virtualization</a>, for the purposes of this section, starts with the idea of a computer within a computer.<span class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnote_3" title="View footnote.">3</a>]</span> In order to understand this, we need to understand a little bit about operating systems and how they relate to the physical computer.</p>
 </div>
 <div class="paragraph">
 <p>Assume a simple, physical computer such as a laptop:</p>
@@ -2805,7 +2803,7 @@ Scrum-based development uses the concept of a <a href="https://www.scrumalliance
 <p><em>Figure XX. Virtualization is computers within a computer.</em></p>
 </div>
 <div class="paragraph">
-<p>In the simplest form of virtualization, a specialized application known as a hypervisor is loaded like any other application. The purpose of this hypervisor is to emulate the hardware computer in software. Once the hypervisor is running, it can emulate any number of "virtual" computers, each of which can have its own operating system. The hypervisor mediates the "virtual machine" (VM) access to the actual, physical hardware of the laptop; the VM can take input from the USB port, and output to the Bluetooth interface, just like the master OS that launched when the laptop was turned on.</p>
+<p>In the simplest form of virtualization, a specialized application known as a hypervisor is loaded like any other application. The purpose of this hypervisor is to emulate the hardware computer in software. Once the hypervisor is running, it can emulate any number of "virtual" computers, each of which can have its own operating system. The hypervisor mediates the <a href="https://en.wikipedia.org/wiki/Virtual_machine">"virtual machine"</a> (VM) access to the actual, physical hardware of the laptop; the VM can take input from the USB port, and output to the Bluetooth interface, just like the master OS that launched when the laptop was turned on.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -2814,7 +2812,7 @@ Scrum-based development uses the concept of a <a href="https://www.scrumalliance
 <div class="title">Tip</div>
 </td>
 <td class="content">
-You can experiment with a hypervisor by downloading Virtualbox (on Windows, Mac OS, or Linux) and using Vagrant to download and initialize a Linux virtual machine.<br>
+You can experiment with a hypervisor by downloading <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a> (on Windows, Mac OS, or Linux) and using <a href="https://www.vagrantup.com/">Vagrant</a> to download and initialize a Linux virtual machine.<br>
 <br>
  You&#8217;ll probably want at least 4 gb of RAM on your laptop and a gigabyte of free disk space, at the bare minimum.
 </td>
@@ -2829,8 +2827,23 @@ You can experiment with a hypervisor by downloading Virtualbox (on Windows, Mac 
 <img src="images/1.02-virtualization-types.png" alt="1.02 virtualization types">
 </div>
 </div>
+</div>
+<div class="sect4">
+<h5 id="_why_is_virtualization_important">Why is virtualization important?</h5>
 <div class="paragraph">
-<p>Why is virtualization important to us?</p>
+<p>The idea of running IT as a utility service goes back at least to 1965 and the publication of <em>The Challenge of the Computer Utliity</em>, by Douglas Parkhill.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-parkhill.png" alt="1.02 parkhill">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Figure XX. The author&#8217;s copy</em>
+ [need better pic]</p>
+</div>
+<div class="paragraph">
+<p>While the conceptual idea of Cloud and utility computing was foreseeable fifty years ago, it took many years of hard-won IT evolution to support the vision. Reliable hardware of exponentially increasing performance, robust open-source software, Internet backbones of massive speed and capacity, and many other factors converged towards this end.</p>
 </div>
 <div class="paragraph">
 <p>It has its uses even on a laptop (as you will see if you follow certain paths in the labs.) However, it is in larger industrial uses where it has the greatest utility.</p>
@@ -2861,7 +2874,7 @@ You can experiment with a hypervisor by downloading Virtualbox (on Windows, Mac 
 <div class="title">Note</div>
 </td>
 <td class="content">
-Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).<br>
+Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since <a href="https://en.wikipedia.org/wiki/Timeline_of_virtualization_development">at latest 1967</a> - only 20 years after the first fully functional computers.<br>
 <br>
 And yes, you can run computers within computers within computers with virtualization. They get slower and slower the more levels you go in, but the logic still works.
 </td>
@@ -5578,6 +5591,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </div>
 <div class="footnote" id="_footnote_2">
 <a href="#_footnoteref_2">2</a>. Effective pedagogy requires theory. I seek assistance in both the emerging theory of IT, and relevant theories of pedagogy. I am an amateur in both.
+</div>
+<div class="footnote" id="_footnote_3">
+<a href="#_footnoteref_3">3</a>. it has applicability to storage and networking as well but we will skip that for now
 </div>
 </div>
 <div id="footer">

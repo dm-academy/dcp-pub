@@ -5,7 +5,7 @@ In understanding IT value, it is essential to clarify the definitions of user, c
 The following definitions may help
 
 * The *consumer* (sometimes called the *user*) is the person actually interacting with the IT-based service.
-* The *customer* is source of revenue for the service. If the service is part of a profit center, the customer is the person actually purchasing the product (e.g. demand deposit banking.) If the service is part of a cost center (e.g. an HR system), the customer is best seen as an internal executive, as the actual revenue-producing customers are too far removed.
+* The *customer* is a source of revenue for the service. If the service is part of a profit center, the customer is the person actually purchasing the product (e.g. demand deposit banking.) If the service is part of a cost center (e.g. an HR system), the customer is best seen as an internal executive, as the actual revenue-producing customers are too far removed.
 * The *sponsor* is the person who authorizes and controls the funding used to construct and operate the service.
 
 Depending on the service type, these roles can be filled by the same or different people. Here are some examples:

@@ -20,7 +20,7 @@ Each of these individual value experiences was co-created by our friend's desire
 
 image::images/1.01-ITValue.png[]
 
-In order to view her balance, our user is probably using an application downloaded from a "store" of applications made available to her device. On her device, this "app" is part of an intricate set of components performing functions such as
+In order to view her balance, our user is probably using an application downloaded from a "store" of applications made available to her device. On her device, this "app" is part of an intricate set of components performing functions such as:
 
 * connecting to the phone network
 * securely connecting over the phone network to the Internet and then to the bank
@@ -47,7 +47,7 @@ image::images/1.01-ITStack.png[]
 
 Consider: what does all this mean to our user? Does she care about cell phone towers, or middleware, or triply-redundant industrial-strength Power Distribution Units? Usually, not in the least.
 
-Therefore, as we study this world, we need to mantain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends. The moment of truth depends on the service; the service may contain great complexity, but part of its success lies in shielding the user from that complexity.
+Therefore, as we study this world, we need to maintain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends. The moment of truth depends on the service; the service may contain great complexity, but part of its success lies in shielding the user from that complexity.
 
 image::images/1.01-ITStack2.png[]
 

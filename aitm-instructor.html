@@ -680,7 +680,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_the_it_industry_and_the_rise_of_agile">The IT industry, and the rise of Agile</h3>
 <div class="paragraph">
-<p>Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of</p>
+<p>Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -702,7 +702,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>The challenges of this legacy are an ongoing theme through this introductory text. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:</p>
+<p>The challenges of this legacy are an ongoing theme throughout this introductory text. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:</p>
 </div>
 <div class="paragraph">
 <p><em>“…some will tell you that when things are this bad, you throw it all away and start again. It&#8217;s ironic: The same people who would champion incremental and evolutionary approaches to product development seem only too eager to recommend disruptive and revolutionary changes in people-based systems – in which the outcomes are so much less certain.”</em> <a href="#Burrows2014">[Burrows2014]</a>, Kindle Locations 827-829.</p>
@@ -726,7 +726,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_some_personal_history">Some personal history</h3>
 <div class="paragraph">
-<p>I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are fresh out of a non-technical four-year liberal arts degree, and some have years of IT experience in businesses of various sizes, including the region&#8217;s many Fortune 500 corporations.</p>
+<p>I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country and is comprised of a broad mix of students. Some are fresh out of a non-technical four-year liberal arts degree, and some have years of IT experience in businesses of various sizes, including the region&#8217;s many Fortune 500 corporations.</p>
 </div>
 <div class="paragraph">
 <p>As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other&#8201;&#8212;&#8201;to be covered in the associated lab materials.</p>
@@ -765,7 +765,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitimate faculty positions and afford a number of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.</p>
 </div>
 <div class="paragraph">
-<p>The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not communicating effectively.</p>
+<p>The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not engaging students effectively.</p>
 </div>
 <div class="paragraph">
 <p>For example, in the ITIL framework, one learns that "an Incident is different from a Problem." From the perspective of a student new to IT, that is a meaningless semantic distinction. Absent practical reinforcement, it will not be retained after the class, if they even manage to remember it for the final.</p>
@@ -1010,7 +1010,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>This book is written at the college level. It is currently available only in English.</p>
 </li>
 <li>
-<p>There is no assumption of deep IT experience, but a person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.</p>
+<p>There is no assumption of deep IT experience, but there is an assumption that the person interacts with computers in some depth. They should for example understand the concept of an "operating system." An A+ certification, for example, would more than adequately prepare someone for this book.</p>
+</li>
+<li>
+<p>A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.</p>
 </li>
 </ul>
 </div>
@@ -2589,7 +2592,11 @@ We can change the state of some data, or store it. We also need to move it. This
 <div class="title">Important</div>
 </td>
 <td class="content">
-Eventually, scale matters. As your IT service&#8217;s usage increases, you will inevitably find that you need to start caring about technical details such as storage and networking implementations. The implementation decisions made by your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. While more technical, <a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a> provides a good overview of these issues.
+Eventually, scale matters. As your IT service&#8217;s usage increases, you will inevitably find that you need to start caring about technical details such as storage and network architecture.<br>
+<br>
+The implementation decisions made by you and your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter.<br>
+<br>
+ The brief technical writeup, <a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a> can help you start thinking about these issues.
 </td>
 </tr>
 </table>
@@ -2600,11 +2607,25 @@ Eventually, scale matters. As your IT service&#8217;s usage increases, you will 
 </div>
 <div class="sect3">
 <h4 id="_choosing_infrastructure">Choosing infrastructure</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The following is written as if you are a decisionmaker in the early stages of conceiving a product. If you are an individual contributor in a large enterprise, or even a newcomer to an established product team, these decisions will likely have been made for you.<br>
+<br>
+ But at some point, <strong>someone</strong> had to go through this decision process, before anything could be developed.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>There is ferocious turbulence in the IT infrastructure market. Cloud technologies, DevOps, various platform wars… As an entrepreneur, you need to understand what technical trends matter and what are more of same?</p>
 </div>
 <div class="paragraph">
-<p>In particular, you will need to make some level of commitment to your technical architecture. And at some point you <strong>WILL</strong> be asked, “You’re still using X?”</p>
+<p>In particular, you will need to make some level of commitment to your technical architecture. And at some point you <strong>WILL</strong> be asked, “You’re still using that old technology?”</p>
 </div>
 <div class="paragraph">
 <p>As a startup, you have a couple initial decisions to make regarding infrastructure and tools:</p>
@@ -2626,7 +2647,10 @@ Eventually, scale matters. As your IT service&#8217;s usage increases, you will 
 <p>The two questions are related. If you want to develop on a LAMP stack, you need a Cloud provider that will support you in this. While most are very flexible, you will need to consider the specific support levels they are offering; a provider that supports the platform (and not just the operating system) might be more valuable, but there may be higher costs and other tradeoffs.</p>
 </div>
 <div class="paragraph">
-<p>There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book. However, this book has certain biases and assumptions, differing from previous textbooks.</p>
+<p>There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book.</p>
+</div>
+<div class="paragraph">
+<p>However, this book has certain assumptions:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2656,13 +2680,12 @@ Eventually, scale matters. As your IT service&#8217;s usage increases, you will 
 <div class="title">Important</div>
 </td>
 <td class="content">
-Infrastructure automation enables rapid iterations and scaling.
+Infrastructure automation enables rapid iterations and scaling.<br>
+<br>
+Iterative development and rapid scaling, while possible, was often more difficult with earlier, less automated technical platforms.
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>Iterative development and rapid scaling, while possible, was often more difficult with earlier, less automated technical platforms.</p>
 </div>
 </div>
 </div>
@@ -2676,12 +2699,12 @@ Infrastructure automation enables rapid iterations and scaling.
 <p>There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.</p>
 </div>
 <div class="paragraph">
-<p>So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis paralysis. But be critical of everything especially in your first few weeks of development. Ask yourself</p>
+<p>So, choose Ruby on Rails, or PHP, or Node, and a hosting provider who supports them, and start. Do not fall into analysis paralysis. But <strong>be critical of everything</strong> especially in your first few weeks of development. Ask yourself</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>can I see myself doing things this way for the next year?</p>
+<p>Can I see myself doing things this way for the next year?</p>
 </li>
 <li>
 <p>Will I be able to train people in this?</p>
@@ -2692,7 +2715,7 @@ Infrastructure automation enables rapid iterations and scaling.
 </ul>
 </div>
 <div class="paragraph">
-<p>If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.</p>
+<p>If you become uncomfortable with the answers, you should consider alternatives.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2703,13 +2726,12 @@ Infrastructure automation enables rapid iterations and scaling.
 <div class="title">Tip</div>
 </td>
 <td class="content">
-<strong>The technical "spike"</strong>
+<strong>The technical "spike"</strong><br>
+<br>
+Scrum-based development uses the concept of a <a href="https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio">“spike”</a> to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of your infrastructure selection process in this way.
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>In Scrum-based development, they use the concept of a <a href="https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio">“spike”</a> to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.</p>
 </div>
 </div>
 </div>
@@ -2717,48 +2739,101 @@ Infrastructure automation enables rapid iterations and scaling.
 <div class="sect3">
 <h4 id="_from_physical_compute_to_cloud">From "physical" compute to Cloud</h4>
 <div class="paragraph">
-<p>The idea of running IT as a utility service goes back years</p>
+<p>The idea of running IT as a utility service goes back at least to 1965 and the publication of <em>The Challenge of the Computer Utliity</em>, by Douglas Parkhill.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Complexity has been the problem</p>
-</li>
-</ul>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-parkhill.png" alt="1.02 parkhill">
+</div>
 </div>
 <div class="paragraph">
-<p>Cloud origins</p>
+<p><em>Figure XX. The author&#8217;s copy</em>
+ [need better pic]</p>
+</div>
+<div class="paragraph">
+<p>While the conceptual idea of Cloud and utility computing was foreseeable fifty years ago, it took many years of hard-won IT evolution to support the vision. Reliable hardware of exponentially increasing performance, robust open-source software, Internet backbones of massive speed and capacity, and many other factors converged towards this end.</p>
+</div>
+<div class="paragraph">
+<p>We will discuss the following aspects:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Virtualization (we will discuss further)</p>
+<p>Virtualization</p>
 </li>
 <li>
 <p>Managed hosting</p>
 </li>
 <li>
-<p>Web-scale IT</p>
+<p>What differentiates Cloud</p>
 </li>
 <li>
-<p>“IT doesn’t matter”</p>
+<p>The various kinds of Cloud services</p>
 </li>
 </ul>
+</div>
+<div class="sect4">
+<h5 id="_virtualizaton">Virtualizaton</h5>
+<div class="paragraph">
+<p>Virtualization is essentially a computer within a computer. In order to understand this, we need to understand a little bit about operating systems and how they relate to the physical computer.</p>
 </div>
 <div class="paragraph">
-<p>Virtualizaton</p>
+<p>Assume a simple, physical computer such as a laptop:</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Essentially, a computer within a computer.</p>
-</li>
-</ul>
+<div class="literalblock">
+<div class="content">
+<pre>[laptop pic]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>When the laptop is first turned on, the operating system (OS) loads; the OS is itself software, but is able to directly control the computer&#8217;s physical resources: its CPU, memory, screen, and any interfaces such as WiFi, USB, and Bluetooth.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[laptop with apps]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The operating system (in a traditional approach) then is used to run "applications" such as Web browsers, media players, word processors, spreadsheets, and the like. Many such programs can also be run as applications within the browser, but the browser still needs to be run as an application.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/1.02-virt.png" alt="1.02 virt">
 </div>
+</div>
+<div class="paragraph">
+<p><em>Figure XX. Virtualization is computers within a computer.</em></p>
+</div>
+<div class="paragraph">
+<p>In the simplest form of virtualization, a specialized application known as a hypervisor is loaded like any other application. The purpose of this hypervisor is to emulate the hardware computer in software. Once the hypervisor is running, it can emulate any number of "virtual" computers, each of which can have its own operating system. The hypervisor mediates the "virtual machine" (VM) access to the actual, physical hardware of the laptop; the VM can take input from the USB port, and output to the Bluetooth interface, just like the master OS that launched when the laptop was turned on.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+You can experiment with a hypervisor by downloading Virtualbox (on Windows, Mac OS, or Linux) and using Vagrant to download and initialize a Linux virtual machine.<br>
+<br>
+ You&#8217;ll probably want at least 4 gb of RAM on your laptop and a gigabyte of free disk space, at the bare minimum.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>There are two different kinds of hypervisors. The example we just discussed was an example of a Type 2 hypervisor, which runs on top of a host operating system. In a type 1 hypervisor, a master host OS is not used; the hypervisor runs on the "bare metal" of the computer and in turn "hosts" multiple VMs.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-virtualization-types.png" alt="1.02 virtualization types">
+</div>
+</div>
+<div class="paragraph">
+<p>Why is virtualization important to us?</p>
+</div>
+<div class="paragraph">
+<p>It has its uses even on a laptop (as you will see if you follow certain paths in the labs.) However, it is in larger industrial uses where it has the greatest utility.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2775,16 +2850,7 @@ Infrastructure automation enables rapid iterations and scaling.
 </ul>
 </div>
 </li>
-<li>
-<p>The technical details are deep. Talk to your
-OS instructor.</p>
-</li>
 </ul>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/1.02-virtualization-types.png" alt="1.02 virtualization types">
-</div>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2795,7 +2861,9 @@ OS instructor.</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
+Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).<br>
+<br>
+And yes, you can run computers within computers within computers with virtualization. They get slower and slower the more levels you go in, but the logic still works.
 </td>
 </tr>
 </table>
@@ -2900,6 +2968,7 @@ Virtualization was predicted in the earliest theories that led to the developmen
 <div class="content">
 <div class="paragraph">
 <p>Sidebar: Introducing Allspaw.</p>
+</div>
 </div>
 </div>
 </div>
@@ -5513,7 +5582,7 @@ Over time, the IT operation develops significant data by which to manage itself.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-08-21 08:27:34 CDT
+Last updated 2015-08-07 23:02:45 CDT
 </div>
 </div>
 </body>

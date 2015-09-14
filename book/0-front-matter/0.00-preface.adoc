@@ -215,7 +215,9 @@ The structure of the book is documented in the next section, Introduction.
 ==== Assumptions of the reader
 
 * This book is written at the college level. It is currently available only in English.
-* There is no assumption of deep IT experience, but a person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.
+* There is no assumption of deep IT experience, but there is an assumption that the person interacts with computers in some depth. They should for example understand the concept of an "operating system." An A+ certification, for example, would more than adequately prepare someone for this book.
+* A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate. 
+
 
 ==== Acknowledgements
 

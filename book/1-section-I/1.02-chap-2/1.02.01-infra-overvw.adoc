@@ -107,5 +107,9 @@ Networking is fairly intuitive; you may be familiar with coaxial cables for TV, 
 Like storage, networking as a service increasingly is independent of implementation. The developer uses programmatic tools to define expected information transmission, and (again *ideally*) need not be concerned with the specific networking technologies or architectures serving their needs.
 
 ****
-IMPORTANT: Eventually, scale matters. As your IT service's usage increases, you will inevitably find that you need to start caring about technical details such as storage and networking implementations. The implementation decisions made by your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. While more technical, https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know] provides a good overview of these issues.
+IMPORTANT: Eventually, scale matters. As your IT service's usage increases, you will inevitably find that you need to start caring about technical details such as storage and network architecture. +
+ +
+The implementation decisions made by you and your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. +
+ +
+ The brief technical writeup, https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know] can help you start thinking about these issues.
 ****

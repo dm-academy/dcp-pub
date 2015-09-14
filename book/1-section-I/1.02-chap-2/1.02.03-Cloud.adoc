@@ -1,34 +1,65 @@
 ==== From "physical" compute to Cloud
 
 
-The idea of running IT as a utility service goes back years
+The idea of running IT as a utility service goes back at least to 1965 and the publication of _The Challenge of the Computer Utliity_, by Douglas Parkhill.
 
-* Complexity has been the problem
+image::images/1.02-parkhill.png[]
+_Figure XX. The author's copy_
+ [need better pic]
 
-Cloud origins
+While the conceptual idea of Cloud and utility computing was foreseeable fifty years ago, it took many years of hard-won IT evolution to support the vision. Reliable hardware of exponentially increasing performance, robust open-source software, Internet backbones of massive speed and capacity, and many other factors converged towards this end.
 
-* Virtualization (we will discuss further)
+We will discuss the following aspects:
+
+* Virtualization
 * Managed hosting
-* Web-scale IT
-* “IT doesn’t matter”
+* What differentiates Cloud
+* The various kinds of Cloud services
 
-Virtualizaton
+===== Virtualizaton
 
-* Essentially, a computer within a computer.
+Virtualization is essentially a computer within a computer. In order to understand this, we need to understand a little bit about operating systems and how they relate to the physical computer.
+
+Assume a simple, physical computer such as a laptop:
+
+ [laptop pic]
+
+When the laptop is first turned on, the operating system (OS) loads; the OS is itself software, but is able to directly control the computer's physical resources: its CPU, memory, screen, and any interfaces such as WiFi, USB, and Bluetooth.
+
+ [laptop with apps]
+
+The operating system (in a traditional approach) then is used to run "applications" such as Web browsers, media players, word processors, spreadsheets, and the like. Many such programs can also be run as applications within the browser, but the browser still needs to be run as an application.
 
 image::images/1.02-virt.png[]
+_Figure XX. Virtualization is computers within a computer._
+
+In the simplest form of virtualization, a specialized application known as a hypervisor is loaded like any other application. The purpose of this hypervisor is to emulate the hardware computer in software. Once the hypervisor is running, it can emulate any number of "virtual" computers, each of which can have its own operating system. The hypervisor mediates the "virtual machine" (VM) access to the actual, physical hardware of the laptop; the VM can take input from the USB port, and output to the Bluetooth interface, just like the master OS that launched when the laptop was turned on.
+
+TIP: You can experiment with a hypervisor by downloading Virtualbox (on Windows, Mac OS, or Linux) and using Vagrant to download and initialize a Linux virtual machine. +
+ +
+ You'll probably want at least 4 gb of RAM on your laptop and a gigabyte of free disk space, at the bare minimum.
+
+There are two different kinds of hypervisors. The example we just discussed was an example of a Type 2 hypervisor, which runs on top of a host operating system. In a type 1 hypervisor, a master host OS is not used; the hypervisor runs on the "bare metal" of the computer and in turn "hosts" multiple VMs.
+
+image::images/1.02-virtualization-types.png[]
+
+
+Why is virtualization important to us?
+
+It has its uses even on a laptop (as you will see if you follow certain paths in the labs.) However, it is in larger industrial uses where it has the greatest utility.
+
+
 
 * There is a host system that can instantiate one or more guests.
  - The host system knows about the guests, but the guests do not know about the host (except as a peer system on the network, perhaps).
  - The physical resources allocated can vary according to demand
 
-* The technical details are deep. Talk to your
-OS instructor.
 
-image::images/1.02-virtualization-types.png[]
 
 ****
-NOTE: Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
+NOTE: Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?). +
+ +
+And yes, you can run computers within computers within computers with virtualization. They get slower and slower the more levels you go in, but the logic still works.
 ****
 
 * Multi-tenancy

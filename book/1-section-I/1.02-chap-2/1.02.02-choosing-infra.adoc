@@ -2,7 +2,7 @@
 
 NOTE: The following is written as if you are a decisionmaker in the early stages of conceiving a product. If you are an individual contributor in a large enterprise, or even a newcomer to an established product team, these decisions will likely have been made for you. +
  +
- But at some point, *someone* had to go through this decision process, before anything could be developed. 
+ But at some point, *someone* had to go through this decision process, before anything could be developed.
 
 There is ferocious turbulence in the IT infrastructure market. Cloud technologies, DevOps, various platform wars… As an entrepreneur, you need to understand what technical trends matter and what are more of same?
 

@@ -8,6 +8,8 @@ _Collaboration notes_
 
 _There is a wealth of material covering IT infrastructure in far more detail than possible here. Don't want to rewrite Allspaw or Limoncelli. Curating the most useful aspects for a survey text is the challenge._
 
+_Note that Chapter 6 is dedicated to IT operations._
+
 _-ctb_
 
 endif::collaborator-draft[]

@@ -7,17 +7,17 @@ Software as a service, platform as a service, infrastructure as a service - each
 IT infrastructure is a rich and complex topic, and a person can spend their career specializing in it. For this class, we always want to keep chapter 1 in mind: why do we want it? How does it provide for our needs, contribute to our enjoyment?
 
 ===== Discussion questions
-
+. Consider your product idea. Does it have any particular infrastructure needs you can identify, having read this chapter?
 
 ===== Research & practice
 . Research Cloud providers and recommend which you would prefer to build your new product on.
 
 ===== Further reading
 
-* Limoncelli
-* Allspaw
-* Linux in a Nutshell
-* Pro Git
+* Thomas A. Limoncelli, Strata R. Chalup, Christina J. Hogan, http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2]
+* John Allspaw, http://www.goodreads.com/book/show/8571725-web-operations[Web Operations: Keeping the Data On Time]
+* Ellen Siever, Stephen Figgins, Robert Love (Goodreads Author), Arnold Robbins, Aaron Weber, http://www.goodreads.com/book/show/227148.Linux_in_a_Nutshell[Linux in a Nutshell]
+* Scott Chacon, http://www.goodreads.com/book/show/6518085-pro-git?[Pro Git]
 * http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/
 * https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know]
 * http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf[NIST definition of Cloud computing]

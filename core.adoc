@@ -35,6 +35,10 @@ include::book/1-section-I/1.02-chap-2/1.02.04-infraCode.adoc[]
 
 include::book/1-section-I/1.02-chap-2/1.02.05-source-control.adoc[]
 
+include::book/1-section-I/1.02-chap-2/1.02.06-policy-based.adoc
+
+include::book/1-section-I/1.02-chap-2/1.02.07-web-scale.adoc
+
 include::book/1-section-I/1.02-chap-2/1.02.99-conclusion.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.00-intro.adoc[]

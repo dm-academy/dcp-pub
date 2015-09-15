@@ -103,3 +103,9 @@ not manage or control the underlying cloud infrastructure including network, ser
 There are Cloud services beyond those listed above (e.g. Storage as a Service). Various platform services have become extensive on providers such as Amazon, which offers load balancing, development pipelines, various kinds of storage, and much more.
 
 ===== Containers and looking ahead
+At this writing, two major developments in Cloud computing are prominent:
+
+* Container technologies such as http://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/[Docker]
+* https://aws.amazon.com/lambda/[AWS Lambda], "a compute service that runs your code in response to events and automatically manages the compute resources for you, making it easy to build applications that respond quickly to new information."
+
+It's recommended you at least scan the links provided.

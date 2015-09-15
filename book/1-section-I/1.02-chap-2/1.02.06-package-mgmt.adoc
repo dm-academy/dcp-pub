@@ -1,0 +1,7 @@
+==== Package management
+
+ [This chapter is currently brief due to time constraints]
+
+Once software is compiled and built, the executable files that can be installed and run operationally should be checked into a https://en.wikipedia.org/wiki/Package_manager[Package Manager.] 
+
+This is important so that the versions of software used in producton are well controlled and consistent.

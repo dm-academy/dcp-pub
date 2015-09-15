@@ -15,3 +15,4 @@ Conclusion placeholder
 * Pro Git
 * http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/
 * https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know]
+* http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf[NIST definition of Cloud computing]

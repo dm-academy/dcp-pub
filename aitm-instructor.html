@@ -2846,7 +2846,7 @@ You can experiment with a hypervisor by downloading <a href="https://www.virtual
 </div>
 <div class="paragraph">
 <p><em>Figure XX. The author&#8217;s copy</em>
- [need better pic]</p>
+  [need pic w no glare]</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2870,109 +2870,109 @@ And yes, you can run computers within computers within computers with virtualiza
 <p>In order to run compute as a utility, multi-tenancy was essential. This is different from electricity. As noted elsewhere, one watt of electric power is like any other and there is less concern for leakage or unexpected interactions. People&#8217;s bank balances are not encoded somehow into the power generation and distribution infrastructure.</p>
 </div>
 <div class="paragraph">
-<p>However, people store records on computers. In order to deliver</p>
+<p>However, people store data - often private - on computers. In order to deliver compute as a utility, it is essential to segregate each customer&#8217;s workload from all others. This is called multi-tenancy. In multi-tenancy, multiple customers share physical resources that provide the illusion of being dedicated.</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Multi-tenancy</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Multi-tenancy is where multiple customers share physical resources that provide the illusion of being dedicated</p>
-</li>
-<li>
-<p>The phone system has been multi-tenant ever since they got rid of party lines.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The phone system has been multi-tenant ever since they got rid of <a href="https://en.wikipedia.org/wiki/Party_line_(telephony)">party lines</a>. A party line is a shared line where anyone on it can hear every other person.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Virtualization vs containers</p>
-</div>
-<div class="paragraph">
-<p>Virtualization benefits</p>
+<p>Virtualization attracted business attention as a means to consolidate computing workloads. For years, companies would purchase servers to run applications of various sizes, and in many cases the computers were badly underutilized. Because of configuration issues (legitimate) and an overabundance of caution (questionable), average utilization in a pre-virtualization data center might average 10%. (That&#8217;s 90% of the computer&#8217;s capacity being wasted.)</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/1.02-virt-benefits.png" alt="1.02 virt benefits">
 </div>
 </div>
-<div class="paragraph">
-<p>Why virtualize?</p>
+<div class="literalblock">
+<div class="content">
+<pre>[redo graphic]</pre>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Great for heterogeneous workloads – lots of miscellaneous applications &amp; services running on underutilized servers</p>
-</li>
-<li>
-<p>What about where the application is large and virtualization is mostly overhead?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Still may make sense</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Management consistency</p>
-</li>
-<li>
-<p>Ease of restoration</p>
-</li>
-<li>
-<p>Database professionals still don’t like it</p>
-<div class="ulist">
-<ul>
-<li>
-<p>“The database IS virtualization” they will say</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
 </div>
 <div class="paragraph">
-<p>Virtualizaiton vs cloud</p>
+<p>But what about where the application is large and virtualization is mostly overhead? Virtualization still may make sense in terms of management consistency and ease of system recovery.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Some database professionals still don’t like virtualization, that is, making them run Oracle RDBMS or Microsoft SQL Server on top of virtual servers, instead of directly on the host operating system. “The database IS virtualization” they will say.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_virtualization_vs_cloud">Virtualization vs cloud</h5>
+<div class="paragraph">
+<p>Virtualization is necessary, but not sufficient for cloud. True Cloud services are highly automated, and most Cloud analysts will insist that if virtual machines cannot be created and configured in a completely automated fashion, the service is not true Cloud. This is currently where many in-house "private" Cloud efforts struggle; they may have virtualization, but struggle to make it fully self-service.</p>
+</div>
+<div class="paragraph">
+<p>There also is a long tradition of managed services, where applications are built out by a customer and then their management is outsourced to a third party.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Traditional managed services are sometimes called "your mess for less." With Cloud, you have to "clean it up first."
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Cloud services have refined into at least three major models:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>“Cloud is not just virtualization” many critics will say</p>
+<p>Infrastructure as a service</p>
 </li>
 <li>
-<p>Financial model</p>
+<p>Platform as a service</p>
 </li>
 <li>
-<p>Tenancy model</p>
-</li>
-<li>
-<p>Provisioning model</p>
-</li>
-<li>
-<p>Services beyond raw compute, storage and network</p>
-</li>
-<li>
-<p>Self-service, API-driven</p>
+<p>Software as a service</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>Traditional managed hosting vs cloud
-* Managed services: “your mess for less”
-* Cloud: “clean it up first”</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sidebar: Introducing Allspaw.</p>
+<p><strong>From the <a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">NIST Definition of Cloud Computing (p. 2-3)</a>:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Software as a Service (SaaS).</strong> The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings.</p>
+</div>
+<div class="paragraph">
+<p><strong>Platform as a Service (PaaS).</strong> The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The consumer does
+not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.</p>
+</div>
+<div class="paragraph">
+<p><strong>Infrastructure as a Service (IaaS).</strong> The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).</p>
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>There are Cloud services beyond those listed above (e.g. Storage as a Service). Various platform services have become extensive on providers such as Amazon, which offers load balancing, development pipelines, various kinds of storage, and much more.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_containers_and_looking_ahead">Containers and looking ahead</h5>
+
 </div>
 </div>
 <div class="sect3">
@@ -3236,6 +3236,9 @@ It is not always easy to apply this approach in practice. There can be edge case
 </li>
 <li>
 <p><a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a></p>
+</li>
+<li>
+<p><a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">NIST definition of Cloud computing</a></p>
 </li>
 </ul>
 </div>

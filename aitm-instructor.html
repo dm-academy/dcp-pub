@@ -469,6 +469,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_from_physical_compute_to_cloud">From "physical" compute to Cloud</a></li>
 <li><a href="#_infrastructure_as_code">Infrastructure as code</a></li>
 <li><a href="#_source_control_the_agile_foundation">Source control: the Agile foundation</a></li>
+<li><a href="#_policy_based_approaches">Policy-based approaches</a></li>
+<li><a href="#_web_scale_it">Web-scale IT</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -3209,12 +3211,43 @@ As stated in Version Control with Git:</p>
 <p><strong>In this microcosm, we see the origins of IT management.</strong>
 It is not always easy to apply this approach in practice. There can be edge cases. But <strong>the concept of metadata provides a basis for distinguishing the <em>management</em> of information technology from the actual <em>practice</em> of information technology.</strong></p>
 </div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_policy_based_approaches">Policy-based approaches</h4>
 <div class="paragraph">
-<p>include::book/1-section-I/1.02-chap-2/1.02.06-policy-based.adoc</p>
+<p>DRAFT
+ [As of fall 2015 this section needs to be elaborated.]</p>
 </div>
 <div class="paragraph">
-<p>include::book/1-section-I/1.02-chap-2/1.02.07-web-scale.adoc</p>
+<p>Before we turned to source control, we had looked at a simple script that changed the configuration of a computer. It did so in an <em>imperative</em> fashion.</p>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<strong>Imperative vs Declarative.</strong> These are two important terms from computer science. [Define.]
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>A script such as iac.sh is executed line by line, i.e., it is imperative. But in policy-based approaches, the object is to define the desired end state of the resource, not the steps needed to get there.</p>
+</div>
+<div class="paragraph">
+<p>Chef, Puppet, Salt Stack, and Ansible are all declarative to some degree.</p>
+</div>
+<div class="paragraph">
+<p>This is a complex topic and there are advantages and disadvantages to each approach. (See <a href="http://markburgess.org/blog_order.html">"When and Where Order Matters"</a> by Mark Burgess for an advanced discussion.) But policy-based approaches seem to have the upper hand for now.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_web_scale_it">Web-scale IT</h4>
+<div class="paragraph">
+<p>This chapter as of fall 2015 is yet to be written. Will summarize key insights from the site reliability community, including Allspaw and Limoncelli.</p>
 </div>
 </div>
 <div class="sect3">

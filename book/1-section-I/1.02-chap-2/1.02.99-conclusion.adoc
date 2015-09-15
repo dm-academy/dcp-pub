@@ -21,3 +21,6 @@ IT infrastructure is a rich and complex topic, and a person can spend their care
 * http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/
 * https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know]
 * http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf[NIST definition of Cloud computing]
+
+===== Picture credits
+https://www.flickr.com/photos/arbron/56216585/

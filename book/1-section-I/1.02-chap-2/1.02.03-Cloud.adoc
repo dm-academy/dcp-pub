@@ -21,11 +21,9 @@ https://en.wikipedia.org/wiki/Virtualization[Virtualization], for the purposes o
 
 Assume a simple, physical computer such as a laptop:
 
- [laptop pic]
+image::images/1.02-laptop.jpg[]
 
 When the laptop is first turned on, the operating system (OS) loads; the OS is itself software, but is able to directly control the computer's physical resources: its CPU, memory, screen, and any interfaces such as WiFi, USB, and Bluetooth.
-
- [laptop with apps]
 
 The operating system (in a traditional approach) then is used to run "applications" such as Web browsers, media players, word processors, spreadsheets, and the like. Many such programs can also be run as applications within the browser, but the browser still needs to be run as an application.
 

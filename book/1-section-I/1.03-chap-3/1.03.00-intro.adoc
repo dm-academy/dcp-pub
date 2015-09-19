@@ -36,10 +36,6 @@ This chapter will cover applications and the software lifecycle, from requiremen
 * Introduction to Agile proper
  - history, manifesto, etc
 
-****
-Sidebar: Introducing Kim & Humble
-****
-
  * Introduction to DevOps
   - 10 deploys a day, Phoenix Project, etc
 

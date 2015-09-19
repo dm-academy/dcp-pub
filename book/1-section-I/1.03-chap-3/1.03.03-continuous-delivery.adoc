@@ -1,42 +1,21 @@
-==== A continuous delivery pipeline
+==== The DevOps challenge
 
-At the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:
+Consider the Lean Software challenge by Mary and Tom Poppendieck (<<Poppendieck2007>>, p. 92):
 
-|====
-|Stack 1 |Stack 2 |Stack 3 |Stack 4
-
-|Java       |C#        |PHP  |Javascript, Express & Angular
-|Oracle DB |MS SQL Server |MySQL |MongoDB
-|Websphere|.Net | Apache Web Server | NodeJS
-|Commercial Unix |Microsoft Windows  |Red Hat Linux |Ubuntu Linux
-|====
-
-You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.
-
-The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. You want to set this up before developing a single line of code. It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).
-
-What is meant by a continuous delivery pipeline? Here is an overview.
-
-
-
-Consider the Lean Software challenge by Mary and Tom Poppendieck: (***cite)
-
-How long would it take you to change one line of code?
+*How long would it take your organization to deploy a change that involved one single line of code? Do you deploy changes at this pace on a repeat, reliable basis?*
 
 The implicit goal is that the organization should be able to change one line of code, and in fact might want to do so on an ongoing basis.
 
 There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence.
 
-Achieving this goal is feasible but requires a different approach...
-
-  Applied in an IT setting, a number of practitioners have explored this approach and encountered great success. Key initial milestones included
+Achieving this goal is feasible but requires new approaches. Various practitioners have explored this problem, with great success. Key initial milestones included
 
 * The establishment of “test-driven development” as a key best practice in creating software
-* Duvall’s book “Continuous Integration”
-* Allspaw & X’s seminal “10 Deploys a Day” presentation describing at Etsy
-* Humble & Farley’s “Continuous Delivery”
+* Duvall’s book “Continuous Integration” <<Duvall2007>>
+* Allspaw & Hammonds’s seminal http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr[“10 Deploys a Day”] presentation describing at Etsy <<Allspaw2009>>.
+* Humble & Farley’s “Continuous Delivery” <<Humble2011>>.
 
-There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:
+While definitions of "DevOps" are controversial, the fundamental goal of moving smaller changes more quicly through the pipeline is  common to all definitions. There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:
 
 * Create a Repeatable, Reliable Process for Releasing Software
 * Automate Almost Everything
@@ -56,3 +35,19 @@ Let’s go into a little detail on the essential Agile practices.
 * Ongoing refactoring
 * Continuous integration
 * Continuous deployment
+In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:
+
+|====
+|Stack 1 |Stack 2 |Stack 3 |Stack 4
+
+|Java       |C#        |PHP  |Javascript, Express & Angular
+|Oracle DB |MS SQL Server |MySQL |MongoDB
+|Websphere|.Net | Apache Web Server | NodeJS
+|Commercial Unix |Microsoft Windows  |Red Hat Linux |Ubuntu Linux
+|====
+
+You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.
+
+The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. *You want to set this up before developing a single line of code.* It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).
+
+What is meant by a continuous delivery pipeline? Here is an overview.

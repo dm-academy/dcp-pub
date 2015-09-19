@@ -477,8 +477,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_chapter_3_application_delivery">Chapter 3: Application Delivery</a>
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_3">Introduction to chapter 3</a></li>
+</ul>
+</li>
+<li><a href="#_basics_of_applications_and_their_development">Basics of applications and their development</a>
+<ul class="sectlevel3">
 <li><a href="#_history_of_the_agile_movement">History of the Agile movement</a></li>
-<li><a href="#_a_continuous_delivery_pipeline">A continuous delivery pipeline</a></li>
+<li><a href="#_the_devops_challenge">The DevOps challenge</a></li>
 <li><a href="#_describing_system_intent">Describing system intent</a></li>
 <li><a href="#_test_driven_development_and_refactoring">Test-driven development and refactoring</a></li>
 <li><a href="#_continuous_integration">Continuous integration</a></li>
@@ -3468,17 +3472,6 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 </ul>
 </div>
 </li>
-</ul>
-</div>
-<div class="sidebarblock">
-<div class="content">
-<div class="paragraph">
-<p>Sidebar: Introducing Kim &amp; Humble</p>
-</div>
-</div>
-</div>
-<div class="ulist">
-<ul>
 <li>
 <p>Introduction to DevOps</p>
 <div class="ulist">
@@ -3553,6 +3546,9 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 </div>
 </div>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_basics_of_applications_and_their_development">Basics of applications and their development</h3>
 <div class="sect3">
 <h4 id="_history_of_the_agile_movement">History of the Agile movement</h4>
 <div class="paragraph">
@@ -3599,6 +3595,9 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 </div>
 </div>
 <div class="paragraph">
+<p><em>Public domain image of v-model from</em> <a href="https://en.wikipedia.org/wiki/V-Model_(software_development)"><em>Wikipedia</em></a></p>
+</div>
+<div class="paragraph">
 <p>The failures of these approaches at scale are by now well known. Large distributed teams would wrestle with thousands of requirements. The customer would “sign off” on multiple large binders, with widely varying degrees of understanding of what they were agreeing to. Documentation became an end in itself, and yet did not meet its objectives of ensuring continuity if staff turned over.
 The development team would design and build out extensive product implementations without checking the results with customers. And they would defer testing that various component parts would effectively interoperate, until the very end of the project when the time came to assemble the whole system.</p>
 </div>
@@ -3612,7 +3611,7 @@ The development team would design and build out extensive product implementation
 <p>By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)</p>
 </div>
 <div class="paragraph">
-<p>Various authors assembled in XXXX and developed the Agile Manifesto, which further emphasized an emergent set of values and practices:</p>
+<p>Various authors assembled in 2001 and developed the Agile Manifesto <a href="#Alliance2001">[Alliance2001]</a>, which further emphasized an emergent set of values and practices:</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -3642,9 +3641,13 @@ Through this work we have come to value:</p>
 <p>That is, while there is value in the items on
 the right, we value the items on the left more.</p>
 </div>
+</div>
+</div>
 <div class="paragraph">
 <p>The Manifesto authors further stated:</p>
 </div>
+<div class="sidebarblock">
+<div class="content">
 <div class="paragraph">
 <p>We follow these principles:</p>
 </div>
@@ -3705,10 +3708,13 @@ its behavior accordingly.</p>
 </div>
 </div>
 <div class="paragraph">
-<p><em>need to properly cite, give me a little time here</em></p>
+<p>See <a href="http://agilemanifesto.org/" class="bare">http://agilemanifesto.org/</a>.</p>
 </div>
 <div class="paragraph">
-<p>The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Flickr, Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery. Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).</p>
+<p>The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Flickr, Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery.</p>
+</div>
+<div class="paragraph">
+<p>Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).</p>
 </div>
 <div class="paragraph">
 <p>Web-based systems integrate the software development lifecycle tightly with operational concerns. The development of new functionality is moved rapidly into a user-facing state, as opposed to previous models where software development was more distant in time and personnel from operations staff. We will talk more of product-centricity and the overall DevOps movement in the next section.</p>
@@ -3720,70 +3726,19 @@ its behavior accordingly.</p>
 <p>This new world also did not function at all in terms of large requirements specifications. Capturing a requirement, analyzing and designing to it, implementing it, testing that implementation, and deploying the result to the end user for feedback became something that needed to happen at speed, with high repeatability.</p>
 </div>
 <div class="paragraph">
-<p>These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base. Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never full understood in any event.) This has paid off in many cases.</p>
+<p>These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base.</p>
+</div>
+<div class="paragraph">
+<p>Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never fully understood in any event.) This has paid off in many cases.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_a_continuous_delivery_pipeline">A continuous delivery pipeline</h4>
+<h4 id="_the_devops_challenge">The DevOps challenge</h4>
 <div class="paragraph">
-<p>At the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:</p>
-</div>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Stack 1</th>
-<th class="tableblock halign-left valign-top">Stack 2</th>
-<th class="tableblock halign-left valign-top">Stack 3</th>
-<th class="tableblock halign-left valign-top">Stack 4</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C#</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Javascript, Express &amp; Angular</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oracle DB</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MS SQL Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MongoDB</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Websphere</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">.Net</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Web Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Commercial Unix</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Microsoft Windows</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat Linux</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ubuntu Linux</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.</p>
+<p>Consider the Lean Software challenge by Mary and Tom Poppendieck (<a href="#Poppendieck2007">[Poppendieck2007]</a>, p. 92):</p>
 </div>
 <div class="paragraph">
-<p>The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. You want to set this up before developing a single line of code. It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).</p>
-</div>
-<div class="paragraph">
-<p>What is meant by a continuous delivery pipeline? Here is an overview.</p>
-</div>
-<div class="paragraph">
-<p>Consider the Lean Software challenge by Mary and Tom Poppendieck: (***cite)</p>
-</div>
-<div class="paragraph">
-<p>How long would it take you to change one line of code?</p>
+<p><strong>How long would it take your organization to deploy a change that involved one single line of code? Do you deploy changes at this pace on a repeat, reliable basis?</strong></p>
 </div>
 <div class="paragraph">
 <p>The implicit goal is that the organization should be able to change one line of code, and in fact might want to do so on an ongoing basis.</p>
@@ -3792,12 +3747,7 @@ its behavior accordingly.</p>
 <p>There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence.</p>
 </div>
 <div class="paragraph">
-<p>Achieving this goal is feasible but requires a different approach&#8230;&#8203;</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>Applied in an IT setting, a number of practitioners have explored this approach and encountered great success. Key initial milestones included</pre>
-</div>
+<p>Achieving this goal is feasible but requires new approaches. Various practitioners have explored this problem, with great success. Key initial milestones included</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3805,18 +3755,18 @@ its behavior accordingly.</p>
 <p>The establishment of “test-driven development” as a key best practice in creating software</p>
 </li>
 <li>
-<p>Duvall’s book “Continuous Integration”</p>
+<p>Duvall’s book “Continuous Integration” <a href="#Duvall2007">[Duvall2007]</a></p>
 </li>
 <li>
-<p>Allspaw &amp; X’s seminal “10 Deploys a Day” presentation describing at Etsy</p>
+<p>Allspaw &amp; Hammonds’s seminal <a href="http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr">“10 Deploys a Day”</a> presentation describing at Etsy <a href="#Allspaw2009">[Allspaw2009]</a>.</p>
 </li>
 <li>
-<p>Humble &amp; Farley’s “Continuous Delivery”</p>
+<p>Humble &amp; Farley’s “Continuous Delivery” <a href="#Humble2011">[Humble2011]</a>.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:</p>
+<p>While definitions of "DevOps" are controversial, the fundamental goal of moving smaller changes more quicly through the pipeline is  common to all definitions. There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3865,9 +3815,61 @@ its behavior accordingly.</p>
 <p>Continuous integration</p>
 </li>
 <li>
-<p>Continuous deployment</p>
+<p>Continuous deployment
+In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:</p>
 </li>
 </ul>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Stack 1</th>
+<th class="tableblock halign-left valign-top">Stack 2</th>
+<th class="tableblock halign-left valign-top">Stack 3</th>
+<th class="tableblock halign-left valign-top">Stack 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C#</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Javascript, Express &amp; Angular</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Oracle DB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MS SQL Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MongoDB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Websphere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">.Net</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Web Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Commercial Unix</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Microsoft Windows</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat Linux</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ubuntu Linux</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.</p>
+</div>
+<div class="paragraph">
+<p>The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. <strong>You want to set this up before developing a single line of code.</strong> It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).</p>
+</div>
+<div class="paragraph">
+<p>What is meant by a continuous delivery pipeline? Here is an overview.</p>
 </div>
 </div>
 <div class="sect3">

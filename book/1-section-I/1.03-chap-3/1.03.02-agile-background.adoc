@@ -15,7 +15,7 @@ image::images/1.03-waterfall.png[]
 
 First, requirements needed to be extensively captured and analyzed before the work of development should commence.
 
-So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.” 
+So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.”
 
 The analysis phase was used to develop a more structured understanding of the requirements, e.g. conceptual and logical data models, process models, business rules, and so forth.
 
@@ -26,6 +26,7 @@ Only AFTER extensive requirements, analysis, and design would coding take place 
 Another model sometimes encountered at this time was the V-model. This was intended to better represent the various levels of abstraction operating in the systems delivery activity. Requirements operate at various levels, from high level business intent through detailed specifications. It is all too possible that a system is “successfully” implemented at lower levels of specification, but fails to satisfy the original higher level intent.
 
 image::images/1.03-vmodel.png[]
+_Public domain image of v-model from_ https://en.wikipedia.org/wiki/V-Model_(software_development)[_Wikipedia_]
 
 The failures of these approaches at scale are by now well known. Large distributed teams would wrestle with thousands of requirements. The customer would “sign off” on multiple large binders, with widely varying degrees of understanding of what they were agreeing to. Documentation became an end in itself, and yet did not meet its objectives of ensuring continuity if staff turned over.
 The development team would design and build out extensive product implementations without checking the results with customers. And they would defer testing that various component parts would effectively interoperate, until the very end of the project when the time came to assemble the whole system.
@@ -36,7 +37,7 @@ It should be noted that successful development efforts existed back to the earli
 
 By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)
 
-Various authors assembled in XXXX and developed the Agile Manifesto, which further emphasized an emergent set of values and practices:
+Various authors assembled in 2001 and developed the Agile Manifesto <<Alliance2001>>, which further emphasized an emergent set of values and practices:
 
 ****
 *The Agile Manifesto*
@@ -51,9 +52,11 @@ Through this work we have come to value:
 
 That is, while there is value in the items on
 the right, we value the items on the left more.
+****
 
 The Manifesto authors further stated:
 
+****
 We follow these principles:
 
 Our highest priority is to satisfy the customer
@@ -97,12 +100,13 @@ emerge from self-organizing teams.
 At regular intervals, the team reflects on how
 to become more effective, then tunes and adjusts
 its behavior accordingly.
-
 ****
 
-_need to properly cite, give me a little time here_
+See http://agilemanifesto.org/.
 
-The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Flickr, Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery. Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).
+The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Flickr, Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery.
+
+Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).
 
 Web-based systems integrate the software development lifecycle tightly with operational concerns. The development of new functionality is moved rapidly into a user-facing state, as opposed to previous models where software development was more distant in time and personnel from operations staff. We will talk more of product-centricity and the overall DevOps movement in the next section.
 
@@ -110,4 +114,6 @@ Software was moving more directly into an operational state, and developers and 
 
 This new world also did not function at all in terms of large requirements specifications. Capturing a requirement, analyzing and designing to it, implementing it, testing that implementation, and deploying the result to the end user for feedback became something that needed to happen at speed, with high repeatability.
 
-These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base. Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never full understood in any event.) This has paid off in many cases.
+These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base.
+
+Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never fully understood in any event.) This has paid off in many cases.

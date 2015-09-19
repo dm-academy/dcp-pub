@@ -43,7 +43,7 @@ include::book/1-section-I/1.02-chap-2/1.02.99-conclusion.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.00-intro.adoc[]
 
-include::book/1-section-I/1.03-chap-3/1.03.01-scenario.adoc[]
+include::book/1-section-I/1.03-chap-3/1.03.01-app-dev-basics.adoc[]
 
 include::book/1-section-I/1.03-chap-3/1.03.02-agile-background.adoc[]
 

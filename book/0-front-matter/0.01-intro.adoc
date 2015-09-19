@@ -3,11 +3,11 @@
 ifdef::collaborator-draft[]
 
 _considering changing order again_
-
-10. Security, and Governance, Risk, and Compliance
-11. Architecture and Portfolio
-12. Analytics and Complexity
-
+....
+  10. Security, and Governance, Risk, and Compliance
+  11. Architecture and Portfolio
+  12. Analytics and Complexity
+....
 endif::collaborator-draft[]
 
 === A process of emergence

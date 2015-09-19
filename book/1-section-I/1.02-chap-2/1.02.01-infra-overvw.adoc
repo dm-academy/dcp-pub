@@ -1,10 +1,10 @@
 ==== Infrastructure overview
 
-In the previous chapter, you were introduced to the concept of a Moment of Truth, and in the final exercises asked to think of a product idea. Some part of that product requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)
+In the previous chapter, you were introduced to the concept of a Moment of Truth, and in the final exercises asked to think of a product idea. Some part of that product requires writing software, or at least configuring some IT-centric system. (IT being defined as in http://dm-academy.github.io/aitm/#_defining_information_technology[Chapter 1].)
 
 ****
-NOTE: Moment of Truth & Minimum Viable Product
-
+NOTE: Moment of Truth & Minimum Viable Product +
+ +
 A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product's idea.
 ****
 
@@ -51,8 +51,8 @@ This book defines “IT infrastructure” recursively as “the set of IT concer
 
 IT infrastructure is one form of infrastructure. Other kinds of infrastructure might include mechanical, electrical, and plant investments (ME & P). IT infrastructure, like IT itself, is defined by its fundamental dependence on information and computing theory [link Chapter 1].
 
-NOTE: Today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born.
-
+NOTE: Today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born. +
+ +
 Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.
 
 ===== Basic IT infrastructure concepts
@@ -107,5 +107,9 @@ Networking is fairly intuitive; you may be familiar with coaxial cables for TV, 
 Like storage, networking as a service increasingly is independent of implementation. The developer uses programmatic tools to define expected information transmission, and (again *ideally*) need not be concerned with the specific networking technologies or architectures serving their needs.
 
 ****
-IMPORTANT: Eventually, scale matters. As your IT service's usage increases, you will inevitably find that you need to start caring about technical details such as storage and networking implementations. The implementation decisions made by your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. While more technical, https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know] provides a good overview of these issues.
+IMPORTANT: Eventually, scale matters. As your IT service's usage increases, you will inevitably find that you need to start caring about technical details such as storage and network architecture. +
+ +
+The implementation decisions made by you and your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. +
+ +
+ The brief technical writeup, https://gist.github.com/jboner/2841832[Latency Numbers Every Programmer Should Know] can help you start thinking about these issues.
 ****

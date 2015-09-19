@@ -469,6 +469,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_from_physical_compute_to_cloud">From "physical" compute to Cloud</a></li>
 <li><a href="#_infrastructure_as_code">Infrastructure as code</a></li>
 <li><a href="#_source_control_the_agile_foundation">Source control: the Agile foundation</a></li>
+<li><a href="#_policy_based_approaches">Policy-based approaches</a></li>
+<li><a href="#_web_scale_it">Web-scale IT</a></li>
 <li><a href="#_conclusion_2">Conclusion</a></li>
 </ul>
 </li>
@@ -680,7 +682,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_the_it_industry_and_the_rise_of_agile">The IT industry, and the rise of Agile</h3>
 <div class="paragraph">
-<p>Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of</p>
+<p>Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -702,7 +704,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 <div class="paragraph">
-<p>The challenges of this legacy are an ongoing theme through this introductory text. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:</p>
+<p>The challenges of this legacy are an ongoing theme throughout this introductory text. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:</p>
 </div>
 <div class="paragraph">
 <p><em>“…some will tell you that when things are this bad, you throw it all away and start again. It&#8217;s ironic: The same people who would champion incremental and evolutionary approaches to product development seem only too eager to recommend disruptive and revolutionary changes in people-based systems – in which the outcomes are so much less certain.”</em> <a href="#Burrows2014">[Burrows2014]</a>, Kindle Locations 827-829.</p>
@@ -726,7 +728,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_some_personal_history">Some personal history</h3>
 <div class="paragraph">
-<p>I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country. We teach a broad variety of students. Some are fresh out of a non-technical four-year liberal arts degree, and some have years of IT experience in businesses of various sizes, including the region&#8217;s many Fortune 500 corporations.</p>
+<p>I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country and is comprised of a broad mix of students. Some are fresh out of a non-technical four-year liberal arts degree, and some have years of IT experience in businesses of various sizes, including the region&#8217;s many Fortune 500 corporations.</p>
 </div>
 <div class="paragraph">
 <p>As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other&#8201;&#8212;&#8201;to be covered in the associated lab materials.</p>
@@ -765,7 +767,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>I readily accepted the opportunity. Adjunct positions, while notoriously ill-compensated, are legitimate faculty positions and afford a number of benefits beyond the course stipend. In particular, in these practitioner-focused Masters' programs, one comes into contact with a wide variety of industry professionals and can gain great insight into current trends. Also, there is an aspect of "giving back." Like many teachers before me, I find the work deeply satisfying.</p>
 </div>
 <div class="paragraph">
-<p>The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not communicating effectively.</p>
+<p>The first semester of the class was well received enough for me to be invited back. However, there were complaints from the students that it was too "theoretical." I was attempting to teach using an enterprise architecture style, with lots of abstractions, that just were not engaging students effectively.</p>
 </div>
 <div class="paragraph">
 <p>For example, in the ITIL framework, one learns that "an Incident is different from a Problem." From the perspective of a student new to IT, that is a meaningless semantic distinction. Absent practical reinforcement, it will not be retained after the class, if they even manage to remember it for the final.</p>
@@ -1010,7 +1012,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>This book is written at the college level. It is currently available only in English.</p>
 </li>
 <li>
-<p>There is no assumption of deep IT experience, but a person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.</p>
+<p>There is no assumption of deep IT experience, but there is an assumption that the person interacts with computers in some depth. They should for example understand the concept of an "operating system." An A+ certification, for example, would more than adequately prepare someone for this book.</p>
+</li>
+<li>
+<p>A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.</p>
 </li>
 </ul>
 </div>
@@ -1669,7 +1674,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>For this book, we define “Information technology” in terms of its historic origins. We look to IT’s common origins in automating the laborious and error prone processes of computation, through the application of digital logic technologies based on information transmission.</p>
 </div>
 <div class="paragraph">
-<p>Regardless of organizational form or delivery methods, IT is defined by these origins. And there are notable common threads through this problem domain: the fragility and complexity of these systems, the need for layered abstractions in their management, and more.</p>
+<p>Regardless of organizational form or delivery methods, IT is defined by these origins. And there are notable common threads throughout this problem domain: the fragility and complexity of these systems, the need for layered abstractions in their management, and more.</p>
 </div>
 <div class="paragraph">
 <p>It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.</p>
@@ -1680,7 +1685,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>IT increasingly permeates business operations and social interactions. The breadth and depth of IT support for virtually all domains of society continues to expand. Lately, this is known as digital transformation.</p>
 </div>
 <div class="paragraph">
-<p>As it increases its pervasiveness, it becomes difficult to detangle and analyze it. However, doing so remains essential. Without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a <a href="https://en.wikipedia.org/wiki/Cargo_cult">cargo cult</a>.</p>
+<p>As IT increases its pervasiveness, it becomes difficult to detangle and analyze it. However, doing so remains essential because without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a <a href="https://en.wikipedia.org/wiki/Cargo_cult">cargo cult</a>.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -1702,22 +1707,22 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 </div>
 <div class="paragraph">
-<p>Nicholas Carr, in his controversial <em>Harvard Business Review</em> article "IT Doesn&#8217;t Matter," recognized that IT was becoming commoditized in an important sense. As Cloud providers started to offer utility-style computing, the choice of vendors like HP vs IBM was no longer strategic. Looking to history, Carr argued that just as business no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.</p>
+<p>Nicholas Carr, in his controversial <em>Harvard Business Review</em> article "IT Doesn&#8217;t Matter," recognized that IT was becoming commoditized in an important sense. As Cloud providers started to offer utility-style computing, the choice of vendors like HP vs IBM was no longer strategic. Looking to history, Carr argued that just as businesses no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.</p>
 </div>
 <div class="paragraph">
-<p>Carr has insight&#8201;&#8212;&#8201;there is no question IT is becoming pervasive&#8201;&#8212;&#8201;but ultimately reflects a narrow view of what “IT” is. If “IT” were merely computation at the lowest level&#8201;&#8212;&#8201;just shuffling bits of information around, doing a little math&#8201;&#8212;&#8201;then perhaps it could be embedded throughout a business like electricity.</p>
+<p>Carr has insight&#8201;&#8212;&#8201;there is no question IT is becoming pervasive&#8201;&#8212;&#8201;but he ultimately reflects a narrow view of what “IT” is. If “IT” were merely computation at the lowest level&#8201;&#8212;&#8201;just shuffling bits of information around, doing a little math&#8201;&#8212;&#8201;then perhaps it could be embedded throughout a business like electricity.</p>
 </div>
 <div class="paragraph">
 <p>But IT has emergent aspects that are not comparable to electrical power. As it pervades all dimensions of business operations, it brings its concerns with it: complexity, fragility, and the skills required to cope with them.</p>
 </div>
 <div class="paragraph">
-<p>One watt of electrical power is like any other watt of electrical power, and can usefully be seen as a commodity. We can use it to run toasters, hair dryers, or industrial paint mixers, and there is little concern (beyond supply and demand management) that the paint mixer will affect the toaster.  It&#8217;s also true that one cycle of computing, in a certain sense, is like any other cycle. But information technology systems interact with each other in surprising and unpredictable ways that are not comparable to simple electrical power.</p>
+<p>One watt of electrical power is like any other watt of electrical power, and can usefully be seen as a commodity. We can use it to run toasters, hair dryers, or industrial paint mixers, and there is little concern (beyond supply and demand management) that the consumption of power by the paint mixer will affect the toaster.  It&#8217;s also true that one cycle of computing, in a certain sense, is like any other cycle. But information technology systems interact with each other in surprising and unpredictable ways that are not comparable to simple electrical power.</p>
 </div>
 <div class="paragraph">
-<p>IT also radically transforms industries: from retail to transportation to manufacturing to genetics, applied, software-centric IT is unleashing remarkable economic disruption.</p>
+<p>IT also radically transforms industries: from retail to transportation to manufacturing to genetics. Applied software-centric IT is unleashing remarkable economic disruption.</p>
 </div>
 <div class="paragraph">
-<p>A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provision as a commodity service needs little else to deliver the legal strategies a firm needs. A graphic designer may use computerized graphic tools, but these have become relatively standardized and commoditized in the past twenty years, and probably are not a source of competitive advantage in the quest for new marketing clients.</p>
+<p>A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provision as a commodity service, needs little else to deliver the legal strategies a firm needs. A graphic designer may use computerized graphic tools, but these have become relatively standardized and commoditized in the past twenty years, and probably are not a source of competitive advantage in the quest for new marketing clients.</p>
 </div>
 <div class="paragraph">
 <p>On the other hand, consider a text analytic algorithm that replaces thousands of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This <strong>is</strong> strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these&#8201;&#8212;&#8201;and they seem to be increasing&#8201;&#8212;&#8201;IT matters very much.</p>
@@ -1740,12 +1745,12 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <p>If you need people who understand when your information-centric problems might need to be referred to such theorists and engineers, you are likely doing IT.</p>
 </li>
 <li>
-<p>If you need people who are skilled in building upon those fundamentals, and operating technical platforms derived from them (such as programming languages, general purpose computers, and routers), you are doing IT.</p>
+<p>If you need people who are skilled in building upon those fundamentals, and operating technical platforms derived from them (such as programming languages, general purpose computers, and network routers), you are doing IT.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>And regardless of where the IT is housed (under a traditional CIO, an operations capability, a Chief Marketing Officer, or a “line of business”), when it is critical to operations, certain concerns inevitably follow:</p>
+<p>Regardless of whether IT is housed under a traditional CIO, an operations capability, a Chief Marketing Officer, or a “line of business”, when it is critical to operations certain concerns inevitably follow:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1828,7 +1833,7 @@ The "moment of truth" represents the user&#8217;s experience of value, from a pr
 </div>
 </div>
 <div class="paragraph">
-<p>In order to view her balance, our user is probably using an application downloaded from a "store" of applications made available to her device. On her device, this "app" is part of an intricate set of components performing functions such as</p>
+<p>In order to view her balance, our user is probably using an application downloaded from a "store" of applications made available to her device. On her device, this "app" is part of an intricate set of components performing functions such as:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1899,7 +1904,7 @@ The "moment of truth" represents the user&#8217;s experience of value, from a pr
 <p>Consider: what does all this mean to our user? Does she care about cell phone towers, or middleware, or triply-redundant industrial-strength Power Distribution Units? Usually, not in the least.</p>
 </div>
 <div class="paragraph">
-<p>Therefore, as we study this world, we need to mantain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends. The moment of truth depends on the service; the service may contain great complexity, but part of its success lies in shielding the user from that complexity.</p>
+<p>Therefore, as we study this world, we need to maintain awareness of her perspective. Our friend is seeking some value that IT uniquely can enable, but does not want to consider all the complexity that goes into it. She just wants to go out with friends. The moment of truth depends on the service; the service may contain great complexity, but part of its success lies in shielding the user from that complexity.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -2010,7 +2015,7 @@ There are many debates around these definitions. Sometimes these debates are hel
 <p>But these IT service systems must come from somewhere. They must be designed, built, and operated, and (as any smartphone user can testify) they are continually improved over time.</p>
 </div>
 <div class="paragraph">
-<p>A simple representation is shown in the figure below, of the IT service lifecycle.</p>
+<p>A simple representation of the IT service lifecycle is shown in the figure below.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -2024,7 +2029,7 @@ There are many debates around these definitions. Sometimes these debates are hel
 <p>The idea is then constructed, at least as an initial proof of concept or Minimum Viable Product (in the language of Ries' <em>Lean Startup</em>.) Construction is assumed to include an element of design; in this textbook, <strong>construction and design are not represented as two separate phases.</strong></p>
 </li>
 <li>
-<p>There is a critical state transition however that will always exist. Initially, it is the change from OFF to ON when the system is first constructed. After the system is ON, there are still distinct changes in state when new features are deployed, or incorrect behavior ("bugs" or "defects") is rectified.</p>
+<p>There is a critical state transition however that will always exist. Initially, it is the change from OFF to ON when the system is first constructed. After the system is ON, there are still distinct changes in state when new features are deployed, or incorrect behaviors ("bugs" or "defects") are rectified.</p>
 </li>
 <li>
 <p>The system may be ON, but it is not delivering value until the user can access it. Sometimes, that may be as simple as providing someone with a network address, but usually there is some initial "provisioning" of system access to the user, who needs to identify themselves.</p>
@@ -2092,7 +2097,7 @@ System retirement is often more complex and expensive than expected, and there a
 <p>The <strong>consumer</strong> (sometimes called the <strong>user</strong>) is the person actually interacting with the IT-based service.</p>
 </li>
 <li>
-<p>The <strong>customer</strong> is source of revenue for the service. If the service is part of a profit center, the customer is the person actually purchasing the product (e.g. demand deposit banking.) If the service is part of a cost center (e.g. an HR system), the customer is best seen as an internal executive, as the actual revenue-producing customers are too far removed.</p>
+<p>The <strong>customer</strong> is a source of revenue for the service. If the service is part of a profit center, the customer is the person actually purchasing the product (e.g. demand deposit banking.) If the service is part of a cost center (e.g. an HR system), the customer is best seen as an internal executive, as the actual revenue-producing customers are too far removed.</p>
 </li>
 <li>
 <p>The <strong>sponsor</strong> is the person who authorizes and controls the funding used to construct and operate the service.</p>
@@ -2268,10 +2273,10 @@ System retirement is often more complex and expensive than expected, and there a
 <div class="sect3">
 <h4 id="_introduction_to_chapter_2">Introduction to Chapter 2</h4>
 <div class="paragraph">
-<p>As mentioned in the section introduction, you cannot start writing code until you choose a programming language, which also has implications for how you ultimately deliver your IT-based product. (You may have a difficult time writing an app for a mobile phone if you choose the COBOL programming language!)</p>
+<p>As mentioned in the section introduction, you cannot start developing a product until you decide what you will write it with. (You may have a difficult time writing an app for a mobile phone if you choose the COBOL programming language!)  You also need to understand something of how computers are operated, enough so that you can make decisions on how your system will run. Most startups choose to run IT services on infrastructure owned by a Cloud provider, but there are other options. Certainly, as you scale up, you&#8217;ll need to be more and more sophisticated in your understanding of your underlying IT services.</p>
 </div>
 <div class="paragraph">
-<p>You also need to understand something of how computers are operated, enough so that you can make decisions on how your system will run. Most startups choose to run IT services on infrastructure owned by a Cloud provider, but there are other options.</p>
+<p>Configuring your base platform is one of the most important capabilities you will need to develop. You&#8217;ll never stop doing it. The basis of modern configuration management is source control, which we cover here.</p>
 </div>
 <div class="paragraph">
 <p>This is one of the more technical chapters. Supplementary reading may be required for those completely unfamiliar with computing. See <a href="http://dm-academy.github.io/aitm/index.html#_assumptions_of_the_reader">Assumptions of the Reader</a> for notes on the book&#8217;s approach.</p>
@@ -2357,7 +2362,7 @@ System retirement is often more complex and expensive than expected, and there a
 <div class="sect3">
 <h4 id="_infrastructure_overview">Infrastructure overview</h4>
 <div class="paragraph">
-<p>In the previous chapter, you were introduced to the concept of a Moment of Truth, and in the final exercises asked to think of a product idea. Some part of that product requires writing software, or at least configuring some IT-centric system. (IT being defined as in Chapter 1.)</p>
+<p>In the previous chapter, you were introduced to the concept of a Moment of Truth, and in the final exercises asked to think of a product idea. Some part of that product requires writing software, or at least configuring some IT-centric system. (IT being defined as in <a href="http://dm-academy.github.io/aitm/#_defining_information_technology">Chapter 1</a>.)</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2368,13 +2373,12 @@ System retirement is often more complex and expensive than expected, and there a
 <div class="title">Note</div>
 </td>
 <td class="content">
-Moment of Truth &amp; Minimum Viable Product
+Moment of Truth &amp; Minimum Viable Product<br>
+<br>
+A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product&#8217;s idea.
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>A Minimum Viable Product is required to deliver an initial Moment of Truth. You need infrastructure capable of supporting your Minimum Viable Product&#8217;s idea.</p>
 </div>
 </div>
 </div>
@@ -2461,13 +2465,12 @@ Moment of Truth &amp; Minimum Viable Product
 <div class="title">Note</div>
 </td>
 <td class="content">
-Today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born.
+Today’s application becomes tomorrow’s infrastructure. Forty years ago, building an “application” would have included building its database, perhaps even its file management. This was rightly determined to be a general-case problem that could be the basis for commodity software, and so companies like Oracle were born.<br>
+<br>
+Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>Operating systems took on more and more functionality, technology became more and more reliable and easily configured, and once unique (and competitively differentiating) functionality became commoditized and more and more deeply buried in the “stack”: the IT infrastructure.</p>
 </div>
 </div>
 <div class="sect4">
@@ -2589,7 +2592,11 @@ We can change the state of some data, or store it. We also need to move it. This
 <div class="title">Important</div>
 </td>
 <td class="content">
-Eventually, scale matters. As your IT service&#8217;s usage increases, you will inevitably find that you need to start caring about technical details such as storage and networking implementations. The implementation decisions made by your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter. While more technical, <a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a> provides a good overview of these issues.
+Eventually, scale matters. As your IT service&#8217;s usage increases, you will inevitably find that you need to start caring about technical details such as storage and network architecture.<br>
+<br>
+The implementation decisions made by you and your service providers may become inefficient for the particular "workload" your product represents, and you will need to start asking questions. This will be discussed in more depth in the Cloud chapter.<br>
+<br>
+ The brief technical writeup, <a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a> can help you start thinking about these issues.
 </td>
 </tr>
 </table>
@@ -2600,11 +2607,25 @@ Eventually, scale matters. As your IT service&#8217;s usage increases, you will 
 </div>
 <div class="sect3">
 <h4 id="_choosing_infrastructure">Choosing infrastructure</h4>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The following is written as if you are a decisionmaker in the early stages of conceiving a product. If you are an individual contributor in a large enterprise, or even a newcomer to an established product team, these decisions will likely have been made for you.<br>
+<br>
+ But at some point, <strong>someone</strong> had to go through this decision process, before anything could be developed.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
 <p>There is ferocious turbulence in the IT infrastructure market. Cloud technologies, DevOps, various platform wars… As an entrepreneur, you need to understand what technical trends matter and what are more of same?</p>
 </div>
 <div class="paragraph">
-<p>In particular, you will need to make some level of commitment to your technical architecture. And at some point you <strong>WILL</strong> be asked, “You’re still using X?”</p>
+<p>In particular, you will need to make some level of commitment to your technical architecture. And at some point you <strong>WILL</strong> be asked, “You’re still using that old technology?”</p>
 </div>
 <div class="paragraph">
 <p>As a startup, you have a couple initial decisions to make regarding infrastructure and tools:</p>
@@ -2626,7 +2647,10 @@ Eventually, scale matters. As your IT service&#8217;s usage increases, you will 
 <p>The two questions are related. If you want to develop on a LAMP stack, you need a Cloud provider that will support you in this. While most are very flexible, you will need to consider the specific support levels they are offering; a provider that supports the platform (and not just the operating system) might be more valuable, but there may be higher costs and other tradeoffs.</p>
 </div>
 <div class="paragraph">
-<p>There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book. However, this book has certain biases and assumptions, differing from previous textbooks.</p>
+<p>There is a near-infinite amount of material, debate, discussion, books, blogs, lists, and so forth concerning choice of language and platform. Exploring this is not the purpose of this book.</p>
+</div>
+<div class="paragraph">
+<p>However, this book has certain assumptions:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2656,13 +2680,12 @@ Eventually, scale matters. As your IT service&#8217;s usage increases, you will 
 <div class="title">Important</div>
 </td>
 <td class="content">
-Infrastructure automation enables rapid iterations and scaling.
+Infrastructure automation enables rapid iterations and scaling.<br>
+<br>
+Iterative development and rapid scaling, while possible, was often more difficult with earlier, less automated technical platforms.
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>Iterative development and rapid scaling, while possible, was often more difficult with earlier, less automated technical platforms.</p>
 </div>
 </div>
 </div>
@@ -2676,12 +2699,12 @@ Infrastructure automation enables rapid iterations and scaling.
 <p>There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.</p>
 </div>
 <div class="paragraph">
-<p>So, choose Ruby on Rails, or PHP, or Node, and start. Do not fall into analysis paralysis. But be critical of everything especially in your first few weeks of development. Ask yourself</p>
+<p>So, choose Ruby on Rails, or PHP, or Node, and a hosting provider who supports them, and start. Do not fall into analysis paralysis. But <strong>be critical of everything</strong> especially in your first few weeks of development. Ask yourself</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>can I see myself doing things this way for the next year?</p>
+<p>Can I see myself doing things this way for the next year?</p>
 </li>
 <li>
 <p>Will I be able to train people in this?</p>
@@ -2692,7 +2715,7 @@ Infrastructure automation enables rapid iterations and scaling.
 </ul>
 </div>
 <div class="paragraph">
-<p>If you start to become uncomfortable with the answers, you should strongly consider investigating alternatives.</p>
+<p>If you become uncomfortable with the answers, you should consider alternatives.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2703,13 +2726,12 @@ Infrastructure automation enables rapid iterations and scaling.
 <div class="title">Tip</div>
 </td>
 <td class="content">
-<strong>The technical "spike"</strong>
+<strong>The technical "spike"</strong><br>
+<br>
+Scrum-based development uses the concept of a <a href="https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio">“spike”</a> to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of your infrastructure selection process in this way.
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>In Scrum-based development, they use the concept of a <a href="https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio">“spike”</a> to represent effort whose outcome is not shippable product, but rather research and information. Consider thinking of things in this way.</p>
 </div>
 </div>
 </div>
@@ -2717,74 +2739,109 @@ Infrastructure automation enables rapid iterations and scaling.
 <div class="sect3">
 <h4 id="_from_physical_compute_to_cloud">From "physical" compute to Cloud</h4>
 <div class="paragraph">
-<p>The idea of running IT as a utility service goes back years</p>
+<p>According to the <a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">National Institute for Standards and Technology</a>, Cloud is:</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Complexity has been the problem</p>
-</li>
-</ul>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><em>a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.</em></p>
+</div>
+</div>
 </div>
 <div class="paragraph">
-<p>Cloud origins</p>
+<p>Before Cloud, people generally bought computers of varying sizes and power ratings to deliver the IT value they sought. With Cloud services, the same compute capacity can be rented or leased by the minute or hour, and accessed over the Internet.</p>
+</div>
+<div class="paragraph">
+<p>There is much to learn about Cloud computing. In this introduction, we will discuss the following aspects:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Virtualization (we will discuss further)</p>
+<p>Virtualization</p>
 </li>
 <li>
 <p>Managed hosting</p>
 </li>
 <li>
-<p>Web-scale IT</p>
+<p>What differentiates Cloud</p>
 </li>
 <li>
-<p>“IT doesn’t matter”</p>
+<p>The various kinds of Cloud services</p>
 </li>
 </ul>
+</div>
+<div class="sect4">
+<h5 id="_virtualizaton">Virtualizaton</h5>
+<div class="paragraph">
+<p><a href="https://en.wikipedia.org/wiki/Virtualization">Virtualization</a>, for the purposes of this section, starts with the idea of a computer within a computer.<span class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnote_3" title="View footnote.">3</a>]</span> In order to understand this, we need to understand a little bit about operating systems and how they relate to the physical computer.</p>
 </div>
 <div class="paragraph">
-<p>Virtualizaton</p>
+<p>Assume a simple, physical computer such as a laptop:</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Essentially, a computer within a computer.</p>
-</li>
-</ul>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-laptop.jpg" alt="1.02 laptop">
+</div>
+</div>
+<div class="paragraph">
+<p>When the laptop is first turned on, the operating system (OS) loads; the OS is itself software, but is able to directly control the computer&#8217;s physical resources: its CPU, memory, screen, and any interfaces such as WiFi, USB, and Bluetooth.</p>
+</div>
+<div class="paragraph">
+<p>The operating system (in a traditional approach) then is used to run "applications" such as Web browsers, media players, word processors, spreadsheets, and the like. Many such programs can also be run as applications within the browser, but the browser still needs to be run as an application.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/1.02-virt.png" alt="1.02 virt">
 </div>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>There is a host system that can instantiate one or more guests.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>The host system knows about the guests, but the guests do not know about the host (except as a peer system on the network, perhaps).</p>
-</li>
-<li>
-<p>The physical resources allocated can vary according to demand</p>
-</li>
-</ul>
+<div class="paragraph">
+<p><em>Figure XX. Virtualization is computers within a computer.</em></p>
 </div>
-</li>
-<li>
-<p>The technical details are deep. Talk to your
-OS instructor.</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>In the simplest form of virtualization, a specialized application known as a hypervisor is loaded like any other application. The purpose of this hypervisor is to emulate the hardware computer in software. Once the hypervisor is running, it can emulate any number of "virtual" computers, each of which can have its own operating system. The hypervisor mediates the <a href="https://en.wikipedia.org/wiki/Virtual_machine">"virtual machine"</a> (VM) access to the actual, physical hardware of the laptop; the VM can take input from the USB port, and output to the Bluetooth interface, just like the master OS that launched when the laptop was turned on.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+You can experiment with a hypervisor by downloading <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a> (on Windows, Mac OS, or Linux) and using <a href="https://www.vagrantup.com/">Vagrant</a> to download and initialize a Linux virtual machine.<br>
+<br>
+ You&#8217;ll probably want at least 4 gb of RAM on your laptop and a gigabyte of free disk space, at the bare minimum.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>There are two different kinds of hypervisors. The example we just discussed was an example of a Type 2 hypervisor, which runs on top of a host operating system. In a type 1 hypervisor, a master host OS is not used; the hypervisor runs on the "bare metal" of the computer and in turn "hosts" multiple VMs.</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/1.02-virtualization-types.png" alt="1.02 virtualization types">
 </div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_why_is_virtualization_important">Why is virtualization important?</h5>
+<div class="paragraph">
+<p>While the conceptual idea of Cloud and utility computing was foreseeable fifty years ago, it took many years of hard-won IT evolution to support the vision. Reliable hardware of exponentially increasing performance, robust open-source software, Internet backbones of massive speed and capacity, and many other factors converged towards this end.</p>
+</div>
+<div class="paragraph">
+<p>It has its uses even on a laptop (as you will see if you follow certain paths in the labs.) However, it is in larger industrial uses where it has the greatest utility.</p>
+</div>
+<div class="paragraph">
+<p>The idea of running IT as a utility service goes back at least to 1965 and the publication of <em>The Challenge of the Computer Utliity</em>, by Douglas Parkhill.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-parkhill.png" alt="1.02 parkhill">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Figure XX. The author&#8217;s copy</em>
+  [need pic w no glare]</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2795,112 +2852,136 @@ OS instructor.</p>
 <div class="title">Note</div>
 </td>
 <td class="content">
-Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since (IBM LPAR?).
+Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since <a href="https://en.wikipedia.org/wiki/Timeline_of_virtualization_development">at latest 1967</a> - only 20 years after the first fully functional computers.<br>
+<br>
+And yes, you can run computers within computers within computers with virtualization. They get slower and slower the more levels you go in, but the logic still works.
 </td>
 </tr>
 </table>
 </div>
 </div>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Multi-tenancy</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Multi-tenancy is where multiple customers share physical resources that provide the illusion of being dedicated</p>
-</li>
-<li>
-<p>The phone system has been multi-tenant ever since they got rid of party lines.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
+<div class="paragraph">
+<p>In order to run compute as a utility, multi-tenancy was essential. This is different from electricity. As noted elsewhere, one watt of electric power is like any other and there is less concern for leakage or unexpected interactions. People&#8217;s bank balances are not encoded somehow into the power generation and distribution infrastructure.</p>
 </div>
 <div class="paragraph">
-<p>Virtualization vs containers</p>
+<p>However, people store data - often private - on computers. In order to deliver compute as a utility, it is essential to segregate each customer&#8217;s workload from all others. This is called multi-tenancy. In multi-tenancy, multiple customers share physical resources that provide the illusion of being dedicated.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The phone system has been multi-tenant ever since they got rid of <a href="https://en.wikipedia.org/wiki/Party_line_(telephony)">party lines</a>. A party line is a shared line where anyone on it can hear every other person.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Virtualization benefits</p>
+<p>Virtualization attracted business attention as a means to consolidate computing workloads. For years, companies would purchase servers to run applications of various sizes, and in many cases the computers were badly underutilized. Because of configuration issues (legitimate) and an overabundance of caution (questionable), average utilization in a pre-virtualization data center might average 10%. (That&#8217;s 90% of the computer&#8217;s capacity being wasted.)</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/1.02-virt-benefits.png" alt="1.02 virt benefits">
 </div>
 </div>
-<div class="paragraph">
-<p>Why virtualize?</p>
+<div class="literalblock">
+<div class="content">
+<pre>[redo graphic]</pre>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Great for heterogeneous workloads – lots of miscellaneous applications &amp; services running on underutilized servers</p>
-</li>
-<li>
-<p>What about where the application is large and virtualization is mostly overhead?</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Still may make sense</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Management consistency</p>
-</li>
-<li>
-<p>Ease of restoration</p>
-</li>
-<li>
-<p>Database professionals still don’t like it</p>
-<div class="ulist">
-<ul>
-<li>
-<p>“The database IS virtualization” they will say</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
 </div>
 <div class="paragraph">
-<p>Virtualizaiton vs cloud</p>
+<p>But what about where the application is large and virtualization is mostly overhead? Virtualization still may make sense in terms of management consistency and ease of system recovery.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Some database professionals still don’t like virtualization, that is, making them run Oracle RDBMS or Microsoft SQL Server on top of virtual servers, instead of directly on the host operating system. “The database IS virtualization” they will say.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_virtualization_vs_cloud">Virtualization vs cloud</h5>
+<div class="paragraph">
+<p>Virtualization is necessary, but not sufficient for cloud. True Cloud services are highly automated, and most Cloud analysts will insist that if virtual machines cannot be created and configured in a completely automated fashion, the service is not true Cloud. This is currently where many in-house "private" Cloud efforts struggle; they may have virtualization, but struggle to make it fully self-service.</p>
+</div>
+<div class="paragraph">
+<p>There also is a long tradition of managed services, where applications are built out by a customer and then their management is outsourced to a third party.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Traditional managed services are sometimes called "your mess for less." With Cloud, you have to "clean it up first."
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Cloud services have refined into at least three major models:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>“Cloud is not just virtualization” many critics will say</p>
+<p>Infrastructure as a service</p>
 </li>
 <li>
-<p>Financial model</p>
+<p>Platform as a service</p>
 </li>
 <li>
-<p>Tenancy model</p>
-</li>
-<li>
-<p>Provisioning model</p>
-</li>
-<li>
-<p>Services beyond raw compute, storage and network</p>
-</li>
-<li>
-<p>Self-service, API-driven</p>
+<p>Software as a service</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>Traditional managed hosting vs cloud
-* Managed services: “your mess for less”
-* Cloud: “clean it up first”</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>Sidebar: Introducing Allspaw.</p>
+<p><strong>From the <a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">NIST Definition of Cloud Computing (p. 2-3)</a>:</strong></p>
 </div>
+<div class="paragraph">
+<p><strong>Software as a Service (SaaS).</strong> The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings.</p>
+</div>
+<div class="paragraph">
+<p><strong>Platform as a Service (PaaS).</strong> The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. The consumer does
+not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment.</p>
+</div>
+<div class="paragraph">
+<p><strong>Infrastructure as a Service (IaaS).</strong> The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls).</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>There are Cloud services beyond those listed above (e.g. Storage as a Service). Various platform services have become extensive on providers such as Amazon, which offers load balancing, development pipelines, various kinds of storage, and much more.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_containers_and_looking_ahead">Containers and looking ahead</h5>
+<div class="paragraph">
+<p>At this writing, two major developments in Cloud computing are prominent:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Container technologies such as <a href="http://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/">Docker</a></p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, "a compute service that runs your code in response to events and automatically manages the compute resources for you, making it easy to build applications that respond quickly to new information."</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>It&#8217;s recommended you at least scan the links provided.</p>
 </div>
 </div>
 </div>
@@ -3126,13 +3207,62 @@ It is not always easy to apply this approach in practice. There can be edge case
 </div>
 </div>
 <div class="sect3">
+<h4 id="_policy_based_approaches">Policy-based approaches</h4>
+<div class="paragraph">
+<p>DRAFT
+ [As of fall 2015 this section needs to be elaborated.]</p>
+</div>
+<div class="paragraph">
+<p>Before we turned to source control, we had looked at a simple script that changed the configuration of a computer. It did so in an <em>imperative</em> fashion.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<strong>Imperative vs Declarative.</strong> These are two important terms from computer science. [Define.]
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>A script such as iac.sh is executed line by line, i.e., it is imperative. But in policy-based approaches, the object is to define the desired end state of the resource, not the steps needed to get there.</p>
+</div>
+<div class="paragraph">
+<p>Chef, Puppet, Salt Stack, and Ansible are all declarative to some degree.</p>
+</div>
+<div class="paragraph">
+<p>This is a complex topic and there are advantages and disadvantages to each approach. (See <a href="http://markburgess.org/blog_order.html">"When and Where Order Matters"</a> by Mark Burgess for an advanced discussion.) But policy-based approaches seem to have the upper hand for now.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_web_scale_it">Web-scale IT</h4>
+<div class="paragraph">
+<p>This chapter as of fall 2015 is yet to be written. Will summarize key insights from the site reliability community, including Allspaw and Limoncelli.</p>
+</div>
+</div>
+<div class="sect3">
 <h4 id="_conclusion_2">Conclusion</h4>
 <div class="paragraph">
-<p>Conclusion placeholder</p>
+<p>Books and articles are written every week about some aspect of IT infrastructure. We have only scratched the surface in our discussions of compute, network, and storage, and how they have become utility services in the guise of Cloud.</p>
+</div>
+<div class="paragraph">
+<p>Software as a service, platform as a service, infrastructure as a service - each represents a different approach. For the most part, we will focus on Infrastructure as a Service in the remainder of this book, on the assumption that your digital product is unique enough to need the broad freedom this provides.</p>
+</div>
+<div class="paragraph">
+<p>IT infrastructure is a rich and complex topic, and a person can spend their career specializing in it. For this class, we always want to keep chapter 1 in mind: why do we want it? How does it provide for our needs, contribute to our enjoyment?</p>
 </div>
 <div class="sect4">
 <h5 id="_discussion_questions_2">Discussion questions</h5>
-
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Consider your product idea. Does it have any particular infrastructure needs you can identify, having read this chapter?</p>
+</li>
+</ol>
+</div>
 </div>
 <div class="sect4">
 <h5 id="_research_practice_2">Research &amp; practice</h5>
@@ -3149,24 +3279,36 @@ It is not always easy to apply this approach in practice. There can be edge case
 <div class="ulist">
 <ul>
 <li>
-<p>Limoncelli</p>
+<p>Thomas A. Limoncelli, Strata R. Chalup, Christina J. Hogan, <a href="http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration">The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2</a></p>
 </li>
 <li>
-<p>Allspaw</p>
+<p>John Allspaw, <a href="http://www.goodreads.com/book/show/8571725-web-operations">Web Operations: Keeping the Data On Time</a></p>
 </li>
 <li>
-<p>Linux in a Nutshell</p>
+<p>Ellen Siever, Stephen Figgins, Robert Love (Goodreads Author), Arnold Robbins, Aaron Weber, <a href="http://www.goodreads.com/book/show/227148.Linux_in_a_Nutshell">Linux in a Nutshell</a></p>
 </li>
 <li>
-<p>Pro Git</p>
+<p>Scott Chacon, <a href="http://www.goodreads.com/book/show/6518085-pro-git?">Pro Git</a></p>
 </li>
 <li>
-<p><a href="http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/" class="bare">http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/</a></p>
+<p><a href="http://vmboomerang.com/posts/cloud-jumping-why-amazon-aws-is-kicking-paas/">Clouds Jumping – Why AWS Is Kicking PaaS</a></p>
 </li>
 <li>
 <p><a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a></p>
 </li>
+<li>
+<p><a href="http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf">NIST definition of Cloud computing</a></p>
+</li>
+<li>
+<p><a href="http://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/">Google Is 2 Billion Lines of Code—And It’s All in One Place</a></p>
+</li>
 </ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_picture_credits_2">Picture credits</h5>
+<div class="paragraph">
+<p><a href="https://www.flickr.com/photos/arbron/56216585/" class="bare">https://www.flickr.com/photos/arbron/56216585/</a></p>
 </div>
 </div>
 </div>
@@ -3895,6 +4037,15 @@ Wait, you say. How can that work?</p>
 </div>
 <div class="paragraph">
 <p>Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.</p>
+</div>
+<div class="paragraph">
+<p>Package management</p>
+</div>
+<div class="paragraph">
+<p>Once software is compiled and built, the executable files that can be installed and run operationally should be checked into a <a href="https://en.wikipedia.org/wiki/Package_manager">Package Manager.</a></p>
+</div>
+<div class="paragraph">
+<p>This is important so that the versions of software used in producton are well controlled and consistent.</p>
 </div>
 </div>
 <div class="sect3">
@@ -5510,10 +5661,13 @@ Over time, the IT operation develops significant data by which to manage itself.
 <div class="footnote" id="_footnote_2">
 <a href="#_footnoteref_2">2</a>. Effective pedagogy requires theory. I seek assistance in both the emerging theory of IT, and relevant theories of pedagogy. I am an amateur in both.
 </div>
+<div class="footnote" id="_footnote_3">
+<a href="#_footnoteref_3">3</a>. it has applicability to storage and networking as well but we will skip that for now
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-08-21 08:27:34 CDT
+Last updated 2015-08-08 00:02:45 EDT
 </div>
 </div>
 </body>

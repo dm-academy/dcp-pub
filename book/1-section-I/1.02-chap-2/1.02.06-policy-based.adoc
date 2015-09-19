@@ -1,0 +1,13 @@
+==== Policy-based approaches
+DRAFT
+ [As of fall 2015 this section needs to be elaborated.]
+
+Before we turned to source control, we had looked at a simple script that changed the configuration of a computer. It did so in an _imperative_ fashion.
+
+NOTE: *Imperative vs Declarative.* These are two important terms from computer science. [Define.]
+
+A script such as iac.sh is executed line by line, i.e., it is imperative. But in policy-based approaches, the object is to define the desired end state of the resource, not the steps needed to get there.
+
+Chef, Puppet, Salt Stack, and Ansible are all declarative to some degree.
+
+This is a complex topic and there are advantages and disadvantages to each approach. (See http://markburgess.org/blog_order.html["When and Where Order Matters"] by Mark Burgess for an advanced discussion.) But policy-based approaches seem to have the upper hand for now. 

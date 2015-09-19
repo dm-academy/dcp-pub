@@ -1,5 +1,15 @@
 == Introduction
 
+ifdef::collaborator-draft[]
+
+_considering changing order again_
+
+10. Security, and Governance, Risk, and Compliance
+11. Architecture and Portfolio
+12. Analytics and Complexity
+
+endif::collaborator-draft[]
+
 === A process of emergence
 
 In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] I am structuring this book around a progressive, evolutionary approach. Your journey through it reflects a process of emergence. Such processes are most often associated with founding and scaling a startup. There are many helpful books on this topic, such as:
@@ -99,7 +109,7 @@ The book however is not a complete dismissal of older models of IT delivery. Whe
 
 *This emergence model can also be understood as an individual's progression within a larger enterprise.* Even if one starts from Day 1 at a Fortune 100 corporation, I believe the progression of one's understanding still progresses through individual, to team, to "team of teams," to enterprise. Of course, one may cease evolving one's understanding at any of these stages, with corresponding implications for one's career.
 
-Some of you may be familiar with the idea of a Minimum Viable Product, Minimum Marketable Release, or similar. In these terms, it is important to understand that each *section* of the book represents an MVP, but not each chapter. One can't begin to deliver IT value without the components discussed in each of Chapters 1-3. The chapters of each section are interdependent, in other words.  
+Some of you may be familiar with the idea of a Minimum Viable Product, Minimum Marketable Release, or similar. In these terms, it is important to understand that each *section* of the book represents an MVP, but not each chapter. One can't begin to deliver IT value without the components discussed in each of Chapters 1-3. The chapters of each section are interdependent, in other words.
 
 _End instructor's note_
 ****

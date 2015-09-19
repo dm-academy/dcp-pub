@@ -78,6 +78,8 @@
 
 - [[[Ries2011]]]: Ries, E. (2011), _The lean startup : how today's entrepreneurs use continuous innovation to create radically successful businesses_, Crown Business, New York
 
+- [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
+
 - [[[Scotland2010]]]: Scotland, K. (2010), "Defining the Last Responsible Moment", http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment
 
 - [[[Shortland2012]]]: Shortland, A. & Lei, M. (2012), "Using Rundeck and Chef to build DevOps Toolchains", http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/

@@ -6,11 +6,15 @@ We now understand that the product development process starts with a concept of 
 
 When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development.”
 
-What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it. (***cite Royce) Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
+What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it. <<Royce1970>>
+
+
+Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
 
 image::images/1.03-waterfall.png[]
 
 First, requirements needed to be extensively captured and analyzed before the work of development should commence.
+
 So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.”
 
 The analysis phase was used to develop a more structured understanding of the requirements, e.g. conceptual and logical data models, process models, business rules, and so forth.

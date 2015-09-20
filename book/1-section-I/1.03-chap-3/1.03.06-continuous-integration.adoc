@@ -1,5 +1,5 @@
 ==== Continuous integration
-The term “continuous integration” was popularized by Duvall in his book of the same name.
+The term “continuous integration” was popularized by Paul Duvall in his book of the same name <<Duvall2007>>.
 
 In order to understand why continuous integration is important, it is necessary to further discuss the concept of source control and how it is employed in real world settings.
 
@@ -43,4 +43,4 @@ This is the principle of continuous integration at work. If the developers are c
 
 11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.
 
-This is a continuously evolving problem area, with practices changing rapidly. 
+This is a continuously evolving problem area, with practices changing rapidly.

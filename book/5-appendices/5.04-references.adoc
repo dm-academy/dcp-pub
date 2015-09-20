@@ -21,6 +21,9 @@
 
 - [[[Betz2015]]]: Betz, C.T. (2015), "Calavera project", Github, https://github.com/CharlesTBetz/Calavera
 
+- [[[Bossavit2015]]]:	Bossavit, L., 2015. _The Leprechauns of Software Engineering: How folklore turns into fact and what to do about it_ 2015. Available from: https://leanpub.com/leprechauns.
+
+
 - [[[Bouwman]]]: Bouwman, J.-J. & Heistek, M. (), "ITIL and DevOps at war in the enterprise,"" https://www.youtube.com/watch?v=_dDsdbkSgOc, 'DevOpsDays'.
 
 - [[[Burrows2014]]]: Burrows, Mike. (2014) _Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_. Sequim, WA, Blue Hole Press.

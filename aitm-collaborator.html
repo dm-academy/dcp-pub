@@ -3750,10 +3750,10 @@ To "provision" in an IT sense means to make the needed resources or services ava
 The development team would design and build out extensive product implementations without checking the results with customers. And they would defer testing that various component parts would effectively interoperate, until the very end of the project when the time came to assemble the whole system.</p>
 </div>
 <div class="paragraph">
-<p>Failure after failure of this approach is apparent in the historical record (***Glass et al, but not Standish). This led to the perception of a “software crisis.”  (It should also be noted that many large systems were effectively constructed and operated, and that there are reasonable criticisms of the concept of a “software crisis” (French author)).</p>
+<p>Failure after failure of this approach is apparent in the historical record (<a href="#Glass1998">[Glass1998]</a>). This led to the perception of a “software crisis.”  (It should also be noted that many large systems were effectively constructed and operated during the "waterfall years", and that there are reasonable criticisms of the concept of a “software crisis” <a href="#Bossavit2015">[Bossavit2015]</a>).</p>
 </div>
 <div class="paragraph">
-<p>It should be noted that successful development efforts existed back to the earliest days of computing (otherwise, we probably wouldn’t have computers, or at least not so many). Many of these successful efforts used prototypes and other means of building understanding and proving out approaches. But highly publicized failures continued, and a substantial movement against “waterfall” development started to take shape.</p>
+<p>Successful development efforts existed back to the earliest days of computing (otherwise, we probably wouldn’t have computers, or at least not so many). Many of these successful efforts used prototypes and other means of building understanding and proving out approaches. But highly publicized failures continued, and a substantial movement against “waterfall” development started to take shape.</p>
 </div>
 <div class="paragraph">
 <p>By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP <a href="#Beck2000">[Beck2000]</a>. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)</p>
@@ -3875,7 +3875,7 @@ its behavior accordingly.</p>
 <p>Software was moving more directly into an operational state, and developers and operators were part of the same economic concern (contract software development never gained favor in the Silicon Valley web-scale community). So, it was possible to start breaking down the walls between “development” and “operations,” and that is just what happened.</p>
 </div>
 <div class="paragraph">
-<p>This new world also did not function at all in terms of large requirements specifications. Capturing a requirement, analyzing and designing to it, implementing it, testing that implementation, and deploying the result to the end user for feedback became something that needed to happen at speed, with high repeatability.</p>
+<p>This new world also did not function at all in terms of large requirements specifications. Capturing a requirement, analyzing and designing to it, implementing it, testing that implementation, and deploying the result to the end user for feedback became something that needed to happen at speed, with high repeatability. Requirements "backlogs" were (and are) never "done," and increasingly were the subject of ongoing re-prioritization, without high-overhead project "change" barriers.</p>
 </div>
 <div class="paragraph">
 <p>These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base.</p>
@@ -5894,6 +5894,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </li>
 <li>
 <p><a id="Betz2015"></a>[Betz2015]: Betz, C.T. (2015), "Calavera project", Github, <a href="https://github.com/CharlesTBetz/Calavera" class="bare">https://github.com/CharlesTBetz/Calavera</a></p>
+</li>
+<li>
+<p><a id="Bossavit2015"></a>[Bossavit2015]:	Bossavit, L., 2015. <em>The Leprechauns of Software Engineering: How folklore turns into fact and what to do about it</em> 2015. Available from: <a href="https://leanpub.com/leprechauns" class="bare">https://leanpub.com/leprechauns</a>.</p>
 </li>
 <li>
 <p><a id="Bouwman"></a>[Bouwman]: Bouwman, J.-J. &amp; Heistek, M. (), "ITIL and DevOps at war in the enterprise,"" <a href="https://www.youtube.com/watch?v=_dDsdbkSgOc" class="bare">https://www.youtube.com/watch?v=_dDsdbkSgOc</a>, <em>DevOpsDays</em>.</p>

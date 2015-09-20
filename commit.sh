@@ -8,6 +8,7 @@ git push origin master
 
 # push to pages.
 cd ../aitm-pages
+git pull
 git add . && git commit -m "commit"
 git push origin gh-pages
 cd ../aitm

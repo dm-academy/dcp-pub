@@ -21,40 +21,19 @@ This chapter will cover applications and the software lifecycle, from requiremen
 
 ===== Chapter outline
 
-* What is an "application" (draw on EE, a toaster is an "application" of AC current)
+* What is an "application"
 * How applications have been delivered over time
- - How installed
- - How experienced
-* Basic application vs service vs software.
-* Systems engineering (e.g. complex aerospace hardware/software systems) uses different terminology.
-
 * Application lifecycle
-
-* Earlier software development
- - "Waterfall" that wasn't
- - Project mgmt history under McNamara
-* Introduction to Agile proper
- - history, manifesto, etc
-
- * Introduction to DevOps
-  - 10 deploys a day, Phoenix Project, etc
-
-* Application toolchain (source control introduced in prev chapter)
- - Requirements approaches (more on this in chapter 4)
- - Test-driven development
- - Continuous integration
- - Inspections and static analysis
- - Build tool
- - Package repo
-
-* Trends in AD
- - Fast pace of innovation
- - Microservices
- - Re-use & external code
+* Introduction to Agile
+* Introduction to DevOps
+** Application toolchain
+* Test-driven development
+* Continuous integration
+* Continuous deployment
 
 ===== Learning objectives
 
-* Define "application" as opposed to "infrastructure"
-* Describe the full application lifecycle
+* Understand history and importance of "application" concept
 * Define "Agile" in terms of software development
+* Identify key Agile practices
 * Identify the major components of an end-to-end DevOps delivery pipeline.

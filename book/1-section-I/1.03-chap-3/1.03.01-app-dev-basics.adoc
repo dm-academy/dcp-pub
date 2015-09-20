@@ -2,7 +2,7 @@
 
 ===== Defining "Application"
 
-In keeping with our commitment to theory and first princiles, we use an engineering definition of "application." To an electrical engineer, a toaster or a light bulb is an "application" of electricity. Similarly, a customer relationship management system, or a Web video on demand service, are "applications" of the core computer infrastructure we studied in the last chapter.
+In keeping with our commitment to theory and first principles, we use an engineering definition of "application." To an electrical engineer, a toaster or a light bulb is an "application" of electricity. Similarly, a customer relationship management system, or a Web video on demand service, are "applications" of the core computer infrastructure we studied in the last chapter.
 
 ===== History of applications and application software
 

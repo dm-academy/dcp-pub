@@ -2,12 +2,11 @@
 
 This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)
 
-We now understand that the product development process starts with a concept of requirement (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..
+As we will cover in more detail in the next chapter, the product development process starts with a concept of requirement (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..
 
 When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development.”
 
-What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it. <<Royce1970>>
-
+What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it <<Royce1970>>. Military contracting and management consultancy practices however embraced it, as it provided an illusion of certainty.
 
 Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
 
@@ -59,45 +58,45 @@ The Manifesto authors further stated:
 ****
 We follow these principles:
 
-Our highest priority is to satisfy the customer
+* Our highest priority is to satisfy the customer
 through early and continuous delivery
 of valuable software.
 
-Welcome changing requirements, even late in
+* Welcome changing requirements, even late in
 development. Agile processes harness change for
 the customer's competitive advantage.
 
-Deliver working software frequently, from a
+* Deliver working software frequently, from a
 couple of weeks to a couple of months, with a
 preference to the shorter timescale.
 
-Business people and developers must work
+* Business people and developers must work
 together daily throughout the project.
 
-Build projects around motivated individuals.
+* Build projects around motivated individuals.
 Give them the environment and support they need,
 and trust them to get the job done.
 
-The most efficient and effective method of
+* The most efficient and effective method of
 conveying information to and within a development
 team is face-to-face conversation.
 
-Working software is the primary measure of progress.
+* Working software is the primary measure of progress.
 
-Agile processes promote sustainable development.
+* Agile processes promote sustainable development.
 The sponsors, developers, and users should be able
 to maintain a constant pace indefinitely.
 
-Continuous attention to technical excellence
+* Continuous attention to technical excellence
 and good design enhances agility.
 
-Simplicity--the art of maximizing the amount
+* Simplicity--the art of maximizing the amount
 of work not done--is essential.
 
-The best architectures, requirements, and designs
+* The best architectures, requirements, and designs
 emerge from self-organizing teams.
 
-At regular intervals, the team reflects on how
+* At regular intervals, the team reflects on how
 to become more effective, then tunes and adjusts
 its behavior accordingly.
 ****

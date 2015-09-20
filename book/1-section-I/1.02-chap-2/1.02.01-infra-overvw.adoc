@@ -85,6 +85,8 @@ At a more realistic level, the process might be executed as a batch on a worksta
 
 Computers process instructions at the level of "true" and "false," represented as https://en.wikipedia.org/wiki/Binary_number[binary] "1s" and "0s." Because humans cannot easily understand binary data and processing, higher-level abstractions of https://en.wikipedia.org/wiki/Machine_code[machine code] and https://en.wikipedia.org/wiki/Programming_language[programming languages] are used.
 
+Computer processing is not free. Moving data from one point to another - the fundamental transmission of information - requires matter and energy, and is bound up in physical reality. This despite claims like, "information wants to be free." In the real world, even running the simplest calculation has physical and therefore economic cost, and so we must pay for computing.
+
 IMPORTANT: If these concepts are strange to you, spend some time with the suggested Wikipedia articles, or otherwise researching the topics. Wikipedia in the area of fundamental computer concepts is generally accurate.
 
 *Storage* But where did the picture come from? The data comprising the pixels needs to be stored somewhere. Sometimes you will hear the technical term "persisted." The combined set of pixels and their precise values can be termed the "state" of the photograph; the digital logic of the filter alters the state, and also needs to save this new state somewhere (otherwise it will be lost).

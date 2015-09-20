@@ -2595,6 +2595,9 @@ Repeat the above 4 lines until all pixels are done</pre>
 <div class="paragraph">
 <p>Computers process instructions at the level of "true" and "false," represented as <a href="https://en.wikipedia.org/wiki/Binary_number">binary</a> "1s" and "0s." Because humans cannot easily understand binary data and processing, higher-level abstractions of <a href="https://en.wikipedia.org/wiki/Machine_code">machine code</a> and <a href="https://en.wikipedia.org/wiki/Programming_language">programming languages</a> are used.</p>
 </div>
+<div class="paragraph">
+<p>Computer processing is not free. Moving data from one point to another - the fundamental transmission of information - requires matter and energy, and is bound up in physical reality. This despite claims like, "information wants to be free." In the real world, even running the simplest calculation has physical and therefore economic cost, and so we must pay for computing.</p>
+</div>
 <div class="admonitionblock important">
 <table>
 <tr>
@@ -3558,10 +3561,62 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 <div class="sect4">
 <h5 id="_history_of_applications">History of applications</h5>
 <div class="paragraph">
-<p>Without applications, computers would be merely a curiousity. Computers evolved in response to military needs for codebreaking and artillery calculations. After World War II, ex-military officers like Edmund Berkeley at Prudential realized their potential if "applied" to problems like insurance record keeping.</p>
+<p>Without applications, computers would be merely a curiousity. Computers were first "applied" to military needs for codebreaking and artillery calculations. After World War II, ex-military officers like Edmund Berkeley at Prudential realized their potential if "applied" to problems like insurance record keeping.</p>
 </div>
 <div class="paragraph">
 <p>CITES</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_applications_and_infrastructure_the_old_way">Applications and infrastructure: the old way</h5>
+<div class="paragraph">
+<p>In the first decades of computing, any significant appication of computing power to a new problem typically required its own infrastructure, often designed specifically for the problem. While computer scientists always were aware that computers in theory could be "general purpose," in practice this was not so easy. Military/aerospace needs differed from industry, which differed from scientific and technical uses. And major new applications required new compute capacity. So, for example, when a corporation in 1998 decided to replace its mainframe Human Resources system due to <a href="https://en.wikipedia.org/wiki/Year_2000_problem">Y2K concerns</a>. Such a system might need to support several thousand users around the world. At that time, PeopleSoft was a frequent choice of software. Implementing such a system was often led by consulting firms such as Deloitte or Andersen Consulting (where the author worked).</p>
+</div>
+<div class="paragraph">
+<p>A typical PeopleSoft package implementation would include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>PeopleSoft software, including the PeopleTools framework and various modules written in the framework (e.g. the well-regarded PeopleSoft HR system)</p>
+</li>
+<li>
+<p>Oracle database software</p>
+</li>
+<li>
+<p>AT&amp;T "Tuxedo" transaction manager</p>
+</li>
+<li>
+<p>Autosys job scheduler</p>
+</li>
+<li>
+<p>HP-UX operating system</p>
+</li>
+<li>
+<p>HP-UX servers, perhaps 20 or so, comprising various "environments" including a production "cluster" consisting of application and database servers</p>
+</li>
+<li>
+<p>EMC storage array</p>
+</li>
+<li>
+<p>Various ancillary software and hardware: management utilities and scripts, backup, networking, etc.</p>
+</li>
+<li>
+<p>Customization of the PeopleSoft HR module and reports by hired consultants, to meet the requirements of the acquiring organization</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The software and hardware needed to be specified in keeping with requirements, and acquiring it took lengthy negotiations and logistics and installation processes. Such a project from inception to production might take 9 months (on the short side) to 18 or more months.</p>
+</div>
+<div class="paragraph">
+<p>Hardware was dedicated and rarely re-used. The HP servers compatible with PeopleSoft might have few other applications, if they became surplus. In fact, PeopleSoft would "certify" the infrastructure for compatibility. Upgrading the software might require also upgrading the hardware.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_applications_and_infrastructure_today">Applications and infrastructure today</h5>
+<div class="paragraph">
+<p>Today,</p>
 </div>
 </div>
 </div>

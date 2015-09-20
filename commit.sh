@@ -3,6 +3,7 @@
 # dependent on successfully changing directories along relative paths.
 
 # commit to repo
+git pull
 git add . -A && git commit -m "commit"
 git push origin master
 

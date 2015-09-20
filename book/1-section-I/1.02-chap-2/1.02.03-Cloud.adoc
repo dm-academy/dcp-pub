@@ -50,7 +50,6 @@ The idea of running IT as a utility service goes back at least to 1965 and the p
 
 image::images/1.02-parkhill.png[]
 _Figure XX. The author's copy_
-  [need pic w no glare]
 
 ****
 NOTE: Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since https://en.wikipedia.org/wiki/Timeline_of_virtualization_development[at latest 1967] - only 20 years after the first fully functional computers. +

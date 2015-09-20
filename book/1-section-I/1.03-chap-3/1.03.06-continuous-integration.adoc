@@ -22,7 +22,7 @@ So, when the newer development was complete, it would need to be merged back int
 
 Enter continuous integration. The key practices include:
 
-* Source control (hopefully we have been harping on this enough that you are taking it seriously by now). Distributed version control systems such as git are especially popular, although older centralized products are starting to adopt some of their functionality (blog re: DVCS hype)
+* Source control (hopefully we have been harping on this enough that you are taking it seriously by now). Distributed version control systems such as git are especially popular, although older centralized products are http://bitquabit.com/post/unorthodocs-abandon-your-dvcs-and-return-to-sanity/[starting to adopt some of their functionality]
 * Test-driven development
 * Automated build activities
 * Frequent integration of short-lived development branches with the main code repository (“mainline” or “trunk”)

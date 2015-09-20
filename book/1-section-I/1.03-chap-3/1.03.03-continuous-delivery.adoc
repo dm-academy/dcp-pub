@@ -8,7 +8,7 @@ Consider this inquiry by Mary and Tom Poppendieck (<<Poppendieck2007>>, p. 92):
 
 The implicit goal is that the organization should be able to change one line of code, and in fact might want to do so on an ongoing basis.
 
-There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence.
+There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence. (We'll discuss some of the systems theory, including the concept of feedback, in the next chapter.)
 
 Achieving this goal is feasible but requires new approaches. Various practitioners have explored this problem, with great success. Key initial milestones included
 
@@ -19,7 +19,7 @@ Achieving this goal is feasible but requires new approaches. Various practitione
 
 While definitions of "DevOps" are controversial, the fundamental goal of moving smaller changes more quickly through the pipeline is  common to all. There is a great deal written on the topic of DevOps currently; the Humble/Farley book is recommended  as an introduction.
 
-Let’s go into a little detail on the essential Agile/DevOps practices.
+Let’s go into a little detail on some essential Agile/DevOps practices.
 
 * Test driven development
 * Ongoing refactoring

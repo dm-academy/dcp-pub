@@ -35,11 +35,21 @@ Iterative development and rapid scaling, while possible, was often more difficul
 
 Experienced IT professionals may be jumping up and down at this point, saying “How can you be thinking about infrastructure before you have gone deeply into requirements?”
 
-Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that term. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements.
+Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that term. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements. Here to get you started are the major players as of fall 2015:
+|====
+|Stack 1 (Enterprise Java) |Stack 2 (Microsoft) |Stack 3 (LAMP) |Stack 4 (MEAN)
+
+|Java       |C#        |PHP  |Javascript, Express & Angular
+|Oracle DB |MS SQL Server |MySQL |MongoDB
+|Websphere|.Net | Apache Web Server | NodeJS
+|Commercial Unix |Microsoft Windows  |Red Hat Linux |Ubuntu Linux
+|====
+
+Ruby on Rails is another frequently-encountered platform.
 
 There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.
 
-So, choose Ruby on Rails, or PHP, or Node, and a hosting provider who supports them, and start. Do not fall into analysis paralysis. But *be critical of everything* especially in your first few weeks of development. Ask yourself
+So, choose Ruby on Rails, or LAMP, or MEAN, and a hosting provider who supports them, and start. Do not fall into analysis paralysis. But *be critical of everything* especially in your first few weeks of development. Ask yourself
 
 * Can I see myself doing things this way for the next year?
 * Will I be able to train people in this?

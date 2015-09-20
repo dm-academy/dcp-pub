@@ -25,16 +25,8 @@ Let’s go into a little detail on the essential Agile/DevOps practices.
 * Ongoing refactoring
 * Continuous integration
 * Continuous deployment
-In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:
 
-|====
-|Stack 1 |Stack 2 |Stack 3 |Stack 4
-
-|Java       |C#        |PHP  |Javascript, Express & Angular
-|Oracle DB |MS SQL Server |MySQL |MongoDB
-|Websphere|.Net | Apache Web Server | NodeJS
-|Commercial Unix |Microsoft Windows  |Red Hat Linux |Ubuntu Linux
-|====
+In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner).
 
 You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out.
 

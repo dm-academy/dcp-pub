@@ -2758,13 +2758,58 @@ Iterative development and rapid scaling, while possible, was often more difficul
 <p>Experienced IT professionals may be jumping up and down at this point, saying “How can you be thinking about infrastructure before you have gone deeply into requirements?”</p>
 </div>
 <div class="paragraph">
-<p>Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that term. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements.</p>
+<p>Let’s be clear, in defining a product (Chapter 1) you already have started to think about requirements, although we have not yet started to use that term. The Minimum Marketable Feature is an initial statement of requirements from which you should be able to infer at least initial toolset and platform requirements. Here to get you started are the major players as of fall 2015:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Stack 1 (Enterprise Java)</th>
+<th class="tableblock halign-left valign-top">Stack 2 (Microsoft)</th>
+<th class="tableblock halign-left valign-top">Stack 3 (LAMP)</th>
+<th class="tableblock halign-left valign-top">Stack 4 (MEAN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C#</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Javascript, Express &amp; Angular</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Oracle DB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MS SQL Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MongoDB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Websphere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">.Net</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Web Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Commercial Unix</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Microsoft Windows</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat Linux</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ubuntu Linux</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Ruby on Rails is another frequently-encountered platform.</p>
 </div>
 <div class="paragraph">
 <p>There is a good reason, however, why you should not spend too much time “analyzing” before you make platform decisions. The reality is that you cannot know all of the factors necessary to make a perfect decision, and in fact the way you will learn them is by moving forward and testing out various approaches.</p>
 </div>
 <div class="paragraph">
-<p>So, choose Ruby on Rails, or PHP, or Node, and a hosting provider who supports them, and start. Do not fall into analysis paralysis. But <strong>be critical of everything</strong> especially in your first few weeks of development. Ask yourself</p>
+<p>So, choose Ruby on Rails, or LAMP, or MEAN, and a hosting provider who supports them, and start. Do not fall into analysis paralysis. But <strong>be critical of everything</strong> especially in your first few weeks of development. Ask yourself</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3962,53 +4007,13 @@ its behavior accordingly.</p>
 <p>Continuous integration</p>
 </li>
 <li>
-<p>Continuous deployment
-In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner). At this writing, some very characteristic toolsets might include:</p>
+<p>Continuous deployment</p>
 </li>
 </ul>
 </div>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Stack 1</th>
-<th class="tableblock halign-left valign-top">Stack 2</th>
-<th class="tableblock halign-left valign-top">Stack 3</th>
-<th class="tableblock halign-left valign-top">Stack 4</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C#</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Javascript, Express &amp; Angular</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Oracle DB</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MS SQL Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MongoDB</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Websphere</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">.Net</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Web Server</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NodeJS</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Commercial Unix</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Microsoft Windows</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat Linux</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ubuntu Linux</p></td>
-</tr>
-</tbody>
-</table>
+<div class="paragraph">
+<p>In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner).</p>
+</div>
 <div class="paragraph">
 <p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out.</p>
 </div>

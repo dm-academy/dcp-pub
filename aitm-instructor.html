@@ -2844,7 +2844,7 @@ You can experiment with a hypervisor by downloading <a href="https://www.virtual
 </div>
 </div>
 <div class="paragraph">
-<p><em>Figure XX. The author&#8217;s copy</em></p>
+<p><em>The author&#8217;s copy of Parkhill&#8217;s book</em></p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -2865,7 +2865,7 @@ And yes, you can run computers within computers within computers with virtualiza
 </div>
 </div>
 <div class="paragraph">
-<p>In order to run compute as a utility, multi-tenancy was essential. This is different from electricity. As noted elsewhere, one watt of electric power is like any other and there is less concern for leakage or unexpected interactions. People&#8217;s bank balances are not encoded somehow into the power generation and distribution infrastructure.</p>
+<p>In order to run compute as a utility, multi-tenancy was essential. This is different from electricity (but similar to the phone system). As noted elsewhere, one watt of electric power is like any other and there is less concern for leakage or unexpected interactions. People&#8217;s bank balances are not encoded somehow into the power generation and distribution infrastructure.</p>
 </div>
 <div class="paragraph">
 <p>However, people store data - often private - on computers. In order to deliver compute as a utility, it is essential to segregate each customer&#8217;s workload from all others. This is called multi-tenancy. In multi-tenancy, multiple customers share physical resources that provide the illusion of being dedicated.</p>
@@ -3703,7 +3703,7 @@ The development team would design and build out extensive product implementation
 <p>It should be noted that successful development efforts existed back to the earliest days of computing (otherwise, we probably wouldn’t have computers, or at least not so many). Many of these successful efforts used prototypes and other means of building understanding and proving out approaches. But highly publicized failures continued, and a substantial movement against “waterfall” development started to take shape.</p>
 </div>
 <div class="paragraph">
-<p>By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)</p>
+<p>By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP <a href="#Beck2000">[Beck2000]</a>. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)</p>
 </div>
 <div class="paragraph">
 <p>Various authors assembled in 2001 and developed the Agile Manifesto <a href="#Alliance2001">[Alliance2001]</a>, which further emphasized an emergent set of values and practices:</p>
@@ -3832,8 +3832,12 @@ its behavior accordingly.</p>
 <div class="paragraph">
 <p>Consider the Lean Software challenge by Mary and Tom Poppendieck (<a href="#Poppendieck2007">[Poppendieck2007]</a>, p. 92):</p>
 </div>
+<div class="sidebarblock">
+<div class="content">
 <div class="paragraph">
 <p><strong>How long would it take your organization to deploy a change that involved one single line of code? Do you deploy changes at this pace on a repeat, reliable basis?</strong></p>
+</div>
+</div>
 </div>
 <div class="paragraph">
 <p>The implicit goal is that the organization should be able to change one line of code, and in fact might want to do so on an ongoing basis.</p>
@@ -3847,7 +3851,7 @@ its behavior accordingly.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>The establishment of “test-driven development” as a key best practice in creating software</p>
+<p>The establishment of “test-driven development” as a key best practice in creating software <a href="#Beck2000">[Beck2000]</a></p>
 </li>
 <li>
 <p>Duvall’s book “Continuous Integration” <a href="#Duvall2007">[Duvall2007]</a></p>
@@ -3861,42 +3865,10 @@ its behavior accordingly.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>While definitions of "DevOps" are controversial, the fundamental goal of moving smaller changes more quicly through the pipeline is  common to all definitions. There is a great deal written on the topic of DevOps currently. Some of the most critical practices can be seen by briefly viewing Jez Humble’s Chapter 1 headings for Continuous Delivery:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Create a Repeatable, Reliable Process for Releasing Software</p>
-</li>
-<li>
-<p>Automate Almost Everything</p>
-</li>
-<li>
-<p>Keep Everything in Version Control</p>
-</li>
-<li>
-<p>If It Hurts, Do It More Frequently, and Bring the Pain Forward</p>
-</li>
-<li>
-<p>Build Quality In</p>
-</li>
-<li>
-<p>Done Means Released</p>
-</li>
-<li>
-<p>Everybody Is Responsible for the Delivery Process</p>
-</li>
-<li>
-<p>Continuous Improvement
-(***cite)</p>
-</li>
-</ul>
+<p>While definitions of "DevOps" are controversial, the fundamental goal of moving smaller changes more quickly through the pipeline is  common to all. There is a great deal written on the topic of DevOps currently; the Humble/Farley book is recommended  as an introduction.</p>
 </div>
 <div class="paragraph">
-<p>Humble’s book is recommended unreservedly.</p>
-</div>
-<div class="paragraph">
-<p>Let’s go into a little detail on the essential Agile practices.</p>
+<p>Let’s go into a little detail on the essential Agile/DevOps practices.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3958,7 +3930,19 @@ In our scenario approach, at the end of the last chapter, you had determined a t
 </tbody>
 </table>
 <div class="paragraph">
-<p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out. Text editors and IDEs are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.</p>
+<p>You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Development tools such as text editors and integrated development environments (IDEs) are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. <strong>You want to set this up before developing a single line of code.</strong> It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).</p>
@@ -5701,6 +5685,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </li>
 <li>
 <p><a id="Anderson2010"></a>[Anderson2010]: Anderson, D. J. (2010), <em>Kanban: Successful Evolutionary Change for your Technology Business</em>, Blue Hole Press, Sequim, WA</p>
+</li>
+<li>
+<p><a id="Beck2000"></a>[Beck2000]: Beck, K., 2000 <em>extreme programming eXplained : embrace change</em>, Reading, MA: Addison-Wesley. xxi, 190 p.</p>
 </li>
 <li>
 <p><a id="Bell2010"></a>[Bell2010]: Bell, S. C. &amp; Orzen, M. A. (2010), <em>Lean IT</em>, CRC Press, Boca Raton, Florida</p>

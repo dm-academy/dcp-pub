@@ -49,7 +49,7 @@ It has its uses even on a laptop (as you will see if you follow certain paths in
 The idea of running IT as a utility service goes back at least to 1965 and the publication of _The Challenge of the Computer Utliity_, by Douglas Parkhill.
 
 image::images/1.02-parkhill.png[]
-_Figure XX. The author's copy_
+_The author's copy of Parkhill's book_
 
 ****
 NOTE: Virtualization was predicted in the earliest theories that led to the development of computers. Turing and Church realized that any general purpose computer could emulate any other. Virtual systems have existed in some form since https://en.wikipedia.org/wiki/Timeline_of_virtualization_development[at latest 1967] - only 20 years after the first fully functional computers. +
@@ -57,7 +57,7 @@ NOTE: Virtualization was predicted in the earliest theories that led to the deve
 And yes, you can run computers within computers within computers with virtualization. They get slower and slower the more levels you go in, but the logic still works.
 ****
 
-In order to run compute as a utility, multi-tenancy was essential. This is different from electricity. As noted elsewhere, one watt of electric power is like any other and there is less concern for leakage or unexpected interactions. People's bank balances are not encoded somehow into the power generation and distribution infrastructure.
+In order to run compute as a utility, multi-tenancy was essential. This is different from electricity (but similar to the phone system). As noted elsewhere, one watt of electric power is like any other and there is less concern for leakage or unexpected interactions. People's bank balances are not encoded somehow into the power generation and distribution infrastructure.
 
 However, people store data - often private - on computers. In order to deliver compute as a utility, it is essential to segregate each customer's workload from all others. This is called multi-tenancy. In multi-tenancy, multiple customers share physical resources that provide the illusion of being dedicated.
 

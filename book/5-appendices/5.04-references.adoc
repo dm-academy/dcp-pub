@@ -9,6 +9,8 @@
 
 - [[[Anderson2010]]]: Anderson, D. J. (2010), _Kanban: Successful Evolutionary Change for your Technology Business_, Blue Hole Press, Sequim, WA
 
+- [[[Beck2000]]]: Beck, K., 2000 _extreme programming eXplained : embrace change_, Reading, MA: Addison-Wesley. xxi, 190 p.
+
 - [[[Bell2010]]]: Bell, S. C. & Orzen, M. A. (2010), _Lean IT_, CRC Press, Boca Raton, Florida
 
 - [[[Betz2011]]]: Betz, C. (2011), "Release management integration pattern - seeking devops comments", http://www.lean4it.com/2011/01/release-management-integration-pattern-seeking-devops-comments.html

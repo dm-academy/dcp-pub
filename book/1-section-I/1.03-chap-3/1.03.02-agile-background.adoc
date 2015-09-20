@@ -35,7 +35,7 @@ Failure after failure of this approach is apparent in the historical record (***
 
 It should be noted that successful development efforts existed back to the earliest days of computing (otherwise, we probably wouldn’t have computers, or at least not so many). Many of these successful efforts used prototypes and other means of building understanding and proving out approaches. But highly publicized failures continued, and a substantial movement against “waterfall” development started to take shape.
 
-By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)
+By the 1990s, a number of thought leaders in software development had noticed some common themes with what seemed to work and what didn’t. Perhaps the first and best known was Kent Beck, who developed a methodology known as “eXtreme Programming,” or XP <<Beck2000>>. XP pioneered the concepts of iterative, fast-cycle development with ongoing stakeholder feedback, coupled with test-driven development, ongoing refactoring, pair programming, and other practices. (More on the specifics of these in the next section.)
 
 Various authors assembled in 2001 and developed the Agile Manifesto <<Alliance2001>>, which further emphasized an emergent set of values and practices:
 

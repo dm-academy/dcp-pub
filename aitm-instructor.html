@@ -4046,23 +4046,22 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 </div>
 <div class="sect3">
 <h4 id="_test_driven_development_and_refactoring">Test-driven development and refactoring</h4>
-<div class="paragraph">
-<p>Test-driven development. (Sidebar)</p>
+<div class="quoteblock">
+<blockquote>
+<em>The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else.</em><br>
+</blockquote>
+<div class="attribution">
+&#8212; Martin Fowler<br>
+<cite>http://martinfowler.com/books/meszaros.html</cite>
+</div>
 </div>
 <div class="paragraph">
-<p>As Martin Fowler says,</p>
-</div>
-<div class="paragraph">
-<p>The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else.
-(***http://martinfowler.com/books/meszaros.html)</p>
-</div>
-<div class="paragraph">
-<p>In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in eXtreme Programming: write the test first. Thus:</p>
+<p>In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in <em>eXtreme Programming</em>: write the test first <a href="#Beck2000">[Beck2000]</a>. Thus:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Given a “user story” (I.e requirement), figure out a test that will demonstrate its successful implementation.</p>
+<p>Given a “user story” (i.e <a href="http://dm-academy.github.io/aitm/#_describing_system_intent">system intent</a>), figure out a test that will demonstrate its successful implementation.</p>
 </li>
 <li>
 <p>Write this test using the established testing framework.</p>
@@ -4076,7 +4075,10 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 <p>Some readers may be thinking, “I know how to write a little code, but what is this about using code to write a test?”</p>
 </div>
 <div class="paragraph">
-<p>While we avoid much indepth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the Calavera project, the basis for the companion labs to this book. Let’s say we want a function that will take a string of characters and wrap it in some HTML “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.</p>
+<p>While we avoid much in-depth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the  <a href="https://github.com/CharlesTBetz/Calavera">Calavera project</a>, the basis for the companion labs to this book.</p>
+</div>
+<div class="paragraph">
+<p>Let’s say we want a function that will take a string of characters (e.g. a sentence) and wrap it in some <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.</p>
 </div>
 <div class="paragraph">
 <p>We write the test first:</p>
@@ -4097,6 +4099,29 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
   }
 }</pre>
 </div>
+</div>
+<div class="paragraph">
+<p>The code above basically states,</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Set up the object to be tested</p>
+</li>
+<li>
+<p>pass in a message with the content "TestWebMessage"</p>
+</li>
+<li>
+<p>the test passess if we get back "&lt;h1&gt;TestWebMessage&lt;/h1&gt;" - the original message surrounded by &lt;h1&gt; and &lt;/h1&gt; "tags," which are part of HTML.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>We run the test (e.g. through Junit and Ant, which we won&#8217;t detail here). It will fail.</p>
 </div>
 <div class="paragraph">
 <p>Then, we write the class:</p>
@@ -4135,15 +4160,7 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 <p>The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.</p>
 </div>
 <div class="paragraph">
-<p>Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. For example, it’s reported that Google runs 100 million automated tests daily. (cite).  It has been successfully employed also in hardware development. (cite)</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Pyramid vs cupcake
-<a href="http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&amp;utm_medium=social&amp;utm_source=twitter" class="bare">http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&amp;utm_medium=social&amp;utm_source=twitter</a></p>
-</li>
-</ul>
+<p>Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. Google runs many millions of automated tests daily <a href="#Whittaker2012">[Whittaker2012]</a>.  It has even been successfully employed also in hardware development <a href="#Gruver2013">[Gruver2013]</a>.</p>
 </div>
 <div class="sect4">
 <h5 id="_refactoring">Refactoring</h5>
@@ -4291,6 +4308,9 @@ Wait, you say. How can that work?</p>
 <p>Continuous Integration</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p><a href="http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern">Introducing the Software Testing Cupcake (Anti-Pattern)</a>]</p>
 </div>
 </div>
 </div>
@@ -5790,6 +5810,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </li>
 <li>
 <p><a id="Goldratt2004"></a>[Goldratt2004]: Goldratt, E. M. &amp; Cox, J. (2004), <em>The goal : a process of ongoing improvement</em>, North River Press, Great Barrington, MA</p>
+</li>
+<li>
+<p><a id="Goldratt2004"></a>[Goldratt2004]:	Gruver, G., M. Young, and P. Fulghum, 2013, <em>A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware</em> xxiv, 183 pages.</p>
 </li>
 <li>
 <p><a id="Hay2006"></a>[Hay2006]: Hay, D. C. (2006), <em>Data model patterns : a metadata map</em>, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.</p>

@@ -1,21 +1,20 @@
 ==== Test-driven development and refactoring
 
-Test-driven development. (Sidebar)
+[quote, Martin Fowler, http://martinfowler.com/books/meszaros.html]
+_The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else._ +
 
-As Martin Fowler says,
 
-The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else.
-(***http://martinfowler.com/books/meszaros.html)
+In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in _eXtreme Programming_: write the test first <<Beck2000>>. Thus:
 
-In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in eXtreme Programming: write the test first. Thus:
-
-	1.	Given a “user story” (I.e requirement), figure out a test that will demonstrate its successful implementation.
+	1.	Given a “user story” (i.e http://dm-academy.github.io/aitm/#_describing_system_intent[system intent]), figure out a test that will demonstrate its successful implementation.
 	2.	Write this test using the established testing framework.
 	3.	Write the code that fulfills the test
 
 Some readers may be thinking, “I know how to write a little code, but what is this about using code to write a test?”
 
-While we avoid much indepth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the Calavera project, the basis for the companion labs to this book. Let’s say we want a function that will take a string of characters and wrap it in some HTML “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.
+While we avoid much in-depth examination of source code in this book, using some simplified Java will help. Here is an example drawn from the  https://github.com/CharlesTBetz/Calavera[Calavera project], the basis for the companion labs to this book.
+
+Let’s say we want a function that will take a string of characters (e.g. a sentence) and wrap it in some https://en.wikipedia.org/wiki/HTML[HTML] “Heading 1” tags. We will name the class “H1Class” and (by convention) we will start by developing a class called TestH1Class.
 
 We write the test first:
 
@@ -32,6 +31,16 @@ We write the test first:
       this.a.webMessage());// string built correctly
    }
  }
+
+The code above basically states,
+
+****
+. Set up the object to be tested
+. pass in a message with the content "TestWebMessage"
+. the test passess if we get back "<h1>TestWebMessage</h1>" - the original message surrounded by <h1> and </h1> "tags," which are part of HTML.
+****
+
+We run the test (e.g. through Junit and Ant, which we won't detail here). It will fail.
 
 Then, we write the class:
 
@@ -54,10 +63,7 @@ Other languages use different approaches from that shown here, but every serious
 
 The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.
 
-Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. For example, it’s reported that Google runs 100 million automated tests daily. (cite).  It has been successfully employed also in hardware development. (cite)
-
-*** Pyramid vs cupcake
-http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern?utm_campaign=software-testing&utm_medium=social&utm_source=twitter
+Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. Google runs many millions of automated tests daily <<Whittaker2012>>.  It has even been successfully employed also in hardware development <<Gruver2013>>.
 
 ===== Refactoring
 

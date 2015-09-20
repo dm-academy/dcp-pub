@@ -14,3 +14,5 @@ Looking forward: closing the loop via operations management
 * Humble & Farley, Continuous Delivery
 * Kim et all, Phoenix Project
 * Continuous Integration
+
+http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern[Introducing the Software Testing Cupcake (Anti-Pattern)]]

@@ -47,6 +47,9 @@
 
 - [[[Goldratt2004]]]: Goldratt, E. M. & Cox, J. (2004), _The goal : a process of ongoing improvement_, North River Press, Great Barrington, MA
 
+- [[[Goldratt2004]]]:	Gruver, G., M. Young, and P. Fulghum, 2013, _A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware_ xxiv, 183 pages.
+
+
 - [[[Hay2006]]]: Hay, D. C. (2006), _Data model patterns : a metadata map_, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.
 
 - [[[Hay1996]]]: Hay, D. C. (1996), _Data model patterns : conventions of thought_, Dorset House Pub., New York

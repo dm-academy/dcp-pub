@@ -22,7 +22,7 @@ and much more.
 
 ===== Discussion questions
 * What is your exposure to application programming?
-* Can you think of examples of the waterfall and agile approaches in your daily life (not necessarily related to IT?)
+* Can you think of examples of waterfall and agile approaches in your daily life (not necessarily related to IT?)
 
 ===== Research & practice
 * Review Amazon's https://aws.amazon.com/codepipeline/[AWS CodePipeline]

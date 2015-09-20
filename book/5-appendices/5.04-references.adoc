@@ -1,5 +1,8 @@
 === References
 [bibliography]
+
+- [[[Akera2007]]]:1.	Akera, A., "Edmund Berkeley and the Origins of the ACM." Communications of the ACM, 2007. 50(5): p. 31-35.
+
 - [[[Alliance2001]]]: Alliance, A. (2001), "Agile Manifesto and Principles", http://agilemanifesto.org/principles.html
 
 - [[[Allspaw2009]]]: Allspaw, J. & Hammond, P. (2009), "10 deploys per day: Dev & ops cooperation at Flickr",  O'Reilly Publications, http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr
@@ -32,6 +35,8 @@
 
 - [[[Gamma1995]]]: Gamma, E. (1995), _Design patterns : elements of reusable object-oriented software_, Addison-Wesley, Reading, Mass.
 
+- [[[Glass1998]]]: Glass, R.L. (1998), _Software runaways_, Upper Saddle River, NJ: Prentice Hall PTR. xvi, 259.
+
 - [[[Goldratt1997]]]: Goldratt, E. M. (1997), _Critical chain_, North River, Great Barrington, Ma.
 
 - [[[Goldratt2004]]]: Goldratt, E. M. & Cox, J. (2004), _The goal : a process of ongoing improvement_, North River Press, Great Barrington, MA
@@ -46,9 +51,14 @@
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
 
+
+- [[[Keefer2006]]]: Keefer, G. The CMMI Considered Harmful For Quality Improvement And Supplier Selection. 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
+
+
 - [[[Kim2013]]]: Kim, G.; Behr, K. & Spafford, G. (2013), _The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win_, IT Revolution Press
 
 - [[[Kniberg2011]]]: Kniberg, H.; Beck, K. & Keppler, K. (2011), _Lean from the trenches : managing large-scale projects with Kanban_, Pragmatic Bookshelf, Dallas, Tex.
+- [[[Koskela2002]]]:Koskela, L.H., Gregory The underlying theory of project management is obsolete. 2002. http://www.researchgate.net/publication/3229647_The_Underlying_Theory_of_Project_Management_Is_Obsolete
 
 - [[[Krafcik1988]]]:Krafcik, J. (1988),"Triumph of the lean production system",  _Sloan Management Review_  30(1), 41-52.
 

@@ -2971,6 +2971,11 @@ not manage or control the underlying cloud infrastructure including network, ser
 </div>
 <div class="sect4">
 <h5 id="_containers_and_looking_ahead">Containers and looking ahead</h5>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.02-containers.png" alt="1.02 containers">
+</div>
+</div>
 <div class="paragraph">
 <p>At this writing, two major developments in Cloud computing are prominent:</p>
 </div>
@@ -2978,6 +2983,26 @@ not manage or control the underlying cloud infrastructure including network, ser
 <ul>
 <li>
 <p>Container technologies such as <a href="http://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/">Docker</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Containers are lighter weight</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Virtualized Guest OS: Seconds to instantiate</p>
+</li>
+<li>
+<p>Container: Milliseconds (!)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Containers must be same OS as host</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p><a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, "a compute service that runs your code in response to events and automatically manages the compute resources for you, making it easy to build applications that respond quickly to new information."</p>
@@ -3484,23 +3509,31 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 </div>
 <div class="sect4">
 <h5 id="_history_of_applications_and_application_software">History of applications and application software</h5>
-<div class="paragraph">
-<p>Without applications, computers would be merely a curiousity. Computers were first "applied" to military needs for codebreaking and artillery calculations. After World War II, ex-military officers like <a href="https://en.wikipedia.org/wiki/Edmund_Berkeley">Edmund Berkeley</a> at Prudential realized their potential if "applied" to problems like insurance record keeping.</p>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.03-Eniac.jpg" alt="1.03 Eniac">
+</div>
 </div>
 <div class="paragraph">
-<p>At first, such systems required painstaking programming in complex, tedious, and unforgiving low-level <a href="https://en.wikipedia.org/wiki/Programming_language">programming languages</a>. As the value of computers became increasingly obvious, more investment was committed to more easy to use applications.</p>
+<p><em>Public domain photo of early <a href="https://en.wikipedia.org/wiki/ENIAC">ENIAC</a> computer from Wikipedia. ENIAC was "programmed" by reconfiguring its cables, not by a programming language.</em></p>
 </div>
 <div class="paragraph">
-<p>CITES</p>
+<p>Without applications, computers would be merely a curiousity. Computers were first "applied" to military needs for codebreaking and artillery calculations. After World War II, ex-military officers like <a href="https://en.wikipedia.org/wiki/Edmund_Berkeley">Edmund Berkeley</a> at Prudential realized their potential if "applied" to problems like insurance record keeping. <a href="#Akera2007">[Akera2007]</a></p>
 </div>
 <div class="paragraph">
-<p>The  <a href="https://en.wikipedia.org/wiki/History_of_software">history of software</a> is well documented. Low level languages (<a href="https://en.wikipedia.org/wiki/Binary_code">binary</a> and <a href="https://en.wikipedia.org/wiki/Binary_code">assembler</a>) became higher level languages (<a href="https://en.wikipedia.org/wiki/Fortran">FORTAN</a>, <a href="https://en.wikipedia.org/wiki/COBOL">COBOL</a>, <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>). At the end of the day, the objective remains to create a <a href="https://en.wikipedia.org/wiki/Executable">binary executable</a> file or files that computer hardware can "execute," that is, turn into a computing-based value experience, mediated through devices such as laptops, cell phones, and their constituent components.</p>
+<p>At first, such systems required actual manual configuration (as in the ENIAC photo in this section), or painstaking programming in complex, tedious, and unforgiving low-level <a href="https://en.wikipedia.org/wiki/Programming_language">programming languages</a>. As the value of computers became increasingly obvious, more investment was committed to making programming easier through more powerful languages.</p>
+</div>
+<div class="paragraph">
+<p>The  <a href="https://en.wikipedia.org/wiki/History_of_software">history of software</a> is well documented. Low level languages (<a href="https://en.wikipedia.org/wiki/Binary_code">binary</a> and <a href="https://en.wikipedia.org/wiki/Binary_code">assembler</a>) became higher level languages (<a href="https://en.wikipedia.org/wiki/Fortran">FORTAN</a>, <a href="https://en.wikipedia.org/wiki/COBOL">COBOL</a>, <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>). Proprietary machine/language combinations were replaced by open standards and <a href="https://en.wikipedia.org/wiki/Compiler">compilers</a> that could take a common set of source code and build it for different hardward platforms.</p>
+</div>
+<div class="paragraph">
+<p>Even today, the objective remains to create a <a href="https://en.wikipedia.org/wiki/Executable">binary executable</a> file or files that computer hardware can "execute," that is, turn into a computing-based value experience, mediated through devices such as workstations, laptops, smart phones, and their constituent components.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_applications_and_infrastructure_the_old_way">Applications and infrastructure: the old way</h5>
 <div class="paragraph">
-<p>In the first decades of computing, any significant appication of computing power to a new problem typically required its own infrastructure, often designed specifically for the problem. While computer scientists always were aware that computers in theory could be "general purpose," in practice this was not so easy. Military/aerospace needs differed from industry, which differed from scientific and technical uses. And major new applications required new compute capacity.</p>
+<p>In the first decades of computing, any significant application of computing power to a new problem typically required its own infrastructure, often designed specifically for the problem. While computer scientists always were aware that computers in theory could be "general purpose," in practice this was not so easy. Military/aerospace needs differed from industry, which differed from scientific and technical uses. And major new applications required new compute capacity.</p>
 </div>
 <div class="paragraph">
 <p>Take for example when a corporation in 1998 decided to replace its mainframe Human Resources system due to <a href="https://en.wikipedia.org/wiki/Year_2000_problem">Y2K concerns</a>. Such a system might need to support several thousand users around the world. At that time, PeopleSoft was a frequent choice of software. Implementing such a system was often led by consulting firms such as Deloitte or Andersen Consulting (where the author worked).</p>
@@ -3552,21 +3585,64 @@ I have opted to defer the "theory" of Agile (as defined by Reinertsen) to Chapte
 <div class="sect4">
 <h5 id="_applications_and_infrastructure_today">Applications and infrastructure today</h5>
 <div class="paragraph">
-<p>Today, matters are quite different, and yet echoes of the older model persist. As mentioned, ANY  compute workloads are going to incur economic cost. However, capacity is being used more efficiently. Hardware physically dedicated to a single application is rarer, and even the largest engineered systems are more standardized so that they may one day benefit from Cloud approaches.</p>
+<p>Today, matters are quite different, and yet echoes of the older model persist. As mentioned, ANY  compute workloads are going to incur economic cost. However, capacity is being used more efficiently and can be provisioned on demand. Currently, it is a significant application indeed that merits its own systems engineering.</p>
 </div>
 <div class="paragraph">
-<p>For small and medium sized applications, the overwhelming trend is to virtualize and run on  commodity hardware and operating system. Interfaces (interaction points for applications to exchange information with each other, generally in an automated way) are increasingly standardized. Hardware engineering is more and more independent of the application lifecycle; the trend is towards provding compute as a service, carefullly specified in terms of performance but NOT particular hardware.</p>
+<p>Instead, a variety of mechanisms (as covered in the previous chapter&#8217;s <a href="http://dm-academy.github.io/aitm/#_from_physical_compute_to_cloud">discussion of Cloud systems</a>) enable the sharing of compute capacity, the raw material of application development. The fungibility and agility of these mechanisms increases the velocity of creation and evolution of application software.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+To "provision" in an IT sense means to make the needed resources or services available for a particular purpose or consumer.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
-<p>Even 15 years ago, non-trivial web sites with database integration would be hosted by internal <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a> clusters at major enterprises. Currently, it is a significant application indeed that merits its own systems engineering.</p>
+<p>For small and medium sized applications, the overwhelming trend is to virtualize and run on  commodity hardware and operating system. Even 15 years ago, non-trivial web sites with database integration would be hosted by internal <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a> clusters at major enterprises (for example, Microsoft ASP, COM+, and SQL Server clusters could be managed as multi-tenant).</p>
 </div>
 <div class="paragraph">
-<p>Instead, a variety of mechanisms (as covered in the previous chapter) enable the sharing of compute capacity, the raw material of application development. The fungibility and agility of these mechanisms increases the velocity of creation and evolution of applciation software.</p>
+<p>The general purpose capabilities of virtualized public and private Cloud today are robust. Assuming the organization has the financial capability to purchase computing capacity in anticipation of use, it can be instantly available when the need surfaces.</p>
+</div>
+<div class="paragraph">
+<p>Interfaces (interaction points for applications to exchange information with each other, generally in an automated way) are increasingly standardized. Hardware engineering is more and more independent of the application lifecycle; the trend is towards providing compute as a service, carefully specified in terms of performance but NOT particular hardware.</p>
+</div>
+<div class="paragraph">
+<p>Hardware physically dedicated to a single application is rarer, and even the largest engineered systems are more standardized so that they may one day benefit from Cloud approaches.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_application_architecture">Application architecture</h5>
-
+<div class="imageblock">
+<div class="content">
+<img src="images/1.03-sw-arch.jpg" alt="1.03 sw arch">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Software architecture design tool</em></p>
+</div>
+<div class="paragraph">
+<p><em>Photo credit: <a href="https://www.flickr.com/photos/osde-info/2786012027" class="bare">https://www.flickr.com/photos/osde-info/2786012027</a>, Creative commons license</em></p>
+</div>
+<div class="paragraph">
+<p>The design and architecture of applications is a large topic (see e.g. <a href="#Gamma1995">[Gamma1995]</a> and <a href="#Fowler2003">[Fowler2003]</a>) and this text only touches lightly on it. <a href="http://www.iso-architecture.org/ieee-1471/defining-architecture.html">ISO/IEC 41010</a> defines architecture as “the fundamental organization of a system, embodied in its components, their relationships to each other and the environment, and the principles governing its design and evolution.”</p>
+</div>
+<div class="paragraph">
+<p>A computer program can be as simple as <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">"Hello World."</a> Such a program requires only one or a few files to compile and execute. However, significant applications such as an online video streaming service require hardware and software configurations of <a href="http://techblog.netflix.com/search/label/cloud%20architecture">tremendous complexity</a>.  Specialized visual notations are used to describe this complexity, as in the image above. We will discuss this further in Chapter 11.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_applications_and_project_management">Applications and project management</h5>
+<div class="paragraph">
+<p>Because the initial applications were implemented as a kind of systems engineering, and were expensive to build and maintain, the technique of choice was <a href="https://en.wikipedia.org/wiki/Project_management">project management</a>. Project management will not be covered in this book until Chapter 8, as it is not appropriate to the earlier stages of this book&#8217;s <a href="http://dm-academy.github.io/aitm/#_a_process_of_emergence">emergence model</a>.</p>
+</div>
+<div class="paragraph">
+<p>This history of project managed systems engineering produced any number of successes, but by the early 1990s there were significant concerns with the rate of large project failures <a href="#Glass1998">[Glass1998]</a>, which occurred despite seemingly extensive and rigorous bureaucratic overhead, evidenced by frameworks such as <a href="https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration">CMMI</a> and <a href="https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge">PMBOK</a>. <span class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnote_4" title="View footnote.">4</a>]</span></p>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -5616,6 +5692,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 <div class="ulist bibliography">
 <ul class="bibliography">
 <li>
+<p><a id="Akera2007"></a>[Akera2007]:1.	Akera, A., "Edmund Berkeley and the Origins of the ACM." Communications of the ACM, 2007. 50(5): p. 31-35.</p>
+</li>
+<li>
 <p><a id="Alliance2001"></a>[Alliance2001]: Alliance, A. (2001), "Agile Manifesto and Principles", <a href="http://agilemanifesto.org/principles.html" class="bare">http://agilemanifesto.org/principles.html</a></p>
 </li>
 <li>
@@ -5664,6 +5743,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 <p><a id="Gamma1995"></a>[Gamma1995]: Gamma, E. (1995), <em>Design patterns : elements of reusable object-oriented software</em>, Addison-Wesley, Reading, Mass.</p>
 </li>
 <li>
+<p><a id="Glass1998"></a>[Glass1998]: Glass, R.L. (1998), <em>Software runaways</em>, Upper Saddle River, NJ: Prentice Hall PTR. xvi, 259.</p>
+</li>
+<li>
 <p><a id="Goldratt1997"></a>[Goldratt1997]: Goldratt, E. M. (1997), <em>Critical chain</em>, North River, Great Barrington, Ma.</p>
 </li>
 <li>
@@ -5685,10 +5767,16 @@ Over time, the IT operation develops significant data by which to manage itself.
 <p><a id="Humble2011"></a>[Humble2011]: Humble, J. &amp; Farley, D. (2011), <em>Continuous delivery</em>, Addison-Wesley, Boston</p>
 </li>
 <li>
+<p><a id="Keefer2006"></a>[Keefer2006]: Keefer, G. The CMMI Considered Harmful For Quality Improvement And Supplier Selection. 2006. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&amp;rep=rep1&amp;type=pdf" class="bare">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&amp;rep=rep1&amp;type=pdf</a></p>
+</li>
+<li>
 <p><a id="Kim2013"></a>[Kim2013]: Kim, G.; Behr, K. &amp; Spafford, G. (2013), <em>The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</em>, IT Revolution Press</p>
 </li>
 <li>
 <p><a id="Kniberg2011"></a>[Kniberg2011]: Kniberg, H.; Beck, K. &amp; Keppler, K. (2011), <em>Lean from the trenches : managing large-scale projects with Kanban</em>, Pragmatic Bookshelf, Dallas, Tex.</p>
+</li>
+<li>
+<p><a id="Koskela2002"></a>[Koskela2002]:Koskela, L.H., Gregory The underlying theory of project management is obsolete. 2002. <a href="http://www.researchgate.net/publication/3229647_The_Underlying_Theory_of_Project_Management_Is_Obsolete" class="bare">http://www.researchgate.net/publication/3229647_The_Underlying_Theory_of_Project_Management_Is_Obsolete</a></p>
 </li>
 <li>
 <p><a id="Krafcik1988"></a>[Krafcik1988]:Krafcik, J. (1988),"Triumph of the lean production system",  <em>Sloan Management Review</em>  30(1), 41-52.</p>
@@ -5770,10 +5858,13 @@ Over time, the IT operation develops significant data by which to manage itself.
 <div class="footnote" id="_footnote_3">
 <a href="#_footnoteref_3">3</a>. it has applicability to storage and networking as well but we will skip that for now
 </div>
+<div class="footnote" id="_footnote_4">
+<a href="#_footnoteref_4">4</a>. Both project management and CMMI have come in for significant criticism <a href="#Koskela2002">[Koskela2002]</a>, <a href="#Keefer2006">[Keefer2006]</a>, and will be discussed further in Sections 3 and 4.
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-08-07 23:02:45 CDT
+Last updated 2015-08-21 08:27:34 CDT
 </div>
 </div>
 </body>

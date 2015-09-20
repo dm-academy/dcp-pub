@@ -2,7 +2,7 @@
 
 So, you’ve got an idea for a product value experience, and you have tools for creating it and infrastructure for running it. It’s time to start building shippable product.
 In order to do this, you need to express what you need the product to do. The conceptual tool used to do this is called Requirement.
-The literal word “Requirement” has fallen out of favor with the rise of Agile, and has a number of synonyms and variations:
+The literal word “Requirement” has fallen out of favor with the rise of Agile <<Patton2014>>, and has a number of synonyms and variations:
 
 * Use case
 * User story
@@ -11,12 +11,18 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 * Architectural epic
 * Architectural requirement
 
-While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill.
+While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill. And this intent calls for work to be performed.
 
-_I’m sure we can find a million references on this_
+As systems engineering approaches transform to Cloud and infrastructure as code, a large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.
 
-The requirement calls for work to be performed.
+Because the intent leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled. This will be discussed further in Section II and its associated labs.
 
-An large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.
+User Story Mapping is a well known approach <<Patton2014>> with origins in the Scrum community. Here is an example from <<Cohn2010>>
 
-Because the requirement leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled.
+"As a shopper, I can select how I want items shipped based on the actual costs of shipping to my address so that I can make the best decision."
+
+The basic format is,
+
+As a < type of user >, I want < goal >, so that < some value >.
+
+The story concept is flexible, and can be aggregated and decomposed in various ways, as we will discuss in Chapter 4. Our interest here is in the basic stimulus for application development work that it represents.

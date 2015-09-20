@@ -9,6 +9,8 @@
 
 - [[[Anderson2010]]]: Anderson, D. J. (2010), _Kanban: Successful Evolutionary Change for your Technology Business_, Blue Hole Press, Sequim, WA
 
+- [[[Ashmore2014]]]: Ashmore, S. and K. Runyan, 2014, _Introduction to agile methods_. xix, 307 pages.
+
 - [[[Beck2000]]]: Beck, K., 2000 _extreme programming eXplained : embrace change_, Reading, MA: Addison-Wesley. xxi, 190 p.
 
 - [[[Bell2010]]]: Bell, S. C. & Orzen, M. A. (2010), _Lean IT_, CRC Press, Boca Raton, Florida
@@ -26,6 +28,8 @@
 - [[[Buschmann1996]]]: Buschmann, F. (1996), _Pattern-oriented software architecture : a system of patterns_, Wiley, Chichester ; New York
 
 - [[[Carroll2013]]]: Carroll, I. (2013), "Various", http://itopskanban.wordpress.com/before/
+
+- [[[Cohn2010]]]: Cohn, M., _Succeeding with Agile: Software Development Using Scrum_, Addison-Wesley: Upper Saddle River, New Jersey.
 
 - [[[Duvall2007]]]: Duvall, P. M.; Matyas, S. & Glover, A. (2007), _Continuous integration : improving software quality and reducing risk_, Addison-Wesley, Upper Saddle River, NJ
 
@@ -79,6 +83,8 @@
 - [[[OASIS2013]]]: OASIS (2013), "Topology and Orchestration Specification for Cloud Applications Version 1.0 (TOSCA)", http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html
 
 - [[[Ohno1988]]]: Ohno, T. (1988), _Toyota production system : beyond large-scale production_, Productivity Press, Cambridge, Mass.
+
+- [[[Patton2014]]]: Patton, J., 2014. _User story mapping : discover the whole story, build the right product._ First edition. ed. xliv, 276 pages.
 
 - [[[Poppendieck2007]]]: Poppendieck, M. & Poppendieck, T. D. (2007), _Implementing lean software development : from concept to cash_, Addison-Wesley, London
 

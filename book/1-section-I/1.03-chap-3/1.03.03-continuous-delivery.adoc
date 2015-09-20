@@ -1,6 +1,6 @@
 ==== The DevOps challenge
 
-Consider the Lean Software challenge by Mary and Tom Poppendieck (<<Poppendieck2007>>, p. 92):
+Consider this inquiry by Mary and Tom Poppendieck (<<Poppendieck2007>>, p. 92):
 
 ****
 *How long would it take your organization to deploy a change that involved one single line of code? Do you deploy changes at this pace on a repeat, reliable basis?*

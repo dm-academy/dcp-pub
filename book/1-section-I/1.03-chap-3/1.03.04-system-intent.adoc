@@ -26,3 +26,5 @@ The basic format is,
 As a < type of user >, I want < goal >, so that < some value >.
 
 The story concept is flexible, and can be aggregated and decomposed in various ways, as we will discuss in Chapter 4. Our interest here is in the basic stimulus for application development work that it represents.
+
+You don't need an extensively automated system at this stage to capture requirements, but you need *something*. It could be a spreadsheet, or a shared word processing document, or sticky notes on a whiteboard (we'll talk about Kanban in the next chapter.) The important thing is to start somewhere, with team agreement as to what the approach is, so you can move forward collaboratively.

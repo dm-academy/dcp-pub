@@ -1,5 +1,11 @@
 ==== Choosing infrastructure
 
+image::images/1.02-server.jpg[]
+Tower-style servers on a rack.
+
+_https://www.flickr.com/photos/sfllaw/78981814, Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)_
+
+
 NOTE: The following is written as if you are a decisionmaker in the early stages of conceiving a product. If you are an individual contributor in a large enterprise, or even a newcomer to an established product team, these decisions will likely have been made for you. +
  +
  But at some point, *someone* had to go through this decision process, before anything could be developed.

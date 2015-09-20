@@ -47,7 +47,7 @@
 
 - [[[Goldratt2004]]]: Goldratt, E. M. & Cox, J. (2004), _The goal : a process of ongoing improvement_, North River Press, Great Barrington, MA
 
-- [[[Goldratt2004]]]:	Gruver, G., M. Young, and P. Fulghum, 2013, _A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware_ xxiv, 183 pages.
+- [[[Gruver2013]]]:	Gruver, G., M. Young, and P. Fulghum, 2013, _A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware_ xxiv, 183 pages.
 
 
 - [[[Hay2006]]]: Hay, D. C. (2006), _Data model patterns : a metadata map_, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.
@@ -108,6 +108,9 @@
 - [[[Silverston2008]]]: Silverston, L. (2008), _The data model resource book Vol 3: Universal patterns for data modeling_, Wiley, Indianapolis, Ind.
 
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
+
+- [[[Whittaker2012]]]: Whittaker, J.A., J. Arbon, and J. Carollo, 2012, _How Google tests software_, Upper Saddle River, NJ: Addison-Wesley. xxvii, 281 p.
+
 
 - [[[Womack2003]]]: Womack, J. P. & Jones, D. T. (2003), _Lean thinking: banish waste and create wealth in your corporation_, Free Press, New York
 

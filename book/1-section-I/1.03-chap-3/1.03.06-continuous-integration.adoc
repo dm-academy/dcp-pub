@@ -2,20 +2,38 @@
 The term “continuous integration” was popularized by Duvall in his book of the same name.
 
 In order to understand why continuous integration is important, it is necessary to further discuss the concept of source control and how it is employed in real world settings.
+
 Imagine you have been working for some time with your partner in your startup (or on your small team) and you have three code modules. You are writing the web front end (file set A), your partner is writing the administrative tools and reporting (file set B), and you both partner on the data access layer (file set C).
 The conflict of course arises on the file set C that you both need to work on.  A and B are mostly independent of each other, but changes to any part of C can have an impact on both your modules.
 
 If changes are frequently needed to C, and yet you cannot split it into logically separate modules, you have a problem; you cannot both work on the same file at the same time. You also are concerned that the other person does not introduce changes into C that “break” the code in your module A.
 
 In smaller environments, or under older practices, perhaps there is no conflict, or perhaps you can agree to take turns. But even if you are taking turns, you still need to test your code in A to make sure it’s not been broken by changes your partner made in C.
+
 And what if you really both need to work on C at the same time?
 
-These problems have driven the evolution of software configuration management for decades. Current practices are well developed and represent a highly evolved understanding gained through the painful trial and error of many development teams over many years.
+You might each choose to work on C on your own local copy. That way, you can move ahead on your local workstation. But when the time comes to combine both of your work, you will be in "merge hell." You may have chosen very different approaches to solving the same problem, and code may need massive revision to settle on one.
 
-Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously.
-Wait, you say. How can that work?
+ [TODO: add graphics]
+
+These problems have driven the evolution of software configuration management for decades. In previous methods, to develop a new release, the code would be copied into a very long-lived branch. Ongoing “maintenance” fixes of the existing code base would also continue, and the two code bases would inevitably diverge. Switching over to the “new” code base might mean that once-fixed bugs (bugs that had been addressed by maintenance activities) would show up again, and of course this would not be acceptable.
+
+So, when the newer development was complete, it would need to be merged back into the older line of code, and this was rarely if ever easy. In a worst case scenario, the new development might have to be redone.
+
+Enter continuous integration. The key practices include:
+
+* Source control (hopefully we have been harping on this enough that you are taking it seriously by now). Distributed version control systems such as git are especially popular, although older centralized products are starting to adopt some of their functionality (blog re: DVCS hype)
+* Test-driven development
+* Automated build activities
+* Frequent integration of short-lived development branches with the main code repository (“mainline” or “trunk”)
+* A defined package repository as a definitive location for the build output.
+
+Current practices are well developed and represent a highly evolved understanding gained through the painful trial and error of many development teams over many years.
+
+Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously. Wait, you say. How can that work?
 
 This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are developer, the day’s work might be as follows:
+
 8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.
 8:30 AM: You define a test and start developing the code to fulfill it.
 
@@ -25,17 +43,4 @@ This is the principle of continuous integration at work. If the developers are c
 
 11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.
 
-And so it goes. These practices arose in response to the phenomenon of “merge hell” that was seen in older development approaches. In previous methods, to develop a new release, the code would be copied into a very long-lived branch. Ongoing “maintenance” fixes of the existing code base would also continue, and the two code bases would inevitably diverge. Switching over to the “new” code base might mean that once-fixed bugs (bugs that had been addressed by maintenance activities) would show up again, and of course this would not be acceptable.
-
-So, when the newer development was complete, it would need to be merged back into the older line of code, and this was rarely if ever easy. In a worst case scenario, the new development might have to be redone.
-
-Enter continuous integration. The key practices include:
-
-* Source control (hopefully we have been harping on this enough that you are taking it seriously by now). Distributed version control systems such as git are especially popular, although older centralized products are starting to adopt some of their functionality (blog re: DVCS hype)
-
-* Test-driven development
-* Automated build activities
-* Frequent integration of short-lived development branches with the main code repository (“mainline” or “trunk”)
-* A defined package repository as a definitive location for the build output.
-
-The idea that “Crucially, if the build fails, the development team stops whatever they are doing and fixes the problem immediately” (***humble) has been argued against at http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html.
+This is a continuously evolving problem area, with practices changing rapidly. 

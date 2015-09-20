@@ -4154,7 +4154,7 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 <p>If that string is not correctly generated, or the class cannot be created, or any other error occurs, the test fails and this is then reported via error results at the console, or (in the case of automated build) will be detected by the build manager and displayed as the build outcome.</p>
 </div>
 <div class="paragraph">
-<p>Other languages use different approaches from that shown here, but every serious programming environment at this point supports test-driven development.</p>
+<p>Other languages use different approaches from that shown here, but every serious platform at this point supports test-driven development.</p>
 </div>
 <div class="paragraph">
 <p>The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.</p>
@@ -4164,14 +4164,17 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 </div>
 <div class="sect4">
 <h5 id="_refactoring">Refactoring</h5>
-<div class="paragraph">
-<p>Test-driven development enables the next major practice, that of refactoring. As defined by Martin Fowler,</p>
+<div class="quoteblock">
+<blockquote>
+_Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. _
+</blockquote>
+<div class="attribution">
+&#8212; Martin Fowler<br>
+<cite>Refactoring -- http://refactoring.com/</cite>
+</div>
 </div>
 <div class="paragraph">
-<p><em>Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. (<strong>*</strong> cite)</em></p>
-</div>
-<div class="paragraph">
-<p>Refactoring is how you address technical debt. What is technical debt? Technical debt is defined by Wikipedia as</p>
+<p>Test-driven development enables the next major practice, that of refactoring. Refactoring is how you address technical debt. What is technical debt? Technical debt is defined by Wikipedia as</p>
 </div>
 <div class="paragraph">
 <p><em>…the eventual consequences of poor system design, software architecture or software development within a codebase. The debt can be thought of as work that needs to be done before a particular job can be considered complete or proper. If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.
@@ -4179,7 +4182,10 @@ Analogous to monetary debt, technical debt is not necessarily a bad thing, and s
 <a href="http://en.wikipedia.org/wiki/Technical_debt" class="bare">http://en.wikipedia.org/wiki/Technical_debt</a></em></p>
 </div>
 <div class="paragraph">
-<p>Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities. Prioritizing the relative investment of repaying technical debt vs. developing new functionality will be examined in future sections, but at least you now know the tools and concepts.</p>
+<p>Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities.</p>
+</div>
+<div class="paragraph">
+<p>Prioritizing the relative investment of repaying technical debt vs. developing new functionality will be examined in future sections, but at least you now know the tools and concepts.</p>
 </div>
 </div>
 </div>
@@ -4189,40 +4195,31 @@ Analogous to monetary debt, technical debt is not necessarily a bad thing, and s
 <p>The term “continuous integration” was popularized by Duvall in his book of the same name.</p>
 </div>
 <div class="paragraph">
-<p>In order to understand why continuous integration is important, it is necessary to further discuss the concept of source control and how it is employed in real world settings.
-Imagine you have been working for some time with your partner in your startup (or on your small team) and you have three code modules. You are writing the web front end (file set A), your partner is writing the administrative tools and reporting (file set B), and you both partner on the data access layer (file set C).
+<p>In order to understand why continuous integration is important, it is necessary to further discuss the concept of source control and how it is employed in real world settings.</p>
+</div>
+<div class="paragraph">
+<p>Imagine you have been working for some time with your partner in your startup (or on your small team) and you have three code modules. You are writing the web front end (file set A), your partner is writing the administrative tools and reporting (file set B), and you both partner on the data access layer (file set C).
 The conflict of course arises on the file set C that you both need to work on.  A and B are mostly independent of each other, but changes to any part of C can have an impact on both your modules.</p>
 </div>
 <div class="paragraph">
 <p>If changes are frequently needed to C, and yet you cannot split it into logically separate modules, you have a problem; you cannot both work on the same file at the same time. You also are concerned that the other person does not introduce changes into C that “break” the code in your module A.</p>
 </div>
 <div class="paragraph">
-<p>In smaller environments, or under older practices, perhaps there is no conflict, or perhaps you can agree to take turns. But even if you are taking turns, you still need to test your code in A to make sure it’s not been broken by changes your partner made in C.
-And what if you really both need to work on C at the same time?</p>
+<p>In smaller environments, or under older practices, perhaps there is no conflict, or perhaps you can agree to take turns. But even if you are taking turns, you still need to test your code in A to make sure it’s not been broken by changes your partner made in C.</p>
 </div>
 <div class="paragraph">
-<p>These problems have driven the evolution of software configuration management for decades. Current practices are well developed and represent a highly evolved understanding gained through the painful trial and error of many development teams over many years.</p>
+<p>And what if you really both need to work on C at the same time?</p>
 </div>
 <div class="paragraph">
-<p>Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously.
-Wait, you say. How can that work?</p>
+<p>You might each choose to work on C on your own local copy. That way, you can move ahead on your local workstation. But when the time comes to combine both of your work, you will be in "merge hell." You may have chosen very different approaches to solving the same problem, and code may need massive revision to settle on one.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>[TODO: add graphics]</pre>
+</div>
 </div>
 <div class="paragraph">
-<p>This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are developer, the day’s work might be as follows:
-8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.
-8:30 AM: You define a test and start developing the code to fulfill it.</p>
-</div>
-<div class="paragraph">
-<p>10 AM: You are closing in on wrapping up the first requirement. You check the source repository. Your partner has checked in some new code, so you pull it down to your local repository. You run all the automated tests and nothing breaks, so you’re fine.</p>
-</div>
-<div class="paragraph">
-<p>10:30 You complete your first update of the day; it passes all tests on your workstation. You commit it to the master repository. The master repository is continually monitored by the build server, which takes the code you created and deploys it, along with all necessary configurations, to a dedicated build server (which might be just a virtual machine or transient container). All tests pass there (the test you defined as indicating success for the module, as well as a host of older tests that are routinely run whenever the code is updated.</p>
-</div>
-<div class="paragraph">
-<p>11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.</p>
-</div>
-<div class="paragraph">
-<p>And so it goes. These practices arose in response to the phenomenon of “merge hell” that was seen in older development approaches. In previous methods, to develop a new release, the code would be copied into a very long-lived branch. Ongoing “maintenance” fixes of the existing code base would also continue, and the two code bases would inevitably diverge. Switching over to the “new” code base might mean that once-fixed bugs (bugs that had been addressed by maintenance activities) would show up again, and of course this would not be acceptable.</p>
+<p>These problems have driven the evolution of software configuration management for decades. In previous methods, to develop a new release, the code would be copied into a very long-lived branch. Ongoing “maintenance” fixes of the existing code base would also continue, and the two code bases would inevitably diverge. Switching over to the “new” code base might mean that once-fixed bugs (bugs that had been addressed by maintenance activities) would show up again, and of course this would not be acceptable.</p>
 </div>
 <div class="paragraph">
 <p>So, when the newer development was complete, it would need to be merged back into the older line of code, and this was rarely if ever easy. In a worst case scenario, the new development might have to be redone.</p>
@@ -4250,7 +4247,29 @@ Wait, you say. How can that work?</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>The idea that “Crucially, if the build fails, the development team stops whatever they are doing and fixes the problem immediately” (***humble) has been argued against at <a href="http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html" class="bare">http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html</a>.</p>
+<p>Current practices are well developed and represent a highly evolved understanding gained through the painful trial and error of many development teams over many years.</p>
+</div>
+<div class="paragraph">
+<p>Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously. Wait, you say. How can that work?</p>
+</div>
+<div class="paragraph">
+<p>This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are developer, the day’s work might be as follows:</p>
+</div>
+<div class="paragraph">
+<p>8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.
+8:30 AM: You define a test and start developing the code to fulfill it.</p>
+</div>
+<div class="paragraph">
+<p>10 AM: You are closing in on wrapping up the first requirement. You check the source repository. Your partner has checked in some new code, so you pull it down to your local repository. You run all the automated tests and nothing breaks, so you’re fine.</p>
+</div>
+<div class="paragraph">
+<p>10:30 You complete your first update of the day; it passes all tests on your workstation. You commit it to the master repository. The master repository is continually monitored by the build server, which takes the code you created and deploys it, along with all necessary configurations, to a dedicated build server (which might be just a virtual machine or transient container). All tests pass there (the test you defined as indicating success for the module, as well as a host of older tests that are routinely run whenever the code is updated.</p>
+</div>
+<div class="paragraph">
+<p>11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.</p>
+</div>
+<div class="paragraph">
+<p>This is a continuously evolving problem area, with practices changing rapidly.</p>
 </div>
 </div>
 <div class="sect3">
@@ -4266,51 +4285,135 @@ Wait, you say. How can that work?</p>
 <p>Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.</p>
 </div>
 <div class="paragraph">
-<p>Package management</p>
-</div>
-<div class="paragraph">
 <p>Once software is compiled and built, the executable files that can be installed and run operationally should be checked into a <a href="https://en.wikipedia.org/wiki/Package_manager">Package Manager.</a></p>
 </div>
 <div class="paragraph">
-<p>This is important so that the versions of software used in producton are well controlled and consistent.</p>
+<p>This is important so that the versions of software used in producton are well controlled and consistent. The package manager can then be associated to some kind of deploy tool which keeps track of what versions are associated with which infrastructure.</p>
+</div>
+<div class="paragraph">
+<p>Timing varies by organization. Some strive for true "continuous deployment," in which the new code flows seamlessly from developer commit through build, test, package and deploy. Others put gates in between the developer and checkin to mainline, or source to build, or package to deploy, so that some human governance remains in the toolchain. We will go into more detail on these topics in chapters 6, 9, and 10.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_conclusion_3">Conclusion</h4>
 <div class="paragraph">
-<p>Looking forward: closing the loop via operations management</p>
+<p>Applications are why computers exist. Supporting applications increasingly is less about systems engineering, and more about quickly provisioning standard, shared infrastructure. Application development has moved decisively in the past twenty years to Agile delivery models, based on techniques such as:</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_3">Discussion questions</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_research_practice_3">Research &amp; practice</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_further_reading_3">Further reading</h5>
 <div class="ulist">
 <ul>
 <li>
-<p>Fowler, Refactoring</p>
+<p>story mapping</p>
 </li>
 <li>
-<p>McConnell, Code Complete.</p>
+<p>test-driven development</p>
 </li>
 <li>
-<p>Humble &amp; Farley, Continuous Delivery</p>
+<p>refactoring</p>
 </li>
 <li>
-<p>Kim et all, Phoenix Project</p>
+<p>continuous integration</p>
 </li>
 <li>
-<p>Continuous Integration</p>
+<p>continuous deployment</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p><a href="http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern">Introducing the Software Testing Cupcake (Anti-Pattern)</a>]</p>
+<p>Application delivery, software development, and the Agile movement are broad, complex, and evolving topics. For those of you familiar with Agile, we have only scratched the surface in this chapter.</p>
+</div>
+<div class="paragraph">
+<p>In future chapters we will go into more detail on topics such as:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Product management, including behavior-driven development and continuous design (much more on requirements, user stories, etc)</p>
+</li>
+<li>
+<p>The importance of feedback</p>
+</li>
+<li>
+<p>Prioritization and cost of delay</p>
+</li>
+<li>
+<p>Scrum and Kanban</p>
+</li>
+<li>
+<p>Tracking tasks and effort</p>
+</li>
+<li>
+<p>Closing the loop from operations to development, and coping with interrupt-driven work</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>and much more.</p>
+</div>
+<div class="sect4">
+<h5 id="_discussion_questions_3">Discussion questions</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>What is your exposure to application programming?</p>
+</li>
+<li>
+<p>Can you think of examples of the waterfall and agile approaches in your daily life (not necessarily related to IT?)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_research_practice_3">Research &amp; practice</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Review Amazon&#8217;s <a href="https://aws.amazon.com/codepipeline/">AWS CodePipeline</a></p>
+</li>
+<li>
+<p>Download the <a href="https://github.com/CharlesTBetz/Calavera">Calavera project</a> and run it on your laptop or workstation. <a href="https://github.com/CharlesTBetz/Calavera/blob/master/docs/Installation.md">Instructions. </a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_further_reading_3">Further reading</h5>
+<div class="paragraph">
+<p><strong>Books</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Martin Fowler, <a href="http://www.goodreads.com/book/show/44936.Refactoring"><em>Refactoring</em></a></p>
+</li>
+<li>
+<p>McConnell, Steve, <a href="http://www.goodreads.com/book/show/4845.Code_Complete"><em>Code Complete</em></a>.</p>
+</li>
+<li>
+<p>Jez Humble &amp; David Farley, <a href="http://www.goodreads.com/book/show/8686650-continuous-delivery"><em>Continuous Delivery</em></a></p>
+</li>
+<li>
+<p>Gene Kim et al, <a href="http://www.goodreads.com/book/show/17255186-the-phoenix-project"><em>Phoenix Project</em></a></p>
+</li>
+<li>
+<p>Paul Duvall et al, <a href="http://www.goodreads.com/book/show/1311542.Continuous_Integration"><em>Continuous Integration</em></a></p>
+</li>
+<li>
+<p>Michael Nygard, <a href="http://www.goodreads.com/book/show/1069827.Release_It_"><em>Release IT</em></a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Articles</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern">Introducing the Software Testing Cupcake (Anti-Pattern)</a></p>
+</li>
+<li>
+<p><a href="http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html">Continuous Integration is Dead</a></p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -4342,9 +4445,6 @@ Wait, you say. How can that work?</p>
 In your career, many - perhaps even the majority - of the people you meet and work with will be focused on Level 1 in their thinking and approach. This is a fine thing and to be expected. Level 1 is where the real work is done.</p>
 </div>
 </div>
-</div>
-<div class="paragraph">
-<p><em>should we do section I readings/questions?</em></p>
 </div>
 </div>
 </div>
@@ -5812,7 +5912,7 @@ Over time, the IT operation develops significant data by which to manage itself.
 <p><a id="Goldratt2004"></a>[Goldratt2004]: Goldratt, E. M. &amp; Cox, J. (2004), <em>The goal : a process of ongoing improvement</em>, North River Press, Great Barrington, MA</p>
 </li>
 <li>
-<p><a id="Goldratt2004"></a>[Goldratt2004]:	Gruver, G., M. Young, and P. Fulghum, 2013, <em>A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware</em> xxiv, 183 pages.</p>
+<p><a id="Gruver2013"></a>[Gruver2013]:	Gruver, G., M. Young, and P. Fulghum, 2013, <em>A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware</em> xxiv, 183 pages.</p>
 </li>
 <li>
 <p><a id="Hay2006"></a>[Hay2006]: Hay, D. C. (2006), <em>Data model patterns : a metadata map</em>, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.</p>
@@ -5900,6 +6000,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </li>
 <li>
 <p><a id="Thompson2014"></a>[Thompson2014]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", <a href="https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf" class="bare">https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf</a></p>
+</li>
+<li>
+<p><a id="Whittaker2012"></a>[Whittaker2012]: Whittaker, J.A., J. Arbon, and J. Carollo, 2012, <em>How Google tests software</em>, Upper Saddle River, NJ: Addison-Wesley. xxvii, 281 p.</p>
 </li>
 <li>
 <p><a id="Womack2003"></a>[Womack2003]: Womack, J. P. &amp; Jones, D. T. (2003), <em>Lean thinking: banish waste and create wealth in your corporation</em>, Free Press, New York</p>

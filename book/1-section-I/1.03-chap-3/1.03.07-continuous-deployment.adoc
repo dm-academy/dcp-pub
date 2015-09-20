@@ -7,9 +7,8 @@ At this point, the software can undergo user testing, load testing, integration 
 
 Moving new code into production has always been a risky procedure. Changing a running system always entails some uncertainty. However, the practice of infrastructure as code coupled with increased virtualization has reduced the risk. Often, a rolling release strategy is employed so that code is deployed to small sets of servers while other servers continue to service the load. This requires careful design to allow the new and old code to co-exist at least for a brief time.
 
-Package management
-
-
 Once software is compiled and built, the executable files that can be installed and run operationally should be checked into a https://en.wikipedia.org/wiki/Package_manager[Package Manager.]
 
-This is important so that the versions of software used in producton are well controlled and consistent.
+This is important so that the versions of software used in producton are well controlled and consistent. The package manager can then be associated to some kind of deploy tool which keeps track of what versions are associated with which infrastructure.
+
+Timing varies by organization. Some strive for true "continuous deployment," in which the new code flows seamlessly from developer commit through build, test, package and deploy. Others put gates in between the developer and checkin to mainline, or source to build, or package to deploy, so that some human governance remains in the toolchain. We will go into more detail on these topics in chapters 6, 9, and 10.

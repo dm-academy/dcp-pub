@@ -1,18 +1,44 @@
 ==== Conclusion
+Applications are why computers exist. Supporting applications increasingly is less about systems engineering, and more about quickly provisioning standard, shared infrastructure. Application development has moved decisively in the past twenty years to Agile delivery models, based on techniques such as:
 
+* story mapping
+* test-driven development
+* refactoring
+* continuous integration
+* continuous deployment
 
-Looking forward: closing the loop via operations management
+Application delivery, software development, and the Agile movement are broad, complex, and evolving topics. For those of you familiar with Agile, we have only scratched the surface in this chapter.
+
+In future chapters we will go into more detail on topics such as:
+
+* Product management, including behavior-driven development and continuous design (much more on requirements, user stories, etc)
+* The importance of feedback
+* Prioritization and cost of delay
+* Scrum and Kanban
+* Tracking tasks and effort
+* Closing the loop from operations to development, and coping with interrupt-driven work
+
+and much more.
 
 ===== Discussion questions
+* What is your exposure to application programming?
+* Can you think of examples of the waterfall and agile approaches in your daily life (not necessarily related to IT?)
 
 ===== Research & practice
+* Review Amazon's https://aws.amazon.com/codepipeline/[AWS CodePipeline]
+* Download the https://github.com/CharlesTBetz/Calavera[Calavera project] and run it on your laptop or workstation. https://github.com/CharlesTBetz/Calavera/blob/master/docs/Installation.md[Instructions. ]
 
 ===== Further reading
+*Books*
 
-* Fowler, Refactoring
-* McConnell, Code Complete.
-* Humble & Farley, Continuous Delivery
-* Kim et all, Phoenix Project
-* Continuous Integration
+* Martin Fowler, http://www.goodreads.com/book/show/44936.Refactoring[_Refactoring_]
+* McConnell, Steve, http://www.goodreads.com/book/show/4845.Code_Complete[_Code Complete_].
+* Jez Humble & David Farley, http://www.goodreads.com/book/show/8686650-continuous-delivery[_Continuous Delivery_]
+* Gene Kim et al, http://www.goodreads.com/book/show/17255186-the-phoenix-project[_Phoenix Project_]
+* Paul Duvall et al, http://www.goodreads.com/book/show/1311542.Continuous_Integration[_Continuous Integration_]
+* Michael Nygard, http://www.goodreads.com/book/show/1069827.Release_It_[_Release IT_]
 
-http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern[Introducing the Software Testing Cupcake (Anti-Pattern)]]
+*Articles*
+
+* http://www.thoughtworks.com/insights/blog/introducing-software-testing-cupcake-anti-pattern[Introducing the Software Testing Cupcake (Anti-Pattern)]
+* http://www.yegor256.com/2014/10/08/continuous-integration-is-dead.html[Continuous Integration is Dead]

@@ -12,7 +12,7 @@ Thus, Chapters 2, 6, and 12 constitute a sort of "infrastructure and operations"
 ****
 endif::instructor-ed[]
 
-==== Introduction to chapter 6
+==== Introduction to Chapter 6
 
 As your product gains more use, you find that running it inevitably becomes a distinct concern from building it. For all their logic, computers are still surprisingly unreliable. Servers running well tested software that remain "up" for weeks all of a sudden hang and have to be rebooted. Sometimes it's clear why (for example, a log filled up that no-one expected) and in other cases there just is no explanation.
 

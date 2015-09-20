@@ -1,15 +1,6 @@
-=== Chapter 11: Portfolio and Analytics
+=== Chapter 11: Architecture and Portfolio
 
-****
-*Collaborator's note*
-I am debating whether the chapters should be
-
-* 10. Architecture and Analytics
-* 11. Portfolio and Governance
-
-****
-
-==== Introduction to chapter 11
+==== Introduction to Chapter 11
 Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well.
 
 Analytics and metrics are a related topic for IT management. There are many ways that metrics can be used and misused. A clear understanding of organizational goals is essential to any metrics strategy. Analytics similarly requre an overall framework of continuous improvement so that their insights lead to real actions and value.

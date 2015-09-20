@@ -1,6 +1,6 @@
-=== Chapter 12: Complexity, chaos and the road ahead
+=== Chapter 12: Analytics
 
-==== Introduction to chapter 12
+==== Introduction to Chapter 12
 
 As we look forward, and consider the scale at which we are now operating, the challenges only seem to increase. Increasingly, we need to look to engineering and operations practices from other fields, and to math and science for useful theoretical tools.
 

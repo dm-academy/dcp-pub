@@ -10,7 +10,7 @@ I do this because I have discovered that theory sometimes works better in retros
 ****
 endif::instructor-ed[]
 
-==== Introduction to chapter 3
+==== Introduction to Chapter 3
 Now that we have some idea of IT value (and how we might turn it into a product), and have decided on some infrastructure, we can start building.
 
 IT systems that directly create value for non-technical users are usually called "applications," or sometimes "services." As discussed in chapter 1, they enable value experiences in areas as diverse as consumer banking, entertainment and hospitality, and personal transportation. In fact it is difficult to think of any aspect of modern life untouched by applications. (This overall trend is sometimes called digital transformation.)

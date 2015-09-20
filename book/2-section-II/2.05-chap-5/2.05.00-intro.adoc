@@ -1,7 +1,7 @@
 
 === Chapter 5: Work Management
 
-==== Introduction to chapter 5
+==== Introduction to Chapter 5
 
 ifdef::instructor-ed[]
 

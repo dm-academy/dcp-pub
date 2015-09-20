@@ -3957,7 +3957,37 @@ Development tools such as text editors and integrated development environments (
 <p>The assumption in this chapter is that you are going to start IMMEDIATELY with a continuous delivery pipeline. <strong>You want to set this up before developing a single line of code.</strong> It’s not that difficult (see the online resources for further discussion and pointers to relevant open source projects).</p>
 </div>
 <div class="paragraph">
-<p>What is meant by a continuous delivery pipeline? Here is an overview.</p>
+<p>What is meant by a continuous delivery pipeline? Here is a simplified, starting overview, based on the <a href="https://github.com/CharlesTBetz/Calavera">Calavera project</a> (the basis for this course&#8217;s labs):</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/1.03-pipeline.png" alt="1.03 pipeline">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>First, some potential for value is identified. It is refined through product management techniques into a feature - some specific set of functionality that when complete will enable the value proposition (i.e. as a <a href="http://dm-academy.github.io/aitm/#_it_services_systems_and_applications">moment of truth</a>.)</p>
+</li>
+<li>
+<p>The feature is expressed as some set of IT work, today usually in small increments lasting between 1 and 4 weeks (this of course varies). Software development commences, e.g. the creation of Java components by developers who first write tests, and then write code that satisfies the test.</p>
+</li>
+<li>
+<p>The developer is continually testing the software as build progresses, and keeping a local source control repository up to date with their changes at all times. When she or he reaches a level of satisfaction with the software, it is submitted to a centralized source repository.</p>
+</li>
+<li>
+<p>When the repository detects the new "check-in," it launches a dedicated environment to build and test the new code. The environment is likely configured using <a href="http://dm-academy.github.io/aitm/#_infrastructure_as_code">"infrastructure as code"</a> techniques; in this way, it can be created automatically and quickly.</p>
+</li>
+<li>
+<p>If the code passess all tests, the compiled and built binary executables may then be "checked in" to a package management repository.</p>
+</li>
+<li>
+<p>From the package repository, the code may then be deployed to various environments, for further testing and ultimately to "production," where it can enable the consumer&#8217;s value experiences.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s go into more detail on the major phases.</p>
 </div>
 </div>
 <div class="sect3">

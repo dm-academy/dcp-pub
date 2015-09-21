@@ -12,7 +12,7 @@ In smaller environments, or under older practices, perhaps there is no conflict,
 
 And what if you really both need to work on C at the same time?
 
-You might each choose to work on C on your own local copy. That way, you can move ahead on your local workstation. But when the time comes to combine both of your work, you will be in "merge hell." You may have chosen very different approaches to solving the same problem, and code may need massive revision to settle on one.
+You might each choose to work on C on your own local copy. That way, you can move ahead on your local workstation. But when the time comes to combine both of your work, you will be in "merge hell." You may have chosen very different approaches to solving the same problem, and code may need massive revision to settle on one code base.
 
  [TODO: add graphics]
 

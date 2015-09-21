@@ -36,7 +36,10 @@ TIP: You can experiment with a hypervisor by downloading https://www.virtualbox.
  +
  You'll probably want at least 4 gb of RAM on your laptop and a gigabyte of free disk space, at the bare minimum.
 
-There are two different kinds of hypervisors. The example we just discussed was an example of a Type 2 hypervisor, which runs on top of a host operating system. In a type 1 hypervisor, a master host OS is not used; the hypervisor runs on the "bare metal" of the computer and in turn "hosts" multiple VMs.
+There are two different kinds of hypervisors. The example we just discussed was an example of a Type 2 hypervisor, which runs on top of a host operating system. In a Type 1 hypervisor, a master host OS is not used; the hypervisor runs on the "bare metal" of the computer and in turn "hosts" multiple VMs.
+
+Paravirtualization is another form of virtualization found in the marketplace. In a paravirtualized environment, a core operating system is able to abstract hardware resources for multiple virtual guest environments without having to virtualize hardware for each guest. The benefit of this type of virtualization is increased I/O efficiency and performance for each of the guest environments.
+However, while hypervisors can support a diverse array of virtual machines with different operating systems on a single computing node, guest environments in a paravirtualized system generally share a single OS.
 
 image::images/1.02-virtualization-types.png[]
 
@@ -44,9 +47,9 @@ image::images/1.02-virtualization-types.png[]
 
 While the conceptual idea of Cloud and utility computing was foreseeable fifty years ago, it took many years of hard-won IT evolution to support the vision. Reliable hardware of exponentially increasing performance, robust open-source software, Internet backbones of massive speed and capacity, and many other factors converged towards this end.
 
-It has its uses even on a laptop (as you will see if you follow certain paths in the labs.) However, it is in larger industrial uses where it has the greatest utility.
+Cloud computing has its uses even on a laptop (as you will see if you follow certain paths in the labs.) However, it is in larger industrial uses where it has the greatest utility.
 
-The idea of running IT as a utility service goes back at least to 1965 and the publication of _The Challenge of the Computer Utliity_, by Douglas Parkhill.
+The idea of running IT as a utility service goes back at least to 1965 and the publication of _The Challenge of the Computer Utility, by Douglas Parkhill.
 
 image::images/1.02-parkhill.png[]
 _The author's copy of Parkhill's book_
@@ -61,9 +64,13 @@ In order to run compute as a utility, multi-tenancy was essential. This is diffe
 
 However, people store data - often private - on computers. In order to deliver compute as a utility, it is essential to segregate each customer's workload from all others. This is called multi-tenancy. In multi-tenancy, multiple customers share physical resources that provide the illusion of being dedicated.
 
-NOTE: The phone system has been multi-tenant ever since they got rid of https://en.wikipedia.org/wiki/Party_line_(telephony)[party lines]. A party line is a shared line where anyone on it can hear every other person.
+NOTE: The phone system has been multi-tenant ever since they got rid of https://en.wikipedia.org/wiki/Party_line_(telephony)[party lines]. A party line was a shared line where anyone on it could hear every other person.
 
 Virtualization attracted business attention as a means to consolidate computing workloads. For years, companies would purchase servers to run applications of various sizes, and in many cases the computers were badly underutilized. Because of configuration issues (legitimate) and an overabundance of caution (questionable), average utilization in a pre-virtualization data center might average 10%. (That's 90% of the computer's capacity being wasted.)
+
+The computing and storage infrastructure supporting each application stack in the business were sized properly to support each workload. For example, a payroll server might run on a different infrastructure configuration than a data warehouse server. Large enterprises needed to support hundreds of different infrastructure configurations, increasing maintenance and support costs.
+
+The adoption of virtualization allowed businesses to compress multiple application workloads onto a smaller number of physical servers. In most virtualized architectures, the physical servers supporting workloads shared a consistent configuration, which made it easy to add and remove resources from the environment. Virtualization introduced a new design pattern into the enterprise where computing and storage infrastructure became commoditized building blocks supporting an ever-increasing array of services.
 
 image::images/1.02-virt-benefits.png[]
  [redo graphic]

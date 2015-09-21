@@ -14,7 +14,7 @@ Achieving this goal is feasible but requires new approaches. Various practitione
 
 * The establishment of “test-driven development” as a key best practice in creating software <<Beck2000>>
 * Duvall’s book “Continuous Integration” <<Duvall2007>>
-* Allspaw & Hammonds’s seminal http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr[“10 Deploys a Day”] presentation describing at Etsy <<Allspaw2009>>.
+* Allspaw & Hammonds’s seminal http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr[“10 Deploys a Day”] presentation describing Etsy <<Allspaw2009>>.
 * Humble & Farley’s “Continuous Delivery” <<Humble2011>>.
 
 While definitions of "DevOps" are controversial, the fundamental goal of moving smaller changes more quickly through the pipeline is  common to all. There is a great deal written on the topic of DevOps currently; the Humble/Farley book is recommended  as an introduction.
@@ -28,7 +28,7 @@ Let’s go into a little detail on some essential Agile/DevOps practices.
 
 In our scenario approach, at the end of the last chapter, you had determined a toolset for creating your new IT-based product, and a platform for exposing it to users (if only yourself or your partner).
 
-You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc rather than solving problems others have already figured out.
+You’ll be creating text files of some sort, and almost certainly importing various additional libraries, packages, modules, etc, rather than solving problems others have already figured out.
 
 NOTE: Development tools such as text editors and integrated development environments (IDEs) are out of scope for this book, as they are often matters of personal choice and limited to developers’ desktops.
 

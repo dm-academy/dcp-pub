@@ -44,15 +44,15 @@ In essence, this was more akin to https://en.wikipedia.org/wiki/Systems_engineer
 ===== Applications and infrastructure today
 Today, matters are quite different, and yet echoes of the older model persist. As mentioned, ANY  compute workloads are going to incur economic cost. However, capacity is being used more efficiently and can be provisioned on demand. Currently, it is a significant application indeed that merits its own systems engineering.
 
-Instead, a variety of mechanisms (as covered in the previous chapter's http://dm-academy.github.io/aitm/#_from_physical_compute_to_cloud[discussion of Cloud systems]) enable the sharing of compute capacity, the raw material of application development. The fungibility and agility of these mechanisms increases the velocity of creation and evolution of application software.
+Instead, a variety of mechanisms (as covered in the previous chapter's http://dm-academy.github.io/aitm/#_from_physical_compute_to_cloud[discussion of Cloud systems]) enable the sharing of compute capacity, the raw material of application development. The fungibility and agility of these mechanisms increase the velocity of creation and evolution of application software.
 
 NOTE: To "provision" in an IT sense means to make the needed resources or services available for a particular purpose or consumer.
 
-For small and medium sized applications, the overwhelming trend is to virtualize and run on  commodity hardware and operating system. Even 15 years ago, non-trivial web sites with database integration would be hosted by internal https://en.wikipedia.org/wiki/Platform_as_a_service[PaaS] clusters at major enterprises (for example, Microsoft ASP, COM+, and SQL Server clusters could be managed as multi-tenant).
+For small and medium sized applications, the overwhelming trend is to virtualize and run on  commodity hardware and operating systems. Even 15 years ago, non-trivial web sites with database integration would be hosted by internal https://en.wikipedia.org/wiki/Platform_as_a_service[PaaS] clusters at major enterprises (for example, Microsoft ASP, COM+, and SQL Server clusters could be managed as multi-tenant).
 
 The general purpose capabilities of virtualized public and private Cloud today are robust. Assuming the organization has the financial capability to purchase computing capacity in anticipation of use, it can be instantly available when the need surfaces.
 
-Interfaces (interaction points for applications to exchange information with each other, generally in an automated way) are increasingly standardized. Hardware engineering is more and more independent of the application lifecycle; the trend is towards providing compute as a service, carefully specified in terms of performance but NOT particular hardware.
+Interfaces (interaction points for applications to exchange information with each other, generally in an automated way) are increasingly standardized. Hardware engineering is more and more independent of the application lifecycle; the trend is towards providing compute as a service, carefully specified in terms of performance, but NOT particular hardware.
 
 Hardware physically dedicated to a single application is rarer, and even the largest engineered systems are more standardized so that they may one day benefit from Cloud approaches.
 

@@ -10,7 +10,9 @@ This preface covers:
 
 === The IT industry, and the rise of Agile
 
-Both the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of:
+A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
+
+Because of this, the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of:
 
 * enterprise architecture,
 * program and project management,
@@ -34,13 +36,11 @@ _“…some will tell you that when things are this bad, you throw it all away a
 
 IT management at scale within an organization is a complex system. Complex systems do not respond well to dramatic perturbations. They are best changed incrementally, with careful monitoring of the consequences of each small change. (This is part of the systems theory foundation underlying the Agile movement.)
 
-So, how do we undertake Agile transformation? For longer term, more ambitious goals, while we cannot plan in advance how any given change initiative will play out, we *can* develop situational awareness.
+So, how do we undertake Agile transformation? For longer term, more ambitious goals, while we cannot plan in advance how any given change initiative will play out, we *can* develop awareness.
 
 The idea of the OODA loop is popular in the Agile community. OODA stands for Orient, Observe, Decide, Act, a set of concepts developed by Air Force colonel John Boyd in analyzing the performance of aviators in the Korean War. The faster an actor can move through this cycle, the more effective they will be.
 
 I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to provide the student with a well documented set of observations on IT's current challenges that can orient you for more effective decisions and actions in your journey toward IT excellence.
-
-A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
 
 === Some personal history
 
@@ -216,9 +216,11 @@ The structure of the book is documented in the next section, Introduction.
 
 * This book is written at the college level. It is currently available only in English.
 * There is no assumption of deep IT experience, but there is an assumption that the person interacts with computers in some depth. They should for example understand the concept of an "operating system." An A+ certification, for example, would more than adequately prepare someone for this book.
-* A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate. 
+* A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.
 
 
 ==== Acknowledgements
 
 Thanks to Stephen Fralippolippi and Roger K. Williams for being the first Github contributors.
+
+Thanks to Jason Baker for text and technical collaboration.

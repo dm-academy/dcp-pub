@@ -3,14 +3,36 @@
 === Section II introduction
 
 *Scenario*
+You are part of a tight-knit team. You’ve moved out of the garage into a more professionalized environment. You might not all be in the same room, but you have a single mission and a cohesive culture, and you don’t need a lot of overhead to get the job done.
 
 Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. With even with a few new people comes the need to more clearly establish your product direction, so people are building the right thing. You're all in the same location, and can still communicate informally, but there is enough going on that you need a more organized approach to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
+
+However, things are getting larger and more complex. You have a significant user base, and your founder is increasingly out meeting with users, customers and investors; she isn’t in the room with the product team as much any more… in fact, she just named someone to be “product owner” and what is that all about?
+
+Figure X starts with the toolchain we developed in Section 1. The toolchain can be seen as part of a value chain that is delivering an IT service. Drawing on the dual-axis value chain we introduced in Chapter 1, there are two primary value experiences:
+
+- The value the user derives from the service (e.g. account lookups, or a flawless navigational experience)
+- The value the investor derives from monetizing the product, or comparable incentives (e.g. nonprofit missions)
+
+Additionally, the product team derives career value. This becomes more of a factor later in the game. We will discuss this further in Section four on lifecycles & technical debt.
+
+The product team receives feedback from both value experiences. The day to day interactions with the service are understood, and (typically on a more intermittent basis) the portfolio investor also feeds back the information to the product team. This is of course a simplified model, and in a large enterprise both the users and investors may have proxies (more on this to come).
+
+In this section, we will look at:
+
+- How you are accepting and executing on feedback signals
+- How the feedback relationship with your investors is evolving, in terms of your product direction
+- How the feedback relationship with your users is evolving, in terms of both operational criteria and product direction
+
+We will discuss work management, product management, shared mental models, visualization, and systems monitoring.
 
 ****
 Sidebar: Systems theory and idea of feedback
 ****
 
 *Chapter 4: Product Management*
+
+
 
 You (as the startup leader) are spending more time with investors and customers, and maintaining alignment around your original product vision is becoming more challenging as you are pulled in various directions. You need some means of keeping the momentum here. And the concept of "product management," you're finding, represents a rich set of ideas for managing your team's efforts at this stage of the game.
 

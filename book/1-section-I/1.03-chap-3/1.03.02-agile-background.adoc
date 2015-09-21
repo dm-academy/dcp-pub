@@ -2,23 +2,23 @@
 
 This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)
 
-As we will cover in more detail in the next chapter, the product development process starts with a concept of requirement (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..
+As we will cover in more detail in the next chapter, the product development process starts with a concept of requirementS (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..
 
-When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development.”
+When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development".
 
-What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it <<Royce1970>>. Military contracting and management consultancy practices however embraced it, as it provided an illusion of certainty.
+What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it <<Royce1970>>. Military contracting and management consultancy practices, however, embraced it, as it provided an illusion of certainty.
 
 Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
 
 image::images/1.03-waterfall.png[]
 
-First, requirements needed to be extensively captured and analyzed before the work of development should commence.
+First, requirements need to be extensively captured and analyzed before the work of development should commence.
 
-So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature, and then any further alterations could be profitably billed as “change requests.”
+So, we would develop enormous spreadsheets of requirements, spending weeks on making sure that they represented what “the customer” wanted. The objective was to get the customer’s signature. Any further alterations could be profitably billed as “change requests".
 
 The analysis phase was used to develop a more structured understanding of the requirements, e.g. conceptual and logical data models, process models, business rules, and so forth.
 
-In the design phase, the actual technical platforms would be chosen; major subsystems determined with their connection points, initial volumetrics translated into system sizing, and so forth. (Perhaps hardware would not be ordered until this point, leading to issues with developers now being “ready” but hardware not available for weeks or months yet.)
+In the design phase, the actual technical platforms would be chosen; major subsystems determined with their connection points, initial volumetrics translated into system sizing, and so forth. (Perhaps hardware would not be ordered until this point, leading to issues with developers now being “ready”, but hardware would not available for weeks or months yet).
 
 Only AFTER extensive requirements, analysis, and design would coding take place (implementation). There was furthermore separation of duties between developers and testers. Developers would write code and testers would try to break it, filing bug reports that the developers would then need to respond to.
 
@@ -28,7 +28,8 @@ image::images/1.03-vmodel.png[]
 _Public domain image of v-model from_ https://en.wikipedia.org/wiki/V-Model_(software_development)[_Wikipedia_]
 
 The failures of these approaches at scale are by now well known. Large distributed teams would wrestle with thousands of requirements. The customer would “sign off” on multiple large binders, with widely varying degrees of understanding of what they were agreeing to. Documentation became an end in itself, and yet did not meet its objectives of ensuring continuity if staff turned over.
-The development team would design and build out extensive product implementations without checking the results with customers. And they would defer testing that various component parts would effectively interoperate, until the very end of the project when the time came to assemble the whole system.
+
+The development team would design and build out extensive product implementations without checking the results with customers. They would also defer testing that various component parts would effectively interoperate until the very end of the project, when the time came to assemble the whole system.
 
 Failure after failure of this approach is apparent in the historical record (<<Glass1998>>). This led to the perception of a “software crisis.”  (It should also be noted that many large systems were effectively constructed and operated during the "waterfall years", and that there are reasonable criticisms of the concept of a “software crisis” <<Bossavit2015>>).
 
@@ -103,7 +104,7 @@ its behavior accordingly.
 
 See http://agilemanifesto.org/.
 
-The Agile models for developing software were a fit with the rise of Cloud and Web-scale IT. As new customer-facing sites like Flickr, Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were a failure. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery.
+The Agile models for developing software aligned with the rise of Cloud and Web-scale IT. As new customer-facing sites like Flickr, Amazon, Netflix, Etsy, and Facebook scaled to massive proportions, it become increasingly clear that waterfall approaches were incompatible with their needs. The sheer size and complexity of these systems required much more incremental and iterative approaches to delivery.
 
 Furthermore, because these systems were directly user-facing, delivering monetized value, they required a degree of responsiveness previously not seen in “back-office” IT or military-aerospace domains (the major forms that large scale system development had taken to date).
 

@@ -4,11 +4,11 @@
 _The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else._ +
 
 
-In test-driven development, the idea essentially is writing code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in _eXtreme Programming_: write the test first <<Beck2000>>. Thus:
+In test-driven development, the idea essence is to write code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in _eXtreme Programming_: write the test first <<Beck2000>>. Thus:
 
 	1.	Given a “user story” (i.e http://dm-academy.github.io/aitm/#_describing_system_intent[system intent]), figure out a test that will demonstrate its successful implementation.
 	2.	Write this test using the established testing framework.
-	3.	Write the code that fulfills the test
+	3.	Write the code that fulfills the test.
 
 Some readers may be thinking, “I know how to write a little code, but what is this about using code to write a test?”
 
@@ -52,10 +52,10 @@ Then, we write the class:
     }
 }
 
-When we run the test harness correctly (e.g. using a build tool such as Ant or Maven), the test class
+When we run the test harness correctly (e.g. using a build tool such as Ant or Maven), the test class will perform the following actions:
 
-. creates an instance of the class H1Class, based on a string “TestWebMessage”, and
-. confirms that the returned string is “<h1>TestWebMessage</h1>”.
+. create an instance of the class H1Class, based on a string “TestWebMessage”
+. confirm that the returned string is “<h1>TestWebMessage</h1>”
 
 If that string is not correctly generated, or the class cannot be created, or any other error occurs, the test fails and this is then reported via error results at the console, or (in the case of automated build) will be detected by the build manager and displayed as the build outcome.
 
@@ -68,12 +68,12 @@ Employing test-driven development completely and correctly requires thought and 
 ===== Refactoring
 
 [quote, Martin Fowler, Refactoring -- http://refactoring.com/]
-_Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which "too small to be worth doing". However the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. _
+_Refactoring is a controlled technique for improving the design of an existing code base. Its essence is applying a series of small behavior-preserving transformations, each of which is "too small to be worth doing". However, the cumulative effect of each of these transformations is quite significant. By doing them in small steps you reduce the risk of introducing errors. You also avoid having the system broken while you are carrying out the restructuring - which allows you to gradually refactor a system over an extended period of time. _
 
 Test-driven development enables the next major practice, that of refactoring. Refactoring is how you address technical debt. What is technical debt? Technical debt is defined by Wikipedia as
 
 _…the eventual consequences of poor system design, software architecture or software development within a codebase. The debt can be thought of as work that needs to be done before a particular job can be considered complete or proper. If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.
-Analogous to monetary debt, technical debt is not necessarily a bad thing, and sometime technical debt is required to move project forwards.
+Analogous to monetary debt, technical debt is not necessarily a bad thing, and sometime technical debt is required to move projects forward.
 http://en.wikipedia.org/wiki/Technical_debt_
 
 Test driven development ensures that the system’s functionality remains consistent, while refactoring provides a means to address technical debt as part of ongoing development activities.

@@ -11,7 +11,7 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 * Architectural epic
 * Architectural requirement
 
-While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill. And this intent calls for work to be performed.
+While these may differ in terms of focus and scope, the basic concept is the same - the requirement, however named, expresses some intent or constraint the system must fulfill. This intent calls for work to be performed.
 
 As systems engineering approaches transform to Cloud and infrastructure as code, a large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.
 

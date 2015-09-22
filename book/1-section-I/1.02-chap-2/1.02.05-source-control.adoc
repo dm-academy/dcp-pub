@@ -12,11 +12,11 @@ The concept of a software version control system (variously known as source cont
 
 The evolution of version control systems to the pivotal role they now hold has been somewhat unexpected. While version control was always deemed important for software artifacts, it has only recently become the preferred paradigm for managing infrastructure state as well.  Because of this, a version control system is easily and without question the first IT management system you should acquire and implement.
 
-NOTE: It’s significant that the Agile Alliance indicates “version control” as one of the http://guide.agilealliance.org/subway.html[four foundational areas of Agile], along with team, iterative development, and incremental development. +  
+NOTE: It’s significant that the Agile Alliance indicates “version control” as one of the http://guide.agilealliance.org/subway.html[four foundational areas of Agile], along with team, iterative development, and incremental development. +
  +
 "Version control" also includes what we will cover as package management: the management of binary files, as distinct from human-understandable symbolic files.
 
-Source control is like your file system, if it remembered all the changes you make to its contents, and could tell you the differences between any two versions, and also bring back the version you had at any point in time.
+Source control works like a really advanced file system. It can remember all the changes you make to its contents, tell you the differences between any two versions, and also bring back the version you had at any point in time.
 Source control, as you may imagine, is critical for any kind of system with complex, changing content, especially when many people are working on that content.
 
 You can find many references to source control on the Internet and in books such as _Pro Git_ by Scott Chacon and Ben Straub. As it is the most important foundational technology for professional IT, whether in a garage or in the largest corporations, you need to have a deep familiarity with it.

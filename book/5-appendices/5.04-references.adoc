@@ -86,6 +86,8 @@
 
 - [[[Minick2012]]]: Minick, E. (2012), "A DevOps Toolchain: There and back again",  Slideshare.net, http://www.slideshare.net/Urbancode/building-devops-toolchain
 
+- [[[Nygard2007]]]: Nygard, M.T., 2007. _Release it! : design and deploy production-ready software._ The pragmatic programmers, Raleigh, N.C.: Pragmatic Bookshelf. xvi, 350 p.
+
 - [[[OASIS2013]]]: OASIS (2013), "Topology and Orchestration Specification for Cloud Applications Version 1.0 (TOSCA)", http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html
 
 - [[[Ohno1988]]]: Ohno, T. (1988), _Toyota production system : beyond large-scale production_, Productivity Press, Cambridge, Mass.

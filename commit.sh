@@ -10,7 +10,7 @@ git push origin master
 # push to pages.
 cd ../aitm-pages
 git pull
-wait 5
+sleep 5
 git add . && git commit -m "commit"
 git push origin gh-pages
 cd ../aitm

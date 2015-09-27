@@ -33,6 +33,8 @@ As a field, there are professional associations, handbooks, courses of study, an
 However, http://dm-academy.github.io/aitm/#_defining_information_technology[as stated in chapter 1], all kinds of industrial products have increasing amounts of “IT” in them. This means that an understanding of IT, and ready access to any needed IT specialty skills, is increasingly important to the general field of product management.
 
 ===== Process, project, and product management
+[quote, Mark Kennaley, SDLC 3.0]
+A holistic product-oriented approach contradicts a convenient over-simplification of IT delivery where everything is treated as a project. Such an approach is not Lean, in that treating all demand (coarse/strategic demand the same as fine-grained IT demand) amounts to batching, which creates inventory, waiting and potentially over-processing types of waste.
 
 In the remainder of this book, we will continually encounter three major topics:
 
@@ -60,4 +62,8 @@ Here are some of the key differences between process, project and product manage
 
 The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management
 
-In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8. 
+In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8.
+
+===== What is a Product Manager?
+
+a Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf

@@ -1,0 +1,12 @@
+==== Introducing Scrum
+
+
+One way that the product owner maximizes ROI is by directing the team toward the most valuable work, and away from less valuable work. That is, the product owner controls the order, sometimes called priority, of items in the team’s backlog. In scrum, no-one but the product owner is authorized to ask the team to do work or to change the order of backlog items.
+
+Sims, Chris; Johnson, Hillary Louise (2014-07-30). Scrum: a Breathtakingly Brief and Agile Introduction (Kindle Locations 49-52). Dymaxicon. Kindle Edition.
+
+There Are No Tasks; There Are Only Stories
+
+Sutherland, Jeff (2014-09-30). Scrum: The Art of Doing Twice the Work in Half the Time (p. 132). The Crown Publishing Group. Kindle Edition.
+
+IT centric product mgmt

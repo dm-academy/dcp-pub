@@ -1036,6 +1036,9 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 <div class="paragraph">
 <p>Thanks to Jason Baker for text and technical collaboration.</p>
 </div>
+<div class="paragraph">
+<p>Thanks to Mark Kennaley for guidance on open vs closed loop thinking.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1265,6 +1268,22 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 </div>
 <div class="paragraph">
 <p>Some of you may be familiar with the idea of a Minimum Viable Product, Minimum Marketable Release, or similar. In these terms, it is important to understand that each <strong>section</strong> of the book represents an MVP, but not each chapter. One can&#8217;t begin to deliver IT value without the components discussed in each of Chapters 1-3. The chapters of each section are interdependent, in other words.</p>
+</div>
+<div class="paragraph">
+<p>More structure w/in structure: Each chapter flows in a roughly "top-down" fashion:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>"Business" concerns (value, motivation)</p>
+</li>
+<li>
+<p>"Process" concerns (execution, flow)</p>
+</li>
+<li>
+<p>"System" concerns (information &amp; automation)</p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
 <p><em>End instructor&#8217;s note</em></p>
@@ -4659,18 +4678,6 @@ You are part of a tight-knit team. You’ve moved out of the garage into a more 
 <div class="paragraph">
 <p>As with bridges, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources. See <a href="http://osr507doc.sco.com/en/HANDBOOK/runaway_proc.html">Runaway processes.</a></p>
 </div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list") which generate more emails ("stop emailing the list") and so on.
-</td>
-</tr>
-</table>
-</div>
 <div class="paragraph">
 <p>Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Engineers use concepts of <a href="https://en.wikipedia.org/wiki/Control_theory">control theory</a>, for example <a href="https://en.wikipedia.org/wiki/Damping">damping</a>, to keep bridges from falling down. Balancing feedback in a business and IT context takes a wide variety of forms:</p>
 </div>
@@ -4699,6 +4706,18 @@ Still confused? Think about the last time you saw a "reply-all" email storm. The
 <p>Negative/Balancing, “stop doing that,” “fix that”</p>
 </li>
 </ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list") which generate more emails ("stop emailing the list") and so on. This does not continue indefinitely; management intervention, common sense and fatigue eventually damp the storm down.
+</td>
+</tr>
+</table>
 </div>
 <div class="sect4">
 <h5 id="_positive_feedback_the_special_case_investors_want">Positive feedback: the special case investors want</h5>
@@ -4775,6 +4794,18 @@ Still confused? Think about the last time you saw a "reply-all" email storm. The
 </div>
 <div class="paragraph">
 <p>This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. <a href="#Kennaley2010">[Kennaley2010]</a> applies these principles to software development in much greater depth; recommended.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+No system can ever be fully "open loop" indefinitely.  Sooner or later you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system."
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. <strong>This section is about closing the loops.</strong></p>
@@ -4968,26 +4999,75 @@ Still confused? Think about the last time you saw a "reply-all" email storm. The
 </div>
 </div>
 <div class="sect4">
-<h5 id="_product_vs_project_management">Product vs project management</h5>
+<h5 id="_process_project_and_product_management">Process, project, and product management</h5>
 <div class="paragraph">
-<p>Here are some of the key differences between project and product management:</p>
+<p>In the remainder of this book, we will continually encounter three major topics:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Product Management (Chapter 4)</p>
+</li>
+<li>
+<p>Project Management (Chapter 8)</p>
+</li>
+<li>
+<p>Process Management (Chapter 9)</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p>Project
-Product
-Limited time duration, often scoped to a year or less
-No specific time duration; lasts as long as there is a need
-Difficult to change scope or direction, unless specifically set up to accommodate
-Better accommodates market feedback and directional change
-Often concerned with the design and construction, but typically not with operating
-Includes concept, design, construction, operations, and retirement
-Project managers are trained in resource and timeline management, dependencies &amp; scheduling. They are not typically incented to adopt a long-term perspective.
-Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability
-Projects can be planned with a high degree of certainty
-Product management includes research and development which is less certain of outcome</p>
+<p>Each has a dedicated chapter, and they will appear in all the other chapters as well.</p>
 </div>
 <div class="paragraph">
-<p>In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis.</p>
+<p>Here are some of the key differences between process, project and product management in the context of IT services and systems:</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33%;">
+<col style="width: 33%;">
+<col style="width: 33%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Process</th>
+<th class="tableblock halign-left valign-top">Project</th>
+<th class="tableblock halign-left valign-top">Product</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Repeatable with a high degree of certainty</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Executable with a medium-high degree of certainty</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Product management includes research and development which is less certain of outcome</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fixed time duration, relatively brief (weeks/months)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Limited time duration, often scoped to a year or less</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No specific time duration; lasts as long as there is a need</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fixed in form, no changes usually tolerated</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Difficult to change scope or direction, unless specifically set up to accommodate</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Must accommodate market feedback and directional change</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Used to deliver service value and operate system</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Often concerned with system design and construction, but typically not with operation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Includes service concept and system design, construction, operations, and retirement</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Process owners concerned with adherence and continuous improvement of process. Otherwise can be narrow in perspective.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Project managers are trained in resource and timeline management, dependencies &amp; scheduling. They are not typically incented to adopt a long-term perspective.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management</p>
+</div>
+<div class="paragraph">
+<p>In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8.</p>
 </div>
 </div>
 </div>
@@ -5305,6 +5385,9 @@ Product management includes research and development which is less certain of ou
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p><a href="https://aws.amazon.com/message/5467D2/?utm_content=buffer72a89&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">AWS DynamoDB Fall 2015 outage</a></p>
+</div>
 </div>
 </div>
 </div>
@@ -5605,6 +5688,17 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 <p>Identify the basic concerns of IT financial management</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>When risk
+and uncertainty are present with ongoing demand, like in the case of
+architectural changes and related high-stake decisions, batching demand
+194into a project for governance reasons makes sense. And when new
+demand (even fine-grained demand) arrives in a product&#8217;s Backlog,
+determination must occur as to whether itwarrants a new generation of
+the product based on changing business conditions or IT technology
+evolution. Adecision tree can be leveraged to determine if a product
+request should qualify for maintenance, or requires project facilities (<strong>*</strong> kennaley sdlc3 195)</p>
 </div>
 </div>
 </div>

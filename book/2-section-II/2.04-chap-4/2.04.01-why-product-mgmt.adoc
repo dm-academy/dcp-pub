@@ -32,25 +32,32 @@ As a field, there are professional associations, handbooks, courses of study, an
 
 However, http://dm-academy.github.io/aitm/#_defining_information_technology[as stated in chapter 1], all kinds of industrial products have increasing amounts of “IT” in them. This means that an understanding of IT, and ready access to any needed IT specialty skills, is increasingly important to the general field of product management.
 
-===== Product vs project management
+===== Process, project, and product management
 
-Here are some of the key differences between project and product management:
+In the remainder of this book, we will continually encounter three major topics:
 
+* Product Management (Chapter 4)
+* Project Management (Chapter 8)
+* Process Management (Chapter 9)
 
+Each has a dedicated chapter, and they will appear in all the other chapters as well.
 
-Project
-Product
-Limited time duration, often scoped to a year or less
-No specific time duration; lasts as long as there is a need
-Difficult to change scope or direction, unless specifically set up to accommodate
-Better accommodates market feedback and directional change
-Often concerned with the design and construction, but typically not with operating
-Includes concept, design, construction, operations, and retirement
-Project managers are trained in resource and timeline management, dependencies & scheduling. They are not typically incented to adopt a long-term perspective.
-Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability
-Projects can be planned with a high degree of certainty
-Product management includes research and development which is less certain of outcome
+Here are some of the key differences between process, project and product management in the context of IT services and systems:
 
+[cols="3*", options="header"]
+|====
+|Process|Project|Product
+|Repeatable with a high degree of certainty |Executable with a medium-high degree of certainty |Product management includes research and development which is less certain of outcome
+|Fixed time duration, relatively brief (weeks/months)|Limited time duration, often scoped to a year or less
+|No specific time duration; lasts as long as there is a need
+|Fixed in form, no changes usually tolerated|Difficult to change scope or direction, unless specifically set up to accommodate
+|Must accommodate market feedback and directional change
+|Used to deliver service value and operate system |Often concerned with system design and construction, but typically not with operation
+|Includes service concept and system design, construction, operations, and retirement
+|Process owners concerned with adherence and continuous improvement of process. Otherwise can be narrow in perspective.|Project managers are trained in resource and timeline management, dependencies & scheduling. They are not typically incented to adopt a long-term perspective.
+|Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability
+|====
 
+The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management
 
-In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis.
+In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8. 

@@ -224,3 +224,5 @@ The structure of the book is documented in the next section, Introduction.
 Thanks to Stephen Fralippolippi and Roger K. Williams for being the first Github contributors.
 
 Thanks to Jason Baker for text and technical collaboration.
+
+Thanks to Mark Kennaley for guidance on open vs closed loop thinking. 

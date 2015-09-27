@@ -111,6 +111,12 @@ The book however is not a complete dismissal of older models of IT delivery. Whe
 
 Some of you may be familiar with the idea of a Minimum Viable Product, Minimum Marketable Release, or similar. In these terms, it is important to understand that each *section* of the book represents an MVP, but not each chapter. One can't begin to deliver IT value without the components discussed in each of Chapters 1-3. The chapters of each section are interdependent, in other words.
 
+More structure w/in structure: Each chapter flows in a roughly "top-down" fashion:
+
+. "Business" concerns (value, motivation)
+. "Process" concerns (execution, flow)
+. "System" concerns (information & automation)
+
 _End instructor's note_
 ****
 

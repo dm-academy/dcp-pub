@@ -61,8 +61,6 @@ Linked from https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)[Wikipedia
 
 As with bridges, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources. See http://osr507doc.sco.com/en/HANDBOOK/runaway_proc.html[Runaway processes.]
 
-NOTE: Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list") which generate more emails ("stop emailing the list") and so on.
-
 Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Engineers use concepts of https://en.wikipedia.org/wiki/Control_theory[control theory], for example https://en.wikipedia.org/wiki/Damping[damping], to keep bridges from falling down. Balancing feedback in a business and IT context takes a wide variety of forms:
 
 * The product owner clarifying for developers the precise user experience vision for the product, based on a demonstration of developer work in process
@@ -73,6 +71,8 @@ In short, we see these two basic kinds of feedback:
 
 * Positive/Reinforcing, “do more of that”
 * Negative/Balancing, “stop doing that,” “fix that”
+
+NOTE: Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list") which generate more emails ("stop emailing the list") and so on. This does not continue indefinitely; management intervention, common sense and fatigue eventually damp the storm down.
 
 ===== Positive feedback: the special case investors want
 
@@ -110,5 +110,7 @@ https://www.flickr.com/photos/portland_mike/5445434245/[Photo Credit - mike krze
 Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
 
 This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. <<Kennaley2010>> applies these principles to software development in much greater depth; recommended.
+
+NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system."
 
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*

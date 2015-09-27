@@ -48,3 +48,14 @@ Sidebar: Introducing Scaled Agile Framework (Leffingwell)
 * Identify the basic practices of project management
 * Identify the basic concerns of IT resource management
 * Identify the basic concerns of IT financial management
+
+
+When risk
+and uncertainty are present with ongoing demand, like in the case of
+architectural changes and related high-stake decisions, batching demand
+194into a project for governance reasons makes sense. And when new
+demand (even fine-grained demand) arrives in a product's Backlog,
+determination must occur as to whether itwarrants a new generation of
+the product based on changing business conditions or IT technology
+evolution. Adecision tree can be leveraged to determine if a product
+request should qualify for maintenance, or requires project facilities (*** kennaley sdlc3 195)

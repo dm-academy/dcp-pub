@@ -26,13 +26,7 @@ In this section, we will look at:
 
 We will discuss work management, product management, shared mental models, visualization, and systems monitoring.
 
-****
-Sidebar: Systems theory and idea of feedback
-****
-
 *Chapter 4: Product Management*
-
-
 
 You (as the startup leader) are spending more time with investors and customers, and maintaining alignment around your original product vision is becoming more challenging as you are pulled in various directions. You need some means of keeping the momentum here. And the concept of "product management," you're finding, represents a rich set of ideas for managing your team's efforts at this stage of the game.
 

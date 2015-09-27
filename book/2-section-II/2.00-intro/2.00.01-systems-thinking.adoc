@@ -23,14 +23,19 @@ image::images/feedback.png[]
 
 For example, we can consider “rabbit reproduction” as a process with a positive feedback loop:
 
+image::images/rabbits.png[]
+
 The more rabbits, the faster they reproduce, and the more rabbits.
 
 This is a “positive” feedback loop, although Mr. MacGregor the local gardener may not agree, given that they are eating all his cabbages!! This is why feedback experts prefer to call this “reinforcing” feedback, because there is not necessarily anything “positive” about it.
 
 We can also consider feedback as the relationship between TWO processes:
 
+image::images/processAB.png[]
 
 In our rabbit example, what if Process B is fox reproduction, that is, the birth rate of foxes (who eat rabbits)?
+
+image::images/rabbitfox.png[]
 
 More rabbits equals more foxes (notice the “+” symbol on the line), because there are more rabbits to eat! But what does this do to the rabbits? It means LESS rabbits. Which, ultimately, means less foxes… and at some point, the populations balance. This is classic negative feedback. However, the local foxes don’t see it as negative (nor the local gardeners!)  That is why feedback experts prefer to call this “balancing” feedback.
 
@@ -48,6 +53,7 @@ In short, we see these two basic kinds of feedback:
 Positive feedback: the special case investors want
 At a business level, there is a special kind of positive feedback that defines the successful business:
 
+image::images/biz-positive.png[]
 
 This is reinforcing feedback and positive for most people involved: investors, customers, employees.
 
@@ -65,7 +71,10 @@ Open loop systems have no regulation, no balancing feedback
 Closed loop systems have some form of balancing feedback
 
 A good example of an open loop system is the children’s game “pin the tail on the donkey.” In “pin the tail on the donkey,” a person has to execute a process while blindfolded, based on their memory of their location (and perhaps after being deliberately disoriented by spinning in circles). Since they are blindfolded, they have to move across the room and pin the tail without the ongoing corrective feedback of their eyes. (Perhaps they are getting feedback from their friends, but perhaps their friends are not reliable…)
-*** need pictures
+
+image::images/donkey.jpg[]
+https://www.flickr.com/photos/portland_mike/5445434245/[Photo Credit - mike krzeszak, Flickr, Creative Commons]
+
 Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
 This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. This section is about closing the loops. More on this in sections three and four.
 

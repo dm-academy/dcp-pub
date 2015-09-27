@@ -1,5 +1,7 @@
 ==== Product Design
 
+Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design. 
+
 ===== Lean Startup
 
 ===== LeanUX and Design Thinking

@@ -78,7 +78,7 @@ In our scenario, you are now on a tight-knit, collaborative team. It is preferab
 
 ===== What is a Product Manager?
 
-a Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf
+A Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf
 
 ===== Market facing, supporting, back office
 revisit "who pays", plus infrastructure
@@ -89,8 +89,8 @@ Amazon represents two critical responses to the problem of large-scale IT failur
 Second, a widely reported practice at Amazon.com is the limitation of product teams to between 5-7 people, the number that can be fed by “two pizzas” (depending on how hungry they are).
 There are good reasons for this approach. It has long been recognized in software and IT management that larger teams do not necessarily result in higher productivity. The best known statement of this is Fred Brooks’ rule from The Mythical Man-Month, that “adding people to a late project will make it later.”
 
-The reasons for this have been extensively studied and analyzed (***Madachy) but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.
+The reasons for this have been extensively studied and analyzed (***Madachy), but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.
 
-This in turn means that newcomers to a product development organization can have a profound impact on the product. Getting them “up to speed” with the culture, mental models, and tacit assumptions of the existing team can be challenging and rarely is simple. And the bigger the team, the bigger the problem.
+This in turn means that newcomers to a product development organization can have a profound impact on the product. Getting them “up to speed” with the culture, mental models, and tacit assumptions of the existing team can be challenging and is rarely simple. The bigger the team, the bigger the problem.
 
 The net result of these two practices is the creation of multiple nimble services that are decoupled from each other, constructed and supported by teams appropriately sized for optimal high-value interactions.

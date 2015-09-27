@@ -10,6 +10,10 @@ Finally, what do we even mean by complexity? What is the relationship between th
 
 ===== Chapter 12 outline
 
+* Big data and digital management
+
+* Defining "analytics"
+
 ****
 Sidebar: Introducing Burgess.
 ****

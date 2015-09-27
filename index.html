@@ -4707,16 +4707,16 @@ No system can ever be fully "open loop" indefinitely.  Sooner or later you take 
 <p>Like many other topics in this book, product management is a significant field in and of itself. Historically, product management has not been a major theme in enterprise IT management. "Third party" vendors (e.g. IBM) providing the back office systems had product management approaches, but these were external to the IT operations.</p>
 </div>
 <div class="paragraph">
-<p>IT systems served narrow purposes, often “back office” functions such as accounting or materials planning. Mostly, such systems were managed as projects assembled on a temporary basis, resulting in the creation of a system to be “thrown over the wall” to operations.</p>
+<p>IT systems served narrow purposes, often “back office” functions such as accounting or <a href="https://en.wikipedia.org/wiki/Material_requirements_planning">materials planning</a>. Mostly, such systems were managed as projects assembled on a temporary basis, resulting in the creation of a system to be “thrown over the wall” to operations.</p>
 </div>
 <div class="paragraph">
-<p>Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market react ion to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.</p>
+<p>Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market reaction to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.</p>
 </div>
 <div class="paragraph">
 <p>Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the open-loop dead reckoning (see <a href="http://dm-academy.github.io/aitm/#_special_section_systems_thinking_and_feedback">previous discussion</a>) of the project plan and changing scope or direction was seen as a failure, more often than not.</p>
 </div>
 <div class="paragraph">
-<p>Now, it’s accepted that systems evolve, perhaps in unexpected directions. Rapidly testing, learning, failing fast, and pivoting direction are all part of the lexicon, at least for market-facing IT-based products. And even back-office IT systems with better understood scope are being managed more as systems (or products) with lifecycles, as opposed to transient projects.</p>
+<p>Now, it’s accepted that systems evolve, perhaps in unexpected directions. Rapidly testing, learning, failing fast, and pivoting direction are all part of the lexicon, at least for market-facing IT-based products. And even back-office IT systems with better understood scope are being managed more as systems (or products) with lifecycles, as opposed to transient projects. (See the Amazon discussion, below.)</p>
 </div>
 <div class="paragraph">
 <p>So, what is product management and what does it mean for your team?</p>
@@ -4746,13 +4746,31 @@ No system can ever be fully "open loop" indefinitely.  Sooner or later you take 
 </div>
 </div>
 <div class="paragraph">
-<p>Product management in the general sense often reports to the Chief Marketing Officer (CMO). It represents the fundamental strategy of the firm, in terms of its value proposition and viability.</p>
+<p>Product management in the general sense often reports to the Chief Marketing Officer (CMO). It represents the fundamental strategy of the firm, in terms of its value proposition and viability. The product needs to reflect the enterprise’s strategy for creating and maintaining customers.</p>
+</div>
+<div class="paragraph">
+<p>Product strategy for internally-facing products may not be defined by the enterprise CMO. If it is a back-office product, then “business within a business” thinking may be appropriate. (Even the payroll system run by IT for HR is a “product,” in this view.) In such cases, there still is a need for someone to function as an "internal CMO" to the external "customers."</p>
 </div>
 <div class="paragraph">
 <p>As a field, there are professional associations, handbooks, courses of study, and so forth, completely independent of information technology.</p>
 </div>
 <div class="paragraph">
 <p>However, <a href="http://dm-academy.github.io/aitm/#_defining_information_technology">as stated in chapter 1</a>, all kinds of industrial products have increasing amounts of “IT” in them. This means that an understanding of IT, and ready access to any needed IT specialty skills, is increasingly important to the general field of product management.</p>
+</div>
+<div class="paragraph">
+<p>Perhaps the most important aspect of product design is focusing on the user, and what she or he needs. This is easier said than done. Entire books have been written on the various tools and techniques for doing this, from  focus groups to ethnographic analysis.</p>
+</div>
+<div class="paragraph">
+<p>Product management includes research and development, which means that there is an element of uncertainty. This is of course also true of IT systems development. Often, IT professionals resist drawing lessons from manufacturing, because of a perception (only partially true) that manufacturing is “deterministic” while IT systems development is too “uncertain.”</p>
+</div>
+<div class="paragraph">
+<p>In reality, manufacturing is less deterministic than IT professionals often perceive, while software development is, at its most uncertain, just another form of <a href="https://en.wikipedia.org/wiki/New_product_development">new product development</a>, and/or <a href="https://en.wikipedia.org/wiki/Research_and_development">research and development</a> and therefore can be managed on that basis.</p>
+</div>
+<div class="paragraph">
+<p>See The Phoenix Project, Chapter 30, for an interesting discussion of these issues in an IT context <a href="#Kim2013">[Kim2013]</a>.</p>
+</div>
+<div class="paragraph">
+<p>We will dive more into the characteristics of R&amp;D processes in the discussion of Don Reinertsen in this chapter.</p>
 </div>
 </div>
 <div class="sect4">
@@ -4842,6 +4860,31 @@ A holistic product-oriented approach contradicts a convenient over-simplificatio
 <p>a Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn&#8217;t Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: <a href="http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf" class="bare">http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf</a></p>
 </div>
 </div>
+<div class="sect4">
+<h5 id="_market_facing_supporting_back_office">Market facing, supporting, back office</h5>
+<div class="paragraph">
+<p>revisit "who pays", plus infrastructure</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_productization_as_a_strategy_at_amazon">Productization as a strategy at Amazon</h5>
+<div class="paragraph">
+<p>Amazon represents two critical responses to the problem of large-scale IT failure (as identified in the outset of the book.) First, the founder Jeff Bezos mandated that all software development should be service-oriented, and assume that the functionality being built might at some point be offered to external customers.</p>
+</div>
+<div class="paragraph">
+<p>Second, a widely reported practice at Amazon.com is the limitation of product teams to between 5-7 people, the number that can be fed by “two pizzas” (depending on how hungry they are).
+There are good reasons for this approach. It has long been recognized in software and IT management that larger teams do not necessarily result in higher productivity. The best known statement of this is Fred Brooks’ rule from The Mythical Man-Month, that “adding people to a late project will make it later.”</p>
+</div>
+<div class="paragraph">
+<p>The reasons for this have been extensively studied and analyzed (***Madachy) but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.</p>
+</div>
+<div class="paragraph">
+<p>This in turn means that newcomers to a product development organization can have a profound impact on the product. Getting them “up to speed” with the culture, mental models, and tacit assumptions of the existing team can be challenging and rarely is simple. And the bigger the team, the bigger the problem.</p>
+</div>
+<div class="paragraph">
+<p>The net result of these two practices is the creation of multiple nimble services that are decoupled from each other, constructed and supported by teams appropriately sized for optimal high-value interactions.</p>
+</div>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_product_design">Product Design</h4>
@@ -4904,10 +4947,74 @@ There Are No Tasks; There Are Only Stories.
 <cite>Scrum: The Art of Doing Twice the Work in Half the Time</cite>
 </div>
 </div>
+<div class="paragraph">
+<p>“The more frequently the team delivers a potentially shippable product increment, the greater freedom the business has in deciding when and what to ship. Notice that there are 2 separate decisions here: Is the product potentially shippable? That is to say, is the quality high enough that the business could ship it? Are all of the current stories done? This is a decision for the team.”</p>
+</div>
+<div class="paragraph">
+<p>Sims, Chris; Johnson, Hillary Louise (2014-07-30). Scrum: a Breathtakingly Brief and Agile Introduction (Kindle Locations 151-154). Dymaxicon. Kindle Edition.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://12factor.net/build-release-run" class="bare">http://12factor.net/build-release-run</a></p>
+</div>
+<div class="paragraph">
+<p>Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.</p>
+</div>
+<div class="paragraph">
+<p>Increasingly, as operational performance is defined in code (the trend to Infrastructure as Code), operational issues are equivalent to development defects.</p>
+</div>
+<div class="paragraph">
+<p>This domain model is in particular difficult, as it highlights the contending nature of the “traditional” versus “agile” language. Is a Program an Epic? Or is a Project? There can be no definitive answer to such questions.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Term</th>
+<th class="tableblock halign-left valign-top">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Epic</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A large scale increment of work that can be described as a value scenario narrative.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Program</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A large scale increment of work, typically expressed in terms of deliverables, resources, and activities.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Project</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A defined set of manageable activities to achieve a well-specified mission, usually represented by some set of deliverables or enumerated changes, with explicitly allocated resources (time, money, staff), executed and measured within the scope of those resources. Projects in many cases are constrained to a fiscal year.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Release</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">An increment of functionality managed as a coherent, customer facing change. Implies communication, training, awareness of market impact.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sprint</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">In Scrum methodology, a fixed increment of time (typically on the order of 1-4 weeks) in which a certain scope of work is attempted.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Story</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A specific, granular value scenario, often written in a characteristic format.</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="sect3">
 <h4 id="_the_thought_and_influence_of_don_reinertsen">The thought and influence of Don Reinertsen</h4>
-
+<div class="paragraph">
+<p>OODA sidebar</p>
+</div>
+<div class="paragraph">
+<p>asymmetric rewards</p>
+</div>
+<div class="paragraph">
+<p>pyramid</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_conclusion_4">Conclusion</h4>
@@ -4936,6 +5043,10 @@ There Are No Tasks; There Are Only Stories.
 <p><a href="http://blackswanfarming.com/workshop-quantifying-the-cost-of-delay/" class="bare">http://blackswanfarming.com/workshop-quantifying-the-cost-of-delay/</a></p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>Professional
+<a href="http://www.pdma.org/">Product Development and Marketing Association</a></p>
 </div>
 </div>
 </div>
@@ -6026,6 +6137,16 @@ Over time, the IT operation develops significant data by which to manage itself.
 </div>
 <div class="sect4">
 <h5 id="_chapter_12_outline">Chapter 12 outline</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Big data and digital management</p>
+</li>
+<li>
+<p>Defining "analytics"</p>
+</li>
+</ul>
+</div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">

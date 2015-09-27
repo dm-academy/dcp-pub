@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # this really feels ugly & brittle.
 # dependent on successfully changing directories along relative paths.

@@ -9,14 +9,24 @@ Your startup has met with some success and you are now a team - still small enou
 
 However, things are getting larger and more complex. You have a significant user base, and your founder is increasingly out meeting with users, customers and investors; she isn’t in the room with the product team as much any more… in fact, she just named someone to be “product owner” and what is that all about?
 
-Figure X starts with the toolchain we developed in Section 1. The toolchain can be seen as part of a value chain that is delivering an IT service. Drawing on the dual-axis value chain we introduced in Chapter 1, there are two primary value experiences:
+image::images/svcLifecycle.png[]
+
+Remember in Chapter 1 we talked of the user's http://dm-academy.github.io/aitm/images/1.01-ITStack2.png[value experience], and also how services http://dm-academy.github.io/aitm/#_the_it_service_lifecycle[evolve over time in a lifecycle]?
+
+There are two primary value experiences:
 
 - The value the user derives from the service (e.g. account lookups, or a flawless navigational experience)
 - The value the investor derives from monetizing the product, or comparable incentives (e.g. nonprofit missions)
 
-Additionally, the product team derives career value. This becomes more of a factor later in the game. We will discuss this further in Section four on lifecycles & technical debt.
+Additionally, the product team derives career value. This becomes more of a factor later in the game. We will discuss this further in chapter 7 on organization, and Chapter 11 on architecture lifecycles & technical debt.
 
-The product team receives feedback from both value experiences. The day to day interactions with the service are understood, and (typically on a more intermittent basis) the portfolio investor also feeds back the information to the product team. This is of course a simplified model, and in a large enterprise both the users and investors may have proxies (more on this to come).
+The product team receives feedback from both value experiences. The day to day interactions with the service (e.g. help desk and operations) are understood, and (typically on a more intermittent basis) the portfolio investor also feeds back the information to the product team (the boss's boss comes for a visit).
+
+This is of course a simplified model, and in a large enterprise both the users and investors may have proxies (more on this to come).
+
+image::images/feedback1.png[]
+
+The figure above is an architectural representation of the toolchain we started to develop in Section 1. The toolchain can be seen as part of a value chain that is delivering an IT service.
 
 In this section, we will look at:
 

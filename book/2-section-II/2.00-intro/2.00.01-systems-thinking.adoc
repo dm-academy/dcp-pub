@@ -3,7 +3,7 @@
 [quote, Peter Senge,  The Fifth Discipline]
 "The harder you push, the harder the system pushes back."
 
-While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex sociotechnical system, that delivers the services to support a myriad of other complex sociotechnical systems.
+While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex https://en.wikipedia.org/wiki/Sociotechnical_system[sociotechnical system], that delivers the services to support a myriad of other complex sociotechnical systems.
 
 Systems play by their own rules. Merriam-Webster defines a system as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
 

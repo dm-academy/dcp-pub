@@ -63,7 +63,7 @@ include::book/1-section-I/1.99-conclusion/1.99.00-conclusion.adoc[]
 
 include::book/2-section-II/2.00-intro/2.00.00-intro.adoc[]
 
-include::book/2-section-II/2.00-section-II-intro/2.00.01-systems-thinking.adoc[]
+include::book/2-section-II/2.00-intro/2.00.01-systems-thinking.adoc[]
 
 include::book/2-section-II/2.04-chap-4/2.04.00-intro.adoc[]
 

@@ -13,3 +13,5 @@ Conclusion placeholder
 * Limoncelli
 
 https://aws.amazon.com/message/5467D2/?utm_content=buffer72a89&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer[AWS DynamoDB Fall 2015 outage]
+
+http://techironic.com/post/129767406981/the-truth-behind-building-multiple-environments-to

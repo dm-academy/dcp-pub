@@ -112,7 +112,11 @@
 
 - [[[Silverston2008]]]: Silverston, L. (2008), _The data model resource book Vol 3: Universal patterns for data modeling_, Wiley, Indianapolis, Ind.
 
+- [[[Sims2012]]]: 	Sims, C.J., Hillary Louise, 2012. _Scrum: a Breathtakingly Brief and Agile Introduction_. Dymaxicon.
+
 - [[[Sterman2000]]]: 	Sterman, J., 2000. _Business dynamics : systems thinking and modeling for a complex world_ Boston: Irwin/McGraw-Hill. xxvi, 982 p.
+
+- [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum : the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
 
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
 

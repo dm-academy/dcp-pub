@@ -4,9 +4,9 @@ Before work, before operations, there must be a vision of product. You already e
 
 Like many other topics in this book, product management is a significant field in and of itself. Historically, product management has not been a major theme in enterprise IT management. "Third party" vendors (e.g. IBM) providing the back office systems had product management approaches, but these were external to the IT operations.
 
-IT systems served narrow purposes, often “back office” functions such as accounting or materials planning. Mostly, such systems were managed as projects assembled on a temporary basis, resulting in the creation of a system to be “thrown over the wall” to operations. 
+IT systems served narrow purposes, often “back office” functions such as accounting or materials planning. Mostly, such systems were managed as projects assembled on a temporary basis, resulting in the creation of a system to be “thrown over the wall” to operations.
 
-Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market reaction to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.
+Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market react ion to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.
 
 Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the dead reckoning of the project plan and changing scope or direction was seen as a failure, more often than not.
 

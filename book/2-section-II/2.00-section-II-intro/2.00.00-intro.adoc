@@ -6,16 +6,7 @@
 
 Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. With even with a few new people comes the need to more clearly establish your product direction, so people are building the right thing. You're all in the same location, and can still communicate informally, but there is enough going on that you need a more organized approach to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
 
-****
-Sidebar: Systems theory and idea of feedback
 
-"The harder you push, the harder the system pushes back" - Peter Senge,  _The Fifth Discipline_
-
-While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Systems abound, and they play by their own rules. Merriam-Webster defines a system as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
-
-As the Senge quote implies, brute force does not scale well. This arises from the fact that our actions lead to outcomes, which in turn affect our future actions. This *feedback* often becomes amplified and re-amplified until an overload occurs, such as the horrible screeching of a microphone too close to a speaker that bears the same name. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success. 
-
-A thorough discussion of systems theory is beyond the scope of this book. Many of the ideas that follow are underpinned and/or are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.
 
 ****
 

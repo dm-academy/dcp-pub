@@ -493,7 +493,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_section_ii_collaboration">Section II: Collaboration</a>
 <ul class="sectlevel2">
 <li><a href="#_section_ii_introduction">Section II introduction</a></li>
-<li><a href="#_special_section_systems_thinking_and_feedback">Special section: Systems thinking and feedback</a></li>
+<li><a href="#_special_section_systems_thinking_and_feedback">Special section: Systems thinking and feedback</a>
+<ul class="sectlevel3">
+<li><a href="#_a_brief_introduction_to_feedback">A brief introduction to feedback</a></li>
+<li><a href="#_what_does_systems_thinking_have_to_do_with_it">What does systems thinking have to do with IT?</a></li>
+</ul>
+</li>
 <li><a href="#_chapter_4_product_management">Chapter 4: Product Management</a>
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_4">Introduction to Chapter 4</a></li>
@@ -4552,6 +4557,8 @@ You are part of a tight-knit team. You’ve moved out of the garage into a more 
 <cite>The Fifth Discipline</cite>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_a_brief_introduction_to_feedback">A brief introduction to feedback</h4>
 <div class="paragraph">
 <p>While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex <a href="https://en.wikipedia.org/wiki/Sociotechnical_system">sociotechnical system</a>, that delivers the services to support a myriad of other complex sociotechnical systems.</p>
 </div>
@@ -4562,16 +4569,13 @@ You are part of a tight-knit team. You’ve moved out of the garage into a more 
 <p>As the Senge quote implies, brute force does not scale well. This arises from the fact that our actions lead to outcomes, which in turn affect our future actions. This <strong>feedback</strong> often becomes amplified and re-amplified until an overload occurs, such as the horrible screeching of a microphone too close to a speaker that bears the same name. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success.</p>
 </div>
 <div class="paragraph">
-<p>A thorough discussion of systems theory is beyond the scope of this book. Many of the ideas that follow are underpinned and/or are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.</p>
+<p>A thorough discussion of systems theory is beyond the scope of this book. Many of the ideas that follow are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.</p>
 </div>
 <div class="paragraph">
 <p>Feedback is a loaded term. We hear terms like positive feedback, negative feedback, and associate it quickly with performance coaching and management discipline. That is not the sense of feedback in this book.</p>
 </div>
 <div class="paragraph">
-<p>The definition of feedback as used in this book is based on engineering. There is considerable related theory in general engineering and especially control theory and the reader is encouraged to investigate some of these foundations if unfamiliar.</p>
-</div>
-<div class="paragraph">
-<p>(***SDLC 3.0)</p>
+<p>The definition of feedback as used in this book is based on engineering. There is considerable related theory in general engineering and especially control theory and the reader is encouraged to investigate some of these foundations if unfamiliar, e.g. <a href="#Kennaley2010">[Kennaley2010]</a>.</p>
 </div>
 <div class="paragraph">
 <p>Here is the classic illustration of a feedback loop:</p>
@@ -4614,23 +4618,64 @@ You are part of a tight-knit team. You’ve moved out of the garage into a more 
 <div class="paragraph">
 <p>More rabbits equals more foxes (notice the “+” symbol on the line), because there are more rabbits to eat! But what does this do to the rabbits? It means LESS rabbits. Which, ultimately, means less foxes… and at some point, the populations balance. This is classic negative feedback. However, the local foxes don’t see it as negative (nor the local gardeners!)  That is why feedback experts prefer to call this “balancing” feedback.</p>
 </div>
-<div class="paragraph">
-<p>What does this have to do with building IT systems?</p>
+<div class="imageblock">
+<div class="content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/CLD_links_ANI.gif" alt="CLD links ANI">
+</div>
 </div>
 <div class="paragraph">
-<p>First, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources.
-Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Balancing feedback in a business and IT context takes a wide variety of forms:
-- The end users calling to tell you the “system is slow” (or down)
-- The product owner or portfolio sponsor calling to tell you they are not satisfied with the system’s value</p>
+<p>Linked from <a href="https://en.wikipedia.org/wiki/Causal_loop_diagram">Wikipedia</a></p>
 </div>
 <div class="paragraph">
-<p>In short, we see these two basic kinds of feedback:
-- Positive/Reinforcing, “do more of that”
-- Negative/Balancing, “stop doing that,” “fix that”</p>
+<p>Wikipedia has good articles on <a href="https://en.wikipedia.org/wiki/Causal_loop_diagram">Causal Loop Diagramming</a> and <a href="https://en.wikipedia.org/wiki/System_dynamics">Systems Dynamics</a> (with cool dynamic visuals.) <a href="#Sterman2000">[Sterman2000]</a> is the definitive text with applications.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_what_does_systems_thinking_have_to_do_with_it">What does systems thinking have to do with IT?</h4>
+<div class="paragraph">
+<p>First, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources.</p>
 </div>
 <div class="paragraph">
-<p>Positive feedback: the special case investors want
-At a business level, there is a special kind of positive feedback that defines the successful business:</p>
+<p>Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Balancing feedback in a business and IT context takes a wide variety of forms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The product owner clarifying for developers the precise user experience vision for the product, based on a demonstration of developer work in process</p>
+</li>
+<li>
+<p>The end users calling to tell you the “system is slow” (or down)</p>
+</li>
+<li>
+<p>The product owner or portfolio sponsor calling to tell you they are not satisfied with the system’s value</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In short, we see these two basic kinds of feedback:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Positive/Reinforcing, “do more of that”</p>
+</li>
+<li>
+<p>Negative/Balancing, “stop doing that,” “fix that”</p>
+</li>
+</ul>
+</div>
+<div class="sect4">
+<h5 id="_positive_feedback_the_special_case_investors_want">Positive feedback: the special case investors want</h5>
+<div class="imageblock">
+<div class="content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Adoption_SFD_ANI_s.gif" alt="Adoption SFD ANI s">
+</div>
+</div>
+<div class="paragraph">
+<p>Linked from <a href="https://en.wikipedia.org/wiki/System_dynamics">Wikipedia</a></p>
+</div>
+<div class="paragraph">
+<p>At a business level, there is a special kind of positive feedback that defines the successful business:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -4659,12 +4704,24 @@ At a business level, there is a special kind of positive feedback that defines t
 <div class="paragraph">
 <p>But those are the problems the business wants to have.</p>
 </div>
+</div>
+<div class="sect4">
+<h5 id="_open_vs_closed_loop_systems">Open vs closed loop systems</h5>
 <div class="paragraph">
 <p>Finally, we should talk briefly about open loop versus closed loop systems.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>Open loop systems have no regulation, no balancing feedback</p>
+</li>
+<li>
+<p>Closed loop systems have some form of balancing feedback</p>
+</li>
+</ul>
+</div>
 <div class="paragraph">
-<p>Open loop systems have no regulation, no balancing feedback
-Closed loop systems have some form of balancing feedback</p>
+<p>In navigation terminology, the open-loop attempt to stick to a course without external information (e.g. navigating in the fog, without radar or communications) is known as " <a href="https://en.wikipedia.org/wiki/Dead_reckoning">dead reckoning</a>," in part because it can easily get you dead!</p>
 </div>
 <div class="paragraph">
 <p>A good example of an open loop system is the children’s game “pin the tail on the donkey.” In “pin the tail on the donkey,” a person has to execute a process while blindfolded, based on their memory of their location (and perhaps after being deliberately disoriented by spinning in circles). Since they are blindfolded, they have to move across the room and pin the tail without the ongoing corrective feedback of their eyes. (Perhaps they are getting feedback from their friends, but perhaps their friends are not reliable…)</p>
@@ -4678,14 +4735,15 @@ Closed loop systems have some form of balancing feedback</p>
 <p><a href="https://www.flickr.com/photos/portland_mike/5445434245/">Photo Credit - mike krzeszak, Flickr, Creative Commons</a></p>
 </div>
 <div class="paragraph">
-<p>Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
-This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. This section is about closing the loops. More on this in sections three and four.</p>
+<p>Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.</p>
 </div>
 <div class="paragraph">
-<p>Conjecture: "command and control culture" means open loop control. Agile culture also controls, but through closed loop.</p>
+<p>This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system.</p>
 </div>
 <div class="paragraph">
-<p>Engineers of complex systems use feedback techniques extensively. Complex systems do not work without these.</p>
+<p>Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. <strong>This section is about closing the loops.</strong></p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -4831,7 +4889,7 @@ This may seem obvious, but the history of IT management over the past decades ha
 <p>Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market react ion to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.</p>
 </div>
 <div class="paragraph">
-<p>Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the dead reckoning of the project plan and changing scope or direction was seen as a failure, more often than not.</p>
+<p>Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the open-loop dead reckoning (see <a href="http://dm-academy.github.io/aitm/#_special_section_systems_thinking_and_feedback">previous discussion</a>) of the project plan and changing scope or direction was seen as a failure, more often than not.</p>
 </div>
 <div class="paragraph">
 <p>Now, it’s accepted that systems evolve, perhaps in unexpected directions. Rapidly testing, learning, failing fast, and pivoting direction are all part of the lexicon, at least for market-facing IT-based products. And even back-office IT systems with better understood scope are being managed more as systems (or products) with lifecycles, as opposed to transient projects.</p>
@@ -5333,6 +5391,12 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 <p><em>something with Mintzberg and/or Narayan</em></p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>Conjecture: "command and control culture" means open loop control. Agile culture also controls, but through closed loop.</p>
+</div>
+<div class="paragraph">
+<p>E</p>
 </div>
 </div>
 </div>
@@ -6181,7 +6245,10 @@ Over time, the IT operation develops significant data by which to manage itself.
 <p><a id="Humble2011"></a>[Humble2011]: Humble, J. &amp; Farley, D. (2011), <em>Continuous delivery</em>, Addison-Wesley, Boston</p>
 </li>
 <li>
-<p><a id="Keefer2006"></a>[Keefer2006]: Keefer, G. The CMMI Considered Harmful For Quality Improvement And Supplier Selection. 2006. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&amp;rep=rep1&amp;type=pdf" class="bare">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&amp;rep=rep1&amp;type=pdf</a></p>
+<p><a id="Keefer2006"></a>[Keefer2006]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&amp;rep=rep1&amp;type=pdf" class="bare">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&amp;rep=rep1&amp;type=pdf</a></p>
+</li>
+<li>
+<p><a id="Kennaley2010"></a>[Kennaley2010]: Kennaley, M., 2010. <em>SDLC 3.0: Beyond a Tacit Understanding of Agile: Towards the Next Generation of Software Engineering</em> Fourth Medium Consulting.</p>
 </li>
 <li>
 <p><a id="Kim2013"></a>[Kim2013]: Kim, G.; Behr, K. &amp; Spafford, G. (2013), <em>The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</em>, IT Revolution Press</p>
@@ -6251,6 +6318,9 @@ Over time, the IT operation develops significant data by which to manage itself.
 </li>
 <li>
 <p><a id="Silverston2008"></a>[Silverston2008]: Silverston, L. (2008), <em>The data model resource book Vol 3: Universal patterns for data modeling</em>, Wiley, Indianapolis, Ind.</p>
+</li>
+<li>
+<p><a id="Sterman2000"></a>[Sterman2000]: 	Sterman, J., 2000. <em>Business dynamics : systems thinking and modeling for a complex world</em> Boston: Irwin/McGraw-Hill. xxvi, 982 p.</p>
 </li>
 <li>
 <p><a id="Thompson2014"></a>[Thompson2014]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", <a href="https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf" class="bare">https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf</a></p>

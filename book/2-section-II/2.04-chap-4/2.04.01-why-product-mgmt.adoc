@@ -8,7 +8,7 @@ IT systems served narrow purposes, often “back office” functions such as acc
 
 Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market react ion to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.
 
-Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the dead reckoning of the project plan and changing scope or direction was seen as a failure, more often than not.
+Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the open-loop dead reckoning (see http://dm-academy.github.io/aitm/#_special_section_systems_thinking_and_feedback[previous discussion]) of the project plan and changing scope or direction was seen as a failure, more often than not.
 
 Now, it’s accepted that systems evolve, perhaps in unexpected directions. Rapidly testing, learning, failing fast, and pivoting direction are all part of the lexicon, at least for market-facing IT-based products. And even back-office IT systems with better understood scope are being managed more as systems (or products) with lifecycles, as opposed to transient projects.
 

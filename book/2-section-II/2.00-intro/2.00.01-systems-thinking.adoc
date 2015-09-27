@@ -3,19 +3,19 @@
 [quote, Peter Senge,  The Fifth Discipline]
 "The harder you push, the harder the system pushes back."
 
+==== A brief introduction to feedback
+
 While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex https://en.wikipedia.org/wiki/Sociotechnical_system[sociotechnical system], that delivers the services to support a myriad of other complex sociotechnical systems.
 
 Systems play by their own rules. Merriam-Webster defines a system as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
 
 As the Senge quote implies, brute force does not scale well. This arises from the fact that our actions lead to outcomes, which in turn affect our future actions. This *feedback* often becomes amplified and re-amplified until an overload occurs, such as the horrible screeching of a microphone too close to a speaker that bears the same name. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success.
 
-A thorough discussion of systems theory is beyond the scope of this book. Many of the ideas that follow are underpinned and/or are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.
+A thorough discussion of systems theory is beyond the scope of this book. Many of the ideas that follow are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.
 
 Feedback is a loaded term. We hear terms like positive feedback, negative feedback, and associate it quickly with performance coaching and management discipline. That is not the sense of feedback in this book.
 
-The definition of feedback as used in this book is based on engineering. There is considerable related theory in general engineering and especially control theory and the reader is encouraged to investigate some of these foundations if unfamiliar.
-
-(***SDLC 3.0)
+The definition of feedback as used in this book is based on engineering. There is considerable related theory in general engineering and especially control theory and the reader is encouraged to investigate some of these foundations if unfamiliar, e.g. <<Kennaley2010>>.
 
 Here is the classic illustration of a feedback loop:
 
@@ -39,18 +39,30 @@ image::images/rabbitfox.png[]
 
 More rabbits equals more foxes (notice the “+” symbol on the line), because there are more rabbits to eat! But what does this do to the rabbits? It means LESS rabbits. Which, ultimately, means less foxes… and at some point, the populations balance. This is classic negative feedback. However, the local foxes don’t see it as negative (nor the local gardeners!)  That is why feedback experts prefer to call this “balancing” feedback.
 
-What does this have to do with building IT systems?
+image::https://upload.wikimedia.org/wikipedia/commons/d/d8/CLD_links_ANI.gif[]
+Linked from https://en.wikipedia.org/wiki/Causal_loop_diagram[Wikipedia]
 
+Wikipedia has good articles on https://en.wikipedia.org/wiki/Causal_loop_diagram[Causal Loop Diagramming] and https://en.wikipedia.org/wiki/System_dynamics[Systems Dynamics] (with cool dynamic visuals.) <<Sterman2000>> is the definitive text with applications.
+
+==== What does systems thinking have to do with IT?
 First, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources.
+
 Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Balancing feedback in a business and IT context takes a wide variety of forms:
-- The end users calling to tell you the “system is slow” (or down)
-- The product owner or portfolio sponsor calling to tell you they are not satisfied with the system’s value
+
+* The product owner clarifying for developers the precise user experience vision for the product, based on a demonstration of developer work in process
+* The end users calling to tell you the “system is slow” (or down)
+* The product owner or portfolio sponsor calling to tell you they are not satisfied with the system’s value
 
 In short, we see these two basic kinds of feedback:
-- Positive/Reinforcing, “do more of that”
-- Negative/Balancing, “stop doing that,” “fix that”
 
-Positive feedback: the special case investors want
+* Positive/Reinforcing, “do more of that”
+* Negative/Balancing, “stop doing that,” “fix that”
+
+===== Positive feedback: the special case investors want
+
+image::https://upload.wikimedia.org/wikipedia/commons/7/7c/Adoption_SFD_ANI_s.gif[]
+Linked from https://en.wikipedia.org/wiki/System_dynamics[Wikipedia]
+
 At a business level, there is a special kind of positive feedback that defines the successful business:
 
 image::images/biz-positive.png[]
@@ -59,16 +71,20 @@ This is reinforcing feedback and positive for most people involved: investors, c
 
 At some point, if the cycle continues, it will run into balancing feedback:
 
-- Competition
-- Market saturation
-- Negative externalities (regulation, pollution, etc)
+* Competition
+* Market saturation
+* Negative externalities (regulation, pollution, etc)
 
 But those are the problems the business wants to have.
 
+===== Open vs closed loop systems
+
 Finally, we should talk briefly about open loop versus closed loop systems.
 
-Open loop systems have no regulation, no balancing feedback
-Closed loop systems have some form of balancing feedback
+* Open loop systems have no regulation, no balancing feedback
+* Closed loop systems have some form of balancing feedback
+
+In navigation terminology, the open-loop attempt to stick to a course without external information (e.g. navigating in the fog, without radar or communications) is known as " https://en.wikipedia.org/wiki/Dead_reckoning[dead reckoning]," in part because it can easily get you dead!
 
 A good example of an open loop system is the children’s game “pin the tail on the donkey.” In “pin the tail on the donkey,” a person has to execute a process while blindfolded, based on their memory of their location (and perhaps after being deliberately disoriented by spinning in circles). Since they are blindfolded, they have to move across the room and pin the tail without the ongoing corrective feedback of their eyes. (Perhaps they are getting feedback from their friends, but perhaps their friends are not reliable…)
 
@@ -76,8 +92,7 @@ image::images/donkey.jpg[]
 https://www.flickr.com/photos/portland_mike/5445434245/[Photo Credit - mike krzeszak, Flickr, Creative Commons]
 
 Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
-This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. This section is about closing the loops. More on this in sections three and four.
 
-Conjecture: "command and control culture" means open loop control. Agile culture also controls, but through closed loop.
+This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system.
 
-Engineers of complex systems use feedback techniques extensively. Complex systems do not work without these.
+Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*

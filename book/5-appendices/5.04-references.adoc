@@ -62,13 +62,14 @@
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
 
+- [[[Keefer2006]]]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
 
-- [[[Keefer2006]]]: Keefer, G. The CMMI Considered Harmful For Quality Improvement And Supplier Selection. 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
-
+- [[[Kennaley2010]]]: Kennaley, M., 2010. _SDLC 3.0: Beyond a Tacit Understanding of Agile: Towards the Next Generation of Software Engineering_ Fourth Medium Consulting.
 
 - [[[Kim2013]]]: Kim, G.; Behr, K. & Spafford, G. (2013), _The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win_, IT Revolution Press
 
 - [[[Kniberg2011]]]: Kniberg, H.; Beck, K. & Keppler, K. (2011), _Lean from the trenches : managing large-scale projects with Kanban_, Pragmatic Bookshelf, Dallas, Tex.
+
 - [[[Koskela2002]]]:Koskela, L.H., Gregory The underlying theory of project management is obsolete. 2002. http://www.researchgate.net/publication/3229647_The_Underlying_Theory_of_Project_Management_Is_Obsolete
 
 - [[[Krafcik1988]]]:Krafcik, J. (1988),"Triumph of the lean production system",  _Sloan Management Review_  30(1), 41-52.
@@ -110,6 +111,8 @@
 - [[[Shortland2012]]]: Shortland, A. & Lei, M. (2012), "Using Rundeck and Chef to build DevOps Toolchains", http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/
 
 - [[[Silverston2008]]]: Silverston, L. (2008), _The data model resource book Vol 3: Universal patterns for data modeling_, Wiley, Indianapolis, Ind.
+
+- [[[Sterman2000]]]: 	Sterman, J., 2000. _Business dynamics : systems thinking and modeling for a complex world_ Boston: Irwin/McGraw-Hill. xxvi, 982 p.
 
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
 

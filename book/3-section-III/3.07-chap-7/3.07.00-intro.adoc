@@ -44,3 +44,8 @@ Sidebar: Spotify overview
 * identify key cultural themes from Toyota Kata
 * distinguish between functional versus product organization
 * _something with Mintzberg and/or Narayan_
+
+
+Conjecture: "command and control culture" means open loop control. Agile culture also controls, but through closed loop.
+
+E

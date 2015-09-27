@@ -7,7 +7,7 @@
 
 While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex https://en.wikipedia.org/wiki/Sociotechnical_system[sociotechnical system], that delivers the services to support a myriad of other complex sociotechnical systems.
 
-Systems play by their own rules. Merriam-Webster defines a system as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
+Systems play by their own rules. Merriam-Webster http://www.merriam-webster.com/dictionary/system[defines a system] as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
 
 As the Senge quote implies, brute force does not scale well. This arises from the fact that our actions lead to outcomes, which in turn affect our future actions. This *feedback* often becomes amplified and re-amplified until an overload occurs, such as the horrible screeching of a microphone too close to a speaker that bears the same name. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success.
 

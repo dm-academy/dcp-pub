@@ -11,11 +11,12 @@ Systems play by their own rules. Merriam-Webster defines a system as "a regularl
 
 As the Senge quote implies, brute force does not scale well. This arises from the fact that our actions lead to outcomes, which in turn affect our future actions. This *feedback* often becomes amplified and re-amplified until an overload occurs, such as the horrible screeching of a microphone too close to a speaker that bears the same name. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success.
 
-A thorough discussion of systems theory is beyond the scope of this book. Many of the ideas that follow are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.
+A thorough discussion of systems theory is beyond the scope of this book. However, many of the ideas that follow are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.
 
+===== Defining feedback, with examples
 Feedback is a loaded term. We hear terms like positive feedback, negative feedback, and associate it quickly with performance coaching and management discipline. That is not the sense of feedback in this book.
 
-The definition of feedback as used in this book is based on engineering. There is considerable related theory in general engineering and especially control theory and the reader is encouraged to investigate some of these foundations if unfamiliar, e.g. <<Kennaley2010>>.
+The definition of feedback as used in this book is based on engineering. There is considerable related theory in general engineering and especially https://en.wikipedia.org/wiki/Control_theory[control theory] and the reader is encouraged to investigate some of these foundations if unfamiliar.
 
 Here is the classic illustration of a feedback loop:
 
@@ -108,6 +109,6 @@ https://www.flickr.com/photos/portland_mike/5445434245/[Photo Credit - mike krze
 
 Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
 
-This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system.
+This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. <<Kennaley2010>> applies these principles to software development in much greater depth; recommended.
 
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*

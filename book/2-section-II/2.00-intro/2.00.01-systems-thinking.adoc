@@ -48,18 +48,21 @@ Wikipedia has good articles on https://en.wikipedia.org/wiki/Causal_loop_diagram
 
 In an engineering sense, positive feedback is often dangerous and a topic of concern.
 
-NOTE: The classic example of bad positive feedback in engineering is the collapse of the Tacoma Narrows bridge, "Galloping Gertie." +
- +
-image:https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/TacomaNarrowsBridgeCollapse_in_color.jpg/220px-TacomaNarrowsBridgeCollapse_in_color.jpg[]
+****
+The classic example of bad positive feedback in engineering is the collapse of the Tacoma Narrows bridge, "Galloping Gertie."
+
+image::https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/TacomaNarrowsBridgeCollapse_in_color.jpg/220px-TacomaNarrowsBridgeCollapse_in_color.jpg[]
+
 https://upload.wikimedia.org/wikipedia/commons/1/19/Tacoma_Narrows_Bridge_destruction.ogg[Video]
 
 Linked from https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)[Wikipedia].
+****
 
 As with bridges, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources. See http://osr507doc.sco.com/en/HANDBOOK/runaway_proc.html[Runaway processes.]
 
 NOTE: Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list") which generate more emails ("stop emailing the list") and so on.
 
-Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Engineers use concepts of control theory and damping, to keep bridges from falling down. Balancing feedback in a business and IT context takes a wide variety of forms:
+Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Engineers use concepts of https://en.wikipedia.org/wiki/Control_theory[control theory], for example https://en.wikipedia.org/wiki/Damping[damping], to keep bridges from falling down. Balancing feedback in a business and IT context takes a wide variety of forms:
 
 * The product owner clarifying for developers the precise user experience vision for the product, based on a demonstration of developer work in process
 * The end users calling to tell you the “system is slow” (or down)

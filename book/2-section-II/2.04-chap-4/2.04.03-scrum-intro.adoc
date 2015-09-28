@@ -2,7 +2,7 @@
 
 [quote, Chris Sims/Hillary L. Johnson, Scrum: A Breathtakingly Brief and Agile Introduction]
 One way that the product owner maximizes ROI is by directing the team toward the most valuable work, and away from less valuable work. That is, the product owner controls the order, sometimes called priority, of items in the team’s backlog. In scrum, no-one but the product owner is authorized to ask the team to do work or to change the order of backlog items.
-
+ 
 [quote, Jeff Sutherland, Scrum: The Art of Doing Twice the Work in Half the Time]
 There Are No Tasks; There Are Only Stories.
 

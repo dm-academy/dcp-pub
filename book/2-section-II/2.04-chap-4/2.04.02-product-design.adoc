@@ -1,11 +1,11 @@
 ==== Product Design
 
-Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design.
+Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design. 
 
 ===== Software and systems engineering
 Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.
 
-We will 
+We will
 
 ===== Lean Startup
 

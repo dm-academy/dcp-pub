@@ -1,13 +1,30 @@
 ==== Product Design
 
-Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design. 
+[quote, Jeff Sussna]
+Design thinking is changing an existing to a preferred state...
 
-===== Software and systems engineering
-Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.
+Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design.
 
-We will
+The presence of a section entitled "product design" in this book is a marked departure from other IT management textbooks. "Traditional" models of IT delivery focus on projects and deliverables, concepts we will not explore until chapter 8.
+
+However, the ideas of projects and deliverables represent approaches that are more open-loop, or at least delayed in feedback. Design processes do not perform well when feedback is delayed.
 
 ===== Lean Startup
+[quote, Eric Ries, The Lean Startup]
+...some Ries quote here
+
+Lean Startup is a philosophy of entrepreneurship developed by Eric Ries <<Ries2011>>. It is not specific to information technology; rather, it is broadly applicable to all attempts to understand a product and its market. (Remember according to our definition that a workable market position is essential to any product.)
+
+The idea of the Lean Startup has had profound influence on product design, including market-facing and even internal IT systems. It is grounded in Agile concepts such as
+
+"Do the simplest thing that could possibly work."
+
+Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this cycle frequently is the essential process of building a successful startup (whatver the digital proportion).
+
+* Develop an idea for a Minimum Viable Product
+
+
+*Limitations of Lean Startup philosophy*
 
 ===== LeanUX and Design Thinking
 
@@ -35,3 +52,9 @@ http://scaledagileframework.com/features-components/
 Spotify also uses “client app” squads.
 
 We will be revisiting this more systematically in chapter 7.
+
+
+===== Software and systems engineering
+Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.
+
+We will

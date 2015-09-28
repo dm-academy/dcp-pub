@@ -1,4 +1,7 @@
-==== The thought and influence of Don Reinertsen
+==== Lean, Lean Product Development, and Don Reinertsen
+
+Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement. _etc_
+
 
 OODA sidebar
 

@@ -13,8 +13,6 @@ None of these are how this book defines “IT.” Although this is not a technic
 
 Therefore, “information technology” is defined as the edifice of theory and practice based on the work of https://en.wikipedia.org/wiki/Claude_Shannon[Claude Shannon], https://en.wikipedia.org/wiki/Alan_Turing[Alan Turing], https://en.wikipedia.org/wiki/Alonzo_Church[Alonzo Church], https://en.wikipedia.org/wiki/John_von_Neumann[John von Neumann], and the other pioneers who defined the central problems of https://en.wikipedia.org/wiki/Information_theory[information theory], https://en.wikipedia.org/wiki/Digital_electronics[digital logic],  https://en.wikipedia.org/wiki/Computability[computability], and https://en.wikipedia.org/wiki/Computer_architecture[computer architecture].
 
-image::images/1.01-ProportionOfIT.png[]
-
 Discussions of “information technology” become contentious because some think of the traditional organization, while others think of the general problem area. IT has a long history as a corporate function, a single hierarchy under a powerful Chief Information Officer. This model has had its dysfunctions, including a longstanding reputation for being slow and expensive. Often, when one encounters the term “IT,” the author using the term is referring to this organizational tradition.
 
 *We are less interested in the future of IT as a distinct organizational structure. There are many different models, from fully centralized to fully embedded.* Organizational structure will be discussed in Chapter 7.
@@ -26,6 +24,10 @@ Regardless of organizational form or delivery methods, IT is defined by these or
 It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.
 
 ====== IT and digital transformation
+
+ [add Sussna quote - various good ones]
+
+image::images/1.01-ProportionOfIT.png[]
 
 IT increasingly permeates business operations and social interactions. The breadth and depth of IT support for virtually all domains of society continues to expand. Lately, this is known as digital transformation.
 

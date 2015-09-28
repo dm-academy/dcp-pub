@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ya hey look everyone Charlie's about the worst shell scripter you ever saw :-)
+
 # don't go running this thing without a thorough understanding.
 # (well, it probably wouldn't hurt you, but it'll certainly blow up all over the place.)
 # MUST be run from aitm dir
@@ -31,7 +31,7 @@ cp *.html ../aitm-pages/
 cd ../aitm-pages   # ugly & brittle.
 git pull # pull down previous html. never gets edited by hand.
 
-git add . && git commit -m "commit"
+git add . -A && git commit -m "commit"
 git push origin gh-pages
 cd ../aitm
 

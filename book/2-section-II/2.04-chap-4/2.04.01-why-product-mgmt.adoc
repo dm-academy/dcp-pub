@@ -86,13 +86,16 @@ a Product Manager is the one person in the whole organization who owns the produ
 revisit "who pays", plus infrastructure
 
 ===== Productization as a strategy at Amazon
-Amazon represents two critical responses to the problem of large-scale IT failure (as identified in the outset of the book.) First, the founder Jeff Bezos mandated that all software development should be service-oriented, and assume that the functionality being built might at some point be offered to external customers.
+Amazon (the online bookseller) is an important influence in the modern trend towards product-centric IT management. First, the founder Jeff Bezos mandated that all software development should be http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/[service-oriented], and assume that the functionality being built might at some point be offered to external customers.
 
-Second, a widely reported practice at Amazon.com is the limitation of product teams to between 5-7 people, the number that can be fed by “two pizzas” (depending on how hungry they are).
-There are good reasons for this approach. It has long been recognized in software and IT management that larger teams do not necessarily result in higher productivity. The best known statement of this is Fred Brooks’ rule from The Mythical Man-Month, that “adding people to a late project will make it later.”
+Second, a widely reported practice at Amazon.com is the http://www.fastcompany.com/3037542/productivity-hack-of-the-week-the-two-pizza-approach-to-productive-teamwork[limitation of product teams to between 5-7 people], the number that can be fed by “two pizzas” (depending on how hungry they are).
 
-The reasons for this have been extensively studied and analyzed (***Madachy) but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.
+There are http://blog.idonethis.com/two-pizza-team/[good reasons] for this approach. It has long been recognized in software and IT management that larger teams do not necessarily result in higher productivity. The best known statement of this is Fred Brooks’ rule from The Mythical Man-Month, that “adding people to a late project will make it later.”<<Brooks1975>>
+
+NOTE: Fred Brooks' _The Mythical Man-Month_, derived in part from his experiences leading the IBM OS-360 project, is one of the timeless classics in software engineering and IT management writing. Serious IT professionals, whether or not they are actually programmers, should have it on their bookshelves.
+
+The reasons for this have been extensively studied and analyzed <<Madachy2008>> but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.
 
 This in turn means that newcomers to a product development organization can have a profound impact on the product. Getting them “up to speed” with the culture, mental models, and tacit assumptions of the existing team can be challenging and rarely is simple. And the bigger the team, the bigger the problem.
 
-The net result of these two practices is the creation of multiple nimble services that are decoupled from each other, constructed and supported by teams appropriately sized for optimal high-value interactions.
+The net result of these two practices at Amazon is the creation of multiple nimble services that are decoupled from each other, constructed and supported by teams appropriately sized for optimal high-value interactions.

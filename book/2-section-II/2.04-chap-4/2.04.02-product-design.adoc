@@ -1,6 +1,11 @@
 ==== Product Design
 
-Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design. 
+Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design.
+
+===== Software and systems engineering
+Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.
+
+We will 
 
 ===== Lean Startup
 
@@ -13,11 +18,15 @@ Now that we have surveyed the overall field of product management, we can turn m
 As your product evolves, you may see an increasing differentiation of concerns, between features and components.
 
 Features are what your product *does*. They are what the customers perceive as valuable.
+
 “Scope as viewed by the customer” (*** Kennaley sdlc 3.0, p169)
+
 Components are how your product is built, such as database vs. Web components.
 
 Feature teams are dedicated to a clearly defined functional scope, while component teams are defined by their technology platform. Component teams may become shared services, which need to be carefully understood and managed (more on this in Section 3).
+
 It may be easy to say that features are more important than products, but this can easily be carried too far. Do you want each feature team choosing its own database? Not recommended. Allowing feature teams to define their own technical direction can result in brittle, fragmented architectures, technical debt, and rework.
+
 Software product management needs to be a careful balance between these two perspectives. Some recommend a ratio of 70-80% Feature teams to 20-30% Component teams  (http://blog.octo.com/en/feature-team-beyond-the-buzzword/).
 
 http://blog.octo.com/en/feature-team-beyond-the-buzzword/

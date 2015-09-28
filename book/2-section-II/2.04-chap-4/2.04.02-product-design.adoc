@@ -11,7 +11,7 @@ However, the ideas of projects and deliverables represent approaches that are mo
 
 ===== Lean Startup
 [quote, Eric Ries, The Lean Startup]
-...some Ries quote here
+The goal of a startup is to figure out the right thing to build— the thing customers want and will pay for— as quickly as possible. In other words, the Lean Startup is a new way of looking at the development of innovative new products that emphasizes fast iteration and customer insight, a huge vision, and great ambition, all at the same time.
 
 Lean Startup is a philosophy of entrepreneurship developed by Eric Ries <<Ries2011>>. It is not specific to information technology; rather, it is broadly applicable to all attempts to understand a product and its market. (Remember according to our definition that a workable market position is essential to any product.)
 
@@ -21,14 +21,11 @@ The idea of the Lean Startup has had profound influence on product design, inclu
 
 Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this cycle frequently is the essential process of building a successful startup (whatver the digital proportion).
 
-* Develop an idea for a Minimum Viable Product
-
-
-*Limitations of Lean Startup philosophy*
-
-===== LeanUX and Design Thinking
-
-===== Tracking product decisions
+* Develop an idea for a Minimum Viable Product (MVP)
+* Measure its effectiveness in the market (internal/external)
+* Learn from the experiment
+* Decide to persevere or pivot (change direction while leveraging momentum)
+* New idea development, evolution of MVP
 
 ===== Features vs. components
 
@@ -44,17 +41,19 @@ Feature teams are dedicated to a clearly defined functional scope, while compone
 
 It may be easy to say that features are more important than products, but this can easily be carried too far. Do you want each feature team choosing its own database? Not recommended. Allowing feature teams to define their own technical direction can result in brittle, fragmented architectures, technical debt, and rework.
 
-Software product management needs to be a careful balance between these two perspectives. Some recommend a ratio of 70-80% Feature teams to 20-30% Component teams  (http://blog.octo.com/en/feature-team-beyond-the-buzzword/).
+Software product management needs to be a careful balance between these two perspectives. Some http://blog.octo.com/en/feature-team-beyond-the-buzzword/[recommend] a ratio of
 
-http://blog.octo.com/en/feature-team-beyond-the-buzzword/
-http://scaledagileframework.com/features-components/
+* 70-80% Feature teams to
 
-Spotify also uses “client app” squads.
+* 20-30% Component teams
 
 We will be revisiting this more systematically in chapter 7.
 
-
 ===== Software and systems engineering
+
 Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.
 
-We will
+Frequent criticisms of Lean Startup and related trends are,
+
+* They are relevant only for non-critical Internet-based products (e.g. Facebook and Netflix)
+* Some IT products must fit much tighter specifications and do not have the freedom to "pivot" (e.g. aerospace & defense systems)

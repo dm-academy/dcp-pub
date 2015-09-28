@@ -83,7 +83,7 @@ In our scenario, you are now on a tight-knit, collaborative team. It is preferab
 a Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf
 
 ===== Market facing, supporting, back office
-In Chapter 1 we discussed the question of "who pays/who benefits" for the service, http://dm-academy.github.io/aitm/#_defining_consumer_customer_and_sponsor[proposing that] the service consumer, the service customer, and the service sponsor might be three distinct roles (sometimes collapsing into 2 or 1 individual.) 
+In Chapter 1 we discussed the question of "who pays/who benefits" for the service, http://dm-academy.github.io/aitm/#_defining_consumer_customer_and_sponsor[proposing that] the service consumer, the service customer, and the service sponsor might be three distinct roles (sometimes collapsing into 2 or 1 individual.)
 
 We see this again in how we can categorize the "customers" of IT services and systems. Roughly, such services can be:
 

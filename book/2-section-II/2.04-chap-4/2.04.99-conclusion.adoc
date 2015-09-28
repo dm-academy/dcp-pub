@@ -7,10 +7,20 @@ Conclusion placeholder
 ===== Research & practice
 
 ===== Further reading
+
+*Books*
 * Reinertsen, Principles of Product Development Flow
-* http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/
+
+*Articles*
+ http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/
 
 * http://blackswanfarming.com/workshop-quantifying-the-cost-of-delay/
 
+http://blog.octo.com/en/feature-team-beyond-the-buzzword/
+http://scaledagileframework.com/features-components/
+
+*Videos*
+
+*Professional*
 Professional
 http://www.pdma.org/[Product Development and Marketing Association]

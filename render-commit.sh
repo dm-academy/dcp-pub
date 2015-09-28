@@ -25,11 +25,11 @@ mv aitm-student.html index.html  # hack, I should figure out the CLI parm for th
 # copy html & images to github pages
 # dependent on successfully changing directories along relative paths. heaven help the person who runs this other than from the aitm dir.
 
-cd ../aitm-pages   # ugly & brittle.
-git pull # pull down previous html. never gets edited by hand.
-
 cp -R images ../aitm-pages/
 cp *.html ../aitm-pages/
+
+cd ../aitm-pages   # ugly & brittle.
+git pull # pull down previous html. never gets edited by hand.
 
 git add . && git commit -m "commit"
 git push origin gh-pages

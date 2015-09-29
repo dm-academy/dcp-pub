@@ -54,7 +54,10 @@ We will be revisiting this more systematically in chapter 7.
 
 Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.
 
-Frequent criticisms of Lean Startup and related trends are,
+Frequent criticisms of Lean Startup and related trends are:
 
 * They are relevant only for non-critical Internet-based products (e.g. Facebook and Netflix)
 * Some IT products must fit much tighter specifications and do not have the freedom to "pivot" (e.g. aerospace & defense systems)
+
+===== Parable: The flower and the cog
+ [TBW]

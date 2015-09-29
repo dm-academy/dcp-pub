@@ -65,7 +65,7 @@ Sidebar: Quality and Continuous Improvement
 
 
 
-[Domain modeling]
+ [Domain modeling]
 
 http://12factor.net/build-release-run
 

@@ -1,4 +1,4 @@
-
+==== Domain model
 This domain model is in particular difficult, as it highlights the contending nature of the “traditional” versus “agile” language. Is a Program an Epic? Or is a Project? There can be no definitive answer to such questions.
 
 [cols="2*", options="header"]

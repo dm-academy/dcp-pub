@@ -5235,18 +5235,23 @@ The goal of a startup is to figure out the right thing to build— the thing cus
 </div>
 </div>
 <div class="sect4">
+<h5 id="_impact_mapping">Impact mapping</h5>
+<div class="literalblock">
+<div class="content">
+<pre>[TBW]</pre>
+</div>
+</div>
+</div>
+<div class="sect4">
 <h5 id="_features_vs_components">Features vs. components</h5>
 <div class="paragraph">
 <p>As your product evolves, you may see an increasing differentiation of concerns, between features and components.</p>
 </div>
 <div class="paragraph">
-<p>Features are what your product <strong>does</strong>. They are what the customers perceive as valuable.</p>
+<p>Features are <strong>what</strong> your product <strong>does</strong>. They are what the customers perceive as valuable. “Scope as viewed by the customer” as <a href="#Kennaley2010">[Kennaley2010]</a> says (p. 169).</p>
 </div>
 <div class="paragraph">
-<p>“Scope as viewed by the customer” (<strong>*</strong> Kennaley sdlc 3.0, p169)</p>
-</div>
-<div class="paragraph">
-<p>Components are how your product is built, such as database vs. Web components.</p>
+<p>Components are <strong>how</strong> your product is <strong>built</strong>, such as database vs. Web components. In other words, they are a form of infrastructure (but infrastructure you may need to build yourself, rather than just spin up in the Cloud).</p>
 </div>
 <div class="paragraph">
 <p>Feature teams are dedicated to a clearly defined functional scope, while component teams are defined by their technology platform. Component teams may become shared services, which need to be carefully understood and managed (more on this in Section 3).</p>
@@ -5295,7 +5300,7 @@ The goal of a startup is to figure out the right thing to build— the thing cus
 <h4 id="_introducing_scrum">Introducing Scrum</h4>
 <div class="quoteblock">
 <blockquote>
-One way that the product owner maximizes ROI is by directing the team toward the most valuable work, and away from less valuable work. That is, the product owner controls the order, sometimes called priority, of items in the team’s backlog. In scrum, no-one but the product owner is authorized to ask the team to do work or to change the order of backlog items.
+Scrum is a lightweight framework designed to help small, close-knit teams of people develop complex products.
 </blockquote>
 <div class="attribution">
 &#8212; Chris Sims/Hillary L. Johnson<br>
@@ -5312,61 +5317,30 @@ There Are No Tasks; There Are Only Stories.
 </div>
 </div>
 <div class="paragraph">
-<p>“The more frequently the team delivers a potentially shippable product increment, the greater freedom the business has in deciding when and what to ship. Notice that there are 2 separate decisions here: Is the product potentially shippable? That is to say, is the quality high enough that the business could ship it? Are all of the current stories done? This is a decision for the team.”</p>
+<p>One of the first Agile methodologies you are likely to encounter as a practitioner is Scrum. There are many books, classes, and websites where you can learn more about this framework; <a href="#Sims2012">[Sims2012]</a> is a good introduction.</p>
 </div>
 <div class="paragraph">
-<p>Sims, Chris; Johnson, Hillary Louise (2014-07-30). Scrum: a Breathtakingly Brief and Agile Introduction (Kindle Locations 151-154). Dymaxicon. Kindle Edition.</p>
+<p>We mention Scrum in this chapter, as it is very product-focused. It calls for the roles of</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Product owner</p>
+</li>
+<li>
+<p>Scrum master</p>
+</li>
+<li>
+<p>Team member</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p><a href="http://12factor.net/build-release-run" class="bare">http://12factor.net/build-release-run</a></p>
+<p>and avoids further elaboration of roles.</p>
 </div>
 <div class="paragraph">
-<p>Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.</p>
+<p>The Scrum product owner is responsible for seeing that the team executes the highest value work. To do this, the potential features for the product are maintained in a "backlog" that can be re-prioritized as necessary (rather than a large, fixed-scope project).</p>
 </div>
-<div class="paragraph">
-<p>Increasingly, as operational performance is defined in code (the trend to Infrastructure as Code), operational issues are equivalent to development defects.</p>
-</div>
-<div class="paragraph">
-<p>This domain model is in particular difficult, as it highlights the contending nature of the “traditional” versus “agile” language. Is a Program an Epic? Or is a Project? There can be no definitive answer to such questions.</p>
-</div>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Term</th>
-<th class="tableblock halign-left valign-top">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Epic</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A large scale increment of work that can be described as a value scenario narrative.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Program</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A large scale increment of work, typically expressed in terms of deliverables, resources, and activities.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Project</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A defined set of manageable activities to achieve a well-specified mission, usually represented by some set of deliverables or enumerated changes, with explicitly allocated resources (time, money, staff), executed and measured within the scope of those resources. Projects in many cases are constrained to a fiscal year.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Release</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">An increment of functionality managed as a coherent, customer facing change. Implies communication, training, awareness of market impact.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sprint</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">In Scrum methodology, a fixed increment of time (typically on the order of 1-4 weeks) in which a certain scope of work is attempted.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Story</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">A specific, granular value scenario, often written in a characteristic format.</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 <div class="sect3">
 <h4 id="_lean_lean_product_development_and_don_reinertsen">Lean, Lean Product Development, and Don Reinertsen</h4>
@@ -5687,6 +5661,9 @@ Professional
 <p>Describe impact and dependency analysis and why it is important</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>Increasingly, as operational performance is defined in code (the trend to Infrastructure as Code), operational issues are equivalent to development defects.</p>
 </div>
 </div>
 </div>
@@ -6186,6 +6163,12 @@ request should qualify for maintenance, or requires project facilities (<strong>
 <p>Identify the problems of process proliferation with respect to execution and demand</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p><a href="http://12factor.net/build-release-run" class="bare">http://12factor.net/build-release-run</a></p>
+</div>
+<div class="paragraph">
+<p>Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.</p>
 </div>
 </div>
 </div>

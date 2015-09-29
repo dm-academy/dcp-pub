@@ -1,10 +1,22 @@
 ==== Lean, Lean Product Development, and Don Reinertsen
 
-Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement. _etc_
+We've had passing mention of Lean already in this book. But what is Lean?
 
+Lean is the name given to a cohesive set of practices generally attributed to https://en.wikipedia.org/wiki/Taiichi_Ohno[Taiichi Ohno] and https://en.wikipedia.org/wiki/Shigeo_Shingo[Shigeo Shingo] at https://en.wikipedia.org/wiki/Toyota[Toyota]. These practices included:
 
-OODA sidebar
+* Respect for people
+* Small batch sizes (driving towards "single piece flow")
+* Just-in-time production
+* Increased cycle time
+
+There are many, many other aspects to Lean.
+
+IMPORTANT: Lean is important. Regardless of your intended career path, it is advisable to read the great Lean classics, including http://www.goodreads.com/book/show/93903.Machine_That_Changed_the_World[The Machine That Changed the World], http://www.goodreads.com/book/show/289467.Lean_Thinking[Lean Thinking], http://www.goodreads.com/book/show/161789.The_Toyota_Way[The Toyota Way], and Ohno's own http://www.goodreads.com/book/show/376237.Toyota_Production_System[Toyota Production System]. http://www.goodreads.com/book/show/6736366-toyota-kata[Toyota Kata] is a more recent work, highly informative regarding Toyota's culture.
+
+One of the 
 
 asymmetric rewards
 
 pyramid
+
+OODA sidebar

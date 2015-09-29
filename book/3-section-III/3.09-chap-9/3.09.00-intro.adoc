@@ -62,3 +62,11 @@ Sidebar: Quality and Continuous Improvement
 * Describe the relationship between business process and business performance
 * Describe the origins, purpose, and scope of ITIL and CMMI
 * Identify the problems of process proliferation with respect to execution and demand
+
+
+
+[Domain modeling]
+
+http://12factor.net/build-release-run
+
+Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.

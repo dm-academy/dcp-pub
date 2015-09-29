@@ -27,15 +27,16 @@ Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this
 * Decide to persevere or pivot (change direction while leveraging momentum)
 * New idea development, evolution of MVP
 
+===== Impact mapping
+ [TBW]
+
 ===== Features vs. components
 
 As your product evolves, you may see an increasing differentiation of concerns, between features and components.
 
-Features are what your product *does*. They are what the customers perceive as valuable.
+Features are *what* your product *does*. They are what the customers perceive as valuable. “Scope as viewed by the customer” as <<Kennaley2010>> says (p. 169).
 
-“Scope as viewed by the customer” (*** Kennaley sdlc 3.0, p169)
-
-Components are how your product is built, such as database vs. Web components.
+Components are *how* your product is *built*, such as database vs. Web components. In other words, they are a form of infrastructure (but infrastructure you may need to build yourself, rather than just spin up in the Cloud).
 
 Feature teams are dedicated to a clearly defined functional scope, while component teams are defined by their technology platform. Component teams may become shared services, which need to be carefully understood and managed (more on this in Section 3).
 

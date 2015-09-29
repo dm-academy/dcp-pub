@@ -56,3 +56,6 @@ Sidebar: Configuration Management and the CMDB
 * Distinguish kinds of work, esp operational vs development
 * Describe operational feedback into product design & the kinds of concerns it raises
 * Describe impact and dependency analysis and why it is important
+
+
+Increasingly, as operational performance is defined in code (the trend to Infrastructure as Code), operational issues are equivalent to development defects.

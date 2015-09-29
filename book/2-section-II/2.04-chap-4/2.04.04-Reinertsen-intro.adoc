@@ -5,6 +5,7 @@ We've had passing mention of Lean already in this book. But what is Lean?
 Lean is the name given to a cohesive set of practices generally attributed to https://en.wikipedia.org/wiki/Taiichi_Ohno[Taiichi Ohno] and https://en.wikipedia.org/wiki/Shigeo_Shingo[Shigeo Shingo] at https://en.wikipedia.org/wiki/Toyota[Toyota]. These practices included:
 
 * Respect for people
+* Limiting work in process
 * Small batch sizes (driving towards "single piece flow")
 * Just-in-time production
 * Increased cycle time
@@ -23,10 +24,41 @@ In IT, simply developing software for a new problem (or even new software for an
 
 But that does not mean it is completely un-manageable, that its creation is a myterious artistic process. It is just a more variable process, with a higher chance of failure, and a need to incorporate feedback quickly to avoid any risk of open-loop control failure.
 
+These ideas are well known to the Agile community and its authors. However, there is one thought leader who stands out in this field, an ex-Naval officer named Donald Reinertsen.
 
+There are many books on Agile development and management. Consider the following books, all well known and respected in the fields of software development and Agile:
 
-asymmetric rewards
+image::images/2.04-books.png[]
 
-pyramid
+What do they all have in common? They all cite Don Reinertsen:
 
-OODA sidebar
+image::images/2.04-books-dr.png[]
+
+Reinertsen was partnering with David Anderson when Anderson created Kanban. He wrote the introduction to Leffingwell's _Agile Software Requirements_, the initial statement of the Scaled Agile Framework. His influence is pervasive across the Agile community.
+
+Reinertsen's work is deep and based on fundamental mathematical principles such as queueing theory (lightly touched on in _The Phoenix Project_). One way of reading his work is as a series of interdependent principles:
+
+. The flow, or throughput of product innovation is the primary determinant of financial success
+. Flow requires fast http://dm-academy.github.io/aitm/#_a_brief_introduction_to_feedback[feedback]
+. Feedback requires limiting work in process
+. Limiting work in process in product design contexts requires rigorous prioritization capabilities
+. Effective, economical prioritization requires understanding the http://www.leadingagile.com/2015/06/an-introduction-to-cost-of-delay/[cost of delay] for individual product features
+. Understanding cost of delay requires smaller batch sizes, consisting of cohesive features, not large projects.
+
+These can be summarized in the following pyramid:
+
+image::images/2.04-pyramid.png[]
+
+===== OODA sidebar
+After the Korean War, the US Air Force wished to clarify why its pilots had performed in a superior manner to the opposing pilots who were flying aircraft viewed as more capable.
+
+Boyd determined that humans go through a defined process in building their mental model of complex and dynamic situations. This has been formalized in the concept of the OODA loop. Standing for:
+
+* Observe
+* Orient
+* Decide
+*	Act
+
+Because the US fighters were lighter, more maneuverable, and had better visibility, their pilots were able to execute the OODA loop more quickly than their opponents, leading to victory.
+
+Boyd and others have extended this concept into various other domains including business strategy. The concept of the OODA loop is frequently mentioned in presentations on Agile methods. It is, of course, a feedback loop. 

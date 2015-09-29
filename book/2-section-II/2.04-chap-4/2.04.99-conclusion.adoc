@@ -1,25 +1,37 @@
 ==== Conclusion
 
-Conclusion placeholder
+Product-centric thinking is at the core of delivering digital value. Without a clear understanding of the product and its context, investments of time and resources are at risk.
+
+As with most other chapters in this book, this brief survey cannot do justice to such a broad field.
 
 ===== Discussion questions
+* Can you identify two or three distinct features for a commercial product such as Facebook or Netflix? Try to "reverse engineer" features that might have been individual areas of investment.
+* In your product idea, what specific features - self-contained, cohesive, and independent of each other - can you think of?
+* Can you think of any components  (as defined above) you will need?
 
 ===== Research & practice
+* Review the Scaled Agile Framework's descriptions of http://www.scaledagileframework.com/feature/[features] and http://www.scaledagileframework.com/stories/[user stories]. Document one feature consisting of several stories for your product.
+* Research Behavior-Driven Development and consider its potential value for you.
 
 ===== Further reading
 
 *Books*
-* Reinertsen, Principles of Product Development Flow
+
+* Donald Reinertsen, http://www.goodreads.com/book/show/6278270-the-principles-of-product-development-flow[_Principles of Product Development Flow: Second Generation Lean Product Development_]
+
+* Eric Ries, http://www.goodreads.com/book/show/10127019-the-lean-startup[_The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses_]
+
+* Chris Sims and Hilary Louise Johnson, http://www.goodreads.com/book/show/18674785-scrum[_Scrum: a Breathtakingly Brief and Agile Introduction_]
 
 *Articles*
- http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/
 
-* http://blackswanfarming.com/workshop-quantifying-the-cost-of-delay/
+* http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/[Your ultimate guide to Minimum Viable Product]
 
-http://blog.octo.com/en/feature-team-beyond-the-buzzword/
-http://scaledagileframework.com/features-components/
+* http://blackswanfarming.com/workshop-quantifying-the-cost-of-delay/[Quantifying the Cost of Delay]
 
-*Videos*
+* http://blog.octo.com/en/feature-team-beyond-the-buzzword/[Feature team: beyond the buzzword]
+
+* http://scaledagileframework.com/features-components/[SAFe on Features and Components]
 
 *Professional*
 Professional

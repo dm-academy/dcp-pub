@@ -1,7 +1,7 @@
 ==== Product Design
 
-[quote, Jeff Sussna]
-Design thinking is changing an existing to a preferred state...
+[quote, Herbert Simon]
+Everyone designs who devises courses of action aimed at changing existing situations into preferred ones.
 
 Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design.
 

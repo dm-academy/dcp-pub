@@ -225,4 +225,6 @@ Thanks to Stephen Fralippolippi and Roger K. Williams for being the first Github
 
 Thanks to Jason Baker for text and technical collaboration.
 
-Thanks to Mark Kennaley for guidance on open vs closed loop thinking. 
+Thanks to Mark Kennaley for guidance on open vs closed loop thinking.
+
+Thanks to Jeff Sussna for ongoing inspiration and sourced quotes.

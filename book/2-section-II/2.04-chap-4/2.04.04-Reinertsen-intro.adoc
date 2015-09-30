@@ -49,6 +49,9 @@ These can be summarized in the following pyramid:
 
 image::images/2.04-pyramid.png[]
 
+===== Cost of Delay
+ [TBW]
+
 ===== OODA sidebar
 After the Korean War, the US Air Force wished to clarify why its pilots had performed in a superior manner to the opposing pilots who were flying aircraft viewed as more capable.
 

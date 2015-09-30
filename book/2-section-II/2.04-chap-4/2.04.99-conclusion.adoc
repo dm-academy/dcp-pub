@@ -25,6 +25,8 @@ As with most other chapters in this book, this brief survey cannot do justice to
 
 *Articles*
 
+* •	http://www.mckinsey.com/insights/marketing_sales/building_a_design_driven_culture[Building a design-driven culture]
+
 * http://blog.fastmonkeys.com/2014/06/18/minimum-viable-product-your-ultimate-guide-to-mvp-great-examples/[Your ultimate guide to Minimum Viable Product]
 
 * http://blackswanfarming.com/workshop-quantifying-the-cost-of-delay/[Quantifying the Cost of Delay]

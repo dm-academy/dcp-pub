@@ -33,6 +33,8 @@ As with most other chapters in this book, this brief survey cannot do justice to
 
 * http://scaledagileframework.com/features-components/[SAFe on Features and Components]
 
+* https://blog.smartdraw.com/lean-startup-right-strategy-fools-gold/[Lean Startup: The Right Strategy or Fool’s Gold?]
+
 *Professional*
 Professional
 http://www.pdma.org/[Product Development and Marketing Association]

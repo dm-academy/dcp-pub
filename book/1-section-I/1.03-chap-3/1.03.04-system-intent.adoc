@@ -15,7 +15,7 @@ While these may differ in terms of focus and scope, the basic concept is the sam
 
 As systems engineering approaches transform to Cloud and infrastructure as code, a large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.
 
-Because the intent leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled. This will be discussed further in Section II and its associated labs.
+Because the intent leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a branch in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled. This will be discussed further in Section II and its associated labs.
 
 User Story Mapping is a well known approach <<Patton2014>> with origins in the Scrum community. Here is an example from <<Cohn2010>>
 

@@ -3709,7 +3709,7 @@ To "provision" in an IT sense means to make the needed resources or services ava
 <p>This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)</p>
 </div>
 <div class="paragraph">
-<p>As we will cover in more detail in the next chapter, the product development process starts with a concept of requirementS (whether we call it story, use case, or scenario is not important). But requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing..</p>
+<p>As we will cover in more detail in the next chapter, the product development process starts with a concept of requirements (whether we call it story, use case, or scenario is not important). Requirements are numerous and evolving, and we’re going to take some time looking at the process of converting them into IT-based functionality. There is history here back to the earliest days of computing.</p>
 </div>
 <div class="paragraph">
 <p>When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development".</p>
@@ -3735,10 +3735,10 @@ To "provision" in an IT sense means to make the needed resources or services ava
 <p>The analysis phase was used to develop a more structured understanding of the requirements, e.g. conceptual and logical data models, process models, business rules, and so forth.</p>
 </div>
 <div class="paragraph">
-<p>In the design phase, the actual technical platforms would be chosen; major subsystems determined with their connection points, initial volumetrics translated into system sizing, and so forth. (Perhaps hardware would not be ordered until this point, leading to issues with developers now being “ready”, but hardware would not available for weeks or months yet).</p>
+<p>In the design phase, the actual technical platforms would be chosen; major subsystems determined with their connection points, initial volumetrics translated into system sizing, and so forth. (Perhaps hardware would not be ordered until this point, leading to issues with developers now being “ready”, but hardware not being available for weeks or months yet).</p>
 </div>
 <div class="paragraph">
-<p>Only AFTER extensive requirements, analysis, and design would coding take place (implementation). There was furthermore separation of duties between developers and testers. Developers would write code and testers would try to break it, filing bug reports that the developers would then need to respond to.</p>
+<p>Only AFTER extensive requirements, analysis, and design would coding take place (implementation). Furthermore, there were separation of duties between developers and testers. Developers would write code and testers would try to break it, filing bug reports that the developers would then need to respond to.</p>
 </div>
 <div class="paragraph">
 <p>Another model sometimes encountered at this time was the V-model. This was intended to better represent the various levels of abstraction operating in the systems delivery activity. Requirements operate at various levels, from high level business intent through detailed specifications. It is all too possible that a system is “successfully” implemented at lower levels of specification, but fails to satisfy the original higher level intent.</p>
@@ -3911,7 +3911,7 @@ its behavior accordingly.</p>
 <p>There is deep Lean/Agile theory behind this goal, theory developed in reaction to the pattern of massive software failures that characterized IT in the first fifty years of its existence. (We&#8217;ll discuss some of the systems theory, including the concept of feedback, in the next chapter.)</p>
 </div>
 <div class="paragraph">
-<p>Achieving this goal is feasible but requires new approaches. Various practitioners have explored this problem, with great success. Key initial milestones included</p>
+<p>Achieving this goal is feasible but requires new approaches. Various practitioners have explored this problem, with great success. Key initial milestones included:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -3989,13 +3989,13 @@ Development tools such as text editors and integrated development environments (
 <p>The feature is expressed as some set of IT work, today usually in small increments lasting between 1 and 4 weeks (this of course varies). Software development commences, e.g. the creation of Java components by developers who first write tests, and then write code that satisfies the test.</p>
 </li>
 <li>
-<p>The developer is continually testing the software as build progresses, and keeping a local source control repository up to date with their changes at all times. When she or he reaches a level of satisfaction with the software, it is submitted to a centralized source repository.</p>
+<p>The developer is continually testing the software as the build progresses, and keeping a local source control repository up to date with their changes at all times. When she or he reaches a level of satisfaction with the software, it is submitted to a centralized source repository.</p>
 </li>
 <li>
 <p>When the repository detects the new "check-in," it launches a dedicated environment to build and test the new code. The environment is likely configured using <a href="http://dm-academy.github.io/aitm/#_infrastructure_as_code">"infrastructure as code"</a> techniques; in this way, it can be created automatically and quickly.</p>
 </li>
 <li>
-<p>If the code passess all tests, the compiled and built binary executables may then be "checked in" to a package management repository.</p>
+<p>If the code passes all tests, the compiled and built binary executables may then be "checked in" to a package management repository.</p>
 </li>
 <li>
 <p>From the package repository, the code may then be deployed to various environments, for further testing and ultimately to "production," where it can enable the consumer&#8217;s value experiences.</p>
@@ -4042,7 +4042,7 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 <p>As systems engineering approaches transform to Cloud and infrastructure as code, a large and increasing percentage of IT work takes the form of altering symbolic files and moving them between states. We have seen this in the previous chapter, with artifacts such as scripts being created to drive the provisioning and configuring of computing resources.</p>
 </div>
 <div class="paragraph">
-<p>Because the intent leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a fork in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled. This will be discussed further in Section II and its associated labs.</p>
+<p>Because the intent leads to the artifact, and the artifact leads to the commit, it makes sense to associate the requirement with a branch in the version control system. This is not required, but makes it easier to trace the requirement to the actual work by which it was fulfilled. This will be discussed further in Section II and its associated labs.</p>
 </div>
 <div class="paragraph">
 <p>User Story Mapping is a well known approach <a href="#Patton2014">[Patton2014]</a> with origins in the Scrum community. Here is an example from <a href="#Cohn2010">[Cohn2010]</a></p>
@@ -4179,7 +4179,7 @@ The literal word “Requirement” has fallen out of favor with the rise of Agil
 <p>The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.</p>
 </div>
 <div class="paragraph">
-<p>Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. Google runs many millions of automated tests daily <a href="#Whittaker2012">[Whittaker2012]</a>.  It has even been successfully employed also in hardware development <a href="#Gruver2013">[Gruver2013]</a>.</p>
+<p>Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. Google runs many millions of automated tests daily <a href="#Whittaker2012">[Whittaker2012]</a>.  It has even been successfully employed in hardware development <a href="#Gruver2013">[Gruver2013]</a>.</p>
 </div>
 <div class="sect4">
 <h5 id="_refactoring">Refactoring</h5>
@@ -4272,20 +4272,22 @@ The conflict of course arises on the file set C that you both need to work on.  
 <p>Rather than locking C so that only one person can work on it at a time, it’s been found that the best approach is to allow developers to actually make multiple copies of such a file or file set and work on them simultaneously. Wait, you say. How can that work?</p>
 </div>
 <div class="paragraph">
-<p>This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are developer, the day’s work might be as follows:</p>
+<p>This is the principle of continuous integration at work. If the developers are continually pulling each other’s work into their own working copies, and continually testing that nothing has broken, then distributed development can take place. So, if you are a developer, the day’s work might be as follows:</p>
 </div>
 <div class="paragraph">
-<p>8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.
-8:30 AM: You define a test and start developing the code to fulfill it.</p>
+<p>8 AM: check out files from master source repository to a local branch on your workstation. Because files are not committed unless they pass all tests, you know that you are checking out clean code. You pull user story (requirement) that you will now develop.</p>
+</div>
+<div class="paragraph">
+<p>8:30 AM: You define a test and start developing the code to fulfill it.</p>
 </div>
 <div class="paragraph">
 <p>10 AM: You are closing in on wrapping up the first requirement. You check the source repository. Your partner has checked in some new code, so you pull it down to your local repository. You run all the automated tests and nothing breaks, so you’re fine.</p>
 </div>
 <div class="paragraph">
-<p>10:30 You complete your first update of the day; it passes all tests on your workstation. You commit it to the master repository. The master repository is continually monitored by the build server, which takes the code you created and deploys it, along with all necessary configurations, to a dedicated build server (which might be just a virtual machine or transient container). All tests pass there (the test you defined as indicating success for the module, as well as a host of older tests that are routinely run whenever the code is updated.</p>
+<p>10:30: You complete your first update of the day; it passes all tests on your workstation. You commit it to the master repository. The master repository is continually monitored by the build server, which takes the code you created and deploys it, along with all necessary configurations, to a dedicated build server (which might be just a virtual machine or transient container). All tests pass there (the test you defined as indicating success for the module, as well as a host of older tests that are routinely run whenever the code is updated.</p>
 </div>
 <div class="paragraph">
-<p>11:00 Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.</p>
+<p>11:00: Your partner pulls your changes into their working directory. Unfortunately, some changes you made conflict with some work they are doing. You briefly consult and figure out a mutually acceptable approach.</p>
 </div>
 <div class="paragraph">
 <p>This is a continuously evolving problem area, with practices changing rapidly.</p>
@@ -4307,7 +4309,7 @@ The conflict of course arises on the file set C that you both need to work on.  
 <p>Once software is compiled and built, the executable files that can be installed and run operationally should be checked into a <a href="https://en.wikipedia.org/wiki/Package_manager">Package Manager</a>.</p>
 </div>
 <div class="paragraph">
-<p>This is important so that the versions of software used in producton are well controlled and consistent. The package manager can then be associated to some kind of deploy tool that keeps track of what versions are associated with which infrastructure.</p>
+<p>This is important so that the versions of software used in producton are well controlled and consistent. The package manager can then be associated with some kind of deploy tool that keeps track of what versions are associated with which infrastructure.</p>
 </div>
 <div class="paragraph">
 <p>Timing varies by organization. Some strive for true "continuous deployment," in which the new code flows seamlessly from developer commit through build, test, package and deploy. Others put gates in between the developer and check-in to mainline, or source to build, or package to deploy, so that some human governance remains in the toolchain. We will go into more detail on these topics in chapters 6, 9, and 10.</p>
@@ -7051,7 +7053,7 @@ IEEE Press.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-08-08 00:02:45 EDT
+Last updated 2015-08-21 08:27:34 CDT
 </div>
 </div>
 </body>

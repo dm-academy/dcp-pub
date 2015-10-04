@@ -5,11 +5,11 @@
 
 ==== A brief introduction to feedback
 
-While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex https://en.wikipedia.org/wiki/Sociotechnical_system[sociotechnical system], that delivers the services to support a myriad of other complex sociotechnical systems.
+While the term "information systems (IS)" was widely replaced by "information technology (IT)" in the 1990s, do not be fooled. Enterprise IT is a complex https://en.wikipedia.org/wiki/Sociotechnical_system[sociotechnical system], that delivers the digital services to support a myriad of other complex sociotechnical systems.
 
-Systems play by their own rules. Merriam-Webster http://www.merriam-webster.com/dictionary/system[defines a system] as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
+Merriam-Webster http://www.merriam-webster.com/dictionary/system[defines a system] as "a regularly interacting or interdependent group of items forming a unified whole". These interactions and relationships quickly take center stage as you move from individual work to team efforts. Consider that while a 2 member team only has 1 relationship to worry about, a 10 member team has 45, and a 100 person team has 4,950!
 
-As the Senge quote implies, brute force does not scale well within the context of a system. This arises from the fact that our actions lead to outcomes, which in turn affect our future actions. This *feedback* often becomes amplified and re-amplified through the systems' interactions with itself, until an overload occurs, such as the horrible screeching of a microphone too close to a speaker. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success.
+As the Senge quote implies, brute force does not scale well within the context of a system. Systems tend to make their own rules. Within the bounds of the system, actions lead to outcomes, which in turn affect future actions. This *feedback* often becomes amplified and re-amplified through the systems' interactions with itself, until an overload occurs, such as the horrible screeching of a microphone too close to a speaker. In the business world, these feedback loops can manifest themselves in rigid platforms, brittle applications, or even a toxic work culture that sabotages success.
 
 A thorough discussion of systems theory is beyond the scope of this book. However, many of the ideas that follow are informed by it. Obtaining a working knowledge of systems theory will not only enhance your understanding of this book, it can also be an essential tool for managing uncertainty in your future career, teams, and organizations.
 
@@ -38,7 +38,7 @@ In our rabbit example, what if Process B is fox reproduction, that is, the birth
 
 image::images/rabbitfox.png[]
 
-More rabbits equals more foxes (notice the “+” symbol on the line), because there are more rabbits to eat! But what does this do to the rabbits? It means LESS rabbits. Which, ultimately, means less foxes… and at some point, the populations balance. This is classic negative feedback. However, the local foxes don’t see it as negative (nor the local gardeners!)  That is why feedback experts prefer to call this “balancing” feedback.
+More rabbits equals more foxes (notice the “+” symbol on the line), because there are more rabbits to eat! But what does this do to the rabbits? It means LESS rabbits. Which, ultimately, means less foxes… and at some point, the populations balance. This is classic negative feedback. However, the local foxes don’t see it as negative (nor do the local gardeners!)  That is why feedback experts prefer to call this “balancing” feedback.
 
 image::https://upload.wikimedia.org/wikipedia/commons/d/d8/CLD_links_ANI.gif[]
 Linked from https://en.wikipedia.org/wiki/Causal_loop_diagram[Wikipedia]
@@ -72,7 +72,7 @@ In short, we see these two basic kinds of feedback:
 * Positive/Reinforcing, “do more of that”
 * Negative/Balancing, “stop doing that,” “fix that”
 
-NOTE: Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list") which generate more emails ("stop emailing the list") and so on. This does not continue indefinitely; management intervention, common sense and fatigue eventually damp the storm down.
+NOTE: Still confused? Think about the last time you saw a "reply-all" email storm. The first accidental mass send generates feedback (emails saying "take me off this list"), which generate more emails ("stop emailing the list") and so on. This does not continue indefinitely; management intervention, common sense and fatigue eventually damp the storm down.
 
 ===== Positive feedback: the special case investors want
 
@@ -102,15 +102,17 @@ Finally, we should talk briefly about open loop versus closed loop systems.
 
 In navigation terminology, the open-loop attempt to stick to a course without external information (e.g. navigating in the fog, without radar or communications) is known as " https://en.wikipedia.org/wiki/Dead_reckoning[dead reckoning]," in part because it can easily get you dead!
 
-A good example of an open loop system is the children’s game “pin the tail on the donkey.” In “pin the tail on the donkey,” a person has to execute a process while blindfolded, based on their memory of their location (and perhaps after being deliberately disoriented by spinning in circles). Since they are blindfolded, they have to move across the room and pin the tail without the ongoing corrective feedback of their eyes. (Perhaps they are getting feedback from their friends, but perhaps their friends are not reliable…)
+A good example of an open loop system is the children’s game “pin the tail on the donkey.” In “pin the tail on the donkey,” a person has to execute a process (pinning a paper or cloth "tail" onto a poster of a donkey - no live donkeys are involved!) while blindfolded, based on their memory of their location (and perhaps after being deliberately disoriented by spinning in circles).
+
+Since they are blindfolded, they have to move across the room and pin the tail without the ongoing corrective feedback of their eyes. (Perhaps they are getting feedback from their friends, but perhaps their friends are not reliable….)
 
 image::images/donkey.jpg[]
 https://www.flickr.com/photos/portland_mike/5445434245/[Photo Credit - mike krzeszak, Flickr, Creative Commons]
 
-Without the blindfold, it would be a closed loop system. They would rise from their chair and through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
+Without the blindfold, it would be a closed loop system. The person would rise from their chair and, through the ongoing feedback of their eyes to their central nervous system, would move towards the donkey and pin the tail in the correct location.
 
-This may seem obvious, but the history of IT management over the past decades has been the struggle to overcome open-loop practices. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. <<Kennaley2010>> applies these principles to software development in much greater depth; recommended.
+This may seem obvious, but the history of IT management (some would say all management) over the past decades has been the struggle to overcome open-loop practices. Reliance on open-loop practices is arguably an indication of a dysfunctional command and control culture. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. <<Kennaley2010>> applies these principles to software development in much greater depth, and is recommended.
 
-NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system."
+NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later, you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system".
 
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*

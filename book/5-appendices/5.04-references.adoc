@@ -25,6 +25,8 @@
 
 - [[[Bouwman]]]: Bouwman, J.-J. & Heistek, M. (), "ITIL and DevOps at war in the enterprise,"" https://www.youtube.com/watch?v=_dDsdbkSgOc, 'DevOpsDays'.
 
+- [[[Brooks1975]]]:Brooks, F. P. (1975). _The mythical man-month: essays on software engineering._ Reading, Mass., Addison-Wesley Pub. Co.
+
 - [[[Burrows2014]]]: Burrows, Mike. (2014) _Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_. Sequim, WA, Blue Hole Press.
 
 - [[[Buschmann1996]]]: Buschmann, F. (1996), _Pattern-oriented software architecture : a system of patterns_, Wiley, Chichester ; New York
@@ -62,6 +64,8 @@
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
 
+
+
 - [[[Keefer2006]]]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
 
 - [[[Kennaley2010]]]: Kennaley, M., 2010. _SDLC 3.0: Beyond a Tacit Understanding of Agile: Towards the Next Generation of Software Engineering_ Fourth Medium Consulting.
@@ -83,6 +87,9 @@
 - [[[Liker2004]]]: Liker, J. K. (2004), _The Toyota way : 14 management principles from the world's greatest manufacturer_, McGraw-Hill, New York
 
 - [[[Limoncelli2014]]]: Limoncelli, T. A.; Chalup, S. R. & Hogan, C. J. (2014), _The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Vol. 2_,  Pearson Education
+
+- [[[Madachy2008]]]: Madachy, R. J. (2008). _Software process dynamics._ Hoboken, NJ Piscataway, NJ, Wiley;
+IEEE Press.
 
 - [[[Minick2012]]]: Minick, E. (2012), "A DevOps Toolchain: There and back again",  Slideshare.net, http://www.slideshare.net/Urbancode/building-devops-toolchain
 

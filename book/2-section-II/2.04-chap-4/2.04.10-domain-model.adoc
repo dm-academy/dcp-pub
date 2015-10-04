@@ -1,0 +1,19 @@
+==== Domain model
+This domain model is in particular difficult, as it highlights the contending nature of the “traditional” versus “agile” language. Is a Program an Epic? Or is a Project? There can be no definitive answer to such questions.
+
+[cols="2*", options="header"]
+|====
+|Term |Meaning
+|Epic
+|A large scale increment of work that can be described as a value scenario narrative.
+|Program
+|A large scale increment of work, typically expressed in terms of deliverables, resources, and activities.
+|Project
+|A defined set of manageable activities to achieve a well-specified mission, usually represented by some set of deliverables or enumerated changes, with explicitly allocated resources (time, money, staff), executed and measured within the scope of those resources. Projects in many cases are constrained to a fiscal year.
+|Release
+|An increment of functionality managed as a coherent, customer facing change. Implies communication, training, awareness of market impact.
+|Sprint
+|In Scrum methodology, a fixed increment of time (typically on the order of 1-4 weeks) in which a certain scope of work is attempted.
+|Story
+|A specific, granular value scenario, often written in a characteristic format.
+|====

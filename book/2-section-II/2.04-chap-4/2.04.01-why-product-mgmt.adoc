@@ -2,11 +2,13 @@
 
 Before work, before operations, there must be a vision of product. You already established a preliminary vision in Chapter 1, but now as your organization grows, you need to consider further how you will sustain that vision and establish an ongoing flow of work to realize it.
 
-Like many other topics in this book, product management is a significant field in and of itself. Historically, product management has not been a major theme in enterprise IT management. "Third party" vendors (e.g. IBM) providing the back office systems had product management approaches, but these were external to the IT operations.
+Like many other topics in this book, product management is a significant field in and of itself. Historically, product management has not been a major theme in enterprise IT management.
 
 IT systems served narrow purposes, often “back office” functions such as accounting or https://en.wikipedia.org/wiki/Material_requirements_planning[materials planning]. Mostly, such systems were managed as projects assembled on a temporary basis, resulting in the creation of a system to be “thrown over the wall” to operations.
 
-Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market reaction to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement.
+Product management, on the other hand, is concerned with the entire lifecycle. The product manager cares about the vision, its execution, the market reaction to the vision (even if an internal market), the health, care and feeding of the product, and the product’s eventual sunset or replacement. In the enterprise IT world, "third party" vendors (e.g. IBM) providing the back office systems had product management approaches, but these were external to the IT operations.
+
+Nor were IT-based product companies as numerous forty years ago as they are today; as noted above, the digital component of modern products continues to increase to the point where it's often not clear whether a product is "IT" or not...
 
 Reacting to market feedback and adapting product direction is an essential role of the product owner. In the older model, feedback was often unwelcome, as the project manager typically was committed to the open-loop dead reckoning (see http://dm-academy.github.io/aitm/#_special_section_systems_thinking_and_feedback[previous discussion]) of the project plan and changing scope or direction was seen as a failure, more often than not.
 
@@ -19,24 +21,24 @@ So, what is product management and what does it mean for your team?
 In order to define product management, we first need to define product. In Chapter 1, we established that products are goods, services, or some combination, with some feature that provides value for some consumer. BusinessDictionary.com http://www.businessdictionary.com/definition/product.html[defines it thus]:
 
 [quote, BusinessDictionary.com]
-[A Product is] A good, idea, method, information, object or service created as a result of a process and serves a need or satisfies a want. It has a combination of tangible and intangible attributes (benefits, features, functions, uses) that a seller offers a buyer for purchase. For example a seller of a toothbrush not only offers the physical product but also the idea that the consumer will be improving the health of their teeth…A good or service that most closely meets the requirements of a particular market and yields enough profit to justify its continued existence. As long as cars are manufactured, companies such as Michelin that produce tires fill the market need and continue to be profitable.
+[A Product is] A good, idea, method, information, object or service created as a result of a process and serves a need or satisfies a want. It has a combination of tangible and intangible attributes (benefits, features, functions, uses) that a seller offers a buyer for purchase. For example a seller of a toothbrush not only offers the physical product but also the idea that the consumer will be improving the health of their teeth . . . A good or service [must] closely meet the requirements of a particular market and yield enough profit to justify its continued existence.
 
 Product _management_, according to the http://www.businessdictionary.com/definition/product-management.html#ixzz3bHCVkoWj[same source], is
 
 [quote, BusinessDictionary.com]
-[Product Management is] The organizational structure within a business that manages the development, marketing and sale of a product or set of products throughout the product life cycle. It encompasses the broad set of activities required to get the product to market and to support it thereafter.
+The organizational structure within a business that manages the development, marketing and sale of a product or set of products throughout the product life cycle. It encompasses the broad set of activities required to get the product to market and to support it thereafter.
 
 Product management in the general sense often reports to the Chief Marketing Officer (CMO). It represents the fundamental strategy of the firm, in terms of its value proposition and viability. The product needs to reflect the enterprise’s strategy for creating and maintaining customers.
 
-Product strategy for internally-facing products may not be defined by the enterprise CMO. If it is a back-office product, then “business within a business” thinking may be appropriate. (Even the payroll system run by IT for HR is a “product,” in this view.) In such cases, there still is a need for someone to function as an "internal CMO" to the external "customers."
+Product strategy for *internally-facing* products is likely not defined by the enterprise CMO. If it is a back-office product, then “business within a business” thinking may be appropriate. (Even the payroll system run by IT for HR is a “product,” in this view.) In such cases, there still is a need for someone to function as an "internal CMO" to the external "customers."
 
-As a field, there are professional associations, handbooks, courses of study, and so forth, completely independent of information technology.
+NOTE: As a field, product management has a professional association, the http://www.pdma.org[Product Development and Marketing Association], which publishes an extensive and continuously-refined handbook, and supports local chapters, training and certification, and other activities typical of a mature professional organization.
 
-However, http://dm-academy.github.io/aitm/#_defining_information_technology[as stated in chapter 1], all kinds of industrial products have increasing amounts of “IT” in them. This means that an understanding of IT, and ready access to any needed IT specialty skills, is increasingly important to the general field of product management.
+http://dm-academy.github.io/aitm/#_defining_information_technology[As stated in chapter 1], all kinds of industrial products have increasing amounts of “IT” in them. This means that an understanding of IT, and ready access to any needed IT specialty skills, is increasingly important to the general field of product management.
 
 Perhaps the most important aspect of product design is focusing on the user, and what she or he needs. This is easier said than done. Entire books have been written on the various tools and techniques for doing this, from  focus groups to ethnographic analysis.
 
-Product management includes research and development, which means that there is an element of uncertainty. This is of course also true of IT systems development. Often, IT professionals resist drawing lessons from manufacturing, because of a perception (only partially true) that manufacturing is “deterministic” while IT systems development is too “uncertain.”
+Product management includes research and development, which means that there is an element of uncertainty. This is of course also true of IT systems development. Often, IT professionals resist drawing lessons from non-IT fields, because of a perception (only partially true) that these other fields (especially manufacturing) are “deterministic” while IT systems development is too “uncertain.”
 
 In reality, manufacturing is less deterministic than IT professionals often perceive, while software development is, at its most uncertain, just another form of https://en.wikipedia.org/wiki/New_product_development[new product development], and/or https://en.wikipedia.org/wiki/Research_and_development[research and development] and therefore can be managed on that basis.
 
@@ -81,16 +83,29 @@ In our scenario, you are now on a tight-knit, collaborative team. It is preferab
 a Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf
 
 ===== Market facing, supporting, back office
-revisit "who pays", plus infrastructure
+In Chapter 1 we discussed the question of "who pays/who benefits" for the service, http://dm-academy.github.io/aitm/#_defining_consumer_customer_and_sponsor[proposing that] the service consumer, the service customer, and the service sponsor might be three distinct roles (sometimes collapsing into 2 or 1 individual.)
+
+We see this again in how we can categorize the "customers" of IT services and systems. Roughly, such services can be:
+
+* Directly market- and consumer-facing (e.g. Facebook), to be used by external consumers and paid for by either them or closely associated customers (e.g. Netflix, or an onling banking system)
+* Customer "supporting" systems, such as the online system that a bank teller uses when interacting with a customer. Customers do not interact directly with such systems, but customer-facing representatives do, and problems with such systems may be readily apparent to the end customer.
+* Completely "back-office" systems (HR, payroll, marketing, etc)
+
+Note however, that (especially in the current digitally transforming market) a service previously thought of as "back office" (when run internally) becomes "market-facing" when developed as a profit-seeking offering. For example, an HR system built internally is "back office," but Workday is a directly market facing product, even though the two services may be similar in functionality.
+
+In other words, it's all relative.
 
 ===== Productization as a strategy at Amazon
-Amazon represents two critical responses to the problem of large-scale IT failure (as identified in the outset of the book.) First, the founder Jeff Bezos mandated that all software development should be service-oriented, and assume that the functionality being built might at some point be offered to external customers.
+Amazon (the online bookseller) is an important influence in the modern trend towards product-centric IT management. First, the founder Jeff Bezos mandated that all software development should be http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/[service-oriented], and assume that the functionality being built might at some point be offered to external customers.
 
-Second, a widely reported practice at Amazon.com is the limitation of product teams to between 5-7 people, the number that can be fed by “two pizzas” (depending on how hungry they are).
-There are good reasons for this approach. It has long been recognized in software and IT management that larger teams do not necessarily result in higher productivity. The best known statement of this is Fred Brooks’ rule from The Mythical Man-Month, that “adding people to a late project will make it later.”
+Second, a widely reported practice at Amazon.com is the http://www.fastcompany.com/3037542/productivity-hack-of-the-week-the-two-pizza-approach-to-productive-teamwork[limitation of product teams to between 5-7 people], the number that can be fed by “two pizzas” (depending on how hungry they are).
 
-The reasons for this have been extensively studied and analyzed (***Madachy) but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.
+There are http://blog.idonethis.com/two-pizza-team/[good reasons] for this approach. It has long been recognized in software and IT management that larger teams do not necessarily result in higher productivity. The best known statement of this is Fred Brooks’ rule from The Mythical Man-Month, that “adding people to a late project will make it later.”<<Brooks1975>>
+
+NOTE: Fred Brooks' _The Mythical Man-Month_, derived in part from his experiences leading the IBM OS-360 project, is one of the timeless classics in software engineering and IT management writing. Serious IT professionals, whether or not they are actually programmers, should have it on their bookshelves.
+
+The reasons for this have been extensively studied and analyzed <<Madachy2008>> but in general it is due to the increased communication overhead of expanded teams. Product design work (of which software development is one form) is creative and highly dependent on tacit knowledge, interpersonal interactions, organizational culture, and other “soft” factors. Products, especially those with a significant IT component, can  be understood as socio-technical systems, often complex. This means that small changes to their components or interactions can have major effects on their overall behavior and value.
 
 This in turn means that newcomers to a product development organization can have a profound impact on the product. Getting them “up to speed” with the culture, mental models, and tacit assumptions of the existing team can be challenging and rarely is simple. And the bigger the team, the bigger the problem.
 
-The net result of these two practices is the creation of multiple nimble services that are decoupled from each other, constructed and supported by teams appropriately sized for optimal high-value interactions.
+The net result of these two practices at Amazon is the creation of multiple nimble services that are decoupled from each other, constructed and supported by teams appropriately sized for optimal high-value interactions.

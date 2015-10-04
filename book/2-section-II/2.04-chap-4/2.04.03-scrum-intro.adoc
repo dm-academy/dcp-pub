@@ -1,37 +1,23 @@
 ==== Introducing Scrum
 
 [quote, Chris Sims/Hillary L. Johnson, Scrum: A Breathtakingly Brief and Agile Introduction]
-One way that the product owner maximizes ROI is by directing the team toward the most valuable work, and away from less valuable work. That is, the product owner controls the order, sometimes called priority, of items in the team’s backlog. In scrum, no-one but the product owner is authorized to ask the team to do work or to change the order of backlog items.
+Scrum is a lightweight framework designed to help small, close-knit teams of people develop complex products.
 
 [quote, Jeff Sutherland, Scrum: The Art of Doing Twice the Work in Half the Time]
 There Are No Tasks; There Are Only Stories.
 
+One of the first Agile methodologies you are likely to encounter as a practitioner is Scrum. There are many books, classes, and websites where you can learn more about this framework; <<Sims2012>> is a good introduction.
 
-“The more frequently the team delivers a potentially shippable product increment, the greater freedom the business has in deciding when and what to ship. Notice that there are 2 separate decisions here: Is the product potentially shippable? That is to say, is the quality high enough that the business could ship it? Are all of the current stories done? This is a decision for the team.”
+We mention Scrum in this chapter, as it is very product-focused. It calls for the roles of
 
-Sims, Chris; Johnson, Hillary Louise (2014-07-30). Scrum: a Breathtakingly Brief and Agile Introduction (Kindle Locations 151-154). Dymaxicon. Kindle Edition.
+* Product owner
+* Scrum master
+* Team member
 
-http://12factor.net/build-release-run
+and avoids further elaboration of roles.
 
-Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.
+The Scrum product owner is responsible for holding the product vision and seeing that the team executes the highest value work. To do this, the potential features for the product are maintained in a "backlog" that can be re-prioritized as necessary (rather than a large, fixed-scope project). The product owner also defines acceptance criteria for the backlog items.
 
-Increasingly, as operational performance is defined in code (the trend to Infrastructure as Code), operational issues are equivalent to development defects.
+The Scrum Master, on the other hand, acts as a team coach, "guiding the team to ever-higher levels of cohesiveness, self-organization, and performance." <<Sims2012>>.
 
-This domain model is in particular difficult, as it highlights the contending nature of the “traditional” versus “agile” language. Is a Program an Epic? Or is a Project? There can be no definitive answer to such questions.
-
-[cols="2*", options="header"]
-|====
-|Term |Meaning
-|Epic
-|A large scale increment of work that can be described as a value scenario narrative.
-|Program
-|A large scale increment of work, typically expressed in terms of deliverables, resources, and activities.
-|Project
-|A defined set of manageable activities to achieve a well-specified mission, usually represented by some set of deliverables or enumerated changes, with explicitly allocated resources (time, money, staff), executed and measured within the scope of those resources. Projects in many cases are constrained to a fiscal year.
-|Release
-|An increment of functionality managed as a coherent, customer facing change. Implies communication, training, awareness of market impact.
-|Sprint
-|In Scrum methodology, a fixed increment of time (typically on the order of 1-4 weeks) in which a certain scope of work is attempted.
-|Story
-|A specific, granular value scenario, often written in a characteristic format.
-|====
+Scrum uses specific practices and artifacts such as sprints, standups, reviews, the above-mentioned concept of backlog, burndown charts, and so forth. We will discuss these in Chapter 5 (Work Management) along with Kanban, another popular approach for executing work.

@@ -1,7 +1,67 @@
-==== The thought and influence of Don Reinertsen
+==== Lean, Lean Product Development, and Don Reinertsen
 
-OODA sidebar
+We've had passing mention of Lean already in this book. But what is Lean?
 
-asymmetric rewards
+Lean is the name given to a cohesive set of practices generally attributed to https://en.wikipedia.org/wiki/Taiichi_Ohno[Taiichi Ohno] and https://en.wikipedia.org/wiki/Shigeo_Shingo[Shigeo Shingo] at https://en.wikipedia.org/wiki/Toyota[Toyota]. These practices included:
 
-pyramid
+* Respect for people
+* Limiting work in process
+* Small batch sizes (driving towards "single piece flow")
+* Just-in-time production
+* Decreased cycle time
+
+There are many, many other aspects to Lean.
+
+IMPORTANT: Lean is important. Regardless of your intended career path, it is advisable to read the great Lean classics, including http://www.goodreads.com/book/show/93903.Machine_That_Changed_the_World[The Machine That Changed the World], http://www.goodreads.com/book/show/289467.Lean_Thinking[Lean Thinking], http://www.goodreads.com/book/show/161789.The_Toyota_Way[The Toyota Way], and Ohno's own http://www.goodreads.com/book/show/376237.Toyota_Production_System[Toyota Production System]. http://www.goodreads.com/book/show/6736366-toyota-kata[Toyota Kata] is a more recent work, highly informative regarding Toyota's culture.
+
+One of the challenges however with applying Lean to IT (as noted previously) is that many IT professionals (especially software developers) believe that manufacturing is a "deterministic" field and any lessons from it are inapplicable to developing technical products. "Creating software is like creating art, not being on an assembly line" goes one line of argument.
+
+The root cause of this debate is the distinction between product development and production. It is true that an industrial production line may be repetitive, but the question is: how did the production line come to be? It was created as part of a process of product development. *That* is not a repetitive process; it is a highly variable, creative process.
+
+One dead end that management keeps pursuing is the desire to make research and development (R&D) more "predictable," that is, to reduce the variation and predictably create innovations. This never works well; game-changing innovations are usually complex responses to complex market systems dynamics, including customer psychology, current trends, and many other factors.
+
+In IT, simply developing software for a new problem (or even new software for an old problem) is an R&D problem, not a production line problem. It is iterative, uncertain, and risky of success, just like other forms of product development.
+
+But that does not mean it is completely un-manageable, that its creation is a myterious artistic process. It is just a more variable process, with a higher chance of failure, and a need to incorporate feedback quickly to avoid any risk of open-loop control failure.
+
+These ideas are well known to the Agile community and its authors. However, there is one thought leader who stands out in this field, an ex-Naval officer named Donald Reinertsen.
+
+There are many books on Agile development and management. Consider the following books, all well known and respected in the fields of software development and Agile:
+
+image::images/2.04-books.png[]
+
+What do they all have in common? They all cite Don Reinertsen:
+
+image::images/2.04-books-dr.png[]
+
+Reinertsen was partnering with David Anderson when Anderson created Kanban. He wrote the introduction to Leffingwell's _Agile Software Requirements_, the initial statement of the Scaled Agile Framework. His influence is pervasive across the Agile community.
+
+Reinertsen's work is deep and based on fundamental mathematical principles such as queueing theory (lightly touched on in _The Phoenix Project_). One way of reading his work is as a series of interdependent principles:
+
+. The flow, or throughput of product innovation is the primary determinant of financial success
+. Flow requires fast http://dm-academy.github.io/aitm/#_a_brief_introduction_to_feedback[feedback]
+. Feedback requires limiting work in process
+. Limiting work in process in product design contexts requires rigorous prioritization capabilities
+. Effective, economical prioritization requires understanding the http://www.leadingagile.com/2015/06/an-introduction-to-cost-of-delay/[cost of delay] for individual product features
+. Understanding cost of delay requires smaller batch sizes, consisting of cohesive features, not large projects.
+
+These can be summarized in the following pyramid:
+
+image::images/2.04-pyramid.png[]
+
+===== Cost of Delay
+ [TBW]
+
+===== OODA sidebar
+After the Korean War, the US Air Force wished to clarify why its pilots had performed in a superior manner to the opposing pilots who were flying aircraft viewed as more capable.
+
+Boyd determined that humans go through a defined process in building their mental model of complex and dynamic situations. This has been formalized in the concept of the OODA loop. Standing for:
+
+* Observe
+* Orient
+* Decide
+*	Act
+
+Because the US fighters were lighter, more maneuverable, and had better visibility, their pilots were able to execute the OODA loop more quickly than their opponents, leading to victory.
+
+Boyd and others have extended this concept into various other domains including business strategy. The concept of the OODA loop is frequently mentioned in presentations on Agile methods. It is, of course, a feedback loop.

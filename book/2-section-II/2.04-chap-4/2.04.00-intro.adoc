@@ -8,49 +8,29 @@
 "Product management?" In a book on IT management? Those of you with industry experience, especially backgrounds in project-based enterprise software development, may be unfamiliar with the term. However, a focus on product development is one of the distinguishing features of Agile development, even if that development is taking place in a larger enterprise context.
 ****
 
-As you grow your company, you are bringing more people in. You become concerned that they need to share the same vision that inspired you to create this company. This is the goal of product management. User experience and behavior-driven design are key factors here.
+As you grow your company, you are bringing more people in. You become concerned that they need to share the same vision that inspired you to create this company. This is the goal of product management.
+
+Product strategy was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
 
 Furthermore, while we covered Agile principles and practices in some detail last chapter, we did not discuss *why* they work. In this chapter, we will cover the Lean theory of product management that provides a basis for Agile practices, in particular the work of Don Reinertsen.
 
 ===== Chapter 4 outline
 
-* Lean introduction.
- - Lean manufacturing vs Lean product development
- - Applicability to IT
-
-Before we dive into the chapters, however, let's briefly cover one of the most important industrial forces affecting IT today: the Lean movement. _etc_
-
-****
-Sidebar: Introducing Don Reinertsen.
-****
-
-Assumption: Product strategy was largely tacit in Section I. Need more formalized approaches to defining, communicating, executing.
-
-* Product vs project management
-
-* Lean Startup
- - Minimum Viable Product etc
-
-* LeanUX and Continuous Design. Design thinking
- - Design thinking is changing an existing to a preferred state... (get quote from Sussna)
-
-* Behavior-driven development.
-
-* The role of the product owner.
-
-* Queuing?? (Or in chapter 8?)
-
-* Importance of small batch sizes
-
-* Product development as creation of information
-
-* Cost of Delay
-
-****
-Sidebar: Introducing Sussna.
-****
-
-_see http://www.aha.io/ - lab?_
+* Why product management
+** The role of the product owner.
+* Product design
+** Lean Startup
+** LeanUX and Continuous Design.
+** Behavior-driven development.
+* Scrum
+* Lean, Lean Product Development, and Don Reinertsen.
+** Lean manufacturing vs Lean product development
+** Applicability to IT
+* Reinertsen
+** Pyramid
+** Importance of small batch sizes
+** Product development as creation of information
+** Cost of Delay
 
 ===== Chapter 4 learning objectives
 

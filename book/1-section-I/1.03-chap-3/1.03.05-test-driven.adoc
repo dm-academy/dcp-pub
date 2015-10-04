@@ -63,7 +63,7 @@ Other languages use different approaches from that shown here, but every serious
 
 The associated course lab provides a simple but complete example of a test-driven development environment, based on lightweight virtualization.
 
-Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. Google runs many millions of automated tests daily <<Whittaker2012>>.  It has even been successfully employed also in hardware development <<Gruver2013>>.
+Employing test-driven development completely and correctly requires thought and experience. But it has emerged as a practice in the largest scale systems in the world. Google runs many millions of automated tests daily <<Whittaker2012>>.  It has even been successfully employed in hardware development <<Gruver2013>>.
 
 ===== Refactoring
 

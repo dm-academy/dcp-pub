@@ -79,6 +79,8 @@ include::book/2-section-II/2.04-chap-4/2.04.99-conclusion.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.00-intro.adoc[]
 
+include::book/2-section-II/2.05-chap-5/2.05.01-why-work-mgmt.adoc[]
+
 include::book/2-section-II/2.05-chap-5/2.05.02-kanban-intro.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.99-conclusion.adoc[]

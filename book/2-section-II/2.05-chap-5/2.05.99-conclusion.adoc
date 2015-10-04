@@ -11,3 +11,6 @@ Conclusion placeholder
 * Burrows
 * Anderson
 * Sutherland
+
+===== Articles
+https://stormpath.com/blog/so-long-scrum-hello-kanban/[So Long Scrum, Hello Kanban]

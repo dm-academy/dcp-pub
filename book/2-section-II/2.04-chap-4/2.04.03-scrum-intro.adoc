@@ -21,3 +21,21 @@ The Scrum product owner is responsible for holding the product vision and seeing
 The Scrum Master, on the other hand, acts as a team coach, "guiding the team to ever-higher levels of cohesiveness, self-organization, and performance." <<Sims2012>>.
 
 Scrum uses specific practices and artifacts such as sprints, standups, reviews, the above-mentioned concept of backlog, burndown charts, and so forth. We will discuss these in Chapter 5 (Work Management) along with Kanban, another popular approach for executing work.
+
+
+* There are three roles:
+** The product owner sets overall direction.
+** The Scrum Master coaches and advocates for the team
+** The development team is defined as those who are committed to the development work
+* There are various artifacts
+** Product backlog is the overall “to-do” list for the product. (More on product management in the next chapter.)
+** Sprint backlog is the to-do list for the current sprint
+** Potentially shippable product increment is an important concept used to decouple the team’s development activity from downstream business planning. A PSI is a cohesive unit of functionality that *could* be delivered to the customer, but doing so is the decision of the product owner.
+* There are seven activities
+** The “sprint” is a defined time period, typically two to four weeks, in which the development team executes on an agreed scope
+** Backlog grooming is when the product backlog is examined and refined into increments that can be moved into the sprint backlog
+** Sprint Planning is where the scope is agreed
+** The Daily Scrum is traditionally held standing up, to maintain focus and ensure brevity
+** Sprint Execution is the development activity within the sprint
+** Sprint Review is the “public end of the sprint” when the stakeholders are invited to view the completed work
+** The Sprint Retrospective is held to identify lessons learned from the sprint and how to apply them in future work.

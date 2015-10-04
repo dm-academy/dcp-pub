@@ -113,6 +113,8 @@ IEEE Press.
 
 - [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
 
+- [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
+
 - [[[Scotland2010]]]: Scotland, K. (2010), "Defining the Last Responsible Moment", http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment
 
 - [[[Shortland2012]]]: Shortland, A. & Lei, M. (2012), "Using Rundeck and Chef to build DevOps Toolchains", http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/

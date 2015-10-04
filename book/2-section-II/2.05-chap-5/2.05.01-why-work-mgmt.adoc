@@ -1,13 +1,14 @@
 ==== Why work management?
 
-At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it.
-We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
-Finish what you start, if you can, before starting anything else
-Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.
-Visibility into work in progress is important for the collective mental model of the team
+
+
+At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it. We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
+
+* Finish what you start, if you can, before starting anything else
+* Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.
+* Visibility into work in progress is important for the collective mental model of the team
 
 Work management may start with verbal requests, emails, even postal mail. The design process may result in a wide variety of deliverables that also initiate work activity. And as your product matures, the product itself generates both routine and non-routine work. All of this needs to be tracked.
-
 
 If you ask your colleague to do one thing, and she doesn’t have anything else to do, it’s likely that the two of you will remember. If you ask her to do four things over a few days, you might both still remember. You each might start keeping your own “to do” list and this can handle a dozen or two dozen tasks.
 
@@ -27,9 +28,12 @@ At some point, you need to formalize your model of the work, and how it flows. T
 
 Probably the most important is the shared task reference point. What does this mean? The “task” is reified (see definition) into a common artifact.
 
+For example, a “ticket” may be created. Or a “story.” At our current level of understanding, there is little difference between these two concepts. The important thing they have in common is an independent existence. That is, Mary, Joe, and Sara might all change jobs, but the artifact persists independently of them. This can be called _reification_.
 
-For example, a “ticket” may be created. Or a “story.” At our current level of understanding, there is little difference between these two concepts. The important thing they have in common is an independent existence. That is, Mary, Joe, and Sara might all change jobs, but the artifact persists independently of them.
-A complex IT-based system is not needed! A shared white board in a public location might be all that is needed. This gives the team a “shared mental model” of who is doing what.
+[quote, Wikpedia, https://en.wikipedia.org/wiki/Reification]
+Reification generally refers to making something real, bringing something into being, or making something concrete.
+
+A complex IT-based system is not needed! (Nor for that matter a complex process framework, such as ITIL. This author sees little value in using such frameworks at this stage of evolution.) A shared white board in a public location might be all that is needed. This gives the team a “shared mental model” of who is doing what.
 
 image::images/2.05-commonList.png[]
 

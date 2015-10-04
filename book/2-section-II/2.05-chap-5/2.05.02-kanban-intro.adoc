@@ -1,1 +1,37 @@
 ==== Introducing Kanban
+
+To understand Kanban it is advisable to discuss Lean briefly.
+
+Kanban is a term originating from Lean and the Toyota Production System. Originally, it signified a “pull” technique in which materials would only be transferred to a given workstation on a definite signal that the workstation required the materials. This was in contrast to “push” approaches where work was allowed to accumulate on the shop floor, on the (now discredited) idea that it was more “efficient” to operate workstations at maximum capacity.
+
+IMPORTANT: There is a tremendous wealth of material available on Lean history and theory, and the IT student is urged to become familiar with it. Historically, there has been some resistance in IT circles to learning lessons derived from manufacturing, as there were misperceptions that manufacturing is too “repetitive” compared to IT systems development. This resistance is rapidly disappearing with the new generation of thought leadership centered on Agile methods and related themes such as DevOps.
+
+David J. Anderson was a product manager at Microsoft who was seeking a more effective approach to managing software development. In consultation with Don Reinertsen (whose work we will examine in Section 3) he applied the original concept of Kanban to his development activities.<<Anderson2010>>
+
+Unlike Scrum, with its defined, high-pressure sprints, Kanban is a continuous process with no specified cadence. Work is “pulled” from backlog into active attention as resources are freed from previous work.
+
+There are deeper philosophical and cultural tenets embedded in Kanban beyond workflow. Anderson and his colleagues continue to evolve Kanban into a more ambitious framework. Mike Burrows <<Burrows2014>> identifies the following key principles
+
+* Start with what you do now.
+* Agree to pursue evolutionary change.
+* Initially, respect current processes, roles, responsibilities, and job titles.
+* Encourage acts of leadership at every level in your organization —from individual contributor to senior management.
+* Visualize.
+* Limit Work-in-Progress (WIP).
+* Manage flow.
+* Make policies explicit.
+* Implement feedback loops.
+* Improve collaboratively, evolve experimentally (using models and the scientific method).
+
+===== Scrum, Kanban, or both?
+
+So, do you choose Scrum, Kanban, both, or neither?
+
+We can see in comparing Scrum and Kanban that their areas of focus are somewhat different.
+
+* Scrum has achieved widespread success and formalization, which is why Scrum training is widespread and generally consistent in content.
+* Kanban is seen as more flexible but this comes at a cost of more management overhead. It requires more interpretation to translate to a given organization’s culture and practices.
+* “Scrum is not well suited to highly interrupt-driven work.” <<Rubin2012>>. (But if you are too small, it may be difficult to segregate out interrupt-driven work! We will discuss the issues around interrupt-driven work further in Chapter 06.)
+* Finally, hybrids exist (Ladey’s “Scrumban.”)
+
+More on this in Section III.

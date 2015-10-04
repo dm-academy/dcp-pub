@@ -13,12 +13,22 @@ _Instructor's note_
 ****
 endif::instructor-ed[]
 
+What do we need to do?
+Who is doing it?
+Do they need help?
+What do we mean by done?
+When will they be done?
 
-You're a team. You need to get work done. People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. Beyond your product strategy, you have support calls increasingly coming in that result in fixes and new features, and it's all getting complicated.
+
+These are fundamental questions for any business larger than a few co-founders.
+
+You're now a team. You need to get work done. When your startup hired its first employees, and you went from two people to three or four, you almost certainly had to think about this. You are now getting feedback from both your users and product leadership, calling for prioritization, the allocation of resources, and the tracking of effort and completion.
+
+People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. Beyond your product strategy, you have support calls increasingly coming in that result in fixes and new features, and it's all getting complicated.
 
 You already have product owner. You now institute Scrum practices of a managed backlog, daily standups and sprints. You also use Kanban-style task boards, which are essential for things like support-driven work, but the relationship of these to your Scrum practices is a matter of some ongoing debate.
 
-You also may become aware of the idea of "ticketing," if you have people with previous service desk experience. How this relates to your Kanban approach is also a question.
+You also may become aware of the idea of "ticketing," if you have people with previous service desk experience. How this relates to your Scrum/Kanban approach is also a question.
 
 ****
 Sidebar: Introducing Anderson and Sutherland
@@ -27,16 +37,12 @@ Sidebar: Introducing Anderson and Sutherland
 ===== Chapter 5 outline
 
 * Kanban
- - Origins
- - Practices
-  - Visualize
-  - Limit WIP
- - To automate or no?
-
-* Scrum
- - Origins of Scrum
- - Roles and practices
- - Relationship to product owner.
+** Origins
+** Practices
+** Visualize
+** Limit WIP
+** To automate or no?
+** Scrum vs Kanban
 
 * Relationship of Scrum to Kanban
 
@@ -47,6 +53,5 @@ Sidebar: Introducing Anderson and Sutherland
 ===== Chapter 5 learning objectives
 
 * Define Kanban and identify its key practices
-* Define Scrum and identify its key practices
 * Compare and contrast Scrum and Kanban
 * Describe basic help desk ticketing.

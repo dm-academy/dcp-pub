@@ -28,7 +28,7 @@ image::images/rabbits.png[]
 
 The more rabbits, the faster they reproduce, and the more rabbits.
 
-This is a “positive” feedback loop, although Mr. MacGregor the local gardener may not agree, given that they are eating all his cabbages!! This is why feedback experts prefer to call this “reinforcing” feedback, because there is not necessarily anything “positive” about it.
+This is a “positive” feedback loop, although Mr. MacGregor the local gardener may not agree, given that they are eating all his cabbages!! This is why feedback experts (e.g. <<Sterman2000>>) prefer to call this “reinforcing” feedback, because there is not necessarily anything “positive” about it.
 
 We can also consider feedback as the relationship between TWO processes:
 
@@ -59,7 +59,7 @@ https://upload.wikimedia.org/wikipedia/commons/1/19/Tacoma_Narrows_Bridge_destru
 Linked from https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)[Wikipedia].
 ****
 
-As with bridges, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you write a process that recursively spawns itself, it will sooner or later exhaust all its local resources. See http://osr507doc.sco.com/en/HANDBOOK/runaway_proc.html[Runaway processes.]
+As with bridges, at a technical level, reinforcing feedback can be a very bad thing in IT systems. In general, any process that is amplified without any balancing feedback will eventually consume itself and all its resources, just like rabbits will eat all the food available to them. So, if you create a process (e.g. write and run a computer program) that recursively spawns itself, it will sooner or later crash the computer as it devours memory and CPU. See http://osr507doc.sco.com/en/HANDBOOK/runaway_proc.html[Runaway processes.]
 
 Balancing feedback, on the other hand, is critical to make sure you are “staying on track.” Engineers use concepts of https://en.wikipedia.org/wiki/Control_theory[control theory], for example https://en.wikipedia.org/wiki/Damping[damping], to keep bridges from falling down. Balancing feedback in a business and IT context takes a wide variety of forms:
 
@@ -113,6 +113,6 @@ Without the blindfold, it would be a closed loop system. The person would rise f
 
 This may seem obvious, but the history of IT management (some would say all management) over the past decades has been the struggle to overcome open-loop practices. Reliance on open-loop practices is arguably an indication of a dysfunctional command and control culture. A IT team that is designing and delivering without sufficient corrective feedback from its stakeholders is an ineffective, open-loop system. <<Kennaley2010>> applies these principles to software development in much greater depth, and is recommended.
 
-NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later, you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system".
+NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later, you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system" (personal correspondence, 9/2015).
 
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*

@@ -5437,6 +5437,70 @@ There Are No Tasks; There Are Only Stories.
 <div class="paragraph">
 <p>Scrum uses specific practices and artifacts such as sprints, standups, reviews, the above-mentioned concept of backlog, burndown charts, and so forth. We will discuss these in Chapter 5 (Work Management) along with Kanban, another popular approach for executing work.</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>There are three roles:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The product owner sets overall direction.</p>
+</li>
+<li>
+<p>The Scrum Master coaches and advocates for the team</p>
+</li>
+<li>
+<p>The development team is defined as those who are committed to the development work</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>There are various artifacts</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Product backlog is the overall “to-do” list for the product. (More on product management in the next chapter.)</p>
+</li>
+<li>
+<p>Sprint backlog is the to-do list for the current sprint</p>
+</li>
+<li>
+<p>Potentially shippable product increment is an important concept used to decouple the team’s development activity from downstream business planning. A PSI is a cohesive unit of functionality that <strong>could</strong> be delivered to the customer, but doing so is the decision of the product owner.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>There are seven activities</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The “sprint” is a defined time period, typically two to four weeks, in which the development team executes on an agreed scope</p>
+</li>
+<li>
+<p>Backlog grooming is when the product backlog is examined and refined into increments that can be moved into the sprint backlog</p>
+</li>
+<li>
+<p>Sprint Planning is where the scope is agreed</p>
+</li>
+<li>
+<p>The Daily Scrum is traditionally held standing up, to maintain focus and ensure brevity</p>
+</li>
+<li>
+<p>Sprint Execution is the development activity within the sprint</p>
+</li>
+<li>
+<p>Sprint Review is the “public end of the sprint” when the stakeholders are invited to view the completed work</p>
+</li>
+<li>
+<p>The Sprint Retrospective is held to identify lessons learned from the sprint and how to apply them in future work.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_lean_lean_product_development_and_don_reinertsen">Lean, Lean Product Development, and Don Reinertsen</h4>
@@ -5693,13 +5757,26 @@ Professional
 </div>
 </div>
 <div class="paragraph">
-<p>You&#8217;re a team. You need to get work done. People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. Beyond your product strategy, you have support calls increasingly coming in that result in fixes and new features, and it&#8217;s all getting complicated.</p>
+<p>What do we need to do?
+Who is doing it?
+Do they need help?
+What do we mean by done?
+When will they be done?</p>
+</div>
+<div class="paragraph">
+<p>These are fundamental questions for any business larger than a few co-founders.</p>
+</div>
+<div class="paragraph">
+<p>You&#8217;re now a team. You need to get work done. When your startup hired its first employees, and you went from two people to three or four, you almost certainly had to think about this. You are now getting feedback from both your users and product leadership, calling for prioritization, the allocation of resources, and the tracking of effort and completion.</p>
+</div>
+<div class="paragraph">
+<p>People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. Beyond your product strategy, you have support calls increasingly coming in that result in fixes and new features, and it&#8217;s all getting complicated.</p>
 </div>
 <div class="paragraph">
 <p>You already have product owner. You now institute Scrum practices of a managed backlog, daily standups and sprints. You also use Kanban-style task boards, which are essential for things like support-driven work, but the relationship of these to your Scrum practices is a matter of some ongoing debate.</p>
 </div>
 <div class="paragraph">
-<p>You also may become aware of the idea of "ticketing," if you have people with previous service desk experience. How this relates to your Kanban approach is also a question.</p>
+<p>You also may become aware of the idea of "ticketing," if you have people with previous service desk experience. How this relates to your Scrum/Kanban approach is also a question.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
@@ -5731,21 +5808,8 @@ Professional
 <li>
 <p>To automate or no?</p>
 </li>
-</ul>
-</div>
-</li>
 <li>
-<p>Scrum</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Origins of Scrum</p>
-</li>
-<li>
-<p>Roles and practices</p>
-</li>
-<li>
-<p>Relationship to product owner.</p>
+<p>Scrum vs Kanban</p>
 </li>
 </ul>
 </div>
@@ -5770,9 +5834,6 @@ Professional
 <p>Define Kanban and identify its key practices</p>
 </li>
 <li>
-<p>Define Scrum and identify its key practices</p>
-</li>
-<li>
 <p>Compare and contrast Scrum and Kanban</p>
 </li>
 <li>
@@ -5785,11 +5846,20 @@ Professional
 <div class="sect3">
 <h4 id="_why_work_management">Why work management?</h4>
 <div class="paragraph">
-<p>At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it.
-We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
-Finish what you start, if you can, before starting anything else
-Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.
-Visibility into work in progress is important for the collective mental model of the team</p>
+<p>At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it. We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Finish what you start, if you can, before starting anything else</p>
+</li>
+<li>
+<p>Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.</p>
+</li>
+<li>
+<p>Visibility into work in progress is important for the collective mental model of the team</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>Work management may start with verbal requests, emails, even postal mail. The design process may result in a wide variety of deliverables that also initiate work activity. And as your product matures, the product itself generates both routine and non-routine work. All of this needs to be tracked.</p>
@@ -5826,8 +5896,19 @@ Visibility into work in progress is important for the collective mental model of
 <p>Probably the most important is the shared task reference point. What does this mean? The “task” is reified (see definition) into a common artifact.</p>
 </div>
 <div class="paragraph">
-<p>For example, a “ticket” may be created. Or a “story.” At our current level of understanding, there is little difference between these two concepts. The important thing they have in common is an independent existence. That is, Mary, Joe, and Sara might all change jobs, but the artifact persists independently of them.
-A complex IT-based system is not needed! A shared white board in a public location might be all that is needed. This gives the team a “shared mental model” of who is doing what.</p>
+<p>For example, a “ticket” may be created. Or a “story.” At our current level of understanding, there is little difference between these two concepts. The important thing they have in common is an independent existence. That is, Mary, Joe, and Sara might all change jobs, but the artifact persists independently of them. This can be called <em>reification</em>.</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+Reification generally refers to making something real, bringing something into being, or making something concrete.
+</blockquote>
+<div class="attribution">
+&#8212; Wikpedia<br>
+<cite>https://en.wikipedia.org/wiki/Reification</cite>
+</div>
+</div>
+<div class="paragraph">
+<p>A complex IT-based system is not needed! (Nor for that matter a complex process framework, such as ITIL. This author sees little value in using such frameworks at this stage of evolution.) A shared white board in a public location might be all that is needed. This gives the team a “shared mental model” of who is doing what.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -5854,7 +5935,95 @@ A complex IT-based system is not needed! A shared white board in a public locati
 </div>
 <div class="sect3">
 <h4 id="_introducing_kanban">Introducing Kanban</h4>
-
+<div class="paragraph">
+<p>To understand Kanban it is advisable to discuss Lean briefly.</p>
+</div>
+<div class="paragraph">
+<p>Kanban is a term originating from Lean and the Toyota Production System. Originally, it signified a “pull” technique in which materials would only be transferred to a given workstation on a definite signal that the workstation required the materials. This was in contrast to “push” approaches where work was allowed to accumulate on the shop floor, on the (now discredited) idea that it was more “efficient” to operate workstations at maximum capacity.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+There is a tremendous wealth of material available on Lean history and theory, and the IT student is urged to become familiar with it. Historically, there has been some resistance in IT circles to learning lessons derived from manufacturing, as there were misperceptions that manufacturing is too “repetitive” compared to IT systems development. This resistance is rapidly disappearing with the new generation of thought leadership centered on Agile methods and related themes such as DevOps.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>David J. Anderson was a product manager at Microsoft who was seeking a more effective approach to managing software development. In consultation with Don Reinertsen (whose work we will examine in Section 3) he applied the original concept of Kanban to his development activities.<a href="#Anderson2010">[Anderson2010]</a></p>
+</div>
+<div class="paragraph">
+<p>Unlike Scrum, with its defined, high-pressure sprints, Kanban is a continuous process with no specified cadence. Work is “pulled” from backlog into active attention as resources are freed from previous work.</p>
+</div>
+<div class="paragraph">
+<p>There are deeper philosophical and cultural tenets embedded in Kanban beyond workflow. Anderson and his colleagues continue to evolve Kanban into a more ambitious framework. Mike Burrows <a href="#Burrows2014">[Burrows2014]</a> identifies the following key principles</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Start with what you do now.</p>
+</li>
+<li>
+<p>Agree to pursue evolutionary change.</p>
+</li>
+<li>
+<p>Initially, respect current processes, roles, responsibilities, and job titles.</p>
+</li>
+<li>
+<p>Encourage acts of leadership at every level in your organization —from individual contributor to senior management.</p>
+</li>
+<li>
+<p>Visualize.</p>
+</li>
+<li>
+<p>Limit Work-in-Progress (WIP).</p>
+</li>
+<li>
+<p>Manage flow.</p>
+</li>
+<li>
+<p>Make policies explicit.</p>
+</li>
+<li>
+<p>Implement feedback loops.</p>
+</li>
+<li>
+<p>Improve collaboratively, evolve experimentally (using models and the scientific method).</p>
+</li>
+</ul>
+</div>
+<div class="sect4">
+<h5 id="_scrum_kanban_or_both">Scrum, Kanban, or both?</h5>
+<div class="paragraph">
+<p>So, do you choose Scrum, Kanban, both, or neither?</p>
+</div>
+<div class="paragraph">
+<p>We can see in comparing Scrum and Kanban that their areas of focus are somewhat different.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Scrum has achieved widespread success and formalization, which is why Scrum training is widespread and generally consistent in content.</p>
+</li>
+<li>
+<p>Kanban is seen as more flexible but this comes at a cost of more management overhead. It requires more interpretation to translate to a given organization’s culture and practices.</p>
+</li>
+<li>
+<p>“Scrum is not well suited to highly interrupt-driven work.” <a href="#Rubin2012">[Rubin2012]</a>. (But if you are too small, it may be difficult to segregate out interrupt-driven work! We will discuss the issues around interrupt-driven work further in Chapter 06.)</p>
+</li>
+<li>
+<p>Finally, hybrids exist (Ladey’s “Scrumban.”)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>More on this in Section III.</p>
+</div>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_conclusion_5">Conclusion</h4>
@@ -5883,6 +6052,12 @@ A complex IT-based system is not needed! A shared white board in a public locati
 <p>Sutherland</p>
 </li>
 </ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_articles">Articles</h5>
+<div class="paragraph">
+<p><a href="https://stormpath.com/blog/so-long-scrum-hello-kanban/">So Long Scrum, Hello Kanban</a></p>
 </div>
 </div>
 </div>
@@ -7146,6 +7321,9 @@ IEEE Press.</p>
 </li>
 <li>
 <p><a id="Royce1970"></a>[Royce1970]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.</p>
+</li>
+<li>
+<p><a id="Rubin2012"></a>[Rubin2012]: Rubin, K.S., 2012. <em>Essential Scrum : a practical guide to the most popular agile process</em>, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.</p>
 </li>
 <li>
 <p><a id="Scotland2010"></a>[Scotland2010]: Scotland, K. (2010), "Defining the Last Responsible Moment", <a href="http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment" class="bare">http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment</a></p>

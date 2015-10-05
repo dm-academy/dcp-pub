@@ -38,7 +38,11 @@ http://dm-academy.github.io/aitm/#_defining_information_technology[As stated in 
 
 Perhaps the most important aspect of product design is focusing on the user, and what she or he needs. This is easier said than done. Entire books have been written on the various tools and techniques for doing this, from  focus groups to ethnographic analysis.
 
-Product management includes research and development, which means that there is an element of uncertainty. This is of course also true of IT systems development. Often, IT professionals resist drawing lessons from non-IT fields, because of a perception (only partially true) that these other fields (especially manufacturing) are “deterministic” while IT systems development is too “uncertain.”
+Product management includes research and development, which means that there is an element of uncertainty. This is of course also true of IT systems development.
+
+So, what does product management have to do with IT and software? 
+
+Often, IT professionals resist drawing lessons from non-IT fields, because of a perception (only partially true) that these other fields (especially manufacturing) are “deterministic” while IT systems development is too “uncertain.”
 
 In reality, manufacturing is less deterministic than IT professionals often perceive, while software development is, at its most uncertain, just another form of https://en.wikipedia.org/wiki/New_product_development[new product development], and/or https://en.wikipedia.org/wiki/Research_and_development[research and development] and therefore can be managed on that basis.
 
@@ -77,10 +81,6 @@ Here are some of the key differences between process, project and product manage
 The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management
 
 In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8.
-
-===== What is a Product Manager?
-
-a Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail. - See more at: http://pragmaticmarketing.com/resources/where-should-product-management-report#sthash.Vgs8NtWw.dpuf
 
 ===== Market facing, supporting, back office
 In Chapter 1 we discussed the question of "who pays/who benefits" for the service, http://dm-academy.github.io/aitm/#_defining_consumer_customer_and_sponsor[proposing that] the service consumer, the service customer, and the service sponsor might be three distinct roles (sometimes collapsing into 2 or 1 individual.)

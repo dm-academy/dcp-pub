@@ -1,0 +1,67 @@
+==== The shared mental model of the work to be done
+As work flows through the system performing it, understanding its status is key to managing it.
+One of the most important mechanisms for doing this is to simply define what is meant by “done.” The Agile Alliance states:
+
+“The team agrees on, and displays prominently somewhere in the team room, a list of criteria which must be met before a product increment, often a user story, is considered "done". Failure to meet these criteria at the end of a sprint normally implies that the work should not be counted toward that sprint's velocity.”
+
+From http://guide.agilealliance.org/guide/definition-of-done.html#sthash.6rSCZMyU.dpuf
+
+This idea of defining “done” can be extended by the team to other concepts such as “blocked.” The important thing is that this is all part of the team’s shared mental model, and is best defined by the team and its customers. (However, governance and consistency concerns may intervene if teams are too diverse in such definitions.)
+
+===== Visualization
+Depending on how you measure, between 40% to as much as 80% of the human cortex is devoted to visual processing, more than the other four senses combined. Visual representations are powerful communication mechanisms, well suited to our cognitive abilities.
+
+Furthermore,  visual processing dominates mental activity (*** the finding of neuroanatomist R.S. Fixot in a paper published in 1957), consuming more neurons than the other four senses combined. (http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf)
+
+
+This is why Kanban boards located in the same room are so prevalent. They communicate and sustain the shared mental model of a human team.
+Similarly, monitoring tools for systems operation make use of various visual clues.
+Human visual orientation is also why EA persists. People will always draw to communicate. (More on EA in Chapter 10.)
+
+Because of these facts, it is useful to understand some of the fundamentals of how humans interpret symbolic data.
+
+(*** re-read and summarize Moody)
+
+More on these in future chapters
+
+Moody, but what are his sources?
+http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf
+
+Further reading on visual processing:
+Moody
+Tufte & others (that comparison paper cited by Moody)
+
+Also discussed in section 4
+
+Thoughtworks writeup - BA has to agree with dev
+https://t.co/2X92CFcKqU
+
+Importance of code reviews
+Shared mental model, consensus alignment
+
+Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete.
+
+Narayan, Sriram (2015-06-11). Agile IT Organization Design: For Digital Transformation and Continuous Delivery (Kindle Locations 3367-3368). Pearson Education. Kindle Edition.
+
+Reinertsen 204-205 on kanban
+
+Whether you choose Scrum, Kanban, or choose not to label your work management at all, the important thing is that you are creating a shared mental model of the work: its envisioned form and content, and your progress towards it.
+
+image::images/2.05-work-mental-model.png[]
+
+Another related concept from Lean is the idea of andon:
+
+[quote, Wikipedia, https://en.wikipedia.org/wiki/Andon_(manufacturing)]
+
+Andon (Japanese: アンドン or あんどん or 行灯) is a manufacturing term referring to a system to notify management, maintenance, and other workers of a quality or process problem. The centrepiece is a signboard incorporating signal lights to indicate which workstation has the problem. The alert can be activated manually by a worker using a pullcord or button, or may be activated automatically by the production equipment itself. The system may include a means to stop production so the issue can be corrected. Some modern alert systems incorporate audio alarms, text, or other displays.
+
+efinition: Andon, and the Andon Cord
+The Andon Cord (more generally, Andon) is a well known concept in Lean Manufacturing. It originated with Toyota, where line workers were empowered to stop the production line if any defective materials or assemblies were encountered. Instead of attempting to work with the defective input, the entire line would shut down and all concerned would establish what had happened and how to prevent it. The concept of andon cord concisely summarizes the Lean philosophy of employee responsibility for quality at all levels.
+
+Taiichi Ohno, founder of the Toyota Way, described it thus.:
+Stopping the machine when there is trouble forces awareness on everyone. When the problem is clearly understood, improvement is possible. Expanding this thought, we establish a rule that even in a manually operated production line, the workers themselves should push the stop button to halt production if any abnormality appears. ( (Ohno 1988), p. 7.)
+Andon in the more general sense refers to a real time display of production status that all can see.
+
+This idea of a shared reference point, informing the shared mental model of the team, is essential.
+
+This is why a shared kanban board, with its dimensionality, is more informative than a simple to-do list (e.g.  in a spreadsheet). The cards occupy two dimensional space and are  moved over time to signify activity, both powerful cues to the human visual processing system.

@@ -85,7 +85,7 @@ include::book/2-section-II/2.05-chap-5/2.05.02-kanban-intro.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.03-shared-mental-model.adoc[]
 
-include::     book/2-section-II/2.05-chap-5/2.05.04-time-space-shifting.adoc[]
+include::book/2-section-II/2.05-chap-5/2.05.04-time-space-shifting.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.05-velocity.adoc[]
 

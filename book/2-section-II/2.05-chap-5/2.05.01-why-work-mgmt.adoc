@@ -1,13 +1,5 @@
 ==== Why work management?
 
-
-
-At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it. We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
-
-* Finish what you start, if you can, before starting anything else
-* Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.
-* Visibility into work in progress is important for the collective mental model of the team
-
 Work management may start with verbal requests, emails, even postal mail. The design process may result in a wide variety of deliverables that also initiate work activity. And as your product matures, the product itself generates both routine and non-routine work. All of this needs to be tracked.
 
 If you ask your colleague to do one thing, and she doesn’t have anything else to do, it’s likely that the two of you will remember. If you ask her to do four things over a few days, you might both still remember. You each might start keeping your own “to do” list and this can handle a dozen or two dozen tasks.
@@ -45,4 +37,12 @@ The rectangles labeled “Task” are index cards or sticky notes. The board its
 
 Jeff Sutherland calls this a “Scrum board” while many others call it a “Kanban board.” The board at its most basic is not specific to either methodology. (See the sidebar on Scrum and Kanban.)
 
-The basic board is widely used because it is a powerful artifact. Behind its deceptive simplicity is considerable industrial experience and relevant theory from operations management and human factors. (***cite anderson). However, it has scalability limitations. What if the team is not all in the same room? We will cover this in Section 3.
+The basic board is widely used because it is a powerful artifact. Behind its deceptive simplicity is considerable industrial experience and relevant theory from operations management and human factors <<Anderson2010>>. However, it has scalability limitations. What if the team is not all in the same room? We will cover this in Section 3.
+
+===== Limiting work in process
+
+At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it. We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
+
+* Finish what you start, if you can, before starting anything else
+* Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.
+* Visibility into work in progress is important for the collective mental model of the team

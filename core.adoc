@@ -83,6 +83,12 @@ include::book/2-section-II/2.05-chap-5/2.05.01-why-work-mgmt.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.02-kanban-intro.adoc[]
 
+include::book/2-section-II/2.05-chap-5/2.05.03-shared-mental-model.adoc[]
+
+include::     book/2-section-II/2.05-chap-5/2.05.04-time-space-shifting.adoc[]
+
+include::book/2-section-II/2.05-chap-5/2.05.05-velocity.adoc[]
+
 include::book/2-section-II/2.05-chap-5/2.05.99-conclusion.adoc[]
 
 include::book/2-section-II/2.06-chap-6/2.06.00-intro.adoc[]

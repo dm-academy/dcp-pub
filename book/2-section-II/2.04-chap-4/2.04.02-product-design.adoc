@@ -3,6 +3,9 @@
 [quote, Herbert Simon]
 Everyone designs who devises courses of action aimed at changing existing situations into preferred ones.
 
+[quote, Jacques Murphy, Pragmatic Marketing]
+ What is a Product Manager? A Product Manager is the one person in the whole organization who owns the product Requirements effort. Requirements focuses on the WHAT, which means it isn't Development, which focuses on the HOW. And Marketing traditionally talks about the WHAT, but cannot necessarily decide what the WHAT should be. At least not at any useful level of detail.
+
 Now that we have surveyed the overall field of product management, we can turn more specifically to the topic of product design.
 
 The presence of a section entitled "product design" in this book is a marked departure from other IT management textbooks. "Traditional" models of IT delivery focus on projects and deliverables, concepts we will not explore until chapter 8.

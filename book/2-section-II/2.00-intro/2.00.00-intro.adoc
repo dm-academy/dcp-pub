@@ -5,7 +5,7 @@
 *Scenario*
 You are part of a tight-knit team. You’ve moved out of the garage into a more professionalized environment. You might not all be in the same room, but you have a single mission and a cohesive culture, and you don’t need a lot of overhead to get the job done.
 
-Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. With even with a few new people comes the need to more clearly establish your product direction, so people are building the right thing. You're all in the same location, and can still communicate informally, but there is enough going on that you need a more organized approach to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
+Your startup has met with some success and you are now a team - still small enough to be fed by two pizzas, if people aren't that hungry. Even with a few new people comes the need to more clearly establish your product direction, so people are building the right thing. You're all in the same location, and can still communicate informally, but there is enough going on that you need a more organized approach to getting work done. Finally, this great thing you're building doesn't mean much if it's not running right and people can't get to it.
 
 However, things are getting larger and more complex. You have a significant user base, and your founder is increasingly out meeting with users, customers and investors; she isn’t in the room with the product team as much any more… in fact, she just named someone to be “product owner” and what is that all about?
 

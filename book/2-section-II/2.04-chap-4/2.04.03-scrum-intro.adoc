@@ -8,7 +8,7 @@ There Are No Tasks; There Are Only Stories.
 
 One of the first Agile methodologies you are likely to encounter as a practitioner is Scrum. There are many books, classes, and websites where you can learn more about this framework; <<Sims2012>> is a good introduction.
 
-We mention Scrum in this chapter, as it is very product-focused. It calls for the roles of
+We mention Scrum in this chapter, as it is very product-focused. It calls for the roles of:
 
 * Product owner
 * Scrum master
@@ -27,11 +27,11 @@ Scrum uses specific practices and artifacts such as sprints, standups, reviews, 
 ** The product owner sets overall direction.
 ** The Scrum Master coaches and advocates for the team
 ** The development team is defined as those who are committed to the development work
-* There are various artifacts
+* There are various artifacts:
 ** Product backlog is the overall “to-do” list for the product. (More on product management in the next chapter.)
 ** Sprint backlog is the to-do list for the current sprint
 ** Potentially shippable product increment is an important concept used to decouple the team’s development activity from downstream business planning. A PSI is a cohesive unit of functionality that *could* be delivered to the customer, but doing so is the decision of the product owner.
-* There are seven activities
+* There are seven activities:
 ** The “sprint” is a defined time period, typically two to four weeks, in which the development team executes on an agreed scope
 ** Backlog grooming is when the product backlog is examined and refined into increments that can be moved into the sprint backlog
 ** Sprint Planning is where the scope is agreed

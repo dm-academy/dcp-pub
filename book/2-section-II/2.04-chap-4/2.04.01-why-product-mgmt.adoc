@@ -40,7 +40,7 @@ Perhaps the most important aspect of product design is focusing on the user, and
 
 Product management includes research and development, which means that there is an element of uncertainty. This is of course also true of IT systems development.
 
-So, what does product management have to do with IT and software? 
+So, what does product management have to do with IT and software?
 
 Often, IT professionals resist drawing lessons from non-IT fields, because of a perception (only partially true) that these other fields (especially manufacturing) are “deterministic” while IT systems development is too “uncertain.”
 
@@ -78,7 +78,7 @@ Here are some of the key differences between process, project and product manage
 |Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability
 |====
 
-The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management
+The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management.
 
 In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8.
 
@@ -87,11 +87,11 @@ In Chapter 1 we discussed the question of "who pays/who benefits" for the servic
 
 We see this again in how we can categorize the "customers" of IT services and systems. Roughly, such services can be:
 
-* Directly market- and consumer-facing (e.g. Facebook), to be used by external consumers and paid for by either them or closely associated customers (e.g. Netflix, or an onling banking system)
+* Directly market- and consumer-facing (e.g. Facebook), to be used by external consumers and paid for by either them or closely associated customers (e.g. Netflix, or an online banking system).
 * Customer "supporting" systems, such as the online system that a bank teller uses when interacting with a customer. Customers do not interact directly with such systems, but customer-facing representatives do, and problems with such systems may be readily apparent to the end customer.
 * Completely "back-office" systems (HR, payroll, marketing, etc)
 
-Note however, that (especially in the current digitally transforming market) a service previously thought of as "back office" (when run internally) becomes "market-facing" when developed as a profit-seeking offering. For example, an HR system built internally is "back office," but Workday is a directly market facing product, even though the two services may be similar in functionality.
+Note however, that (especially in the current digitally transforming market) a service previously thought of as "back office" (when run internally) becomes "market-facing" when developed as a profit-seeking offering. For example, an HR system built internally is "back office," but Workday is a directly market-facing product, even though the two services may be similar in functionality.
 
 In other words, it's all relative.
 

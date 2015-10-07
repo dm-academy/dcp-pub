@@ -1,22 +1,21 @@
 ==== Conclusion
+"Work management" may seem like an oddly general title, but it's important to distinguish the fundamental problem from more elaborate constructs such as process and project management. At the end of the day, "it's all just work."
 
-Conclusion placeholder
+Understanding work requires understanding tasks and their lifecycle, and the synchronization points necessary to coordinate across them.
 
 ===== Discussion questions
-
-Look up the (originally nautical) concept of “dead reckoning.” Is it open loop or closed loop?
-
-Team exercises:
 
 Do you choose Scrum, Kanban, both, or neither?
 
 ===== Research & practice
 
+Research an automated, online Kanban tool. Compare it to a physical whiteboard. Which do you prefer and why?
+
 ===== Further reading
 *Books*
-* Burrows
-* Anderson
-* Sutherland
+
+* Mike Burrows, http://www.goodreads.com/book/show/23162381-kanban-from-the-inside[_Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_]
+* David Anderson, http://www.goodreads.com/book/show/8086552-kanban[_Kanban: Successful Evolutionary Change for Your Technology Business_]
 
 *Articles*
 https://stormpath.com/blog/so-long-scrum-hello-kanban/[So Long Scrum, Hello Kanban]

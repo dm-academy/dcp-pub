@@ -18,11 +18,11 @@ The goal of a startup is to figure out the right thing to build— the thing cus
 
 Lean Startup is a philosophy of entrepreneurship developed by Eric Ries <<Ries2011>>. It is not specific to information technology; rather, it is broadly applicable to all attempts to understand a product and its market. (Remember according to our definition that a workable market position is essential to any product.)
 
-The idea of the Lean Startup has had profound influence on product design, including market-facing and even internal IT systems. It is grounded in Agile concepts such as
+The idea of the Lean Startup has had profound influence on product design, including market-facing and even internal IT systems. It is grounded in Agile concepts such as:
 
 "Do the simplest thing that could possibly work."
 
-Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this cycle frequently is the essential process of building a successful startup (whatver the digital proportion).
+Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this cycle frequently is the essential process of building a successful startup (whatever the digital proportion).
 
 * Develop an idea for a Minimum Viable Product (MVP)
 * Measure its effectiveness in the market (internal/external)
@@ -43,9 +43,9 @@ Components are *how* your product is *built*, such as database vs. Web component
 
 Feature teams are dedicated to a clearly defined functional scope, while component teams are defined by their technology platform. Component teams may become shared services, which need to be carefully understood and managed (more on this in Section 3).
 
-It may be easy to say that features are more important than products, but this can easily be carried too far. Do you want each feature team choosing its own database? Not recommended. Allowing feature teams to define their own technical direction can result in brittle, fragmented architectures, technical debt, and rework.
+It may be easy to say that features are more important than components, but this can easily be carried too far. Do you want each feature team choosing its own database? Not recommended. Allowing feature teams to define their own technical direction can result in brittle, fragmented architectures, technical debt, and rework.
 
-Software product management needs to be a careful balance between these two perspectives. Some http://blog.octo.com/en/feature-team-beyond-the-buzzword/[recommend] a ratio of
+Software product management needs to be a careful balance between these two perspectives. Some http://blog.octo.com/en/feature-team-beyond-the-buzzword/[recommend] a ratio of:
 
 * 70-80% Feature teams to
 

@@ -45,3 +45,42 @@ We can see in comparing Scrum and Kanban that their areas of focus are somewhat 
 * Finally, hybrids exist (Ladas' “Scrumban,” <<Ladas2009>>).
 
 More on this in Section III.
+
+****
+*Sidebar: Kanban, process, and respect for people*
+
+Processes cross functions.
+Processes (e.g. Quote to Cash, Idea to Production) are what actually deliver value.
+We need both process and function; we can’t organize solely around either.
+Therefore, get used to matrix management.
+
+The above statements are the management dogma I grew up with. Considered to be innovative at the time, originated by the likes of Michael Hammer and (more rigorously) Geary Rummler. (See Paul Harmon's http://www.bptrends.com/publicationfiles/advisor20081209.pdf[excellent obituary of Geary Rummler].)
+
+But consider a day in the life in the modern corporation: dozens or hundreds of cross functional processes that have become a daily barrage of work on the people housed in the functional areas. Driven by back end automation, front ended by automated (or even manual) email notifications, these required activities include:
+
+* service requests,
+* compliance certifications,
+* asset validations,
+* provisioning requests,
+* capacity assessments,
+* change approvals,
+* training obligations,
+* performance assessments,
+* audit responses,
+* expense reporting,
+* travel approvals,
+
+and more - infinitely more. This is the modern, “process"-centric enterprise.
+
+True, any one of these processes is (often) a relatively small burden to perform. Taken together, however, it’s the nightmare of Adminisdribble: The daily death by a thousand cuts of required, cross-functional process.
+
+Continual context switching. End to end flow in concept across functions, but little experienced by the multitasking individual. Invisible, unmanaged demand. A thousand channels for flow, but no throughput, because of gridlock.
+
+What drives this? The combination of permanent downsizing, continually increasing governance & compliance burdens, and the assumption that the enterprise can always tolerate another process. Overall organizational capacity is rarely considered, especially for “supporting" processes. And there is no appreciation for the emergent behavior when these myriads of processes interact in unexpected ways.
+
+This is why kanban is so radical. Within a limited scope, it is starting to challenge the IT management dogma at least. User stories, incidents, defects, service requests, changes… they are all “just work.” Just another sticky note on the board. Someone has to perform the work; someone has to allocate time and attention to it. A simple but utterly profound change in orientation. Kanban is the labor movement of the 21st century.
+
+It seems to me that true “respect for people” (as advocated by Lean) of course must start with the recognition that work takes people’s time. I think the modern, process centric enterprise has lost sight of that reality. Is Kanban the answer?
+
+_originally posted at http://www.lean4it.com/2014/08/kanban-vs-process.html_
+****

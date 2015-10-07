@@ -1,15 +1,20 @@
-==== Synchronization
+==== Advanced topics
 
- I think there is a fundamental abstract model here of tasks and synch points - OS scheduling analogs? Mutexes/semaphores? emergent dependencies? 
+===== The Demand, Supply, Execute model
 
-==== Cadence
+
+===== Synchronization
+
+ I think there is a fundamental abstract model here of tasks and synch points - OS scheduling analogs? Mutexes/semaphores? emergent dependencies?
+
+===== Cadence
 Cadence is an important form of synchronization. [more]
 
-==== Velocity
+===== Velocity
 
 Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete. <<Narayan2015>>
 
-==== A look ahead to project and process
+===== A look ahead to project and process
 
 Projects: fixed time/duration/scope, not repeatable.
 

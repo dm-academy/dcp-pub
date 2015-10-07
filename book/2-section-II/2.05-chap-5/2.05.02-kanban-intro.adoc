@@ -16,7 +16,7 @@ Unlike Scrum, with its defined, high-pressure sprints, Kanban is a continuous pr
 
 This is perhaps the most important aspect of Kanban - the idea that work is not accepted until there is capacity to perform it.
 
-You may have a white board covered with sticky notes, but if they are stacked on top of each other with no concern for worker's availability, you are not doing Kanban. You are accepting too much work in process and you are likely to encounter a "high-queue state" in which work becomes slower and slower to get done. 
+You may have a white board covered with sticky notes, but if they are stacked on top of each other with no concern for worker availability, you are not doing Kanban. You are accepting too much work in process and you are likely to encounter a "high-queue state" in which work becomes slower and slower to get done.
 
 There are deeper philosophical and cultural tenets embedded in Kanban beyond workflow. Anderson and his colleagues continue to evolve Kanban into a more ambitious framework. Mike Burrows <<Burrows2014>> identifies the following key principles
 
@@ -40,6 +40,6 @@ We can see in comparing Scrum and Kanban that their areas of focus are somewhat 
 * Scrum has achieved widespread success and formalization, which is why Scrum training is widespread and generally consistent in content.
 * Kanban is seen as more flexible but this comes at a cost of more management overhead. It requires more interpretation to translate to a given organization’s culture and practices.
 * “Scrum is not well suited to highly interrupt-driven work.” <<Rubin2012>>. (But if you are too small, it may be difficult to segregate out interrupt-driven work! We will discuss the issues around interrupt-driven work further in Chapter 06.)
-* Finally, hybrids exist (Ladey’s “Scrumban.”)
+* Finally, hybrids exist (Ladas' “Scrumban,” <<Ladas2009>>).
 
 More on this in Section III.

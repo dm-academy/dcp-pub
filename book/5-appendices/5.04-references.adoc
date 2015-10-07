@@ -78,6 +78,8 @@
 
 - [[[Krafcik1988]]]:Krafcik, J. (1988),"Triumph of the lean production system",  _Sloan Management Review_  30(1), 41-52.
 
+- [[[Ladas2009]]]: Ladas, C. (2009). _Scrumban_, Modus Cooperandi Press (January 12, 2009).
+
 - [[[Larman2002]]]: Larman, C. (2002), _Applying UML and patterns : an introduction to object-oriented analysis and design and the unified process_, Prentice Hall PTR, Upper Saddle River, NJ
 
 - [[[Larman2009]]]: Larman, C. & Bodde, V. (2009), _Scaling Lean & Agile Developments: Thinking and Organizational Tools for Large-Scale Scrum_, Addison-Wesley, Upper Saddle River, NJ
@@ -116,6 +118,8 @@ IEEE Press.
 - [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
 
 - [[[Scotland2010]]]: Scotland, K. (2010), "Defining the Last Responsible Moment", http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment
+
+- [[[Sells1957]]]:Sells, S. B., Fixott., Richard S. (1957 ). "Evaluation of Research on Effects of Visual Training on Visual Functions." _Am J Ophthal_ 44(2): 230-236.
 
 - [[[Shortland2012]]]: Shortland, A. & Lei, M. (2012), "Using Rundeck and Chef to build DevOps Toolchains", http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/
 

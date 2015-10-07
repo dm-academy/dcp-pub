@@ -2,4 +2,6 @@
 
 ==== Velocity
 
+Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete. <<Narayan2015>>
+
 ==== A look ahead to project and process

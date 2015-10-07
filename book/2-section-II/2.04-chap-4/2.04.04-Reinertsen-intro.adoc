@@ -1,4 +1,4 @@
-==== Lean, Lean Product Development, and Don Reinertsen
+==== Lean, Lean product development, and Don Reinertsen
 
 We've had passing mention of Lean already in this book. But what is Lean?
 

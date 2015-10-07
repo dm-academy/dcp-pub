@@ -2,8 +2,11 @@
 
 At some point your team will be faced with the problems of time and/or space shifting. People will be on different schedules, or in different locations, or both.
 There are two things we know about this. First, it leads to sub-optimal team communications and performance. Second, it is inevitable.
+
 The need for time and space shifting is one of the major drivers for more formalized IT systems. It is difficult to effectively use a physical Kanban board if people aren’t in the office. The outcome of the daily standup needs to be captured for the benefit of those who could not be there.
-However, acceptance of time and space shifting may lead to more of it, even when it is not absolutely required. A constant pressure and questioning is recommended, given the clear effectiveness of face to face communication. (*** cite).
+
+However, acceptance of time and space shifting may lead to more of it, even when it is not absolutely required. A constant pressure and questioning is recommended, given the superior bandwidth of face to face communication.
+
 Work management in practice has divided between development and operations toolsets. However, DevOps and Kanban are forcing a reconsideration and consolidation. Historically, here are some of the major tools and channels through which tasks and work are managed on both sides:
 
 Development
@@ -14,9 +17,10 @@ Defect tracker
 Agile backlogs (user stories)
 Service desk ticketing system
 
-Kanban
-
 Kanban is a special case, as it can mean both a manual as well as an automated system. Obviously, for time and space shifting, we need an automated system.
+
+===== Common characteristics
+
 All of these systems have common characteristics. All can (or should) be able to:
 
 Register a new task

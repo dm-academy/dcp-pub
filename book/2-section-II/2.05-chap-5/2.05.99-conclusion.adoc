@@ -6,19 +6,17 @@ Conclusion placeholder
 
 Look up the (originally nautical) concept of “dead reckoning.” Is it open loop or closed loop?
 
-
 Team exercises:
 
 Do you choose Scrum, Kanban, both, or neither?
 
-
 ===== Research & practice
 
 ===== Further reading
-
+*Books*
 * Burrows
 * Anderson
 * Sutherland
 
-===== Articles
+*Articles*
 https://stormpath.com/blog/so-long-scrum-hello-kanban/[So Long Scrum, Hello Kanban]

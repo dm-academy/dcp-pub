@@ -31,6 +31,8 @@ There are deeper philosophical and cultural tenets embedded in Kanban beyond wor
 * Implement feedback loops.
 * Improve collaboratively, evolve experimentally (using models and the scientific method).
 
+ [Reinertsen 204-205 on kanban]
+
 ===== Scrum, Kanban, or both?
 
 So, do you choose Scrum, Kanban, both, or neither?

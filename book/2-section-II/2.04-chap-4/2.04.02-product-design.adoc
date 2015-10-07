@@ -1,4 +1,4 @@
-==== Product Design
+==== Product design
 
 [quote, Herbert Simon]
 Everyone designs who devises courses of action aimed at changing existing situations into preferred ones.

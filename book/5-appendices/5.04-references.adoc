@@ -135,7 +135,6 @@ IEEE Press.
 
 - [[[Whittaker2012]]]: Whittaker, J.A., J. Arbon, and J. Carollo, 2012, _How Google tests software_, Upper Saddle River, NJ: Addison-Wesley. xxvii, 281 p.
 
-
 - [[[Womack2003]]]: Womack, J. P. & Jones, D. T. (2003), _Lean thinking: banish waste and create wealth in your corporation_, Free Press, New York
 
 - [[[Womack1990]]]: Womack, J. P.; Jones, D. T. & Roos, D. (1990), _The machine that changed the world : based on the Massachusetts Institute of Technology 5-million dollar 5-year study on the future of the automobile_, Rawson Associates, New York

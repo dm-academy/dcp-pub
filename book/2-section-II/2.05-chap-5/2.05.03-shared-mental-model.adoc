@@ -34,15 +34,10 @@ Furthermore,  visual processing http://simplybrainy.com/wp-content/uploads/2011/
 
 This is why Kanban boards located in the same room are so prevalent. They communicate and sustain the shared mental model of a human team. Similarly, monitoring tools for systems operation make use of various visual clues. Human visual orientation is also why Enterprise Architecture persists. People will always draw to communicate. (More on EA in Chapter 10.)
 
-defining done
+===== Definition of done
+Shared mental model, consensus alignment
+
 Thoughtworks writeup - BA has to agree with dev
 https://t.co/2X92CFcKqU
 
 Importance of code reviews
-Shared mental model, consensus alignment
-
-Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete.
-
-Narayan, Sriram (2015-06-11). Agile IT Organization Design: For Digital Transformation and Continuous Delivery (Kindle Locations 3367-3368). Pearson Education. Kindle Edition.
-
-Reinertsen 204-205 on kanban

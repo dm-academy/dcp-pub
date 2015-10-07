@@ -4,11 +4,19 @@ To understand Kanban it is advisable to discuss Lean briefly.
 
 Kanban is a term originating from Lean and the Toyota Production System. Originally, it signified a “pull” technique in which materials would only be transferred to a given workstation on a definite signal that the workstation required the materials. This was in contrast to “push” approaches where work was allowed to accumulate on the shop floor, on the (now discredited) idea that it was more “efficient” to operate workstations at maximum capacity.
 
-IMPORTANT: There is a tremendous wealth of material available on Lean history and theory, and the IT student is urged to become familiar with it. Historically, there has been some resistance in IT circles to learning lessons derived from manufacturing, as there were misperceptions that manufacturing is too “repetitive” compared to IT systems development. This resistance is rapidly disappearing with the new generation of thought leadership centered on Agile methods and related themes such as DevOps.
+IMPORTANT: There is a tremendous wealth of material available on Lean history and theory, and the IT student is urged to become familiar with it. +
+ +
+Historically, there has been resistance in IT circles to learning lessons derived from manufacturing, due to misperceptions that manufacturing is too “repetitive” compared to IT systems development. +
+ +
+ This resistance is disappearing with the new generation of thought leadership centered on Agile methods and related themes such as DevOps.
 
-David J. Anderson was a product manager at Microsoft who was seeking a more effective approach to managing software development. In consultation with Don Reinertsen (whose work we will examine in Section 3) he applied the original concept of Kanban to his development activities.<<Anderson2010>>
+David J. Anderson was a product manager at Microsoft who was seeking a more effective approach to managing software development. In consultation with Don Reinertsen (introduced in the http://dm-academy.github.io/aitm/#_lean_lean_product_development_and_don_reinertsen[previous chapter]) he applied the original concept of Kanban to his development activities.<<Anderson2010>>
 
 Unlike Scrum, with its defined, high-pressure sprints, Kanban is a continuous process with no specified cadence. Work is “pulled” from backlog into active attention as resources are freed from previous work.
+
+This is perhaps the most important aspect of Kanban - the idea that work is not accepted until there is capacity to perform it.
+
+You may have a white board covered with sticky notes, but if they are stacked on top of each other with no concern for worker's availability, you are not doing Kanban. You are accepting too much work in process and you are likely to encounter a "high-queue state" in which work becomes slower and slower to get done. 
 
 There are deeper philosophical and cultural tenets embedded in Kanban beyond workflow. Anderson and his colleagues continue to evolve Kanban into a more ambitious framework. Mike Burrows <<Burrows2014>> identifies the following key principles
 

@@ -2,6 +2,8 @@
 
 ===== The Demand, Supply, Execute model
 
+===== Context switching and multi-tasking
+ [Human factors discussion]
 
 ===== Synchronization
 

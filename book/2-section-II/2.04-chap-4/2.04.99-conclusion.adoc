@@ -39,6 +39,9 @@ As with most other chapters in this book, this brief survey cannot do justice to
 
 * http://pragmaticmarketing.com/resources/where-should-product-management-report[Where Should Product Management Report?]
 
+*Videos*
+http://www.infoq.com/presentations/Economic-Models[The Tactical and Strategic Art of Economic Models] Excellent discussion of Cost of Delay. 
+
 *Professional*
 Professional
 http://www.pdma.org/[Product Development and Marketing Association]

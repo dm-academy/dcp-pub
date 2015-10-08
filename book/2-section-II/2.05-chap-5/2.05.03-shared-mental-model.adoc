@@ -44,39 +44,39 @@ https://t.co/2X92CFcKqU
 
 ===== Time and space shifting
 
- At some point your team will be faced with the problems of time and/or space shifting. People will be on different schedules, or in different locations, or both.
+At some point your team will be faced with the problems of time and/or space shifting. People will be on different schedules, or in different locations, or both.
  There are two things we know about this. First, it leads to sub-optimal team communications and performance. Second, it is inevitable.
 
- The need for time and space shifting is one of the major drivers for more formalized IT systems. It is difficult to effectively use a physical Kanban board if people aren’t in the office. The outcome of the daily standup needs to be captured for the benefit of those who could not be there.
+The need for time and space shifting is one of the major drivers for more formalized IT systems. It is difficult to effectively use a physical Kanban board if people aren’t in the office. The outcome of the daily standup needs to be captured for the benefit of those who could not be there.
 
- However, acceptance of time and space shifting may lead to more of it, even when it is not absolutely required. A constant pressure and questioning is recommended, given the superior bandwidth of face to face communication.
+However, acceptance of time and space shifting may lead to more of it, even when it is not absolutely required. A constant pressure and questioning is recommended, given the superior bandwidth of face to face communication.
 
- Work management in practice has divided between development and operations toolsets. However, DevOps and Kanban are forcing a reconsideration and consolidation. Historically, here are some of the major tools and channels through which tasks and work are managed on both sides:
+Work management in practice has divided between development and operations toolsets. However, DevOps and Kanban are forcing a reconsideration and consolidation. Historically, here are some of the major tools and channels through which tasks and work are managed on both sides:
 
-Development
-Operations
-Requirements log
-Issue/risk/action item log
-Defect tracker
-Agile backlogs (user stories)
-Service desk ticketing system
+* Development
+* Operations
+* Requirements log
+* Issue/risk/action item log
+* Defect tracker
+* Agile backlogs (user stories)
+* Service desk ticketing system
 
 Kanban is a special case, as it can mean both a manual as well as an automated system. Obviously, for time and space shifting, we need an automated system.
 
 All of these systems have common characteristics. All can (or should) be able to:
 
-Register a new task
-Describe the work to be done (development or break/fix/remediate)
-Represent the current status of the work
-Track who is currently accountable for it (individual and/or team)
-Indicate the priority of the work, at least in terms of a simple categorization such as high/medium/low
+* Register a new task
+* Describe the work to be done (development or break/fix/remediate)
+* Represent the current status of the work
+* Track who is currently accountable for it (individual and/or team)
+* Indicate the priority of the work, at least in terms of a simple categorization such as high/medium/low
 
 More advanced systems may also be able to:
 
-Link one unit of work to another (either as parent/child or peer to peer)
-Track the effort spent on the work
-Prioritize and order work
-Track the referral or escalation trail of the work, if it is routed to various parties
-Link to communication channels such as conference bridges and paging systems
+* Link one unit of work to another (either as parent/child or peer to peer)
+* Track the effort spent on the work
+* Prioritize and order work
+* Track the referral or escalation trail of the work, if it is routed to various parties
+* Link to communication channels such as conference bridges and paging systems
 
-The first system you may find yourself acquiring along these lines is a help desk system. 
+The first system you may find yourself acquiring along these lines is a help desk system.

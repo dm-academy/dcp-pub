@@ -17,7 +17,8 @@ Cadence is an important form of synchronization. [more]
 Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete. <<Narayan2015>>
 
 ===== The idea of PMDB and PIs
-Originally publised at http://www.lean4it.com/2014/06/in-search-of-the-pcmdb-and-pcis.html. 
+****
+Originally published at http://www.lean4it.com/2014/06/in-search-of-the-pcmdb-and-pcis.html.
 
 in search of the PMDB and PIs
 
@@ -69,6 +70,7 @@ My view is no, no more than the Bill of Materials is the basis for manufacturing
 I realize the red flags that come up with any suggestion of a centralized system, which is why I am more in favor of seeing the PI concept as a logical interface. If all Process Items had some degree of overarching consistency, they could be exchanged and federated as part of execution activities, without requiring a monolithic centralized data store.
 
 Thoughts?
+****
 
 ===== A look ahead to project and process
 

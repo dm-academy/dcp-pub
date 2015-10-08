@@ -1,6 +1,6 @@
 ==== Advanced topics
 
-===== The Demand, Supply, Execute model
+===== Relationship between features and tasks
 
 ===== Context switching and multi-tasking
  [Human factors discussion]

@@ -516,10 +516,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_introducing_kanban">Introducing Kanban</a></li>
 <li><a href="#_the_shared_mental_model_of_the_work_to_be_done">The shared mental model of the work to be done</a></li>
 <li><a href="#_time_and_space_shifting">Time and space shifting</a></li>
-<li><a href="#_synchronization">Synchronization</a></li>
-<li><a href="#_cadence">Cadence</a></li>
-<li><a href="#_velocity">Velocity</a></li>
-<li><a href="#_a_look_ahead_to_project_and_process">A look ahead to project and process</a></li>
+<li><a href="#_advanced_topics">Advanced topics</a></li>
 <li><a href="#_conclusion_5">Conclusion</a></li>
 </ul>
 </li>
@@ -5668,6 +5665,30 @@ Lean is important. Regardless of your intended career path, it is advisable to r
 <p>Boyd and others have extended this concept into various other domains including business strategy. The concept of the OODA loop is frequently mentioned in presentations on Agile methods. It is, of course, a feedback loop.</p>
 </div>
 </div>
+<div class="sect4">
+<h5 id="_the_production_spectrum">The production spectrum</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Make to Stock</p>
+</li>
+<li>
+<p>Assemble to Order</p>
+</li>
+<li>
+<p>Make to Order</p>
+</li>
+<li>
+<p>Engineer to Order</p>
+<div class="literalblock">
+<div class="content">
+<pre>[more]</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_conclusion_4">Conclusion</h4>
@@ -6063,6 +6084,83 @@ Historically, there has been resistance in IT circles to learning lessons derive
 <div class="paragraph">
 <p>More on this in Section III.</p>
 </div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>Sidebar: Kanban, process, and respect for people</strong></p>
+</div>
+<div class="paragraph">
+<p>Processes cross functions.
+Processes (e.g. Quote to Cash, Idea to Production) are what actually deliver value.
+We need both process and function; we can’t organize solely around either.
+Therefore, get used to matrix management.</p>
+</div>
+<div class="paragraph">
+<p>The above statements are the management dogma I grew up with. Considered to be innovative at the time, originated by the likes of Michael Hammer and (more rigorously) Geary Rummler. (See Paul Harmon&#8217;s <a href="http://www.bptrends.com/publicationfiles/advisor20081209.pdf">excellent obituary of Geary Rummler</a>.)</p>
+</div>
+<div class="paragraph">
+<p>But consider a day in the life in the modern corporation: dozens or hundreds of cross functional processes that have become a daily barrage of work on the people housed in the functional areas. Driven by back end automation, front ended by automated (or even manual) email notifications, these required activities include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>service requests,</p>
+</li>
+<li>
+<p>compliance certifications,</p>
+</li>
+<li>
+<p>asset validations,</p>
+</li>
+<li>
+<p>provisioning requests,</p>
+</li>
+<li>
+<p>capacity assessments,</p>
+</li>
+<li>
+<p>change approvals,</p>
+</li>
+<li>
+<p>training obligations,</p>
+</li>
+<li>
+<p>performance assessments,</p>
+</li>
+<li>
+<p>audit responses,</p>
+</li>
+<li>
+<p>expense reporting,</p>
+</li>
+<li>
+<p>travel approvals,</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>and more - infinitely more. This is the modern, “process"-centric enterprise.</p>
+</div>
+<div class="paragraph">
+<p>True, any one of these processes is (often) a relatively small burden to perform. Taken together, however, it’s the nightmare of Adminisdribble: The daily death by a thousand cuts of required, cross-functional process.</p>
+</div>
+<div class="paragraph">
+<p>Continual context switching. End to end flow in concept across functions, but little experienced by the multitasking individual. Invisible, unmanaged demand. A thousand channels for flow, but no throughput, because of gridlock.</p>
+</div>
+<div class="paragraph">
+<p>What drives this? The combination of permanent downsizing, continually increasing governance &amp; compliance burdens, and the assumption that the enterprise can always tolerate another process. Overall organizational capacity is rarely considered, especially for “supporting" processes. And there is no appreciation for the emergent behavior when these myriads of processes interact in unexpected ways.</p>
+</div>
+<div class="paragraph">
+<p>This is why kanban is so radical. Within a limited scope, it is starting to challenge the IT management dogma at least. User stories, incidents, defects, service requests, changes… they are all “just work.” Just another sticky note on the board. Someone has to perform the work; someone has to allocate time and attention to it. A simple but utterly profound change in orientation. Kanban is the labor movement of the 21st century.</p>
+</div>
+<div class="paragraph">
+<p>It seems to me that true “respect for people” (as advocated by Lean) of course must start with the recognition that work takes people’s time. I think the modern, process centric enterprise has lost sight of that reality. Is Kanban the answer?</p>
+</div>
+<div class="paragraph">
+<p><em>originally posted at <a href="http://www.lean4it.com/2014/08/kanban-vs-process.html" class="bare">http://www.lean4it.com/2014/08/kanban-vs-process.html</a></em></p>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -6190,32 +6288,39 @@ Link to communication channels such as conference bridges and paging systems</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_synchronization">Synchronization</h4>
+<h4 id="_advanced_topics">Advanced topics</h4>
+<div class="sect4">
+<h5 id="_the_demand_supply_execute_model">The Demand, Supply, Execute model</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_synchronization">Synchronization</h5>
 <div class="literalblock">
 <div class="content">
 <pre>I think there is a fundamental abstract model here of tasks and synch points - OS scheduling analogs? Mutexes/semaphores? emergent dependencies?</pre>
 </div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_cadence">Cadence</h4>
+<div class="sect4">
+<h5 id="_cadence">Cadence</h5>
 <div class="paragraph">
 <p>Cadence is an important form of synchronization. [more]</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_velocity">Velocity</h4>
+<div class="sect4">
+<h5 id="_velocity">Velocity</h5>
 <div class="paragraph">
 <p>Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete. <a href="#Narayan2015">[Narayan2015]</a></p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_a_look_ahead_to_project_and_process">A look ahead to project and process</h4>
+<div class="sect4">
+<h5 id="_a_look_ahead_to_project_and_process">A look ahead to project and process</h5>
 <div class="paragraph">
 <p>Projects: fixed time/duration/scope, not repeatable.</p>
 </div>
 <div class="paragraph">
 <p>Processes: repeatable&#8230;&#8203;</p>
+</div>
 </div>
 </div>
 <div class="sect3">

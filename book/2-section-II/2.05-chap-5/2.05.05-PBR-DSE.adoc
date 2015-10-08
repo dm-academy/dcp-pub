@@ -1,0 +1,9 @@
+==== From Plan, Build, Run to Demand, Supply, Execute
+
+ifdef::instructor-ed[]
+****
+_Instructor's note_
+This is more advanced, speculative material and its presence in the book is in question. Thoughts?
+
+****
+endif::instructor-ed[]

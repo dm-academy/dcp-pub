@@ -75,6 +75,8 @@ include::book/2-section-II/2.04-chap-4/2.04.03-scrum-intro.adoc[]
 
 include::book/2-section-II/2.04-chap-4/2.04.04-Reinertsen-intro.adoc[]
 
+include::book/2-section-II/2.04-chap-4/2.04.05-topics.adoc[]
+
 include::book/2-section-II/2.04-chap-4/2.04.99-conclusion.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.00-intro.adoc[]
@@ -87,7 +89,9 @@ include::book/2-section-II/2.05-chap-5/2.05.03-shared-mental-model.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.04-time-space-shifting.adoc[]
 
-include::book/2-section-II/2.05-chap-5/2.05.05-velocity.adoc[]
+include::book/2-section-II/2.05-chap-5/2.05.05-PBR-DSE.adoc[]
+
+include::book/2-section-II/2.05-chap-5/2.05.06-topics.adoc[]
 
 include::book/2-section-II/2.05-chap-5/2.05.99-conclusion.adoc[]
 

@@ -1,0 +1,12 @@
+==== Assorted topics in Product Management
+
+===== The minimal value of "expert" opinion
+http://www.paulgraham.com/swan.html[Black Swan Farming]
+
+===== The production spectrum
+* Make to Stock
+* Assemble to Order
+* Make to Order
+* Engineer to Order
+
+ [more]

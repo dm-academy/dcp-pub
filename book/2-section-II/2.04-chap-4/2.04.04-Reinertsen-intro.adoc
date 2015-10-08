@@ -65,11 +65,3 @@ Boyd determined that humans go through a defined process in building their menta
 Because the US fighters were lighter, more maneuverable, and had better visibility, their pilots were able to execute the OODA loop more quickly than their opponents, leading to victory.
 
 Boyd and others have extended this concept into various other domains including business strategy. The concept of the OODA loop is frequently mentioned in presentations on Agile methods. It is, of course, a feedback loop.
-
-===== The production spectrum
-* Make to Stock
-* Assemble to Order
-* Make to Order
-* Engineer to Order
-
- [more]

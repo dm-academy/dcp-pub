@@ -3,15 +3,7 @@
 
 ==== Introduction to Chapter 5
 
-ifdef::instructor-ed[]
-
-****
-_Instructor's note_
-
-"Work management" is an unusual title, deliberately chosen to distinguish the emergence of tracking and ticketing systems at earlier stages of organizational growth. At this point, a fully realized process framework may not be needed, and the organization may not see a need to distinguish precisely between types of work processes. "It's all just work" at this stage.
-
-****
-endif::instructor-ed[]
+NOTE: "Work management" is an unusual title, deliberately chosen to reflect earlier stages of organizational growth. At this point, a fully realized process framework may not be needed, and the organization may not see a need to distinguish precisely between types of work processes. "It's all just work" at this stage.
 
 * What do we need to do?
 * In what order?

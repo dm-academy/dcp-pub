@@ -22,7 +22,10 @@ At some point, you need to formalize your model of the work, how it is described
 
 Probably the most important is the shared task reference point. What does this mean? The “task” is reified (see definition) into a common artifact.
 
-For example, a “ticket” may be created. Or a “story.” At our current level of understanding, there is little difference between these two concepts. The important thing they have in common is an independent existence. That is, Mary, Joe, and Sara might all change jobs, but the artifact persists independently of them. This can be called _reification_.
+[quote, Wikipedia , https://en.wikipedia.org/wiki/Task_management]
+Task management is the process of managing a task through its life cycle. It involves planning, testing, tracking and reporting. Task management can help either individuals achieve goals, or groups of individuals collaborate and share knowledge for the accomplishment of collective goal
+
+For example, a “ticket” may be created. Or a “story.” At our current level of understanding, there is little difference between these concepts. The important thing they have in common is an independent existence. That is, Mary, Joe, and Sara might all change jobs, but the artifact persists independently of them. This can be called _reification_.
 
 [quote, Wikpedia, https://en.wikipedia.org/wiki/Reification]
 Reification generally refers to making something real, bringing something into being, or making something concrete.

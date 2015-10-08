@@ -41,6 +41,7 @@ You also may become aware of the idea of "ticketing," if you have people with pr
 
 ===== Chapter 5 learning objectives
 
+* Understand the basic concept of task management
 * Define Kanban and identify its key practices
 * Compare and contrast Scrum and Kanban
-* Describe task management and synchronization
+*

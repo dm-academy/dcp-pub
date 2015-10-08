@@ -140,7 +140,7 @@ image::images/2.05-DSE3.gif[]
 
 With the lower level, larger grained abstractions it is more difficult to understand demand and supply, especially when product development (e.g. novel software engineering) is involved. As demand and supply converge to the point of execution, a finer and finer grained awareness is created of the impending work and whether it is likely to be successful - that is, if demand will effectively and efficiently be paired with supply. (Notice how the fog lifts as you get closer to actual execution.)
 
-We only start to really get a feel for how execution is going to work when we get down to team and individual level assignments across all queues and ultimately actual Kanban slots or their equivalent (e.g. assigned and accepted work orders). 
+We only start to really get a feel for how execution is going to work when we get down to team and individual level assignments across all queues and ultimately actual Kanban slots or their equivalent (e.g. assigned and accepted work orders).
 
 Turning to the choices of terms - the words inhabiting each leg (Asset, Release, Strategy, Team, etc):
 

@@ -25,23 +25,19 @@ You also may become aware of the idea of "ticketing," if you have people with pr
 
 ===== Chapter 5 outline
 
+* Why work management?
 * Kanban
 ** Origins
 ** Practices
-** Visualize
-** Limit WIP
-** To automate or no?
-** Scrum vs Kanban
+** Relationship of Scrum to Kanban
+* The shared mental model
+* Time and space shifting
+* The help desk and the "ticket"
+* Advanced topics
+** Demand/supply/execute
+** cadence and synch
+** velocity and flow
 
-* Relationship of Scrum to Kanban
-
-* Basic help desk ticketing
-
-* time and space shifting - cadence and synch
-
-* velocity and flow
-
-* A look ahead to more formalized project & process
 
 ===== Chapter 5 learning objectives
 

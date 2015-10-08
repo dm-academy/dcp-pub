@@ -72,7 +72,7 @@ But consider a day in the life in the modern corporation: dozens or hundreds of 
 
 and more - infinitely more. This is the modern, “process"-centric enterprise.
 
-True, any one of these processes is (often) a relatively small burden to perform. Taken together, however, it’s the nightmare of Adminisdribble: The daily death by a thousand cuts of required, cross-functional process.
+True, any one of these processes is (often) a relatively small burden to perform. Taken together, however, it’s the nightmare of http://www.waywordradio.org/adminisdribble_1/[Adminisdribble]: The daily death by a thousand cuts of required, cross-functional process.
 
 Continual context switching. End to end flow in concept across functions, but little experienced by the multitasking individual. Invisible, unmanaged demand. A thousand channels for flow, but no throughput, because of gridlock.
 

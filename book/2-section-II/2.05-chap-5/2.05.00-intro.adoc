@@ -13,13 +13,13 @@ _Instructor's note_
 ****
 endif::instructor-ed[]
 
-What do we need to do?
-In what order?
-Who is doing it?
-Do they need help?
-Do they need direction?
-When will they be done?
-What do we mean by done?
+* What do we need to do?
+* In what order?
+* Who is doing it?
+* Do they need help?
+* Do they need direction?
+* When will they be done?
+* What do we mean by done?
 
 These are fundamental questions for any business larger than a couple co-founders.
 

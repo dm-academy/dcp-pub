@@ -49,3 +49,5 @@ http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All
 Further reading on visual processing:
 Moody
 Tufte & others (that comparison paper cited by Moody)
+
+The true measure of the value of a model is whether it actually influences behavior. Smith/Reinertsen 1998 p46.

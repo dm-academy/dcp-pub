@@ -1,3 +1,8 @@
 ==== From Incident to disaster to postmortem
 
 - include 2 dimensions of demand
+
+should this be Change and Incident and defer DR to ch 10?
+
+
+Sidebar: Introducing ITIL

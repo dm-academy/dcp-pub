@@ -24,16 +24,17 @@ Sidebar: Introducing Limoncelli.
 
 ===== Chapter 6 outline
 
-* Defining "operations" (vs. product mgmt)
+* Defining "operations"
 
 * Kinds of work (where is that original concept)
  - interrupt-driven
  - etc
 
- * OODA & situational awareness
-  - Event management and monitoring
-* Classic model (24x7, oncall, etc)
- - Mention ITIL (more depth in chapter 8)
+* Event management and monitoring
+
+* Capacity and performance management
+
+* Incidents, disasters, and everything in between
 
  * Impact & dependency
 

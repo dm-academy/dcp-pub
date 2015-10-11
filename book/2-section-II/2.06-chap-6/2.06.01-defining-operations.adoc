@@ -9,7 +9,9 @@ What do we mean by operations? Operations management is a broad topic in managem
 
 We started to run into this in chapter 5, as we examined the topic of “work management” - in traditional operations management, the question of work is primary. However, in IT, “operations” tends to have a more technical meaning, being focused on the immediate questions of systems integrity, availability and performance, and feedback from the user community (i.e., the service or help desk).
 
-Operations often can mean, “everything but development” in an IT context. When merged with Development into “DevOps,” one gets IT Product Management with an Agile twist. We will take a close look at the various aspects of IT operations in this chapter.
+Operations often can mean, “everything but development” in an IT context. When merged with Development into “DevOps,” one gets IT Product Management with an Agile twist. 
+
+IMPORTANT: In a digitally transformed enterprise, Operations is part of the Product.
 
 Consider the following various definitions of “operations” in an IT context. Some are relevant to our “two pizza team” scenario, some might be more applicable to larger environments:
 

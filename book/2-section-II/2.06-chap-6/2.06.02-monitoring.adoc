@@ -5,6 +5,8 @@ Telemetry is an automated communications process by which measurements are made 
 
 Computers run in large data centers, where physical access to them is tightly controlled. Therefore, we need telemetry to manage them, more typically called monitoring.
 
+===== Monitoring techniques
+
 ===== Aggregation and operations centers
 
 It is not possible for a Level 1 24 x 7 operations team to access and understand the myriads of element managers and specialized monitoring tools present in the large IT environment. Instead, these teams rely on aggregators of various kinds to provide an integrated view into the complexity. These aggregators may focus on raw status events, or specifically on performance aspects related either to the elements or to logical transactions flowing across them. They may incorporate dependencies from configuration management to provide a true “business view” into the event streams. This is directly analogous to the concept of andon board from Lean practices, or the idea of “information radiator” from Agile principles (*** cite AA)
@@ -20,7 +22,7 @@ Some of you who may be familiar with ITIL will be asking, “why not call this a
 
 ===== Discovery
 
-Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools are usually associated with the need to evaluate an IT infrastructure where certain aspects are unknown.
+Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools are usually associated with the need to evaluate an IT infrastructure where certain aspects are unknown, for example what a server is being used for.
 
 This may be surprising to new students, and perhaps those with experience in smaller organizations. However, in many large “traditional” IT environments, where the operations team is distant from the development organization, it is not necessarily easy to determine what a given hardware or software resource is doing or why it is there.
 
@@ -30,3 +32,7 @@ Clearly, this is unacceptable in terms of security, value management, and any nu
 *What is the future of discovery tools?*
 There is some evidence that the increasing automation of IT infrastructures will mitigate this (which?) problem. As the software pipeline becomes increasingly automated, tracking software from development through production becomes easier.
 ****
+
+===== Understanding business impact
+
+org structure, matrixing, factory model, product again

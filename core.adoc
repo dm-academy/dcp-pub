@@ -97,6 +97,10 @@ include::book/2-section-II/2.05-chap-5/2.05.99-conclusion.adoc[]
 
 include::book/2-section-II/2.06-chap-6/2.06.00-intro.adoc[]
 
+include::book/2-section-II/2.06-chap-6/2.06.01-defining-operations.adoc[]
+
+include::book/2-section-II/2.06-chap-6/2.06.02-telemetry.adoc[]
+
 include::book/2-section-II/2.06-chap-6/2.06.99-conclusion.adoc[]
 
 include::book/3-section-III/3.00-intro/3.00-intro.adoc[]

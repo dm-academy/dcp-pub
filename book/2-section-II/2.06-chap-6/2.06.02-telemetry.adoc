@@ -1,0 +1,31 @@
+==== Telemetry
+
+===== What is telemetry?
+
+===== Monitoring
+
+===== Aggregation and operations centers
+
+It is not possible for a Level 1 24 x 7 operations team to access and understand the myriads of element managers and specialized monitoring tools present in the large IT environment. Instead, these teams rely on aggregators of various kinds to provide an integrated view into the complexity. These aggregators may focus on raw status events, or specifically on performance aspects related either to the elements or to logical transactions flowing across them. They may incorporate dependencies from configuration management to provide a true “business view” into the event streams. This is directly analogous to the concept of andon board from Lean practices, or the idea of “information radiator” from Agile principles (*** cite AA)
+
+A monitoring console may present a rich set of information to an operator. Too rich, in fact, as systems become large. For this reason, monitoring tools are often linked directly to ticketing systems; on certain conditions, a ticket is created and assigned to a team or individual.
+
+Enabling a monitoring console to auto-create tickets however needs to be carefully considered and designed. A notorious scenario is the “ticket storm,” where a monitoring system creates multiple (perhaps thousands) of tickets, all essentially in response to the same condition. Event de-duplication starts to become an essential capability, which leads to distinguishing the monitoring system from the event management system.
+
+****
+*What about Incidents?*
+Some of you who may be familiar with ITIL will be asking, “why not call this an Incident?” Because we are taking an evolutionary approach, applying ITIL principles does not come into play until Section 3. This is consistent with the real world, where ITIL is more often seen in larger, more mature organizations. A simple “ticket” to track the work will suffice for now.
+****
+
+===== Discovery
+
+Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools are usually associated with the need to evaluate an IT infrastructure where certain aspects are unknown.
+
+This may be surprising to new students, and perhaps those with experience in smaller organizations. However, in many large “traditional” IT environments, where the operations team is distant from the development organization, it is not necessarily easy to determine what a given hardware or software resource is doing or why it is there.
+
+Clearly, this is unacceptable in terms of security, value management, and any number of other concerns. However, from the start of distributed computing, the question “what is on that server?” has been all too frequent in large IT shops. Answering this question has resulting in a significant market for so-called “discovery” tools, which seek to profile the server and understand its installed software, processing patterns and communications with an objective of assigning it to some management construct, such as a high level IT application or service.
+
+****
+*What is the future of discovery tools?*
+There is some evidence that the increasing automation of IT infrastructures will mitigate this (which?) problem. As the software pipeline becomes increasingly automated, tracking software from development through production becomes easier.
+****

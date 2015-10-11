@@ -54,7 +54,7 @@ First, let’s get back to our fundamental principle that there is an IT system 
 
 When we want to change the behavior of this system, we are cautious. We reproduce the system at varying levels of fidelity and experiment with potential changes. This is called development.
 
-When we start to gain confidence in our experiments, we increase the fidelity and also start to communicate more widely that we are contemplating a change to the state of ITSSHIIW. We may increase the fidelity along a set of traditional names: 
+When we start to gain confidence in our experiments, we increase the fidelity and also start to communicate more widely that we are contemplating a change to the state of the system. We may increase the fidelity along a set of traditional names: 
 
 * Development
 * Testing

@@ -1,9 +1,0 @@
-==== Change and Incident Management
-
-- include 2 dimensions of demand
-
-should this be Change and Incident and defer DR to ch 10?
-
-
-
-===== The Netflix chaos bestiary

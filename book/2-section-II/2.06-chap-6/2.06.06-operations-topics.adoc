@@ -1,0 +1,15 @@
+==== Advanced topics in operations
+
+
+
+===== Human in the loop problem
+
+===== The feedback loop from ops to dev
+
+===== Theory
+....
+  * States and sense-making and risk management around state transitions
+  * Complexity & uncertainty
+  * Promise theory?
+  * Burgess measuring system normality paper
+....

@@ -1,6 +1,13 @@
-==== Advanced topics in operations
 
-===== State and configuration
+==== State, configuration, and discovery
+
+Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools Answering this question has resulting in a significant market for so-called “discovery” tools, which seek to profile the server and understand its installed software, processing patterns and communications with an objective of assigning it to some management construct, such as a high level IT application or service.
+
+****
+*What is the future of discovery tools?*
+There is some evidence that the increasing automation of IT infrastructures will mitigate this (which?) problem. As the software pipeline becomes increasingly automated, tracking software from development through production becomes easier.
+****
+
 [quote, Wikipedia,https://en.wikipedia.org/wiki/State_(computer_science)]
 In computer science and automata theory, the state of a digital logic circuit or computer program is a technical term for all the stored information, at a given instant in time, to which the circuit or program has access.[1] The output of a digital circuit or computer program at any time is completely determined by its current inputs and its state.
 
@@ -36,22 +43,8 @@ Imperative: “Go out the door, take a right, take a left, go into the building 
 
 In configuring infrastructure, scripting is in general considered “imperative” while advanced infrastructure automation frameworks are built using a “declarative,” policy-based approach.
 
- For example, the following shell script and Chef recipe do the same thing: 
+ For example, the following shell script and Chef recipe do the same thing:
  create example - can’t find anything decent on web
  Use directory creation example with failure of script b/c not idempotent
 
 In terms of OODA, determining and tracking the state of a system under investigation is one of the fundamental tools. With current practices, for example, this might mean examining the configuration management/provisioning system to determine how the basic operating system was built.
-
-
-
-===== Human in the loop problem
-
-===== The feedback loop from ops to dev
-
-===== Theory
-....
-  * States and sense-making and risk management around state transitions
-  * Complexity & uncertainty
-  * Promise theory?
-  * Burgess measuring system normality paper
-....

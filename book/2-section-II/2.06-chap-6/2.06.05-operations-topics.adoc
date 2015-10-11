@@ -1,5 +1,49 @@
 ==== Advanced topics in operations
 
+===== State and configuration
+[quote, Wikipedia,https://en.wikipedia.org/wiki/State_(computer_science)]
+In computer science and automata theory, the state of a digital logic circuit or computer program is a technical term for all the stored information, at a given instant in time, to which the circuit or program has access.[1] The output of a digital circuit or computer program at any time is completely determined by its current inputs and its state.
+
+In all of IT (whether “infrastructure” or “applications” there is a particular concern with managing state. IT systems are remarkably fragile. One incorrect bit of information - a “0” instead of a “1” - can completely alter a system’s behavior, to the detriment of business operations depending on it.
+Therefore, any development of information technology - starting with the initial definition of the computing platform - depends on robust management of state.
+￼
+
+The following are examples of state:
+
+* The name of a particular server
+* The network address of that server
+* The software installed on that server, in terms of the exact version and bits that comprise it.
+
+State also has more transient connotations:
+
+* The current processes listed in the process table
+* The memory allocated to each process
+* The current users logged into the system
+
+It is therefore not possible to make blanket statements like “we need to manage state.” Computing devices go through myriads of state changes with every cycle of their internal clock. (Analog and quantum computing are out of scope for this book.)
+
+The primary question in managing state is “what matters”? What aspects of the system need to persist, in a reliable and reproducible manner? Two related concepts have emerged in the past decade: policy-based management and promise theory.
+
+In brief, policy-based management and promise theory focus on “what,” not “how.” This may also be described as “declarative,” not “imperative” (see Sidebar).
+
+****
+*A simple example of “declarative” vs “imperative”*
+
+Declarative: “Get me a gallon of milk.”
+
+Imperative: “Go out the door, take a right, take a left, go into the building with a big ‘SA’ on it, go in to the last aisle, take a left, go to the third case and take the first container on the fourth shelf from the bottom. Give money to the cashier and bring the container back home.”
+****
+
+In configuring infrastructure, scripting is in general considered “imperative” while advanced infrastructure automation frameworks are built using a “declarative,” policy-based approach.
+
+ For example, the following shell script and Chef recipe do the same thing: 
+ create example - can’t find anything decent on web
+ Use directory creation example with failure of script b/c not idempotent
+
+In terms of OODA, determining and tracking the state of a system under investigation is one of the fundamental tools. With current practices, for example, this might mean examining the configuration management/provisioning system to determine how the basic operating system was built.
+
+
+
 ===== Human in the loop problem
 
 ===== The feedback loop from ops to dev
@@ -9,4 +53,5 @@
   * States and sense-making and risk management around state transitions
   * Complexity & uncertainty
   * Promise theory?
+  * Burgess measuring system normality paper
 ....

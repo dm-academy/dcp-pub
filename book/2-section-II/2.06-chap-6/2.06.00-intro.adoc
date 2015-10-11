@@ -26,35 +26,24 @@ Sidebar: Introducing Limoncelli.
 
 * Defining "operations"
 
-* Kinds of work (where is that original concept)
- - interrupt-driven
- - etc
-
 * Event management and monitoring
 
 * Capacity and performance management
 
 * Incidents, disasters, and everything in between
 
- * Impact & dependency
-
-****
-Sidebar: Configuration Management and the CMDB
-****
-
-* State & stability (Burgess?)
-
-* Control theory?
-
-* Web-scale IT (first pass)
-
-* Antifragility
- - Chaos bestiary
+* Advanced topics
+** Ops -> dev feedback
+** Configuration
+** Control
+** Web-scale IT
 
 
 ===== Chapter 6 learning objectives
 
-* Distinguish kinds of work, esp operational vs development
+* Distinguish kinds of work, especially operational vs development
+* Understand basics of monitoring, event management and impact
+* Describe the basics of change and incident management
 * Describe operational feedback into product design & the kinds of concerns it raises
 * Describe impact and dependency analysis and why it is important
 

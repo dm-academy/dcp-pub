@@ -30,6 +30,8 @@ Sidebar: Introducing Open Group and OMG.
 Sidebar: Introducing ISACA
 ****
 
+* Disaster recovery
+
 * Defining governance
 * The role of internal audit
 

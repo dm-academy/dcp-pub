@@ -6,6 +6,18 @@ Telemetry is an automated communications process by which measurements are made 
 Computers run in large data centers, where physical access to them is tightly controlled. Therefore, we need telemetry to manage them, more typically called monitoring.
 
 ===== Monitoring techniques
+But how does one “observe” computing infrastructure? Clearly, sitting in the data center (assuming you could get in) and looking at the faceplates of servers will not convey much useful information. Monitoring tools are the software that watches the software (and systems more broadly).
+
+NOTE: Monitoring systems are similar to source control systems in that they are a critical point at which metadata diverges from the actual system under management.
+
+A variety of techniques are used to monitor computing infrastructure. Typically these involve communication over a network with the device being managed. Often, the network traffic is over the same network carrying the primary traffic of the computers. Sometimes, however, there is a distinct "out of band" network for management traffic.
+
+A classic, simple monitoring tool will simply observe a computing node, perhaps by “pinging” it periodically, and will raise an alert if the node does not respond within an expected time frame. If you are working through this course's labs, you will see an example of this.
+
+More broadly, these tools provide a variety of mechanisms for monitoring and controlling operational IT systems, often through small software “agents” deployed to computing platforms. These agents may monitor processes and their return codes, performance metrics (e.g. memory and CPU utilization), events raised through various channels, network availability, log file contents (e.g. with standing filters for messages indicating problems), interactions with other elements in the IT infrastructure, and more.
+
+All of this data may then forwarded to a central console and integrated, with the objective of supporting the organization’s service level agreements in priority order.
+Enterprise monitoring tools are notorious for requiring agents (small, continuously-running programs) on servers; while some things can be detected without such agents, having software running on a given computer still provides the richest data. Since licensing is often agent-based, this gets expensive.
 
 ===== Aggregation and operations centers
 
@@ -14,11 +26,6 @@ It is not possible for a Level 1 24 x 7 operations team to access and understand
 A monitoring console may present a rich set of information to an operator. Too rich, in fact, as systems become large. For this reason, monitoring tools are often linked directly to ticketing systems; on certain conditions, a ticket is created and assigned to a team or individual.
 
 Enabling a monitoring console to auto-create tickets however needs to be carefully considered and designed. A notorious scenario is the “ticket storm,” where a monitoring system creates multiple (perhaps thousands) of tickets, all essentially in response to the same condition. Event de-duplication starts to become an essential capability, which leads to distinguishing the monitoring system from the event management system.
-
-****
-*What about Incidents?*
-Some of you who may be familiar with ITIL will be asking, “why not call this an Incident?” Because we are taking an evolutionary approach, applying ITIL principles does not come into play until Section 3. This is consistent with the real world, where ITIL is more often seen in larger, more mature organizations. A simple “ticket” to track the work will suffice for now.
-****
 
 ===== Discovery
 
@@ -34,5 +41,3 @@ There is some evidence that the increasing automation of IT infrastructures will
 ****
 
 ===== Understanding business impact
-
-org structure, matrixing, factory model, product again

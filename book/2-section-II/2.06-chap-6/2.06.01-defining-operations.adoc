@@ -1,4 +1,4 @@
-==== Introducting Operations Management
+==== Introducing operations management
 
 image::images/2.06-NASA-ops.jpg[]
 _NASA Payload Operations Integraion Center_
@@ -100,9 +100,3 @@ On the flip side, development systems must never be treated casually.
 It’s therefore important to treat “development” platforms with the same care as production systems. This requires nuanced approaches: with infrastructure as code, particular virtual machines or containers may represent experiments, expected to fail often and be quickly rebuilt. No need for burdensome change processes when VM base images and containers are being set up and torn down hundreds of times each day!
 
 But the platforms supporting the instantiation and teardown of those VMs are production platforms, supporting the business of new systems development.
-
-....
-  * States and sense-making and risk management around state transitions
-  * Complexity & uncertainty
-  * Promise theory?
-....

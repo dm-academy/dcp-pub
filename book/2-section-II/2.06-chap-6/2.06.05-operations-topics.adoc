@@ -5,3 +5,8 @@
 ===== The feedback loop from ops to dev
 
 ===== Theory
+....
+  * States and sense-making and risk management around state transitions
+  * Complexity & uncertainty
+  * Promise theory?
+....

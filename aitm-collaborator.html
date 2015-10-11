@@ -525,60 +525,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_chapter_6_operations_management">Chapter 6: Operations Management</a>
 <ul class="sectlevel3">
 <li><a href="#_introduction_to_chapter_6">Introduction to Chapter 6</a></li>
-<li><a href="#_conclusion_6">Conclusion</a></li>
+<li><a href="#_introducting_operations_management">Introducting Operations Management</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#_section_iii_coordination">Section III: Coordination</a>
-<ul class="sectlevel2">
-<li><a href="#_section_iii_introduction">Section III introduction</a></li>
-<li><a href="#_chapter_7_culture_and_organization">Chapter 7: Culture and Organization</a>
-<ul class="sectlevel3">
-<li><a href="#_introduction_to_chapter_7">Introduction to Chapter 7</a></li>
-<li><a href="#_conclusion_7">Conclusion</a></li>
-</ul>
-</li>
-<li><a href="#_chapter_8_project_resource_management">Chapter 8: Project &amp; Resource Management</a>
-<ul class="sectlevel3">
-<li><a href="#_introduction_to_chapter_8">Introduction to Chapter 8</a></li>
-<li><a href="#_conclusion_8">Conclusion</a></li>
-</ul>
-</li>
-<li><a href="#_chapter_9_process_management">Chapter 9: Process Management</a>
-<ul class="sectlevel3">
-<li><a href="#_introduction_to_chapter_9">Introduction to Chapter 9</a></li>
-<li><a href="#_conclusion_9">Conclusion</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#_section_iv_maturation">Section IV: Maturation</a>
-<ul class="sectlevel2">
-<li><a href="#_section_iv_introduction">Section IV introduction</a></li>
-<li><a href="#_chapter_10_security_and_governance_risk_and_compliance">Chapter 10: Security, and Governance, Risk, and Compliance</a>
-<ul class="sectlevel3">
-<li><a href="#_introduction_to_chapter_10">Introduction to Chapter 10</a></li>
-<li><a href="#_conclusion_10">Conclusion</a></li>
-</ul>
-</li>
-<li><a href="#_chapter_11_architecture_and_portfolio">Chapter 11: Architecture and Portfolio</a>
-<ul class="sectlevel3">
-<li><a href="#_introduction_to_chapter_11">Introduction to Chapter 11</a></li>
-<li><a href="#_conclusion_11">Conclusion</a></li>
-</ul>
-</li>
-<li><a href="#_chapter_12_analytics_and_complexity">Chapter 12: Analytics and Complexity</a>
-<ul class="sectlevel3">
-<li><a href="#_introduction_to_chapter_12">Introduction to Chapter 12</a></li>
-<li><a href="#_conclusion_12">Conclusion</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#_appendices_back_matter">Appendices &amp; back matter</a>
-<ul class="sectlevel2">
-<li><a href="#_references">References</a></li>
 </ul>
 </li>
 </ul>
@@ -6991,20 +6940,274 @@ I have seen various attempts and interest along these lines, but always company 
 </div>
 </div>
 <div class="sect3">
-<h4 id="_conclusion_6">Conclusion</h4>
+<h4 id="_introducting_operations_management">Introducting Operations Management</h4>
+<div class="paragraph">
+<p>What do we mean by operations? Operations management is a broad topic in management theory, with whole programs dedicated to it.</p>
+</div>
+<div class="paragraph">
+<p>We started to run into this in chapter 5, as we examined the topic of “work management” - in traditional operations management, the question of work is primary. However, in IT, “operations” tends to have a narrower meaning, being focused on the immediate questions of systems availability and performance trending.</p>
+</div>
+<div class="paragraph">
+<p>Operations often can mean, “everything but development” in an IT context. When merged with IT into “DevOps,” one gets IT Product Management with an Agile twist. We will take a close look at the various aspects of IT operations in this chapter.
+Consider the following various definitions of “operations” in an IT context. Some are relevant to our “two pizza team” scenario, some might be more applicable to larger environments:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Keeping track of an IT product’s availability (is the Web site working?), and troubleshooting if it goes down (e.g. by rebooting it).</p>
+</li>
+<li>
+<p>Answering phone calls from users requiring support. They may be calling because a system or service they need is malfunctioning. They may also be calling because they do not understand how to use the system for the value experience they have been led to expect from it.</p>
+</li>
+<li>
+<p>Physically traveling to a remote site to evaluate and if necessary update or fix IT hardware and/or software.</p>
+</li>
+<li>
+<p>Performing routine work, such as installing hardware, granting access, or running or testing backups. Such routine work may be scheduled, or it may be on request (e.g. ticketed).</p>
+</li>
+<li>
+<p>Ensuring security protocols are followed, e.g. access controls.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>As above, the primary thing that operations does NOT do is develop new systems functionality. However, new functionality usually has operational impacts.</p>
+</div>
+<div class="paragraph">
+<p>It used to be that development was a minority of work, while operations was where the bulk of work happened. However, when an operational task becomes repetitive and risk-free, it can be automated. This continuous cycle of innovation and commoditization has driven closer and closer ties between “development” and “operations.” It also has driven confusion around exactly what is meant by “operations.”</p>
+</div>
+<div class="paragraph">
+<p>In many organizations, there is an “Infrastructure and Operations” function. Pay close attention to the naming. A matrix may help, because we have two dimensions to consider here.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33%;">
+<col style="width: 33%;">
+<col style="width: 33%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"></th>
+<th class="tableblock halign-left valign-top">Development phase</th>
+<th class="tableblock halign-left valign-top">Operations phase</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Application layer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Application developers. Handle demand, proactive and reactive, from product and operations.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Help desk. Application support and maintenance (provisioning, fixes not requiring software development).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Infrastructure layer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Engineering team. Infrastructure platform engineering and development (design and build typically of externally sourced products)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Operations center. Operational support, including monitoring system status. May monitor both infrastructure and application layers.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="_environments_and_the_fierce_god_of_production">Environments and the fierce god of "Production"</h5>
+<div class="quoteblock">
+<blockquote>
+“Don’t mess with that server! It’s … Production!!!”
+</blockquote>
+<div class="attribution">
+&#8212; unknown
+</div>
+</div>
+<div class="paragraph">
+<p>“Production” is a term that new IT recruits rapidly learn has forbidding connotations. To be “in production” means that the broader enterprise value stream is directly dependent on that asset. Breakage or mishandling will result in questions and concerns from powerful forces. Be Very Scared.</p>
+</div>
+<div class="paragraph">
+<p>How do things get to be “in production”? What do we mean by that?</p>
+</div>
+<div class="paragraph">
+<p>First, let’s get back to our fundamental principle that there is an IT system some human is interacting with. This system can be of any scale, but fundamentally we are able to conceive of it having a “state.”</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>(Systems that are too big, complex, and fluid to be considered as having a “state”??)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>When we want to change the behavior of this system, we are cautious. We reproduce the system at varying levels of fidelity and experiment with potential changes. This is called development.</p>
+</div>
+<div class="paragraph">
+<p>When we start to gain confidence in our experiments, we increase the fidelity and also start to communicate more widely that we are contemplating a change to the state of ITSSHIIW. We may increase the fidelity along a set of traditional names: </p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Development</p>
+</li>
+<li>
+<p>Testing</p>
+</li>
+<li>
+<p>QA</p>
+</li>
+<li>
+<p>Performance Testing</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The final state, where value is realized, is “Production.”</p>
+</div>
+<div class="paragraph">
+<p>There is nothing sacred about the environments listed above. Others are seen. The author has heard it recommended that the term “environment” be eliminated, as it tends to result in turf wars and empire building, and potentially the waste of fixed assets (see chapter 8). Performance environments are particularly in question.</p>
+</div>
+<div class="paragraph">
+<p>Instead, in a dynamic infrastructure environment (private or public), one simply defines the kind of test one wants to perform and provisions that capacity on-demand.</p>
+</div>
+<div class="paragraph">
+<p>The idea that one sequentially moves (”promotes”) new system functionality through a series of states to gain confidence before finally changing the state of the production system is historically well established. However, the production state is notoriously difficult to reproduce fully, especially in highly distributed environments. Therefore there is always risk in changing the state of the production system. Mitigating strategies include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Extensive automated test harnesses that can quickly determine if system behavior has been unfavorably altered.</p>
+</li>
+<li>
+<p>Investing in lower environments with strategies such as service virtualization to make them appear more like production</p>
+</li>
+<li>
+<p>Hardening services against their own failure in production, or the failure of services on which they depend</p>
+</li>
+<li>
+<p>Reducing the size (and therefore complexity and risk) of changes to production (a key DevOps strategy)</p>
+</li>
+<li>
+<p>Ensuring that changes to the production system can be easily and automatically reversed</p>
+</li>
+<li>
+<p>Using policy-aware infrastructure management tools</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Another important development in environmental approaches is A/B testing. In this approach, the “production” environment is segregated into two or more discrete states, with different features or behaviors exposed to users in order to assess their reactions (see sidebar).</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>Testing in Production?</strong></p>
+</div>
+<div class="paragraph">
+<p>It used to be that the concept of “testing in production” was frowned upon. Now, with these mitigating strategies, and the recognition that complex systems cannot ever be fully reproduced, there is more tolerance for the idea.</p>
+</div>
+<div class="paragraph">
+<p>But with older systems that may lack automated testing, incremental deployment, or easy rollback, it is strongly recommended to retain existing promotion strategies, as these are battle-tested and known to reduce risk. Often, their cycle time can be decreased.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>“Development is production”</p>
+</div>
+<div class="paragraph">
+<p>On the flip side, development systems must never be treated casually.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The development pipeline itself (Chapter 3, figure X) represents a significant operational commitment.</p>
+</li>
+<li>
+<p>The failure of a source code repository, if not backed up, could wipe out a company (see the Code Spaces sidebar in Chapter 2).</p>
+</li>
+<li>
+<p>The failure of a build server or package repository could be almost as bad.</p>
+</li>
+<li>
+<p>In the digital economy, dozens or hundreds of developers out of work represents a severe operational and financial setback, even if the nominal “production” systems continue to function.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>It’s therefore important to treat “development” platforms with the same care as production systems. This requires nuanced approaches: with infrastructure as code, particular virtual machines or containers may represent experiments, expected to fail often and be quickly rebuilt. No need for burdensome change processes when VM base images and containers are being set up and torn down hundreds of times each day!</p>
+</div>
+<div class="paragraph">
+<p>But the platforms supporting the instantiation and teardown of those VMs are production platforms, supporting the business of new systems development.</p>
+</div>
+<div class="exampleblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>States and sense-making and risk management around state transitions</p>
+</li>
+<li>
+<p>Complexity &amp; uncertainty</p>
+</li>
+<li>
+<p>Promise theory?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>==== Telemetry</p>
+</div>
+<div class="paragraph">
+<p>===== What is telemetry?</p>
+</div>
+<div class="paragraph">
+<p>===== Monitoring</p>
+</div>
+<div class="paragraph">
+<p>===== Aggregation and operations centers</p>
+</div>
+<div class="paragraph">
+<p>It is not possible for a Level 1 24 x 7 operations team to access and understand the myriads of element managers and specialized monitoring tools present in the large IT environment. Instead, these teams rely on aggregators of various kinds to provide an integrated view into the complexity. These aggregators may focus on raw status events, or specifically on performance aspects related either to the elements or to logical transactions flowing across them. They may incorporate dependencies from configuration management to provide a true “business view” into the event streams. This is directly analogous to the concept of andon board from Lean practices, or the idea of “information radiator” from Agile principles (<strong>*</strong> cite AA)</p>
+</div>
+<div class="paragraph">
+<p>A monitoring console may present a rich set of information to an operator. Too rich, in fact, as systems become large. For this reason, monitoring tools are often linked directly to ticketing systems; on certain conditions, a ticket is created and assigned to a team or individual.</p>
+</div>
+<div class="paragraph">
+<p>Enabling a monitoring console to auto-create tickets however needs to be carefully considered and designed. A notorious scenario is the “ticket storm,” where a monitoring system creates multiple (perhaps thousands) of tickets, all essentially in response to the same condition. Event de-duplication starts to become an essential capability, which leads to distinguishing the monitoring system from the event management system.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>What about Incidents?</strong>
+Some of you who may be familiar with ITIL will be asking, “why not call this an Incident?” Because we are taking an evolutionary approach, applying ITIL principles does not come into play until Section 3. This is consistent with the real world, where ITIL is more often seen in larger, more mature organizations. A simple “ticket” to track the work will suffice for now.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>===== Discovery</p>
+</div>
+<div class="paragraph">
+<p>Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools are usually associated with the need to evaluate an IT infrastructure where certain aspects are unknown.</p>
+</div>
+<div class="paragraph">
+<p>This may be surprising to new students, and perhaps those with experience in smaller organizations. However, in many large “traditional” IT environments, where the operations team is distant from the development organization, it is not necessarily easy to determine what a given hardware or software resource is doing or why it is there.</p>
+</div>
+<div class="paragraph">
+<p>Clearly, this is unacceptable in terms of security, value management, and any number of other concerns. However, from the start of distributed computing, the question “what is on that server?” has been all too frequent in large IT shops. Answering this question has resulting in a significant market for so-called “discovery” tools, which seek to profile the server and understand its installed software, processing patterns and communications with an objective of assigning it to some management construct, such as a high level IT application or service.</p>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><strong>What is the future of discovery tools?</strong>
+There is some evidence that the increasing automation of IT infrastructures will mitigate this (which?) problem. As the software pipeline becomes increasingly automated, tracking software from development through production becomes easier.</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p>==== Conclusion</p>
+</div>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_6">Discussion questions</h5>
-
+<div class="paragraph">
+<p>===== Discussion questions</p>
 </div>
-<div class="sect4">
-<h5 id="_research_practice_6">Research &amp; practice</h5>
-
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
 </div>
-<div class="sect4">
-<h5 id="_further_reading_6">Further reading</h5>
+<div class="paragraph">
+<p>===== Further reading</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -7029,14 +7232,9 @@ Cybernetics</p>
 <div class="paragraph">
 <p><a href="http://techironic.com/post/129767406981/the-truth-behind-building-multiple-environments-to" class="bare">http://techironic.com/post/129767406981/the-truth-behind-building-multiple-environments-to</a></p>
 </div>
+<div class="paragraph">
+<p>== Section III: Coordination</p>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_section_iii_coordination">Section III: Coordination</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p><strong>Scenario</strong></p>
 </div>
@@ -7046,8 +7244,9 @@ Cybernetics</p>
 <div class="paragraph">
 <p>There are no shortage of contractors and consultants all advocating various flavors of process and project management, some advocating older approaches and "frameworks" and others proposing newer Agile &amp; Lean perspectives. The very concepts of process and project management are occasionally called into question by both your employees and various "thought leaders," and it&#8217;s all very confusing. Welcome to IT management, circa 2015.</p>
 </div>
-<div class="sect2">
-<h3 id="_section_iii_introduction">Section III introduction</h3>
+<div class="paragraph">
+<p>=== Section III introduction</p>
+</div>
 <div class="paragraph">
 <p>Scenario:</p>
 </div>
@@ -7063,11 +7262,12 @@ We want to get bigger stuff done. Some argue that we don&#8217;t need projects a
 <p><strong>Chapter 9: Process Management</strong>
 OK, we have a structure.  Work needs to flow across the structure, and the projects need certain resources and services delivered predictably. Our increasingly specialized organization needs some specialization of processes, and without some kind of coordination  we run the risk of two teams trying to change the same thing at the same time.  We also become specifically concerned with the process by which process is managed, i.e., continuous improvement.</p>
 </div>
+<div class="paragraph">
+<p>=== Chapter 7: Culture and Organization</p>
 </div>
-<div class="sect2">
-<h3 id="_chapter_7_culture_and_organization">Chapter 7: Culture and Organization</h3>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_7">Introduction to Chapter 7</h4>
+<div class="paragraph">
+<p>==== Introduction to Chapter 7</p>
+</div>
 <div class="paragraph">
 <p><em>Complexity responds to competence, not authority.</em>
 <em>Steve Denning</em></p>
@@ -7088,8 +7288,9 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_chapter_7_outline">Chapter 7 outline</h5>
+<div class="paragraph">
+<p>===== Chapter 7 outline</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -7156,9 +7357,9 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>===== Chapter 7 learning objectives</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_7_learning_objectives">Chapter 7 learning objectives</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -7181,34 +7382,28 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 <div class="paragraph">
 <p>E</p>
 </div>
+<div class="paragraph">
+<p>==== Conclusion</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_conclusion_7">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_7">Discussion questions</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_research_practice_7">Research &amp; practice</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_further_reading_7">Further reading</h5>
 <div class="paragraph">
-<p><a href="http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf" class="bare">http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf</a></p>
+<p>===== Discussion questions</p>
+</div>
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
+</div>
+<div class="paragraph">
+<p>===== Further reading
+<a href="http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf" class="bare">http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf</a></p>
 </div>
 <div class="paragraph">
 <p><a href="http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management" class="bare">http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management</a></p>
 </div>
+<div class="paragraph">
+<p>=== Chapter 8: Project &amp; Resource Management</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_chapter_8_project_resource_management">Chapter 8: Project &amp; Resource Management</h3>
 <div class="paragraph">
 <p>Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because the necessary information is not available. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.</p>
 </div>
@@ -7218,10 +7413,12 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 <div class="paragraph">
 <p>Because of this, this chapter also covers IT financial management at a very introductory level.</p>
 </div>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_8">Introduction to Chapter 8</h4>
-<div class="sect4">
-<h5 id="_chapter_8_outline">Chapter 8 outline</h5>
+<div class="paragraph">
+<p>==== Introduction to Chapter 8</p>
+</div>
+<div class="paragraph">
+<p>===== Chapter 8 outline</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -7314,25 +7511,15 @@ OK, we have a structure.  Work needs to flow across the structure, and the proje
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>===== Chapter 8 learning objectives
+* Identify the basic practices of project management
+* Identify the basic concerns of IT resource management
+* Identify the basic concerns of IT financial management</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_8_learning_objectives">Chapter 8 learning objectives</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>Identify the basic practices of project management</p>
-</li>
-<li>
-<p>Identify the basic concerns of IT resource management</p>
-</li>
-<li>
-<p>Identify the basic concerns of IT financial management</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>===== Content (to be moved to subsequent pages)</p>
 </div>
-</div>
-<div class="sect4">
-<h5 id="_content_to_be_moved_to_subsequent_pages">Content (to be moved to subsequent pages)</h5>
 <div class="quoteblock">
 <blockquote>
 What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
@@ -7346,31 +7533,27 @@ What’s typically underestimated is the complexity and indivisibility of many l
 <p>When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand
 into a project for governance reasons makes sense. And when new demand (even fine-grained demand) arrives in a product&#8217;s Backlog, determination must occur as to whether it warrants a new generation of the product based on changing business conditions or IT technology evolution. A decision tree can be leveraged to determine if a product request should qualify for maintenance, or requires project facilities (<strong>*</strong> kennaley sdlc3 195)</p>
 </div>
+<div class="paragraph">
+<p>==== Conclusion</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_conclusion_8">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_8">Discussion questions</h5>
-
+<div class="paragraph">
+<p>===== Discussion questions</p>
 </div>
-<div class="sect4">
-<h5 id="_research_practice_8">Research &amp; practice</h5>
-
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
 </div>
-<div class="sect4">
-<h5 id="_further_reading_8">Further reading</h5>
-
+<div class="paragraph">
+<p>===== Further reading</p>
 </div>
+<div class="paragraph">
+<p>=== Chapter 9: Process Management</p>
 </div>
+<div class="paragraph">
+<p>==== Introduction to Chapter 9</p>
 </div>
-<div class="sect2">
-<h3 id="_chapter_9_process_management">Chapter 9: Process Management</h3>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_9">Introduction to Chapter 9</h4>
 <div class="paragraph">
 <p>No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall  performance is an ongoing activity in most if not all organizations.</p>
 </div>
@@ -7380,8 +7563,9 @@ into a project for governance reasons makes sense. And when new demand (even fin
 <div class="paragraph">
 <p>Nevertheless, process remains an important tool in the toolkit for organization design.</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_9_overview">Chapter 9 overview</h5>
+<div class="paragraph">
+<p>===== Chapter 9 overview</p>
+</div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -7481,9 +7665,9 @@ into a project for governance reasons makes sense. And when new demand (even fin
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>===== Chapter 9 learning objectives</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_9_learning_objectives">Chapter 9 learning objectives</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -7511,36 +7695,28 @@ into a project for governance reasons makes sense. And when new demand (even fin
 <div class="paragraph">
 <p>Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.</p>
 </div>
+<div class="paragraph">
+<p>==== Conclusion</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_conclusion_9">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_9">Discussion questions</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_research_practice_9">Research &amp; practice</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_further_reading_9">Further reading</h5>
 <div class="paragraph">
-<p><a href="http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/" class="bare">http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/</a></p>
+<p>===== Discussion questions</p>
 </div>
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
 </div>
+<div class="paragraph">
+<p>===== Further reading
+<a href="http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/" class="bare">http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/</a></p>
 </div>
+<div class="paragraph">
+<p>== Section IV: Maturation</p>
 </div>
+<div class="paragraph">
+<p>=== Section IV introduction</p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_section_iv_maturation">Section IV: Maturation</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_section_iv_introduction">Section IV introduction</h3>
 <div class="paragraph">
 <p><strong>Scenario</strong></p>
 </div>
@@ -7571,11 +7747,12 @@ into a project for governance reasons makes sense. And when new demand (even fin
 <div class="paragraph">
 <p>We need to measure this massive IT estate and understand it as an overall dynamic system. There are a wide variety of practices, techniques, and concerns that emerge at this point. No matter how we try, stuff happens, and it&#8217;s getting harder to cope with as the systems get bigger and more complex. Where will this all lead?</p>
 </div>
+<div class="paragraph">
+<p>=== Chapter 10: Security, and Governance, Risk, and Compliance</p>
 </div>
-<div class="sect2">
-<h3 id="_chapter_10_security_and_governance_risk_and_compliance">Chapter 10: Security, and Governance, Risk, and Compliance</h3>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_10">Introduction to Chapter 10</h4>
+<div class="paragraph">
+<p>==== Introduction to Chapter 10</p>
+</div>
 <div class="paragraph">
 <p>Architecture and governance are two topics that become more important as a company scales up and ages. Decisions that might have been made quickly and casually by a product or project team become more difficult, due to increasingly challenging structural factors both internal and external. Decisions made years ago come back to haunt current strategies with a vengeance. With scale, management needs higher level technical abstractions in order to manage. Architecture provides these, but doing so is difficult and controversial. What happens when management decides to set direction using these same abstractions, and architects find themselves now enforcing what had originally started as mere sense-making?</p>
 </div>
@@ -7606,8 +7783,9 @@ into a project for governance reasons makes sense. And when new demand (even fin
 </div>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_chapter_10_outline">Chapter 10 outline</h5>
+<div class="paragraph">
+<p>===== Chapter 10 outline</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -7683,50 +7861,30 @@ into a project for governance reasons makes sense. And when new demand (even fin
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>===== Chapter 10 learning objectives
+* Identify the basic types of IT architecture
+* Describe basic architectural practices
+* Characterize some typical challenges for architects
+* Define governance vs. management
+* Identify common regulatory compliance issues
+* Discuss basic security concerns and practices</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_10_learning_objectives">Chapter 10 learning objectives</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>Identify the basic types of IT architecture</p>
-</li>
-<li>
-<p>Describe basic architectural practices</p>
-</li>
-<li>
-<p>Characterize some typical challenges for architects</p>
-</li>
-<li>
-<p>Define governance vs. management</p>
-</li>
-<li>
-<p>Identify common regulatory compliance issues</p>
-</li>
-<li>
-<p>Discuss basic security concerns and practices</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>==== Conclusion</p>
 </div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_conclusion_10">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_10">Discussion questions</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_research_practice_10">Research &amp; practice</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_further_reading_10">Further reading</h5>
 <div class="paragraph">
-<p><a href="https://softvis.files.wordpress.com/2010/12/gradybooch-whydontdevelopersdrawdiagrams-softvis2010.pdf" class="bare">https://softvis.files.wordpress.com/2010/12/gradybooch-whydontdevelopersdrawdiagrams-softvis2010.pdf</a></p>
+<p>===== Discussion questions</p>
+</div>
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
+</div>
+<div class="paragraph">
+<p>===== Further reading
+<a href="https://softvis.files.wordpress.com/2010/12/gradybooch-whydontdevelopersdrawdiagrams-softvis2010.pdf" class="bare">https://softvis.files.wordpress.com/2010/12/gradybooch-whydontdevelopersdrawdiagrams-softvis2010.pdf</a></p>
 </div>
 <div class="paragraph">
 <p><a href="http://www.ruthmalan.com/Journal/2010/2010JournalOctober.htm#Why_Dont_Developers_Draw_Diagrams" class="bare">http://www.ruthmalan.com/Journal/2010/2010JournalOctober.htm#Why_Dont_Developers_Draw_Diagrams</a></p>
@@ -7740,42 +7898,26 @@ into a project for governance reasons makes sense. And when new demand (even fin
 <div class="paragraph">
 <p><a href="http://www.ruthmalan.com/journal/2011/2011JournalSeptember.htm#When_Are_Diagrams_Useful" class="bare">http://www.ruthmalan.com/journal/2011/2011JournalSeptember.htm#When_Are_Diagrams_Useful</a></p>
 </div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_chapter_11_architecture_and_portfolio">Chapter 11: Architecture and Portfolio</h3>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_11">Introduction to Chapter 11</h4>
 <div class="paragraph">
-<p>Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well.</p>
+<p>=== Chapter 11: Architecture and Portfolio</p>
+</div>
+<div class="paragraph">
+<p>==== Introduction to Chapter 11
+Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well.</p>
 </div>
 <div class="paragraph">
 <p>Analytics and metrics are a related topic for IT management. There are many ways that metrics can be used and misused. A clear understanding of organizational goals is essential to any metrics strategy. Analytics similarly requre an overall framework of continuous improvement so that their insights lead to real actions and value.</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_11_outline">Chapter 11 outline</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>the IT lifecycles</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Application service</p>
-</li>
-<li>
-<p>Infrastructure service</p>
-</li>
-<li>
-<p>Asset (including physical estate)</p>
-</li>
-<li>
-<p>Technology Product</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>===== Chapter 11 outline
+* the IT lifecycles
+ - Application service
+ - Infrastructure service
+ - Asset (including physical estate)
+ - Technology Product</p>
 </div>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>IT analytics</p>
 <div class="ulist">
@@ -7805,9 +7947,9 @@ Magennis, Cantor, etc</p>
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>===== Chapter 11 learning objectives</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_11_learning_objectives">Chapter 11 learning objectives</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -7823,9 +7965,9 @@ Magennis, Cantor, etc</p>
 <p><em>Chapter 11 content to be moved to new file</em>
 Over time, the IT operation develops significant data by which to manage itself. It may develop one or more definitive portfolio list, typically applications, services, assets, and/or technology products. Distinguishing and baselining high quality versions of these data sets can consume inordinate resource, and yet managing the IT organization at scale is nearly impossible without them.. [<em>didn&#8217;t want to discuss data per se in the introduction</em>]</p>
 </div>
+<div class="paragraph">
+<p>===== Chapter raw material</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_raw_material">Chapter raw material</h5>
 <div class="paragraph">
 <p>Because of these facts, it is useful to understand some of the fundamentals of how humans interpret symbolic data.</p>
 </div>
@@ -7847,33 +7989,30 @@ Tufte &amp; others (that comparison paper cited by Moody)</p>
 <div class="paragraph">
 <p>The true measure of the value of a model is whether it actually influences behavior. Smith/Reinertsen 1998 p46.</p>
 </div>
+<div class="paragraph">
+<p>==== Conclusion</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_conclusion_11">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_11">Discussion questions</h5>
-
+<div class="paragraph">
+<p>===== Discussion questions</p>
 </div>
-<div class="sect4">
-<h5 id="_research_practice_11">Research &amp; practice</h5>
-
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
 </div>
-<div class="sect4">
-<h5 id="_further_reading_11">Further reading</h5>
+<div class="paragraph">
+<p>===== Further reading</p>
+</div>
 <div class="paragraph">
 <p>Lean Enterprise, Humble</p>
 </div>
+<div class="paragraph">
+<p>=== Chapter 12: Analytics and Complexity</p>
 </div>
+<div class="paragraph">
+<p>==== Introduction to Chapter 12</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_chapter_12_analytics_and_complexity">Chapter 12: Analytics and Complexity</h3>
-<div class="sect3">
-<h4 id="_introduction_to_chapter_12">Introduction to Chapter 12</h4>
 <div class="paragraph">
 <p>As we look forward, and consider the scale at which we are now operating, the challenges only seem to increase. Increasingly, we need to look to engineering and operations practices from other fields, and to math and science for useful theoretical tools.</p>
 </div>
@@ -7883,8 +8022,9 @@ Tufte &amp; others (that comparison paper cited by Moody)</p>
 <div class="paragraph">
 <p>Finally, what do we even mean by complexity? What is the relationship between the merely complicated, the truly complex, and the absolutely chaotic? What do we need to understand about these various domains, to continue our journey of digital transformation?</p>
 </div>
-<div class="sect4">
-<h5 id="_chapter_12_outline">Chapter 12 outline</h5>
+<div class="paragraph">
+<p>===== Chapter 12 outline</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -7937,9 +8077,9 @@ Tufte &amp; others (that comparison paper cited by Moody)</p>
 </div>
 </div>
 </div>
+<div class="paragraph">
+<p>===== Learning objectives</p>
 </div>
-<div class="sect4">
-<h5 id="_learning_objectives_3">Learning objectives</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -7950,34 +8090,27 @@ Tufte &amp; others (that comparison paper cited by Moody)</p>
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>==== Conclusion</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_conclusion_12">Conclusion</h4>
 <div class="paragraph">
 <p>Conclusion placeholder</p>
 </div>
-<div class="sect4">
-<h5 id="_discussion_questions_12">Discussion questions</h5>
-
+<div class="paragraph">
+<p>===== Discussion questions</p>
 </div>
-<div class="sect4">
-<h5 id="_research_practice_12">Research &amp; practice</h5>
-
+<div class="paragraph">
+<p>===== Research &amp; practice</p>
 </div>
-<div class="sect4">
-<h5 id="_further_reading_12">Further reading</h5>
+<div class="paragraph">
+<p>===== Further reading</p>
+</div>
 <div class="paragraph">
 <p><a href="http://www.amazon.com/Drift-into-Failure-Sidney-Dekker/dp/1409422216" class="bare">http://www.amazon.com/Drift-into-Failure-Sidney-Dekker/dp/1409422216</a></p>
 </div>
+<div class="paragraph">
+<p>== Appendices &amp; back matter</p>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_appendices_back_matter">Appendices &amp; back matter</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p>placeholder for appendices</p>
 </div>
@@ -7994,10 +8127,11 @@ Tufte &amp; others (that comparison paper cited by Moody)</p>
 </li>
 </ul>
 </div>
-<div class="sect2">
-<h3 id="_references">References</h3>
-<div class="ulist bibliography">
-<ul class="bibliography">
+<div class="paragraph">
+<p>=== References</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p><a id="Akera2007"></a>[Akera2007]:1.	Akera, A., "Edmund Berkeley and the Origins of the ACM." Communications of the ACM, 2007. 50(5): p. 31-35.</p>
 </li>
@@ -8201,6 +8335,10 @@ IEEE Press.</p>
 <p><a id="Womack1990"></a>[Womack1990]: Womack, J. P.; Jones, D. T. &amp; Roos, D. (1990), <em>The machine that changed the world : based on the Massachusetts Institute of Technology 5-million dollar 5-year study on the future of the automobile</em>, Rawson Associates, New York</p>
 </li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

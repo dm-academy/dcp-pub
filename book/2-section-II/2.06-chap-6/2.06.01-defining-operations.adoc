@@ -91,7 +91,6 @@ It’s therefore important to treat “development” platforms with the same ca
 
 But the platforms supporting the instantiation and teardown of those VMs are production platforms, supporting the business of new systems development.
 
-==========================
 
 * States and sense-making and risk management around state transitions
 

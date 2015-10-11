@@ -1,10 +1,16 @@
 ==== Introducting Operations Management
 
+image::images/2.06-NASA-ops.jpg[]
+_NASA Payload Operations Integraion Center_
+
+_Photo credit https://www.flickr.com/photos/nasamarshall/15330580364, non-commercial_
+
 What do we mean by operations? Operations management is a broad topic in management theory, with whole programs dedicated to it.
 
-We started to run into this in chapter 5, as we examined the topic of “work management” - in traditional operations management, the question of work is primary. However, in IT, “operations” tends to have a narrower meaning, being focused on the immediate questions of systems availability and performance trending.
+We started to run into this in chapter 5, as we examined the topic of “work management” - in traditional operations management, the question of work is primary. However, in IT, “operations” tends to have a more technical meaning, being focused on the immediate questions of systems integrity, availability and performance, and feedback from the user community (i.e., the service or help desk).
 
-Operations often can mean, “everything but development” in an IT context. When merged with IT into “DevOps,” one gets IT Product Management with an Agile twist. We will take a close look at the various aspects of IT operations in this chapter.
+Operations often can mean, “everything but development” in an IT context. When merged with Development into “DevOps,” one gets IT Product Management with an Agile twist. We will take a close look at the various aspects of IT operations in this chapter.
+
 Consider the following various definitions of “operations” in an IT context. Some are relevant to our “two pizza team” scenario, some might be more applicable to larger environments:
 
 * Keeping track of an IT product’s availability (is the Web site working?), and troubleshooting if it goes down (e.g. by rebooting it).
@@ -15,7 +21,7 @@ Consider the following various definitions of “operations” in an IT context.
 
 As above, the primary thing that operations does NOT do is develop new systems functionality. However, new functionality usually has operational impacts.
 
-It used to be that development was a minority of work, while operations was where the bulk of work happened. However, when an operational task becomes repetitive and risk-free, it can be automated. This continuous cycle of innovation and commoditization has driven closer and closer ties between “development” and “operations.” It also has driven confusion around exactly what is meant by “operations.”
+In manufacturing and other traditional industries, product development was a minority of work, while operations was where the bulk of work happened. However, when an operational task involving information becomes repetitive and risk-free, it can be automated with a computer. This continuous cycle of innovation and commoditization has driven closer and closer ties between “development” and “operations.” It also has driven confusion around exactly what is meant by “operations.”
 
 In many organizations, there is an “Infrastructure and Operations” function. Pay close attention to the naming. A matrix may help, because we have two dimensions to consider here.
 
@@ -51,24 +57,28 @@ When we start to gain confidence in our experiments, we increase the fidelity an
 * Development
 * Testing
 * QA
+* Integration
 * Performance Testing
 
 The final state, where value is realized, is “Production.”
 
-There is nothing sacred about the environments listed above. Others are seen. The author has heard it recommended that the term “environment” be eliminated, as it tends to result in turf wars and empire building, and potentially the waste of fixed assets (see chapter 8). Performance environments are particularly in question.
-
-Instead, in a dynamic infrastructure environment (private or public), one simply defines the kind of test one wants to perform and provisions that capacity on-demand.
+There is nothing sacred about the environments listed above. You will see many variations, especially at scale.
 
 The idea that one sequentially moves (”promotes”) new system functionality through a series of states to gain confidence before finally changing the state of the production system is historically well established. However, the production state is notoriously difficult to reproduce fully, especially in highly distributed environments. Therefore there is always risk in changing the state of the production system. Mitigating strategies include:
 
 * Extensive automated test harnesses that can quickly determine if system behavior has been unfavorably altered.
-* Investing in lower environments with strategies such as service virtualization to make them appear more like production
+* Elaborating lower environments with strategies such as service virtualization to make them appear more like production
 * Hardening services against their own failure in production, or the failure of services on which they depend
 * Reducing the size (and therefore complexity and risk) of changes to production (a key DevOps strategy)
 * Ensuring that changes to the production system can be easily and automatically reversed
 * Using policy-aware infrastructure management tools
 
 Another important development in environmental approaches is A/B testing. In this approach, the “production” environment is segregated into two or more discrete states, with different features or behaviors exposed to users in order to assess their reactions (see sidebar).
+
+===== Do we need environments at all?
+The author has heard it recommended that the term “environment” be eliminated, as it tends to result in turf wars and empire building, and potentially the waste of fixed assets (see chapter 8). Performance environments are particularly in question.
+
+Instead, in a dynamic infrastructure environment (private or public), one simply defines the kind of test one wants to perform and provisions that capacity on-demand.
 
 ****
 *Testing in Production?*
@@ -78,7 +88,7 @@ It used to be that the concept of “testing in production” was frowned upon. 
 But with older systems that may lack automated testing, incremental deployment, or easy rollback, it is strongly recommended to retain existing promotion strategies, as these are battle-tested and known to reduce risk. Often, their cycle time can be decreased.
 ****
 
-“Development is production”
+===== “Development is production”
 
 On the flip side, development systems must never be treated casually.
 
@@ -91,9 +101,8 @@ It’s therefore important to treat “development” platforms with the same ca
 
 But the platforms supporting the instantiation and teardown of those VMs are production platforms, supporting the business of new systems development.
 
-
-* States and sense-making and risk management around state transitions
-
-* Complexity & uncertainty
-
-* Promise theory?
+....
+  * States and sense-making and risk management around state transitions
+  * Complexity & uncertainty
+  * Promise theory?
+....

@@ -1,8 +1,9 @@
-==== Telemetry
+==== Monitoring
 
-===== What is telemetry?
+[quote, Wikpedia,https://en.wikipedia.org/wiki/Telemetry]
+Telemetry is an automated communications process by which measurements are made and other data collected at remote or inaccessible points and transmitted to receiving equipment for monitoring. The word is derived from Greek roots: 'tele' = remote, and 'metron' = measure.
 
-===== Monitoring
+Computers run in large data centers, where physical access to them is tightly controlled. Therefore, we need telemetry to manage them, more typically called monitoring.
 
 ===== Aggregation and operations centers
 

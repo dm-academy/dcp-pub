@@ -1,0 +1,7 @@
+==== Advanced topics in operations
+
+===== Human in the loop problem
+
+===== The feedback loop from ops to dev
+
+===== Theory

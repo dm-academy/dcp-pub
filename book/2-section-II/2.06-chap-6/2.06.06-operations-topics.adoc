@@ -1,14 +1,17 @@
 ==== Advanced topics in operations
 
-
+===== A critique of the "NoOps" idea
 
 ===== Human in the loop problem
 
 ===== The feedback loop from ops to dev
 
+===== Classes of work
+
 ===== Theory
 ....
   * States and sense-making and risk management around state transitions
+  (Systems that are too big, complex, and fluid to be considered as having a “state”??)
   * Complexity & uncertainty
   * Promise theory?
   * Burgess measuring system normality paper

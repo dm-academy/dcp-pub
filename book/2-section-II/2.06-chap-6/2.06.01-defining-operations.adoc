@@ -50,8 +50,6 @@ How do things get to be “in production”? What do we mean by that?
 
 First, let’s get back to our fundamental principle that there is an IT system some human is interacting with. This system can be of any scale, but fundamentally we are able to conceive of it having a “state.”
 
- (Systems that are too big, complex, and fluid to be considered as having a “state”??)
-
 When we want to change the behavior of this system, we are cautious. We reproduce the system at varying levels of fidelity and experiment with potential changes. This is called development.
 
 When we start to gain confidence in our experiments, we increase the fidelity and also start to communicate more widely that we are contemplating a change to the state of the system. We may increase the fidelity along a set of traditional names: 

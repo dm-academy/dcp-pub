@@ -1,7 +1,26 @@
 ==== Capacity and performance management
+Capacity and performance management are closely related, but not identical terms encountered as IT systems scale up and encounter significant load.
+
+A capacity management system may include large quantities of data harvested from monitoring and event management systems, stored for long periods of time so that history of system utilization is understood and some degree of prediction can be ventured for upcoming utilization.
+
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/DCUSA.Gallery10.TargetBlackFriday.Wikipedia.jpg/240px-DCUSA.Gallery10.TargetBlackFriday.Wikipedia.jpg[]
+_Black Friday at Target, from https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/DCUSA.Gallery10.TargetBlackFriday.Wikipedia.jpg/240px-DCUSA.Gallery10.TargetBlackFriday.Wikipedia.jpg[Wikipedia]_
+
+The classic example of significant capacity utilization is the https://en.wikipedia.org/wiki/Black_Friday_(shopping)[Black Friday/Cyber Monday] experience of retailers. Both physical store and online ecommerce systems are placed under great strain annually around this time, with the year's profits potentially on the line.
+
+===== Performance management
+Performance management focuses on the responsiveness (e.g. speed) of the systems being used. Responsiveness may be related to capacity utilization, but some capacity issues don't immediately affect responsiveness. For example, a disk drive may be approaching full. When it fills, the system will immediately crash, and performance severely affected. But until then, the system performs fine. The disk needs to replaced on the basis of capacity reporting, not performance trending. On the other hand, some performance issues are not related to capacity. A mis-configured router might badly affect a web site's performance, but the configuration simply needs to be fixed - there is no need to handle as a capacity-related issue.
 
 ===== Analytics
-Measure and analyze
+Capacity analytics at its most advanced is a true Big Data problem domain. At a simpler level, it may consist of monitoring CPU, memory, and storage utilization across a given set of nodes, and raising alerts if certain threshholds are approached.
+
+ [examples]
 
 ===== As a source of demand
-What do we do about it?
+So, what do we do when a capacity alert is raised, either through an automated system or through the manual efforts of a capacity analyst?
+
+There are a number of responses that may follow:
+
+* Acquire more capacity
+* Seek to use existing capacity more efficiently
+* Throttle demand somehow

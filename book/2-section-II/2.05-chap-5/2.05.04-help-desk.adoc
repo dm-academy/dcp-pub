@@ -27,7 +27,7 @@ In any event, a Service Desk capability needs
 * robust workflow capabilities to track their progress, and
 * routing and escalation mechanisms, since clarifying the true nature of contacts and getting them serviced by the most appropriate means are nontrivial challenges.
 
- [more to be written]
+ [more to be written e.g. provide an example of escalation]
 
 There is extensive literature on managing Service Desks; the reader is referred first to the Help Desk Institute.
 

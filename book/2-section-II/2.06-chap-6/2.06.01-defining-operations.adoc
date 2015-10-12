@@ -1,7 +1,7 @@
 ==== Introducing operations management
 
 image::images/2.06-NASA-ops.jpg[]
-_NASA Payload Operations Integraion Center_
+_NASA Payload Operations Integration Center_
 
 _Photo credit https://www.flickr.com/photos/nasamarshall/15330580364, non-commercial_
 
@@ -39,6 +39,25 @@ In many organizations, there is an “Infrastructure and Operations” function.
 |Operations center. Operational support, including monitoring system status. May monitor both infrastructure and application layers.
 |====
 
+===== A day in the life
+A duty-oriented, physical presence in the service of executing particular tasks is an unchanging aspect of operational responsibility. The tasks may support broader goals and strategies, and need to be systematically discharged.
+
+What do we mean by this?
+
+* Systems operators sitting in 24x7 operations centers, monitoring system status and responding to alerts
+* Field technicians executing work orders (install a new PC, fix a printer, service a cell tower antenna)
+* Help desk representatives responding to user inquiries
+* Developers and engineers wearing pagers on a rotating basis to respond to systems outages referred to them by the operations center.
+
+Limoncelli, Strata, and Hogan, in their excellent _Cloud Systems Administration_, emphasize the role of the "oncall" and "onduty" staff in the service of operations. Oncall staff have a primary responsibility of emergency response, and the term oncall refers to their continuous availability, even if they are not otherwise working (e.g., they are expected to pick up phone calls and pages at home and dial into emergency communications channels). Onduty staff
+
+* Emergency vs non-emergency - it's all a matter of expectations
+** A brief look at terminology (Incident, Problem, Issue, Defect, Request)
+
+At the end of the day, we need to remember that operational work is just one form of work. In the classic model, developers built systems and "threw them over the wall" to operations. Each side had specialized processes and technology supporting their particular concerns.
+
+Now, companies undergoing digital transformation are experimenting with many different models; as we will see in Section III, up to and including the complete merging of Development and Operations-oriented skills under common product management.
+
 ===== Environments and the fierce god of "Production"
 
 [quote, unknown]
@@ -48,7 +67,7 @@ In many organizations, there is an “Infrastructure and Operations” function.
 
 How do things get to be “in production”? What do we mean by that?
 
-First, let’s get back to our fundamental principle that there is an IT system some human is interacting with. This system can be of any scale, but fundamentally we are able to conceive of it having a “state.”
+First, let’s get back to our fundamental principle that there is an IT system delivering some "moment of truth" to someone. This system can be of any scale, but fundamentally we are able to conceive of it having a “state.” (See http::/url[State, Configuration, and Discovery].)
 
 When we want to change the behavior of this system, we are cautious. We reproduce the system at varying levels of fidelity and experiment with potential changes. This is called development.
 

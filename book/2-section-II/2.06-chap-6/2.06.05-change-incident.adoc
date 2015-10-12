@@ -1,10 +1,13 @@
-==== Change and Incident Management
+==== Other operations techniques and tools
 
- [to be moved to section III]
+* Communications channels
+** Conference bridges
+** Instant messaging & chat
+** Email
+** Cell phone
+** Paging
 
-In many discussions of Operations Management, two processes are front and center:
+* Record keeping
+** Running incident logs
 
-* Change Management
-* Incident Management
-
-Sidebar: Introducing ITIL
+* Post-mortems

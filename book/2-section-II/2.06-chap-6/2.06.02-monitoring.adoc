@@ -23,7 +23,7 @@ All of this data may then forwarded to a central console and integrated, with th
 Enterprise monitoring tools are notorious for requiring agents (small, continuously-running programs) on servers; while some things can be detected without such agents, having software running on a given computer still provides the richest data. Since licensing is often agent-based, this gets expensive.
 
 ===== Designing software for monitoring
- [to be written. Reference Nygard's Release IT; SNMP; DMTF.]
+ [to be written. Reference Nygard's Release IT; SNMP; DMTF. See also http://blog.softwareoperability.com/.]
 
 ===== Aggregation and operations centers
 

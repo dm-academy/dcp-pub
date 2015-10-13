@@ -81,6 +81,8 @@ When we start to gain confidence in our experiments, we increase the fidelity an
 
 The final state, where value is realized, is “Production.”
 
+image::images/2.06-environments.png[]
+
 There is nothing sacred about the environments listed above. You will see many variations, especially at scale.
 
 The idea that one sequentially moves (”promotes”) new system functionality through a series of states to gain confidence before finally changing the state of the production system is historically well established. However, the production state is notoriously difficult to reproduce fully, especially in highly distributed environments. Therefore there is always risk in changing the state of the production system. Mitigating strategies include:

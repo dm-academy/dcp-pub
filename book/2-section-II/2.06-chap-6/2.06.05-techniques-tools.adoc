@@ -1,5 +1,7 @@
 ==== Other operations techniques and tools
 
+ [to be written]
+
 * Communications channels
 ** Conference bridges
 ** Instant messaging & chat
@@ -8,6 +10,10 @@
 ** Paging
 
 * Record keeping
+** Runbooks/playbooks
 ** Running incident logs
+
+* Drills
+** Chaos bestiary
 
 * Post-mortems

@@ -25,3 +25,5 @@ https://aws.amazon.com/message/5467D2/?utm_content=buffer72a89&utm_medium=social
 http://techironic.com/post/129767406981/the-truth-behind-building-multiple-environments-to[The truth behind building multiple environments to run your services]
 
 http://csel.eng.ohio-state.edu/woods/design/concepts/nav_problems.pdf[Orienting in Virtual Perceptual Fields]
+
+http://www.allofe.com/gen/corp_generated_bin/documents/basic_module/designing1.pdf[http://www.allofe.com/gen/corp_generated_bin/documents/basic_module/designing1.pdf]

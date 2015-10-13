@@ -6,6 +6,9 @@ Telemetry is an automated communications process by which measurements are made 
 Computers run in large data centers, where physical access to them is tightly controlled. Therefore, we need telemetry to manage them, more typically called monitoring.
 
 ===== Monitoring techniques
+[quote, Limoncelli/Chalup/Hogan, The Practice of Cloud System Administration]
+Monitoring is the primary way we gain visibility into the systems we run. It is the process of observing information about the state of things for use in both short-term and long-term decision making.
+
 But how does one “observe” computing infrastructure? Clearly, sitting in the data center (assuming you could get in) and looking at the faceplates of servers will not convey much useful information. Monitoring tools are the software that watches the software (and systems more broadly).
 
 NOTE: Monitoring systems are similar to source control systems in that they are a critical point at which metadata diverges from the actual system under management.
@@ -18,6 +21,9 @@ More broadly, these tools provide a variety of mechanisms for monitoring and con
 
 All of this data may then forwarded to a central console and integrated, with the objective of supporting the organization’s service level agreements in priority order.
 Enterprise monitoring tools are notorious for requiring agents (small, continuously-running programs) on servers; while some things can be detected without such agents, having software running on a given computer still provides the richest data. Since licensing is often agent-based, this gets expensive.
+
+===== Designing software for monitoring
+ [to be written. Reference Nygard's Release IT; SNMP; DMTF.]
 
 ===== Aggregation and operations centers
 

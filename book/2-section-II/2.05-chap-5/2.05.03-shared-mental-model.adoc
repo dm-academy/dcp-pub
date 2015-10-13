@@ -28,9 +28,7 @@ This idea of a shared reference point, informing the shared mental model of the 
 This is why a shared kanban board, with its dimensionality, is more informative than a simple to-do list (e.g.  in a spreadsheet). The cards occupy two dimensional space and are  moved over time to signify activity, both powerful cues to the human visual processing system.
 
 ===== Visualization
-Why are shared visual representations important? Depending on how you measure, between 40% to as much as 80% of the human cortex is devoted to visual processing, more than the other four senses combined. Visual representations are powerful communication mechanisms, well suited to our cognitive abilities.
-
-Furthermore,  visual processing http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf[dominates mental activity], consuming more neurons than the other four senses combined <<Sells1957>>.
+Why are shared visual representations important? Depending on how you measure, between 40% to as much as 80% of the human cortex is devoted to visual processing. Furthermore,  visual processing http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf[dominates mental activity], consuming more neurons than the other four senses combined <<Sells1957>>. Visual representations are powerful communication mechanisms, well suited to our cognitive abilities.
 
 This is why Kanban boards located in the same room are so prevalent. They communicate and sustain the shared mental model of a human team. Similarly, monitoring tools for systems operation make use of various visual clues. Human visual orientation is also why Enterprise Architecture persists. People will always draw to communicate. (More on EA in Chapter 10.)
 

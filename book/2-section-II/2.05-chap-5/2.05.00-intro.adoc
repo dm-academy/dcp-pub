@@ -15,7 +15,7 @@ NOTE: "Work management" is an unusual title, deliberately chosen to reflect earl
 
 These are fundamental questions for any business larger than a couple co-founders.
 
-You're now a team. You need to get work done. When your startup hired its first employees, and you went from two people to three or four, you almost certainly had to think about this. You are now getting feedback from both your users and product leadership, calling for prioritization, the allocation of resources, and the tracking of effort and completion.
+You're now a team. You need to get work done. When your startup hired its first employees, and you went from two people to three or four, you almost certainly had to think about this. You are now getting feedback from both your users and product leadership calling for prioritization, the allocation of resources, and the tracking of effort and completion.
 
 People have different responsibilities and specialties, yet there is a common vision for delivering an IT-based product of some value. How do you keep track of the work? Mostly, you are in the same location, but people sometimes are offsite or keeping different hours. Beyond your product strategy, you have support calls increasingly coming in that result in fixes and new features, and it's all getting complicated.
 

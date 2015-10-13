@@ -62,7 +62,7 @@ Now, I should say... IF YOU ARE LUCKY it all blends together. This assumes that 
 
 What if a given state change isn't needed for a particular cycle? You wind up fighting a system hard-wired to protect the role of each activity (and all their sub-activities). You wind up asking to "tailor" methodologies, to exempt your work from activities that are clearly non-value-add, and so forth.
 
-Accelerating PBR isn't sufficient; it is still a sequential process with discrete steps and implications of information and control flow betwen each, reinforcing a dysfunctional division of organizational responsibilities. Can you get up to speed if people are trying to "optimize" the "plan," "build," or "run" phase independently? How can you optimize one third of a wheel?
+Accelerating PBR isn't sufficient; it is still a sequential process with discrete steps and implications of information and control flow between each, reinforcing a dysfunctional division of organizational responsibilities. Can you get up to speed if people are trying to "optimize" the "plan," "build," or "run" phase independently? How can you optimize one third of a wheel?
 
 I ask: is PBR how work really gets done? How value gets delivered? If it is how work gets done in your organization, how effective is it? If you are fortunate to be working in an organization using Agile approaches, can you in truth characterize them as simply "fast PBR"? Does this mental model fundamentally inform your daily experience?
 
@@ -132,7 +132,7 @@ So, if we are trying to shift the IT mental mental models from sequential to net
 
 image::images/2.05-DSE2.jpg[]
 
-ecause the inverted “V” approximates human legs, it reinforces the feeling of simultaneous action. Both legs must exert effort simultaneously.
+Because the inverted “V” approximates human legs, it reinforces the feeling of simultaneous action. Both legs must exert effort simultaneously.
 
 The gap between the legs of the V is filled with the "Fog of Forecasting."
 

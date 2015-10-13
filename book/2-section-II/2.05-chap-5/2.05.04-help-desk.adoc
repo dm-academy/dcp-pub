@@ -9,7 +9,7 @@ The service desk is an interrupt-driven, task-oriented capability. It serves as 
 
 The service desk ideally answers each user's request immediately, requiring no followup. If followup is required, a "ticket" is "issued."
 
-As a “help desk,” it may be focused on end user assistance and reporting Incidents;
+As a “help desk,” it may be focused on end user assistance and reporting Incidents.
 As a “service desk,” it may expand its purview to accepting provisioning or other requests of various types (and referring and tracking those requests). Note that in some frameworks, Service Request and Incident are considered to be distinct processes.
 
 The term "ticket" dates to paper-based industrial processes, where the "help desk" might actually be a physical desk, where a user seeking services might be issued a paper ticket. Such "tickets" were also used in field services:

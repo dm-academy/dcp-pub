@@ -20,7 +20,7 @@ Stories are meant to be independent and valuable. Tasks aren’t. By earning vel
 ****
 Originally published at http://www.lean4it.com/2014/06/in-search-of-the-pcmdb-and-pcis.html.
 
-in search of the PMDB and PIs
+In search of the PMDB and PIs
 
 As I was preparing chicken piccata last night, I had one of those flashes.
 
@@ -38,7 +38,7 @@ In the world of Process, we have a series of related terms that indicate a
 
 "potentially recurring series of events with various complexity (parallelism, sequentially related or not, and so on)"
 
-as the Oracle Communications Model states. Under this general heading we have
+as the Oracle Communications Model states. Under this general heading we have:
 
 * Program
 * Project

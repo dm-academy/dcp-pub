@@ -35,6 +35,8 @@ Three flavors of drift:
 * Drift from baseline
 * Drift from policy
 
+
+
 ===== Discovery
 
 Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools Answering this question has resulting in a significant market for so-called “discovery” tools, which seek to profile the server and understand its installed software, processing patterns and communications with an objective of assigning it to some management construct, such as a high level IT application or service.

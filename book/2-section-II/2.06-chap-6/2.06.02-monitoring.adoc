@@ -19,6 +19,8 @@ A classic, simple monitoring tool will simply observe a computing node, perhaps 
 
 More broadly, these tools provide a variety of mechanisms for monitoring and controlling operational IT systems, often through small software “agents” deployed to computing platforms. These agents may monitor processes and their return codes, performance metrics (e.g. memory and CPU utilization), events raised through various channels, network availability, log file contents (e.g. with standing filters for messages indicating problems), interactions with other elements in the IT infrastructure, and more.
 
+Some monitoring covers low level system indicators not usually of direct interest to the end user. Other monitoring may attempt to synthetically re-create the user's "moment of truth." Web application response time monitoring, in which synthetic transactions are run as proxies for end user experience, is an example of this. See <<Limoncelli2014>>, chapters 16-17.
+
 All of this data may then forwarded to a central console and integrated, with the objective of supporting the organization’s service level agreements in priority order.
 Enterprise monitoring tools are notorious for requiring agents (small, continuously-running programs) on servers; while some things can be detected without such agents, having software running on a given computer still provides the richest data. Since licensing is often agent-based, this gets expensive.
 

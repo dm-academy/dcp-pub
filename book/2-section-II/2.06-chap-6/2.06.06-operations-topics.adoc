@@ -10,6 +10,8 @@
 
 ===== Classes of work
 
+===== A deeper look at measurement
+
 ===== Theory
 ....
   * States and sense-making and risk management around state transitions

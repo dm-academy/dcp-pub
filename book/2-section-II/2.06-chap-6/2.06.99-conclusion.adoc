@@ -18,6 +18,7 @@ Operations management has a broader industry meaning, but in the narrower IT sen
 * John Allspaw, http://www.goodreads.com/book/show/8571725-web-operations[Web Operations: Keeping the Data On Time]
 
 
+
 ===== Articles/posts
 
 https://aws.amazon.com/message/5467D2/?utm_content=buffer72a89&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer[AWS DynamoDB Fall 2015 outage]
@@ -27,3 +28,5 @@ http://techironic.com/post/129767406981/the-truth-behind-building-multiple-envir
 http://csel.eng.ohio-state.edu/woods/design/concepts/nav_problems.pdf[Orienting in Virtual Perceptual Fields]
 
 http://www.allofe.com/gen/corp_generated_bin/documents/basic_module/designing1.pdf[http://www.allofe.com/gen/corp_generated_bin/documents/basic_module/designing1.pdf]
+
+http://techblog.netflix.com/2011/07/netflix-simian-army.html[The Netflix Simian Army]

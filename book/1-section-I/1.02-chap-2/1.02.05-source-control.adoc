@@ -1,4 +1,6 @@
 ==== Source control: the Agile foundation
+[quote, Andrew Clay Shafer, in Allspaw-Web Operations:Keeping the Data On Time]
+In software development, version control is the foundation of every other Agile technical practice. Without version control, there is no build, no TDD, no continuous integration.
 
 ===== What is source control?
 

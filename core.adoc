@@ -111,6 +111,8 @@ include::book/2-section-II/2.06-chap-6/2.06.06-operations-topics.adoc[]
 
 include::book/2-section-II/2.06-chap-6/2.06.99-conclusion.adoc[]
 
+include::book/2-section-II/2.99-conclusion/2.99.00-conclusion.adoc[]
+
 include::book/3-section-III/3.00-intro/3.00-intro.adoc[]
 
 include::book/3-section-III/3.07-chap-7/3.07.00-intro.adoc[]

@@ -1,0 +1,5 @@
+=== Section II Conclusion
+
+In this section, we considered the basic elements necessary for a collaborative product team, achieving success but still at a manageable human scale.
+
+Our IT-centric team needed capabilities for evolving its product, managing its work, and operating its product. In some cases, time and space shifting might drive the team to automating basic capabilities such as work management and ticketing. The overall assumption however was that for the most part, people are co-located and still can communicate with minimal friction.

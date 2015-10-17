@@ -1,0 +1,25 @@
+=== Why organization matters
+
+[quote, Alan Turing, Lecture on the Automated Computing Engine]
+Roughly speaking those who work in connection with the [Automated Computing Engine] will be divided into its masters and its servants. Its masters will plan out instruction tables for it, thinking up deeper and deeper ways of using it. Its servants will feed it with cards as it calls for them. They will put right any parts that go wrong. They will assemble data that it requires. In fact the servants will take the place of limbs... +
+ +
+ As time goes on the calculator itself will take over the functions both of masters and of servants. The servants will be replaced by mechanical and electrical limbs and sense organs… The masters are liable to get replaced because as soon as any technique becomes at all stereotyped it becomes possible to devise a set of instruction tables which will enable the electronic computer to do it for itself…”
+
+[quote, Matt Blumberg, Scaling Up]
+ In the early stages, you have to hire generalists who are both willing and able to take on dozens of tasks at once. Your developers will have to speak with potential customers; your accountants will have to give advice on product direction; and the born salesman on your team will need to put the phone down a few hours a day and set up a new employee’s computer. This is the exciting, four-people-and-an-idea stage popularly associated with startups— but it doesn’t last very long. +
+  +
+  For a lot of your employees, growing out of this phase will be a welcome development: programmers don’t want to be in accounting meetings, and salespeople don’t want to sit in a dark, quiet room with the engineers. People have talents and skills they want to develop, and a healthy degree of specialization allows them to do that.
+
+So, you are getting bigger now.
+
+Even as a cohesive, single team you had increasing complexity of support services. You needed legal and accounting advice to get the startup going. When you started hiring people, you needed HR and payroll, and at some point you need an internal person whose daily job is money (they’ll become the CFO someday).
+
+You also are buying stuff and paying bills, and you’ve got sales people and marketing people and you need to support your customers and collect money they have promised to pay.
+
+How are you going to organize? More importantly, how are you going to think about organizing? This is a hard question. It’s important to get organization right, and the question never goes away. There is a lot of theory, history, and advice available on to how to organize your company. There seems to be an emerging consensus on how Agile companies are best organized, as well.
+
+This is not a general business school textbook, or even  a textbook on startups and entrepreneurship. However, in the current environment, it is essential for technologists, no matter how specialized, to understand the general context they are operating in.
+
+ In one chapter, we cannot cover much, but there’s an increasing consensus that the choice of organizational form has a fundamental impact on the success of IT-based product delivery. (***cite Narayan) So we’re going to devote a chapter to this.
+
+In keeping with our evolutionary approach, let’s assume you’ve been fairly ad-hoc in your organizational structure up to now, doing your best to avoid specialization. Perhaps you’ve even been working as a collective. Nevertheless, you’ve needed a variety of skills to get this far in your journey: you are certainly not all Java programmers!

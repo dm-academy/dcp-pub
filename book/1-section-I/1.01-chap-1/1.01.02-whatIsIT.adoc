@@ -24,7 +24,7 @@ Regardless of organizational form or delivery methods, IT is defined by these or
 It does not matter if the application developers ultimately report up through the CIO, the CMO, the CFO, or the COO. Their daily experience remains largely the same. The dynamics of their management remain the same. Executives who seek to take control of IT so they can “remove that old bureaucracy” are well advised to be cautious; the bureaucracy emerged for a reason. More on this in subsequent chapters.
 
 ====== IT and digital transformation
-
+[[digital-transformation]]
  [add Sussna quote - various good ones]
 
 image::images/1.01-ProportionOfIT.png[]

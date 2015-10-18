@@ -39,11 +39,11 @@ Three flavors of drift:
 
 ===== Discovery
 
-Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. In particular, discovery tools Answering this question has resulting in a significant market for so-called “discovery” tools, which seek to profile the server and understand its installed software, processing patterns and communications with an objective of assigning it to some management construct, such as a high level IT application or service.
+Closely related to monitoring is the concept of discovery. While monitoring focuses on the activity of a given system, discovery is focused on state. Answering this question has resulted in a significant market for so-called “discovery” tools, which seek to profile the server and understand its installed software, processing patterns and communications with an objective of assigning it to some management construct, such as a high level IT application or service.
 
 ****
 *What is the future of discovery tools?*
-There is some evidence that the increasing automation of IT infrastructures will mitigate this (which?) problem. As the software pipeline becomes increasingly automated, tracking software from development through production becomes easier.
+There is some evidence that the increasing automation of IT infrastructure will mitigate management and drift problems. As the software pipeline becomes increasingly automated, tracking software from development through production becomes easier.
 ****
 
 ===== Policy-based management

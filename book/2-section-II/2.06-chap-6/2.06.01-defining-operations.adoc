@@ -49,7 +49,7 @@ What do we mean by this?
 * Help desk representatives responding to user inquiries
 * Developers and engineers wearing pagers on a rotating basis to respond to systems outages referred to them by the operations center.
 
-Limoncelli, Strata, and Hogan, in their excellent _Cloud Systems Administration_, emphasize the role of the "oncall" and "onduty" staff in the service of operations. Oncall staff have a primary responsibility of emergency response, and the term oncall refers to their continuous availability, even if they are not otherwise working (e.g., they are expected to pick up phone calls and pages at home and dial into emergency communications channels). Onduty staff
+Limoncelli, Strata, and Hogan, in their excellent _Cloud Systems Administration_, emphasize the role of the "oncall" and "onduty" staff in the service of operations. Oncall staff have a primary responsibility of emergency response, and the term oncall refers to their continuous availability, even if they are not otherwise working (e.g., they are expected to pick up phone calls and pages at home and dial into emergency communications channels). Onduty staff are responsible for responding to non-critical incidents and maintaining current operations.
 
 * Emergency vs non-emergency - it's all a matter of expectations
 ** A brief look at terminology (Incident, Problem, Issue, Defect, Request)

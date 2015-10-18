@@ -16,7 +16,7 @@ endif::instructor-ed[]
 
 As your product gains more use, you find that running it inevitably becomes a distinct concern from building it. For all their logic, computers are still surprisingly unreliable. Servers running well tested software that remain "up" for weeks all of a sudden hang and have to be rebooted. Sometimes it's clear why (for example, a log filled up that no-one expected) and in other cases there just is no explanation.
 
-Engineering and operating complex IT-based distributed systems is a significant engineering challenge. Even with infrastructure as code, it is distinct from software development per se. Quesions of scalability, performance, caching, load balancing, and so forth usually become apparent first through feedback from the operations team.
+Engineering and operating complex IT-based distributed systems is a significant engineering challenge. Even with infrastructure as code, it is distinct from software development per se. Questions of scalability, performance, caching, load balancing, and so forth usually become apparent first through feedback from the operations team.
 
 ****
 Sidebar: Introducing Limoncelli.

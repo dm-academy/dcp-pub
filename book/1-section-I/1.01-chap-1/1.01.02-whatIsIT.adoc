@@ -25,7 +25,10 @@ It does not matter if the application developers ultimately report up through th
 
 ====== IT and digital transformation
 [[digital-transformation]]
+
+ifdef::collaborator-draft[]
  [add Sussna quote - various good ones]
+endif::collaborator-draft[]
 
 image::images/1.01-ProportionOfIT.png[]
 

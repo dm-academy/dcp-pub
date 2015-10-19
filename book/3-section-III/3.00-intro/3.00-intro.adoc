@@ -4,9 +4,9 @@
 
 You are now a "team of teams," at a size where face to face communication is increasingly supplemented by other forms of communication and coordination. You are seeing more and more specialization in your organization, with the tendency of functional specialists to identify more with their field than with the needs of your customers and your business.
 
- Your teams are all good, but they are different. They get results, but in different ways. You need some level of coordination and not everyone can talk to everyone; people are no longer co-located and there may be different schedules involved.
+Your teams are all good, but they are different. They get results, but in different ways. You need some level of coordination and not everyone can talk to everyone; people are no longer co-located and there may be different schedules involved.
 
-You now have multiple products. Some may be external, some may be internal, but they are starting to develop complex interdependencies. Tensions between various teams are starting to emerge. There is an increasing desire among your stakeholders and executives for control and predictability. You are considering various frameworks for managing your organization. This is where it gets hard. 
+You now have multiple products. Some may be external, some may be internal, but they are starting to develop complex interdependencies. Tensions between various teams are starting to emerge. There is an increasing desire among your stakeholders and executives for control and predictability. You are considering various frameworks for managing your organization. This is where it gets hard.
 
 There are no shortage of contractors and consultants all advocating various flavors of process and project management, some advocating older approaches and "frameworks" and others proposing newer Agile & Lean perspectives. The very concepts of process and project management are occasionally called into question by both your employees and various "thought leaders," and it's all very confusing. Welcome to IT management, circa 2015.
 

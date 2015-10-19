@@ -43,7 +43,7 @@
 
 - [[[Fowler1997]]]: Fowler, M. (1997), _Analysis patterns : reusable object models_, Addison Wesley, Menlo Park, Calif.
 
-- [[[Furr2013]]]: Furr, N. A., Ahlstronm, Paul (2013). _Nail It then Scale It: The Entrepreneur's Guide to Creating and Managing Breakthrough Innovation_, NISI Publishing. 
+- [[[Furr2013]]]: Furr, N. A., Ahlstronm, Paul (2013). _Nail It then Scale It: The Entrepreneur's Guide to Creating and Managing Breakthrough Innovation_, NISI Publishing.
 
 - [[[Gamma1995]]]: Gamma, E. (1995), _Design patterns : elements of reusable object-oriented software_, Addison-Wesley, Reading, Mass.
 
@@ -96,6 +96,8 @@
 IEEE Press.
 
 - [[[Minick2012]]]: Minick, E. (2012), "A DevOps Toolchain: There and back again",  Slideshare.net, http://www.slideshare.net/Urbancode/building-devops-toolchain
+
+- [[[Mintzberg1983]]]: Mintzberg, H. (1983). _Structure in fives : designing effective organizations. Englewood Cliffs, N.J., Prentice-Hall._
 
 - [[[Nygard2007]]]: Nygard, M.T., 2007. _Release it! : design and deploy production-ready software._ The pragmatic programmers, Raleigh, N.C.: Pragmatic Bookshelf. xvi, 350 p.
 

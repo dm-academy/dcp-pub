@@ -1,0 +1,121 @@
+[quote, Henry Mintzberg, Structure in Fives]
+Five coordinating mechanisms seem to explain the fundamental ways in which organizations coordinate their work: mutual adjustment, direct supervision, standardization of work processes, standardization of work outputs, and standardization of worker skills. +
+ +
+ These should be considered the most basic elements of structure, the glue that holds or ganizations together…As organizational work becomes more complicated,  the favored means of coordination seems to shift from mutual adjustment
+to direct supervision to standardization, preferably of work processes, otherwise of outputs, or else of skills, *finally reverting back to mutual adjustment*. (emphasis added)
+
+As mentioned at the outset of this chapter, there is much research and thought available on the question of how to organize an enterprise.[1]
+Because of space limitations, we will only be able to sketch some of the major thinkers and themes here. Extensive citations are available in the further reading and references sections for those interested.
+
+One of the most useful models for understanding the problems of organizational structure is the Five Forces model of Henry Mintzberg. While much organization theory (even recent work) is presented as a simple, sequential model, the Mintzberg approach is more sophisticated.
+
+In simple, sequential models, organizations are presented as evolving from less good to more good types. Such models might propose a bad-better-best simplistic sequence such as:
+
+Type 1 Simple, authoritarian and fear-based
+
+Type 2 Strictly hierarchical and complex
+
+Type 3 Divisionally decentralized
+
+Type 4 Matrixed and process-driven
+
+Type 5 Evolutionary/next-generation
+
+(The above sequence is a synthesis of various industry sources which are deliberately left unidentified, to protect the guilty.)
+
+However, Mintzberg points out that different industry sectors and business types result in different kinds of organizational forms, and that certain tendencies (“pulls”) are evident which are not in and of themselves either good or bad. Factors like line/staff interactions and lateral linkages also complicate the picture.
+After extensive review and summarization of peer-reviewed research, Mintzberg developed the following models of corporate structure.
+
+First, the question of structure is at an equivalent level with various other internal concerns:
+
+* Strategy
+* Structure
+* Human Resource Management
+* Reward Systems
+* Business Processes & Lateral Links
+
+image::images/3.07-HM-star.png[]
+
+Adapted from <<Mintzberg1983>>
+
+Within the particular domain of structure, Mintzberg identified five major parts existing in most organizations:
+
+image::images/3.07-five-forces.png[]
+
+The five major areas, defined, are:
+
+Strategic Apex: The owners and their executive representatives
+
+Middle Line: Those who manage the Operating Core
+
+Operating Core: The people who “produce the products and render the services.”
+
+Technostructure: Those who standardize the work of the Operating Core and Middle Line, with reference to the desires of the Strategic Apex
+
+Support Staff: Those who enable the work of the line and staff.
+
+[cols="4*", options="header"]
+|====
+|Area
+|Definition
+|Mainstream example
+|IT example
+|Strategic Apex
+|The owners and their executive representatives
+|Board of directors, CEO
+|CIO & direct reports
+|Middle Line
+|Those who manage the Operating Core
+|Sales executive, operations manager
+|Product/solution manager, network manager, project manager
+|Operating Core
+|The people who “produce the products and render the services.”
+|Line worker, market analyst
+|Software developer, infrastructure engineer, systems operator
+|Technostructure
+|Those who standardize the work of the Operating Core and Middle Line, interpreting the desires of the Strategic Apex
+|Strategic planning, quality assurance
+|Enterprise architecture, IT Service Management capability, Project Management Office
+|Support staff
+|Those who enable the work of the line and other staff.
+|Corporate legal, human resources, purchasing, corporate finance
+|IT Asset Management, IT Vendor Management
+|====
+
+Mintzberg further developed his theory by proposing that each of these five areas exerted a characteristic “pull” on the organization:
+
+image::images/3.07-five-pulls.png[]
+
+[cols="4*", options="header"]
+|====
+|Area
+|Definition
+|Mainstream example
+|IT example
+|Strategic Apex
+|The owners and their executive representatives
+|Board of directors, CEO
+|CIO & direct reports
+|Middle Line
+|Those who manage the Operating Core
+|Sales executive, operations manager
+|Product/solution manager, network manager, project manager
+|Operating Core
+|The people who “produce the products and render the services.”
+|Line worker, market analyst
+|Software developer, infrastructure engineer, systems operator
+|Technostructure
+|Those who standardize the work of the Operating Core and Middle Line, interpreting the desires of the |Strategic Apex
+|Strategic planning, quality assurance
+Enterprise architecture, IT Service Management capability, Project Management Office
+|Support staff
+|Those who enable the work of the line and other staff.
+|Corporate legal, human resources, purchasing, corporate finance
+|IT Asset Management, IT Vendor Management
+|====
+
+
+Some activities are closer to the outcome than others. For example, UX is closer than admin to the outcome of product success. Ask whether the realization of the outcome is dependent on repeated successful iterations through some core value stream. If yes, then the activities belonging to this value stream should not be conducted in separate activity-oriented teams. Activities that aren’t an integral part of a business outcome’s core value stream may be spun off into separate teams without much risk.
+
+[quote, Sriram Narayan, Agile IT Organization Design]
+Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“ They threw the rule book at us,” “What bureaucracy!”

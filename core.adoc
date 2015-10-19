@@ -117,6 +117,10 @@ include::book/3-section-III/3.00-intro/3.00-intro.adoc[]
 
 include::book/3-section-III/3.07-chap-7/3.07.00-intro.adoc[]
 
+include::book/3-section-III/3.07-chap-7/3.07.01-why-org-mgmt-matters.adoc[]
+
+include::book/3-section-III/3.07-chap-7/3.07.02-org-transition.adoc[]
+
 include::book/3-section-III/3.07-chap-7/3.07.99-conclusion.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.00-intro.adoc[]

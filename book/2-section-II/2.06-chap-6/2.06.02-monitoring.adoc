@@ -21,7 +21,7 @@ More broadly, these tools provide a variety of mechanisms for monitoring and con
 
 Some monitoring covers low level system indicators not usually of direct interest to the end user. Other monitoring may attempt to synthetically re-create the user's "moment of truth." Web application response time monitoring, in which synthetic transactions are run as proxies for end user experience, is an example of this. See <<Limoncelli2014>>, chapters 16-17.
 
-All of this data may then forwarded to a central console and integrated, with the objective of supporting the organization’s service level agreements in priority order.
+All of this data may then be forwarded to a central console and be integrated, with the objective of supporting the organization’s service level agreements in priority order.
 Enterprise monitoring tools are notorious for requiring agents (small, continuously-running programs) on servers; while some things can be detected without such agents, having software running on a given computer still provides the richest data. Since licensing is often agent-based, this gets expensive.
 
 ===== Designing software for monitoring
@@ -29,11 +29,11 @@ Enterprise monitoring tools are notorious for requiring agents (small, continuou
 
 ===== Aggregation and operations centers
 
-It is not possible for a Level 1 24 x 7 operations team to access and understand the myriads of element managers and specialized monitoring tools present in the large IT environment. Instead, these teams rely on aggregators of various kinds to provide an integrated view into the complexity. These aggregators may focus on raw status events, or specifically on performance aspects related either to the elements or to logical transactions flowing across them. They may incorporate dependencies from configuration management to provide a true “business view” into the event streams. This is directly analogous to the concept of andon board from Lean practices, or the idea of “information radiator” from Agile principles (*** cite AA)
+It is not possible for a Level-1 24 x 7 operations team to access and understand the myriads of element managers and specialized monitoring tools present in the large IT environment. Instead, these teams rely on aggregators of various kinds to provide an integrated view into the complexity. These aggregators may focus on raw status events, or specifically on performance aspects related either to the elements or to logical transactions flowing across them. They may incorporate dependencies from configuration management to provide a true “business view” into the event streams. This is directly analogous to the concept of andon board from Lean practices, or the idea of “information radiator” from Agile principles (*** cite AA).
 
 A monitoring console may present a rich set of information to an operator. Too rich, in fact, as systems become large. For this reason, monitoring tools are often linked directly to ticketing systems; on certain conditions, a ticket is created and assigned to a team or individual.
 
-Enabling a monitoring console to auto-create tickets however needs to be carefully considered and designed. A notorious scenario is the “ticket storm,” where a monitoring system creates multiple (perhaps thousands) of tickets, all essentially in response to the same condition. Event de-duplication starts to become an essential capability, which leads to distinguishing the monitoring system from the event management system.
+Enabling a monitoring console to auto-create tickets however, needs to be carefully considered and designed. A notorious scenario is the “ticket storm,” where a monitoring system creates multiple (perhaps thousands) of tickets, all essentially in response to the same condition. Event de-duplication starts to become an essential capability, which leads to distinguishing the monitoring system from the event management system.
 
 ===== Understanding business impact
 At the intersection of event aggregation and operations centers is the need to understand business impact. It is not, for example, always obvious what a server is being used for.

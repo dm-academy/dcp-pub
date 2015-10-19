@@ -1,3 +1,5 @@
+==== Organizational transition and the Spotify model
+
 Perhaps your organizational form at the end of Section 2 looks like this:
 
 image::images/3.07-org-orig.png[]
@@ -38,10 +40,12 @@ Proposed structure #2
 
 The consultant also added something called “guilds” to the model:
 
+image::images/3.07-with-guilds.png[]
+
 The “guilds” are not formal reporting mechanisms, but rather a way for people doing similar work to share experiences, best practices, and so forth. Each tribe has a designated lead:
 
 * Tomas leads the Sales guild
-Mohammed leads the UX guild
+* Mohammed leads the UX guild
 * Aparna leads the Software Development guild
 * Sonya leads the Engineering guild
 * TBD leads the support guild
@@ -50,31 +54,35 @@ The idea would be that the guilds would meet regularly (perhaps bi-weekly) and w
 
 These two organizational structures were very different and were extensively discussed in the company (Lena preferring a   transparent, open decision making process.) The following arguments pro and con were noted:
 
-
-Pro
-Con
-Option 1
-Groups specialists together, so they can share knowledge and become excellent at what they do.
-
+[cols="3*", options="header"]
+|====
+||Pro|Con
+|Option 1|
+Groups specialists together, so they can share knowledge and become excellent at what they do. +
+ +
 Perceived to be more scalable, with the infrastructure and support teams loosely coupled to the product teams, and the establishment of the company’s first true support and shared services processes.
-Concern that the new process approach would lead to delays and finger-pointing. Concern that the engineering specialist team in particular would start to lose focus on customer needs.
-
-More expensive, with a new VP of marketing.
-Option 2
-Groups product teams together and assigns each their own engineering and support resources, so they can most effectively understand the customer needs as a team and organize themselves to meet those needs.
-
+|Concern that the new process approach would lead to delays and finger-pointing.  +
+ +
+ Concern that the engineering specialist team in particular would start to lose focus on customer needs. +
+ +
+ More expensive, with a new VP of marketing.
+|Option 2
+|Groups product teams together and assigns each their own engineering and support resources, so they can most effectively understand the customer needs as a team and organize themselves to meet those needs. +
+ +
 Less expensive, substituting a new customer support person instead of a VP.
 
-Specialists are not working together and exchanging key knowledge and experience daily (the guilds meet at most weekly). There was concern that engineering standards might become fragmented and weakened if the product teams went in different directions.
-
-Concern that Feature Team 2 did not need a support person immediately.
-
+|Specialists are not working together and exchanging key knowledge and experience daily (the guilds meet at most weekly).  +
+ +
+ Concern that engineering standards might become fragmented and weakened if the product teams went in different directions. +
+  +
+Concern that Feature Team 2 did not need a support person immediately. +
+ +
 Concern that Peter no longer had a clear career path as VP of Operations.
-
+|====
 
 One fact everyone agreed on was that Sonya had to do more Linux and Andre has to learn some NoSQL and other platform technology. But this fact was not put into the matrix as there was not agreement as to whether this was a pro or a con. On one hand, it did seem a bit wasteful, but it was also recognized as a good thing in terms of cross training and deepening the bench. Sonya also felt that a Data guild would eventually be needed.
 
- Everyone agreed that the engineering guild in particular would need to be a very strong guild, to ensure consistency of approaches around key disciplines like source control, security, platform choices, build pipeline, and so forth. The other guilds could be a bit lighter weight, but the engineering guild leader could set binding technical policies across the product teams if need be (the expectation was that this would not be done lightly). It was recognized that eventually a distinct operations & engineering team might still be necessary, but probably not until another round of scaling, and that that team, per the Spotify model, would be more focused on setting up self-service tools for the product teams, and would avoid ticketed work as much as possible.
+Everyone agreed that the engineering guild in particular would need to be a very strong guild, to ensure consistency of approaches around key disciplines like source control, security, platform choices, build pipeline, and so forth. The other guilds could be a bit lighter weight, but the engineering guild leader could set binding technical policies across the product teams if need be (the expectation was that this would not be done lightly). It was recognized that eventually a distinct operations & engineering team might still be necessary, but probably not until another round of scaling, and that that team, per the Spotify model, would be more focused on setting up self-service tools for the product teams, and would avoid ticketed work as much as possible.
 
 Another “neither pro nor con” but important was that the second option eliminated the new VP layer. Establishing an executive layer might still happen later, the consultant suggested, but it was premature to do so now.
 

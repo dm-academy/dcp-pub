@@ -1,13 +1,14 @@
 ==== Organizational Theory
 
-
 [quote, Henry Mintzberg, Structure in Fives]
+
 Five coordinating mechanisms seem to explain the fundamental ways in which organizations coordinate their work: mutual adjustment, direct supervision, standardization of work processes, standardization of work outputs, and standardization of worker skills. +
  +
  These should be considered the most basic elements of structure, the glue that holds or ganizations together…As organizational work becomes more complicated,  the favored means of coordination seems to shift from mutual adjustment
 to direct supervision to standardization, preferably of work processes, otherwise of outputs, or else of skills, *finally reverting back to mutual adjustment*. (emphasis added)
 
-As mentioned at the outset of this chapter, there is much research and thought available on the question of how to organize an enterprise.[1]
+As mentioned at the outset of this chapter, there is much research and thought available on the question of how to organize an enterprise.
+
 Because of space limitations, we will only be able to sketch some of the major thinkers and themes here. Extensive citations are available in the further reading and references sections for those interested.
 
 One of the most useful models for understanding the problems of organizational structure is the Five Forces model of Henry Mintzberg. While much organization theory (even recent work) is presented as a simple, sequential model, the Mintzberg approach is more sophisticated.

@@ -1,5 +1,6 @@
 ==== Organizational Theory
 
+
 [quote, Henry Mintzberg, Structure in Fives]
 Five coordinating mechanisms seem to explain the fundamental ways in which organizations coordinate their work: mutual adjustment, direct supervision, standardization of work processes, standardization of work outputs, and standardization of worker skills. +
  +

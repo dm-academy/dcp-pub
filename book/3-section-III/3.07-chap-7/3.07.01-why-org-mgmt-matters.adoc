@@ -16,10 +16,10 @@ Even as a cohesive, single team you had increasing complexity of support service
 
 You also are buying stuff and paying bills, and you’ve got sales people and marketing people and you need to support your customers and collect money they have promised to pay.
 
-How are you going to organize? More importantly, how are you going to think about organizing? This is a hard question. It’s important to get organization right, and the question never goes away. There is a lot of theory, history, and advice available on to how to organize your company. There seems to be an emerging consensus on how Agile companies are best organized, as well.
+How are you going to organize? More importantly, how are you going to think about organizing? This is a hard question. It’s important to get organization right, and the question never goes away. There is a lot of theory, history, and advice available on to how to organize your company. 
 
 This is not a general business school textbook, or even  a textbook on startups and entrepreneurship. However, in the current environment, it is essential for technologists, no matter how specialized, to understand the general context they are operating in.
 
- In one chapter, we cannot cover much, but there’s an increasing consensus that the choice of organizational form has a fundamental impact on the success of IT-based product delivery. (***cite Narayan) So we’re going to devote a chapter to this.
+In one chapter, we cannot cover much, but there’s an increasing consensus that the choice of organizational form has a fundamental impact on the success of IT-based product delivery. (***cite Narayan) So we’re going to devote a chapter to this.
 
 In keeping with our evolutionary approach, let’s assume you’ve been fairly ad-hoc in your organizational structure up to now, doing your best to avoid specialization. Perhaps you’ve even been working as a collective. Nevertheless, you’ve needed a variety of skills to get this far in your journey: you are certainly not all Java programmers!

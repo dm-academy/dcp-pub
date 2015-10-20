@@ -1,26 +1,39 @@
 ==== Conclusion
 
-Conclusion placeholder
 
 ===== Discussion questions
 
 ===== Research & practice
 
 ===== Further reading
-http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf
 
-http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management
+*Books*
 
-Mintzberg
-Narayam
-Conway
-DeMarco
-Spotify model (2 videos)
+* Henry Mintzberg, http://www.goodreads.com/book/show/39697.Structure_in_Fives[Structure in Fives]
+
+* Sriram Narayam, http://www.goodreads.com/book/show/23616091-agile-it-organization-design[Agile IT Organization Design]
+
+* Tom DeMarco, Timothy Lister, http://www.goodreads.com/book/show/67825.Peopleware[Peopleware]
+
+*Articles*
+
+* Melvin Conway, http://www.melconway.com/Home/Committees_Paper.html[How Do Committees Invent?] (original statement of Conway's Law)
+
+* http://web.mit.edu/eppinger/www/pdf/Sosa_MS2004.pdf[The Misalignment of Product Architecture and
+Organizational Structure in Complex
+Product Development] (Research supporting Conway's Law)
+* http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management[The Marriage of Agile and Organizational Change Management]
+
+*Videos*
+
+* https://www.youtube.com/watch?v=Mpsn3WaI_4k[Spotify model, part 1]
+
+* https://www.youtube.com/watch?v=X3rGdmoTjDc[Spotify model, part 2]
+
+*Other resources*
 
 In addition to the above books, the resources available on organizational design at smaller scales are vast, as these are very frequently asked questions by entrepreneurs of all types. Some useful links are:
 
-Www.ehow.com
-Www.entrepreneurship.org
+* http://www.ehow.com
 
-
-Fayol, Sloan, Taylor, Weber, & holocracy
+* http://www.entrepreneurship.org

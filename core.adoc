@@ -123,6 +123,10 @@ include::book/3-section-III/3.07-chap-7/3.07.02-org-transition.adoc[]
 
 include::book/3-section-III/3.07-chap-7/3.07.03-org-theory.adoc[]
 
+include::book/3-section-III/3.07-chap-7/3.07.04-product-v-function.adoc[]
+
+include::book/3-section-III/3.07-chap-7/3.07.05-feature-v-component.adoc[]
+
 include::book/3-section-III/3.07-chap-7/3.07.99-conclusion.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.00-intro.adoc[]

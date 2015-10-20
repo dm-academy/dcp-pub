@@ -1,0 +1,6 @@
+==== Product and function
+
+[quote, Sriram Narayan, Agile IT Organization Design]
+Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“ They threw the rule book at us,” “What bureaucracy!”
+
+Some activities are closer to the outcome than others. For example, UX is closer than admin to the outcome of product success. Ask whether the realization of the outcome is dependent on repeated successful iterations through some core value stream. If yes, then the activities belonging to this value stream should not be conducted in separate activity-oriented teams. Activities that aren’t an integral part of a business outcome’s core value stream may be spun off into separate teams without much risk.

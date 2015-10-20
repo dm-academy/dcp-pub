@@ -1,0 +1,17 @@
+==== Feature vs Component
+
+We have previously discussed feature vs component teams. As a reminder, features are functional aspects of software (things people find directly valuable) while components are how software is organized (e.g. shared services and platforms such as data management).
+
+As an organization grows, we see both the feature and component sides scale. Feature teams start to diverge into multiple products, while component teams continue to grow in the guise of shared services and platforms. Their concerns continue to differentiate and communication friction may start to emerge between the teams. How an organization handles this is critical.
+
+Managing organizational growth is a well studied problem. Military examples are often seen, as military organizations have devoted much resource to understanding organizational dynamics.
+
+There is much research into how human beings organize into groups of various sizes. Perhaps the best known is that of Robin Dunbar, who has theorized that human beings (as evolved primates) can “only comfortably maintain 150 stable relationships.” (per https://en.wikipedia.org/wiki/Dunbar%27s_number[Wikipedia])
+
+Dunbar has researched this projection across the anthropological data, finding that human groups tend to fall into size ranges of
+
+* 30-50 (bands)
+* 100-200 (clans)
+* 500-2500 (tribes)
+
+Online music vendor Spotify has adopted insights from Dunbar as it scales.

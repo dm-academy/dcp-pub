@@ -1,6 +1,6 @@
 
 ==== Organizational Theory
- 
+
 [quote, Henry Mintzberg, Structure in Fives]
 
 Five coordinating mechanisms seem to explain the fundamental ways in which organizations coordinate their work: mutual adjustment, direct supervision, standardization of work processes, standardization of work outputs, and standardization of worker skills. +
@@ -46,18 +46,17 @@ Adapted from <<Mintzberg1983>>
 Within the particular domain of structure, Mintzberg identified five major parts existing in most organizations:
 
 image::images/3.07-five-forces.png[]
+Adapted from <<Mintzberg1983>>
 
-The five major areas, defined, are:
+The five major areas are:
 
-Strategic Apex: The owners and their executive representatives
+* Strategic Apex
+* Middle Line
+* Operating Core
+* Technostructure
+* Support Staff
 
-Middle Line: Those who manage the Operating Core
-
-Operating Core: The people who “produce the products and render the services.”
-
-Technostructure: Those who standardize the work of the Operating Core and Middle Line, with reference to the desires of the Strategic Apex
-
-Support Staff: Those who enable the work of the line and staff.
+Definitions and examples for business and IT:
 
 [cols="4*", options="header"]
 |====
@@ -90,37 +89,34 @@ Support Staff: Those who enable the work of the line and staff.
 Mintzberg further developed his theory by proposing that each of these five areas exerted a characteristic “pull” on the organization:
 
 image::images/3.07-five-pulls.png[]
+Adapted from <<Mintzberg1983>>
+
+Definitions and examples for business and IT:
 
 [cols="4*", options="header"]
 |====
-|Area
+|Pull
 |Definition
 |Mainstream example
 |IT example
-|Strategic Apex
-|The owners and their executive representatives
-|Board of directors, CEO
-|CIO & direct reports
-|Middle Line
-|Those who manage the Operating Core
-|Sales executive, operations manager
-|Product/solution manager, network manager, project manager
-|Operating Core
-|The people who “produce the products and render the services.”
-|Line worker, market analyst
-|Software developer, infrastructure engineer, systems operator
-|Technostructure
-|Those who standardize the work of the Operating Core and Middle Line, interpreting the desires of the |Strategic Apex
-|Strategic planning, quality assurance
-Enterprise architecture, IT Service Management capability, Project Management Office
-|Support staff
-|Those who enable the work of the line and other staff.
-|Corporate legal, human resources, purchasing, corporate finance
-|IT Asset Management, IT Vendor Management
+|To Centralize (Strategic Apex)
+|Tendency to control all decision making
+|CEO presiding over functional executives (Sales, Marketing, Finance, Operations, IT)
+|CIO presiding over activity-centric development, engineering/operations, security, architecture silos, very project and ticketing driven
+|To Balkanize (Middle Line)
+|Tendency to pull power from both top and bottom, ultimately resulting in divisionalized form
+|Divisionalized corporation or more granular product/LOB-centric organization.
+|Dedicated product and infrastructure organizations by line.
+|To Professionalize (Operating Core)
+|Tendency to minimize control of administrators and technostructure, seeking independence through increasing sophistication of skills and tacit understandings.
+|Machine operators seeking to become engineers.
+|Developers seeking to become software engineers or solutions architects. Desire for certification.
+|To Standardize (Technostructure)
+|Tendency to make work consistent. Directly opposed to Operating Core’s desire to professionalize.
+|Human Resources standardizing hiring processes.  CFO Office standardizing travel policies.
+|IT Service Managers standardizing ITIL processes. Project Management Offices standardizing project governance. Architects standardizing approved products.
+|To Collaborate (Support staff)
+Tendency to seek high-touch interactions
+|Research and Development teams. Agile IT teams seeking to get closer to business partners
+|IT operations teams assigning dedicated engineers to IT product teams (DevOps).
 |====
-
-
-Some activities are closer to the outcome than others. For example, UX is closer than admin to the outcome of product success. Ask whether the realization of the outcome is dependent on repeated successful iterations through some core value stream. If yes, then the activities belonging to this value stream should not be conducted in separate activity-oriented teams. Activities that aren’t an integral part of a business outcome’s core value stream may be spun off into separate teams without much risk.
-
-[quote, Sriram Narayan, Agile IT Organization Design]
-Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“ They threw the rule book at us,” “What bureaucracy!”

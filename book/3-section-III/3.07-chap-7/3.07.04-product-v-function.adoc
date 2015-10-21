@@ -21,6 +21,7 @@ Also, there is an interesting dynamic if you seek too much resource efficiency. 
 Don Reinertsen devotes considerable thought to this problem in both  _Developing Products in Half the Time_ and _Managing the Design Factory._ There are two archetypes, which we saw illustrated in our earlier case study:
 
 [quote, Don Reinertsen, Managing the Design Factory]
+
 Companies that experiment with autonomous teams learn their lessons, and conclude that the disadvantages are significant. Then they try to combinethe advantages of the functional form with those of the autonomous team.
 
 How to structure the matrix

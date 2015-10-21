@@ -1,7 +1,8 @@
 === Chapter 7: Organization
 
 ==== Introduction to Chapter 7
-[Quote, Steve Denning]
+
+[quote, Steve Denning]
 Complexity responds to competence, not authority.
 
 You are going through a critical juncture, the "team of teams" transition. You have increasingly specialized people delivering an increasingly complex product, or perhaps even several distinct products. You are in constant discussions around the tension between functional depth versus cross functional delivery.
@@ -20,6 +21,6 @@ You often think about how your company should be structured. There is no shortag
 ** Rother's research on Toyota Kata
 
 ===== Chapter 7 learning objectives
-* 
+*
 * Distinguish between functional versus product organizations
 * Understand various concepts of culture

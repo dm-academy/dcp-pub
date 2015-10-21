@@ -20,6 +20,10 @@ How are you going to organize? More importantly, how are you going to think abou
 
 This is not a general business school textbook, or even  a textbook on startups and entrepreneurship. However, in the current environment, it is essential for technologists, no matter how specialized, to understand the general context they are operating in.
 
-In one chapter, we cannot cover much, but there’s an increasing consensus that the choice of organizational form has a fundamental impact on the success of IT-based product delivery. (***cite Narayan) So we’re going to devote a chapter to this.
+In one chapter, we cannot cover much, but there’s an increasing consensus that the choice of organizational form has a fundamental impact on the success of IT-based product delivery. So we’re going to devote a chapter to this.
 
 In keeping with our evolutionary approach, let’s assume you’ve been fairly ad-hoc in your organizational structure up to now, doing your best to avoid specialization. Perhaps you’ve even been working as a collective. Nevertheless, you’ve needed a variety of skills to get this far in your journey: you are certainly not all Java programmers!
+
+Perhaps the first question you need to ask is to what extent you wish to centralize IT. This is a significant one. The current trend is towards decentralizing IT, but there are good reasons to maintain IT as a separate organization entity. Sriram Narayan, in his book _Agile Organization Design_ (<<Narayam2015>>), points out that "IT work is labor-intensive and highly specialized," and therefore sourcing IT talent is a particular organizational capability it may not make sense to distribute. Furthermore, IT work is performed on medium to long time scales, and that "IT culture" differs from "business culture."
+
+As noted at the outset, <<1.01.02-IT-as-function>>, IT has certain unchanging aspects regardless of whether is a separate or embedded organization. However, the purpose of this chapter is to help you think carefully about this very question. 

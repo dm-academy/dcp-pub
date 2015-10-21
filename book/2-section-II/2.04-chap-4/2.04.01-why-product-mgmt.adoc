@@ -60,7 +60,7 @@ In the remainder of this book, we will continually encounter three major topics:
 * Project Management (Chapter 8)
 * Process Management (Chapter 9)
 
-Each has a dedicated chapter, and they will appear in all the other chapters as well.
+Each has a dedicated chapter, and they will appear in all the other chapters as well. But they have an important commonality: *all of them are means for driving results across functional or skill silos.*
 
 Here are some of the key differences between process, project and product management in the context of IT services and systems:
 

@@ -1,0 +1,4 @@
+==== Topics in organization and culture
+
+
+- Taylor & cultural antipatterns (including the 'you just don't get X' antipattern)

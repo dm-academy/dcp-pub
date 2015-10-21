@@ -9,15 +9,15 @@ image::images/3.07-org-orig.png[]
 
 You have the following personnel:
 
-Lena, the visionary and product owner, who had the idea for the startup. Lena retains the overall vision for the product and is therefore the Chief Marketing Officer as well as CEO.
-(***Add a cofounder)
-Mohammed, the user experience specialist
-Aparna, the Java software engineer
-Sonya, who has a broad scope of platforms and tools, including the development pipeline, source control, and the product’s NoSQL database
-Tomas, the sales lead.
-Peter, the office manager, who is responsible for a range of operational, financial, and lightweight HR duties.
+* Lena, the visionary and product owner, who had the idea for the startup. Lena retains the overall vision for the product and is therefore the Chief Marketing Officer as well as CEO.
 
-Because of your success, you need to go from one team to two. BE VERY CAREFUL. There are a few different ways in which this can occur, and the decisions you make at this particular point may have long term consequences!
+* Mohammed, the user experience specialist
+* Aparna, the Java software engineer
+* Sonya, who has a broad scope of platforms and tools, including the development pipeline, source control, and the product’s NoSQL database
+* Tomas, the sales lead.
+* Peter, the office manager, who is responsible for a range of operational, financial, and lightweight HR duties.
+
+Because of your success, Lena needs to go from one team to two. She is cautious about this transition,  has heard that there are a few different ways in which this can be done, and the decisions may have long term consequences!
 
 Let’s assume you are going to break the product into two feature teams. One will focus on the existing market and the other will develop a new major feature for a new, distinct set of user value propositions.
 
@@ -35,7 +35,7 @@ Because Peter was the one receiving all the calls, and in the interest of giving
 
 It was perceived that the engineering team would likely be receiving various requests and so a dotted line appears on the organization chart, indicating a service relationship. The new support person under Peter would also be shared across both teams, and their needed to be some means of communicating support requests to the feature teams when their support was needed. There was some question as to how the office Kanban boards might be reconfigured to support these relationships. Peter and Sonya, after some online research, started to become interested in something called ITIL.
 
-But before that discussion continued, Lena retained another consultant as a cross-check. This consultant had worked with many Silicon Valley startups and had a very different opinion. This consultant was inspired by the “Spotify model” (https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf) and proposed the following scaled-down version of it:
+But before that discussion continued, Lena retained another consultant as a cross-check. This consultant had worked with many Silicon Valley startups and had a very different opinion. This consultant was inspired by the https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf[“Spotify model”] and proposed the following scaled-down version of it:
 
 image::images/3.07-org-prop-2.png[]
 
@@ -54,6 +54,8 @@ The “guilds” are not formal reporting mechanisms, but rather a way for peopl
 * TBD leads the support guild
 
 The idea would be that the guilds would meet regularly (perhaps bi-weekly) and would have their own forums on the company’s social media channels. The head of each guild would meet with Lena monthly to discuss issues and concerns, and would have a direct channel of communication to her as needed for more time sensitive matters.
+
+NOTE: The strict Spotify model calls for "tribes" that work on products and features, with "chapters" within each tribe for the common interests. The chapters in turn meet as "guilds" across the "tribes." The model presented here is scaled down and omits the chapter concept in the interest of simplicity, as there would be "chapters" of one. 
 
 These two organizational structures were very different and were extensively discussed in the company (Lena preferring a   transparent, open decision making process.) The following arguments pro and con were noted:
 
@@ -90,3 +92,9 @@ Everyone agreed that the engineering guild in particular would need to be a very
 Another “neither pro nor con” but important was that the second option eliminated the new VP layer. Establishing an executive layer might still happen later, the consultant suggested, but it was premature to do so now.
 
 After further discussion and benchmarking with other startups, the second option was chosen. The new support person for Feature Team 2 would be able to be hired without urgency, allowing time for a high quality search.
+
+This hypothetical case illustrates many of the themes we will explore throughout the rest of this chapter:
+
+* Traditional functional vs product-centric model
+* Influence of Spotify approach
+*

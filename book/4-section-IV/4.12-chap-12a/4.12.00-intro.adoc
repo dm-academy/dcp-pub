@@ -1,0 +1,59 @@
+=== Chapter 12: Architecture and Portfolio
+
+==== Introduction to Chapter 12
+Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well.
+
+Analytics and metrics are a related topic for IT management. There are many ways that metrics can be used and misused. A clear understanding of organizational goals is essential to any metrics strategy. Analytics similarly requre an overall framework of continuous improvement so that their insights lead to real actions and value.
+
+
+
+===== Chapter 12 outline
+* the IT lifecycles
+ - Application service
+ - Infrastructure service
+ - Asset (including physical estate)
+ - Technology Product
+
+* IT analytics
+ - grounded in continuous improvement
+ - Portfolio and process data
+ - The IT data warehouse
+ - Looking ahead: Big Data, machine learning, text analytics
+
+****
+Sidebar: IT analytics experts
+Magennis, Cantor, etc
+****
+
+===== Chapter 12 learning objectives
+
+* Identify the major IT lifecycles and their interactions
+* Identify various use cases for IT analytics
+*
+
+_Chapter 11 content to be moved to new file_
+Over time, the IT operation develops significant data by which to manage itself. It may develop one or more definitive portfolio list, typically applications, services, assets, and/or technology products. Distinguishing and baselining high quality versions of these data sets can consume inordinate resource, and yet managing the IT organization at scale is nearly impossible without them.. [_didn't want to discuss data per se in the introduction_]
+
+
+===== Chapter raw material
+
+Because of these facts, it is useful to understand some of the fundamentals of how humans interpret symbolic data.
+
+(*** re-read and summarize Moody)
+
+More on these in future chapters
+
+Moody, but what are his sources?
+http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf
+
+Further reading on visual processing:
+Moody
+Tufte & others (that comparison paper cited by Moody)
+
+The true measure of the value of a model is whether it actually influences behavior. Smith/Reinertsen 1998 p46.
+
+Instead of tapping into the existing knowledge of the organization the autonomous team is prone to reinvent the wheel, and the wheel that they reinvent will not always be superior to the one we are currently using. <<Reinertsen1997>> p 104
+
+Flexibility
+at high levels in the architecture comes from standardization at low lev
+els in the architecture. Paradoxically, structure is the key to freedom. ibid 120

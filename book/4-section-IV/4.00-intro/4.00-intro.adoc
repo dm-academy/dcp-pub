@@ -10,14 +10,22 @@ Agile techniques remain important to you, but things are getting complex and you
 
 But you have great resources at your command, and you're as well positioned as any of your competitors to meet the challenges ahead. And in the end, that's all you need.
 
-*Chapter 10: Security, and Governance, Risk, and Compliance*
+*Special section: The elaborated IT organization*
+The laundry lists
+supporting functions (sourcing...)
+
+IVI
+
+*Chapter 10: Security, Governance, Risk, and Compliance*
 
 We need to cope with external forces (regulators, vendor partners, security adversaries, auditors) increasingly defining our options.
 
-*Chapter 11: Arcihtecture and Portfolio*
+*Chapter 11: Enterprise Information Management*
+
+(to be written on general EIM)
+
+EIM applied: We need to measure this massive IT estate and understand it as an overall dynamic system. There are a wide variety of practices, techniques, and concerns that emerge at this point. No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?
+
+*Chapter 12: Arcihtecture and Portfolio*
 
 We need to understand the big picture of interacting lifecycles, reduce technical debt and redundancy, and obtain better economies of scale. We need to define our investment strategy based on a sound understanding of both business needs and technology limitations.
-
-*Chapter 12: Analytics and Complexity*
-
-We need to measure this massive IT estate and understand it as an overall dynamic system. There are a wide variety of practices, techniques, and concerns that emerge at this point. No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?

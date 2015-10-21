@@ -3,7 +3,9 @@
 
 ===== Discussion questions
 
+
 ===== Research & practice
+
 
 ===== Further reading
 
@@ -15,6 +17,10 @@
 
 * Tom DeMarco, Timothy Lister, http://www.goodreads.com/book/show/67825.Peopleware[Peopleware]
 
+* Paul Glen, Leading Geeks
+
+* Daniel Pink, Drive
+
 *Articles*
 
 * Melvin Conway, http://www.melconway.com/Home/Committees_Paper.html[How Do Committees Invent?] (original statement of Conway's Law)
@@ -23,6 +29,10 @@
 Organizational Structure in Complex
 Product Development] (Research supporting Conway's Law)
 * http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management[The Marriage of Agile and Organizational Change Management]
+
+* http://www.paulglen.com/Downloads/105%20-%20Leading%20Geeks%20Tip%20Sheet.pdf
+
+Find:  - Recent Dan Jones HBR article on Lean organization & functional expertise (W. Evans tweet?)
 
 *Videos*
 

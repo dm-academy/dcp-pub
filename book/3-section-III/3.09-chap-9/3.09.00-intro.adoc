@@ -63,7 +63,16 @@ Sidebar: Quality and Continuous Improvement
 * Describe the origins, purpose, and scope of ITIL and CMMI
 * Identify the problems of process proliferation with respect to execution and demand
 
+==== Input material
 
+[quote, Alex Sharp, Workflow Modeling]
+One organization enthusiastically embraced process improvement, with good reason: customers, suppliers, and employees found the company's processes slow, inconsistent, and error prone. Unfortunately, they were so enthusiastic that each team defined the work of their small group or department as a complete process. Of course, each of these was in fact the contribution of a specialized functional group to some larger, but unidentified, processes. Each of these "processes" was "improved" independently, and you can guess what happened. +
+ +
+ Within the boundaries of each process, improvements were implemented that made work more efficient from the perspective of the performer. However, these mini-processes were efficient largely because they had front-end constraints that made work easier for the performer but imposed a burden on the customer or the preceding process. The attendant delay and effort meant that the true business processes behaved even more poorly than they had before. This is a common outcome when processes are defined too "small." Moral: Don't confuse subprocesses or activities with business processes.
+
+If processes are connected on a 1:1 basis, then we say that they are part of a single, end-to-end, business process.
+
+ <<Sharp2009>>
 
  [Domain modeling]
 

@@ -3,4 +3,32 @@
 [quote, Sriram Narayan, Agile IT Organization Design]
 Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“ They threw the rule book at us,” “What bureaucracy!”
 
-Some activities are closer to the outcome than others. For example, UX is closer than admin to the outcome of product success. Ask whether the realization of the outcome is dependent on repeated successful iterations through some core value stream. If yes, then the activities belonging to this value stream should not be conducted in separate activity-oriented teams. Activities that aren’t an integral part of a business outcome’s core value stream may be spun off into separate teams without much risk.
+By this time, you probably detect that there is a fundamental tension between functional specialization and end to end value delivery. This tension is the topic of endless research, articles, books, and commentary, in the mainstream business press and more specialized channels. The tension may go by different names:
+
+* flow vs resource
+* process vs silo
+* line vs staff (which has some additional connotations)
+
+Here is an interesting depiction of one dysfunctional pattern that can emerge in navigating this tension:
+
+image::images/3.07-flow-v-efficiency.png[]
+*Flow vs effiency, from http://www.slideshare.net/gosei/coordination-chaos*
+
+The above slide is worth a careful examination. The idea is that the more effective you are at product flow, the further to the right you are. The more efficient you are with your resources, the further up you are. It is easy to be completely efficient with resources, and have no flow. It is also possible to be very good at flow, but at the cost of little resource efficiency. Being excellent at both, however, is impossible - there is an outer boundary.
+
+Also, there is an interesting dynamic if you seek too much resource efficiency. Loading staff more and more heavily has counterproductive results, in which flow actually decreases, and the resulting "coordination chaos" also decreases resource efficiency in a vicious reinforcing feedback loop.
+
+Don Reinertsen devotes considerable thought to this problem in both  _Developing Products in Half the Time_ and _Managing the Design Factory._ There are two archetypes, which we saw illustrated in our earlier case study:
+
+[quote, Don Reinertsen, Managing the Design Factory]
+Companies that experiment with autonomous teams learn their lessons, and conclude that the disadvantages are significant. Then they try to combinethe advantages of the functional form with those of the autonomous team.
+
+How to structure the matrix
+
+RACI
+
+focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."
+
+===== Specialists
+The danger in using specialists lies in their low
+involvement in individual projects and the multitude of tasks competing for their time.

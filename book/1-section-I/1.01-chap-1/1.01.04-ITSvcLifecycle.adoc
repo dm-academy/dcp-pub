@@ -28,3 +28,5 @@ So we see that the IT service evolves over time, through many repetitions ("iter
 image::images/1.01-ITSvcChg.png[]
 
 Figure XX: The IT service lifecycle
+
+ [add full 2-axis treatment, and discussion of production vs product design]

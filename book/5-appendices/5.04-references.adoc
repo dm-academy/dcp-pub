@@ -49,6 +49,8 @@
 
 - [[[Glass1998]]]: Glass, R.L. (1998), _Software runaways_, Upper Saddle River, NJ: Prentice Hall PTR. xvi, 259.
 
+- [[[Glen2003]]]: Glen, P. (2003). Leading Geeks: How to Manag and Lead People who Manage Technology. San Francisco, Jossey-Bass.
+
 - [[[Goldratt1997]]]: Goldratt, E. M. (1997), _Critical chain_, North River, Great Barrington, Ma.
 
 - [[[Goldratt2004]]]: Goldratt, E. M. & Cox, J. (2004), _The goal : a process of ongoing improvement_, North River Press, Great Barrington, MA
@@ -65,8 +67,6 @@
 - [[[Hubbard2010]]]: Hubbard, D. (2010), _How to Measure Anything: Finding the Value of Intangibles in Business_, Wiley, Boston
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
-
-
 
 - [[[Keefer2006]]]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
 
@@ -99,6 +99,8 @@ IEEE Press.
 
 - [[[Mintzberg1983]]]: Mintzberg, H. (1983). _Structure in fives : designing effective organizations. Englewood Cliffs, N.J., Prentice-Hall._
 
+- [[[Narayam2015]]]: Narayam, S. (2015). Agile IT organization design: for digital transformation and continuous delivery, Pearson Education Inc. .
+
 - [[[Nygard2007]]]: Nygard, M.T., 2007. _Release it! : design and deploy production-ready software._ The pragmatic programmers, Raleigh, N.C.: Pragmatic Bookshelf. xvi, 350 p.
 
 - [[[OASIS2013]]]: OASIS (2013), "Topology and Orchestration Specification for Cloud Applications Version 1.0 (TOSCA)", http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html
@@ -117,13 +119,17 @@ IEEE Press.
 
 - [[[Ries2011]]]: Ries, E. (2011), _The lean startup : how today's entrepreneurs use continuous innovation to create radically successful businesses_, Crown Business, New York
 
+- [[[Rother2010]]]: Rother, M. (2010). _Toyota kata : managing people for improvement, adaptiveness, and superior results_. New York, McGraw Hill.
+
 - [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
 
 - [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
 
 - [[[Scotland2010]]]: Scotland, K. (2010), "Defining the Last Responsible Moment", http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment
 
-- [[[Sells1957]]]:Sells, S. B., Fixott., Richard S. (1957 ). "Evaluation of Research on Effects of Visual Training on Visual Functions." _Am J Ophthal_ 44(2): 230-236.
+- [[[Sells1957]]]: Sells, S. B., Fixott., Richard S. (1957 ). "Evaluation of Research on Effects of Visual Training on Visual Functions." _Am J Ophthal_ 44(2): 230-236.
+
+- [[[Sharp2009]]]: Sharp, A. and P. McDermott (2009). _Workflow modeling: tools for process improvement and applications development._ Second edition. Boston, Artech House.
 
 - [[[Shortland2012]]]: Shortland, A. & Lei, M. (2012), "Using Rundeck and Chef to build DevOps Toolchains", http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/
 

@@ -34,6 +34,7 @@ Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this
  [TBW]
 
 ===== Features vs. components
+[[2.04.02-features-v-components]]
 
 As your product evolves, you may see an increasing differentiation of concerns, between features and components.
 

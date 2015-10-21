@@ -1,53 +1,48 @@
-=== Chapter 11: Architecture and Portfolio
+=== Chapter 11: Enterprise Information Management
 
 ==== Introduction to Chapter 11
-Portfolio management in terms of information technology means looking at long-lived IT investments in terms of their overall cost, risk, and benefit to the corporation. This can and should be done regardless of whether the IT investment is external or internal facing. Applications and services are the most useful portrfolio constructs, although assets, technology products, and even projects also can figure into longer-horizon value management. Enterprise architecture benefits from a tight alignment with IT portfolio management, as well.
 
-Analytics and metrics are a related topic for IT management. There are many ways that metrics can be used and misused. A clear understanding of organizational goals is essential to any metrics strategy. Analytics similarly requre an overall framework of continuous improvement so that their insights lead to real actions and value.
+ [todo: write EIM intro]
 
+ [next material is EIM applied to IT, keep but reduce scope/importance somewhat - should still be a major chapter section]
+As we look forward, and consider the scale at which we are now operating, the challenges only seem to increase. Increasingly, we need to look to engineering and operations practices from other fields, and to math and science for useful theoretical tools.
 
+Risk management, complex systems failures, how to safely manage combined human/technical systems - this is all well studied in domains like aerospace. We can't understand "change" management without better definitions of change and stability, concepts well studied in the quantitative sciences. No matter the safeguards, complex systems are prone to fail - but can we conceive of systems that can increase their stability through learning from their failures?
+
+Finally, what do we even mean by complexity? What is the relationship between the merely complicated, the truly complex, and the absolutely chaotic? What do we need to understand about these various domains, to continue our journey of digital transformation?
 
 ===== Chapter 11 outline
-* the IT lifecycles
- - Application service
- - Infrastructure service
- - Asset (including physical estate)
- - Technology Product
 
-* IT analytics
- - grounded in continuous improvement
- - Portfolio and process data
- - The IT data warehouse
- - Looking ahead: Big Data, machine learning, text analytics
+* Big data and digital management
+
+* Defining "analytics"
 
 ****
-Sidebar: IT analytics experts
-Magennis, Cantor, etc
+Sidebar: Introducing Burgess.
 ****
 
-===== Chapter 11 learning objectives
+* complexity (w/r/t Burgess)
 
-* Identify the major IT lifecycles and their interactions
-* Identify various use cases for IT analytics
-*
+* stability, state, etc
 
-_Chapter 11 content to be moved to new file_
-Over time, the IT operation develops significant data by which to manage itself. It may develop one or more definitive portfolio list, typically applications, services, assets, and/or technology products. Distinguishing and baselining high quality versions of these data sets can consume inordinate resource, and yet managing the IT organization at scale is nearly impossible without them.. [_didn't want to discuss data per se in the introduction_]
+* complex system failures (Allspaw sidebar?)
 
+* antifragility
 
-===== Chapter raw material
+* Cynefin
 
-Because of these facts, it is useful to understand some of the fundamentals of how humans interpret symbolic data.
+* self-steering, autopoeisis
 
-(*** re-read and summarize Moody)
+* post-industrial
 
-More on these in future chapters
+* Postscript: Thought experiment on complete mainstreaming of IT
 
-Moody, but what are his sources?
-http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf
+****
+Sidebar: Introducing Snowden & Taleb.
+****
 
-Further reading on visual processing:
-Moody
-Tufte & others (that comparison paper cited by Moody)
+===== Learning objectives
 
-The true measure of the value of a model is whether it actually influences behavior. Smith/Reinertsen 1998 p46.
+* Identify current approaches to understanding complex systems and their failure modes
+
+* Describe Snowden's Cynefin and its major elements

@@ -37,7 +37,7 @@ IMPORTANT: This book is biased towards Theory Y.
 In terms of intrinsic motivation, Daniel Pink, author of Drive, suggests that three concepts are key: autonomy, mastery, and purpose. If these three qualities are experienced by individuals and teams, they will be more likely to feel motivated and collaborate more effectively.
 
  [More on A, M, P]
- 
+
 ===== Schneider matrix, and the failure of control culture
 
 One model for understanding culture is the following matrix https://www.youtube.com/watch?v=wIbCcfxzc2A[proposed by Schneider]:

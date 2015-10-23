@@ -1,4 +1,4 @@
-=== Chapter 9: Process Management
+=== Chapter 9: Process Management and Servicizeatiion
 
 ==== Introduction to Chapter 9
 
@@ -79,3 +79,15 @@ If processes are connected on a 1:1 basis, then we say that they are part of a s
 http://12factor.net/build-release-run
 
 Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.
+
+Adapting a services model to improve flow
+
+
+(Notice that the services a functional area provides can be viewed as a form of product in and of themselves.)
+
+
+How to structure the matrix
+
+RACI
+
+focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."

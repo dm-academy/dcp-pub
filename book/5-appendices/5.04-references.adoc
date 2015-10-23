@@ -137,6 +137,8 @@ IEEE Press.
 
 - [[[Sims2012]]]: 	Sims, C.J., Hillary Louise, 2012. _Scrum: a Breathtakingly Brief and Agile Introduction_. Dymaxicon.
 
+- [[[Smith1998]]]: Smith, P. G. and D. G. Reinertsen (1998). _Developing products in half the time : new rules, new tools._ New York ; London, Van Nostrand Reinhold.
+
 - [[[Sterman2000]]]: 	Sterman, J., 2000. _Business dynamics : systems thinking and modeling for a complex world_ Boston: Irwin/McGraw-Hill. xxvi, 982 p.
 
 - [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum : the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.

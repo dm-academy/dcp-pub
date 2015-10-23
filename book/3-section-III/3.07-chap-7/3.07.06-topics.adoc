@@ -1,0 +1,10 @@
+==== Topics in organization and culture
+
+===== Feature vs Component at scale
+
+We have previously discussed feature vs component teams <<2.04.02-features-v-components>>. As a reminder, features are functional aspects of software (things people find directly valuable) while components are how software is organized (e.g. shared services and platforms such as data management).
+
+As an organization grows, we see both the feature and component sides scale. Feature teams start to diverge into multiple products, while component teams continue to grow in the guise of shared services and platforms. Their concerns continue to differentiate and communication friction may start to emerge between the teams. How an organization handles this is critical.
+
+===== Adam Smith and Frederick Taylor
+- Taylor & cultural antipatterns (including the 'you just don't get X' antipattern)

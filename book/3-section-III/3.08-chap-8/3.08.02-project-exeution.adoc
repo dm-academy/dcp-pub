@@ -1,0 +1,45 @@
+==== Project execution
+
+
+Turning to the problem of transactional friction:
+
+This problem is distinct from the problem of feedback. It is also a bit more obvious on a tactical level. The most common response is project management.
+
+To understand how project management works across a functionally organized system, consider the internals of each functional area:
+
+image::images/3.08-mfg-w-resource.png[]
+
+Each combination of worker and equipment can be considered a workstation in this simplified model.
+
+If there is concern for flow across the functional areas, one technique used in manufacturing is that of expediting. The expeditor tracks the process across the work stations and ensures that any friction or blockages are overcome so that the entire process completes and value is delivered. This can be seen as a preliminary form of project management.
+
+As the production line evolves, scheduling may be used as well: the assignment of work to each workstation (combination of worker and equipment) may have its timing and duration specified in advance. While this is not an optimal approach according to Lean philosophy (which emphasizes "pull" techniques), production scheduling is widely used in manufacturing.
+
+NOTE: Production scheduling is a large topic in and of itself. It is part of the domain of interest of the professional organization, The American Production and Inventory Control Society (APICS).
+
+IT systems development, when crossing functions, is rarely if ever considered as a simple end to end process that can run itself, with only a lightweight expeditor. Instead, since there is substantially increased complexity, a project paradigm is used across the functions. The project manager plays the role of expanded expeditor:
+
+image::images/3.08-sw-w-resource.png[]
+
+The above diagram, which you should study carefully, is a more detailed representation of the classic "waterfall" project. It still bears strong similarities to the idealized manufacturing model presented just previously. In particular, notice that the default model is that *the need for the resource is tightly bounded by the calendar*. In the above model, the following resource requirements are apparent:
+
+. One Requirements analyst is needed between times A and B (e.g, from May 1 through 15).
+. One Architect is needed between times B and C (e.g., from May 16 through 31)
+. One Developer is needed between times C and D (e.g., from June 1 through 15)
+. One Release Engineer is needed between times D and E (e.g., from June 15 through 30)
+
+*This is a deliberately unworkable model for illustration.* (But the author can attest it has been tried...) Sometimes, the terms "mechanistic," "deterministic," or "linear" are used to describe waterfall project methods. This shows them at their extreme, insofar as they are essentially translations of a manufacturing model.
+
+The basic problem: if the Developer is released from the project on June 15, and issues were to arise on June 20 with the release, flow would be interrupted and the system would not be delivered successfully.
+
+Because of this, the project may retain some residual claim on all the engaged resources, but their utilization may be low or zero at certain points. Pivoting the above diagram 90 degrees, we start to develop an understanding of the interrelatedness of product development:
+
+image::images/3.08-overlapping.png[]
+
+NOTE: The above diagram resembles the Rational Unified Process <<link>>. This is deliberate. RUP is notable as an early and widely publicized illustration of these matters.
+
+The project manager is expected to manage the uncertain handoffs between the various functional areas, and anticipate resource requirements stemming from unexpected feedback demands.
+
+ fractional allocations
+
+ [the above section should probably move to chapter 8]

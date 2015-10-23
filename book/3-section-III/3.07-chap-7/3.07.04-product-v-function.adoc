@@ -23,13 +23,13 @@ Also, there is an interesting dynamic if you seek too much resource efficiency. 
 ===== Examining the problem more deeply
 Graphics such as the previous one are limited in insight. What are the particular organizational forms and practices in question? We will spend some time thinking through this.
 
-Don Reinertsen devotes considerable thought to this problem in both  _Developing Products in Half the Time_ and _Managing the Design Factory._
-
 As we saw previously <<2.04.01-process-project-product>>, there are three major tools used to achieve end to end flow across functional areas:
 
 * Process
 * Project
 * Product
+
+NOTE: We will go into detail on project management in chapter 8 and process management in chapter 9. But we need to understand how they influence organizational forms.
 
 For example, some manufacturing can be represented as a very simple, sequential process model:
 
@@ -39,7 +39,7 @@ The product is already defined and the need to generate information (i.e. throug
 
 NOTE: Even in this simplest model, feedback is important. Much of the evolution of 20th century manufacturing has been in challenging this naive, open-loop model. (Remember our brief discussion of open-loop? <<link>>)
 
-The original, open-loop waterfall model of IT systems implementation was arguably based on just such a naive concept:
+The original, open-loop <<link>> waterfall model of IT systems implementation was arguably based on just such a naive concept:
 
 image::images/3.07-waterfall.png[]
 
@@ -54,67 +54,42 @@ The model falls into what we characterized as the "original sin" of IT managemen
 
 But when applied to product development, where the *primary goal* is the generation of information, the model is inappropriate and has led to innumerable failures. This includes software development, and even implementing purchased packages in complex environments.
 
-Turning to the problem of transactional friction:
+NOTE: The following set of diagrams are a development of Preston Smith and Don Reinertsen's thought regarding this problem in both  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>.
 
-This problem is distinct from the problem of feedback. It is also a bit more obvious on a tactical level. The most common response is project management.
+There is a spectrum of alternatives when project management is involved:
 
-To understand how project management works across a functionally organized system, consider the internals of each functional area:
+First, a lightweight product structure may be implemented, in which the project manager has limited power to influence the activity-based work, where people sit, etc. The project manager is little more than a factory floor expediter in this model. 4
 
-image::images/3.07-mfg-w-resource.png[]
+image::images/3.07-lightweight-pm.png[]
 
-Each combination of worker and equipment can be considered a workstation in this simplified model.
+It is in the above model that the following Reinertsen quote is most applicable:
 
-If there is concern for flow across the functional areas, one technique used in manufacturing is that of expediting. The expeditor tracks the process across the work stations and ensures that any friction or blockages are overcome so that the entire process completes and value is delivered. This can be seen as a preliminary form of project management.
+"The danger in using specialists lies in their low
+involvement in individual projects and the multitude of tasks competing for their time."
 
-As the production line evolves, scheduling may be used as well: the assignment of work to each workstation (combination of worker and equipment) may have its timing and duration specified in advance. While this is not an optimal approach according to Lean philosophy (which emphasizes "pull" techniques), production scheduling is widely used in manufacturing.
+Second, a heavyweight project structure may specify much more, including modes of work, standards, etc. The functional manager may be littel more than a resource manager, but does still have reporting authority over the team member and crucially still writes their annual performance evaluation (if the organization still uses those.)
 
-NOTE: Production scheduling is a large topic in and of itself. It is part of the domain of interest of the professional organization, The American Production and Inventory Control Society (APICS).
+image::images/3.07-heavy-pm.png[]
 
-IT systems development, when crossing functions, is rarely if ever considered as a simple end to end process that can run itself, with only a lightweight expeditor. Instead, since there is substantially increased complexity, a project paradigm is used across the functions. The project manager plays the role of expanded expeditor:
+If even more focus is needed -- the now-minimized influence of the functional areas is still deemed too strong --  the organization may move to completely product-based reporting. With this, the team member reports to the product owner. There may still be communities of interest (the Spotify guilds and tribes are good examples) and there still may be standards for technical choices:
 
-image::images/3.07-sw-w-resource.png[]
+image::images/3.07-product-mgmt.png[]
 
-The above diagram, which you should study carefully, is a more detailed representation of the classic "waterfall" project. It still bears strong similarities to manufacturing; in particular, notice that the default model is that the need for the resource is tightly bounded by the calendar. In the above model, the following resource requirements are apparent:
+[quote, Preston Smith and Don Reinertsen, Developing Products in Half the Time]
 
-. One Requirements analyst is needed between times A and B (e.g, from May 1 through 15).
-. One Architect is needed between times B and C (e.g., from May 16 through 31)
-. One Developer is needed between times C and D (e.g., from June 1 through 15)
-. One Release Engineer is needed between times D and E (e.g., from June 15 through 30)
+The original Skunk Works [was] established by Kelly Johnson at Lockheed ... Skunkworks have been tried by many others, with outcomes ranging from very good to very bad, and this has led to a variety of opinions on skunk works.
 
-*This is a deliberaly unworkable model for illustration.* (But the author can attest that it has been tried...) Obviously, if the Developer is released from the project on June 15, and issues were to arise on June 20 with the release, flow would be interrupted and the system would not be delivered successfully.
+Finally, in the skunkworks model, all functional influence is deliberately blocked, as distracting or positively injurious to the product vision:
 
-Because of this, the project may retain some residual claim on all the engaged resources, but their utilization may be low or zero at certain points. Pivoting the above diagram 90 degrees, we start to develop an understanding of the interrelatedness of product development:
+image::images/3.07-skunk.png[]
 
-image::images/3.07-overlapping.png[]
+The product team has complete autonomy, and can move at great speed. It is also free to
 
-NOTE: The above diagram resembles the Rational Unified Process <<link>>. This is deliberate. RUP is notable as an early and widely publicized illustration of these matters.
+* re-invent the wheel, developing new solutions to old and well-understood problems
+* bring in new components on a whim (regardless of whether they are truly necessary) adding to procurement complexity,
+* ignore safety and security standards that ultimately may result in expensive retrofits.
 
-The project manager is expected to manage the uncertain handoffs between the various functional areas, and anticipate resource requirements stemming from unexpected feedback demands.
-
- [the above section should probably move to chapter 8]
-
-
-
-Adapting a services model to improve flow
-
-
-(Notice that the services a functional area provides can be viewed as a form of product in and of themselves.)
-
-
-
-
-
-
+Because of these issues, Don Reinertsen observes that:
 
 [quote, Don Reinertsen, Managing the Design Factory]
 Companies that experiment with autonomous teams learn their lessons, and conclude that the disadvantages are significant. Then they try to combine the advantages of the functional form with those of the autonomous team.
-
-How to structure the matrix
-
-RACI
-
-focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."
-
-===== Specialists
-The danger in using specialists lies in their low
-involvement in individual projects and the multitude of tasks competing for their time.

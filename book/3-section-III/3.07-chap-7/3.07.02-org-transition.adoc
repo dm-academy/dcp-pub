@@ -39,6 +39,21 @@ But before that discussion continued, Lena retained another consultant as a cros
 
 image::images/3.07-org-prop-2.png[]
 
+****
+*Sidebar: Dunbar and Spotify*
+Managing organizational growth is a well studied problem. Military examples are often seen, as military organizations have devoted much resource to understanding organizational dynamics.
+
+There is much research into how human beings organize into groups of various sizes. Perhaps the best known is that of Robin Dunbar, who has theorized that human beings (as evolved primates) can “only comfortably maintain 150 stable relationships.” (per https://en.wikipedia.org/wiki/Dunbar%27s_number[Wikipedia])
+
+Dunbar has researched this projection across the anthropological data, finding that human groups tend to fall into size ranges of
+
+* 30-50 (bands)
+* 100-200 (clans)
+* 500-2500 (tribes)
+
+Online music vendor Spotify has adopted insights from Dunbar as it scales.
+****
+
 *Proposed structure #2*
 
 The consultant also added something called “guilds” to the model:
@@ -55,7 +70,7 @@ The “guilds” are not formal reporting mechanisms, but rather a way for peopl
 
 The idea would be that the guilds would meet regularly (perhaps bi-weekly) and would have their own forums on the company’s social media channels. The head of each guild would meet with Lena monthly to discuss issues and concerns, and would have a direct channel of communication to her as needed for more time sensitive matters.
 
-NOTE: The strict Spotify model calls for "tribes" that work on products and features, with "chapters" within each tribe for the common interests. The chapters in turn meet as "guilds" across the "tribes." The model presented here is scaled down and omits the chapter concept in the interest of simplicity, as there would be "chapters" of one. 
+NOTE: The strict Spotify model calls for "tribes" that work on products and features, with "chapters" within each tribe for the common interests. The chapters in turn meet as "guilds" across the "tribes." The model presented here is scaled down and omits the chapter concept in the interest of simplicity, as there would be "chapters" of one.
 
 These two organizational structures were very different and were extensively discussed in the company (Lena preferring a   transparent, open decision making process.) The following arguments pro and con were noted:
 

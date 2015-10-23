@@ -8,7 +8,7 @@ These should be considered the most basic elements of structure, the glue that h
 
 As mentioned at the outset of this chapter, there is much research and thought available on the question of how to organize an enterprise.
 
-One useful model for understanding the problems of organizational structure is the Five Forces model of Henry Mintzberg. While much organization theory (even recent work) is presented as a simple, sequential model, the Mintzberg approach is more sophisticated.
+One useful model for understanding the problems of organizational structure is the Five Forces model of Henry Mintzberg  <<Mintzberg1983>>. While much organization theory (even recent work) is presented as a simple, sequential model, the Mintzberg approach is more sophisticated.
 
 In simple, sequential models, organizations are presented as evolving from less good to more good types. Such models might propose a simplistic, bad-better-best sequence such as:
 

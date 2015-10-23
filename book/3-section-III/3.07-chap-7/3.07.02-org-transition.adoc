@@ -112,4 +112,3 @@ This hypothetical case illustrates many of the themes we will explore throughout
 
 * Traditional functional vs product-centric model
 * Influence of Spotify approach
-*

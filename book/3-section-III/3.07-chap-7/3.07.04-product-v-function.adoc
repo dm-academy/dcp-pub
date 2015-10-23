@@ -21,6 +21,9 @@ The above slide is worth a careful examination. The idea is that the more effect
 Also, there is an interesting dynamic if you seek too much resource efficiency. Loading staff more and more heavily has counterproductive results, in which flow actually decreases, and the resulting "coordination chaos" also decreases resource efficiency in a vicious reinforcing feedback loop.
 
 ===== Examining the problem more deeply
+[quote, Steve Denning]
+Complexity responds to competence, not authority.
+
 Graphics such as the previous one are limited in insight. What are the particular organizational forms and practices in question? We will spend some time thinking through this.
 
 As we saw previously <<2.04.01-process-project-product>>, there are three major tools used to achieve end to end flow across functional areas:

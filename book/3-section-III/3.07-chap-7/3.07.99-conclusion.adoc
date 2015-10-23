@@ -17,6 +17,8 @@
 
 * Tom DeMarco, Timothy Lister, http://www.goodreads.com/book/show/67825.Peopleware[Peopleware]
 
+* Fred Brooks, The Mythical Man-Month
+
 * Paul Glen, Leading Geeks
 
 * Daniel Pink, Drive

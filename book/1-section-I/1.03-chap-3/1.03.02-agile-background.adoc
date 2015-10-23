@@ -117,3 +117,6 @@ This new world also did not function at all in terms of large requirements speci
 These large scale web properties also started to “test in production” (more on this in Section 2) in the sense that they would deploy new functionality to only some of their users. Because large scale systems are complex and unpredictable, it is understood that new features are never fully understood until they are deployed at scale to the real end user base.
 
 Rather than trying to increase testing to better understand things before deployment, these new firms accepted a seemingly higher level of risk in exposing new functionality sooner. (Part of their belief is that it actually is not higher risk, because the impacts are never fully understood in any event.) This has paid off in many cases.
+
+===== When waterfall may be appropriate
+ [Packaged software acquisition - relatively more sequential - but open-loop approaches are always more risky - open loop not defined yet - ]

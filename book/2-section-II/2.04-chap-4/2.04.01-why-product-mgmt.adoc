@@ -64,6 +64,7 @@ Each has a dedicated chapter, and they will appear in all the other chapters as 
 
 Here are some of the key differences between process, project and product management in the context of IT services and systems:
 
+[[2.04.01-process-project-product]]
 [cols="3*", options="header"]
 |====
 |Process|Project|Product

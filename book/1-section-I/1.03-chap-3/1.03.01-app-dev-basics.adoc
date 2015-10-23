@@ -72,3 +72,6 @@ A computer program can be as simple as https://en.wikipedia.org/wiki/%22Hello,_W
 Because the initial applications were implemented as a kind of systems engineering, and were expensive to build and maintain, the technique of choice was https://en.wikipedia.org/wiki/Project_management[project management]. Project management will not be covered in this book until Chapter 8, as it is not appropriate to the earlier stages of this book's http://dm-academy.github.io/aitm/#_a_process_of_emergence[emergence model].
 
 This history of project managed systems engineering produced any number of successes, but by the early 1990s there were significant concerns with the rate of large project failures <<Glass1998>>, which occurred despite seemingly extensive and rigorous bureaucratic overhead, evidenced by frameworks such as https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration[CMMI] and https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge[PMBOK]. footnote:[Both project management and CMMI have come in for significant criticism <<Koskela2002>>, <<Keefer2006>>, and will be discussed further in Sections 3 and 4.]
+
+===== Packaged software acquisition and integration
+ [to be written]

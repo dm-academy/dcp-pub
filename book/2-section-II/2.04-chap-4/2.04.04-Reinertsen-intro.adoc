@@ -49,6 +49,8 @@ These can be summarized in the following pyramid:
 
 image::images/2.04-pyramid.png[]
 
+ [the original sin according to Reinertsen: confusing production with product development]
+
 ===== Cost of Delay
  [TBW]
 

@@ -1,3 +1,9 @@
-==== Web-scale IT
+==== Topics in IT infrastructure
+
+===== Web-scale IT
 
 This chapter as of fall 2015 is yet to be written. Will summarize key insights from the site reliability community, including Allspaw and Limoncelli.
+
+===== Technology lifecycle management
+
+ [to be written]

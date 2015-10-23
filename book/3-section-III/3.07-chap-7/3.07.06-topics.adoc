@@ -8,3 +8,9 @@ As an organization grows, we see both the feature and component sides scale. Fea
 
 ===== Adam Smith and Frederick Taylor
 - Taylor & cultural antipatterns (including the 'you just don't get X' antipattern)
+
+===== Bi-modal IT, a critique
+
+ [to be written]
+ 
+reference http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows[How CIOs can raise their 'IT clock speed' as pressure to innovate grows]

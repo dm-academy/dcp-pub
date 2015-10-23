@@ -1,5 +1,7 @@
 ==== Conclusion
+You never get to done with organizational development and evolution. It is always an ongoing process, of balancing culture, centralization, and autonomy. Rather than seeking any "best practice," it is better to see a toolbox, or perhaps a set of levers you can position in various ways to get different results.
 
+As of 2015, product-centric Agile teams are becoming more and more common. But there are ultimately limitations
 
 ===== Discussion questions
 
@@ -31,6 +33,8 @@
 Organizational Structure in Complex
 Product Development] (Research supporting Conway's Law)
 * http://leanchange.org/2015/08/the-marriage-of-agile-and-organizational-change-management[The Marriage of Agile and Organizational Change Management]
+
+* http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows[How CIOs can raise their 'IT clock speed' as pressure to innovate grows]
 
 * http://www.paulglen.com/Downloads/105%20-%20Leading%20Geeks%20Tip%20Sheet.pdf
 

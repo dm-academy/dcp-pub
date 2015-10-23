@@ -96,3 +96,7 @@ Because of these issues, Don Reinertsen observes that:
 
 [quote, Don Reinertsen, Managing the Design Factory]
 Companies that experiment with autonomous teams learn their lessons, and conclude that the disadvantages are significant. Then they try to combine the advantages of the functional form with those of the autonomous team.
+
+The Agile movement is an important reaction to dominant IT management approaches that unquestionably accept open-loop attempts at delivering value across centralized functional centers of excellence. However, the ultimate extreme of the skunkworks approach is not scalable and cannot be the basis for organization across the enterprise.
+
+We will examine the various adaptations and approaches for balancing the two organizational extremes further in Chapters 8 (Project Management) and 9 (Process Management).

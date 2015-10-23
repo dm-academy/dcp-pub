@@ -1,7 +1,4 @@
 ==== Culture
-[quote, Mike Rother, Toyota Kata]
-Six years ago I began the research that led to [Toyota Kata] thinking, like just about everyone else, that the story was about techniques and other listable aspects of Toyota. Today I see Toyota in a notably different light: as an organization defined primarily by the unique behavior routines it continually teaches to all its members.
-
 [quote, Sriram Narayan, Agile IT Organization Design]
 What is culture in this context? It is not so much about an informal dress code, flexible hours, or a free in-house cafeteria as it is about how decisions are taken, norms of behavior, protocols of communication, and the ways of navigating hierarchy and bureaucracy to get things done.
 
@@ -56,6 +53,9 @@ For example, in _Turn the Ship Around: A True Story of Turning Followers Into Le
 Neither of these accounts is surprising, when one considers the more sophisticated aspects of military doctrine. Don Reinertsen provides a rigorous overview in chapter 9 of _Principles of Product Development Flow_. In this discussion, he notes that the military has been experimenting with centralized vs. decentralized control for centuries. Modern warfighting relies on autonomous, self-directed teams that may be out of touch with central command and required to improvise effectively to achieve the mission.  Therefore, military orders are incomplete without a statement of "commander's intent" - the ultimate outcome of the mission. <<Reinertsen2009>>, pp. 243-265.
 
 ===== Toyota Kata
+[quote, Mike Rother, Toyota Kata]
+Six years ago I began the research that led to [Toyota Kata] thinking, like just about everyone else, that the story was about techniques and other listable aspects of Toyota. Today I see Toyota in a notably different light: as an organization defined primarily by the unique behavior routines it continually teaches to all its members.
+
 Academics and consultants have been studying Toyota for many years. The performance and influence of the Japanese automaker is legendary, but it has been difficult to understand why.
 
 Much has been written about Toyota's use of particular tools, such as kanban bins and andon boards. However, Toyota views these as ephemeral adaptations to the demands of its business.

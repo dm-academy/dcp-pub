@@ -57,20 +57,22 @@ The model falls into what we characterized as the "original sin" of IT managemen
 
 But when applied to product development, where the *primary goal* is the generation of information, the model is inappropriate and has led to innumerable failures. This includes software development, and even implementing purchased packages in complex environments.
 
-NOTE: The following set of diagrams are a development of Preston Smith and Don Reinertsen's thought regarding this problem in both  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>.
+===== The continuum of organizational forms
 
-There is a spectrum of alternatives when project management is involved:
+NOTE: The following discussion and accompanying set of diagrams is a development of Preston Smith and Don Reinertsen's thought regarding this problem in both  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>.
 
-First, a lightweight product structure may be implemented, in which the project manager has limited power to influence the activity-based work, where people sit, etc. The project manager is little more than a factory floor expediter in this model. 4
+There is a spectrum of alternatives in structuring organizations for flow across functional concerns.
+
+First, a lightweight product structure may be implemented, in which the project manager has limited power to influence the activity-based work, where people sit, etc. The project manager is little more than a factory floor expediter in this model.
 
 image::images/3.07-lightweight-pm.png[]
 
 It is in the above model that the following Reinertsen quote is most applicable:
 
 "The danger in using specialists lies in their low
-involvement in individual projects and the multitude of tasks competing for their time."
+involvement in individual projects and the multitude of tasks competing for their time." Work flows across the functions, perhaps called "centers of excellence," and there may be contention for resources within each center. Often, simple "first in, first out" approaches are used to manage the work, rather than more sophisticated approaches such as Cost of Delay. We will focus in Chapter 9 on approaches to mitigate these issues while retaining this overall organizational form.
 
-Second, a heavyweight project structure may specify much more, including modes of work, standards, etc. The functional manager may be littel more than a resource manager, but does still have reporting authority over the team member and crucially still writes their annual performance evaluation (if the organization still uses those.)
+Second, a heavyweight project structure may specify much more, including modes of work, standards, etc. The functional manager may be little more than a resource manager, but does still have reporting authority over the team member and crucially still writes their annual performance evaluation (if the organization still uses those.)
 
 image::images/3.07-heavy-pm.png[]
 

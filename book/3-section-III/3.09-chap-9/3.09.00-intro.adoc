@@ -1,4 +1,4 @@
-=== Chapter 9: Process Management and Servicizeatiion
+=== Chapter 9: Process Management and Servicizeation
 
 ==== Introduction to Chapter 9
 

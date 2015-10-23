@@ -5,9 +5,9 @@ Even where they are not part of a value stream, activity-oriented teams tend to 
 
 By this time, you probably detect that there is a fundamental tension between functional specialization and end to end value delivery. This tension is the topic of endless research, articles, books, and commentary, in the mainstream business press and more specialized channels. The tension may go by different names:
 
-* flow vs resource
-* process vs silo
-* line vs staff (which has some additional connotations)
+* Flow vs resource
+* Process vs silo
+* Line vs staff (which has some additional connotations)
 
 ===== Efficiency versus flow
 

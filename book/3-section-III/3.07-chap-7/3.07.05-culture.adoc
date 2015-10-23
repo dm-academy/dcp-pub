@@ -4,7 +4,7 @@ What is culture in this context? It is not so much about an informal dress code,
 
 "Culture" is a difficult term to define, and even more difficult to characterize across large organizations. It starts with how an organization is formally structured, as structure is in part a set of expectations around how information flows. "Who talks to who, when and why" is in a sense culture. Culture can also be seen embedded in artifacts like processes and formally specified operating models. Certainly, much in the previous section on organizational theory implied culture; Mintzberg's Five Forces all come with their own cultural tendencies.
 
-But "culture" has additional, less tangible meanings. The anecdotes executives choose to repeat are culture. Whether an organization tacitly condones being 5 minutes late for meetings (because walk time in large facilities is expected) or has little tolerance for this (because most people dial in) is culture. The degree of deference shown to senior executives, and their opinions, is culture.
+But "culture" has additional, less tangible meanings. The anecdotes executives choose to repeat are culture. Whether an organization tacitly condones being 5 minutes late for meetings (because walk time in large facilities is expected) or has little tolerance for this (because most people dial in) is culture. The degree of deference shown to senior executives, and their opinions, is culture. Whether a junior person dares to hit "reply-all" on an email including her boss's boss is culture.
 
 Culture cannot be directly changed - it is better seen as a lagging indicator, that changes in response to specific practical interventions. Even tools and processes can change culture, if they are judiciously chosen (and most tools and processes do *not* have this effect). Skeptical? Consider the impact that computers - a tool - have had on culture. Or email.
 
@@ -98,3 +98,7 @@ We can understand Toyota Kata partly in terms of systems theory (Section II) - t
 Because power is about the regulation of behavior, it has very little effect on creativity. Traditional methods of exercising control have little positive effect on the inner state of mind of geeks.
 
  (to be written)
+
+===== The problem of culture "change"
+
+ [to be written]

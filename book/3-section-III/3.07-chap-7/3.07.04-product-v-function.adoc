@@ -92,6 +92,8 @@ The product team has complete autonomy, and can move at great speed. It is also 
 * bring in new components on a whim (regardless of whether they are truly necessary) adding to procurement complexity,
 * ignore safety and security standards that ultimately may result in expensive retrofits.
 
+Ultimately, skunkworks is not scalable. Research by the Corporate Executive Board suggests that "Once more than about 15% of projects go through the fast [skunkworks] team, productivity starts to fall away dramatically." It also causes issues with morale, as a two-tier organization starts to emerge with elite and non-elite segments <<Goodwin2015>>.
+
 Because of these issues, Don Reinertsen observes that:
 
 [quote, Don Reinertsen, Managing the Design Factory]

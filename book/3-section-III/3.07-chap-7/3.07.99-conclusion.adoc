@@ -1,13 +1,17 @@
 ==== Conclusion
-You never get to done with organizational development and evolution. It is always an ongoing process, of balancing culture, centralization, and autonomy. Rather than seeking any "best practice," it is better to see a toolbox, or perhaps a set of levers you can position in various ways to get different results.
+Beware of simplistic progression models, which imply that organizational forms evolve from authoritarian to enlightened. You never get to done with organizational development and evolution. It is always an ongoing process, of balancing culture, centralization, and autonomy. Rather than seeking any "best practice," it is better to see a toolbox, or perhaps a set of levers you can position in various ways to get different results.
 
-As of 2015, product-centric Agile teams are becoming more and more common. But there are ultimately limitations
+As of 2015, product-centric Agile teams are becoming more and more common. But there are ultimately limitations to this approach, which many companies have experienced.
+
+Culture can be difficult to define. We saw how Toyota's success can be understood as a strategy of ingraining particular cultural understandings through pervasive coaching.
 
 ===== Discussion questions
-
+* What kinds of organizational structures have you worked in?
+* What do you prefer?
 
 ===== Research & practice
-
+* Review the history of the original Lockheed Martin Skunkworks under Kelly Martin.
+* As a class, group yourself into the various organizational forms and route simple paper-based work between each other, or undertake simple craft projects such as building a Lego set as a team.
 
 ===== Further reading
 
@@ -19,11 +23,11 @@ As of 2015, product-centric Agile teams are becoming more and more common. But t
 
 * Tom DeMarco, Timothy Lister, http://www.goodreads.com/book/show/67825.Peopleware[Peopleware]
 
-* Fred Brooks, The Mythical Man-Month
+* Fred Brooks, http://www.goodreads.com/book/show/13629.The_Mythical_Man_Month?[The Mythical Man-Month]
 
-* Paul Glen, Leading Geeks
+* Paul Glen, http://www.goodreads.com/book/show/552079.Leading_Geeks[Leading Geeks]
 
-* Daniel Pink, Drive
+* Daniel Pink, http://www.goodreads.com/book/show/6452796-drive[Drive]
 
 *Articles*
 
@@ -36,9 +40,7 @@ Product Development] (Research supporting Conway's Law)
 
 * http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows[How CIOs can raise their 'IT clock speed' as pressure to innovate grows]
 
-* http://www.paulglen.com/Downloads/105%20-%20Leading%20Geeks%20Tip%20Sheet.pdf
-
-Find:  - Recent Dan Jones HBR article on Lean organization & functional expertise (W. Evans tweet?)
+* http://www.paulglen.com/Downloads/105%20-%20Leading%20Geeks%20Tip%20Sheet.pdf[11 Ways to Motivate Geeks]
 
 *Videos*
 

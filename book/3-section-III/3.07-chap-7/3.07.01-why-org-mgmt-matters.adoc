@@ -1,10 +1,5 @@
 ==== Why organization matters
 
-[quote, Alan Turing, Lecture on the Automated Computing Engine]
-Roughly speaking those who work in connection with the [Automated Computing Engine] will be divided into its masters and its servants. Its masters will plan out instruction tables for it, thinking up deeper and deeper ways of using it. Its servants will feed it with cards as it calls for them. They will put right any parts that go wrong. They will assemble data that it requires. In fact the servants will take the place of limbs... +
- +
- As time goes on the calculator itself will take over the functions both of masters and of servants. The servants will be replaced by mechanical and electrical limbs and sense organs… The masters are liable to get replaced because as soon as any technique becomes at all stereotyped it becomes possible to devise a set of instruction tables which will enable the electronic computer to do it for itself…”
-
 [quote, Matt Blumberg, Scaling Up]
  In the early stages, you have to hire generalists who are both willing and able to take on dozens of tasks at once. Your developers will have to speak with potential customers; your accountants will have to give advice on product direction; and the born salesman on your team will need to put the phone down a few hours a day and set up a new employee’s computer. This is the exciting, four-people-and-an-idea stage popularly associated with startups— but it doesn’t last very long. +
   +

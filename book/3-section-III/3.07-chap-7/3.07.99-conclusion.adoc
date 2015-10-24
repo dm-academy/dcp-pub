@@ -42,6 +42,8 @@ Product Development] (Research supporting Conway's Law)
 
 * http://www.paulglen.com/Downloads/105%20-%20Leading%20Geeks%20Tip%20Sheet.pdf[11 Ways to Motivate Geeks]
 
+* http://www.mintzberg.org/blog/slabs[Enough of silos? How about slabs?]
+
 *Videos*
 
 * https://www.youtube.com/watch?v=Mpsn3WaI_4k[Spotify model, part 1]

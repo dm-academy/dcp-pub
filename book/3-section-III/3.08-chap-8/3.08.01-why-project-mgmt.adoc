@@ -7,7 +7,10 @@ Agile is having a profound impact on the project management profession and will 
 
 Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales. There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad, product management good" approach, this book will discuss the fundamental premises and techniques of project management, in the context of Agile transformation.
 
-As
+Review:
+
+https://en.wikipedia.org/wiki/Project_management_triangle
+
 
 
 

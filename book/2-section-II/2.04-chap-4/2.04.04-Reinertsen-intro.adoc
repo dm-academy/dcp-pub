@@ -1,4 +1,5 @@
 ==== Lean, Lean product development, and Don Reinertsen
+anchor:2.04.04-lean-product-dev[]
 
 We've had passing mention of Lean already in this book. But what is Lean?
 
@@ -18,6 +19,8 @@ One of the challenges with applying Lean to IT (as noted previously) is that man
 
 The root cause of this debate is the distinction between product development and production. It is true that an industrial production line may be repetitive. But how did the production line come to be? It was created as part of a process of product development. *That* is not a repetitive process; it is a highly variable, creative process.
 
+WARNING: Never confuse production with product development. The approaches, measures, and concerns are radically different. This book considers it an "original sin."
+
 One dead end that organizations keeps pursuing is the desire to make research and development (R&D) more "predictable"; that is, to reduce variation and predictably create innovations. This never works well; game-changing innovations are usually complex responses to complex market systems dynamics, including customer psychology, current trends, and many other factors.
 
 In IT, simply developing software for a new problem (or even new software for an old problem) is an R&D problem, not a production line problem. It is iterative, uncertain, and risky, just like other forms of product development.
@@ -34,9 +37,11 @@ What do they all have in common? They all cite Don Reinertsen:
 
 image::images/2.04-books-dr.png[]
 
+Reinertsen's work dates back to 1991, and (orginally as a co-author with Preston G. Smith) presaged much of the Agile movement <<Smith1991>>.
+
 Reinertsen was partnering with David Anderson when Anderson created Kanban. He wrote the introduction to Leffingwell's _Agile Software Requirements_, the initial statement of the Scaled Agile Framework. His influence is pervasive across the Agile community.
 
-Reinertsen's work is deep and based on fundamental mathematical principles such as queueing theory (lightly touched on in _The Phoenix Project_). One way of reading his work is as a series of interdependent principles:
+His work is deep and based on fundamental mathematical principles such as queueing theory (lightly touched on in _The Phoenix Project_). One way of reading his work is as a series of interdependent principles:
 
 . The flow, or throughput of product innovation is the primary determinant of financial success
 . Flow requires fast http://dm-academy.github.io/aitm/#_a_brief_introduction_to_feedback[feedback]

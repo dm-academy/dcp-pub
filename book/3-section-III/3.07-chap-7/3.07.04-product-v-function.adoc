@@ -25,7 +25,7 @@ Complexity responds to competence, not authority.
 
 Graphics such as the previous one are limited in insight. What are the particular organizational forms and practices in question? We will spend some time thinking through this.
 
-As we saw xref:2.04.01-process-project-product[previously], there are three major tools used to achieve end to end flow across functional areas:
+As we saw xref:2.04.01-process-project-product[previously], there are three major concepts used to achieve end to end flow across functional areas:
 
 * Process
 * Project
@@ -39,20 +39,20 @@ image::images/3.07-naive-mfg.png[]
 
 The product is already defined and the need to generate information (i.e. through feedback) is at an absolute minimum. Functional areas can continually increase their efficiency and economies of scale through deep specialization.
 
-NOTE: Even in this simplest model, feedback is important. Much of the evolution of 20th century manufacturing has been in challenging this naive, open-loop model. (Remember our brief discussion of open-loop? <<link>>)
+NOTE: Even in this simplest model, feedback is important. Much of the evolution of 20th century manufacturing has been in challenging this naive, open-loop model. (Remember our brief discussion of xref:2.00.1-open-loop[open-loop]?)
 
-The original, open-loop <<link>> waterfall model of IT systems implementation was arguably based on just such a naive concept:
+The original, xref:2.00.1-open-loop[open-loop] waterfall model of IT systems implementation was arguably based on just such a naive concept:
 
 image::images/3.07-waterfall.png[]
 
-(Review chapter 3 <<link>> for more of this history.)
+(Review xref:1.03.02-Agile-history[chapter 3] on Agile history.)
 
 There are two primary disadvantages to this model:
 
 * It discourages closed-loop feedback
 * The transactional friction of each handoff
 
-The model falls into what we characterized as the "original sin" of IT management: confusing production with product development  <<link>>. As a repeatable production model, it may work, assuming that there is little or no information left to generate regarding the production process (an increasingly questionable assumption in and of itself).
+The model falls into what we characterized as the "original sin" of IT management: xref:2.04.04-lean-product-dev[confusing production with product development]. As a repeatable production model, it may work, assuming that there is little or no information left to generate regarding the production process (an increasingly questionable assumption in and of itself).
 
 But when applied to product development, where the *primary goal* is the generation of information, the model is inappropriate and has led to innumerable failures. This includes software development, and even implementing purchased packages in complex environments.
 

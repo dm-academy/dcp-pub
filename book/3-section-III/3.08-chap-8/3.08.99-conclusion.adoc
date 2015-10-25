@@ -15,6 +15,8 @@ Conclusion placeholder
 
 * Gary L. Richardson,  http://www.goodreads.com/book/show/8085475-project-management-theory-and-practice[Project Management Theory And Practice]
 
+Brooks, Mythical Man-Month
+
 *Articles*
 
 *Videos*

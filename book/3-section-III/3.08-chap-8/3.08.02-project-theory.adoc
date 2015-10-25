@@ -37,7 +37,7 @@ The basic problem: if the Developer is released from the project on June 15, and
 
 Because of this, the project may retain some residual claim on all the engaged resources, but their utilization may be low or zero at certain points. Pivoting the above diagram 90 degrees, we start to develop an understanding of the interrelatedness of product development:
 
-image::images/3.08-overlapping.png[]
+// image::images/3.08-overlapping.png[]
 
 NOTE: The above diagram resembles the Rational Unified Process <<link>>. This is deliberate. RUP is notable as an early and widely publicized illustration of these matters.
 

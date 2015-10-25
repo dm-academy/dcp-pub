@@ -3,3 +3,6 @@ Inline linking
 
  anchor syntax: anchor:1.01.02-IT-as-function-2[]
  crossref: xref:1.01.02-IT-as-function-2[outset]
+
+anchor:[]
+xref:[]

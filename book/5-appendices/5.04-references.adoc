@@ -155,8 +155,7 @@ IEEE Press.
 
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
 
-- [[[Tikka2013]]]: Tikka, A. "Coordination Chaos." 2013. Accessed: 2015.10.25.
-
+- [[[Tikka2013]]]: Tikka, A., 2013. "Coordination Chaos." Slideshare deck. http://www.slideshare.net/gosei/coordination-chaos?related=1 Accessed: 2015.10.25.
 
 - [[[Whittaker2012]]]: Whittaker, J.A., J. Arbon, and J. Carollo, 2012, _How Google tests software_, Upper Saddle River, NJ: Addison-Wesley. xxvii, 281 p.
 

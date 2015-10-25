@@ -49,7 +49,8 @@ Because of this, this chapter also covers IT financial management, sourcing, and
 ** Frameworks
 *** What is a framework?
 *** PMBOK
-*** Scaled Agile Framework
+*** Frameworks for Agile at scale
+
 
 ===== Chapter 8 learning objectives
 * Identify the basic practices of project management

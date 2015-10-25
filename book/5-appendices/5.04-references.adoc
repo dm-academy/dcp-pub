@@ -117,7 +117,7 @@ IEEE Press.
 
 - [[[Poppendieck2003]]]: Poppendieck, M. & Poppendieck, T. D. (2003), _Lean Software Development: An Agile Toolkit_, Addison Wesley, Boston
 
-- [[[PMI2013]]]: Project Management Institute, 2013. A guide to the project management body of knowledge (PMBOK guide). Fifth edition. 
+- [[[PMI2013]]]: Project Management Institute, 2013. A guide to the project management body of knowledge (PMBOK guide). Fifth edition.
 
 - [[[Reinertsen2009]]]: Reinertsen, D. G. (2009), _The principles of product development flow: second generation lean product development_, Celeritas, Redondo Beach, Calif.
 
@@ -154,6 +154,9 @@ IEEE Press.
 - [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum : the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
 
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
+
+- [[[Tikka2013]]]: Tikka, A. "Coordination Chaos." 2013. Accessed: 2015.10.25.
+
 
 - [[[Whittaker2012]]]: Whittaker, J.A., J. Arbon, and J. Carollo, 2012, _How Google tests software_, Upper Saddle River, NJ: Addison-Wesley. xxvii, 281 p.
 

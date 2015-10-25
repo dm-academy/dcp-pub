@@ -11,7 +11,7 @@ By this time, you probably detect that there is a fundamental tension between fu
 
 ===== Efficiency versus flow
 
-Here from an interesting presentation by <<Tikka2013, Ari Tikka>> is a depiction of one dysfunctional pattern that can emerge in navigating this tension:
+Here from an interesting presentation by Ari Tikka <<Tikka2013>> is a depiction of one dysfunctional pattern that can emerge in navigating this tension:
 
 image::images/3.07-flow-v-efficiency.png[]
 

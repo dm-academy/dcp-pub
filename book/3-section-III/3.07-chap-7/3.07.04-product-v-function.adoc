@@ -25,7 +25,7 @@ Complexity responds to competence, not authority.
 
 Graphics such as the previous one are limited in insight. What are the particular organizational forms and practices in question? We will spend some time thinking through this.
 
-As we saw previously <<2.04.01-process-project-product>>, there are three major tools used to achieve end to end flow across functional areas:
+As we saw xref:2.04.01-process-project-product[previously], there are three major tools used to achieve end to end flow across functional areas:
 
 * Process
 * Project

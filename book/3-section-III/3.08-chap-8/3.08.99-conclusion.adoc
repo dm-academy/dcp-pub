@@ -9,6 +9,12 @@ Conclusion placeholder
 ===== Further reading
 *Books*
 
+* Charles G. Cobb, http://www.goodreads.com/book/show/24844947-the-project-manager-s-guide-to-mastering-agile[The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach]
+
+* Project Management Institute, http://www.goodreads.com/book/show/16192710-a-guide-to-the-project-management-body-of-knowledge-pmbok-guide---5th[A Guide to the Project Management Body of Knowledge (Pmbok Guide) - 5th Edition]
+
+* Gary L. Richardson,  http://www.goodreads.com/book/show/8085475-project-management-theory-and-practice[Project Management Theory And Practice]
+
 *Articles*
 
 *Videos*

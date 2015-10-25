@@ -1,4 +1,4 @@
-=== Chapter 9: Process Management and Servicizeation
+=== Chapter 9: Process Management
 
 ==== Introduction to Chapter 9
 
@@ -39,7 +39,6 @@ Controversy of application to IT
 Will this have been foreshadowed?
 ****
 
-
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
 * IT "process" frameworks (ITIL etc - also in appendix)
@@ -51,6 +50,7 @@ Will this have been foreshadowed?
  - Process without execution model (demand management failure)
 
 * SLAs and the service catalog
+** Service-izing functions: pros and cons
 
 ****
 Sidebar: Quality and Continuous Improvement

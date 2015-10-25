@@ -1,5 +1,5 @@
-==== Lean, Lean product development, and Don Reinertsen
 anchor:2.04.04-lean-product-dev[]
+==== Lean, Lean product development, and Don Reinertsen
 
 We've had passing mention of Lean already in this book. But what is Lean?
 
@@ -15,7 +15,7 @@ There are many, many other aspects to Lean.
 
 IMPORTANT: Lean is important. Regardless of your intended career path, it is advisable to read the great Lean classics, including http://www.goodreads.com/book/show/93903.Machine_That_Changed_the_World[The Machine That Changed the World], http://www.goodreads.com/book/show/289467.Lean_Thinking[Lean Thinking], http://www.goodreads.com/book/show/161789.The_Toyota_Way[The Toyota Way], and Ohno's own http://www.goodreads.com/book/show/376237.Toyota_Production_System[Toyota Production System]. http://www.goodreads.com/book/show/6736366-toyota-kata[Toyota Kata] is a more recent work, highly informative regarding Toyota's culture.
 
-One of the challenges with applying Lean to IT (as noted previously) is that many IT professionals (especially software developers) believe that manufacturing is a "deterministic" field, with any lessons from it inapplicable to developing technical products. "Creating software is like creating art, not being on an assembly line", is one line of argument.
+One of the challenges with applying Lean to IT (as noted previously) is that many IT professionals (especially software developers) believe that manufacturing is a "deterministic" field, with any lessons from it inapplicable to developing technical products. "Creating software is like creating art, not being on an assembly line," is one line of argument.
 
 The root cause of this debate is the distinction between product development and production. It is true that an industrial production line may be repetitive. But how did the production line come to be? It was created as part of a process of product development. *That* is not a repetitive process; it is a highly variable, creative process.
 

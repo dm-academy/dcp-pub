@@ -1,3 +1,4 @@
+
 anchor:2.04.04-lean-product-dev[]
 
 ==== Lean, Lean product development, and Don Reinertsen

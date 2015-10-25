@@ -1,6 +1,16 @@
 ==== Product versus project management
 
+[quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
+What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
+
+[quote, Mark Kennaley, SDLC 3.0]
+When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
+
+
 ===== PM still needed in an Agile, product-centric world?
+
+[quote, Mark Kennaley, SDLC 3.0]
+Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.
 
 ===== Project management antipatterns
 

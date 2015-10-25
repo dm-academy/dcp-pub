@@ -22,6 +22,7 @@ You often think about how your company should be structured. There is no shortag
 ** Rother's research on Toyota Kata
 
 ===== Chapter 7 learning objectives
-*
+
 * Distinguish between functional versus product organizations
+* Gain an introductory understanding of Mintzberg's "five forces"
 * Understand various concepts of culture

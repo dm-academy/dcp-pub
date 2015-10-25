@@ -1,6 +1,5 @@
 ==== Project execution
 
-
 Turning to the problem of transactional friction:
 
 This problem is distinct from the problem of feedback. It is also a bit more obvious on a tactical level. The most common response is project management.

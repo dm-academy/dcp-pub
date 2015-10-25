@@ -57,3 +57,7 @@ Instead of tapping into the existing knowledge of the organization the autonomou
 Flexibility
 at high levels in the architecture comes from standardization at low lev
 els in the architecture. Paradoxically, structure is the key to freedom. ibid 120
+
+this chapter brings us full circle
+
+EA makes the decision to insource or outsource

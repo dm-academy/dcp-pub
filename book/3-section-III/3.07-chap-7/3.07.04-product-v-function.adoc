@@ -11,10 +11,9 @@ By this time, you probably detect that there is a fundamental tension between fu
 
 ===== Efficiency versus flow
 
-Here is an interesting depiction of one dysfunctional pattern that can emerge in navigating this tension:
+Here from an interesting presentation by <<Tikka2013, Ari Tikka>> is a depiction of one dysfunctional pattern that can emerge in navigating this tension:
 
 image::images/3.07-flow-v-efficiency.png[]
-*Flow vs effiency, from http://www.slideshare.net/gosei/coordination-chaos*
 
 The above slide is worth a careful examination. The idea is that the more effective you are at product flow, the further to the right you are. The more efficient you are with your resources, the further up you are. It is easy to be completely efficient with resources, and have no flow. It is also possible to be very good at flow, but at the cost of little resource efficiency. Being excellent at both, however, is impossible - there is an outer boundary.
 

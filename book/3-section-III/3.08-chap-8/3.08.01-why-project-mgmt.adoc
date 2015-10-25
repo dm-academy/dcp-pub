@@ -1,12 +1,18 @@
 ==== Why project management?
 [quote, Project Management Body of Knowledge, version 5]
-A project is a temporary endeavor undertaken to create a unique product, service, or result.
-
-[quote, Project Management Body of Knowledge, version 5]
 An ongoing work effort is generally a repetitive process that follows an organization's existing procedures. In contrast, because of the unique nature of projects, there may be uncertainties or differences in the products, services, or results that the project creates.
 
+[quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
+Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
 
-Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged 
+Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales. There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad, product management good" approach, this book will discuss the fundamental premises and techniques of project management, in the context of Agile transformation.
+
+As
+
+
+
+
+Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged
 
 but now, that kind of functionality is delivered by online service providers -
 

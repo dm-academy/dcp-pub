@@ -1,6 +1,7 @@
 === Chapter 8: Project & Resource Management
-[quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
-Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
+
+[quote, Project Management Body of Knowledge, version 5]
+A project is a temporary endeavor undertaken to create a unique product, service, or result.
 
 Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because *the necessary information is not available*. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
 

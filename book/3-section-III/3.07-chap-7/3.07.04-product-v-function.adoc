@@ -58,7 +58,7 @@ But when applied to product development, where the *primary goal* is the generat
 
 ===== The continuum of organizational forms
 
-NOTE: The following discussion and accompanying set of diagrams is a development of Preston Smith and Don Reinertsen's thought regarding this problem in both  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>.
+NOTE: The following discussion and accompanying set of diagrams is a development of Preston Smith and Don Reinertsen's thought regarding this problem in both  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>. A similar set of diagrams is to found in the _Guide to the Project Management Body of Knowledge_ (<<PMI2013>>).
 
 There is a spectrum of alternatives in structuring organizations for flow across functional concerns.
 

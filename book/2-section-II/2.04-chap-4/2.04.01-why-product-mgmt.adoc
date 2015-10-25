@@ -62,9 +62,8 @@ In the remainder of this book, we will continually encounter three major topics:
 
 Each has a dedicated chapter, and they will appear in all the other chapters as well. But they have an important commonality: *all of them are means for driving results across functional or skill silos.*
 
-Here are some of the key differences between process, project and product management in the context of IT services and systems:
-
 anchor:2.04.01-process-project-product[]
+Here are some of the key differences between process, project and product management in the context of IT services and systems:
 
 [cols="3*", options="header"]
 |====

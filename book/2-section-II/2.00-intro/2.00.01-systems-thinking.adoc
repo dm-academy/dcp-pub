@@ -93,8 +93,8 @@ At some point, if the cycle continues, it will run into balancing feedback:
 
 But those are the problems the business wants to have.
 
-===== Open vs closed loop systems
 anchor:2.00.1-open-loop[]
+===== Open vs closed loop systems
 
 Finally, we should talk briefly about open loop versus closed loop systems.
 

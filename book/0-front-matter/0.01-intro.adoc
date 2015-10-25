@@ -1,14 +1,5 @@
 == Introduction
 
-ifdef::collaborator-draft[]
-
-_considering changing order again_
-....
-  10. Security, and Governance, Risk, and Compliance
-  11. Enterprise Information Management
-  12. Architecture and Portfolio
-....
-endif::collaborator-draft[]
 
 anchor:0.01-emergence[]
 

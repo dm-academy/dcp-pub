@@ -21,7 +21,7 @@ Because of your success, Lena needs to go from one team to two. She is cautious 
 
 Let’s assume you are going to break the product into two feature teams. One will focus on the existing market and the other will develop a new major feature for a new, distinct set of user value propositions.
 
-In order to do this, you are going to bring in a new UX specialist, a new Java programmer, a new sales person, and someone to field customer support calls. Lena also intends to step back a bit from direct product ownership, so a new Chief Marketing Officer comes in. She talks with an organizational consultant and proposes the following new structure:
+In order to do this, you are going to bring in a new UX specialist, a new Java programmer, a new sales person, and someone to field customer support calls. Lena also intends to step back a bit from direct product ownership, so a new Chief Marketing Officer comes in. She talks with an organizational consultant who proposed the following new structure:
 
 image::images/3.07-org-prop-1.png[]
 
@@ -33,7 +33,7 @@ What’s the difference between Sales and Marketing? Marketing tells a story tha
 This may seem reasonable. Everyone agreed that there is no need to add more people to help Sonya and Andre; they can support both feature teams. Obviously, the new sales person comes in under Tomas.
 Because Peter was the one receiving all the calls, and in the interest of giving him a clear career path, it was determined that the first product support person would come in under him, in what was anticipated to become a dedicated help desk/call center.
 
-It was perceived that the engineering team would likely be receiving various requests and so a dotted line appears on the organization chart, indicating a service relationship. The new support person under Peter would also be shared across both teams, and their needed to be some means of communicating support requests to the feature teams when their support was needed. There was some question as to how the office Kanban boards might be reconfigured to support these relationships. Peter and Sonya, after some online research, started to become interested in something called ITIL.
+It was perceived that the engineering team would likely be receiving various requests and so a dotted line appears on the organization chart, indicating a service relationship. The new support person under Peter would also be shared across both teams, and there needed to be some means of communicating support requests to the feature teams when their support was needed. There was some question as to how the office Kanban boards might be reconfigured to support these relationships. Peter and Sonya, after some online research, started to become interested in something called ITIL.
 
 But before that discussion continued, Lena retained another consultant as a cross-check. This consultant had worked with many Silicon Valley startups and had a very different opinion. This consultant was inspired by the https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf[“Spotify model”] and proposed the following scaled-down version of it:
 

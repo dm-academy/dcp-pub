@@ -1,4 +1,5 @@
 anchor:2.04.04-lean-product-dev[]
+
 ==== Lean, Lean product development, and Don Reinertsen
 
 We've had passing mention of Lean already in this book. But what is Lean?

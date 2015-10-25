@@ -1,4 +1,8 @@
-==== Project execution
+==== Principles and theories of project management
+
+===== The two dimensions of demand management
+
+===== Scheduling and execution
 
 Turning to the problem of transactional friction:
 
@@ -42,3 +46,8 @@ The project manager is expected to manage the uncertain handoffs between the var
  fractional allocations
 
  [the above section should probably move to chapter 8]
+
+===== Critical chain & related topics
+
+ *** Execution, resource & scheduling constraints
+ ** Last responsible moment

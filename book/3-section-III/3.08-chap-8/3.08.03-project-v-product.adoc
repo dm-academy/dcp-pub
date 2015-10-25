@@ -1,0 +1,9 @@
+==== Product versus project management
+
+===== PM still needed in an Agile, product-centric world?
+
+===== Project management antipatterns
+
+The estimation controversy (sidebar?)
+
+===== The future of project management

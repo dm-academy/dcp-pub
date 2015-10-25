@@ -1,0 +1,8 @@
+==== IT resource management
+(yes, it's a terrible name)
+  _get permission for Dilbert cartoon "I am not a resource"_
+
+===== Basic concerns
+===== Impact of Agile
+===== Time tracking
+===== SFIA framework

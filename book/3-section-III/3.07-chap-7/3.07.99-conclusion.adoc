@@ -29,6 +29,8 @@ Culture can be difficult to define. We saw how Toyota's success can be understoo
 
 * Daniel Pink, http://www.goodreads.com/book/show/6452796-drive[Drive]
 
+* Donald Reinertsen, http://www.goodreads.com/book/show/6278270-the-principles-of-product-development-flow[_Principles of Product Development Flow: Second Generation Lean Product Development_]
+
 *Articles*
 
 * Melvin Conway, http://www.melconway.com/Home/Committees_Paper.html[How Do Committees Invent?] (original statement of Conway's Law)

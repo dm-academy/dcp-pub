@@ -133,7 +133,19 @@ include::book/3-section-III/3.07-chap-7/3.07.99-conclusion.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.00-intro.adoc[]
 
-include::book/3-section-III/3.08-chap-8/3.08.02-project-exeution.adoc[]
+include::book/3-section-III/3.08-chap-8/3.08.01-why-project-mgmt.adoc[]
+
+include::book/3-section-III/3.08-chap-8/3.08.02-project-theory.adoc[]
+
+include::book/3-section-III/3.08-chap-8/3.08.03-project-v-product.adoc[]
+
+include::book/3-section-III/3.08-chap-8/3.08.04-sourcing.adoc[]
+
+include::book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[]
+
+include::book/3-section-III/3.08-chap-8/3.08.06-financial-mgmt.adoc[]
+
+include::book/3-section-III/3.08-chap-8/3.08.07-topics.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.99-conclusion.adoc[]
 

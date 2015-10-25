@@ -1,53 +1,60 @@
 === Chapter 8: Project & Resource Management
+[quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
+Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
 
-Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because the necessary information is not available. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
+Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because *the necessary information is not available*. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
 
-However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning has not gone away and without project management, financial planning meets difficult challenges. The very concept of having a vision becomes problematic without some ability to plan.
+However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning and resource management have not gone away and without project management, financial planning meets difficult challenges. The very concept of having a vision becomes problematic without some ability to plan.
 
-Because of this, this chapter also covers IT financial management at a very introductory level.
+Because of this, this chapter also covers IT financial management, sourcing, and human resource management at a very introductory level.
 
 ==== Introduction to Chapter 8
 
 ===== Chapter 8 outline
 
-* Introduction to project management
- - PMBOK etc (also covered in Appendix)
- - Scrum and XP (Scrum introduced in 5, need to figure out correct allocation)
-  - Notice that Scrum originated from Sutherland's study of product management, not project management
+* Why project management?
+** basic concerns and disciplines
+** PMBOK etc (also covered in Appendix)
+** PM relationships w/IT & Agile
+*** Impact of Cloud on project management
 
-* Is project management still needed in a product-centric world?
- - yes. Google & FB both use it.
+* Project mgmt theory -
+** 2 dimensions of demand management
+** Critical chain
+*** Execution, resource & scheduling constraints
+** Last responsible moment
 
-* Project management antipatterns
+* Project vs product management
+** PM still needed in an Agile, product-centric world?
+** Project management antipatterns
+** The estimation controversy (sidebar?)
+** The future of project management
 
-****
-Sidebar: Introducing Scaled Agile Framework (Leffingwell)
-****
+* Sourcing
+** Basic concerns
+** Impact of Cloud
 
-* The estimation controversy (sidebar?)
+* Resource management
+** Basic concerns
+** Impact of Agile
+** Time tracking
+** SFIA framework
 
-* The future of project management
+* IT financial management
+** Basic concerns
+** Agile challenges (Lean Accounting, Beyond Budgeting)
 
-* Resource management (yes, it's a terrible name)
-  _get permission for Dilbert cartoon "I am not a resource"_
-  - SFIA framework
-  - Approaches to time tracking
-
-* Supply and demand.
-  - IT talent
-  - DSE - alternate view to PBR]
-  - 2 dimensions of demand management
-  - More to come in portfolio mgmt
-  - Last responsible moment
-  - Ops theory - process, project, execution, resource & scheduling constraints
-
-  * Introduction to IT financial management
+* Topics
+** Frameworks
+*** What is a framework?
+*** PMBOK
+*** Scaled Agile Framework
 
 ===== Chapter 8 learning objectives
 * Identify the basic practices of project management
+* Understand fundamental concepts of project & execution theory
 * Identify the basic concerns of IT resource management
 * Identify the basic concerns of IT financial management
-
 
 ===== Content (to be moved to subsequent pages)
 

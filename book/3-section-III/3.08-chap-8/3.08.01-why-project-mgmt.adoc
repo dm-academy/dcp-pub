@@ -6,7 +6,7 @@ A project is a temporary endeavor undertaken to create a unique product, service
 An ongoing work effort is generally a repetitive process that follows an organization's existing procedures. In contrast, because of the unique nature of projects, there may be uncertainties or differences in the products, services, or results that the project creates.
 
 
-Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged
+Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged 
 
 but now, that kind of functionality is delivered by online service providers -
 
@@ -15,3 +15,8 @@ meaning that more and more internal IT is differentiating and requires those ski
 not just "stick some vendor delivered software on a box and run it"
 
 ultimately, the decision of EA...
+
+** basic concerns and disciplines
+** PMBOK etc (also covered in Appendix)
+** PM relationships w/IT & Agile
+*** Impact of Cloud on project management

@@ -1,6 +1,5 @@
-
 ==== History of the Agile movement
-
+.
 anchor:1.03.02-Agile-history[]
 
 This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)

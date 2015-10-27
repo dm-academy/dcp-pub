@@ -137,7 +137,7 @@ include::book/3-section-III/3.08-chap-8/3.08.01-why-project-mgmt.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.02-project-theory.adoc[]
 
-include::book/3-section-III/3.08-chap-8/3.08.03-project-v-product.adoc[]
+include::book/3-section-III/3.08-chap-8/3.08.03-Agile-project.adoc[]
 
 include::book/3-section-III/3.08-chap-8/3.08.04-sourcing.adoc[]
 

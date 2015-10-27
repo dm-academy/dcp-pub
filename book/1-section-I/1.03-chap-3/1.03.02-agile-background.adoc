@@ -1,6 +1,4 @@
-==== History of the Agile movement
-
-anchor:1.03.02-Agile-history[]
+==== anchor:1.03.02-Agile-history[]History of the Agile movement
 
 This is not a book on software development per se, nor on Agile development. There are hundreds of books available on those topics. But, no assumption is made that the reader has any familiarity with these topics, so some basic history is called for. (If you have taken an introductory course in software engineering, this will likely be review.)
 
@@ -8,7 +6,7 @@ As we will cover in more detail in the next chapter, the product development pro
 
 When the author first joined Andersen Consulting (now Accenture) in 1998, we were schooled in something called the Business Integration Method, or BIM. The BIM was a classic expression of what is called “waterfall development".
 
-What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it <<Royce1970>>. Military contracting and management consultancy practices, however, embraced it, as it provided an illusion of certainty.
+What is waterfall development? It is a controversial question. The original theorist who coined the term named it in order to critique it <<Royce1970>>. Military contracting and management consultancy practices, however, embraced it, as it provided an illusion of certainty. The fact that computer systems until recently included a substantial component of hardware systems engineering may also have contributed.
 
 Waterfall development as a term has become associated with a number of practices. The original illustration was similar to this:
 

@@ -1,11 +1,15 @@
-==== Product versus project management
+==== Project management in the Agile era
+
+[quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
+Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
+
+===== Product versus project management
 
 [quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
 What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
 
 [quote, Mark Kennaley, SDLC 3.0]
 When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
-
 
 ===== PM still needed in an Agile, product-centric world?
 

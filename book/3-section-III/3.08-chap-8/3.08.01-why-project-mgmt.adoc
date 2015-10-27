@@ -2,10 +2,59 @@
 [quote, Project Management Body of Knowledge, version 5]
 An ongoing work effort is generally a repetitive process that follows an organization's existing procedures. In contrast, because of the unique nature of projects, there may be uncertainties or differences in the products, services, or results that the project creates.
 
-[quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
-Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
 
-Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales. There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad, product management good" approach, this book will discuss the fundamental premises and techniques of project management, in the context of Agile transformation.
+Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales. There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad" approach, this book will discuss the fundamental premises and techniques of project management, in the context of Agile transformation.
+
+===== What is a project?
+Let's start with the most fundamental aspects of a project. Essentially, a project can be seen as little more than a "to-do" list. However, rather than a miscellaneous list of errands, it is a to-do list that is aimed at delivering some overall end result.
+
+So, comparing to your daily life, a random list of to-dos isn't a project, but if you are organizing your annual holiday party, that certainly would qualify as a project.
+
+We could start with the following list:
+
+|===
+|Choose menu
+|Clean house before party
+|Get groceries
+|Fix food
+|Decorate house
+|Send invitations
+|Choose date
+|Clean up after party
+|===
+
+One of the important characteristics of a project is that it is temporary. This project ends when we clean up after the party - not the most fun part.
+
+Project management however takes things much further. There are a number of ways that the list above can be refined using project management techniques.
+
+First, we should probably organize the list a little better. And the task "clean house" - do we understand precisely what we mean by that? Maybe we should break this down into sub-tasks. There is also a question about "choose menu" - isn't the menu part of the project plan? Also, you may notice that there are "dependencies." For example, we can't send out invitations before we choose the date, nor can we fix the party food before we get groceries.
+
+Let's break out the heavyweight tools. Introducing Microsoft Project:
+
+image::images/3.08-ms-proj-1.png[]
+
+First, let's set up some sub-tasks and document the dependencies:
+
+image::images/3.08-ms-proj-2.png[]
+
+Notice the bold headings:
+
+* *Clean house before party*
+* *Food for party*
+
+and how they have indented "sub-tasks" underneath them. These are all the things that need to be completed, for the overall major task to be considered complete.
+
+For example, we can't call the house clean if the dining room isn't vacuumed.
+
+Also notice that, to the right, we see certain tasks are linked. We are not going to decorate the house until all the cleaning is done, and we need to get the food prepared before we have the party.
+
+
+
+
+
+===== What is project management?
+
+
 
 Review:
 

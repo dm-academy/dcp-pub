@@ -97,13 +97,11 @@ Project management also has more robust tools for managing people's time and eff
 ===== Project management in information technology
 So, what does all this have to do with information technology? As we have discussed in previous chapters, project management is one of the main tools used to deliver value across specialized skill-based teams.
 
-*The following case is an older example of how a large IT project might be managed.*
-
 A "traditional" IT project starts with the "sponsorship" of some executive with standing to request funding. For example, suppose that the VP of Logistics under the Chief Operations Officer believes that a new supply chain system is required. With the sponsorship of the COO, they put in a request (possibly called a "demand request" although this varies by corporation) to implement this system. The assumption is that a commercial software package will be acquired and implemented.
 
 The IT department serves as an overall coordinator for this project. The "demand request" in many cases is registered with the enterprise Project Management Office, which may report under the CIO.
 
-NOTE: Why does the Enterprise Project Management office report under the CIO? IT projects in many companies represent the single largest type capital expenditure. The other major form of projects, building projects, are usually outsourced to a general contractor.
+NOTE: Why does the Enterprise Project Management office report under the CIO? IT projects in many companies represent the single largest type of internally managed capital expenditure. The other major form of projects, building projects, are usually outsourced to a general contractor.
 
 The project is initiated by establishing a charter, allocating the funding, assigning a project manager, establishing communication channels to stakeholders, and a variety of other activities.
 
@@ -117,6 +115,12 @@ Once the product is chosen, the project must staff up (in reality, staffing arra
 
 Notice we call it the *systems implementation lifecycle*, not the *software development lifecycle*. This is because most of the hard software development was done by the third party who created the supply chain software. There may be some configuration or customization (adding new fields, screens, reports) but this is lightweight work in comparison to the software engineering required to create a system of this nature.
 
-The system requires specialized hardware
+The system requires its own hardware (servers, storage, perhaps a dedicated switch) and specifying this in some detail is required for the purchasing process to start. This in turn required advance planning and approval for the project as a whole.
 
-*The next case is a more modern example of how a large IT project might be managed.*
+It would not have been much different for a fully in house developed application, except that more money would have gone to developers. The slow infrastructure supply chain still drove much of the behavior, and correctly "sizing" this infrastructure was a challenge particularly for in-house developed software. (The vendors of commercial software would usually have a better idea of the infrastructure required for a given load.) Hence much attention to much up-front planning. Without requirements, no analysis or design; without design, how to know how much server to buy?
+
+Cloud changed all this. The long hardware acquisition cycle was gone. And new systems did not need to be nearly as precisely "sized," which meant that development could commence without as much up front analysis. Simpler architectures would suffice until real load was proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect was positive, as over-engineering was increasingly avoided.
+
+A current project (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team might simply analyze the overall structure of the epic, decomposing it into stories and features, and spending the time to organize them into a logical sequence.
+
+A project manager may well be in the mix, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowlegeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.

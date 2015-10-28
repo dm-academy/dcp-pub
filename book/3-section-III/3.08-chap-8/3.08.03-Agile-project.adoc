@@ -16,6 +16,24 @@ When risk and uncertainty are present with ongoing demand, like in the case of a
 [quote, Mark Kennaley, SDLC 3.0]
 Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.
 
+
+
+Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged
+
+but now, that kind of functionality is delivered by online service providers -
+
+meaning that more and more internal IT is differentiating and requires those skills
+
+not just "stick some vendor delivered software on a box and run it"
+
+ultimately, the decision of EA...
+
+** basic concerns and disciplines
+** PMBOK etc (also covered in Appendix)
+** PM relationships w/IT & Agile
+*** Impact of Cloud on project management
+
+
 ===== Project management antipatterns
 
 The estimation controversy (sidebar?)

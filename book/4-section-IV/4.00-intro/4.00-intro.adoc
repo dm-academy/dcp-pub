@@ -15,6 +15,7 @@ The laundry lists
 supporting functions (sourcing...)
 
 IVI
+IT4IT
 
 *Chapter 10: Security, Governance, Risk, and Compliance*
 
@@ -22,9 +23,9 @@ We need to cope with external forces (regulators, vendor partners, security adve
 
 *Chapter 11: Enterprise Information Management*
 
-(to be written on general EIM)
+We've been concerned with data, information, and knowledge since the earliest days of our journey. But at this scale, we have to formalize our approaches and understandings; without that, we will never capture the full value available with modern analytics and Big Data.
 
-EIM applied: We need to measure this massive IT estate and understand it as an overall dynamic system. There are a wide variety of practices, techniques, and concerns that emerge at this point. No matter how we try, stuff happens, and it's getting harder to cope with as the systems get bigger and more complex. Where will this all lead?
+Looking inward, we need to measure this massive IT estate and understand it as an overall dynamic and complex system.
 
 *Chapter 12: Arcihtecture and Portfolio*
 

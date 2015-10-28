@@ -80,5 +80,39 @@ http://www.industrialbrand.com/why-great-design-doesnt-come-fast-and-cheap[photo
 
 The same applies to project management and reflects well the "iron triangle" of tradeoffs.
 
+===== How is a project different from simple "work management"?
+
+In Chapter 5, we covered a simple concept of "work management" that deliberately did not differentiate project and process-based work. As was noted at the time, for smaller organizations, most or all of the organization would be the "project team," so what would be the point?
+
+The project is starting off as a list of tasks, that is essentially identical to a backlog. Even in Kanban, we know who is doing what, so what is the difference? Here are key points:
+
+* The project is explicitly time-bound. It is more flexible than the repetitive, time-boxed sprints of Scrum, but more fixed than the ongoing flow of Kanban.
+
+The project has an explicit concept of dependencies in the tasks, and powerful tools to manage them. While this book aligns with the Agile movement in avoiding needless assumption of dependencies (e.g. waterfall method), they *do* exist - especially in the most ambitious and complex product efforts! And tools are needed to manage them.
+
+Project management also has more robust tools for managing people's time and effort, especially as they translate to project funding. While this may be a contentious aspect of project management (see later in this chapter on the #NoEstimates controversy), it remains a critical part of management practice in both IT and non-IT domains.
+
+ [more]
+
 ===== Project management in information technology
 So, what does all this have to do with information technology? As we have discussed in previous chapters, project management is one of the main tools used to deliver value across specialized skill-based teams.
+
+*The following case is an older example of how a large IT project might be managed.*
+
+A "traditional" IT project starts with the "sponsorship" of some executive with standing to request funding. For example, suppose that the VP of Logistics under the Chief Operations Officer believes that a new supply chain system is required. With the sponsorship of the COO, they put in a request (possibly called a "demand request" although this varies by corporation) to implement this system. The assumption is that a commercial software package will be acquired and implemented.
+
+The IT department serves as an overall coordinator for this project. The "demand request" in many cases is registered with the enterprise Project Management Office, which may report under the CIO.
+
+NOTE: Why does the Enterprise Project Management office report under the CIO? IT projects in many companies represent the single largest type capital expenditure. The other major form of projects, building projects, are usually outsourced to a general contractor.
+
+The project is initiated by establishing a charter, allocating the funding, assigning a project manager, establishing communication channels to stakeholders, and a variety of other activities.
+
+One of the first major activities of the project will be to select the product to be used.
+
+They will help lead the RFI/RFQ process by which vendors are evaluated and selected.
+
+NOTE: RFI stands for https://en.wikipedia.org/wiki/Request_for_information[Request for Information]; RFQ stands for https://en.wikipedia.org/wiki/Request_for_quotation[Request for Quote]. See the links for definitions.
+
+Once the product is chosen, the project must staff up (in reality, staffing arrangements were probably being made at the same time as the RFI/RFQ) and the systems implementation lifecycle can start.
+
+*The next case is a more modern example of how a large IT project might be managed.*

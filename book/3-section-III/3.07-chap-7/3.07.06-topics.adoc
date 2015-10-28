@@ -14,3 +14,6 @@ As an organization grows, we see both the feature and component sides scale. Fea
  [to be written]
 
 reference http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows[How CIOs can raise their 'IT clock speed' as pressure to innovate grows]
+
+===== Solving for decisionmaking & governance
+No choice but to allocate fine-grained decision rights between product lines & guilds. See Reinertsen/Smith. 

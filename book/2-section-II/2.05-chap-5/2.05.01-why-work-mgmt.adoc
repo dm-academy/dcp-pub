@@ -30,7 +30,11 @@ For example, a “ticket” may be created. Or a “story.” At our current lev
 [quote, Wikpedia, https://en.wikipedia.org/wiki/Reification]
 Reification generally refers to making something real, bringing something into being, or making something concrete.
 
-A complex IT-based system is not needed! (Nor for that matter a complex process framework, such as ITIL. This author sees little value in using such frameworks at this stage of evolution.) A shared white board in a public location might be all that is needed. This gives the team a “shared mental model” of who is doing what.
+A complex IT-based system is not needed! (Nor for that matter a complex process framework, such as ITIL. This author sees little value in using such frameworks at this stage of evolution.)
+
+It's also still too early for formal project management. The "project team" would be most or all of the organization, so what would be the point?
+
+A shared white board in a public location might be all that is needed. This gives the team a “shared mental model” of who is doing what.
 
 image::images/2.05-commonList.png[]
 

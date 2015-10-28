@@ -115,4 +115,8 @@ NOTE: RFI stands for https://en.wikipedia.org/wiki/Request_for_information[Reque
 
 Once the product is chosen, the project must staff up (in reality, staffing arrangements were probably being made at the same time as the RFI/RFQ) and the systems implementation lifecycle can start.
 
+Notice we call it the *systems implementation lifecycle*, not the *software development lifecycle*. This is because most of the hard software development was done by the third party who created the supply chain software. There may be some configuration or customization (adding new fields, screens, reports) but this is lightweight work in comparison to the software engineering required to create a system of this nature.
+
+The system requires specialized hardware
+
 *The next case is a more modern example of how a large IT project might be managed.*

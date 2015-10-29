@@ -18,7 +18,51 @@ _the world's leading not-for-profit professional membership association for the 
 
 The Project Management Body of Knowledge is articulated in a publication, _A Guide to the Project Management Body of Knowlege._ While this may seem to imply that the PMBOK and its guide are two different things, they are not -- it is one publication.
 
+The PMBOK, as of the latest edition, consists of:
 
+* 47 Project Management "processes," grouped into
+* 5 Project Management process "groups" and
+* 10 Project Management "knowledge areas"
+
+The groups are the easiest to start with. They are:
+
+* Initiating
+* Planning
+* Executing
+* Monitoring and Controlling
+* Closing
+
+The PMBOK is clear that the "Process Groups are not project phases. In fact, it is possible that all Process Groups could be conducted within a phase." <<PMI2013>>, A1.3.
+
+The Knowledge Areas are a different dimension, and consist of:
+
+* Project Integration Management
+* Project Scope Management
+* Project Time Management
+* Project Cost Management
+* Project Quality Management
+* Project Human Resource Management
+* Project Communication Management
+* Project Risk Management
+* Project Procurement Management
+* Project Stakeholder Management
+
+Finally, the 47 project management "processes" include topics such as (selected items):
+
+* Develop Project Charter
+* Develop Project Management Plan
+* Direct and Manage Project Work
+* Perform Integrated Change Control
+
+Each process is categorized by one Process Group and one Knowledge Area, resulting in a matrix. A full matrix is not presented here due to copyright issues, but one can be seen http://www.focus-on-training.co.uk/blog/pmbok-process-groups-knowledge-areas[here].
+
+PMBOK details are easily obtained on the web, and will not be repeated here. It's clear that the Agile critiques of waterfall project management have been taken seriously by the PMBOK braintrust. There is now a PMI Agile certification and much explicit recognition of the need for iterative and incremental approaches to project work.
+
+PMBOK as a whole remains extensive and complex when considered as a whole. This is necessary, as it is used to manage extraordinarily complex and costly efforts in domains such as construction, military/aerospace, government, and others. Some of these efforts (especially those involving systems engineering, over and above software engineering) do have requirements for extensive planning and control that PMBOK meets well.
+
+However, in Agile domains that seek to be more adaptive to changing business dynamics, full use of the PMBOK framework may be unnecessary and wasteful. The accepted response is to "tailor" the guidance, omitting those plans and deliverables that are not needed.
+
+For example, 
 
 ===== The two dimensions of demand management
 

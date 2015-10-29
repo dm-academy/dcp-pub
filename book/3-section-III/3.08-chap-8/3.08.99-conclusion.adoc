@@ -1,12 +1,14 @@
 ==== Conclusion
 
-Conclusion placeholder
 
 ===== Discussion questions
 
 ===== Research & practice
 
 ===== Further reading
+
+Project management is a deep and wide field, at its most mature showing the influence of operations theory and research. This section is intended to give you a brief overview of its foundational elements and reach. For a more in depth treatment, see <<PMI2013>> and <<Richardson2010>>. For Agile,  Lean, and Theory of Constraints aspects, see <<Cobb2015>>, <<Goldratt1997>>, and (once again) <<Reinertsen2009>> (especially the discussion of Weighted Shortest Job First).
+
 *Books*
 
 * Charles G. Cobb, http://www.goodreads.com/book/show/24844947-the-project-manager-s-guide-to-mastering-agile[The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach]

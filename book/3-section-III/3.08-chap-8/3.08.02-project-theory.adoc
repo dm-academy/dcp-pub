@@ -1,6 +1,27 @@
 ==== Principles and theories of project management
 
+The previous chapter discussed some typical applications of project management, starting with very simple examples and moving into more complex topics.
+
+However, project management (NOT restricted to IT) is a defined area of study, theory, and professional practice. This section provides a (necessarily brief) overview of these topics.
+
+We will discuss the Project Management Body of Knowledge, which is the leading industry framework in project management, at least in the United States. (PRINCE2 is another framework, originating from the UK, which will not be covered in this edition.)
+
+We will also discuss the author's own framework for understanding project demand holistically in the context of other forms of demand. We will compare project execution to more general problems of scheduling and execution, and finally we will take a brief look at Eli Goldratt's Critical Chain.
+
+===== The Project Management Body of Knowledge
+The second half of this book will devote increasing attention to frameworks. What is a framework?
+A framework is a formalized body of knowledge, usually sustained by some appropriate professional body, that defines the necessary and appropriate skills and concepts for practitioners.
+
+The Project Management Body of Knowledge is sustained by the Project Management Institute,
+
+_the world's leading not-for-profit professional membership association for the project, program and portfolio management profession. Founded in 1969, PMI delivers value for more than 2.9 million professionals working in nearly every country in the world through global advocacy, collaboration, education and research. PMI advances careers, improves organizational success and further matures the profession of project management through its globally recognized standards, certifications, resources, tools, academic research, publications, professional development courses, and networking opportunities_ (from http://www.pmi.org/About-Us.aspx[www.pmi.org]).
+
+The Project Management Body of Knowledge is articulated in a publication, _A Guide to the Project Management Body of Knowlege._ While this may seem to imply that the PMBOK and its guide are two different things, they are not -- it is one publication.
+
+
+
 ===== The two dimensions of demand management
+
 
 ===== Scheduling and execution
 
@@ -49,5 +70,6 @@ The project manager is expected to manage the uncertain handoffs between the var
 
 ===== Critical chain & related topics
 
- *** Execution, resource & scheduling constraints
- ** Last responsible moment
+* Execution, resource & scheduling constraints
+* Last responsible moment
+* Reinertsen's critique

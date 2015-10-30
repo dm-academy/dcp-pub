@@ -3,13 +3,14 @@
 ===== Discussion questions
 * Imagine yourself in an organization that recognized product management and work management, but had no concept of project management. Describe a scenario where project management would be a reasoanble technique to introduce.
 
-* What experience do you or your team members have with project management? How effective did you find it? 
+* What experience do you or your team members have with project management? How effective did you find it?
 
 ===== Research & practice
 * Compare Microsoft Project with one of the following. What are the pros and cons?
 ** Rally
 ** Jira
-** ????
+** VersionOne
+
 
 
 ===== Further reading
@@ -29,6 +30,10 @@ Project management is a deep and wide field, at its most mature showing the infl
 *Articles*
 
 * http://www.slideshare.net/garydrumm/project-management-101-primer[Project Management 101]
+
+* https://www.mountaingoatsoftware.com/articles/the-need-for-agile-project-management[The Need for Agile Project Management]
+
+* https://www.thoughtworks.com/insights/blog/scaling-agile-problems-and-solutions["Scaling Agile: Problems and Solutions"]
 
 *Videos*
 

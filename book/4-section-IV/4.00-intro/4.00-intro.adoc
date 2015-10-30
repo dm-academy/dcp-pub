@@ -1,5 +1,8 @@
 == Section IV: Maturation
 
+
+
+
 === Section IV introduction
 
 *Scenario*
@@ -10,12 +13,6 @@ Agile techniques remain important to you, but things are getting complex and you
 
 But you have great resources at your command, and you're as well positioned as any of your competitors to meet the challenges ahead. And in the end, that's all you need.
 
-*Special section: The elaborated IT organization*
-The laundry lists
-supporting functions (sourcing...)
-
-IVI
-IT4IT
 
 *Chapter 10: Security, Governance, Risk, and Compliance*
 

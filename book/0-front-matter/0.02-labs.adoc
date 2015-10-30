@@ -37,9 +37,9 @@ At this writing I maintain my labs publicly on Github.  My syllabus and lab stru
 |Chapter 8 |Project & resource management | |Open-source project tool | >11 (full class)
 |Chapter 9 |Process management | |Open-source ITSM suite | >11 (full class)
 5+|SECTION IV: MATURATION
-|Chapter 10 |Architecture & governance | Enterprise architecture & risk mgmt |Archi (open source modeling tool) | 5
-|Chapter 11 |Portfolio and analytics |Portfolio simulation |Porfolio simulation with R? | 5
-|Chapter 12 |Complexity and chaos | Complex Incident Simulation | |5
+|Chapter 10 |Security, governance, risk, and compliance |  | | 5
+|Chapter 11 |Enterprise Information Management |Portfolio simulation |Porfolio simulation with R? | 5
+|Chapter 12 |Architecture and portfolio | Archi (open source modeling tool) | |5
 |====
 
 I use a central server in teaching my classes, but even that is not necessary. This class can be taught with a zero computing budget, assuming that each team of students at least has access to a modern laptop and a fast Internet connection. As of this writing, I am using free and open source versions of Chef, Jenkins, iTOP, jUnit, Ant, and other tools (see github for the current approach).

@@ -3,36 +3,36 @@
 [quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
 Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
 
-===== Product versus project management
-
 [quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
 What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
 
-[quote, Mark Kennaley, SDLC 3.0]
-When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
+As the above quote indicates, project management is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of product plus simple work management, without the overhead of the formalized project lifecycle suggested by PMBOK.
+
+So, a couple questions emerge:
+
+* Under what circumstances does formalized project management make economic sense?
+* Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
 
 ===== PM still needed in an Agile, product-centric world?
 
 [quote, Mark Kennaley, SDLC 3.0]
+When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
+
+Kennaley, above, provides some reasoning for project management. Ironically, he uses the term "batch," which is often a concept unfavorably viewed in Agile and Lean circles.
+
+However, when a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence is as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint, and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
+
+Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimization is a known problem in systems engineering and cannot be wished away through merely invoking the word "Agile."
+
+Not all problems respond to iteration. Iterative solutions may make sense in some cases; in other cases, a higher degree of certainty is required before any solutioning is attempted. Attempting to iteratively refine a given solution may result in completely missing a higher order mode in a complex space.
+
+===== Collaboration at scale
+[quote, Mark Kennaley, SDLC 3.0]
 Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.
 
-
-
-Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged
-
-but now, that kind of functionality is delivered by online service providers -
-
-meaning that more and more internal IT is differentiating and requires those skills
-
-not just "stick some vendor delivered software on a box and run it"
+Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged but now, that kind of functionality is delivered by online service providers - meaning that more and more internal IT is differentiating and requires those skills not just "stick some vendor delivered software on a box and run it"
 
 ultimately, the decision of EA...
-
-** basic concerns and disciplines
-** PMBOK etc (also covered in Appendix)
-** PM relationships w/IT & Agile
-*** Impact of Cloud on project management
-
 
 ===== Project management antipatterns
 

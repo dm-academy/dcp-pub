@@ -12,7 +12,7 @@
 
 ===== A deeper look at measurement
 
-===== Theory
+===== Deeper theory
 ....
   * States and sense-making and risk management around state transitions
   (Systems that are too big, complex, and fluid to be considered as having a “state”??)

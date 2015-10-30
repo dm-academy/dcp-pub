@@ -47,6 +47,7 @@ ultimately, the decision of EA...
 * Project change control
 * The estimation controversy (sidebar?)
 * Impersonal requirements ()
+* "nothing is real unless it's a project"
 
 ===== The Agile project frameworks
 * SAFe

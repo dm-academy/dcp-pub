@@ -10,6 +10,7 @@
 ** Rally
 ** Jira
 ** VersionOne
+** Asana
 
 
 
@@ -33,7 +34,7 @@ Project management is a deep and wide field, at its most mature showing the infl
 
 * https://www.mountaingoatsoftware.com/articles/the-need-for-agile-project-management[The Need for Agile Project Management]
 
-* https://www.thoughtworks.com/insights/blog/scaling-agile-problems-and-solutions["Scaling Agile: Problems and Solutions"]
+* https://www.thoughtworks.com/insights/blog/scaling-agile-problems-and-solutions[Scaling Agile: Problems and Solutions]
 
 *Videos*
 

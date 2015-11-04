@@ -35,7 +35,7 @@ In many organizations, there is an “Infrastructure and Operations” function.
 |Application developers. Handle demand, proactive and reactive, from product and operations.
 |Help desk. Application support and maintenance (provisioning, fixes not requiring software development).
 |Infrastructure layer
-|Engineering team. Infrastructure platform engineering and development (design and build typically of externally sourced products)
+|Engineering team. Infrastructure platform engineering and development (design and build typically of externally sourced products).
 |Operations center. Operational support, including monitoring system status. May monitor both infrastructure and application layers.
 |====
 
@@ -44,9 +44,9 @@ A duty-oriented, physical presence in the service of executing particular tasks 
 
 What do we mean by this?
 
-* Systems operators sitting in 24x7 operations centers, monitoring system status and responding to alerts
-* Field technicians executing work orders (install a new PC, fix a printer, service a cell tower antenna)
-* Help desk representatives responding to user inquiries
+* Systems operators sitting in 24x7 operations centers, monitoring system status and responding to alerts.
+* Field technicians executing work orders (install a new PC, fix a printer, service a cell tower antenna).
+* Help desk representatives responding to user inquiries.
 * Developers and engineers wearing pagers on a rotating basis to respond to systems outages referred to them by the operations center.
 
 Limoncelli, Strata, and Hogan, in their excellent _Cloud Systems Administration_, emphasize the role of the "oncall" and "onduty" staff in the service of operations. Oncall staff have a primary responsibility of emergency response, and the term oncall refers to their continuous availability, even if they are not otherwise working (e.g., they are expected to pick up phone calls and pages at home and dial into emergency communications channels). Onduty staff are responsible for responding to non-critical incidents and maintaining current operations.
@@ -88,11 +88,11 @@ There is nothing sacred about the environments listed above. You will see many v
 The idea that one sequentially moves (”promotes”) new system functionality through a series of states to gain confidence before finally changing the state of the production system is historically well established. However, the production state is notoriously difficult to reproduce fully, especially in highly distributed environments. While infrastructure as code has simplified the problem, lower environments simply can't match production completely in all its complexity, especially interfaced interactions with other systems or when large, expensive pools of capacity are involved.. Therefore there is always risk in changing the state of the production system. Mitigating strategies include:
 
 * Extensive automated test harnesses that can quickly determine if system behavior has been unfavorably altered.
-* Elaborating lower environments with strategies such as service virtualization to make them appear more like production
-* Hardening services against their own failure in production, or the failure of services on which they depend
-* Reducing the size (and therefore complexity and risk) of changes to production (a key DevOps strategy)
-* Ensuring that changes to the production system can be easily and automatically reversed
-* Using policy-aware infrastructure management tools
+* Elaborating lower environments with strategies such as service virtualization to make them appear more like production.
+* Hardening services against their own failure in production, or the failure of services on which they depend.
+* Reducing the size (and therefore complexity and risk) of changes to production (a key DevOps strategy).
+* Ensuring that changes to the production system can be easily and automatically reversed.
+* Using policy-aware infrastructure management tools.
 
 Another important development in environmental approaches is A/B testing. In this approach, the “production” environment is segregated into two or more discrete states, with different features or behaviors exposed to users in order to assess their reactions (see sidebar).
 

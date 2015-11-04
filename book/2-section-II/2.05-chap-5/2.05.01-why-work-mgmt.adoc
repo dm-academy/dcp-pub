@@ -2,11 +2,11 @@
 
  [Dan Pink, Drive: Task, time, technique, and team]
 
-Work management may start with verbal requests, emails, even postal mail. The design process may result in a wide variety of deliverables that also initiate work activity. And as your product matures, the product itself generates both routine and non-routine work. Some of the work depends on other work getting done. Sometimes you do not realize this immediately. All of this needs to be tracked.
+Work management may start with verbal requests, emails, even postal mail. The design process may result in a wide variety of deliverables that also initiate work activity. As your product matures, the product itself generates both routine and non-routine work. Some of the work depends on other work getting done. Sometimes you do not realize this immediately. All of this needs to be tracked.
 
 If you ask your colleague to do one thing, and she doesn’t have anything else to do, it’s likely that the two of you will remember. If you ask her to do four things over a few days, you *might* both still remember. But if you are asking for new things every day, it is likely that some things will get missed.
 
-You each might start keeping your own “to do” list and this can handle a dozen or two dozen tasks.
+You each might start keeping your own “to do” list, and this mechanism can handle a dozen or two dozen tasks.
 
 Consider an example of three people, each with their own to do list:
 
@@ -52,6 +52,6 @@ The basic board is widely used because it is a powerful artifact. Behind its dec
 
 At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it. We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
 
-* Finish what you start, if you can, before starting anything else
+* Finish what you start, if you can, before starting anything else.
 * Infinitely long to-do lists (backlog) sap motivation. Consider limiting backlog as well as work in process.
-* Visibility into work in progress is important for the collective mental model of the team
+* Visibility into work in progress is important for the collective mental model of the team.

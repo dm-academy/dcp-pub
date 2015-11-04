@@ -18,13 +18,18 @@ So, a couple questions emerge:
 [quote, Mark Kennaley, SDLC 3.0]
 When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
 
+[quote, Sriram Narayan, "Scaling Agile: Problems and Solutions"]
+the project as a vehicle of IT execution has by and large, failed to live up to its promise of predictable delivery.
+
 Kennaley, above, provides some reasoning for project management. Ironically, he uses the term "batch," which is often a concept unfavorably viewed in Agile and Lean circles.
 
-However, when a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence is as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint, and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
+However, when a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence may be as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint, and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
 
 Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimization is a known problem in systems engineering and cannot be wished away through merely invoking the word "Agile."
 
 Not all problems respond to iteration. Iterative solutions may make sense in some cases; in other cases, a higher degree of certainty is required before any solutioning is attempted. Attempting to iteratively refine a given solution may result in completely missing a higher order mode in a complex space.
+
+* tactical needs for PM: resources, team performance - see Cohn
 
 ===== Collaboration at scale
 [quote, Mark Kennaley, SDLC 3.0]
@@ -34,8 +39,19 @@ Limoncelli - IT in old days would spin up a system with a project team and then 
 
 ultimately, the decision of EA...
 
-===== Project management antipatterns
+===== Agile project management
+* Rolling wave planning
+* Last responsible moment
 
-The estimation controversy (sidebar?)
+===== Project management antipatterns
+* Project change control
+* The estimation controversy (sidebar?)
+* Impersonal requirements ()
+* "nothing is real unless it's a project"
+
+===== The Agile project frameworks
+* SAFe
+* DaD
+* etc
 
 ===== The future of project management

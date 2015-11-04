@@ -23,7 +23,7 @@ In general, it is an article of faith in the Agile and Lean communities that mot
 
 But what motivates people?
 
-One of the oldest discussions of culture is Douglas McGregor's idea of http://www.wikipedia.org/ ["Theory X" vs "Theory Y"] organizations, which he developed in the 1960s at the Massachusetts Institute of Technology.
+One of the oldest discussions of culture is Douglas McGregor's idea of http://www.wikipedia.org/["Theory X" vs "Theory Y"] organizations, which he developed in the 1960s at the Massachusetts Institute of Technology.
 
 "Theory X" organizations rely on extrinsic motivators and operate on the assumption that workers must be cajoled and punished in order to produce results. We see Theory X approaches when organizations focus on pay scales, bonuses, titles, awards, writeups/demerits, performance appraisals, and the like.
 

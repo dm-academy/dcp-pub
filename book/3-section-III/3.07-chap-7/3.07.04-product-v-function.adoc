@@ -3,7 +3,7 @@
 [quote, Sriram Narayan, Agile IT Organization Design]
 Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“ They threw the rule book at us,” “What bureaucracy!”
 
-By this time, you probably detect that there is a fundamental tension between functional specialization and end to end value delivery. This tension is the topic of endless research, articles, books, and commentary, in the mainstream business press and more specialized channels. The tension may go by different names:
+By this time, you probably detect that there is a fundamental tension between functional specialization and end to end value delivery. This tension is the topic of endless research, articles, books, and commentary in the mainstream business press and more specialized channels. The tension may go by different names:
 
 * Flow vs resource
 * Process vs silo
@@ -11,7 +11,7 @@ By this time, you probably detect that there is a fundamental tension between fu
 
 ===== Efficiency versus flow
 
-Here from an interesting presentation by Ari Tikka <<Tikka2013>> is a depiction of one dysfunctional pattern that can emerge in navigating this tension:
+Here is a depiction of one dysfunctional pattern, from an interesting presentation by Ari Tikka <<Tikka2013>>, that can emerge in navigating this tension:
 
 image::images/3.07-flow-v-efficiency.png[]
 
@@ -87,7 +87,7 @@ Finally, in the skunkworks model, all functional influence is deliberately block
 
 image::images/3.07-skunk.png[]
 
-The product team has complete autonomy, and can move at great speed. It is also free to
+The product team has complete autonomy, and can move at great speed. It is also free to:
 
 * re-invent the wheel, developing new solutions to old and well-understood problems
 * bring in new components on a whim (regardless of whether they are truly necessary) adding to procurement complexity,

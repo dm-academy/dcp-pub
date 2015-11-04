@@ -1,5 +1,5 @@
 ==== Conclusion
-Beware of simplistic progression models, which imply that organizational forms evolve from authoritarian to enlightened. You never get to done with organizational development and evolution. It is always an ongoing process, of balancing culture, centralization, and autonomy. Rather than seeking any "best practice," it is better to see a toolbox, or perhaps a set of levers you can position in various ways to get different results.
+Beware of simplistic progression models, which imply that organizational forms evolve from authoritarian to enlightened. You never get to done with organizational development and evolution. It is always an ongoing process of balancing culture, centralization, and autonomy. Rather than seeking any "best practice," it is better to see a toolbox, or perhaps a set of levers you can position in various ways to get different results.
 
 As of 2015, product-centric Agile teams are becoming more and more common. But there are ultimately limitations to this approach, which many companies have experienced.
 

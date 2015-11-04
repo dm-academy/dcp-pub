@@ -141,17 +141,14 @@ The basic problem: if the Developer is released from the project on June 15, and
 
 Because of this, the project may retain some residual claim on all the engaged resources, but their utilization may be low or zero at certain points. Pivoting the above diagram 90 degrees, we start to develop an understanding of the interrelatedness of product development:
 
-// image::images/3.08-overlapping.png[]
+image::https://upload.wikimedia.org/wikipedia/commons/1/19/Development-iterative.png[]
 
-NOTE: The above diagram resembles the Rational Unified Process <<link>>. This is deliberate. RUP is notable as an early and widely publicized illustration of these matters.
+_Rational Unified Process, from https://en.wikipedia.org/wiki/Rational_Unified_Process[Wikpedia]_
 
 The project manager is expected to manage the uncertain handoffs between the various functional areas, and anticipate resource requirements stemming from unexpected feedback demands.
 
-===== The problem of fractional allocation
-
 
 ===== Critical chain & related topics [to be written]
-
+* The problem of fractional allocation
 * Execution, resource & scheduling constraints
-* Last responsible moment
 * Reinertsen's critique of CC

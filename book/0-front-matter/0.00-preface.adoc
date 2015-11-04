@@ -174,9 +174,7 @@ So, what exactly IS this textbook, anyhow?
 * It is the first general, survey-level text on IT management with a specific Agile and Lean IT orientation.
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
-* Because it is written with continuous integration and print on demand techniques, it can be continually updated to reflect current industry trends
-
-
+* Because it is written with continuous integration and print on demand techniques, it can be continually updated to reflect current industry trends.
 
 ==== Current textbooks
 

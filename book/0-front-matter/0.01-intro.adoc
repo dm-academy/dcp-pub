@@ -75,7 +75,6 @@ Elaborating the above outline into chapters, we have:
 
 . _Architecture and portfolio_ We need to understand the big picture of interacting lifecycles, reduce technical debt and redundancy, accelerate development through establishing platforms, and obtain better economies of scale. We need to define our investment strategy based on a sound understanding of both business needs and technology limitations.
 
-
 ..... *Appendices*
 . _A review of IT frameworks and standards_
 . _Architectural depictions_

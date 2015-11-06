@@ -47,7 +47,7 @@ The bubbles represent a "space" where one is likely to find that kind of work. A
 |Severe incidents by definition are not planned. But they represent a significant amount of work to overcome.
 |===
 
-Some forms of work may lead to other forms of work. For example, Projets may manifest as Stories, Releases, and Changes. This complicates the diagram a bit; we don't want to "double-count" work effort. But not all Releases derive from Projects, and not all Project work (especially in complex environments) can be cleanly reduced to a set of smaller tasks.
+Some forms of work may lead to other forms of work. For example, Projects may manifest as Stories, Releases, and Changes. This complicates the diagram a bit; we don't want to "double-count" work effort. But not all Releases derive from Projects, and not all Project work (especially in complex environments) can be cleanly reduced to a set of smaller tasks.
 
 The final point of this diagram: you only have so much capacity to execute the work it implies. If you have a disaster, it may impact your ability to deliver user stories, changes, or even meet transactional demand. Trade-offs must be considered.
 
@@ -56,7 +56,6 @@ The second half of this book will devote increasing attention to frameworks. Wha
 A framework is a formalized body of knowledge, usually sustained by some appropriate professional body, that defines the necessary and appropriate skills and concepts for practitioners.
 
 The Project Management Body of Knowledge is sustained by the Project Management Institute,
-
 _the world's leading not-for-profit professional membership association for the project, program and portfolio management profession. Founded in 1969, PMI delivers value for more than 2.9 million professionals working in nearly every country in the world through global advocacy, collaboration, education and research. PMI advances careers, improves organizational success and further matures the profession of project management through its globally recognized standards, certifications, resources, tools, academic research, publications, professional development courses, and networking opportunities_ (from http://www.pmi.org/About-Us.aspx[www.pmi.org]).
 
 The Project Management Body of Knowledge is articulated in a publication, _A Guide to the Project Management Body of Knowlege._ While this may seem to imply that the PMBOK and its guide are two different things, they are not -- it is one publication.
@@ -101,7 +100,7 @@ Each process is categorized by one Process Group and one Knowledge Area, resulti
 
 PMBOK details are easily obtained on the web, and will not be repeated here. It's clear that the Agile critiques of waterfall project management have been taken seriously by the PMBOK braintrust. There is now a PMI Agile certification and much explicit recognition of the need for iterative and incremental approaches to project work.
 
-PMBOK as a whole remains extensive and complex when considered as a whole. This is necessary, as it is used to manage extraordinarily complex and costly efforts in domains such as construction, military/aerospace, government, and others. Some of these efforts (especially those involving systems engineering, over and above software engineering) do have requirements for extensive planning and control that PMBOK meets well.
+PMBOK remains extensive and complex when considered as a whole. This is necessary, as it is used to manage extraordinarily complex and costly efforts in domains such as construction, military/aerospace, government, and others. Some of these efforts (especially those involving systems engineering, over and above software engineering) do have requirements for extensive planning and control that PMBOK meets well.
 
 However, in Agile domains that seek to be more adaptive to changing business dynamics, full use of the PMBOK framework may be unnecessary and wasteful. The accepted response is to "tailor" the guidance, omitting those plans and deliverables that are not needed.
 

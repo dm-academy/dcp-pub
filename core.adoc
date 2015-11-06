@@ -151,6 +151,16 @@ include::book/3-section-III/3.08-chap-8/3.08.99-conclusion.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.00-intro.adoc[]
 
+include::book/3-section-III/3.09-chap-9/3.09.01-why-process-mgmt.adoc[]
+
+include::book/3-section-III/3.09-chap-9/3.09.02-process-theory.adoc[]
+
+include::book/3-section-III/3.09-chap-9/3.09.03-process-frameworks.adoc[]
+
+include::book/3-section-III/3.09-chap-9/3.09.04-continuous-improvement.adoc[]
+
+include::book/3-section-III/3.09-chap-9/3.09.05-process-topics.adoc[]
+
 include::book/3-section-III/3.09-chap-9/3.09.99-conclusion.adoc[]
 
 include::book/4-section-IV/4.00-intro/4.00-intro.adoc[]

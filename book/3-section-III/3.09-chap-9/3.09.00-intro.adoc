@@ -9,11 +9,6 @@ However, some less than effective things have been done in the name of "process.
 Nevertheless, process remains an important tool in the toolkit for organization design.
 
 ===== Chapter 9 overview
-****
-Sidebar: Introducing ITIL.
-****
-
-Placeholder for chapter 8 introduction.
 
 * Process management basics
  - BPM community

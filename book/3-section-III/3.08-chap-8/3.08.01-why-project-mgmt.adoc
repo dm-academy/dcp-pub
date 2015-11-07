@@ -24,7 +24,7 @@ We could start with the following list:
 
 One of the important characteristics of a project is that it is temporary. This project ends when we clean up after the party - not the most fun part.
 
-Project management however takes things much further. There are a number of ways that the list above can be refined using project management techniques.
+Project management, however, takes things much further. There are a number of ways that the list above can be refined using project management techniques.
 
 First, we should probably organize the list a little better. And the task "clean house" - do we understand precisely what we mean by that? Maybe we should break this down into sub-tasks. There is also a question about "choose menu" - isn't the menu part of the project plan? Also, you may notice that there are "dependencies." For example, we can't send out invitations before we choose the date, nor can we fix the party food before we get groceries.
 
@@ -123,4 +123,4 @@ Cloud changed all this. The long hardware acquisition cycle was gone. And new sy
 
 A current project (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team might simply analyze the overall structure of the epic, decomposing it into stories and features, and spending the time to organize them into a logical sequence.
 
-A project manager may well be in the mix, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowlegeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
+A project manager may well be in the mix, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.

@@ -157,9 +157,11 @@ include::book/3-section-III/3.09-chap-9/3.09.02-process-theory.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.03-process-frameworks.adoc[]
 
-include::book/3-section-III/3.09-chap-9/3.09.04-continuous-improvement.adoc[]
+include::book/3-section-III/3.09-chap-9/3.09.04-Agile-process.adoc[]
 
-include::book/3-section-III/3.09-chap-9/3.09.05-process-topics.adoc[]
+include::book/3-section-III/3.09-chap-9/3.09.05-continuous-improvement.adoc[]
+
+include::book/3-section-III/3.09-chap-9/3.09.06-process-topics.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.99-conclusion.adoc[]
 

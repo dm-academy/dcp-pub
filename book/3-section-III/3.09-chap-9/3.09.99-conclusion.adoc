@@ -12,6 +12,9 @@ Conclusion placeholder
 
 *Articles*
 http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/
+http://wwwis.win.tue.nl/~wvdaalst/publications/p712.pdf
+
+http://www.computing.dcu.ie/~mcrane/CA441/BPMLectureNotes.pdf
 
 *Videos*
 

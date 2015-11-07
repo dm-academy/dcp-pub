@@ -5,9 +5,9 @@ A project is a temporary endeavor undertaken to create a unique product, service
 
 Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of product management, in implementing truly new IT-based products, estimating time and budget can be difficult because *the necessary information is not available*. In fact, creating it is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
 
-However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning and resource management have not gone away and without project management, financial planning meets challenges, especially regarding the most ambitious efforts, the ones most critical to the business. The very concept of having a vision becomes problematic without some ability to plan.
+However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning and resource management have not gone away, and without project management financial planning meets challenges, especially regarding the efforts most critical to the business. The very concept of having a vision becomes problematic without some ability to plan.
 
-Because of this, this chapter also covers IT financial management, sourcing, and human resource management at an introductory level.
+Because of these interrelated dependencies, this chapter also covers IT financial management, sourcing, and human resource management at an introductory level.
 
 ==== Introduction to Chapter 8
 

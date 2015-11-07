@@ -1,5 +1,7 @@
 ==== Topics in process management
 
+===== The complex relationship of process and Agile
+
 ===== Cynefin and "best practice"
 
 ===== Process antipatterns

@@ -33,3 +33,5 @@ Check that all chapters flow as noted
 . Business
 . Process
 . System
+
+BASE THE BOOK ON USER STORIES - at least 2-3 each chapter... 

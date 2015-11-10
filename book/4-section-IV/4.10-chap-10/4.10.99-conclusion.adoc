@@ -7,20 +7,16 @@ Conclusion placeholder
 ===== Research & practice
 
 ===== Further reading
-https://softvis.files.wordpress.com/2010/12/gradybooch-whydontdevelopersdrawdiagrams-softvis2010.pdf
 
-http://www.ruthmalan.com/Journal/2010/2010JournalOctober.htm#Why_Dont_Developers_Draw_Diagrams
-
-http://www.ruthmalan.com/Journal/2010/2010JournalOctober.htm#Reworking_some_of_the_ideas:_Why_Dont_Developers_Draw_Diagrams
-
-http://www.computer.org/csdl/mags/so/2011/01/mso2011010006-abs.html
-
-http://www.ruthmalan.com/journal/2011/2011JournalSeptember.htm#When_Are_Diagrams_Useful
 
 
 *Books*
+* CISSP Guide
+
 
 *Articles*
+https://technet.microsoft.com/en-us/magazine/2006.09.businessofit.aspx
+http://searchdatamanagement.techtarget.com/definition/compliance
 
 *Videos*
 

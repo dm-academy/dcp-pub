@@ -46,6 +46,8 @@ Product Development] (Research supporting Conway's Law)
 
 * http://www.mintzberg.org/blog/slabs[Enough of silos? How about slabs?]
 
+* http://www.fastcompany.com/944128/worker-interrupted-cost-task-switching?utm_content[WORKER, INTERRUPTED: THE COST OF TASK SWITCHING]
+
 *Videos*
 
 * https://www.youtube.com/watch?v=Mpsn3WaI_4k[Spotify model, part 1]

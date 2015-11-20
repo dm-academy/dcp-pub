@@ -15,6 +15,7 @@ http://www.amazon.com/Drift-into-Failure-Sidney-Dekker/dp/1409422216
 *Articles*
 
 http://tdan.com/agile-methodologies-in-edm-projects/19062
+http://martinfowler.com/bliki/BoundedContext.html
 
 *Videos*
 

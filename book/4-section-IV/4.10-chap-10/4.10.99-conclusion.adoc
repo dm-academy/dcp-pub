@@ -8,15 +8,14 @@ Conclusion placeholder
 
 ===== Further reading
 
-
-
 *Books*
 * CISSP Guide
-
 
 *Articles*
 https://technet.microsoft.com/en-us/magazine/2006.09.businessofit.aspx
 http://searchdatamanagement.techtarget.com/definition/compliance
+http://continuousdelivery.com/2013/08/risk-management-theatre/
+http://www.sonatype.org/nexus/2015/11/13/did-you-wake-up-to-an-alert-about-the-java-deserialization-vulnerability
 
 *Videos*
 

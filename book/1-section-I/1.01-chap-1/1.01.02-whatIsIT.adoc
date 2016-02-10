@@ -46,10 +46,10 @@ On further investigation, it became clear that the natives were seeking more “
 
 In 1974, the noted physicist Richard Feynman gave a speech at Caltech in which he coined the immortal phrase “cargo cult science.” His intent was to caution against activities which appear to follow the external form of science, but lack the essential understanding at its core.
 
-It should be noted, as with most archetypes of this sort, that there are questions around the accuracy of the original accounts and Western interpretations and mythmaking around what was seen. However there is no question that the phenomena were observed. There is also no doubt that “cargo cult thinking” is a useful cautionary metaphor.
+It should be noted, as with most archetypes of this sort, that there are questions around the accuracy of the original accounts and Western interpretations and mythmaking around what was seen. However there is no question that the phenomena were observed, and that “cargo cult thinking” is a useful cautionary metaphor.
 ****
 
-Nicholas Carr, in his controversial _Harvard Business Review_ article "IT Doesn't Matter," recognized that IT was becoming commoditized in an important sense. As Cloud providers started to offer utility-style computing, the choice of vendors like HP vs IBM was no longer strategic. Looking to history, Carr argued that just as businesses no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.
+Nicholas Carr, in his controversial _Harvard Business Review_ article "IT Doesn't Matter," recognized that IT was becoming commoditized in an important sense. As Cloud providers started to offer utility-style computing, the choice of particular vendors of computers was no longer strategic. Looking to history, Carr argued that just as businesses no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.
 
 Carr has insight -- there is no question IT is becoming pervasive -- but he ultimately reflects a narrow view of what “IT” is. If “IT” were merely computation at the lowest level -- just shuffling bits of information around, doing a little math -- then perhaps it could be embedded throughout a business like electricity.
 
@@ -64,6 +64,13 @@ A lawyer may depend on a cell phone, and (in keeping with Carr) beyond its provi
 On the other hand, consider a text analytic algorithm that replaces thousands of paralegals, resulting in order-of-magnitude more accurate legal research in a fraction of cost and time. This *is* strategic and disruptive to the legal community. A superior supply chain algorithm, and the ability to improve it on an ongoing basis, may indeed elevate a logistics firm’s performance above competitors. In cases like these -- and they seem to be increasing -- IT matters very much.
 
 In the digitally transforming economy, traditional “back office” IT organizations find themselves called on to envision, develop, and support market-facing applications of IT. And what starts with one market-facing use case can quickly expand into entire portfolios.  It is such cases that are of particular concern in this book.
+
+Ultimately, it is possible that IT is the *most* strategic capability an organization can invest in. As the editor in chief of _IEEE Software_ notes <<Spinellis2015>>,
+
+[quote, Diomidis Spinellis, IEEE Software]
+other industries are also producing what’s in effect software (executable knowledge) but not treating it as such . . . Although many industries have developed their own highly effective processes over the years, software engineering maintains an essential advantage. It has developed methods and tools that let even small teams manage extremely high complexity . . . This advantage is important because the complexity in non-software activities is also increasing inexorably . . . [T]he time has come to transform our world… by giving back to science and technology the knowledge software engineering has produced.
+
+This ability to manage complexity, to turn tacit into explicit and formalize the previously unstructured, is an essential aspect of digital transformation.
 
 ====== Are you "doing IT?"
 
@@ -82,7 +89,7 @@ Regardless of whether IT is housed under a traditional CIO, an operations capabi
 * Support
 * Improvement
 
-Executives who take control of information technology in hopes of making it more agile are often surprised to find that these concerns were not mere bureaucracy, but instead had well grounded origins in past failures. Ignoring these lessons is perilous.
+Executives who take control of information technology in hopes of making it more "agile" are often surprised to find that these concerns were not mere bureaucracy, but instead had well grounded origins in past failures. Ignoring these lessons is perilous.
 
 And yet, the traditional, process-heavy IT organization does seem dysfunctional from a business point of view: a central theme of this book.
 

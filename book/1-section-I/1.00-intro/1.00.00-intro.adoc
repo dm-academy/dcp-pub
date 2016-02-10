@@ -6,7 +6,7 @@ In this section, we  explore the fundamentals of information technology delivery
 
 *Scenario*
 
-You are working in a startup, alone or with one partner. You are always in the same room, easily able to carry on a running conversation about your efforts and progress. You have no time or resources to spend on anything except keeping your new system alive and running.
+You are working in a startup, alone or with one or two partners. You are always in the same room, easily able to carry on a running conversation about your efforts and progress. You have no time or resources to spend on anything except keeping your new system alive and running.
 
 *Chapter 1: IT Value*
 
@@ -32,4 +32,4 @@ This is also the "DevOps" chapter; it's not just about writing code, but about t
 
 *This section's lab approach*
 
-While this is not a book about any particular computing language or platform, we need to describe some technical fundamentals. We’ll do so in as neutral a manner as possible. However, the specific technologies employed in this books’ accompanying labs are based on Ubuntu Linux and git, the distributed version control system created by Linus Torvalds to facilitate Linux development.
+While this is not a book about any particular computing language or platform, we need to describe some technical fundamentals. We’ll do so in as neutral a manner as possible. However, this books’ accompanying labs are based on http://www.ubuntu.com/[Ubuntu Linux] and https://git-scm.com/[git], the distributed version control system created by Linus Torvalds to facilitate Linux development.

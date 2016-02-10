@@ -15,13 +15,13 @@ _-ctb_
 endif::collaborator-draft[]
 
 
-As noted at the outset, you are one or two people in a startup. You are building a product of which IT is a significant part (otherwise why are you reading this book/in this class?) Your motivations are entrepreneurial; you want to create a successful business.
+As noted at the outset, you are a small core of a startup. You are building a product of which IT is a significant part (otherwise why are you reading this book/in this class?) Your motivations are entrepreneurial; you want to create a successful business.
 
 You might be housed within a larger enterprise, but the thought experiment here is that you have substantial autonomy to order your efforts.
 
 You want to do something that has a unique IT component. Regardless of your business, you will need accounting and legal services at a minimum, and very quickly payroll and HR, and so forth. Those things can (and should) be purchased as commodity services, if you are a small entrepreneur (I am not aware of any convincing arguments to the contrary, unless you are absolutely on the smallest of shoestring budgets and can work 100 hour weeks).
 
-Your unique value proposition will be expressed to some degree in unique IT software. While this software may be based on well understood products, the configuration and logic you construct will be all your own. Because of this, you are now (whether you intend or not) a producer (or soon to be) of IT services.
+Your unique value proposition will be expressed to some degree in unique IT software. While this software may be based on well understood products, the configuration and logic you construct will be all your own. Because of this, you are now a producer (or soon to be) of IT services.
 
 Before we can talk about building and managing information technology (IT), we need to understand what it is and why people want it. We'll start this chapter by looking at an IT value experience that may seem very familiar. Then we'll dig further into concepts like the "IT stack" and the "IT service" and how they change over time.
 

@@ -149,6 +149,8 @@ IEEE Press.
 
 - [[[Smith1998]]]: Smith, P. G. and D. G. Reinertsen (1998). _Developing products in half the time : new rules, new tools (2nd edition)_ New York ; London, Van Nostrand Reinhold.
 
+- [[[Spinellis2015]]]: Spinellis, D. (2015). "Extending Our Field's Reach." _IEEE Software:_ 4-6. December 2015.
+
 - [[[Sterman2000]]]: 	Sterman, J., 2000. _Business dynamics : systems thinking and modeling for a complex world_ Boston: Irwin/McGraw-Hill. xxvi, 982 p.
 
 - [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum : the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.

@@ -31,7 +31,7 @@ As you proceed into the course, the key takeway from this chapter is "why IT?" W
 
 * https://en.wikipedia.org/wiki/Technology_stack[definitions of IT stack] (follow links)
 
-http://www.nytimes.com/2014/12/01/business/working-the-land-and-the-data.html?smid=tw-share&_r=0[Working the Land and the Data]
+* http://www.nytimes.com/2014/12/01/business/working-the-land-and-the-data.html?smid=tw-share&_r=0[Working the Land and the Data]
 
 ===== Picture credits:
 

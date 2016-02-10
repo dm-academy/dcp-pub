@@ -14,7 +14,7 @@ _-ctb_
 
 endif::collaborator-draft[]
 
-As mentioned in the section introduction, you cannot start developing a product until you decide what you will write it with. (You may have a difficult time writing an app for a mobile phone if you choose the COBOL programming language!)  You also need to understand something of how computers are operated, enough so that you can make decisions on how your system will run. Most startups choose to run IT services on infrastructure owned by a Cloud provider, but there are other options. Certainly, as you scale up, you'll need to be more and more sophisticated in your understanding of your underlying IT services.
+As mentioned in the section introduction, you cannot start developing a product until you decide what you will build it with. (You may have a difficult time writing an app for a mobile phone if you choose the COBOL programming language!)  You also need to understand something of how computers are operated, enough so that you can make decisions on how your system will run. Most startups choose to run IT services on infrastructure owned by a Cloud provider, but there are other options. Certainly, as you scale up, you'll need to be more and more sophisticated in your understanding of your underlying IT services.
 
 Configuring your base platform is one of the most important capabilities you will need to develop. You'll never stop doing it. The basis of modern configuration management is source control, which we cover here.
 

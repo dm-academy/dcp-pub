@@ -26,7 +26,7 @@ The diagram has two dimensions:
 * Planning
 * Granularity
 
-The bubbles represent a "space" where one is likely to find that kind of work. As indicated by the central diagonal, it reflects an assumption that larger amounts of work are more likely to be planned further in advance. However, this is not always true. A large, unwelcome amount of required work that shows up with no planning is probably a disaster. Desired work (in the form of transactional demand) may also spike.
+The bubbles represent a "space" where one is likely to find that kind of work. As indicated by the central diagonal, it reflects an assumption that larger amounts of work are more likely to be planned further in advance. However, this is not always true. A large, unwelcome amount of required work that shows up with no planning is probably a disaster. Desired work (in the form of aggregate transactional demand) may also spike unexpectedly.
 
  [The following table is work in process, currently with just a few examples filled in]
 
@@ -55,7 +55,8 @@ The final point of this diagram: you only have so much capacity to execute the w
 The second half of this book will devote increasing attention to frameworks. What is a framework?
 A framework is a formalized body of knowledge, usually sustained by some appropriate professional body, that defines the necessary and appropriate skills and concepts for practitioners.
 
-The Project Management Body of Knowledge is sustained by the Project Management Institute,
+The Project Management Body of Knowledge is sustained by the Project Management Institute. PMI describes itself as:
+
 _the world's leading not-for-profit professional membership association for the project, program and portfolio management profession. Founded in 1969, PMI delivers value for more than 2.9 million professionals working in nearly every country in the world through global advocacy, collaboration, education and research. PMI advances careers, improves organizational success and further matures the profession of project management through its globally recognized standards, certifications, resources, tools, academic research, publications, professional development courses, and networking opportunities_ (from http://www.pmi.org/About-Us.aspx[www.pmi.org]).
 
 The Project Management Body of Knowledge is articulated in a publication, _A Guide to the Project Management Body of Knowlege._ While this may seem to imply that the PMBOK and its guide are two different things, they are not -- it is one publication.
@@ -96,7 +97,7 @@ Finally, the 47 project management "processes" include topics such as (selected 
 * Direct and Manage Project Work
 * Perform Integrated Change Control
 
-Each process is categorized by one Process Group and one Knowledge Area, resulting in a matrix. A full matrix is not presented here due to copyright issues, but one can be seen http://www.focus-on-training.co.uk/blog/pmbok-process-groups-knowledge-areas[here].
+Each process is categorized by one Process Group and one Knowledge Area, resulting in a matrix. A full matrix is not presented here due to copyright concerns, but one can be seen http://www.focus-on-training.co.uk/blog/pmbok-process-groups-knowledge-areas[here].
 
 PMBOK details are easily obtained on the web, and will not be repeated here. It's clear that the Agile critiques of waterfall project management have been taken seriously by the PMBOK braintrust. There is now a PMI Agile certification and much explicit recognition of the need for iterative and incremental approaches to project work.
 
@@ -106,10 +107,9 @@ However, in Agile domains that seek to be more adaptive to changing business dyn
 
 For example, PMBOK calls for a "stakeholder management plan" to be produced as part of the Project Stakeholder Management knowledge area and the Planning process group. The author has never seen one of these deliverables produced, in years of enterprise experience. However, for certain projects they may make sense.
 
-Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to this.
+Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
 
 ===== Scheduling and execution
-
 
 To understand how project management works across a functionally organized system, consider the internals of each functional area:
 
@@ -117,9 +117,9 @@ image::images/3.08-mfg-w-resource.png[]
 
 Each combination of worker and equipment can be considered a workstation in this simplified model.
 
-If there is concern for flow across the functional areas, one technique used in manufacturing is that of expediting. The expeditor tracks the process across the work stations and ensures that any friction or blockages are overcome so that the entire process completes and value is delivered. This can be seen as a preliminary form of project management.
+If there is concern for flow across the functional areas, one technique used in manufacturing is that of expediting. An individual in the role of  "expeditor" tracks the process across the work stations and ensures that any friction or blockages are overcome so that the entire process completes and value is delivered. This can be seen as a preliminary form of project management.
 
-As the production line evolves, scheduling may be used as well: the assignment of work to each workstation (combination of worker and equipment) may have its timing and duration specified in advance. While this is not an optimal approach according to Lean philosophy (which emphasizes "pull" techniques), production scheduling is widely used in manufacturing.
+As the production line evolves, scheduling may be used as well: the assignment of work to each workstation (combination of worker and equipment) may have its timing and duration specified in advance. While this is not an optimal approach according to Lean philosophy (which emphasizes "pull" techniques), https://en.wikipedia.org/wiki/Scheduling_(production_processes)[production scheduling] is widely used in manufacturing.
 
 NOTE: Production scheduling is a large topic in and of itself. It is part of the domain of interest of the professional organization, The American Production and Inventory Control Society (APICS).
 
@@ -146,6 +146,7 @@ _Rational Unified Process, from https://en.wikipedia.org/wiki/Rational_Unified_P
 
 The project manager is expected to manage the uncertain handoffs between the various functional areas, and anticipate resource requirements stemming from unexpected feedback demands.
 
+Ultimately, the reason classical production scheduling is inappropriate for delivering new IT functionality is that there is simply too much variability in product development. (Again see Chapter 4 for further discussion of this.) However, this does not change the fact that some level of planning and estimation is needed. To what extent this more variable IT work can be quantitatively managed is an active area of discussion in the software, Agile, and related communities.
 
 ===== Critical chain & related topics [to be written]
 * The problem of fractional allocation

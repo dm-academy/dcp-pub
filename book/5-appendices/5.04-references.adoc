@@ -98,6 +98,8 @@
 
 - [[[Limoncelli2014]]]: Limoncelli, T. A.; Chalup, S. R. & Hogan, C. J. (2014), _The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Vol. 2_,  Pearson Education
 
+- [[[Loeliger2009]]]: Loeliger, J. (2009). _Version control with Git_. Beijing ; Sebastopol, CA, O'Reilly.
+
 - [[[Madachy2008]]]: Madachy, R. J. (2008). _Software process dynamics._ Hoboken, NJ Piscataway, NJ, Wiley;
 IEEE Press.
 

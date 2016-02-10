@@ -20,9 +20,9 @@ Sidebar: Can microservices eliminate most or all need for cross-team communicati
 
 * Function vs process
 
-* Practice vs process
+* Practice, discipline, capability vs process
 
-* process vs execution (execution includes concern for resource)
+* Process and execution (execution includes concern for resource)
 
 * "Process" at Toyota (Rother)
 

@@ -22,11 +22,11 @@ We could start with the following list:
 |Clean up after party
 |===
 
-One of the important characteristics of a project is that it is temporary. This project ends when we clean up after the party - not the most fun part.
+One of the important characteristics of a project is that it is temporary. This project ends when we clean up after the party.
 
 Project management, however, takes things much further. There are a number of ways that the list above can be refined using project management techniques.
 
-First, we should probably organize the list a little better. And the task "clean house" - do we understand precisely what we mean by that? Maybe we should break this down into sub-tasks. There is also a question about "choose menu" - isn't the menu part of the project plan? Also, you may notice that there are "dependencies." For example, we can't send out invitations before we choose the date, nor can we fix the party food before we get groceries.
+First, we should probably organize the list a little better. And the task "clean house" - do we understand precisely what we mean by that? Maybe we should break this down into sub-tasks.  Also, you may notice that there are "dependencies." For example, we can't send out invitations before we choose the date, nor can we fix the party food before we get groceries, which in turn depends on setting the menu.
 
 Let's break out the heavyweight tools. Introducing Microsoft Project:
 
@@ -88,20 +88,20 @@ The project is starting off as a list of tasks, that is essentially identical to
 
 * The project is explicitly time-bound. It is more flexible than the repetitive, time-boxed sprints of Scrum, but more fixed than the ongoing flow of Kanban.
 
-The project has an explicit concept of dependencies in the tasks, and powerful tools to manage them. While this book aligns with the Agile movement in avoiding needless assumption of dependencies (e.g. waterfall method), they *do* exist - especially in the most ambitious and complex product efforts! And tools are needed to manage them.
+The project has an explicit concept of dependencies in the tasks, and powerful tools to manage them. While this book aligns with the Agile movement in avoiding unwarranted assumption of dependencies (i.e. waterfall method), they *do* exist - especially in the most ambitious and complex product efforts! And techniques are needed to manage them.
 
 Project management also has more robust tools for managing people's time and effort, especially as they translate to project funding. While this may be a contentious aspect of project management (see later in this chapter on the #NoEstimates controversy), it remains a critical part of management practice in both IT and non-IT domains.
 
- [more]
+At the end of the day, people expect to be paid for their time, and investors expect to be compensated through the delivery of results. Investment capital only lasts as a function of an organization's "burn rate;" the rate at which the money is consumed for salaries and expenses. Some forecasting of status (whether that of a project, organization, product, program, or what have you) is therefore an essential and unavoidable obligation of management, unless funding is unlimited (a rare situation to say the least.)
 
-===== Project management in information technology
+===== A traditional information technology project
 So, what does all this have to do with information technology? As we have discussed in previous chapters, project management is one of the main tools used to deliver value across specialized skill-based teams.
 
-A "traditional" IT project starts with the "sponsorship" of some executive with standing to request funding. For example, suppose that the VP of Logistics under the Chief Operations Officer believes that a new supply chain system is required. With the sponsorship of the COO, they put in a request (possibly called a "demand request" although this varies by corporation) to implement this system. The assumption is that a commercial software package will be acquired and implemented.
+A "traditional" IT project starts with the "sponsorship" of some executive with authority to request funding. For example, suppose that the VP of Logistics under the Chief Operations Officer believes that a new supply chain system is required. With the sponsorship of the COO, they put in a request (possibly called a "demand request" although this varies by organization) to implement this system. The assumption is that a commercial software package will be acquired and implemented.
 
 The IT department serves as an overall coordinator for this project. The "demand request" in many cases is registered with the enterprise Project Management Office, which may report under the CIO.
 
-NOTE: Why does the Enterprise Project Management office report under the CIO? IT projects in many companies represent the single largest type of internally managed capital expenditure. The other major form of projects, building projects, are usually outsourced to a general contractor.
+NOTE: Why might the Enterprise Project Management office report under the CIO? IT projects in many companies represent the single largest type of internally managed capital expenditure. The other major form of projects, building projects, are usually outsourced to a general contractor.
 
 The project is initiated by establishing a charter, allocating the funding, assigning a project manager, establishing communication channels to stakeholders, and a variety of other activities.
 
@@ -117,10 +117,13 @@ Notice we call it the *systems implementation lifecycle*, not the *software deve
 
 The system requires its own hardware (servers, storage, perhaps a dedicated switch) and specifying this in some detail is required for the purchasing process to start. This in turn required advance planning and approval for the project as a whole.
 
-It would not have been much different for a fully in house developed application, except that more money would have gone to developers. The slow infrastructure supply chain still drove much of the behavior, and correctly "sizing" this infrastructure was a challenge particularly for in-house developed software. (The vendors of commercial software would usually have a better idea of the infrastructure required for a given load.) Hence much attention to much up-front planning. Without requirements, no analysis or design; without design, how to know how much server to buy?
+It would not have been much different for a fully in house developed application, except that more money would have gone to developers. The slow infrastructure supply chain still drove much of the behavior, and correctly "sizing" this infrastructure was a challenge particularly for in-house developed software. (The vendors of commercial software would usually have a better idea of the infrastructure required for a given load.) Hence much attention to up-front planning. Without requirements, no analysis or design; without design, how to know how much server to buy?
 
-Cloud changed all this. The long hardware acquisition cycle was gone. And new systems did not need to be nearly as precisely "sized," which meant that development could commence without as much up front analysis. Simpler architectures would suffice until real load was proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect was positive, as over-engineering was increasingly avoided.
+====== The decline of the "traditional" IT project
+The above scenario is in decline, and along with it a way of life for many "IT" professionals. The primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone. And new systems did not need to be nearly as precisely "sized," which meant that development could commence without as much up front analysis. Simpler architectures would suffice until real load was proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect was positive, as over-engineering and over-capacity are increasingly avoided.
 
-A current project (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team might simply analyze the overall structure of the epic, decomposing it into stories and features, and spending the time to organize them into a logical sequence.
+There is little reason to run commodity software (e.g. payroll, expenses, etc) in-house. Cloud providers such as Workday, Concur, Salesforce, and others provide ready access to the desired functionality "as a service" and concerns over security and data privacy are rapidly fading. What is left, increasingly, are those initiatives deemed "competitive" or "strategic" for the company. Usually, this means that they are going to contribute to a revenue stream. This in turn means they are "products" or significant components of them. (See Chapter 4.)
 
-A project manager may well be in the mix, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
+A significant product initiative (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team might simply analyze the overall structure of the epic, decomposing it into stories and features, and spending the time to organize them into a logical sequence.
+
+However, a project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.

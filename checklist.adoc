@@ -34,4 +34,6 @@ Check that all chapters flow as noted
 . Process
 . System
 
-BASE THE BOOK ON USER STORIES - at least 2-3 each chapter... 
+BASE THE BOOK ON USER STORIES - at least 2-3 each chapter...
+
+Should every chapter have an enterprise as well as startup reading?

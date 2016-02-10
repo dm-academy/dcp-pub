@@ -203,7 +203,23 @@ Finally, there is almost no recognition that the management of information techn
 
 Few if any discuss the challenging questions of scaling IT management, and the state transitions it implies. I believe *in embracing the scaling problem we can develop an effective pedagogy that can orient even the greenest student*.
 
-The structure of the book is documented in the next section, Introduction.
+The central advantage of this approach is that it is ideal for the new student. There are no technical prerequisites for a course based on this text, although it can be a lot of work for those completely new to IT. Most people can relate to the iconic image of a small team in a garage starting a company, and having it scale over time. Discussions of advanced IT issues such as process frameworks are presented as part of a logical evolutionary progression and thought experiment, rather than simply dropped on the unsuspecting student.
+
+Here is a conceptual illustration of an IT management progression:
+
+image::images/ITProgression.png[]
+
+As a structuring mechanism, I have tested this in the classroom with some success. I divide a 14-week semester into four major sections, with each having a distinct "persona" for the students to adopt:
+
+.... *Inception*: The students are teamed as 2-3 practitioners , each in a hypothetical startup, in a garage.
+
+.... *Collaboration*: The students are in teams of 6-9, enough for specialization to emerge, but still intensely collaborative. A startup that has started to become viable.
+
+.... *Coordination*: The entire class becomes one large organization, a "team of teams" faced with the hard problems of coordination and communication across space and time barriers.
+
+.... *Maturation*: Students are in groups of 4-5, representing the executive leadership of a large enterprise, concerned with IT portfolios, analytics, and the complex dynamics of running heterogeneous IT at massive scale.
+
+The structure of the book is further documented in the next section, Introduction.
 
 ==== Assumptions of the reader
 

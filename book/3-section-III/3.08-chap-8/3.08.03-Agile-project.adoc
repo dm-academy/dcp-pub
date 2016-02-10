@@ -1,25 +1,29 @@
 ==== Project management in the Agile era
 
+[quote, Sriram Narayan, "Scaling Agile: Problems and Solutions"]
+the project as a vehicle of IT execution has by and large, failed to live up to its promise of predictable delivery.
+
 [quote, Charles G. Cobb, The Project Manager's Guide to Mastering Agile: Principles and Practices for an Adaptive Approach]
 Agile is having a profound impact on the project management profession and will cause us to fundamentally rethink many of the well-established notions of what a project manager is...
+
+As the above quotes indicate, project management is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of product plus simple work management, without the overhead of the formalized project lifecycle suggested by PMBOK.
+
+Cloud is having related yet distinct impacts on traditional project management as well. As discussed elsewhere, projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving internal IT with considerably reduced responsibilities. Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product.
+
+It should be noted that one of the fundamental
+
+So, a couple questions emerge:
+
+* Given the above, under what circumstances does formalized project management make economic sense?
+* Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
+
+===== Is PM still needed in an Agile, product-centric, Cloud-enabled world?
 
 [quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
 What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
 
-As the above quote indicates, project management is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of product plus simple work management, without the overhead of the formalized project lifecycle suggested by PMBOK.
-
-So, a couple questions emerge:
-
-* Under what circumstances does formalized project management make economic sense?
-* Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
-
-===== PM still needed in an Agile, product-centric world?
-
 [quote, Mark Kennaley, SDLC 3.0]
 When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
-
-[quote, Sriram Narayan, "Scaling Agile: Problems and Solutions"]
-the project as a vehicle of IT execution has by and large, failed to live up to its promise of predictable delivery.
 
 Kennaley, above, provides some reasoning for project management. Ironically, he uses the term "batch," which is often a concept unfavorably viewed in Agile and Lean circles.
 
@@ -35,7 +39,6 @@ Not all problems respond to iteration. Iterative solutions may make sense in som
 [quote, Mark Kennaley, SDLC 3.0]
 Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.
 
-Limoncelli - IT in old days would spin up a system with a project team and then operate it unchanged but now, that kind of functionality is delivered by online service providers - meaning that more and more internal IT is differentiating and requires those skills not just "stick some vendor delivered software on a box and run it"
 
 ultimately, the decision of EA...
 
@@ -55,3 +58,11 @@ ultimately, the decision of EA...
 * etc
 
 ===== The future of project management
+
+Recall ultimately our three "Ps":
+
+* Product
+* Project
+* Process
+
+Taken together, the three represent a coherent set of concerns for value delivery in various forms. But in isolation, any one of them ultimately is limited. This is a particular challenge for project management, whose practitioners may invest deeply in their chosen field of expertise. The field of project management, in turn, has its own expansionist tendencies, to the point where the PMO has become the arbiter of all IT investments in some organizations.

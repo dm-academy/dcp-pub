@@ -11,3 +11,6 @@ A script such as iac.sh is executed line by line, i.e., it is imperative. But in
 Chef, Puppet, Salt Stack, and Ansible are all declarative to some degree.
 
 This is a complex topic and there are advantages and disadvantages to each approach. (See http://markburgess.org/blog_order.html["When and Where Order Matters"] by Mark Burgess for an advanced discussion.) But policy-based approaches seem to have the upper hand for now.
+
+
+_describe modern infra managers, policy management, auto-scaling as an example, provide an example Chef script.._

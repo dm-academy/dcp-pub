@@ -1,4 +1,6 @@
-== Preface
+== Preface to the Instructor
+
+The goal of a preface is to position a book, to frame it and help the interested person decide if it makes sense for them. It also helps to tell the story of the book.
 
 This preface covers:
 
@@ -12,7 +14,9 @@ This preface covers:
 
 A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
 
-Because of this, the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five. However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of:
+Because of this, the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five.
+
+However, IT remains under-managed and poorly understood relative to peer functions in the enterprise. It struggles with a reputation for expensive inflexibility and Dilbert-esque dysfunction. The DevOps and Agile movements promise transformation, but are encountering an entrenched legacy of:
 
 * enterprise architecture,
 * program and project management,
@@ -48,22 +52,21 @@ I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota,
 
 As you can imagine, this breadth of experience poses some challenges, but also presents opportunities if one can figure out good ways for the students to teach each other -- to be covered in the associated lab materials.
 
-My class is titled "IT Infrastructure" for historical reasons (derived from the "IT Infrastructure Library," or ITIL), and was intended from its creation to cover the management of IT broadly. It is not limited to a narrower definition of "IT infrastructure" that would focus only on servers, operating systems, storage, networking, data centers, and the like. Rather, it serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, and so forth.
-
+My class is entitled "Modern IT Delivery," and has been intended from its creation to cover the management of IT broadly. It serves as a contextual course for the students in their in-depth studies of programming, databases, security, networking, IT processes, and so forth.
 ifdef::instructor-ed[]
 
 _Instructor's note_
 
-As of this writing (July 2015) I am looking forward to teaching my class a fourth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that *IT education in this country is broken*.
+As of this writing (February 2015) I am looking forward to teaching my class a fifth time. While I do not consider myself an expert instructor, I have learned a few things about what works in the classroom. I also think I have a good understanding of where the IT industry is going, and what students need to learn to be effective as industry practitioners. In fact, this book is written partly out of a sense that *IT education in this country is broken*.
 
 This may seem like a presumptuous thing for an adjunct faculty to say, but my day job is as a consultant to senior IT leaders at some of the largest corporations in the world. None of them feel well served by the current IT educational system.footnote:[I admit my bias is US-centric. There is a European discipline called "informatics," that may be closer to what is needed.] "The students coming out don't even understand what source control is," goes one frequent complaint. And Agile methods, if mentioned at all, are presented in a context- and experience-free manner.
 
 This is a problem, as we are starting to see shakeups in the talent market due to larger enterprises adopting Agile. I am aware of hundreds of experienced IT professionals being laid off in my region, due at least in part to Agile transformations. A new pedagogy is called for. (This is why I have also helped found the http://www.meetup.com/Agile-Study-Group/[Minnesota Agile Study Group], a meeting place for local faculty and professionals to interact on these topics.)
 
 ==== SEIS 660 at the University of St. Thomas
-I wrote my first book in 2006,  http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. This work was based on the application of enterprise architecture techniques to the "business of IT," taking ITIL, COBIT, IT portfolio management, and similar inputs as a statement of requirements and analyzing a logical solution. (Yes, the title was far too long, due to an unsatisfactory compromise with the publisher.) The book was rewritten and released as a 2nd edition in 2011.
+I wrote my first book in 2006,  http://http://www.amazon.com/Architecture-Patterns-Management-Resource-Governance/dp/0123850177[_Architecture and Patterns for IT: Service Management, Resource Planning, and Governance (Making Shoes for the Cobbler's Children)_]. This work was based on the application of enterprise architecture techniques to the "business of IT," taking ITIL, COBIT, IT portfolio management, and similar inputs as a statement of requirements and analyzing a logical solution. The book was rewritten and released as a 2nd edition in 2011.
 
-In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Dr. Misra asked me to teach the above-mentioned "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
+In 2013, I was presenting at the SEI Saturn conference in Minneapolis, MN, on the contents of the book and was approached by Dr. Bhabani Misra, the head of the Graduate Programs in Software at the University of St. Thomas in St. Paul. Dr. Misra asked me to teach an "IT Infrastructure" course (SEIS660), which at the time had a very sparse definition:
 
 ****
 _This course will cover several topics related to IT infrastructure. The course will cover Information Technology Infrastructure Library (ITIL) which is the most widely adopted approach for IT Service Management. It provides a practical framework for identifying, planning, delivering and supporting IT services to the business._
@@ -82,7 +85,7 @@ I took this feedback seriously, of course. I especially gave thought to a practi
 As the class progressed, we changed the course description as follows:
 
 ****
-*http://www.stthomas.edu/gradsoftware/programs/catalog/#d.en.116975[SEIS 660 Information Technology Infrastructure]*
+*http://www.stthomas.edu/gradsoftware/programs/catalog/#d.en.116975[SEIS 660 Modern IT Delivery]*
 
 _This course covers the engineering and operation of IT infrastructure, and related IT management practices in both theory and practice. Students participate in building and operating an end to end “IT supply chain” applying current industrial practices, demonstrating how IT services move from idea through production in a practical industrial setting and are managed and improved over time._
 
@@ -91,7 +94,7 @@ _This lab simulation is then used to illuminate key IT management topics such as
 _Students will gain hands-on experience with virtualization, systems administration, DevOps, monitoring, collaboration, and industrial IT processes._
 ****
 
-While my spring 2015 class was about half full, based on the older ITIL description, my fall 2015 section filled to capacity immediately when the new description was published.
+As part of the explorations related to developing a new curriculum, I reached out to other faculty and scholars in this space and developed some basic premises:
 
 ****
 Sidebar: Proposed premises of the https://github.com/MN-ASG/main[Agile Study Group]
@@ -139,14 +142,11 @@ Filtering Lean/Agile through a project management lens tends to reduce it to dev
 Like any mental model, these contrasts are open to debate, refinement, and even elimination.
 
 
-Interested so far? Introducing the https://github.com/MN-ASG/main/blob/master/about-mn-asg.adoc[Minnesota Agile Study Group].
-
-
 ****
 
 ==== Considering a 3rd edition
 
-For the past three semesters I have assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this as a textbook and its limitations have become clearer and clearer throughout the 3 semesters I have taught to date. In particular, it had a strongly architectural approach, approaching the IT management problem as a series of https://en.wikipedia.org/wiki/4%2B1_architectural_view_model[views on a model]. I do not recommend this as a pedagogical approach for a survey class.
+For three semesters I assigned my book (_Architecture and Patterns_) as a required text for the class. However, I did not write this as a textbook and its limitations became clearer and clearer. In particular, it had a strongly architectural approach, approaching the IT management problem as a series of https://en.wikipedia.org/wiki/4%2B1_architectural_view_model[views on a model]. I do not recommend this as a pedagogical approach for a survey class.
 
 I approached my publisher with the idea of a 3rd edition that would pivot the existing material towards being something more useful in class. They agreed to this and I started the rewrite.
 
@@ -185,7 +185,7 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 * Ashmore, Sondra and Kristin Runyan, http://www.goodreads.com/book/show/18349912-introduction-to-agile-methods[_Introduction to Agile Methods_]
 
 * Limoncelli, Thomas A., Strata R. Chalup, Christina J. Hogan http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[_The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2_]
- - while not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
+ - While not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
 
 ****
 
@@ -207,12 +207,13 @@ The structure of the book is documented in the next section, Introduction.
 
 ==== Assumptions of the reader
 
-* This book is written at the graduate student level. It is currently available only in English.
+* This book is written at the advanced undergraduate/graduate student level. It is currently available only in English.
 * There is no assumption of deep IT experience, but there is an assumption that the person interacts with computers in some depth. They should for example understand the concept of an "operating system." An A+ certification, for example, would more than adequately prepare someone for this book.
 * A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.
 
 
 ==== Acknowledgements
+Thanks to Dr. Bhabani Misra for asking me to teach at the University of St. Thomas.
 
 Thanks to Stephen Fralippolippi and Roger K. Williams for being the first Github contributors.
 

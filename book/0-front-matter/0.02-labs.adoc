@@ -1,15 +1,5 @@
 == Labs
 
-ifdef::collaborator-draft[]
-
-_Collaboration note_
-
-_Should labs be mentioned in this book or decoupled entirely?_
-
-_-ctb_
-
-endif::collaborator-draft[]
-
 With three chapters in each section, the book can be covered in one intense semester at a chapter a week, although expanding it to a two-semester treatment would allow for more in-depth coverage and increased lab exposure.
 
 I give great credit to both my students and Dr. Misra for challenging me to add a practical component to the course. This required new thinking on my part. How to demonstrate IT management at scale in a lab setting? I have learned that a hands on component is critical, as IT management discussions can be  abstract and meaningless to many students. (”Incidents are different from Problems!”)
@@ -47,6 +37,3 @@ I use a central server in teaching my classes, but even that is not necessary. T
 Some may question the inclusion of command-line experience, but without some common technical platform it is hard to provide a meaningful “hands-on” experience in the first half of the course. I structure my class on the assumption that the students are at least willing to learn computing techniques, with no prerequisites beyond that. Not even a programming language is required; the Java currently used as a sample is minimal.
 
 Truly beginning students will have to work at the Linux tutorials, but all they need master is basic command line navigation, and I have found this possible with a diverse student body. The labs for the second half of the course use experiential paper-based classroom exercises, GUI-based software, databases, and office productivity tools.
-
-
-*** todo: should every chapter have an enterprise as well as startup reading?

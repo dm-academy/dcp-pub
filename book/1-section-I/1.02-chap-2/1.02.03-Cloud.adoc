@@ -38,7 +38,8 @@ TIP: You can experiment with a hypervisor by downloading https://www.virtualbox.
 
 There are two different kinds of hypervisors. The example we just discussed was an example of a Type 2 hypervisor, which runs on top of a host operating system. In a Type 1 hypervisor, a master host OS is not used; the hypervisor runs on the "bare metal" of the computer and in turn "hosts" multiple VMs.
 
-Paravirtualization is another form of virtualization found in the marketplace. In a paravirtualized environment, a core operating system is able to abstract hardware resources for multiple virtual guest environments without having to virtualize hardware for each guest. The benefit of this type of virtualization is increased I/O efficiency and performance for each of the guest environments.
+Paravirtualization, e.g. containers, is another form of virtualization found in the marketplace. In a paravirtualized environment, a core operating system is able to abstract hardware resources for multiple virtual guest environments without having to virtualize hardware for each guest. The benefit of this type of virtualization is increased I/O efficiency and performance for each of the guest environments.
+
 However, while hypervisors can support a diverse array of virtual machines with different operating systems on a single computing node, guest environments in a paravirtualized system generally share a single OS.
 
 image::images/1.02-virtualization-types.png[]
@@ -66,14 +67,19 @@ However, people store data - often private - on computers. In order to deliver c
 
 NOTE: The phone system has been multi-tenant ever since they got rid of https://en.wikipedia.org/wiki/Party_line_(telephony)[party lines]. A party line was a shared line where anyone on it could hear every other person.
 
-Virtualization attracted business attention as a means to consolidate computing workloads. For years, companies would purchase servers to run applications of various sizes, and in many cases the computers were badly underutilized. Because of configuration issues (legitimate) and an overabundance of caution (questionable), average utilization in a pre-virtualization data center might average 10%. (That's 90% of the computer's capacity being wasted.)
+Virtualization attracted business attention as a means to consolidate computing workloads. For years, companies would purchase servers to run applications of various sizes, and in many cases the computers were badly underutilized. Because of configuration issues (legitimate) and an overabundance of caution (questionable), average utilization in a pre-virtualization data center might average 10-20%. (That's 90% of the computer's capacity being wasted.)
 
-The computing and storage infrastructure supporting each application stack in the business were sized properly to support each workload. For example, a payroll server might run on a different infrastructure configuration than a data warehouse server. Large enterprises needed to support hundreds of different infrastructure configurations, increasing maintenance and support costs.
+image::images/1.02-physUtil.png[]
 
-The adoption of virtualization allowed businesses to compress multiple application workloads onto a smaller number of physical servers. In most virtualized architectures, the physical servers supporting workloads shared a consistent configuration, which made it easy to add and remove resources from the environment. Virtualization introduced a new design pattern into the enterprise where computing and storage infrastructure became commoditized building blocks supporting an ever-increasing array of services.
+The above figure is a simplification. Computing and storage infrastructure supporting each application stack in the business were sized to support each workload. For example, a payroll server might run on a different infrastructure configuration than a data warehouse server. Large enterprises needed to support hundreds of different infrastructure configurations, increasing maintenance and support costs.
 
-image::images/1.02-virt-benefits.png[]
- [redo graphic]
+The adoption of virtualization allowed businesses to compress multiple application workloads onto a smaller number of physical servers:
+
+image::images/1.02-virtUtil.png[]
+
+In most virtualized architectures, the physical servers supporting workloads share a consistent configuration, which made it easy to add and remove resources from the environment. The virtual machines may still vary greatly in configuration, but the fact of virtualization makes managing that easier - the virtual machines can be easily copied and moved, and increasingly can be defined as a form of code (see next section).
+
+Virtualization thus introduced a new design pattern into the enterprise where computing and storage infrastructure became commoditized building blocks supporting an ever-increasing array of services.
 
 But what about where the application is large and virtualization is mostly overhead? Virtualization still may make sense in terms of management consistency and ease of system recovery.
 

@@ -18,6 +18,8 @@ NOTE: It’s significant that the Agile Alliance indicates “version control”
  +
 "Version control" also includes what we will cover as package management: the management of binary files, as distinct from human-understandable symbolic files.
 
+ Add graphic illustrating kinds of version control - source vs package
+
 Source control works like a really advanced file system. It can remember all the changes you make to its contents, tell you the differences between any two versions, and also bring back the version you had at any point in time.
 Source control, as you may imagine, is critical for any kind of system with complex, changing content, especially when many people are working on that content.
 

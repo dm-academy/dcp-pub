@@ -1,5 +1,11 @@
 ==== Topics in organization and culture
 
+===== The mainstreaming of IT into the business
+
+"Rogue" IT
+
+Convergence diagram.
+
 ===== Feature vs Component at scale
 
 We have previously discussed xref:2.04.02-features-v-components[feature vs component teams]. As a reminder, features are functional aspects of software (things people find directly valuable) while components are how software is organized (e.g. shared services and platforms such as data management).
@@ -16,4 +22,4 @@ As an organization grows, we see both the feature and component sides scale. Fea
 reference http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows[How CIOs can raise their 'IT clock speed' as pressure to innovate grows]
 
 ===== Solving for decisionmaking & governance
-No choice but to allocate fine-grained decision rights between product lines & guilds. See Reinertsen/Smith. 
+No choice but to allocate fine-grained decision rights between product lines & guilds. See Reinertsen/Smith.

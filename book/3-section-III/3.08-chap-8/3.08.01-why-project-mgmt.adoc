@@ -82,7 +82,7 @@ The same applies to project management and reflects well the "iron triangle" of 
 
 ===== How is a project different from simple "work management"?
 
-In Chapter 5, we covered a simple concept of "work management" that deliberately did not differentiate project and process-based work. As was noted at the time, for smaller organizations, most or all of the organization would be the "project team," so what would be the point?
+In Chapter 5, we covered a simple concept of "work management" that deliberately did not differentiate product, project, and/or process-based work. As was noted at the time, for smaller organizations, most or all of the organization would be the "project team," so what would be the point?
 
 The project is starting off as a list of tasks, that is essentially identical to a backlog. Even in Kanban, we know who is doing what, so what is the difference? Here are key points:
 
@@ -94,7 +94,7 @@ Project management also has more robust tools for managing people's time and eff
 
 At the end of the day, people expect to be paid for their time, and investors expect to be compensated through the delivery of results. Investment capital only lasts as a function of an organization's "burn rate;" the rate at which the money is consumed for salaries and expenses. Some forecasting of status (whether that of a project, organization, product, program, or what have you) is therefore an essential and unavoidable obligation of management, unless funding is unlimited (a rare situation to say the least.)
 
-Project accounting, at scale, is a deep area with considerable research and theory behind it. In particular, the concept of Earned Value Management is widely used to quantify the performance of a project portfolio (more on this in the next section).  
+Project accounting, at scale, is a deep area with considerable research and theory behind it. In particular, the concept of Earned Value Management is widely used to quantify the performance of a project portfolio (more on this in the next section).
 
 ===== A traditional information technology project
 So, what does all this have to do with information technology? As we have discussed in previous chapters, project management is one of the main tools used to deliver value across specialized skill-based teams.

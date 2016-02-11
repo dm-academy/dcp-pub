@@ -121,6 +121,8 @@ IEEE Press.
 
 - [[[Poppendieck2003]]]: Poppendieck, M. & Poppendieck, T. D. (2003), _Lean Software Development: An Agile Toolkit_, Addison Wesley, Boston
 
+- [[[Portny2013]]]: Portny, S. (2013). Project Management for Dummies. Hoboken, New Jersey, John Wiley & Sons.
+
 - [[[PMI2013]]]: Project Management Institute, 2013. A guide to the project management body of knowledge (PMBOK guide). Fifth edition.
 
 - [[[Reinertsen2009]]]: Reinertsen, D. G. (2009), _The principles of product development flow: second generation lean product development_, Celeritas, Redondo Beach, Calif.

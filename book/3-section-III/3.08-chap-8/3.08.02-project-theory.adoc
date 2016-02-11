@@ -109,7 +109,11 @@ For example, PMBOK calls for a "stakeholder management plan" to be produced as p
 
 Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
 
+===== The Work Breakdown Structure and its challenges
+
 ===== Scheduling and execution
+
+ Production spectrum illustration? (diagonal)
 
 To understand how project management works across a functionally organized system, consider the internals of each functional area:
 
@@ -149,6 +153,7 @@ _Rational Unified Process, from https://en.wikipedia.org/wiki/Rational_Unified_P
 One interesting aspect of the diagram is that it shows just how difficult it can be to staff a project. Demand for given functional roles ebbs and flows unpredictably. The project manager is expected to manage the uncertain handoffs between the various functional areas, and anticipate resource requirements stemming from unexpected feedback demands. This is why "T-shaped" professionals (see Chapter 7) are desirable, because they can move from area to area in response to demand.
 
 Ultimately, the reason classical production scheduling is inappropriate for delivering new IT functionality is that there is simply too much variability in product development. (Again see Chapter 4 for further discussion of this.) However, this does not change the fact that some level of planning and estimation is needed. To what extent this more variable IT work can be quantitatively managed is an active area of discussion in the software, Agile, and related communities.
+
 
 ===== Critical chain & related topics [to be written]
 * Earned value management

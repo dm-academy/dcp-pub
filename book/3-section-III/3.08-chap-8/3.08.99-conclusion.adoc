@@ -5,6 +5,8 @@
 
 * What experience do you or your team members have with project management? How effective did you find it?
 
+* Do microservices/continuous delivery/devops render traditional PM obsolete?
+
 ===== Research & practice
 * Compare Microsoft Project with one of the following. What are the pros and cons?
 ** Rally

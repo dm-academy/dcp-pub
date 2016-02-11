@@ -237,4 +237,6 @@ Thanks to Jason Baker for text and technical collaboration.
 
 Thanks to Mark Kennaley for guidance on open vs closed loop thinking.
 
-Thanks to Jeff Sussna for ongoing inspiration and sourced quotes.
+Thanks to Glen Alleman for guidance on modern project management practices.
+
+Thanks to Jeff Sussna for ongoing inspiration, Twitter feedback, discussion question ideas, and sourced quotes.

@@ -1,1 +1,14 @@
 ==== Topics in IT project management and related fields
+
+===== Notes
+
+Project v program: Program: This term can describe two different situations. First, a program can be a set of goals that gives rise to specific projects, but, unlike a project, a program can never be completely accomplished. For example, a health-awareness program can never completely achieve its goal (the public will never be totally aware of all health issues as a result of a health-awareness program), but one or more projects may accomplish specific results related to the program’s goal (such as a workshop on minimizing the risk of heart disease). Second, a program sometimes refers to a group of specified projects that achieve a common goal.
+
+Portny, Stanley E. (2013-04-09). Project Management For Dummies (Kindle Locations 678-683). Wiley. Kindle Edition.
+
+
+EVM could be described as a "model" used for understanding the
+execution of software projects. It includes mathematical formulae
+which are intended to provide insights into project dynamics. However
+as will be discussed, the model does not take into consideration
+feedback. It is an Open-Loop system model. Kennaley p44

@@ -10,9 +10,9 @@ Agile is having a profound impact on the project management profession and will 
 
 As the above quotes indicate, project management is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of product plus simple work management, without the overhead of the formalized project lifecycle suggested by PMBOK.
 
-Cloud is having related yet distinct impacts on traditional project management as well. As discussed elsewhere, projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving internal IT with considerably reduced responsibilities. Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product.
+Cloud is having related yet distinct impacts on traditional project management as well. As discussed elsewhere, projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving internal IT with considerably reduced responsibilities. Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product../
 
-It should be noted that one of the fundamental
+It should be noted that one of the fundamental...
 
 So, a couple questions emerge:
 

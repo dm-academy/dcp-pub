@@ -68,7 +68,7 @@ Here are some of the key differences between process, project and product manage
 [cols="3*", options="header"]
 |====
 |Process|Project|Product
-|Repeatable with a high degree of certainty |Executable with a medium-high degree of certainty |Product management includes research and development which is less certain of outcome
+|Repeatable with a high degree of certainty |Executable with a medium degree of certainty |Product management has significant component of research and development which is less certain of outcome
 |Fixed time duration, relatively brief (weeks/months)|Limited time duration, often scoped to a year or less
 |No specific time duration; lasts as long as there is a need
 |Fixed in form, no changes usually tolerated|Difficult to change scope or direction, unless specifically set up to accommodate

@@ -1,4 +1,6 @@
 ==== Project management in the Agile era
+[quote, Stanley Portny, Project Management for Dummies 4th ed.]
+"Projects of all types and sizes are now *the* way that organizations accomplish their work.
 
 [quote, Sriram Narayan, "Scaling Agile: Problems and Solutions"]
 the project as a vehicle of IT execution has by and large, failed to live up to its promise of predictable delivery.

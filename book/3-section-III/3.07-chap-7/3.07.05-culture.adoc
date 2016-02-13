@@ -16,6 +16,24 @@ We'll look at culture from a few different perspectives in this section:
 * Emotional intelligence
 * Paul Glen's work on "Leading Geeks"
 
+===== Basic ingredients & factors
+* communication norms
+* decision making norms
+* conflict resolution norms
+** causes
+*** facts
+*** methods
+*** goals
+*** values
+** resolution mech
+*** competition
+*** collaboration
+*** accommodation
+
+getting to yes, etc - conflict resolution processes/lit
+
+forming/storming/norming/performing
+
 ===== Motivation
 One of the most important reasons to be concerned for culture is its effect on motivation. There is little doubt that a more motivated team performs better than an unmotivated, "going through the motions" organization.
 
@@ -102,3 +120,11 @@ Because power is about the regulation of behavior, it has very little effect on 
 ===== The problem of culture "change"
 
  [to be written]
+
+===== Sidebar: Basics of professional conduct
+
+Authority, responsibility, accountability
+Delegation, commitment
+Micromanagement.
+
+(examples)

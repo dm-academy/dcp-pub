@@ -5,7 +5,21 @@
 ===== Basic concerns
 ===== Impact of Agile
 ===== Time tracking
+
+the various approaches
+* project systems
+* HR systems
+* ticketing systems (process centric)
+* home built systems
+
+project IDs
+
+
 ===== SFIA framework
 ===== Resource contention
 process management in chapter 9
+multi-project fractional allocation
 resources impacted by operational processes
+ad-hoc requests
+sum total of demand - overburden
+Phoenix Project examination - all just work

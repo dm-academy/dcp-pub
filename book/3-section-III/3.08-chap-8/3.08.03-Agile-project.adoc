@@ -47,6 +47,7 @@ ultimately, the decision of EA...
 ===== Agile project management
 * Rolling wave planning
 * Last responsible moment
+* "Water-scrum-fall"
 
 ===== Project management antipatterns
 * Project change control
@@ -67,4 +68,23 @@ Recall ultimately our three "Ps":
 * Project
 * Process
 
-Taken together, the three represent a coherent set of concerns for value delivery in various forms. But in isolation, any one of them ultimately is limited. This is a particular challenge for project management, whose practitioners may invest deeply in their chosen field of expertise. The field of project management, in turn, has its own expansionist tendencies, to the point where the PMO has become the arbiter of all IT investments in some organizations.
+Taken together, the three represent a coherent set of concerns for value delivery in various forms. But in isolation, any one of them ultimately is limited. This is a particular challenge for project management, whose practitioners may invest deeply in their chosen field of expertise. The field of project management, in turn, has its own expansionist tendencies, to the point where the PMO has become the arbiter of ALL IT investments in some organizations.
+
+A product manager who does not understand the fundamentals of project execution will not succeed...
+
+fundamental theme - what can we know... emergence vs planning ... network vs chain ... finding partial ordering, falsifying hypotheses...
+
+If we "get rid of the PMO" there still is the need to charter new investments. What is their value proposition, business model... there is always a portfolio and some form of success criteria
+and there will ALWAYS be issues of resources and dependencies
+
+PERT chart history, Mcnamara, etc
+
+however the days of equating schedule performance with success are ending
+or translating EVM directly to the balance sheet (EVM always being a fiction and less and less useful in a digitally transforming world)
+
+Project success: product mgmt happy
+Product success: market happy
+
+Sidebar: Practical collaboration at scale (Chapter 7??)
+Unmeetings/unconferences
+what was that method - some specialists get 300 people together & self organize for objectives --

@@ -1,1 +1,5 @@
 ==== Why process management?
+
+
+===== Process vs work management
+Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common engines and methods to define them.

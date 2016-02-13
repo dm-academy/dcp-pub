@@ -5,3 +5,10 @@
 ===== Cynefin and "best practice"
 
 ===== Process antipatterns
+
+===== Revisiting the problem of the contending execution models
+- Project
+- Process
+- Product
+
+and the poor "resources" at their intersection, when badly managed.

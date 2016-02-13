@@ -178,4 +178,5 @@ Ultimately, the reason classical production scheduling is inappropriate for deli
 * Earned value management
 * The problem of fractional allocation
 * Execution, resource & scheduling constraints
+* Parkinson's law
 * Reinertsen's critique of CC

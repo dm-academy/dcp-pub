@@ -6,3 +6,6 @@
 ===== Impact of Agile
 ===== Time tracking
 ===== SFIA framework
+===== Resource contention
+process management in chapter 9
+resources impacted by operational processes

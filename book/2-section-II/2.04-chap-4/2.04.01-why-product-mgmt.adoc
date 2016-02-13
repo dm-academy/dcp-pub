@@ -73,8 +73,8 @@ Here are some of the key differences between process, project and product manage
 |No specific time duration; lasts as long as there is a need
 |Fixed in form, no changes usually tolerated|Difficult to change scope or direction, unless specifically set up to accommodate
 |Must accommodate market feedback and directional change
-|Used to deliver service value and operate system |Often concerned with system design and construction, but typically not with operation
-|Includes service concept and system design, construction, operations, and retirement
+|Used to deliver service value and operate system (the "Ops" in DevOps) |Often concerned with system design and construction, but typically not with operation (the "Dev" in DevOps)
+|Includes service concept and system design, construction, operations, and retirement (both "Dev" and "Ops")
 |Process owners concerned with adherence and continuous improvement of process. Otherwise can be narrow in perspective.|Project managers are trained in resource and timeline management, dependencies & scheduling. They are not typically incented to adopt a long-term perspective.
 |Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability
 |====

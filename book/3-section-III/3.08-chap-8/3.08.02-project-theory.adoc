@@ -109,11 +109,31 @@ For example, PMBOK calls for a "stakeholder management plan" to be produced as p
 
 IMPORTANT: Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
 
-===== The Work Breakdown Structure and its challenges
+===== The challenges of scope management
+PMBOK uses the following definitions <<PMI2013>>:
 
+*Scope.* The sum of the products, services, and results to be provided as a project. See also project scope and product scope.
+
+*Scope Baseline.* The approved version of a scope statement, work breakdown structure (WBS), and its associated WBS dictionary, that can be changed only through formal change control procedures and is used as a basis for comparison.
+
+*Scope Change.* Any change to the project scope. A scope change almost always requires an adjustment to the project cost or schedule.
+
+*Scope Creep.* The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources.
+
+
+
+[quote, Stanley Portny, Project Management for Dummies]
 Subdivide your WBS component into additional deliverables if you think either of the following situations applies: The component will take much longer than two calendar weeks to complete. The component will require much more than 80 person-hours to complete.
 
-Portny, Stanley E. (2013-04-09). Project Management For Dummies (Kindle Locations 2432-2436). Wiley. Kindle Edition.
+We saw a Work Breakdown Structure in the previous section, with our discussion of a holiday party. More formally, the work breakdown structure is defined by the Project Management Body of Knowledge as
+
+...a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables. The WBS organizes and defines the total scope of the project, and represents the work specified in the current approved project <<PMI2013>>.
+
+This may seem reasonable, but in iterative product development, it can be difficult to "decompose" a problem in the way project management seems to require. This can lead to two problems.
+
+First, the WBS may be created at a seemingly appropriate level of detail, but since it is created before key information is generated, it is inevitably wrong and needing ongoing correction. If the project management approach requires a high-effort "project change management" process, much waste may result as "approvals" are sought for each  xref:2.00.01-feedback[feedback] cycle. This may result in increasing disregard by the development team for the project manager and his/her plan, and corresponding cultural risks of disengagement and lowering of trust on all sides.
+
+Second, we may see the creation of project plans that are too high level, omitting information that is in fact known at the time - for example, external deadlines or resource constraints. This happens because the team develops a cultural attitude that is averse to all planning and estimation. (See the discussion on xref:3.08.03-NoEstimates[No Estimates].)
 
 ===== Dependencies
 
@@ -124,6 +144,17 @@ Optimization-based
 Arbitrary (no reason for precedence chosen, but once resources are planned, hard to change)
 
 Dependencies in a product-oriented, microservices world
+
+===== Risk management
+First formalization?
+
+Probability x impact
+Avoidance, transfer, mitigation
+
+===== Project control
+project management is not necessarily open-loop
+non-adaptive PM is just bad PM (quote)
+powerful yet common-sense tools for assessing resource consumption, activity
 
 ===== Scheduling and execution
 
@@ -172,18 +203,8 @@ Ultimately, the reason classical production scheduling is inappropriate for deli
 
  A project plan is a model.
 
-===== Risk management
-First formalization?
-
-Probability x impact
-Avoidance, transfer, mitigation
-
-===== Project control
-project management is not necessarily open-loop
-non-adaptive PM is just bad PM (quote)
-powerful yet common-sense tools for assessing resource consumption, activity
-
 ===== Critical chain & related topics [to be written]
+
 * Earned value management
 * The problem of fractional allocation
 * Execution, resource & scheduling constraints

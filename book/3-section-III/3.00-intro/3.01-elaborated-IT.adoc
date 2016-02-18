@@ -5,6 +5,9 @@ supporting functions (sourcing...)
 IVI
 IT4IT
 
+==== The perils of "best practices"
+The broken ITOM
+
 ==== The IT senior executive
 vision, framework, governance mechanisms... a day in the life
 

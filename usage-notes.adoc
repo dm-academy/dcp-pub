@@ -7,6 +7,9 @@ Inline linking
 anchor:[]
 xref:[]
 
+xref:3.07.00-Chap-7[Chapter 7]
+xref:2.00.01-feedback[feedback]
+xref:3.08.03-NoEstimates[No Estimates]
 
 
-crossref: xref:3.07.00-Chap-7[Chapter 7]
+[quote, who, what]

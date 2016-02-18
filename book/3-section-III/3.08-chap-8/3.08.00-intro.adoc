@@ -1,5 +1,7 @@
 === Chapter 8: Project & Resource Management
 
+==== Introduction to Chapter 8
+
 [quote, Project Management Body of Knowledge, version 5]
 A project is a temporary endeavor undertaken to create a unique product, service, or result.
 
@@ -9,11 +11,12 @@ However, at a practical level, project managers remain important roles and are e
 
 In the emergence model thought experiment, we are making a key state transition from one product to multiple products. When everyone on the team is supporting one product and dedicated to its success, there is no sense of contention with "others." This changes dramatically with even the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.
 
-Much focus is given to the execution aspect of project management - its ability to help manage complex, interdependent work across resource limitations. However, we are also interested in the structural role of project management, and the use of a project portfolio concept as a means of constraining and managing the organization's multiple priorities. 
+Much focus is given to the execution aspect of project management - its ability to help manage complex, interdependent work across resource limitations. However, we are also interested in the structural role of project management, and the use of a project portfolio concept as a means of constraining and managing the organization's multiple priorities.
 
 Because of these interrelated dependencies, this chapter also covers IT financial management, sourcing, and human resource management at an introductory level.
 
-==== Introduction to Chapter 8
+===== Project management and the organization
+
 
 ===== Chapter 8 outline
 
@@ -54,7 +57,6 @@ Because of these interrelated dependencies, this chapter also covers IT financia
 *** What is a framework?
 *** PMBOK
 *** Frameworks for Agile at scale
-
 
 ===== Chapter 8 learning objectives
 * Identify the basic practices of project management

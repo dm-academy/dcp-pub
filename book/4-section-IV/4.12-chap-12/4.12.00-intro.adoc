@@ -23,6 +23,9 @@ Vendor relationships become a two-edged sword, providing increased value with ac
  - The IT data warehouse
  - Looking ahead: Big Data, machine learning, text analytics
 
+* "Service-izaton" - pros and cons
+ - need in higher ed, health - 
+
 ****
 Sidebar: IT analytics experts
 Magennis, Cantor, etc

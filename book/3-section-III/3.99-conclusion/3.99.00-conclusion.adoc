@@ -1,1 +1,4 @@
 === Section conclusion
+
+Internal productization, service catalog
+Blocking problem

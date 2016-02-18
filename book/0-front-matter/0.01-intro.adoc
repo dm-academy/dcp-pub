@@ -89,6 +89,8 @@ The governing thought experiment is, "what would I turn my attention to next as 
 
 Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations adopt ITIL or CMM before formalizing project management, that would indicate that chapters 8 and 9 should be flipped.
 
+Any topic in the 
+
 Also, you may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 
 The first word of the book's title is "Agile." That declares the orientation, and the proof will be in the reading. My intent is to involve experienced Agile practitioners in contributing to the sections most relevant to them, and I anticipate a high quality end result that is recognizably supportive of the Agile movement's goals and ambitions.

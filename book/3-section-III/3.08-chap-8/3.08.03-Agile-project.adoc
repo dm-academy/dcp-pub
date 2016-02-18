@@ -33,7 +33,7 @@ When risk and uncertainty are present with ongoing demand, like in the case of a
 
  The project paradigm has a benefit in its explicit timebox and sense of urgency
 
- A product manager with no project experience will likely fail. 
+ A product manager with no project experience will likely fail.
 
 ====== The systems view
 
@@ -63,6 +63,7 @@ Where leveraging yellow stickies or index cards makes sense in conjunction with 
 ===== Project management antipatterns
 * Project change control
 * The estimation controversy (sidebar?)
+anchor:3.08.03-NoEstimates[]
 ** "It'll be done when it's done."
 * Impersonal requirements ()
 * "nothing is real unless it's a project"

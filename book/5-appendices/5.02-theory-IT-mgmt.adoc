@@ -1,7 +1,6 @@
 === Towards a theory of IT management
+Folk models
 
 Optimizing across multiple constraints
 
 Limits of iterative approaches ... missing higher order modes ...
-
-Folk models

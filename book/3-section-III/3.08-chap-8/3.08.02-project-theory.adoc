@@ -69,19 +69,19 @@ For example, PMBOK calls for a "stakeholder management plan" to be produced as p
 IMPORTANT: Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
 
 ===== The challenges of scope management
-
-
-PMBOK uses the following definitions <<PMI2013>>:
+Scope management is a powerful tool and concept, at the heart of the most challenging debates around project management. PMBOK uses the following definitions <<PMI2013>>:
 
 *Scope.* The sum of the products, services, and results to be provided as a project. See also project scope and product scope.
-
-*Scope Baseline.* The approved version of a scope statement, work breakdown structure (WBS), and its associated WBS dictionary, that can be changed only through formal change control procedures and is used as a basis for comparison.
 
 *Scope Change.* Any change to the project scope. A scope change almost always requires an adjustment to the project cost or schedule.
 
 *Scope Creep.* The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources.
 
+In the Lean Startup world, products may pivot and pivot again, and their resource requirements may flex rapidly based on market opportunity. Formal project change control processes are in general not used. Even in larger organizations, product teams may be granted certain leeway to adapt their "products, services, and results" and while such adaptations need to be transparent, formal project change control is not the vehicle used.
 
+On the other hand (as mentioned at the chapter outset), the simple organizational change from one to multiple products provokes certain concerns and a new kind of contention for resources. People are inherently competitive and also have a sense of fairness. A new product team that seems to be unaccountable for results, consuming "more than its share" of budget while failing to meet the original vision for their existence, will cause conflict.
+
+It is in the tension between product autonomy and accountability that we see project management techniques such as the work breakdown structure employed.
 
 [quote, Stanley Portny, Project Management for Dummies]
 Subdivide your WBS component into additional deliverables if you think either of the following situations applies: The component will take much longer than two calendar weeks to complete. The component will require much more than 80 person-hours to complete.
@@ -108,7 +108,6 @@ Dependencies in a product-oriented, microservices world
 
 ===== Risk management
 First formalization?
-
 Probability x impact
 Avoidance, transfer, mitigation
 

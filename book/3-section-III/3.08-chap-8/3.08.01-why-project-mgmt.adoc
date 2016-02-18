@@ -2,7 +2,9 @@
 [quote, Project Management Body of Knowledge, version 5]
 An ongoing work effort is generally a repetitive process that follows an organization's existing procedures. In contrast, because of the unique nature of projects, there may be uncertainties or differences in the products, services, or results that the project creates.
 
-Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales. There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad" approach, this book will discuss the fundamental premises and techniques of project management, in the context of Agile transformation.
+Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales.
+
+IMPORTANT: There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad" approach, this book will discuss the fundamental premises and techniques of project management, in the context of digital transformation.
 
 ===== What is a project?
 Let's start with the most fundamental aspects of a project. You can start your understanding of a project by first thinking of a "to-do" list. However, rather than a miscellaneous list of errands, a project is a to-do list that is aimed at delivering some overall end result, with certain resources and within a time frame.
@@ -88,7 +90,7 @@ The project is starting off as a list of tasks, that is essentially identical to
 
 * The project is explicitly time-bound. It is more flexible than the repetitive, time-boxed sprints of Scrum, but more fixed than the ongoing flow of Kanban.
 
-The project has an explicit concept of dependencies in the tasks, and powerful tools to manage them. While this book aligns with the Agile movement in avoiding unwarranted assumption of dependencies (i.e. waterfall method), they *do* exist - especially in the most ambitious and complex product efforts! And techniques are needed to manage them.
+The project has an explicit concept of dependencies in the tasks, and powerful tools to manage them. While this book aligns with the Agile movement in avoiding unwise or uncalled for use of dependencies, they *do* exist - especially in the most ambitious and complex product efforts! And techniques are needed to manage them.
 
 Project management also has more robust tools for managing people's time and effort, especially as they translate to project funding. While this may be a contentious aspect of project management (see later in this chapter on the #NoEstimates controversy), it remains a critical part of management practice in both IT and non-IT domains.
 

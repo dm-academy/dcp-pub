@@ -17,6 +17,30 @@ Because of these interrelated dependencies, this chapter also covers IT financia
 
 ===== Project management and the organization
 
+Consider our hypothetical startup company:
+
+image::images/3.08-one-product.png[]
+
+Establishment of second product team raises issues:
+
+image::images/3.08-multi-product.png[]
+
+* Managing scope and preventing unintended creep or drift from the product's original charter
+* Managing contention for enterprise resources
+* Execution to timeframes
+* Coordinating dependencies
+* Accountability for results
+
+Fairness is deeply wired into the human brain, and the creation of a new product (and associated team) provokes new dynamics in the growing company.
+Project management provides tools addressing these issues, which is why it is widely used.
+
+However, there are a number of issues in doing so.
+
+* Projects are by definition temporary, while products may last as long as there is market demand.
+** Not all product management activities involve the creation of new information! This chapter will discuss a variety of such issues.
+* Project management methodology, with its emphasis on predictability and scope management, often conflicts with the product management objective of discovering information (see Chapter 4.)
+
+Product managers should still be familiar with the basic concepts of project management. Scope, execution, limited resources, and dependencies exist throughout digital business
 
 ===== Chapter 8 outline
 

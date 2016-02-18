@@ -8,6 +8,9 @@ However, some less than effective things have been done in the name of "process.
 
 Nevertheless, process remains an important tool in the toolkit for organization design.
 
+===== Process management in the organization
+
+
 ===== Chapter 9 overview
 
 * Process management basics

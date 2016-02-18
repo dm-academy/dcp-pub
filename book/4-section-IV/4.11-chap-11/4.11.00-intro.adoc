@@ -16,3 +16,6 @@ Finally, what do we even mean by complexity? What is the relationship between th
 * Big data and digital management - each apply to the other - two sides of the coin -
 
 * Defining "analytics"
+
+
+* The enterprise information model: a failed vision that will never go away.

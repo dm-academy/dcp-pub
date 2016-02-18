@@ -5,6 +5,7 @@
 ===== Cynefin and "best practice"
 
 ===== Process antipatterns
+Lack of resource awareness for processes (Wells vs Realization)
 
 ===== Revisiting the problem of the contending execution models
 - Project

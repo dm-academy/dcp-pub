@@ -37,3 +37,5 @@ Check that all chapters flow as noted
 BASE THE BOOK ON USER STORIES - at least 2-3 each chapter...
 
 Should every chapter have an enterprise as well as startup reading?
+
+Second or third person in chapter/section setups?

@@ -7,6 +7,10 @@ Project management is traditionally defined as the execution of a given scope of
 
 However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives. Financial planning and resource management have not gone away, and without project management financial planning meets challenges, especially regarding the efforts most critical to the business. The very concept of having a vision becomes problematic without some ability to plan.
 
+In the emergence model thought experiment, we are making a key state transition from one product to multiple products. When everyone on the team is supporting one product and dedicated to its success, there is no sense of contention with "others." This changes dramatically with even the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.
+
+Much focus is given to the execution aspect of project management - its ability to help manage complex, interdependent work across resource limitations. However, we are also interested in the structural role of project management, and the use of a project portfolio concept as a means of constraining and managing the organization's multiple priorities. 
+
 Because of these interrelated dependencies, this chapter also covers IT financial management, sourcing, and human resource management at an introductory level.
 
 ==== Introduction to Chapter 8

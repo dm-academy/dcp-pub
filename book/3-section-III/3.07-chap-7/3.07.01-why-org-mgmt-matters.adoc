@@ -19,7 +19,7 @@ In one chapter, we cannot cover much, but there’s an increasing consensus that
 
 In keeping with our xref:0.01-emergence[evolutionary approach], let’s assume you’ve been fairly ad-hoc in your organizational structure up to now, doing your best to avoid specialization. Perhaps you’ve even been working as a collective. Nevertheless, you’ve needed a variety of skills to get this far in your journey: you are certainly not all Java programmers!
 
-Perhaps the first question you need to ask is to what extent you wish to centralize IT. This is a significant one. The current trend is towards decentralizing IT, but there are good reasons to maintain IT as a separate organizational entity. Sriram Narayan, in his book _Agile Organization Design_ (<<Narayam2015>>), points out that "IT work is labor-intensive and highly specialized," and therefore sourcing IT talent is a particular organizational capability it may not make sense to distribute. Furthermore, IT work is performed on medium to long time scales, and that "IT culture" differs from "business culture."
+Perhaps the first question you need to ask is to what extent you wish to centralize IT. This is a significant one. The current trend is towards decentralizing IT, but there are good reasons to maintain IT as a separate organizational entity. Sriram Narayan, in his book _Agile Organization Design_ (<<Narayam2015>>), points out that "IT work is labor-intensive and highly specialized," and therefore sourcing IT talent is a particular organizational capability it may not make sense to distribute. Furthermore, he observes that IT work is performed on medium to long time scales, and  "IT culture" differs from "business culture." (The last may be debatable in the long run, in the digitally transforming world.)
 
 ****
 *Centralized versus decentralized IT*
@@ -27,7 +27,6 @@ Perhaps the first question you need to ask is to what extent you wish to central
 What do we mean by "centralized" versus "decentralized," anyways? There are many models for structuring IT, but at one end of the spectrum is when everyone doing anything significant with configuring computers, developing software, or supporting IT networking reports up through a powerful Chief Information Officer, who may report to the CEO, COO, CFO, or other senior executive.
 
 By contrast, in a "decentralized" model, computing is procured and managed by diverse managers in other functional units. So, the Human Resource VP might have an IT manager, the Marketing director would have one, and so on. The IT managers might know each other but they report to different managers and may have a very limited ability to share resources and learnings.
-
 ****
 
 As noted at the  xref:1.01.02-IT-as-function-2[outset], IT has certain unchanging aspects regardless of whether is a separate or embedded organization. However, the purpose of this chapter is to help you think carefully about this very question.

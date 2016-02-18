@@ -1,7 +1,7 @@
 ==== Product and function
 
 [quote, Sriram Narayan, Agile IT Organization Design]
-Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“ They threw the rule book at us,” “What bureaucracy!”
+Even where they are not part of a value stream, activity-oriented teams tend to standardize their operations over time. Their appetite for offering custom solutions begins to diminish. Complaints begin to surface—“They threw the rule book at us,” “What bureaucracy!”
 
 By this time, you probably detect that there is a fundamental tension between functional specialization and end to end value delivery. This tension is the topic of endless research, articles, books, and commentary in the mainstream business press and more specialized channels. The tension may go by different names:
 
@@ -23,7 +23,7 @@ Also, there is an interesting dynamic if you seek too much resource efficiency. 
 [quote, Steve Denning]
 Complexity responds to competence, not authority.
 
-Graphics such as the previous one are limited in insight. What are the particular organizational forms and practices in question? We will spend some time thinking through this.
+Graphics such as the previous one are limited in insight, however. What are the particular organizational forms and practices in question? We will spend some time thinking through this.
 
 As we saw xref:2.04.01-process-project-product[previously], there are three major concepts used to achieve end to end flow across functional areas:
 
@@ -50,7 +50,7 @@ image::images/3.07-waterfall.png[]
 There are two primary disadvantages to this model:
 
 * It discourages closed-loop feedback
-* The transactional friction of each handoff
+* There is transactional friction at each handoff
 
 The model falls into what we characterized as the "original sin" of IT management: xref:2.04.04-lean-product-dev[confusing production with product development]. As a repeatable production model, it may work, assuming that there is little or no information left to generate regarding the production process (an increasingly questionable assumption in and of itself).
 
@@ -58,7 +58,7 @@ But when applied to product development, where the *primary goal* is the generat
 
 ===== The continuum of organizational forms
 
-NOTE: The following discussion and accompanying set of diagrams is a development of Preston Smith and Don Reinertsen's thought regarding this problem in both  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>. A similar set of diagrams is to found in the _Guide to the Project Management Body of Knowledge_ (<<PMI2013>>).
+NOTE: The following discussion and accompanying set of diagrams is derived from Preston Smith and Don Reinertsen's thought regarding this problem in  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>. Similar themes are found in the _Guide to the Project Management Body of Knowledge_ (<<PMI2013>>).
 
 There is a spectrum of alternatives in structuring organizations for flow across functional concerns.
 
@@ -68,8 +68,9 @@ image::images/3.07-lightweight-pm.png[]
 
 It is in the above model that the following Reinertsen quote is most applicable:
 
-"The danger in using specialists lies in their low
-involvement in individual projects and the multitude of tasks competing for their time." Work flows across the functions, perhaps called "centers of excellence," and there may be contention for resources within each center. Often, simple "first in, first out" approaches are used to manage the work, rather than more sophisticated approaches such as Cost of Delay. We will focus in Chapter 9 on approaches to mitigate these issues while retaining this overall organizational form.
+"The danger in using specialists lies in their low involvement in individual projects and the multitude of tasks competing for their time."
+
+Work flows across the functions, perhaps called "centers of excellence," and there may be contention for resources within each center. Often, simple "first in, first out" approaches are used to manage the work, rather than more sophisticated approaches such as Cost of Delay. We will focus in Chapter 9 on approaches to mitigate these issues while retaining this overall organizational form.
 
 Second, a heavyweight project structure may specify much more, including modes of work, standards, etc. The functional manager may be little more than a resource manager, but does still have reporting authority over the team member and crucially still writes their annual performance evaluation (if the organization still uses those.)
 
@@ -90,16 +91,16 @@ image::images/3.07-skunk.png[]
 The product team has complete autonomy, and can move at great speed. It is also free to:
 
 * re-invent the wheel, developing new solutions to old and well-understood problems
-* bring in new components on a whim (regardless of whether they are truly necessary) adding to procurement complexity,
-* ignore safety and security standards that ultimately may result in expensive retrofits.
+* bring in new components on a whim (regardless of whether they are truly necessary) adding to sourcing and long-term support complexity,
+* ignore safety and security standards, resulting in risk and expensive retrofits.
 
 Ultimately, skunkworks is not scalable. Research by the Corporate Executive Board suggests that "Once more than about 15% of projects go through the fast [skunkworks] team, productivity starts to fall away dramatically." It also causes issues with morale, as a two-tier organization starts to emerge with elite and non-elite segments <<Goodwin2015>>.
 
-Because of these issues, Don Reinertsen observes that:
+Because of these issues, Don Reinertsen (<<Reinertsen1997>>) observes that:
 
 [quote, Don Reinertsen, Managing the Design Factory]
 Companies that experiment with autonomous teams learn their lessons, and conclude that the disadvantages are significant. Then they try to combine the advantages of the functional form with those of the autonomous team.
 
-The Agile movement is an important reaction to dominant IT management approaches that unquestionably accept open-loop attempts at delivering value across centralized functional centers of excellence. However, the ultimate extreme of the skunkworks approach is not scalable and cannot be the basis for organization across the enterprise.
+The Agile movement is an important correction to dominant IT management approaches employing xref:2.00.1-open-loop[open-loop] delivery across centralized functional centers of excellence. However, the ultimate extreme of the skunkworks approach cannot be the basis for organization across the enterprise.
 
 We will examine the various adaptations and approaches for balancing the two organizational extremes further in Chapters 8 (Project Management) and 9 (Process Management).

@@ -165,6 +165,8 @@ include::book/3-section-III/3.09-chap-9/3.09.06-process-topics.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.99-conclusion.adoc[]
 
+include::book/3-section-III/3.99-conclusion/3.99.00-conclusion.adoc[]
+
 include::book/4-section-IV/4.00-intro/4.00-intro.adoc[]
 
 include::book/4-section-IV/4.10-chap-10/4.10.00-intro.adoc[]
@@ -180,5 +182,9 @@ include::book/4-section-IV/4.12-chap-12/4.12.00-intro.adoc[]
 include::book/4-section-IV/4.12-chap-12/4.12.99-conclusion.adoc[]
 
 include::book/5-appendices/5.00-section-intro.adoc[]
+
+include::book/5-appendices/5.01-frameworks.adoc[]
+
+include::book/5-appendices/5.02-theory-IT-mgmt.adoc[]
 
 include::book/5-appendices/5.04-references.adoc[]

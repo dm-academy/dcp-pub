@@ -19,7 +19,7 @@ You should spend some time considering the graphic, which provides a unique way 
 
 We've come a long ways from the last section's insistence that "it's all just work." But there still is an essential truth there. Regardless of the abstract label we put on a given activity, it represents some set of tasks or objectives that real people are going to take time to perform, and expect to be compensated for. Retaining a clear realization of this is essential to maintaining truly business-aligned IT management.
 
-Let's consider the various forms that demand may take. While this may not be project management per se, it's essential to putting project management in a broader context. This will also help you develop a deeper understanding of an *architecture of IT management*, a topic the author has explored in other works.<<Betz2011>>
+Let's consider the various forms that demand may take. While this may not be project management per se, it's essential to putting project management in a broader context. This will also help you develop a deeper understanding of an *architecture of IT management*, a topic the author has explored in other works <<Betz2011>>.
 
 The diagram has two dimensions:
 
@@ -99,15 +99,15 @@ Finally, the 47 project management "processes" include topics such as (selected 
 
 Each process is categorized by one Process Group and one Knowledge Area, resulting in a matrix. A full matrix is not presented here due to copyright concerns, but one can be seen http://www.focus-on-training.co.uk/blog/pmbok-process-groups-knowledge-areas[here].
 
-PMBOK details are easily obtained on the web, and will not be repeated here. It's clear that the Agile critiques of waterfall project management have been taken seriously by the PMBOK braintrust. There is now a PMI Agile certification and much explicit recognition of the need for iterative and incremental approaches to project work.
+PMBOK details are easily obtained on the web, and will not be repeated here. It's clear that the Agile critiques of waterfall project management have been taken seriously by the PMBOK thought leaders. There is now a PMI Agile certification and much explicit recognition of the need for iterative and incremental approaches to project work.
 
 PMBOK remains extensive and complex when considered as a whole. This is necessary, as it is used to manage extraordinarily complex and costly efforts in domains such as construction, military/aerospace, government, and others. Some of these efforts (especially those involving systems engineering, over and above software engineering) do have requirements for extensive planning and control that PMBOK meets well.
 
 However, in Agile domains that seek to be more adaptive to changing business dynamics, full use of the PMBOK framework may be unnecessary and wasteful. The accepted response is to "tailor" the guidance, omitting those plans and deliverables that are not needed.
 
-For example, PMBOK calls for a "stakeholder management plan" to be produced as part of the Project Stakeholder Management knowledge area and the Planning process group. The author has never seen one of these deliverables produced, in years of enterprise experience. However, for certain projects they may make sense.
+For example, PMBOK calls for a "stakeholder management plan" to be produced as part of the Project Stakeholder Management knowledge area and the Planning process group. The author has never seen one of these deliverables formally produced, in years of enterprise experience. However, for certain projects they may make sense.
 
-Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
+IMPORTANT: Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
 
 ===== The Work Breakdown Structure and its challenges
 
@@ -124,8 +124,6 @@ Optimization-based
 Arbitrary (no reason for precedence chosen, but once resources are planned, hard to change)
 
 Dependencies in a product-oriented, microservices world
-
-
 
 ===== Scheduling and execution
 
@@ -184,8 +182,6 @@ Avoidance, transfer, mitigation
 project management is not necessarily open-loop
 non-adaptive PM is just bad PM (quote)
 powerful yet common-sense tools for assessing resource consumption, activity
-
-
 
 ===== Critical chain & related topics [to be written]
 * Earned value management

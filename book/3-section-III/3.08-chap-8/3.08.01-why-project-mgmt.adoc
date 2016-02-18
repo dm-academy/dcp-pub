@@ -5,7 +5,7 @@ An ongoing work effort is generally a repetitive process that follows an organiz
 Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales. There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. Rather than a dogmatic "project management bad" approach, this book will discuss the fundamental premises and techniques of project management, in the context of Agile transformation.
 
 ===== What is a project?
-Let's start with the most fundamental aspects of a project. Essentially, a project can be seen as little more than a "to-do" list. However, rather than a miscellaneous list of errands, it is a to-do list that is aimed at delivering some overall end result.
+Let's start with the most fundamental aspects of a project. You can start your understanding of a project by first thinking of a "to-do" list. However, rather than a miscellaneous list of errands, a project is a to-do list that is aimed at delivering some overall end result, with certain resources and within a time frame.
 
 So, comparing to your daily life, a random list of to-dos isn't a project, but if you are organizing your annual holiday party, that certainly would qualify as a project.
 
@@ -64,7 +64,7 @@ A project manager is responsible for all of this and more. A critical concept is
 * house cleaned by 12/18 by all
 * food prepared for guests by 12/18 by CB
 
-Notice that deliverables are defined by "what," who *and* when.
+Notice that deliverables are defined by "what," "who,"  *and* "when.""
 
 While it is the responsibility of each contributor to the project to "meet" their deliverables, the project manager checks in regularly with each of them as to whether they will in fact be able to do this. In larger, more complex projects, the project manager updates the project plan with the effort expended to date, and the estimated time to completion. Individual status reports are assembled ("rolled up") into an overall picture of project status, reported to executives with a high level assessment of whether the project is likely to meet its objectives of cost, scope, quality, and schedule.
 
@@ -122,7 +122,7 @@ The system requires its own hardware (servers, storage, perhaps a dedicated swit
 It would not have been much different for a fully in house developed application, except that more money would have gone to developers. The slow infrastructure supply chain still drove much of the behavior, and correctly "sizing" this infrastructure was a challenge particularly for in-house developed software. (The vendors of commercial software would usually have a better idea of the infrastructure required for a given load.) Hence much attention to up-front planning. Without requirements, no analysis or design; without design, how to know how much server to buy?
 
 ====== The decline of the "traditional" IT project
-The above scenario is in decline, and along with it a way of life for many "IT" professionals. The primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone. And new systems did not need to be nearly as precisely "sized," which meant that development could commence without as much up front analysis. Simpler architectures would suffice until real load was proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect was positive, as over-engineering and over-capacity are increasingly avoided.
+The above scenario is in decline, and along with it a way of life for many "IT" professionals. The primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone. And new systems do not need to be nearly as precisely "sized," which meant that development could commence without as much up front analysis. Simpler architectures would suffice until real load was proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect was positive, as over-engineering and over-capacity are increasingly avoided.
 
 There is little reason to run commodity software (e.g. payroll, expenses, etc) in-house. Cloud providers such as Workday, Concur, Salesforce, and others provide ready access to the desired functionality "as a service" and concerns over security and data privacy are rapidly fading. What is left, increasingly, are those initiatives deemed "competitive" or "strategic" for the company. Usually, this means that they are going to contribute to a revenue stream. This in turn means they are "products" or significant components of them. (See Chapter 4.)
 

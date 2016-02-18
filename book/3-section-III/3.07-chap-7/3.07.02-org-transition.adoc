@@ -33,7 +33,9 @@ What’s the difference between Sales and Marketing? Marketing tells a story tha
 This may seem reasonable. Everyone agreed that there is no need to add more people to help Sonya and Andre; they can support both feature teams. Obviously, the new sales person comes in under Tomas.
 Because Peter was the one receiving all the calls, and in the interest of giving him a clear career path, it was determined that the first product support person would come in under him, in what was anticipated to become a dedicated help desk/call center.
 
-It was perceived that the engineering team would likely be receiving various requests and so a dotted line appears on the organization chart, indicating a service relationship. The new support person under Peter would also be shared across both teams, and there needed to be some means of communicating support requests to the feature teams when their support was needed. There was some question as to how the office Kanban boards might be reconfigured to support these relationships. Peter and Sonya, after some online research, started to become interested in something called ITIL.
+It was perceived that the engineering team would likely be receiving various requests and so a dotted line appears on the organization chart, indicating a service relationship. The new support person under Peter would also be shared across both teams, and there needed to be some means of communicating support requests to the feature teams when their support was needed. There was some question as to how the office Kanban boards might be reconfigured to support these relationships. Peter and Sonya, after some online research, started to become interested in something called ITIL (the IT Infrastructure Library), which prescribed multiple IT processes that could be used as a basis for organizing.
+
+*Proposed structure #2*
 
 But before that discussion continued, Lena retained another consultant as a cross-check. This consultant had worked with many Silicon Valley startups and had a very different opinion. This consultant was inspired by the https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf[“Spotify model”] and proposed the following scaled-down version of it:
 
@@ -53,8 +55,6 @@ Dunbar has researched this projection across the anthropological data, finding t
 
 Online music vendor Spotify has adopted insights from Dunbar as it scales.
 ****
-
-*Proposed structure #2*
 
 The consultant also added something called “guilds” to the model:
 

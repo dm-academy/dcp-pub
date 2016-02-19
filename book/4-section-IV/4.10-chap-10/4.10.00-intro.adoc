@@ -45,3 +45,5 @@ _ask Patrick Stachenko to write sidebar on how audit moved into IT_
 CIA
 
 Define vulnerability, threat agent, threat, risk, control, exposure
+
+importance of having the demand/execution framework in place to manage governance demand

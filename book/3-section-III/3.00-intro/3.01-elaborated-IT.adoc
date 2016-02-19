@@ -5,6 +5,9 @@ supporting functions (sourcing...)
 IVI
 IT4IT
 
+The second half of this book will devote increasing attention to frameworks. What is a framework?
+A framework is a formalized body of knowledge, usually sustained by some appropriate professional body, that defines the necessary and appropriate skills and concepts for practitioners.
+
 ==== The perils of "best practices"
 The broken ITOM
 

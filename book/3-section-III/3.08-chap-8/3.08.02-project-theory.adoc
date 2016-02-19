@@ -4,16 +4,11 @@ The previous chapter discussed some typical applications of project management, 
 
 However, project management (NOT restricted to IT) is a defined area of study, theory, and professional practice. This section provides a (necessarily brief) overview of these topics.
 
-We will first discuss the author's own framework for understanding project demand holistically in the context of other forms of demand.
-
-We will then discuss the Project Management Body of Knowledge, which is the leading industry framework in project management, at least in the United States. (PRINCE2 is another framework, originating from the UK, which will not be covered in this edition.) We will spend some time on the critical issues of scope management which drive some of the conflicts seen between traditional project management and Agile product management.
+We will first discuss the Project Management Body of Knowledge, which is the leading industry framework in project management, at least in the United States. (PRINCE2 is another framework, originating from the UK, which will not be covered in this edition.) We will spend some time on the critical issues of scope management which drive some of the conflicts seen between traditional project management and Agile product management.
 
 We will compare project execution to more general problems of scheduling and execution, and finally we will take a brief look at Eli Goldratt's Critical Chain.
 
 ===== The Project Management Body of Knowledge
-The second half of this book will devote increasing attention to frameworks. What is a framework?
-A framework is a formalized body of knowledge, usually sustained by some appropriate professional body, that defines the necessary and appropriate skills and concepts for practitioners.
-
 The Project Management Body of Knowledge is sustained by the Project Management Institute. PMI describes itself as:
 
 _the world's leading not-for-profit professional membership association for the project, program and portfolio management profession. Founded in 1969, PMI delivers value for more than 2.9 million professionals working in nearly every country in the world through global advocacy, collaboration, education and research. PMI advances careers, improves organizational success and further matures the profession of project management through its globally recognized standards, certifications, resources, tools, academic research, publications, professional development courses, and networking opportunities_ (from http://www.pmi.org/About-Us.aspx[www.pmi.org]).
@@ -64,7 +59,7 @@ PMBOK remains extensive and complex when considered as a whole. This is necessar
 
 However, in Agile domains that seek to be more adaptive to changing business dynamics, full use of the PMBOK framework may be unnecessary and wasteful. The accepted response is to "tailor" the guidance, omitting those plans and deliverables that are not needed.
 
-For example, PMBOK calls for a "stakeholder management plan" to be produced as part of the Project Stakeholder Management knowledge area and the Planning process group. The author has never seen one of these deliverables formally produced, in years of enterprise experience. However, for certain projects they may make sense.
+For example, PMBOK calls for a "stakeholder management plan" to be produced as part of the Project Stakeholder Management knowledge area and the Planning process group. The author has rarely seen this deliverable formally produced, in years of enterprise experience. However, for certain (larger) projects it may make sense.
 
 IMPORTANT: Part of the problem with extensive frameworks such as PMBOK is that knowing how and when to tailor them is hard-won knowledge that is not part of the usual formalized training. And yet, without some idea of "what matters" in applying the framework, there is great risk of wasted effort. The Agile movement in some ways is a reaction to the waste that can result from overly detailed frameworks.
 
@@ -77,50 +72,55 @@ Scope management is a powerful tool and concept, at the heart of the most challe
 
 *Scope Creep.* The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources.
 
+*Change Control* A process whereby modifications to documents, deliverables, or baselines associated with the project are identified, documented, approved, or rejected.
+
 In the Lean Startup world, products may pivot and pivot again, and their resource requirements may flex rapidly based on market opportunity. Formal project change control processes are in general not used. Even in larger organizations, product teams may be granted certain leeway to adapt their "products, services, and results" and while such adaptations need to be transparent, formal project change control is not the vehicle used.
 
 On the other hand (as mentioned at the chapter outset), the simple organizational change from one to multiple products provokes certain concerns and a new kind of contention for resources. People are inherently competitive and also have a sense of fairness. A new product team that seems to be unaccountable for results, consuming "more than its share" of budget while failing to meet the original vision for their existence, will cause conflict.
 
-It is in the tension between product autonomy and accountability that we see project management techniques such as the work breakdown structure employed.
-
-[quote, Stanley Portny, Project Management for Dummies]
-Subdivide your WBS component into additional deliverables if you think either of the following situations applies: The component will take much longer than two calendar weeks to complete. The component will require much more than 80 person-hours to complete.
+It is in the tension between product autonomy and accountability that we see project management techniques such as the work breakdown structure and project change control employed.
 
 We saw a Work Breakdown Structure in the previous section, with our discussion of a holiday party. More formally, the work breakdown structure is defined by the Project Management Body of Knowledge as
 
-...a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables. The WBS organizes and defines the total scope of the project, and represents the work specified in the current approved project <<PMI2013>>.
+_...a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables. The WBS organizes and defines the total scope of the project, and represents the work specified in the current approved project_ <<PMI2013>>.
 
-This may seem reasonable, but in iterative product development, it can be difficult to "decompose" a problem in the way project management seems to require. This can lead to two problems.
+<<Portny2013>> recommends "Subdivide your WBS component into additional deliverables if you think either of the following situations applies: The component will take much longer than two calendar weeks to complete. The component will require much more than 80 person-hours to complete.''
+
+This may seem reasonable, but in iterative product development, it can be difficult to "decompose" a problem in the way project management seems to require. Or to estimate in the way Portny suggests. This can lead to two problems.
 
 First, the WBS may be created at a seemingly appropriate level of detail, but since it is created before key information is generated, it is inevitably wrong and needing ongoing correction. If the project management approach requires a high-effort "project change management" process, much waste may result as "approvals" are sought for each  xref:2.00.01-feedback[feedback] cycle. This may result in increasing disregard by the development team for the project manager and his/her plan, and corresponding cultural risks of disengagement and lowering of trust on all sides.
 
 Second, we may see the creation of project plans that are too high level, omitting information that is in fact known at the time - for example, external deadlines or resource constraints. This happens because the team develops a cultural attitude that is averse to all planning and estimation. (See the discussion on xref:3.08.03-NoEstimates[No Estimates].)
 
-===== Dependencies
+===== Task ordering, dependencies, and critical path
+The specific ordering of tasks is also important. As we saw in the holiday party example, sometimes one cannot complete a task without first completing something else - e.g., you cannot buy groceries until you decide on the menu. Or install software before the server is configured. But many other tasks might be performed in any order.
 
-Basic
-Procedural
-Legal/regulatory
-Optimization-based
-Arbitrary (no reason for precedence chosen, but once resources are planned, hard to change)
+Sometimes, the tasks are constrained by the availability of someone to work on them. This is the situation we have in simple Kanban, where a backlog of tasks is worked primarily according to the availability of someone to work on them.
 
-Dependencies in a product-oriented, microservices world
+There are other approaches to scheduling tasks. <<Portny2013>> suggests the following approach types:
+
+* Basic
+* Procedural
+* Legal/regulatory
+* Optimization-based
+* Arbitrary (no reason for precedence chosen, but once resources are planned, hard to change)
+
+When tasks are ordered, and their time to complete estimated, an analysis known as *critical path* is possible.
+
+****
+*Microservices to the rescue?*
+
+Finally, while this book does not go into architectural styles in depth, there is some evidence that a well-considered microservices approach can help minimize the dependency management that larger, more "monolithic" systems are prone to.
+****
+ need citations
 
 ===== Risk management
-First formalization?
-Probability x impact
-Avoidance, transfer, mitigation
+Project management is where we see the first formalization of risk management (which will be more extensively covered in Chapter 10). Briefly, risk is classically defined as the probability of an adverse event times its cost. Project managers are alert to risks to their timelines, resource estimates, and deliverables.
 
-===== Project control
-project management is not necessarily open-loop
-non-adaptive PM is just bad PM (quote)
-powerful yet common-sense tools for assessing resource consumption, activity
+Risks may be formally identified in project management tooling. They may be accepted, avoided, transferred, or mitigated. Unmanaged risks to a project may result in the project as a whole reporting an unfavorable status.
 
 ===== Scheduling and execution
-
-Effort vs. duration
-
- Production spectrum illustration? (diagonal)
+ not sure about this section.
 
 To understand how project management works across a functionally organized system, consider the internals of each functional area:
 
@@ -161,12 +161,39 @@ One interesting aspect of the diagram is that it shows just how difficult it can
 
 Ultimately, the reason classical production scheduling is inappropriate for delivering new IT functionality is that there is simply too much variability in product development. (Again see Chapter 4 for further discussion of this.) However, this does not change the fact that some level of planning and estimation is needed. To what extent this more variable IT work can be quantitatively managed is an active area of discussion in the software, Agile, and related communities.
 
- A project plan is a model.
+ Effort vs. duration
 
-===== Critical chain & related topics [to be written]
+ Production spectrum illustration? (diagonal)
 
-* Earned value management
-* The problem of fractional allocation
+===== Projects and their resources
+
+NOTE: The use of the term "resources" to refer to the people working on a project is often criticized as insensitive and inappropriate. However, it is standard terminology which this book therefore needs to reflect, as an introductory survey text. You are encouraged to NOT use this terminology as you progress in your career.
+
+Modern enterprise IT organizations use a mix of project management, processes, and ad-hoc work routing to achieve their results. Often, resources (people) are assigned to multiple projects, a practice sometimes called "fractional allocation."
+
+In fractional allocation, a database administrator will work 25% on one project, 25% on another, and still be expected to work 50% on ongoing production support.
+
+This may appear to work mathematically, but practically it is an ineffective practice. Both Gene Kim in The Phoenix Project <<Kim2013>> and Eli Goldratt in Critical Chain <<Goldratt1997>> present dramatized accounts of the overburden and gridlock that can result from such approaches.
+
+Human beings are notably bad at multi-tasking, and the mental "context-switching" required to move from one task to another is wasteful and ultimately not scalable. A human being fractionally allocated to more and more projects will get less and less done in total, as the transactional friction of task switching increases.
+
+ there have got to be good cites on this
+
+===== Critical chain
+
+
+Goldratt in the above-cited book Critical Chain develops a sophisticated critique of project estimation and the dysfunctions it promotes.
+
+In a project requiring contributions from multiple skilled resources, a common practice is to ask each person, "how long will this take you?" The project manager then works the resulting estimates into the overall project plan.
+
+The problem with this is that most people will estimate their time conservatively; they will forecast a longer duration than they actually require. When all these "padded" estimates are added together, the project may be unacceptably long. The agreed work will tend to expand to fill the time available (Parkinson's Law). Furthermore, most people will wait until the end of their window to perform their task - a person who asks for 3 weeks to perform one week of work will often not start until week 3. (Otherwise known as Student Syndrome.)
+
+One of the reasons that people estimate conservatively is that project managers tend to be quite concerned if committed tasks are not performed on time. Failure to make the "deliverable" by the committed date may result in negative feedback to the employee's manager and resulting poor performance reviews.
+
+Coupled with the above-cited drive to multi-tasking, these factors result in poor project performance, despite the array of modern project management techniques.
+
+Goldratt suggested an alternate approach, in which the idea of "critical path" is enhanced with resource awareness. Estimation is handled more probabilistically, and the "critical chain" is the combination of the critical path plus the resource assigned to complete the most critical task. The theory is that a person performing such a task must be protected from distraction, and in fact project managers must expand their tools to effectively forecast and plan the critical chain. 
+
 * Execution, resource & scheduling constraints
-* Parkinson's law
+
 * Reinertsen's critique of CC

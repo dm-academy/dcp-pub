@@ -41,6 +41,9 @@ Some forms of work may lead to other forms of work. For example, Projects may ma
 
 The final point of this diagram: you only have so much capacity to execute the work it implies. If you have a disaster, it may impact your ability to deliver user stories, changes, or even meet transactional demand. Trade-offs must be considered.
 
+===== Earned value management
+
+
 ===== Notes
 
 Project v program: Program: This term can describe two different situations. First, a program can be a set of goals that gives rise to specific projects, but, unlike a project, a program can never be completely accomplished. For example, a health-awareness program can never completely achieve its goal (the public will never be totally aware of all health issues as a result of a health-awareness program), but one or more projects may accomplish specific results related to the program’s goal (such as a workshop on minimizing the risk of heart disease). Second, a program sometimes refers to a group of specified projects that achieve a common goal.

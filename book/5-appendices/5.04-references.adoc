@@ -59,6 +59,8 @@
 
 - [[[Goldratt2004]]]: Goldratt, E. M. & Cox, J. (2004), _The goal : a process of ongoing improvement_, North River Press, Great Barrington, MA
 
+- [[[GoldrattUK2016]]]: Goldratt-UK (2016). "What is Critical Chain?". Retrieved 2/18/2016, from http://www.goldratt.co.uk/resources/critical_chain.
+
 - [[[Goodwin2015]]]: Goodwin, B. (2015). How CIOs can raise their 'IT clock speed' as pressure to innovate grows. ComputerWeekly.com. http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows.
 
 - [[[Gruver2013]]]:	Gruver, G., M. Young, and P. Fulghum, 2013, _A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware_ xxiv, 183 pages.

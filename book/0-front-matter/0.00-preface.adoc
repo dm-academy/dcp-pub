@@ -167,7 +167,7 @@ _End instructor's note_
 
 endif::instructor-ed[]
 
-=== The vision for a new Agile textbook
+=== Emergence: vision for a new Agile textbook
 
 So, what exactly IS this textbook, anyhow?
 
@@ -175,8 +175,6 @@ So, what exactly IS this textbook, anyhow?
 * It both covers, and is written using, Agile, Lean, and continuous delivery techniques.
 * It has a unique and innovative narrative structure.
 * Because it is written with continuous integration and print on demand techniques, it can be continually updated to reflect current industry trends.
-
-==== Current textbooks
 
 ****
 *Current Agile texts*

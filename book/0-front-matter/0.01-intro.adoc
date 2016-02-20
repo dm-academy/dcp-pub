@@ -8,7 +8,10 @@ This is a "survey" text intended for the advanced undergraduate or graduate stud
 
 However, you will be presented with material on such topics, including fragments of programming languages and pseudocode, and need to be willing to invest the time and effort to understand.
 
+
+anchor:0.01-emergence[]
 === A process of emergence
+
 One of the most important and distinguishing features of this book is its "emergence model." In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] the book adopts a progressive, evolutionary approach. Your journey through it reflects a process of emergence. Such processes are often associated with founding and scaling a startup. There are many helpful books on this topic, such as:
 
 * http://www.amazon.com/Nail-then-Scale-Entrepreneurs-Breakthrough/dp/0983723605[_Nail it then scale it_] by Furr and Ahlstrom
@@ -89,7 +92,7 @@ The governing thought experiment is, "what would I turn my attention to next as 
 
 Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations adopt ITIL or CMM before formalizing project management, that would indicate that chapters 8 and 9 should be flipped.
 
-Any topic in the 
+Any topic in the
 
 Also, you may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 

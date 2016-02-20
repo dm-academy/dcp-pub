@@ -184,8 +184,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 
 * Ashmore, Sondra and Kristin Runyan, http://www.goodreads.com/book/show/18349912-introduction-to-agile-methods[_Introduction to Agile Methods_]
 
-* Limoncelli, Thomas A., Strata R. Chalup, Christina J. Hogan http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[_The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2_]
- - While not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
+ * Cobb, Charles G. http://www.goodreads.com/book/show/24844947-the-project-manager-s-guide-to-mastering-agile[_The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach_]
+
+ * Limoncelli, Thomas A., Strata R. Chalup, Christina J. Hogan http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[_The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2_]
+  - While not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
 
 ****
 

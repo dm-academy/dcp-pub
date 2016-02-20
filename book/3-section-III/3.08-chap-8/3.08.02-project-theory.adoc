@@ -107,12 +107,34 @@ There are other approaches to scheduling tasks. <<Portny2013>> suggests the foll
 
 When tasks are ordered, and their time to complete estimated, an analysis known as *critical path* is possible.
 
+PMBOK <<PMI2013>> defines the critical path as "The sequence of activities that represents the longest path through a project, which determines the shortest possible duration."
+
+Consider our holiday party plan again:
+
+image::images/3.08-ms-proj-3.png[]
+
+In the above example, we have two major work areas: clean the house and prepare a menu. Note however that there are no dependencies between:
+
+* vacuum living room
+* clean kitchen
+* clean dining table
+* vacuum dining room
+
+Really, they can be done in any order.
+
+On the other hand, there is a clear set of dependencies between:
+
+. Choose menu
+. Get groceries
+. Fix food
+
+This means that the sub-activity "Food for party" is the critical path. If the menu is not determined on time, the grocery run can't happen, and the food will be fixed late or not at all.
+
 ****
 *Microservices to the rescue?*
 
-Finally, while this book does not go into architectural styles in depth, there is some evidence that a well-considered microservices approach can help minimize the dependency management that larger, more "monolithic" systems are prone to.
+While this book does not go into architectural styles in depth, there is some evidence that a well-considered microservices approach can help minimize the dependency management that larger, more "monolithic" systems tend to require. (need citations)
 ****
- need citations
 
 ===== Risk management
 Project management is where we see the first formalization of risk management (which will be more extensively covered in Chapter 10). Briefly, risk is classically defined as the probability of an adverse event times its cost. Project managers are alert to risks to their timelines, resource estimates, and deliverables.
@@ -120,7 +142,7 @@ Project management is where we see the first formalization of risk management (w
 Risks may be formally identified in project management tooling. They may be accepted, avoided, transferred, or mitigated. Unmanaged risks to a project may result in the project as a whole reporting an unfavorable status.
 
 ===== Scheduling and execution
- not sure about this section.
+ not sure about this section. Sets up the Critical Chain discussion.
 
 To understand how project management works across a functionally organized system, consider the internals of each functional area:
 
@@ -177,10 +199,11 @@ This may appear to work mathematically, but practically it is an ineffective pra
 
 Human beings are notably bad at multi-tasking, and the mental "context-switching" required to move from one task to another is wasteful and ultimately not scalable. A human being fractionally allocated to more and more projects will get less and less done in total, as the transactional friction of task switching increases.
 
+More on this in the following section on resource management.
+
  there have got to be good cites on this
 
 ===== Critical chain
-
 
 Goldratt in the above-cited book Critical Chain develops a sophisticated critique of project estimation and the dysfunctions it promotes.
 
@@ -192,8 +215,6 @@ One of the reasons that people estimate conservatively is that project managers 
 
 Coupled with the above-cited drive to multi-tasking, these factors result in poor project performance, despite the array of modern project management techniques.
 
-Goldratt suggested an alternate approach, in which the idea of "critical path" is enhanced with resource awareness. Estimation is handled more probabilistically, and the "critical chain" is the combination of the critical path plus the resource assigned to complete the most critical task. The theory is that a person performing such a task must be protected from distraction, and in fact project managers must expand their tools to effectively forecast and plan the critical chain. 
+Goldratt suggested an alternate approach, in which the idea of "critical path" is enhanced with resource awareness. Estimation is handled more probabilistically, and the "critical chain" is the combination of the critical path plus the resource assigned to complete the most critical task. The theory is that a person performing such a task must be protected from distraction, and in fact project managers must expand their tools to effectively forecast and plan the critical chain.
 
-* Execution, resource & scheduling constraints
-
-* Reinertsen's critique of CC
+This leads to some complex math, in particular a known problem called the Resource-Constrained Scheduling Problem. (e.g. http://www.iste.co.uk/data/doc_dtalmanhopmh.pdf)

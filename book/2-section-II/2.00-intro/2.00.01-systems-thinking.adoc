@@ -120,3 +120,5 @@ This may seem obvious, but the history of IT management (some would say all mana
 NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later, you take off the blindfold, or wind up on the rocks. Mark Kennaley prefers the term "delayed feedback closed loop system" (personal correspondence, 9/2015).
 
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*
+
+anchor:2.04.00-product-mgmt[]

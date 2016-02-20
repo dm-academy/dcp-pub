@@ -50,3 +50,5 @@ http://www.infoq.com/presentations/Economic-Models[The Tactical and Strategic Ar
 *Professional*
 Professional
 http://www.pdma.org/[Product Development and Marketing Association]
+
+anchor:2.05.00-Work Management[]

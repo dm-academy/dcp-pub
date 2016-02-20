@@ -4,3 +4,6 @@ Folk models
 Optimizing across multiple constraints
 
 Limits of iterative approaches ... missing higher order modes ...
+
+
+* Reinertsen's critique of CC

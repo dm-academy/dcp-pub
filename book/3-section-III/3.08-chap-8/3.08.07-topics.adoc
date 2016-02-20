@@ -43,6 +43,9 @@ The final point of this diagram: you only have so much capacity to execute the w
 
 ===== Earned value management
 
+===== Controversies in PM history
+PERT chart history, Mcnamara, etc
+
 
 ===== Notes
 

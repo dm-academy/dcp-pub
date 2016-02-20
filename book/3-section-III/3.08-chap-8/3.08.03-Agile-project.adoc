@@ -10,16 +10,45 @@ Agile is having a profound impact on the project management profession and will 
 
 As the above quotes indicate, there are diverse opinions on the role and importance of traditional project management in the enterprise. Clearly it is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of xref:2.04.00-product-mgmt[product management] plus simple xref:2.05.00-work-management[work management], without the overhead of the formalized project lifecycle suggested by PMBOK.
 
-Cloud is having related yet distinct impacts on traditional project management as well. As discussed elsewhere, projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving internal IT with considerably reduced responsibilities.
+Cloud is having impacts on traditional project management as well. As discussed elsewhere, projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving traditional internal IT with considerably reduced responsibilities.
 
-Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product..
+ idea: interview St. Thomas IT staff on moving to Office 365.
+
+Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product.
 
 So, a couple questions emerge:
 
-* Given the above, under what circumstances does formalized project management make economic sense?
+* Given the above trends, under what circumstances does formalized project management make economic sense?
 * Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
 
-===== Is PM still needed in an Agile, product-centric, Cloud-enabled world?
+===== Project management and the organization
+
+Consider our hypothetical startup company:
+
+image::images/3.08-one-product.png[]
+
+Establishment of a second product team raises issues:
+
+image::images/3.08-multi-product.png[]
+
+* Managing scope and preventing unintended creep or drift from the product's original charter
+* Managing contention for enterprise resources
+* Execution to timeframes
+* Coordinating dependencies
+* Accountability for results
+
+Fairness is deeply wired into the human brain, and the creation of a new product (and associated team) provokes new dynamics in the growing company.
+Project management provides tools addressing these issues, which is why it is widely used.
+
+However, there are a number of issues in doing so.
+
+* Projects are by definition temporary, while products may last as long as there is market demand.
+* Project management methodology, with its emphasis on predictability and scope management, often conflicts with the product management objective of discovering information (see Chapter 4.)
+** But not all product management activities involve the creation of new information!
+
+Scope, execution, limited resources, and dependencies exist throughout digital business. A product manager with no understanding of these issues, or tools to deal with them, will likely fail. Product managers should therefore be familiar with the basic concepts of project management. The project paradigm has a benefit in its explicit limitation of time and money, and the sense of urgency this creates. However, the way in which project management is implemented, the degree of formality, will vary according to need.
+
+====== The systems view
 
 [quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
 What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
@@ -27,23 +56,13 @@ What’s typically underestimated is the complexity and indivisibility of many l
 [quote, Mark Kennaley, SDLC 3.0]
 When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
 
-====== The organizational view
- Organizational drivers - fair and balanced resource allocation
- graphic: one product vs portfolio of products - PM is the means by which boundaries are established - but long term drawback with relationship to product - there is a portfolio concern in either case
-
- The project paradigm has a benefit in its explicit timebox and sense of urgency
-
- A product manager with no project experience will likely fail.
-
-====== The systems view
-
 Kennaley, above, provides some reasoning for project management. Ironically, he uses the term "batch," which is often a concept unfavorably viewed in Agile and Lean circles.
 
-However, when a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence may be as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint, and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
+Not all problems respond to iteration. Iterative solutions may make sense in some cases; in other cases, a higher degree of certainty is required before any solutioning is attempted. Attempting to iteratively refine a given solution may result in completely missing a higher order mode in a complex space (local optimization).
+
+When a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence may be as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint, and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
 
 Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimization is a known hard problem in systems engineering and cannot be wished away through merely invoking the word "Agile."
-
-Not all problems respond to iteration. Iterative solutions may make sense in some cases; in other cases, a higher degree of certainty is required before any solutioning is attempted. Attempting to iteratively refine a given solution may result in completely missing a higher order mode in a complex space (local optimization).
 
 * tactical needs for PM: resources, team performance - see Cohn
 
@@ -60,18 +79,18 @@ Where leveraging yellow stickies or index cards makes sense in conjunction with 
 * Last responsible moment
 * "Water-scrum-fall"
 
+===== The Agile project frameworks
+* SAFe
+* DaD
+* etc
+
 ===== Project management antipatterns
 * Project change control
 * The estimation controversy (sidebar?)
 anchor:3.08.03-NoEstimates[]
 ** "It'll be done when it's done."
-* Impersonal requirements ()
+* Impersonal requirements (but see Alleman)
 * "nothing is real unless it's a project"
-
-===== The Agile project frameworks
-* SAFe
-* DaD
-* etc
 
 ===== The future of project management
 
@@ -89,8 +108,6 @@ fundamental theme - what can we know... emergence vs planning ... network vs cha
 
 If we "get rid of the PMO" there still is the need to charter new investments. What is their value proposition, business model... there is always a portfolio and some form of success criteria
 and there will ALWAYS be issues of resources and dependencies
-
-PERT chart history, Mcnamara, etc
 
 however the days of equating schedule performance with success are ending
 or translating EVM directly to the balance sheet (EVM always being a fiction and less and less useful in a digitally transforming world)

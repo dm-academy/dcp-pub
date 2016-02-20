@@ -11,6 +11,6 @@ xref:3.07.00-Chap-7[Chapter 7]
 xref:2.00.01-feedback[feedback]
 xref:3.08.03-NoEstimates[No Estimates]
 xref:2.04.00-product-mgmt[Product Management]
-xref:2.05.00-Work Management[]
+xref:2.05.00-work-management[]
 
 [quote, who, what]

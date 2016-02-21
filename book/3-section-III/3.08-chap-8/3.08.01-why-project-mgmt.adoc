@@ -138,7 +138,7 @@ This might be OK for a non-competitive function, but if the "digital service con
 anchor:trad-IT-decline[]
 
 ====== The decline of the "traditional" IT project
-The above scenario is in decline, and along with it a way of life for many "IT" professionals. One primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone. Another reason is the increasing adoption of the Lean/Agile product development approach for digital services. 
+The above scenario is in decline, and along with it a way of life for many "IT" professionals. One primary reason is Cloud, and in particular Software as a Service.  Another reason is the increasing adoption of the Lean/Agile product development approach for digital services. 
 
 Here is one view of the classic model:
 

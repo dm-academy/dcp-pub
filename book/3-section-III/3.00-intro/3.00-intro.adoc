@@ -8,7 +8,9 @@ Your teams are all good, and get results, but in different ways. You need some l
 
 You now have multiple products. As you moved from your first product to adding more, significant organizational evolution was required. Your products may also be developing complex interdependencies. Tensions between various teams are starting to emerge. There is an increasing desire among your stakeholders and executives for control and predictability. Resources are limited and always in contention. You are considering various frameworks for managing your organization. This is where it gets hard.
 
-There are no shortage of contractors and consultants all advocating various flavors of process and project management, some advocating older approaches and "frameworks" and others proposing newer Agile & Lean perspectives. The very concepts of process and project management are occasionally called into question by both your employees and various "thought leaders," and it's all very confusing.
+New employees are bringing in their experiences, and the more experienced ones seem to assume that the company will use "projects" and "processes" to get work done. There are no shortage of contractors and consultants all advocating various flavors of process and project management, some advocating older approaches and "frameworks" and others proposing newer Agile & Lean perspectives. However, the very concepts of process and project management are occasionally called into question by both your employees and various "thought leaders," and it's all very confusing.
+
+We need to understand where these ideas came from, how they relate to each other, and how they are evolving in a digitally transforming world.
 
 Welcome to the coordination problem.
 
@@ -20,11 +22,11 @@ Scenario:
  We're getting big.  How are we formally structured? How are people grouped, and to whom do they report, with what kind of expectations? Why this way and not that? Who are we? What are the unspoken assumptions that underly our daily work?
 
 *Chapter 8: Project and Resource Management*
-You want to get bigger stuff done. Some argue that you don't need projects at all any more, and it's true that more and more we think in terms of *products* where we used to think of *projects*. But there still is a need to orchestrate the work; even Google and Facebook use project managers. When resources are tight (and when aren't they?) their consumption must be regulated, through boundaries of time and cost that must be managed to. This was a different problem when you were a tight-knit startup; you were constrained, but everyone knew they were "in it together." Now you need some ground rules to support your increasingly diverse activities.
+You want to get bigger stuff done. Some argue that you don't need projects at all any more, that it's all about *products*, not *projects*. But you've seen that your most ambitious ideas require orchestration. And when resources are tight (and when aren't they?) their consumption must be governed somehow. Financial management has always been a concern, but it needs increasing formalization as your activities diversify.
 
-We also have to understand what people are doing on a daily basis. Do we have the right people doing the the work? How can we find the best people to grow our initiative? We also remain concerned that work continues to flow well, that we don't take on too much work in process, and that people are not overloaded and multi-tasking.
+Furthermore, do we have the right people doing the the work? How can we find the best people to grow our initiative? We also remain concerned that work continues to flow well, that we don't take on too much work in process, and that people are not overloaded and multi-tasking.
 
 *Chapter 9: Process Management*
-OK, we have a structure.  Work needs to flow across the structure, and the projects and products need certain resources and services delivered predictably. Our increasingly specialized organization needs some specialization of processes, and without some kind of coordination  we run the risk of two teams trying to change the same thing at the same time.
+OK, we have a structure.  Work needs to flow across the structure, and the projects and products need certain resources and services delivered predictably. Our increasingly specialized organization needs some specialization of processes, and without some kind of coordination our risks increase along with our complexity.
 
 Process management, like project management, is a discipline unto itself and one of the most powerful tools in your toolbox. You start to realize there is a process by which  process itself is managed - the process of continuous improvement.

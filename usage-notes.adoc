@@ -14,6 +14,7 @@ xref:2.04.00-product-mgmt[Product Management]
 xref:2.05.00-work-management[]
 xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]
+xref:trad-IT-decline[decline of traditional IT]
 
 
 

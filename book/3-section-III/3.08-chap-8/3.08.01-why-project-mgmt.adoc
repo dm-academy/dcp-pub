@@ -135,6 +135,7 @@ image::images/3.08-ProdLifecycle2.png[]
 
 This might be OK for a non-competitive function, but if the "digital service consumer" has other options they may go elsewhere. If they are an internal user within an enterprise, they might be engaged in critical competitive activities.
 
+anchor:trad-IT-decline[]
 
 ====== The decline of the "traditional" IT project
 The above scenario is in decline, and along with it a way of life for many "IT" professionals. One primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone.

@@ -136,14 +136,29 @@ image::images/3.08-ProdLifecycle2.png[]
 This might be OK for a non-competitive function, but if the "digital service consumer" has other options they may go elsewhere. If they are an internal user within an enterprise, they might be engaged in critical competitive activities.
 
 
-
 ====== The decline of the "traditional" IT project
 The above scenario is in decline, and along with it a way of life for many "IT" professionals. One primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone.
 
-There is diminishing reason to run commodity software (e.g. payroll, expenses, HR, etc) in-house. Cloud providers such as Workday, Concur, Salesforce, and others provide ready access to the desired functionality "as a service" and concerns over security and data privacy are rapidly fading. What is left, increasingly, are those initiatives deemed "competitive" or "strategic" for the company. Usually, this means that they are going to contribute to a revenue stream. This in turn means they are "products" or significant components of them. (See Chapter 4.)
+Here is one view of the classic model:
+
+image::images/3.08-ProdLifecycle3.png[]
+
+Notice the long triangles labeled "Producing focus" and "Consuming focus." These represent the perspectives of (for example) a software vendor versus their customer. Traditionally, the research and development (R&D) function was most mature in the product companies. What was less well understood was that internal IT development was also a form of R&D.
+
+Because of the desire for scope management (predictability and control), the IT department performing systems development was often trapped in the worst of both worlds - having neither good quality product, nor high levels of certainty. For many years, this was accepted by industry as the best that could be expected.
+
+However, the combination of Lean/Agile and Cloud is changing this:
+
+image::images/3.08-ProdLifecycle4.png[]
+
+There is diminishing reason to run commodity software (e.g. payroll, expenses, HR, etc) in-house. Cloud providers such as Workday, Concur, Salesforce, and others provide ready access to the desired functionality "as a service." The responsiveness and excellence of such products is increasing, due to the increased tempo of market feedback (note that while a human resource management system may be commodity for *your* company, it is *strategic* for Workday) and concerns over security and data privacy are rapidly fading.
+
+What is left internal to the enterprise, increasingly, are those initiatives deemed "competitive" or "strategic." Usually, this means that they are going to contribute to a revenue stream. This in turn means they are "products" or significant components of them. (See Chapter 4, xref:2.04.00-product-mgmt[Product Management].)
 
 A significant market-facing product initiative (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team might simply analyze the overall structure of the epic, decomposing it into stories and features, and spending the time to organize them into a logical sequence.
 
 Because capacity is available on demand, new systems do not need to be nearly as precisely "sized," which meant that implementation could commence without as much up front analysis. Simpler architectures suffice until real load is proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect is positive, as over-engineering and over-capacity are increasingly avoided.
+
+So, IT moves in two directions - its most forward-looking elements align to the enterprise product management roadmap, while its remaining capabilities may deliver value as a "service broker." (More on this in the section on xref:it-sourcing[IT sourcing])
 
 However, a project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.

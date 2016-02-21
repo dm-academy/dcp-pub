@@ -1,9 +1,13 @@
+
+anchor:resource-mgmt[]
+
 ==== IT resource management
-(yes, it's a terrible name)
+ (yes, it's a terrible name)
   _get permission for Dilbert cartoon "I am not a resource"_
 
 ===== Basic concerns
 ===== Impact of Agile
+===== Impact of Cloud
 ===== Time tracking
 
 the various approaches
@@ -15,7 +19,6 @@ the various approaches
 project IDs
 
 
-===== SFIA framework
 ===== Resource contention
 process management in chapter 9
 multi-project fractional allocation
@@ -23,3 +26,5 @@ resources impacted by operational processes
 ad-hoc requests
 sum total of demand - overburden
 Phoenix Project examination - all just work
+
+===== SFIA framework

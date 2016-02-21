@@ -7,9 +7,11 @@ A project is a temporary endeavor undertaken to create a unique product, service
 
 We have discussed xref:2.0.4.03-scrum[Scrum] in Chapter 4, xref:2.05.02-kanban[Kanban] in Chapter 5, and various organizational forms for performing work in xref:3.07.00-Chap-7[Chapter 7].
 
-Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. But what is this? We are already executing work, without this concept of "project." And What is this idea of "scope"? How would we know it in advance, so that the "constraints of time and budget" are reasonable?
+Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. But what is this? We are already executing work, without this concept of "project." And what is this idea of "scope"? How would we know it in advance, so that the "constraints of time and budget" are reasonable?
 
 As we have seen in our discussions of  xref:2.04.00-product-mgmt[ Product Management], in implementing *truly new digital products,* estimating time and budget is virtually impossible because *the necessary information is not available*. In fact, creating it - which requires tight feedback loops - is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
+
+ key conjecture below. looking for evidence/counterevidence
 
 However, in the xref:0.01-emergence[emergence model] thought experiment, we are making a key state transition from one product to multiple products. When everyone on the team is supporting one product and dedicated to its success, there is less sense of contention with "others" in the organization. This changes dramatically with the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization. This leads to new forms of governance.
 
@@ -17,11 +19,11 @@ At a practical level, project managers remain important roles and are employed a
 
  see page 361 of the Phoenix Project in resource guide section for horse/unicorn cite
 
-In the project management literature and tradition, much focus is given to the *execution* aspect of project management - its ability to help manage complex, interdependent work across resource limitations. However, we are also interested in the *structural role* of project management. Project management may be institutionalized through establishing an organizational function known as the PMO, which may use a concept of project portfolio as a means of constraining and managing the organization's multiple priorities.
+In the project management literature and tradition, much focus is given to the *execution* aspect of project management - its ability to help manage complex, interdependent work across resource limitations. However, we are also interested in the *structural role* of project management. Project management may be institutionalized through establishing an organizational function known as the Project Management Office (PMO), which may use a concept of project portfolio as a means of constraining and managing the organization's multiple priorities. What is the relationship of the traditional PMO to the new, product-centric, digital world?
 
 Financial planning and resource management have not gone away, and without project management financial planning meets challenges, especially regarding the efforts most critical to the business. The very concept of having a vision becomes problematic without some ability to plan.
 
-Because of these interrelated dependencies, this chapter also covers IT financial management, sourcing, and human resource management at an introductory level.
+Because of these dependencies, this chapter also covers IT financial management, sourcing, and human resource management at an introductory level.
 
 ===== Chapter 8 outline
 
@@ -32,7 +34,7 @@ Because of these interrelated dependencies, this chapter also covers IT financia
 *** Impact of Cloud on project management
 
 * Project mgmt theory -
-** 2 dimensions of demand management
+
 ** Critical chain
 *** Execution, resource & scheduling constraints
 ** Last responsible moment
@@ -58,6 +60,7 @@ Because of these interrelated dependencies, this chapter also covers IT financia
 ** Agile challenges (Lean Accounting, Beyond Budgeting)
 
 * Topics
+** 2 dimensions of demand management
 ** Frameworks
 *** What is a framework?
 *** PMBOK
@@ -66,5 +69,6 @@ Because of these interrelated dependencies, this chapter also covers IT financia
 ===== Chapter 8 learning objectives
 * Identify the basic practices of project management
 * Understand fundamental concepts of project & execution theory
+* Identify the basic concerns of IT sourcing
 * Identify the basic concerns of IT resource management
 * Identify the basic concerns of IT financial management

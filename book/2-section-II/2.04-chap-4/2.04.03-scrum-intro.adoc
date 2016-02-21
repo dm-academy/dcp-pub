@@ -1,3 +1,6 @@
+anchor:2.0.4.03-scrum[]
+
+
 ==== Introducing Scrum
 
 [quote, Chris Sims/Hillary L. Johnson, Scrum: A Breathtakingly Brief and Agile Introduction]

@@ -5,6 +5,8 @@
 [quote, Project Management Body of Knowledge, version 5]
 A project is a temporary endeavor undertaken to create a unique product, service, or result.
 
+We have discussed xref:2.0.4.03-scrum[Scrum] in Chapter 4, Kanban in Chapter 5, and various organizational forms in Chapter 7. 
+
 Project management is traditionally defined as the execution of a given scope of work within constraints of time and budget. As we have seen in our discussions of  xref:2.04.00-product-mgmt[ Product Management], in implementing truly new digital products, estimating time and budget is virtually impossible because *the necessary information is not available*. In fact, creating it - which requires tight feedback loops - is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
 
 However, at a practical level, project managers remain important roles and are employed at both "unicorn" and "horse" companies as overall orchestrators of complex initiatives.

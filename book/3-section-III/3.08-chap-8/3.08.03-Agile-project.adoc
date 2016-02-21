@@ -74,6 +74,8 @@ Where leveraging yellow stickies or index cards makes sense in conjunction with 
 
  ultimately, the decision of EA...
 
+ What of project management in this new world? A project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
+
 ===== Agile project management beyond Scrum
 (Scrum was covered in Chapter 4)
 

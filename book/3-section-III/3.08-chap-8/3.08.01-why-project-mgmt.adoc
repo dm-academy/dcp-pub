@@ -138,7 +138,7 @@ This might be OK for a non-competitive function, but if the "digital service con
 anchor:trad-IT-decline[]
 
 ====== The decline of the "traditional" IT project
-The above scenario is in decline, and along with it a way of life for many "IT" professionals. One primary reason is Cloud, and in particular Software as a Service.  Another reason is the increasing adoption of the Lean/Agile product development approach for digital services. 
+The above scenario is in decline, and along with it a way of life for many "IT" professionals. One primary reason is Cloud, and in particular Software as a Service.  Another reason is the increasing adoption of the Lean/Agile product development approach for digital services.
 
 Here is one view of the classic model:
 
@@ -162,4 +162,4 @@ Because capacity is available on demand, new systems do not need to be nearly as
 
 So, IT moves in two directions - its most forward-looking elements align to the enterprise product management roadmap, while its remaining capabilities may deliver value as a "service broker." (More on this in the section on xref:it-sourcing[IT sourcing])
 
-However, a project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
+We shall now return to the question of project management in this new world.

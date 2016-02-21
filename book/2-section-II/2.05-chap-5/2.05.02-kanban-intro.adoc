@@ -1,3 +1,5 @@
+anchor:2.05.02-kanban[]
+
 ==== Introducing Kanban
 
 To understand Kanban it is advisable to discuss Lean briefly.

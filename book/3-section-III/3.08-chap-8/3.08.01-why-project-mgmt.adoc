@@ -84,11 +84,11 @@ The same applies to project management and reflects well the "iron triangle" of 
 
 ===== How is a project different from simple "work management"?
 
-In Chapter 5, we covered a simple concept of "work management" that deliberately did not differentiate product, project, and/or process-based work. As was noted at the time, for smaller organizations, most or all of the organization would be the "project team," so what would be the point?
+In xref:2.05.00-work-management[Chapter 5], we covered a simple concept of "work management" that deliberately did not differentiate product, project, and/or process-based work. As was noted at the time, for smaller organizations, most or all of the organization would be the "project team," so what would be the point?
 
-The project is starting off as a list of tasks, that is essentially identical to a backlog. Even in Kanban, we know who is doing what, so what is the difference? Here are key points:
+The project is starting off as a list of tasks, that is essentially identical to a product backlog. Even in Kanban, we know who is doing what, so what is the difference? Here are key points:
 
-* The project is explicitly time-bound. It is more flexible than the repetitive, time-boxed sprints of Scrum, but more fixed than the ongoing flow of Kanban.
+* The project is explicitly time-bound. As a whole, it is lengthier and more flexible than the repetitive, time-boxed sprints of Scrum, but more fixed than the ongoing flow of Kanban.
 
 The project has an explicit concept of dependencies in the tasks, and powerful tools to manage them. While this book aligns with the Agile movement in avoiding unwise or uncalled for use of dependencies, they *do* exist - especially in the most ambitious and complex product efforts! And techniques are needed to manage them.
 
@@ -96,7 +96,7 @@ Project management also has more robust tools for managing people's time and eff
 
 At the end of the day, people expect to be paid for their time, and investors expect to be compensated through the delivery of results. Investment capital only lasts as a function of an organization's "burn rate;" the rate at which the money is consumed for salaries and expenses. Some forecasting of status (whether that of a project, organization, product, program, or what have you) is therefore an essential and unavoidable obligation of management, unless funding is unlimited (a rare situation to say the least.)
 
-Project accounting, at scale, is a deep area with considerable research and theory behind it. In particular, the concept of Earned Value Management is widely used to quantify the performance of a project portfolio (more on this in the next section).
+Project accounting, at scale, is a deep area with considerable research and theory behind it. In particular, the concept of Earned Value Management is widely used to quantify the performance of a project portfolio (more on this to come).
 
 ===== A traditional information technology project
 So, what does all this have to do with information technology? As we have discussed in previous chapters, project management is one of the main tools used to deliver value across specialized skill-based teams.
@@ -122,6 +122,10 @@ Notice we call it the *systems implementation lifecycle*, not the *software deve
 The system requires its own hardware (servers, storage, perhaps a dedicated switch) and specifying this in some detail is required for the purchasing process to start. This in turn required advance planning and approval for the project as a whole.
 
 It would not have been much different for a fully in house developed application, except that more money would have gone to developers. The slow infrastructure supply chain still drove much of the behavior, and correctly "sizing" this infrastructure was a challenge particularly for in-house developed software. (The vendors of commercial software would usually have a better idea of the infrastructure required for a given load.) Hence much attention to up-front planning. Without requirements, no analysis or design; without design, how to know how much server to buy?
+
+Ultimately, the project comes to an end, and the results (if a product such as a digital service) are transitioned to a "production" state. Here is a graphical depiction:
+
+ 
 
 ====== The decline of the "traditional" IT project
 The above scenario is in decline, and along with it a way of life for many "IT" professionals. The primary reason is Cloud, and in particular Software as a Service. The long hardware acquisition cycle is gone. And new systems do not need to be nearly as precisely "sized," which meant that development could commence without as much up front analysis. Simpler architectures would suffice until real load was proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect was positive, as over-engineering and over-capacity are increasingly avoided.

@@ -218,3 +218,8 @@ Coupled with the above-cited drive to multi-tasking, these factors result in poo
 Goldratt suggested an alternate approach, in which the idea of "critical path" is enhanced with resource awareness. Estimation is handled more probabilistically, and the "critical chain" is the combination of the critical path plus the resource assigned to complete the most critical task. The theory is that a person performing such a task must be protected from distraction, and in fact project managers must expand their tools to effectively forecast and plan the critical chain.
 
 This leads to some complex math, in particular a known problem called the Resource-Constrained Scheduling Problem. (e.g. http://www.iste.co.uk/data/doc_dtalmanhopmh.pdf)
+
+===== Project management antipatterns
+* Project change control
+* Impersonal requirements (but see Alleman)
+* "nothing is real unless it's a project"

@@ -121,4 +121,7 @@ NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later, yo
 
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*
 
+==== Quality management
+ Deming and Juran. 
+
 anchor:2.04.00-product-mgmt[]

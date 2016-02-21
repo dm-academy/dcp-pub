@@ -1,4 +1,4 @@
-==== Project management in the Agile era
+==== Agile and project management
 [quote, Stanley Portny, Project Management for Dummies 4th ed.]
 Projects of all types and sizes are now *the* way that organizations accomplish their work [emphasis added].
 
@@ -74,23 +74,24 @@ Where leveraging yellow stickies or index cards makes sense in conjunction with 
 
  ultimately, the decision of EA...
 
-===== Agile project management
+===== Agile project management beyond Scrum
+(Scrum was covered in Chapter 4)
+
+
+* Velocity
+* Estimation (should this be covered in chapter 4?)
 * Rolling wave planning
 * Last responsible moment
 * "Water-scrum-fall"
+* The estimation controversy (sidebar?)
+anchor:3.08.03-NoEstimates[]
 
 ===== The Agile project frameworks
 * SAFe
 * DaD
 * etc
 
-===== Project management antipatterns
-* Project change control
-* The estimation controversy (sidebar?)
-anchor:3.08.03-NoEstimates[]
-** "It'll be done when it's done."
-* Impersonal requirements (but see Alleman)
-* "nothing is real unless it's a project"
+
 
 ===== The future of project management
 

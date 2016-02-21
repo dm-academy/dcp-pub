@@ -10,7 +10,7 @@ Agile is having a profound impact on the project management profession and will 
 
 As the above quotes indicate, there are diverse opinions on the role and importance of traditional project management in the enterprise. Clearly it is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of xref:2.04.00-product-mgmt[product management] plus simple xref:2.05.00-work-management[work management], without the overhead of the formalized project lifecycle suggested by PMBOK.
 
-Cloud is having impacts on traditional project management as well. As discussed elsewhere, projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving traditional internal IT with considerably reduced responsibilities.
+Cloud is having impacts on traditional project management as well. Projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, as discussed in the section on xref:trad-IT-decline[the decline of traditional IT], that kind of functionality is delivered by online service providers, leaving traditional internal IT with considerably reduced responsibilities.
 
  idea: interview St. Thomas IT staff on moving to Office 365.
 

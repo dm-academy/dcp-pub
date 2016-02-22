@@ -156,7 +156,7 @@ There is diminishing reason to run commodity software (e.g. payroll, expenses, H
 
 What is left internal to the enterprise, increasingly, are those initiatives deemed "competitive" or "strategic." Usually, this means that they are going to contribute to a revenue stream. This in turn means they are "products" or significant components of them. (See Chapter 4, xref:2.04.00-product-mgmt[Product Management].)
 
-A significant market-facing product initiative (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team might simply analyze the overall structure of the epic, decomposing it into stories and features, and spending the time to organize them into a logical sequence.
+A significant market-facing product initiative (still calling for project management per se) might start with the identification of a large, interrelated set of features, perhaps termed an "epic." Hardware acquisition is a thing of the past, due to either private or public cloud. The team starts with analyzing the overall structure of the epic, decomposing it into stories and features, and organizing them into a logical sequence.
 
 Because capacity is available on demand, new systems do not need to be nearly as precisely "sized," which meant that implementation could commence without as much up front analysis. Simpler architectures suffice until real load is proven. It might then be a scramble to refactor software to take advantage of new capacity, but the overall economic effect is positive, as over-engineering and over-capacity are increasingly avoided.
 

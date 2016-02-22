@@ -48,6 +48,8 @@ However, there are a number of issues in doing so.
 
 Scope, execution, limited resources, and dependencies exist throughout digital business. A product manager with no understanding of these issues, or tools to deal with them, will likely fail. Product managers should therefore be familiar with the basic concepts of project management. The project paradigm has a benefit in its explicit limitation of time and money, and the sense of urgency this creates. However, the way in which project management is implemented, the degree of formality, will vary according to need.
 
+"bring the work to the team, not the team to the work" http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company - cultural issues - refer to previous chapter
+
 ====== The systems view
 
 [quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]

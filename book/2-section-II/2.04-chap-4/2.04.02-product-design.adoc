@@ -59,6 +59,11 @@ Software product management needs to be a careful balance between these two pers
 
 We will be revisiting this more systematically in chapter 7.
 
+===== Three business strategies
+* operational excellence
+* product leadership
+* customer focus
+
 ===== Software and systems engineering
 
 Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.

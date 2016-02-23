@@ -1,1 +1,30 @@
 ==== Special section: The IT lifecycles
+
+****
+*The folly of letting TLM dominate*
+
+Henrik Kniberg tells the story of one of his most successful projects — a
+system built for the Swedish police that allowed them to use laptops in
+the field — and what happened afterwards [Kni13]. Because the project
+was extremely urgent, the group was allowed to use an agile approach and
+break out of the traditional organizational culture. Everything went well,
+the police organization viewed it as a success, and the project even won a
+“project of the year” award.
+
+What came next, however, was even more interesting. A high-level decision
+was made to rebuild from scratch that same system police had used
+in the field, using Siebel. This was part of a standardization effort to reduce
+the complexity and number of systems. Not only was the decision
+made to use a technology that the development team didn’t agree with,
+but it was decided to use a more traditional, sequential project-management
+approach to development. Development took a couple years and
+when it finally rolled out, it was a disaster because the police found it
+to be slow and clumsy and basically unusable. Making the change even
+more difficult was that the police preferred their existing system, which
+worked. Kniberg estimates that this cost the Swedish police more than £1
+billion.
+
+in http://www.infoq.com/resource/minibooks/why-agile-works/en/pdf/InfoQ-Why-Agile-Works-Mini-book.pdf
+****
+
+$ 1 billion would have bought a lot of support & vendor leverage for the "nonstandard" technologies.

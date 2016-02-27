@@ -20,6 +20,8 @@ So, a couple questions emerge:
 * Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
 
 ===== Scaling one product
+[quote, Mike Cohn, Succeeding with Agile]
+Good team structure can go a long way toward reducing dependencies but will not eliminate them.
 
 [quote, Mark Kennaley, SDLC 3.0]
 Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.

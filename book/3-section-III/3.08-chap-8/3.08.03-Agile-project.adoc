@@ -131,5 +131,4 @@ Project success: product mgmt happy
 Product success: market happy
 
 Sidebar: Practical collaboration at scale (Chapter 7??)
-Unmeetings/unconferences
-what was that method - some specialists get 300 people together & self organize for objectives --
+Unmeetings/unconferences/Open space

@@ -13,7 +13,7 @@ The presence of a section entitled "product design" in this book is a marked dep
 However, the ideas of projects and deliverables represent approaches that are more open-loop, or at least delayed in feedback. Design processes do not perform well when feedback is delayed.
  [point back to system intent section in chapter 3, this is elaboration]
 
- anchor:lean-startup[]
+anchor:lean-startup[]
 
 ===== Lean Startup
 [quote, Eric Ries, The Lean Startup]

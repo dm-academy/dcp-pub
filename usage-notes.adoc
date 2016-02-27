@@ -7,6 +7,8 @@ Inline linking
 anchor:[]
 xref:[]
 
+xref:0.01-emergence[emergence model]
+
 xref:3.07.00-Chap-7[Chapter 7]
 xref:2.00.01-feedback[feedback]
 xref:3.08.03-NoEstimates[No Estimates]
@@ -15,7 +17,7 @@ xref:2.05.00-work-management[]
 xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]
 xref:trad-IT-decline[decline of traditional IT]
-
+xref:lean-startup[Lean Startup]
 
 
 

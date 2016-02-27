@@ -1,8 +1,8 @@
 ==== Principles and theories of project management
 
-The previous chapter discussed some typical applications of project management, starting with very simple examples and moving into more complex topics.
+The previous chapter discussed some typical applications of project management, starting with very simple examples and moving into more complex topics, concluding with a discussion of the evolution of IT delivery in the modern enterprises. We return to the specific topic project management with a deeper examination.
 
-However, project management (NOT restricted to IT) is a defined area of study, theory, and professional practice. This section provides a (necessarily brief) overview of these topics.
+Project management (NOT restricted to IT) is a defined area of study, theory, and professional practice. This section provides a (necessarily brief) overview of these topics.
 
 We will first discuss the Project Management Body of Knowledge, which is the leading industry framework in project management, at least in the United States. (PRINCE2 is another framework, originating from the UK, which will not be covered in this edition.) We will spend some time on the critical issues of scope management which drive some of the conflicts seen between traditional project management and Agile product management.
 
@@ -74,9 +74,9 @@ Scope management is a powerful tool and concept, at the heart of the most challe
 
 *Change Control* A process whereby modifications to documents, deliverables, or baselines associated with the project are identified, documented, approved, or rejected.
 
-In the Lean Startup world, products may pivot and pivot again, and their resource requirements may flex rapidly based on market opportunity. Formal project change control processes are in general not used. Even in larger organizations, product teams may be granted certain leeway to adapt their "products, services, and results" and while such adaptations need to be transparent, formal project change control is not the vehicle used.
+In the  xref:lean-startup[Lean Startup] world, products may pivot and pivot again, and their resource requirements may flex rapidly based on market opportunity. Formal project change control processes are in general not used. Even in larger organizations, product teams may be granted certain leeway to adapt their "products, services, and results" and while such adaptations need to be transparent, formal project change control is not the vehicle used.
 
-On the other hand (as mentioned at the chapter outset), the simple organizational change from one to multiple products provokes certain concerns and a new kind of contention for resources. People are inherently competitive and also have a sense of fairness. A new product team that seems to be unaccountable for results, consuming "more than its share" of budget while failing to meet the original vision for their existence, will cause conflict.
+On the other hand, remember our xref:0.01-emergence[emergence model]. The simple organizational change from one to multiple products may provoke certain concerns and a new kind of contention for resources. People are inherently competitive and also have a sense of fairness. A new product team that seems to be unaccountable for results, consuming "more than its share" of budget while failing to meet the original vision for their existence, will cause conflict and concern among organizational leadership.
 
 It is in the tension between product autonomy and accountability that we see project management techniques such as the work breakdown structure and project change control employed.
 

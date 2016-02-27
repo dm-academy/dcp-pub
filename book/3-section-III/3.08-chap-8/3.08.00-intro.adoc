@@ -5,16 +5,15 @@
 [quote, Project Management Body of Knowledge, version 5]
 A project is a temporary endeavor undertaken to create a unique product, service, or result.
 
-We have discussed xref:2.0.4.03-scrum[Scrum] in Chapter 4, xref:2.05.02-kanban[Kanban] in Chapter 5, and various organizational forms for performing work in xref:3.07.00-Chap-7[Chapter 7].
+We might restate the above quote as *the execution of a given scope of work within constraints of time and budget*. But questions arise. We are already executing work, without this concept of "project." We have discussed xref:2.0.4.03-scrum[Scrum] in Chapter 4, xref:2.05.02-kanban[Kanban] in Chapter 5, and various organizational forms for performing work in xref:3.07.00-Chap-7[Chapter 7].
 
-We might restate this as *the execution of a given scope of work within constraints of time and budget*. But questions arise. We are already executing work, without this concept of "project." And what is this idea of "scope"? How would we know it in advance, so that the "constraints of time and budget" are reasonable?
+And what is this idea of "scope"? How would we know it in advance, so that the "constraints of time and budget" are reasonable?
 
-As we have seen in our discussions of  xref:2.04.00-product-mgmt[ Product Management], in implementing *truly new products,* (including digital products) estimating time and budget is virtually impossible because *the necessary information is not available*. In fact, creating it - which requires tight feedback loops - is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role and even need for traditional project management.
+As we have seen in our discussions of  xref:2.04.00-product-mgmt[ Product Management], in implementing *truly new products,* (including digital products) estimating time and budget is virtually impossible because *the necessary information is not available*. In fact, creating it - which requires tight feedback loops - is the actual work of the "project". Therefore, in the new Agile world, there is some uncertainty as to the role of and even need for traditional project management. (<<Cobb2015>> is a thorough examinination of these issues.)
 
 In the project management literature and tradition, much focus is given to the *execution* aspect of project management - its ability to help manage complex, interdependent work across resource limitations. However, we are also interested in the *structural role* of project management. Project management may be institutionalized through establishing an organizational function known as the Project Management Office (PMO), which may use a concept of project portfolio as a means of constraining and managing the organization's multiple priorities. What is the relationship of the traditional PMO to the new, product-centric, digital world?
 
-However, at a practical level, project managers remain important roles and (sometimes re-labled Scrum masters) are employed in both traditional and new digital companies as overall orchestrators of complex initiatives. This chapter will examine some of the reasons for project management's persistence and how it is adapting to the new product-centric reality.
-
+At a practical level, project managers remain important roles and (sometimes re-labled Scrum masters) are employed in both traditional and new digital companies as overall orchestrators of complex initiatives. This chapter will examine some of the reasons for project management's persistence and how it is adapting to the new product-centric reality.
 
 IMPORTANT: There is little doubt the student pursuing an IT career will encounter project managers and their techniques at some point. This chapter will discuss the fundamental premises, techniques, and limitations of project management, in the context of digital transformation.
 

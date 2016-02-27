@@ -50,6 +50,11 @@ Scope, execution, limited resources, and dependencies exist throughout digital b
 
 "bring the work to the team, not the team to the work" http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company - cultural issues - refer to previous chapter
 
+
+ key conjecture below. looking for evidence/counterevidence
+
+However, in the xref:0.01-emergence[emergence model] thought experiment, we are making a key state transition from one product to multiple products. When everyone on the team is supporting one product and dedicated to its success, there is less sense of contention with "others" in the organization. This changes dramatically with the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.  This was a different problem when you were a tight-knit startup; you were constrained, but everyone knew they were "in it together." Now you need some ground rules to support your increasingly diverse activities. This leads to new forms of governance.
+
 ====== The systems view
 
 [quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]

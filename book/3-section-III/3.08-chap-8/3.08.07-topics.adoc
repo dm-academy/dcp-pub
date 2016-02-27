@@ -46,6 +46,23 @@ The final point of this diagram: you only have so much capacity to execute the w
 ===== Controversies in PM history
 PERT chart history, Mcnamara, etc
 
+====== The systems problem
+
+[quote, Mark Kennaley, SDLC 3.0]
+When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
+
+Kennaley, above, provides some reasoning for project management. Ironically, he uses the term "batch," which is often a concept unfavorably viewed in Agile and Lean circles.
+
+Not all problems respond to iteration. Sometimes, deeper analysis is necessary. When a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence may be as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint (even iteratively), and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
+
+Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimization is a known hard problem in systems engineering and cannot be wished away through merely invoking the word "Agile."
+
+===== Project management antipatterns
+* Project change control
+* Impersonal requirements (but see Alleman)
+* "nothing is real unless it's a project"
+
+ idea: interview St. Thomas IT staff on moving to Office 365.
 
 ===== Notes
 

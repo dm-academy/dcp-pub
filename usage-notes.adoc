@@ -18,7 +18,7 @@ xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]
 xref:trad-IT-decline[decline of traditional IT]
 xref:lean-startup[Lean Startup]
-
-
+xref:2.04.04-lean-product-dev[Lean Product Development]
+xref:loose-coupling-project[loose coupling and project management]
 
 [quote, who, what]

@@ -12,8 +12,6 @@ As the above quotes indicate, there are diverse opinions on the role and importa
 
 Cloud is having impacts on traditional project management as well. Projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, as discussed in the section on xref:trad-IT-decline[the decline of traditional IT], that kind of functionality is delivered by online service providers, leaving traditional internal IT with considerably reduced responsibilities.
 
- idea: interview St. Thomas IT staff on moving to Office 365.
-
 Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product.
 
 So, a couple questions emerge:
@@ -21,7 +19,40 @@ So, a couple questions emerge:
 * Given the above trends, under what circumstances does formalized project management make economic sense?
 * Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
 
-===== Project management and the organization
+===== Scaling one product
+
+[quote, Mark Kennaley, SDLC 3.0]
+Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.
+
+[quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
+What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
+
+As we discussed in the xref:3.07.00-Chap-7[Chapter 7], we are introducing multiple feature teams as our product scales up:
+
+image::images/3.08-multi-feature.png[]
+
+The decision process by which the features are identified is still informal (we will not formalize this until Chapter 12.) However, the term "architecture" is likely emerging through these discussions.
+
+As noted in the discussion of xref:loose-coupling-project[loose coupling and project management], some needs for coordination may be mitigated through the design of the product itself. If the features and components have well defined protocols for their interaction and clear contracts for matters like performance, development on each team can move forward with some autonomy.
+
+ discussion of internal architectures, expectations, contracts at Google - Chubby locking case study.
+
+But at scale, complexity is inevitable. What happens when a given business objective requires coordinated effort across multiple teams?
+
+For example, an online ecommerce site might find itself overwhelmed by business success. Upgrading the site to accommodate the new demand might require distinct work be performed by most or all of the teams:
+
+image::images/3.08-multi-feature-coord.png[]
+
+As the quote from Gary Hamel above indicates, a central point of coordination and accountability is advisable, otherwise the objective is at risk. (It becomes "someone else's problem.")
+
+===== Scaling to more than one product
+ disclaimer: some of this is hypothetical
+
+In keeping with the xref:0.01-emergence[emergence model] thought experiment, another key state transition is from one product to multiple products.
+
+This is substantially distinct from scaling one product through subdividing it into multiple features.
+
+When everyone on the team is supporting one product and dedicated to its success, there is less sense of contention with "others" in the organization. This changes dramatically with the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.  This was a different problem when you were a tight-knit startup; you were constrained, but everyone knew they were "in it together." Now you need some ground rules to support your increasingly diverse activities. This leads to new forms of governance.
 
 Consider our hypothetical startup company:
 
@@ -33,65 +64,36 @@ image::images/3.08-multi-product.png[]
 
 * Managing scope and preventing unintended creep or drift from the product's original charter
 * Managing contention for enterprise resources
-* Execution to timeframes
-* Coordinating dependencies
+* Execution to timeframes (e.g. the critical trade show)
+* Coordinating dependencies (e.g. achieving larger, cross-product goals)
 * Accountability for results
 
-Fairness is deeply wired into the human brain, and the creation of a new product (and associated team) provokes new dynamics in the growing company.
+Fairness is deeply wired into the human brain [cites], and the creation of a new product (and associated team) provokes new dynamics in the growing company.
 Project management provides tools addressing these issues, which is why it is widely used.
 
 However, there are a number of issues in doing so.
 
 * Projects are by definition temporary, while products may last as long as there is market demand.
-* Project management methodology, with its emphasis on predictability and scope management, often conflicts with the product management objective of discovering information (see Chapter 4.)
+* Project management methodology, with its emphasis on predictability, scope management, and change control often conflicts with the product management objective of discovering information (see the discussion of xref:2.04.04-lean-product-dev[Lean Product Development].)
 ** But not all product management activities involve the creation of new information!
 
 Scope, execution, limited resources, and dependencies exist throughout digital business. A product manager with no understanding of these issues, or tools to deal with them, will likely fail. Product managers should therefore be familiar with the basic concepts of project management. The project paradigm has a benefit in its explicit limitation of time and money, and the sense of urgency this creates. However, the way in which project management is implemented, the degree of formality, will vary according to need.
 
-"bring the work to the team, not the team to the work" http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company - cultural issues - refer to previous chapter
+So, what of project management in this new world? A project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups.
 
-
- key conjecture below. looking for evidence/counterevidence
-
-However, in the xref:0.01-emergence[emergence model] thought experiment, we are making a key state transition from one product to multiple products. When everyone on the team is supporting one product and dedicated to its success, there is less sense of contention with "others" in the organization. This changes dramatically with the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.  This was a different problem when you were a tight-knit startup; you were constrained, but everyone knew they were "in it together." Now you need some ground rules to support your increasingly diverse activities. This leads to new forms of governance.
-
-====== The systems view
-
-[quote,  Gary Hamel, preface to the Open Organization: Igniting Passion and Performance]
-What’s typically underestimated is the complexity and indivisibility of many large-scale coordination tasks.
-
-[quote, Mark Kennaley, SDLC 3.0]
-When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
-
-Kennaley, above, provides some reasoning for project management. Ironically, he uses the term "batch," which is often a concept unfavorably viewed in Agile and Lean circles.
-
-Not all problems respond to iteration. Iterative solutions may make sense in some cases; in other cases, a higher degree of certainty is required before any solutioning is attempted. Attempting to iteratively refine a given solution may result in completely missing a higher order mode in a complex space (local optimization).
-
-When a system presents multiple constraints that need to be solved simultaneously, the only way to do this with confidence may be as a "batch" of thought and analysis. If one needs to balance several competing objectives, one may need to know how a given course of action will affect all of them before embarking. Solving for one constraint, and embarking on a plan of action, may result in not meeting the other constraints, and having to throw the whole solution away.
-
-Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimization is a known hard problem in systems engineering and cannot be wished away through merely invoking the word "Agile."
+It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
 
 * tactical needs for PM: resources, team performance - see Cohn
 
-* Resource limitations. Schedule limitations (e.g. the critical trade show.)
-
-===== Collaboration at scale
-[quote, Mark Kennaley, SDLC 3.0]
-Where leveraging yellow stickies or index cards makes sense in conjunction with practices like big visible charts and co-location, such formats become ridiculous for a large constituency of challenging projects . . . When faced with these challenges, rather than proclaim that Agile won't work or doesn't scale, the preferable approach is to understand and acknowledge the nature of collaboration, the nature of distributed workflow, and the complexity of modern product development.
-
- ultimately, the decision of EA...
-
- What of project management in this new world? A project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups. It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
-
 ===== Agile project management beyond Scrum
 (Scrum was covered in Chapter 4)
-
 
 * Velocity
 * Estimation (should this be covered in chapter 4?)
 * Rolling wave planning
 * Last responsible moment
 * "Water-scrum-fall"
+
 * The estimation controversy (sidebar?)
 anchor:3.08.03-NoEstimates[]
 
@@ -100,7 +102,9 @@ anchor:3.08.03-NoEstimates[]
 * DaD
 * etc
 
+"bring the work to the team, not the team to the work"
 
+http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company - cultural issues - refer to previous chapter
 
 ===== The future of project management
 
@@ -116,8 +120,7 @@ A product manager who does not understand the fundamentals of project execution 
 
 fundamental theme - what can we know... emergence vs planning ... network vs chain ... finding partial ordering, falsifying hypotheses...
 
-If we "get rid of the PMO" there still is the need to charter new investments. What is their value proposition, business model... there is always a portfolio and some form of success criteria
-and there will ALWAYS be issues of resources and dependencies
+If we "get rid of the PMO" there still is the need to charter new investments. What is their value proposition, business model... there is always a portfolio and some form of success criteria and there will ALWAYS be issues of resources and dependencies
 
 however the days of equating schedule performance with success are ending
 or translating EVM directly to the balance sheet (EVM always being a fiction and less and less useful in a digitally transforming world)

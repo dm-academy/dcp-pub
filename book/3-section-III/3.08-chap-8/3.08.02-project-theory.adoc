@@ -130,8 +130,9 @@ On the other hand, there is a clear set of dependencies between:
 
 This means that the sub-activity "Food for party" is the critical path. If the menu is not determined on time, the grocery run can't happen, and the food will be fixed late or not at all.
 
-****
-*Loose coupling to the project plan rescue?*
+anchor:loose-coupling-project[]
+
+===== Loose coupling to the project plan rescue?
 
 While this book does not go into systems architectural styles in depth, a project with a large number of dependencies may be an indication that the system or product being constructed also has significant interdependencies.
 
@@ -152,7 +153,7 @@ The book https://www.goodreads.com/book/show/753804.Small_Pieces_Loosely_Joined[
 However, when a particular organizational objective requires changes to more than one such "product," the need for cross-team coordination emerges. Someone needs to own this larger objective, even if its actual implementation is carried out across multiple distinct teams.
 
 In this discussion we see the emergence of enterprise architecture, which will be discussed in depth in Chapter 12.
-****
+
 
 ===== Risk management
 Project management is where we see the first formalization of risk management (which will be more extensively covered in Chapter 10). Briefly, risk is classically defined as the probability of an adverse event times its cost. Project managers are alert to risks to their timelines, resource estimates, and deliverables.
@@ -233,11 +234,12 @@ One of the reasons that people estimate conservatively is that project managers 
 
 Coupled with the above-cited drive to multi-tasking, these factors result in poor project performance, despite the array of modern project management techniques.
 
-Goldratt suggested an alternate approach, in which the idea of "critical path" is enhanced with resource awareness. Estimation is handled more probabilistically, and the "critical chain" is the combination of the critical path plus the resource assigned to complete the most critical task. The theory is that a person performing such a task must be protected from distraction, and in fact project managers must expand their tools to effectively forecast and plan the critical chain.
+Goldratt suggested an alternate approach, in which the idea of "critical path" is enhanced with resource awareness. That is to say, the issue of timing and dependencies (itself a complex problem) is further enriched with the availability of resources to perform the work. (In general, the availability of assigned project resources is assumed, but this is not a wise assumption in project-centric environments.)
 
-This leads to some complex math, in particular a known problem called the Resource-Constrained Scheduling Problem. (e.g. http://www.iste.co.uk/data/doc_dtalmanhopmh.pdf) The fact that this problem is so notoriously difficult is 
+Estimation is handled more probabilistically, and the "critical chain" is *the combination of the critical path plus the resource assigned to complete the most critical task.* The theory is that a person performing such a task must be protected from distraction, and in fact project managers must expand their tools to effectively forecast and plan the critical chain.
 
-===== Project management antipatterns
-* Project change control
-* Impersonal requirements (but see Alleman)
-* "nothing is real unless it's a project"
+This leads to some complex math, in particular a known problem called the Resource-Constrained Scheduling Problem. (e.g. http://www.iste.co.uk/data/doc_dtalmanhopmh.pdf) The fact that this problem is so notoriously difficult is indicative of the need for adaptive approaches; ultimately, rigorous analytic methods fail to cope with the complexity of such problems.
+
+Craig Larman, in Scaling Lean and Agile Development, is sympathetic to the overall insights and goals of Critical Chain. However, with respect the full blown analytical approach it implies, he states
+
+"We have seen two very large official "project management TOC" adoption attempts (and heard of one more) in companies developing software-intensive embedded systems... The practice was clearly heavy, not agile, and not lean. In all three cases, the approach was eventually found cumbersome and not very effective, and was dropped." <<Larman2009>>

@@ -1,6 +1,7 @@
+anchor:2.04.04-lean-product-dev[]
+
 ==== Lean, Lean product development, and Don Reinertsen
 
-anchor:2.04.04-lean-product-dev[]
 
 ===== Lean product development
 
@@ -46,8 +47,9 @@ Reinertsen was partnering with David Anderson when Anderson created Kanban. He w
 
 His work is deep and based on fundamental mathematical principles such as queueing theory (lightly touched on in _The Phoenix Project_). One way of reading his work is as a series of interdependent principles:
 
-. The flow, or throughput of product innovation is the primary determinant of financial success
-. Flow requires fast http://dm-academy.github.io/aitm/#_a_brief_introduction_to_feedback[feedback]
+. The flow, or throughput of product innovation is the primary determinant of financial success.
+. Product development is essentially the creation of information.
+. The creation of information requires fast http://dm-academy.github.io/aitm/#_a_brief_introduction_to_feedback[feedback]
 . Feedback requires limiting work in process
 . Limiting work in process in product design contexts requires rigorous prioritization capabilities
 . Effective, economical prioritization requires understanding the http://www.leadingagile.com/2015/06/an-introduction-to-cost-of-delay/[cost of delay] for individual product features

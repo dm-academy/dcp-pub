@@ -24,7 +24,7 @@ Vendor relationships become a two-edged sword, providing increased value with ac
  - Looking ahead: Big Data, machine learning, text analytics
 
 * "Service-izaton" - pros and cons
- - need in higher ed, health - 
+ - need in higher ed, health -
 
 ****
 Sidebar: IT analytics experts
@@ -111,7 +111,11 @@ The often-minimal value of expert opinion revisited (also covered chapter 4)
 Sidebar: Introducing Snowden & Taleb.
 ****
 
+<<Cohn2010>> chapter on architect role - confusion of software & enterprise arch
 
+keep EAs off product teams, agree
+but they set overall direction @ portfolio level
+difficult for them to stay hands on
 
 ===== Learning objectives
 

@@ -66,6 +66,13 @@ We will be revisiting this more systematically in chapter 7.
 * product leadership
 * customer focus
 
+===== Product owner as boundary setter
+"Boundaries are provided by the product owner and often come in the form of constraints, such as
+* I need it by June.
+* We need to reduce the per-unit cost by half.
+* It needs to run at twice the speed.
+* It can use only half the memory of the current version."" <<Cohn2010>>, p 126
+
 ===== Software and systems engineering
 
 Some of the most contentious discussions related to IT management and Agile come at the intersection of software and systems engineering, especially when large investments are at stake.

@@ -43,6 +43,12 @@ The final point of this diagram: you only have so much capacity to execute the w
 
 ===== Earned value management
 
+EVM could be described as a "model" used for understanding the
+execution of software projects. It includes mathematical formulae
+which are intended to provide insights into project dynamics. However
+as will be discussed, the model does not take into consideration
+feedback. It is an Open-Loop system model. Kennaley p44
+
 ===== Controversies in PM history
 PERT chart history, Mcnamara, etc
 
@@ -70,9 +76,10 @@ Project v program: Program: This term can describe two different situations. Fir
 
 Portny, Stanley E. (2013-04-09). Project Management For Dummies (Kindle Locations 678-683). Wiley. Kindle Edition.
 
-
-EVM could be described as a "model" used for understanding the
-execution of software projects. It includes mathematical formulae
-which are intended to provide insights into project dynamics. However
-as will be discussed, the model does not take into consideration
-feedback. It is an Open-Loop system model. Kennaley p44
+Tengshe, Ash, and Scott Noble. 2007. Establishing the agile PMO: Managing variability
+across projects and portfolios. In Proceedings of the Agile 2007 Conference, ed.Jutta Eck
+stein, Frank Maurer, Rachel Davies, Grigori Melnik, and Gary Pollice, 188-193. IEEE
+Computer Society.
+Tengshe and Noble established the agile project management office at Capital One
+Auto Finance.This paper describes their experience doing so and provides good
+advice for transitioning a PMO from traditional to agile. (cited in <<Cohn2010>>)

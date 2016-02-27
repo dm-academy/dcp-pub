@@ -6,3 +6,12 @@ Ordered tasks are something we've had since Chapter 5. Process management is whe
 
 
 "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>>
+
+===== Process vs function
+Will functions stay with product centricity?
+
+Need an overall concept of product/project/process
+
+<<Cohn2010>> p144 assumes functional mgrs will stay
+
+perils of "take a number" service-ization

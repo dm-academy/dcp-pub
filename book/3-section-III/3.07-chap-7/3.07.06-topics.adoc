@@ -23,3 +23,7 @@ reference http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-cl
 
 ===== Solving for decisionmaking & governance
 No choice but to allocate fine-grained decision rights between product lines & guilds. See Reinertsen/Smith.
+
+
+===== additional material
+Toyota Way quadrant as cited in <<Cohn2010>> p145

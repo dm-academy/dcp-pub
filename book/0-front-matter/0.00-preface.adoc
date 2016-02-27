@@ -46,6 +46,16 @@ The idea of the OODA loop is popular in the Agile community. OODA stands for Ori
 
 I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to provide the student with a well documented set of observations on IT's current challenges that can orient you for more effective decisions and actions in your journey toward IT excellence.
 
+==== Evidence for Agile
+A rigorous comparison of 26 agile projects against a baseline database of
+7,500 primarily traditional development projects.This study was con
+ducted by Michael Mali, managing partner of QSM Associates (QSMA),
+which has been collecting productivity, quality, and other metrics on
+projects for more than 15 years.The agile projects Mah studied ranged
+in size from 60 to 1,000 people (Mah 2008). (cited in <<Cohn2010>>)
+
+
+
 === Some personal history
 
 I teach a survey course, at the University of St. Thomas in St. Paul, Minnesota, at the graduate level in the department of Software Engineering and Information Systems. This program at St. Thomas is the largest such program in the country and is comprised of a broad mix of students. Some are fresh out of a non-technical four-year liberal arts degree, and some have years of IT experience in businesses of various sizes, including the region's many Fortune 500 corporations.
@@ -226,6 +236,7 @@ The structure of the book is further documented in the next section, Introductio
 * This book is written at the advanced undergraduate/graduate student level. It is currently available only in English.
 * There is no assumption of deep IT experience, but there is an assumption that the person interacts with computers in some depth. They should for example understand the concept of an "operating system." An A+ certification, for example, would more than adequately prepare someone for this book.
 * A person completely unfamiliar with computing will need to supplement their reading as suggested throughout the text. There is a wealth of free and accurate information on IT fundamentals (e.g. compute, storage, networking, programming, etc) and this book seeks more to curate than replicate.
+
 
 
 ==== Acknowledgements

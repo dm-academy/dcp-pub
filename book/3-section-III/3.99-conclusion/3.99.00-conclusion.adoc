@@ -6,4 +6,4 @@ Process, project, product revisited: from dysfunction to success (!)
 
 Blocking problem
 
-The modern product manager: a purple squirrel?
+The modern product manager: a purple squirrel? <<Cohn2010>>pp130-132

@@ -53,6 +53,8 @@ Product Development] (Research supporting Conway's Law)
 
 * http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company[How organizational agility will save and destroy your company]
 
+* http://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html?_r=0[What Google Learned From Its Quest to Build the Perfect Team]
+
 *Videos*
 
 * https://www.youtube.com/watch?v=Mpsn3WaI_4k[Spotify model, part 1]

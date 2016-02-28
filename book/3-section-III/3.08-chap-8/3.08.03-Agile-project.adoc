@@ -129,11 +129,12 @@ The tension between team coordination and individual focus will likely continue.
 
  [recent popular press about problems of open space working, and responsive facilities with various workspace types available on reservation]
 
-====== Synch points
+====== Synchronization points
 If the team cannot work all the time in one room, then perhaps they can at least be gathered periodically. There is a broad spectrum of synchronization approaches:
 
 * Daily standups
 * Weekly status meetings
+* Coordination meetings (e.g. Scrum of Scrums, see below)
 * Release kickoffs
 * Quarterly "all-hands" meetings
 * Open Space inspired "unmeetings" and "unconferences"
@@ -146,22 +147,35 @@ All of them are essentially similar in approach and assumption: build a shared u
  Unmeetings/unconferences/Open space
 
 ====== Liaison and coordination structures
-* Structured liasons
-** Scrum of scrums
-** shared team members
-** integration teams
-** communities of practice
+A variety of liaison and coordination approaches are suggested by Mike Cohn (<<Cohn2010>>, Chapter 17, "Scaling Scrum") including:
+
+* Shared team members
+* Integration teams
+* Communities of practice
+* Scrum of scrums
+
+*Shared team members* are suggested when two teams have a persistent interface requiring focus and ownership. When a product has multiple interfaces that emerge as a problem requiring focus, an *integration team* may be called for. *Communities of practice* were introduced in Chapter 7 as we discussed the xref:spotify-model[Spotify model]. Considered here, they may also play a coordination role as well as a practice development/maturity role.
+
+Finally, the idea of a "scrum of scrums" is essentially a representative or delegated model, in which each individual Scrum team sends one individual to a periodic coordination meeting where matters of cross-team concern can be discussed and decisions taken.
 
 ====== Planning techniques
-** Estimation (should this be covered in chapter 4?)
-** Rolling wave planning
-** "Water-scrum-fall"
-** Last responsible moment
+Techniques of co-location, synchronization, and liaison all support to varying degrees a concept of planning. Fundamentally, we plan so that the work progresses effectively and efficiently. We seek to optimize the following contradictory goals:
+
+* Delivering results quickly
+* Minimizing the waste of un-utilized resources
+
+To meet these goals, we
+
+* estimate so that we have some understanding of our resource needs
+* plan so that we understand dependencies (e.g. when one team *must* complete a task before another team can start theirs)
 
 anchor:3.08.03-NoEstimates[]
- Sidebar: The estimation controversy (sidebar?)
 
-A wealth of additional techniques is to be found in <<Larman2009>> and <<Cohn2010>>.
+****
+Sidebar: The estimation controversy
+****
+
+The above discussion is by no means exhaustive. A wealth of additional techniques is to be found in <<Larman2009>> and <<Cohn2010>>. New techniques are continually emerging from the front lines of the digital industry; the interested student should consider attending industry conferences such as those offered by the Agile Alliance.
 
 ===== The Agile project frameworks
 * SAFe

@@ -64,11 +64,9 @@ Not all problems respond to iteration. Sometimes, deeper analysis is necessary. 
 Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimization is a known hard problem in systems engineering and cannot be wished away through merely invoking the word "Agile."
 
 ===== Project management antipatterns
-* Project change control
 * Impersonal requirements (but see Alleman)
 * "nothing is real unless it's a project"
-
- idea: interview St. Thomas IT staff on moving to Office 365.
+* "Water-scrum-fall"
 
 ===== Scrum of scrums and its critiques
 identical to a chapter-based grassroots organization
@@ -77,6 +75,15 @@ by the time you are to level 3, how do you maintain "credibility" at the base
 trade unions...
 
 the quest for "authenticity" and the suspicion of systems thinkers
+
+The concept of "scrum of scrums" may make intuitive sense, but starts to run into issues of power, hierarchy, authority, accountability, and so forth. It is mostly presented as a bottom-up structure, and there is an implication that the representatives are also practitioners. (There is a strong narrative of authenticity in the Agile community. The lack of respect for "non-coders" is pronounced.) But what happens when overriding systems concerns need to be communicated downwards in the face of team resistance? What of the "scrum of scrums" representative who is perceived (rightly or wrongly) as not advocating reliably for the team? What of the team who rotates their delegate out of well-intentioned motives related to individual empowerment, but resulting in ineffective representation?
+
+In these questions we see the overlap of Agile with seemingly distant fields such as political science, organizational leadership, and the like.
+
+===== Misc
+The concept of last responsible moment
+
+idea: interview St. Thomas IT staff on moving to Office 365.
 
 ===== Notes
 

@@ -35,6 +35,8 @@ Because Peter was the one receiving all the calls, and in the interest of giving
 
 It was perceived that the engineering team would likely be receiving various requests and so a dotted line appears on the organization chart, indicating a service relationship. The new support person under Peter would also be shared across both teams, and there needed to be some means of communicating support requests to the feature teams when their support was needed. There was some question as to how the office Kanban boards might be reconfigured to support these relationships. Peter and Sonya, after some online research, started to become interested in something called ITIL (the IT Infrastructure Library), which prescribed multiple IT processes that could be used as a basis for organizing.
 
+anchor:spotify-model[]
+
 *Proposed structure #2*
 
 But before that discussion continued, Lena retained another consultant as a cross-check. This consultant had worked with many Silicon Valley startups and had a very different opinion. This consultant was inspired by the https://dl.dropboxusercontent.com/u/1018963/Articles/SpotifyScaling.pdf[“Spotify model”] and proposed the following scaled-down version of it:

@@ -1,3 +1,5 @@
+anchor:Section-III-coordination[]
+
 == Section III: Coordination
 
 *Scenario*
@@ -13,6 +15,8 @@ New employees are bringing in their experiences, and the more experienced ones s
 We need to understand where these ideas came from, how they relate to each other, and how they are evolving in a digitally transforming world.
 
 Welcome to the coordination problem.
+
+ etymology of co-ordination?
 
 === Section III introduction
 

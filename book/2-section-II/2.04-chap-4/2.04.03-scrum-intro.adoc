@@ -25,7 +25,6 @@ The Scrum Master, on the other hand, acts as a team coach, "guiding the team to 
 
 Scrum uses specific practices and artifacts such as sprints, standups, reviews, the above-mentioned concept of backlog, burndown charts, and so forth. We will discuss these in Chapter 5 (Work Management) along with Kanban, another popular approach for executing work.
 
-
 * There are three roles:
 ** The product owner sets overall direction.
 ** The Scrum Master coaches and advocates for the team

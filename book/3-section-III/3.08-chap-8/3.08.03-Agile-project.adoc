@@ -103,40 +103,65 @@ The general problem is, "how do I facilitate the adaptive generation of informat
 * as it scales up, we encounter emergent coordination needs
 * that may be exacerbated by time and space shifting
 
-We have seen earlier versions of this problem in our discussion of work management. However, simple Kanban and visual Andon is no longer sufficient, given the nature of the coordination we now require. We need a more diverse and comprehensive set of techniques.
+We have seen earlier versions of this problem in our discussions of work management. However, simple Kanban and visual Andon is no longer sufficient, given the nature of the coordination we now require. We need a more diverse and comprehensive set of techniques.
 
-IMPORTANT: The discussion of particular techniques is always hazardous. People will tend to latch on to a promising approach without fully discussing the "target operating condition." Review the discussion of xref:Toyota-Kata[Toyota Kata]. As noted by <<Larman2009>> (p.44), the risk is one of xref:cargo-cult[cargo cult] process adoption.  
+IMPORTANT: The discussion of particular techniques is always hazardous. People will tend to latch on to a promising approach without fully discussing the "target operating condition." Review the discussion of xref:Toyota-Kata[Toyota Kata]. As noted by <<Larman2009>> (p.44), the risk is one of xref:cargo-cult[cargo cult] process adoption.
 
+The primary objective remains one of "coordination" (as suggested by the overall name of this section, xref:Section-III-coordination[Coordination].)
 
+Here are a few techniques suggested by various Agile authors (primarily <<Cohn2010>>)
 
-* Co-location (The Big Room) - this should go into ch 7?
-** Significant organizational advantages
-** Setup/teardown of connections fast & lightweight
-*** Nautical signal flags (Cohn)
-** Shared mental model (commander's intent) easiest to communicate
+====== Co-location
 
-* Synch points
-** Release kickoffs
-** Scrum of scrums
+Don Reinertsen (<<Reinertsen2009>>, p. 230), proposes "The Principle of Colocation" which asserts that "Colocation improves almost all aspects of communication." In order to scale this, one logically needs what Mike Cohn (<<Cohn2010>>, p. 346) calls "The Big Room."
 
+In terms of communications, this has significant organizational advantages. Communications are as simple as walking over to another person's desk, or just shouting out over the room. It is also easy to synchronize the entire room, through calling for everyone's attention.
+
+However, there are limits to scaling the "Big Room" approach:
+
+* Contention for key individual's attention
+* "All hands" calls for attention that actually interest only a subset of the room
+* Increasing ambient noise in the room
+* Distracting individuals from intellectually demanding work requiring concentration, and ultimately interfering with their xref:personal-flow[personal
+ sense of flow] - a destructive outcome.
+
+The tension between team coordination and individual focus will likely continue. It is an ongoing topic in facilities design.
+
+ [recent popular press about problems of open space working, and responsive facilities with various workspace types available on reservation]
+
+====== Synch points
+If the team cannot work all the time in one room, then perhaps they can at least be gathered periodically. There is a broad spectrum of synchronization approaches:
+
+* Daily standups
+* Weekly status meetings
+* Release kickoffs
+* Quarterly "all-hands" meetings
+* Open Space inspired "unmeetings" and "unconferences"
+
+All of them are essentially similar in approach and assumption: build a shared understanding of the work, objectives, or mission among smaller or larger sections of the organization.
+
+ Meetings bloody meetings
+
+ Sidebar: Practical collaboration at scale (Chapter 7??)
+ Unmeetings/unconferences/Open space
+
+====== Liaison and coordination structures
 * Structured liasons
+** Scrum of scrums
 ** shared team members
 ** integration teams
 ** communities of practice
 
-* Planning
+====== Planning techniques
 ** Estimation (should this be covered in chapter 4?)
 ** Rolling wave planning
 ** "Water-scrum-fall"
 ** Last responsible moment
 
-* The estimation controversy (sidebar?)
 anchor:3.08.03-NoEstimates[]
+ Sidebar: The estimation controversy (sidebar?)
 
-Sidebar: Practical collaboration at scale (Chapter 7??)
-Unmeetings/unconferences/Open space
-
-A wealth of additional techniques is to be found in <<Larman2009>>.
+A wealth of additional techniques is to be found in <<Larman2009>> and <<Cohn2010>>.
 
 ===== The Agile project frameworks
 * SAFe

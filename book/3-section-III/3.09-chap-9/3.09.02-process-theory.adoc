@@ -1,6 +1,10 @@
 ==== Process theory
 
+Case mgmt
+
 ===== RACI
 also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch
 
 but most refined in process approaches
+
+deeper theory: state charts, Petri nets

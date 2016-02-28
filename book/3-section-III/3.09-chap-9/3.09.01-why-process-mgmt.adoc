@@ -1,6 +1,14 @@
 ==== Why process management?
  Work will have already been specializing. Sales process, HR process, etc. This is about a certain degree of formalization that includes explicit process improvement.
 
+Scenario: repetitive yet error prone work
+team to team interactions that become "servicized"
+
+A glance at the frameworks? At least examples are needed.
+
+===== The fundamental point
+The digital service *is* fundamentally an automated process. That's what computers do.
+
 ===== Process vs work management
 Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common engines and methods to define them.
 
@@ -15,3 +23,5 @@ Need an overall concept of product/project/process
 <<Cohn2010>> p144 assumes functional mgrs will stay
 
 perils of "take a number" service-ization
+
+Measuring process. KPIs across a 36-process operating model?

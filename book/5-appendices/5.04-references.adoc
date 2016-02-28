@@ -35,7 +35,7 @@
 
 - [[[Chacon2009]]]: Chacon, S. & Straub, B. (2009). Pro Git. Berkeley, CA. New York, Apress.
 
-- [[[Cobb2015]]]: Cobb, C.G., (2015), The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach, Hoboken, New Jersey: John Wiley & Sons.
+- [[[Cobb2015]]]: Cobb, C.G., (2015), _The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach_, Hoboken, New Jersey: John Wiley & Sons.
 
 - [[[Cohn2010]]]: Cohn, M., _Succeeding with Agile: Software Development Using Scrum_, Addison-Wesley: Upper Saddle River, New Jersey.
 

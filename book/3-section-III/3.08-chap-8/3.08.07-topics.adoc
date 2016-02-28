@@ -70,6 +70,14 @@ Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimizatio
 
  idea: interview St. Thomas IT staff on moving to Office 365.
 
+===== Scrum of scrums and its critiques
+identical to a chapter-based grassroots organization
+trouble is that emergent problems at each level start to distract & take over
+by the time you are to level 3, how do you maintain "credibility" at the base
+trade unions...
+
+the quest for "authenticity" and the suspicion of systems thinkers
+
 ===== Notes
 
 Project v program: Program: This term can describe two different situations. First, a program can be a set of goals that gives rise to specific projects, but, unlike a project, a program can never be completely accomplished. For example, a health-awareness program can never completely achieve its goal (the public will never be totally aware of all health issues as a result of a health-awareness program), but one or more projects may accomplish specific results related to the program’s goal (such as a workshop on minimizing the risk of heart disease). Second, a program sometimes refers to a group of specified projects that achieve a common goal.

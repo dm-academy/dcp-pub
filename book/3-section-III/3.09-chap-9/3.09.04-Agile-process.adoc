@@ -1,1 +1,7 @@
 ==== Agile and IT process management
+
+Invariants
+Process is "adaptive" only to a degree
+Standard + case
+
+Scrum of scrums as a synch point

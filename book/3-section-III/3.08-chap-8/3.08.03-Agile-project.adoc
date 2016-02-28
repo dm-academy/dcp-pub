@@ -10,14 +10,14 @@ Agile is having a profound impact on the project management profession and will 
 
 As the above quotes indicate, there are diverse opinions on the role and importance of traditional project management in the enterprise. Clearly it is under pressure from the Agile movement. Project management professionals are advised to not deny or diminish this fact. It is possible for a modern, IT-centric organization to make considerable progress on the basis of xref:2.04.00-product-mgmt[product management] plus simple xref:2.05.00-work-management[work management], without the overhead of the formalized project lifecycle suggested by PMBOK.
 
-Cloud is having impacts on traditional project management as well. Projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, as discussed in the section on xref:trad-IT-decline[the decline of traditional IT], that kind of functionality is delivered by online service providers, leaving traditional internal IT with considerably reduced responsibilities.
+Cloud is having impacts on traditional project management as well. As noted in the section on the xref:trad-IT-decline[decline of traditional IT], projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving "traditional" internal IT with considerably reduced responsibilities.
 
 Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product.
 
-So, a couple questions emerge:
+So, this section will examine the following questions:
 
 * Given the above trends, under what circumstances does formalized project management make economic sense?
-* Assuming that formalized project management is employed, how does one retain values such as fast feedback and adaptability?
+* Assuming that formalized project management is employed, how does one continue to support objectives such as fast feedback and adaptability?
 
 ===== Scaling one product
 [quote, Mike Cohn, Succeeding with Agile]
@@ -41,7 +41,7 @@ As noted in the discussion of xref:loose-coupling-project[loose coupling and pro
 
 But at scale, complexity is inevitable. What happens when a given business objective requires coordinated effort across multiple teams?
 
-For example, an online ecommerce site might find itself overwhelmed by business success. Upgrading the site to accommodate the new demand might require distinct work be performed by most or all of the teams:
+For example, an online ecommerce site might find itself overwhelmed by business success. Upgrading the site to accommodate the new demand might require distinct development work to be performed by most or all of the teams:
 
 image::images/3.08-multi-feature-coord.png[]
 
@@ -54,7 +54,6 @@ In keeping with the xref:0.01-emergence[emergence model] thought experiment, ano
 
 This is substantially distinct from scaling one product through subdividing it into multiple features.
 
-When everyone on the team is supporting one product and dedicated to its success, there is less sense of contention with "others" in the organization. This changes dramatically with the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification. And because resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.  This was a different problem when you were a tight-knit startup; you were constrained, but everyone knew they were "in it together." Now you need some ground rules to support your increasingly diverse activities. This leads to new forms of governance.
 
 Consider our hypothetical startup company:
 
@@ -63,6 +62,10 @@ image::images/3.08-one-product.png[]
 Establishment of a second product team raises issues:
 
 image::images/3.08-multi-product.png[]
+
+When everyone on the team is supporting one product and dedicated to its success, there is less sense of contention with "others" in the organization. This changes dramatically with the addition of a second product. Concerns for fair allocation and a sense of internal competition naturally arise out of this diversification.
+
+Beecause resources are always limited, it is critical that the demands of each product be managed using objective criteria, requiring formalization.  This was a different problem when you were a tight-knit startup; you were constrained, but everyone knew they were "in it together." Now you need some ground rules to support your increasingly diverse activities. This leads to new concerns:
 
 * Managing scope and preventing unintended creep or drift from the product's original charter
 * Managing contention for enterprise resources
@@ -79,7 +82,9 @@ However, there are a number of issues in doing so.
 * Project management methodology, with its emphasis on predictability, scope management, and change control often conflicts with the product management objective of discovering information (see the discussion of xref:2.04.04-lean-product-dev[Lean Product Development].)
 ** But not all product management activities involve the creation of new information!
 
-Scope, execution, limited resources, and dependencies exist throughout digital business. A product manager with no understanding of these issues, or tools to deal with them, will likely fail. Product managers should therefore be familiar with the basic concepts of project management. The project paradigm has a benefit in its explicit limitation of time and money, and the sense of urgency this creates. However, the way in which project management is implemented, the degree of formality, will vary according to need.
+Scope, execution, limited resources, and dependencies exist throughout digital business. A product manager with no understanding of these issues, or tools to deal with them, will likely fail.
+
+Product managers should therefore be familiar with the basic concepts of project management. The project paradigm has a benefit in its explicit limitation of time and money, and the sense of urgency this creates. However, the way in which project management is implemented, the degree of formality, will vary according to need.
 
 So, what of project management in this new world? A project manager may still be required, to facilitate discussions, record decisions, and keep the team on track to its stated direction and commitments. Regardless of whether the team considers itself "Agile," people are sometimes bad at taking notes or being consistent in their usage of tools such as Kanban boards and standups.
 
@@ -87,9 +92,13 @@ It is also useful to have a third party who is knowledgeable about the product, 
 
 * tactical needs for PM: resources, team performance - see Cohn
 
-===== Agile project management beyond Scrum
-(Scrum was covered in Chapter 4)
+===== Techniques for scaling Agile
 
+* Synch points
+** Release kickoffs
+** Scrum of scrums
+* Bilateral liasons (Shared team mbrs)
+** integration teams
 * Velocity
 * Estimation (should this be covered in chapter 4?)
 * Rolling wave planning
@@ -98,6 +107,9 @@ It is also useful to have a third party who is knowledgeable about the product, 
 
 * The estimation controversy (sidebar?)
 anchor:3.08.03-NoEstimates[]
+
+Sidebar: Practical collaboration at scale (Chapter 7??)
+Unmeetings/unconferences/Open space
 
 ===== The Agile project frameworks
 * SAFe
@@ -129,6 +141,3 @@ or translating EVM directly to the balance sheet (EVM always being a fiction and
 
 Project success: product mgmt happy
 Product success: market happy
-
-Sidebar: Practical collaboration at scale (Chapter 7??)
-Unmeetings/unconferences/Open space

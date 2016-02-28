@@ -1,5 +1,9 @@
 === Towards a theory of IT management
-Folk models
+Folk models = "sr. clinician's opinions" - Nancy Raymond
+
+the problem of frameworks - arbitrary applications of semantics
+
+traditions of canon law
 
 Optimizing across multiple constraints
 
@@ -7,3 +11,5 @@ Limits of iterative approaches ... missing higher order modes ...
 
 
 * Reinertsen's critique of CC
+
+What we can and cannot learn from simulations (AB Murray)

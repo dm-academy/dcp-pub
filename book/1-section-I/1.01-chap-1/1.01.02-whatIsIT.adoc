@@ -37,6 +37,8 @@ IT increasingly permeates business operations and social interactions. The bread
 
 As IT increases its pervasiveness, it becomes difficult to detangle and analyze it. However, doing so remains essential because without a line of sight back to its intellectual foundations, any technology risks becoming magic, and its users risk becoming a https://en.wikipedia.org/wiki/Cargo_cult[cargo cult].
 
+anchor:cargo-cult[]
+
 ****
 *Sidebar: Cargo cult*
 
@@ -44,9 +46,9 @@ During World War II, South Pacific native peoples had been exposed abruptly to m
 
 On further investigation, it became clear that the natives were seeking more “cargo” and had developed a magical understanding of how goods would be delivered. By imitating the form of what they had seen, they hoped to recreate it.
 
-In 1974, the noted physicist Richard Feynman gave a speech at Caltech in which he coined the immortal phrase “cargo cult science.” His intent was to caution against activities which appear to follow the external form of science, but lack the essential understanding at its core.
+In 1974, the noted physicist Richard Feynman gave a speech at Caltech in which he coined the immortal phrase “cargo cult science.” His intent was to caution against activities which appear to follow the external form of science, but lack the essential understanding at its core. Similar analogies are seen in business and IT management, as organizations adopt tools and techniques because they have seen others do so, without having fundamental clarity about the problems they are trying to solve and how a given technique might specifically help.
 
-It should be noted, as with most archetypes of this sort, that there are questions around the accuracy of the original accounts and Western interpretations and mythmaking around what was seen. However there is no question that the phenomena were observed, and that “cargo cult thinking” is a useful cautionary metaphor.
+It should be noted, as with most archetypes of this sort, that there are questions around the accuracy of the original accounts and Western interpretations and mythmaking around what was seen. However there is no question that the phenomena were observed, and that “cargo cult thinking” is a useful cautionary metaphor. We will return to it periodically throughout this book.
 ****
 
 Nicholas Carr, in his controversial _Harvard Business Review_ article "IT Doesn't Matter," recognized that IT was becoming commoditized in an important sense. As Cloud providers started to offer utility-style computing, the choice of particular vendors of computers was no longer strategic. Looking to history, Carr argued that just as businesses no longer have “Vice Presidents for Electricity,” so businesses no longer need Chief Information Officers or dedicated IT departments.

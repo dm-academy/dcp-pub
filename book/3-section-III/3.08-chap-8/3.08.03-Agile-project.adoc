@@ -48,12 +48,11 @@ image::images/3.08-multi-feature-coord.png[]
 As the quote from Gary Hamel above indicates, a central point of coordination and accountability is advisable, otherwise the objective is at risk. (It becomes "someone else's problem.")
 
 ===== Scaling to more than one product
- disclaimer: some of this is hypothetical
+ disclaimer: the "fairness" driver is hypothetical
 
 In keeping with the xref:0.01-emergence[emergence model] thought experiment, another key state transition is from one product to multiple products.
 
 This is substantially distinct from scaling one product through subdividing it into multiple features.
-
 
 Consider our hypothetical startup company:
 
@@ -74,6 +73,7 @@ Beecause resources are always limited, it is critical that the demands of each p
 * Accountability for results
 
 Fairness is deeply wired into the human brain [cites], and the creation of a new product (and associated team) provokes new dynamics in the growing company.
+
 Project management provides tools addressing these issues, which is why it is widely used.
 
 However, there are a number of issues in doing so.
@@ -90,26 +90,53 @@ So, what of project management in this new world? A project manager may still be
 
 It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
 
-* tactical needs for PM: resources, team performance - see Cohn
+===== Organizational tools and techniques
+Our previous discussion of xref:2.05.00-work-management[work management]was a simple, idealized flow of uniform demand (new product functionality, issues, etc). Tasks in general did not have dependencies, or dependencies were handled through ad-hoc coordination. We also in general assumed that resources (people) were available to perform the tasks; resource contention, while it certainly may have come up, was again handled through ad-hoc means.
 
-===== Techniques for scaling Agile
+As we progress on our journey and continue to scale up, we see that dependencies and resource management have become defining concerns, and the concept of "project management" is a primary response. However, we retain our concern for fast feedback and adaptability, as well as a critical approach to the idea that complex initiatives can be precisely defined and simply executed through xref:2.00.1-open-loop[open loop] approaches.
+
+Above, we've discussed a few aspects of the coordination problem including the emergent issues when needed capabilities span feature teams, and when new product lines are introduced. In this section, we will discuss some of the organizational responses (techniques and tools) that have emerged as proven responses to these emergent issues.
+
+The general problem is, "how do I facilitate the adaptive generation of information under conditions of time and space shifting." That is to say:
+
+* digital product development (as all R&D) is essentially xref:2.04.04-lean-product-dev[information generation]
+* as it scales up, we encounter emergent coordination needs
+* that may be exacerbated by time and space shifting
+
+We have seen earlier versions of this problem in our discussion of work management. However, simple Kanban and visual Andon is no longer sufficient, given the nature of the coordination we now require. We need a more diverse and comprehensive set of techniques.
+
+IMPORTANT: The discussion of particular techniques is always hazardous. People will tend to latch on to a promising approach without fully discussing the "target operating condition." Review the discussion of xref:Toyota-Kata[Toyota Kata]. As noted by <<Larman2009>> (p.44), the risk is one of xref:cargo-cult[cargo cult] process adoption.  
+
+
+
+* Co-location (The Big Room) - this should go into ch 7?
+** Significant organizational advantages
+** Setup/teardown of connections fast & lightweight
+*** Nautical signal flags (Cohn)
+** Shared mental model (commander's intent) easiest to communicate
 
 * Synch points
 ** Release kickoffs
 ** Scrum of scrums
-* Bilateral liasons (Shared team mbrs)
+
+* Structured liasons
+** shared team members
 ** integration teams
-* Velocity
-* Estimation (should this be covered in chapter 4?)
-* Rolling wave planning
-* Last responsible moment
-* "Water-scrum-fall"
+** communities of practice
+
+* Planning
+** Estimation (should this be covered in chapter 4?)
+** Rolling wave planning
+** "Water-scrum-fall"
+** Last responsible moment
 
 * The estimation controversy (sidebar?)
 anchor:3.08.03-NoEstimates[]
 
 Sidebar: Practical collaboration at scale (Chapter 7??)
 Unmeetings/unconferences/Open space
+
+A wealth of additional techniques is to be found in <<Larman2009>>.
 
 ===== The Agile project frameworks
 * SAFe

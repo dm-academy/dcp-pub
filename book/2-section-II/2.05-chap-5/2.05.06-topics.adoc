@@ -1,4 +1,5 @@
 ==== Advanced topics
+ Need to allocate between chapters 5, 8, 9 - or touch on & elaborate later?
 
 ===== Relationship between features and tasks
 

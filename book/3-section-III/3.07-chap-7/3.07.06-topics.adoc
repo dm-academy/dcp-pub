@@ -6,6 +6,12 @@
 
 Convergence diagram.
 
+
+===== Communities of practice
+originated by Wenger, McDermott, and Snyder2002.
+
+Types of COPs
+
 ===== Feature vs Component at scale
 
 We have previously discussed xref:2.04.02-features-v-components[feature vs component teams]. As a reminder, features are functional aspects of software (things people find directly valuable) while components are how software is organized (e.g. shared services and platforms such as data management).

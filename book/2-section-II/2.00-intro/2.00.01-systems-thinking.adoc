@@ -95,7 +95,7 @@ At some point, if the cycle continues, it will run into balancing feedback:
 
 But those are the problems the business wants to have.
 
-anchor:2.00.1-open-loop[]
+anchor:2.00.1-open-loop[open loop]
 
 ===== Open vs closed loop systems
 
@@ -122,6 +122,6 @@ NOTE: No system can ever be fully "open loop" indefinitely.  Sooner or later, yo
 Engineers of complex systems use feedback techniques extensively. Complex systems do not work without them. *This section is about closing the loops.*
 
 ==== Quality management
- Deming and Juran. 
+ Deming and Juran.
 
 anchor:2.04.00-product-mgmt[]

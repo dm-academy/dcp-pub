@@ -9,7 +9,12 @@ However, some less than effective things have been done in the name of "process.
 Nevertheless, process remains an important tool in the toolkit for organization design.
 
 ===== Process management in the organization
+[quote, Mike Cohn]
+Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems.
 
+ example of service-ized process dysfunction
+ is expediting the only option?
+ alternatives...
 
 ===== Chapter 9 overview
 

@@ -73,6 +73,8 @@ For example, in _Turn the Ship Around: A True Story of Turning Followers Into Le
 
 Neither of these accounts is surprising, when one considers the more sophisticated aspects of military doctrine. Don Reinertsen provides a rigorous overview in chapter 9 of _Principles of Product Development Flow_. In this discussion, he notes that the military has been experimenting with centralized vs. decentralized control for centuries. Modern warfighting relies on autonomous, self-directed teams that may be out of touch with central command and required to improvise effectively to achieve the mission.  Therefore, military orders are incomplete without a statement of "commander's intent" - the ultimate outcome of the mission. <<Reinertsen2009>>, pp. 243-265.
 
+anchor:Toyota-Kata[]
+
 ===== Toyota Kata
 [quote, Mike Rother, Toyota Kata]
 Six years ago I began the research that led to [Toyota Kata] thinking, like just about everyone else, that the story was about techniques and other listable aspects of Toyota. Today I see Toyota in a notably different light: as an organization defined primarily by the unique behavior routines it continually teaches to all its members.
@@ -126,6 +128,8 @@ Because power is about the regulation of behavior, it has very little effect on 
 ===== The problem of culture "change"
 
  [to be written]
+
+effective practices: traditions, cadence
 
 ===== Sidebar: Basics of professional conduct
 

@@ -2,6 +2,8 @@
 [quote, Project Management Body of Knowledge, version 5]
 An ongoing work effort is generally a repetitive process that follows an organization's existing procedures. In contrast, because of the unique nature of projects, there may be uncertainties or differences in the products, services, or results that the project creates.
 
+In our xref:0.01-emergence[emergence model], we always seek to make clear *why* we need a new concept or practice. It is not sufficient to say, "we need project management because companies of our size use it." Many authoritative books on Agile software development assume that some form of project management is going to be used. Other authors question the need for it, or at least raise various cautions.
+
 Project management, like many other areas of IT practice, is undergoing considerable transformation in response to the Agile transition. However, it will likely remain an important tool for value delivery at various scales.
 
 

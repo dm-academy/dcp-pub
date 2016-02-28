@@ -8,9 +8,12 @@ anchor:[]
 xref:[]
 
 xref:0.01-emergence[emergence model]
+xref:cargo-cult[cargo cult]
 
 xref:3.07.00-Chap-7[Chapter 7]
 xref:2.00.01-feedback[feedback]
+xref:2.00.1-open-loop[open loop]
+
 xref:3.08.03-NoEstimates[No Estimates]
 xref:2.04.00-product-mgmt[Product Management]
 xref:2.05.00-work-management[]
@@ -20,5 +23,6 @@ xref:trad-IT-decline[decline of traditional IT]
 xref:lean-startup[Lean Startup]
 xref:2.04.04-lean-product-dev[Lean Product Development]
 xref:loose-coupling-project[loose coupling and project management]
+xref:Toyota-Kata[Toyota Kata]
 
 [quote, who, what]

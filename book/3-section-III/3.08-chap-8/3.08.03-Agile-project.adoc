@@ -158,6 +158,9 @@ A variety of liaison and coordination approaches are suggested by Mike Cohn (<<C
 
 Finally, the idea of a "scrum of scrums" is essentially a representative or delegated model, in which each individual Scrum team sends one individual to a periodic coordination meeting where matters of cross-team concern can be discussed and decisions taken.
 
+<<Cohn2010>> (p342) cautions: "A scrum of scrums meeting will feel nothing like a daily scrum despite the similarities in names. The daily scrum is a synchronization meeting: individual team members come together to communicate about their work and synchronize their efforts.The scrum of scrums, on the other hand, is a problem-solving meeting and
+will not have the same quick, get-in-get-out tone of a daily scrum."
+
 ====== Planning techniques
 Techniques of co-location, synchronization, and liaison all support to varying degrees a concept of planning. Fundamentally, we plan so that the work progresses effectively and efficiently. We seek to optimize the following contradictory goals:
 

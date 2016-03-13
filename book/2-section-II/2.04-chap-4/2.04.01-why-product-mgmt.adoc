@@ -77,6 +77,9 @@ Here are some of the key differences between process, project and product manage
 |Includes service concept and system design, construction, operations, and retirement (both "Dev" and "Ops")
 |Process owners concerned with adherence and continuous improvement of process. Otherwise can be narrow in perspective.|Project managers are trained in resource and timeline management, dependencies & scheduling. They are not typically incented to adopt a long-term perspective.
 |Product managers need to have project management skills as well as understanding market dynamics, feedback, building long-term organizational capability
+|Resource availability and fungibility is assumed
+|Resources are specifically planned for but their commitment is temporary (team is "brought to the work")
+|Resources are assigned long-term to the product (work is "brought to the team")
 |====
 
 The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management.

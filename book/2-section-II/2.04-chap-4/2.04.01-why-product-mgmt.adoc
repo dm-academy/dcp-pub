@@ -84,7 +84,7 @@ Here are some of the key differences between process, project and product manage
 
 The above distinctions are deliberately exaggerated and there are of course exceptions (short projects, processes that take years). However, it is in the friction between these perspectives we see some of the major problems in modern IT management.
 
-Here is another view:
+Here is another view that frames the three as a short of hierarchy:
 
 * Process: Activities
 * Project: Activities, Resources/Skills

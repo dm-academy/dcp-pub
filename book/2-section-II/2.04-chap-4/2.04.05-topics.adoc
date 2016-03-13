@@ -10,3 +10,6 @@ http://www.paulgraham.com/swan.html[Black Swan Farming]
 * Engineer to Order
 
  [more]
+
+==== Lean UX & Service Design
+ Managed services are not 3 truck rolls: The screwdriver truck, the wire cutters truck, the conduit truck

@@ -5,11 +5,6 @@
  [todo: write EIM intro]
 
  [next material is EIM applied to IT, keep but reduce scope/importance somewhat - should still be a major chapter section]
-As we look forward, and consider the scale at which we are now operating, the challenges only seem to increase. Increasingly, we need to look to engineering and operations practices from other fields, and to math and science for useful theoretical tools.
-
-Risk management, complex systems failures, how to safely manage combined human/technical systems - this is all well studied in domains like aerospace. We can't understand "change" management without better definitions of change and stability, concepts well studied in the quantitative sciences. No matter the safeguards, complex systems are prone to fail - but can we conceive of systems that can increase their stability through learning from their failures?
-
-Finally, what do we even mean by complexity? What is the relationship between the merely complicated, the truly complex, and the absolutely chaotic? What do we need to understand about these various domains, to continue our journey of digital transformation?
 
 ===== Chapter 11 outline
 
@@ -19,3 +14,5 @@ Finally, what do we even mean by complexity? What is the relationship between th
 
 
 * The enterprise information model: a failed vision that will never go away.
+
+* ontologies. Problems in developing them. BORO, OPAL, CACM 3/16 article on lightweight ontology engineering.

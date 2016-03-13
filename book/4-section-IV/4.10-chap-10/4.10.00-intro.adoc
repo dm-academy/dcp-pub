@@ -4,6 +4,8 @@
 
 Security threats increase proportionally to the company's size. The talent and persistence of these adversaries is remarkable. Another set of antagonists are, on paper, "on the same side," but auditors are never to be taken for granted. Why are they investigating IT systems? What are their motivations and responsibilities? Finally, what laws and regulations are relevant to IT? Data protection, retention, ?
 
+
+
 ===== Chapter 10 outline
 
 * Defining architecture

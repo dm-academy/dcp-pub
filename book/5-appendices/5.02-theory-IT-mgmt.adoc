@@ -7,9 +7,9 @@ Finally, what do we even mean by complexity? What is the relationship between th
 
 Folk models = "sr. clinician's opinions" - Nancy Raymond
 
-the problem of frameworks - arbitrary applications of semantics
+the problem of frameworks - folk applications of semantics
 
-traditions of canon law
+traditions of canon law (see chapter 11)
 
 Optimizing across multiple constraints
 

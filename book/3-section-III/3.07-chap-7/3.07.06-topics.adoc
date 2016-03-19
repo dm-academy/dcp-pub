@@ -31,5 +31,7 @@ reference http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-cl
 No choice but to allocate fine-grained decision rights between product lines & guilds. See Reinertsen/Smith.
 
 
+===== The problem of epistemic closure
+
 ===== additional material
 Toyota Way quadrant as cited in <<Cohn2010>> p145

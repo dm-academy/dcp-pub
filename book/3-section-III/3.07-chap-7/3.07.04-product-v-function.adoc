@@ -58,6 +58,9 @@ But when applied to product development, where the *primary goal* is the generat
 
 ===== The continuum of organizational forms
 
+[quote, Joseph Flahiff]
+The traditional approach is that we have work and we bring "the right people" to the work. To be nimble -- to have organizational agility -- we have to have great teams of people and bring the work to the team.
+
 NOTE: The following discussion and accompanying set of diagrams is derived from Preston Smith and Don Reinertsen's thought regarding this problem in  _Developing Products in Half the Time_ <<Smith1998>> and _Managing the Design Factory._ <<Reinertsen1997>>. Similar themes are found in the _Guide to the Project Management Body of Knowledge_ (<<PMI2013>>).
 
 There is a spectrum of alternatives in structuring organizations for flow across functional concerns.

@@ -7,3 +7,7 @@ Process, project, product revisited: from dysfunction to success (!)
 Blocking problem
 
 The modern product manager: a purple squirrel? <<Cohn2010>>pp130-132
+
+Process success: project mgr happy
+Project success: product mgmt happy
+Product success: market happy

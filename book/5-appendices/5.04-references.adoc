@@ -27,6 +27,8 @@
 
 - [[[Brooks1975]]]:Brooks, F. P. (1975). _The mythical man-month: essays on software engineering._ Reading, Mass., Addison-Wesley Pub. Co.
 
+- [[[Burrows2006]]]: Burrows, M. G. I. (2006). "The Chubby lock service for loosely-coupled distributed systems." 7th symposium on Operating systems design and implementation (OSDI '06), USENIX Association Berkeley, CA, USA
+
 - [[[Burrows2014]]]: Burrows, Mike. (2014) _Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_. Sequim, WA, Blue Hole Press.
 
 - [[[Buschmann1996]]]: Buschmann, F. (1996), _Pattern-oriented software architecture : a system of patterns_, Wiley, Chichester ; New York
@@ -44,6 +46,8 @@
 - [[[Duvall2007]]]: Duvall, P. M.; Matyas, S. & Glover, A. (2007), _Continuous integration : improving software quality and reducing risk_, Addison-Wesley, Upper Saddle River, NJ
 
 - [[[Edwards2012]]]: Edwards, D. (2012), "Integrating DevOps tools into a Service Delivery Platform", http://dev2ops.org/2012/07/integrating-devops-tools-into-a-service-delivery-platform-video/
+
+- [[[Flahiff2016]]]: Flahiff, J. (2016). "How organizational agility will save and destroy your company." from http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company. Accessed March 19, 2016.
 
 - [[[Fowler2003]]]: Fowler, M. (2003), _Patterns of enterprise application architecture_, Addison-Wesley, Boston
 
@@ -142,6 +146,8 @@ IEEE Press.
 - [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
 
 - [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
+
+- [[[Schwaber2013]]]: Schwaber, K. (2013). unSAFE at any speed. URL: https://kenschwaber.wordpress.com/2013/08/06/unsafe-at-any-speed/. Ken Schwaber's Blog: Telling It Like It Is. 2016.
 
 - [[[Scotland2010]]]: Scotland, K. (2010), "Defining the Last Responsible Moment", http://availagility.co.uk/2010/04/06/defining-the-last-responsible-moment
 

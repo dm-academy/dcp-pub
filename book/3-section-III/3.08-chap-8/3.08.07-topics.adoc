@@ -1,5 +1,16 @@
 ==== Topics in IT project management and related fields
 
+===== The Agile project frameworks
+
+As of this writing, a number of frameworks have been developed at the intersection of Agile and project management. Notable examples include:
+
+* The Scaled Agile Framework (http://www.scaledagileframework.com/)
+* Disciplined Agile Delivery (http://www.disciplinedagiledelivery.com/)
+
+ expand with contributed descriptions
+
+Other Agile authors are skeptical of the need for such material <<Schwaber2013>>.
+
 ===== The two dimensions of demand management
 Project management is our first major specialization of xref:2.05.00-work-management[Chapter 5]'s general concept of "work management." (We will turn to process management in the next chapter.) In the interest of keeping project management firmly in context, consider the following two-dimensional analysis:
 
@@ -49,8 +60,18 @@ which are intended to provide insights into project dynamics. However
 as will be discussed, the model does not take into consideration
 feedback. It is an Open-Loop system model. Kennaley p44
 
+or translating EVM directly to the balance sheet (EVM always being a fiction and less and less useful in a digitally transforming world)
+
+
 ===== Controversies in PM history
 PERT chart history, Mcnamara, etc
+
+anchor:3.08.03-NoEstimates[]
+
+****
+*The estimation controversy*
+
+****
 
 ====== The systems problem
 
@@ -67,6 +88,9 @@ Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimizatio
 * Impersonal requirements (but see Alleman)
 * "nothing is real unless it's a project"
 * "Water-scrum-fall"
+
+When taken to an extreme, the PMO becomes the arbiter of ALL IT investments in some organizations. Support and operational activities are chartered as long-running "projects" and staff time is billed through them (more on this in the section on Resource Management.) Essentially, this is how a product management approach emerges from taking the project management paradigm to an ultimate conclusion.
+
 
 ===== Scrum of scrums and its critiques
 identical to a chapter-based grassroots organization

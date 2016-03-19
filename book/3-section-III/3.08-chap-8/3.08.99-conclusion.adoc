@@ -1,5 +1,11 @@
 ==== Conclusion
 
+
+fundamental theme - what can we know... emergence vs planning ... network vs chain ... finding partial ordering, falsifying hypotheses...
+
+If we "get rid of the PMO" there still is the need to charter new investments. What is their value proposition, business model... there is always a portfolio and some form of success criteria and there will ALWAYS be issues of resources and dependencies
+
+
 ===== Discussion questions
 * Imagine yourself in an organization that recognized product management and work management, but had no concept of project management. Describe a scenario where project management would be a reasoanble technique to introduce.
 

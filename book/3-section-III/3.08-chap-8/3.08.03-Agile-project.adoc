@@ -12,7 +12,7 @@ As the above quotes indicate, there are diverse opinions on the role and importa
 
 Cloud is having impacts on traditional project management as well. As noted in the section on the xref:trad-IT-decline[decline of traditional IT], projects were often used to install vendor-delivered commodity software, such as for payroll or employee expense. Increasingly, that kind of functionality is delivered by online service providers, leaving "traditional" internal IT with considerably reduced responsibilities.
 
-Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic product.
+Some of the IT capability may remain in the guise of an internal "service broker," to assist with the sourcing and procurement of online services. The remainder moves into digital product management, as the only need for internal IT is in the area of revenue-generating, market-facing strategic digital product.
 
 So, this section will examine the following questions:
 
@@ -37,7 +37,26 @@ The decision process by which the features are identified is still informal (we 
 
 As noted in the discussion of xref:loose-coupling-project[loose coupling and project management], some needs for coordination may be mitigated through the design of the product itself. If the features and components have well defined protocols for their interaction and clear contracts for matters like performance, development on each team can move forward with some autonomy.
 
- discussion of internal architectures, expectations, contracts at Google - Chubby locking case study.
+****
+*The reality of microservices and loose coupling: the case of Chubby at Google*
+
+The idea that architecture can "emerge" across a set of smaller grained services ("microservices"), without explicit coordination, is attractive. Coordinating designs across products is expensive and ideally products should be able to evolve independently.
+
+Mike Burrows of Google provides a detailed description of the Chubby lock service <<Burrows2006>>, which is a prototypical example of a broadly-available internal service usable by a wide variety of other products.
+
+The purpose of a lock service is to "allow its clients to synchronize their activities and to agree on basic information about their environment." Chubby was built from the start with objectives of reliability, availability to a "moderately large set of clients," and ease of understanding.
+
+Burrows notes that even with such a cohesive and well-designed internal service, they still encounter coordination problems requiring human intervention. Such problems include:
+
+* Use ("abuse") in unintended ways by clients
+* Invalid assumptions by clients regarding Chubby's availability
+
+Because of this, the Chubby team (at least at the time writing of the case study) instituted a review process when new clients wished to start using the lock manager.
+
+In terms of this chapter's topic, this means that someone on the product team needed to coordinate the discussions with the Chubby team and ensure that any concerns were resolved. This might conceivably have involved multiple iterations and reviews of designs describing intended use.
+
+In short, even the most sophisticated microservice environments may require some level of  human coordination across the teams. Project management provides a framework for doing this and encourages the development of appropriate skills.
+****
 
 But at scale, complexity is inevitable. What happens when a given business objective requires coordinated effort across multiple teams?
 
@@ -172,41 +191,18 @@ To meet these goals, we
 * estimate so that we have some understanding of our resource needs
 * plan so that we understand dependencies (e.g. when one team *must* complete a task before another team can start theirs)
 
-anchor:3.08.03-NoEstimates[]
-
-****
-Sidebar: The estimation controversy
-****
-
 The above discussion is by no means exhaustive. A wealth of additional techniques is to be found in <<Larman2009>> and <<Cohn2010>>. New techniques are continually emerging from the front lines of the digital industry; the interested student should consider attending industry conferences such as those offered by the Agile Alliance.
-
-===== The Agile project frameworks
-* SAFe
-* DaD
-* etc
-
-"bring the work to the team, not the team to the work"
-
-http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company - cultural issues - refer to previous chapter
 
 ===== The future of project management
 
-Recall ultimately our three "Ps":
+Recall our three "Ps":
 
 * Product
 * Project
 * Process
 
-Taken together, the three represent a coherent set of concerns for value delivery in various forms. But in isolation, any one of them ultimately is limited. This is a particular challenge for project management, whose practitioners may invest deeply in their chosen field of expertise. The field of project management, in turn, has its own expansionist tendencies, to the point where the PMO has become the arbiter of ALL IT investments in some organizations.
+Taken together, the three represent a coherent set of concerns for value delivery in various forms. But in isolation, any one of them ultimately is limited. This is a particular challenge for project management, whose practitioners may identify deeply with their chosen field of expertise.
 
-A product manager who does not understand the fundamentals of project execution will not succeed...
+Clearly, formalized project management is under pressure. Its methods are perceived by the Agile community as overly heavyweight; its practitioners are criticized for focusing too much on success in terms of cost and schedule performance and not enough on business outcomes. Because projects are by definition temporary, project managers have little incentive to care about technical debt or operational consequences. Hence the rise of the product manager.
 
-fundamental theme - what can we know... emergence vs planning ... network vs chain ... finding partial ordering, falsifying hypotheses...
-
-If we "get rid of the PMO" there still is the need to charter new investments. What is their value proposition, business model... there is always a portfolio and some form of success criteria and there will ALWAYS be issues of resources and dependencies
-
-however the days of equating schedule performance with success are ending
-or translating EVM directly to the balance sheet (EVM always being a fiction and less and less useful in a digitally transforming world)
-
-Project success: product mgmt happy
-Product success: market happy
+However, a product manager who does not understand the fundamentals of project execution will not succeed. As we have seen, modern products, especially in organizations scaling up, have dependencies and coordination needs, and to meet those needs, project management tools will continue to provide value.

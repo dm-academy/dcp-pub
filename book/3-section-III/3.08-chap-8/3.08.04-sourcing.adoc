@@ -45,9 +45,62 @@ The same approach is used to establish relationships with Cloud vendors, softwar
 
 ****
 
-A small company may establish binding agreements with vendors relatively casually. For example, when the founder first chose a Cloud platform on which to build the product
+A small company may establish binding agreements with vendors relatively casually. For example, when the founder first chose a Cloud platform on which to build their product, they clicked on a button that said "I accept," at the bottom of a lengthy legal document they didn't necessarily read closely. This "clickwrap" agreement is a legally binding contract, which means that the terms and conditions it specifies are enforceable by the courts.
+
+A startup may be inattentive to the full implications of its contracts for various reasons:
+
+* The founder does not understand the importance and consequences of legally binding agreements
+* The founder understands, but feels they have little to lose (for example, they have incorporated as a limited liability company, meaning the founder's personal assets are not at risk)
+* The service is perceived to be so broadly used that an agreement with it must be safe (if 50 other startups are using a well known Cloud provider and prospering, why would a startup founder spend precious time and money on overly detailed scrutiny of its agreements?)
+
+All of these assumptions bear some risk -- and many startups have been burned on such matters -- but there are many other, perhaps more pressing risks for the founder and startup. See the case study on the xref:9-figure-true-up[9 figure true-up] for a grim scenario.
+
+However, by the time the company has scaled to the team of teams level, contract management is almost certainly a concern of the Chief Financial Officer. The company has more resources ("deeper pockets") and so lawsuits start to become a concern. The complexity of the company's services may require more specialized terms and conditions. Standard "boilerplate" contracts thus are replaced by individualized agreements. Concerns over intellectual property, the ability to terminate agreements, liability for damages, and other topics require increased negotiation and counterproposing contractual language.
+
+At this point, the company may have hired its own legal professional; certainly, legal fees are going up, whether as services from external law firms or internal staff.
+
+Contract and vendor management is more than just establishing the initial agreement. The ongoing relationship must be monitored for its consistency with the contract. If the vendor agrees that its service will be available 99.999% of the time, the availability of that service should be measured and if it falls below that threshhold, contractual penalties may need to be applied.
+
+In larger organizations, where a vendor might hold multiple contracts, a concept of "Vendor Management" emerges. Vendors may be provided "scorecards" that aggregate metrics describing their performance and the overall impression of the customer. Perhaps key stakeholders are internally surveyed as to their impression of the vendor's performance and whether they would be likely to recommend them again. Low scores may penalize a vendor's chances in future RFI/RFP processes; high scores may enhance them.
+
+===== Software licensing
+
+As software and digital services are increasingly used by firms large and small, the contractual rights of usage become more and more critical.
+
+We mentioned a "clickwrap" licensing agreement above. Software licensing in general is a large and detailed topic, one presenting substantial financial risk to the unwary firm, especially when Cloud and virtualization are concerned.
+
+anchor:9-figure-true-up[]
+****
+*Case study: The 9-figure "true-up"*
+A large enterprise had a long relationship with a major software vendor, who provided a critical software product used widely for many purposes across the enterprise.
+
+The price for this product was set based on the power of the computer running it. A license would cost less for computer with 4 cores and 1 gigabyte of RAM, than it would for a computer with 16 cores and 8 gigabytes of RAM. The largest computers required the most expensive licenses, which got to be quite costly.
+
+As described previously, the goal of xref:virtualization[virtualization] is to use one powerful physical computer to consolidate more lightly-loaded computers as "virtual machines." This can provide significant savings.
+
+Over the course of 3 years, the enterprise described here virtualized about 5,000 formerly physical computers, each of which had been running the vendor's software.
+
+However, a deadly wrinkle emerged in the software vendor's licensing terms. The formerly physical computers were in general smaller machines. The new virtual farms were clusters of 16 of the most powerful computers available on the market. The vendor held that EACH of the 5,000 instances of its software running in the virtual machines was liable for the FULL licensing fee applicable to the most powerful machine!
+
+Even though each of the 5,000 virtual machines could not possibly have been using the full capacity of the virtual farm, the vendor insisted (and was upheld) that the contract did not account for that, and there was no way of knowing whether any given VM had been using the full capacity of the farm at some point.
+
+The dispute escalated to the CEOs of each company, but the vendor held firm. The enterprise was obliged to pay a "true-up" charge of over $100 million (9 figures).
+
+This is not an isolated instance. Major software vendors have earned billions in such charges and continue to audit aggressively for these kinds of scenarios. This is why contracts and licenses should never be taken lightly. Even startups could be vulnerable, if licensed commercial software is used in un-authorized ways in a Cloud environment, for example.
+
+ Steve Russman quote
+
+****
+
+Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, which is discussed in more depth in the material on xref:chap-process-mgmt[process management]
+ and xref:IT-lifecycles[IT lifecycles].
 
 ===== Impact of Agile
+
+[quote, Agile Manifesto]
+Customer collaboration over contract negotiation
+
+Software is often developed and delivered per contractual terms. The desire for control over a contractual relationship is likely one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches.
 
 ===== Impact of Cloud
 

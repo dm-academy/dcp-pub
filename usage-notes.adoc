@@ -9,6 +9,8 @@ xref:[]
 
 xref:0.01-emergence[emergence model]
 xref:cargo-cult[cargo cult]
+xref:1.03.02-Agile-history[]
+
 
 xref:3.07.00-Chap-7[Chapter 7]
 xref:2.00.01-feedback[feedback]
@@ -30,7 +32,9 @@ xref:lean-startup[Lean Startup]
 xref:2.04.04-lean-product-dev[Lean Product Development]
 xref:loose-coupling-project[loose coupling and project management]
 xref:Toyota-Kata[Toyota Kata]
-xref:chap-process-mgmt[]
-
+xref:chap-process-mgmt[chapter on process management]
+xref:virtualization[virtualization]
+xref:9-figure-true-up[9 figure true-up]
+xref:IT-lifecycles[IT lifecycles]
 
 [quote, who, what]

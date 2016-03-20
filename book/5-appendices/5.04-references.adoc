@@ -123,6 +123,8 @@ IEEE Press.
 
 - [[[Ohno1988]]]: Ohno, T. (1988), _Toyota production system : beyond large-scale production_, Productivity Press, Cambridge, Mass.
 
+- [[[Opelt2013]]]:Opelt, A., B. Gloger, et al. (2013). _Agile contracts : creating and managing successful projects with Scrum._
+
 - [[[Patton2014]]]: Patton, J., 2014. _User story mapping : discover the whole story, build the right product._ First edition. ed. xliv, 276 pages.
 
 - [[[Poppendieck2007]]]: Poppendieck, M. & Poppendieck, T. D. (2007), _Implementing lean software development : from concept to cash_, Addison-Wesley, London

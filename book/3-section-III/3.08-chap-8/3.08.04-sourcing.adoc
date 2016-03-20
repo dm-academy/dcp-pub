@@ -99,7 +99,23 @@ Software licensing is a subset of Software Asset Management, which is itself a s
 [quote, Agile Manifesto]
 Customer collaboration over contract negotiation
 
-Software is often developed and delivered per contractual terms. The desire for control over a contractual relationship is likely one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches. 
+[quote, Andreas Opelt et al, Agile Contracts: Creating and Managing Successful Projects with Scrum]
+for both suppliers and buyers of information technology (IT) projects, one issue arises repeatedly: how to get out of the trap of fixed pricing without the disadvantages of time and materials contracts.
+
+Software is often developed and delivered per contractual terms. There are two major classes of such contracts:
+
+* Time and materials
+* Fixed price
+
+In a *time and materials* contract, the contracting firm simply pays the provider until the work is done. This means that the risk of the project overrunning its schedule or budget resides primarily with the firm hiring out the work. While this can work, there is often a desire on the part of the firm to reduce this risk. If you are hiring someone because they claim they are experts, and can do the work better/cheaper/quicker than your own staff, it seems reasonable that they should be willing to shoulder some of the risk.
+
+In a *fixed price* contract, the vendor providing the service will make a binding commitment that (for example) "we will get the software completely written in 9 months for $3 million." Penalties may be enforced if the software is late, and it's up to the vendor to control development costs. If the vendor does not understand the work correctly, they may lose money on the deal.
+
+Reconciling Agile with fixed-price contracting approaches has been a challenging topic <<Opelt2013>>. The desire for control over a contractual relationship is historically one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches. However, since requirements cannot be known in advance, this is problematic.
+
+
+
+
 
 ===== Impact of Cloud
 

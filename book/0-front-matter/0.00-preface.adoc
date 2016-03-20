@@ -34,7 +34,24 @@ _-ctb_
 
 endif::collaborator-draft[]
 
-The challenges of this legacy are an ongoing theme throughout this introductory text. However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
+The challenges of this legacy are an ongoing theme throughout this introductory text. The successes of Agile are notable.
+
+=== Evidence for Agile
+ at least 500 words well cited on the success of the new approaches and the industry consensus that Agile is here to stay.
+
+"A rigorous comparison of 26 agile projects against a baseline database of 7,500 primarily traditional development projects.This study was conducted by Michael Mali, managing partner of QSM Associates (QSMA), which has been collecting productivity, quality, and other metrics on projects for more than 15 years.The agile projects Mah studied ranged in size from 60 to 1,000 people (Mah 2008). (cited in <<Cohn2010>>)
+
+ "Companies such as Immobilienscout24.de at least doubled their productivity due to the introduction of Scrum (Zeitler, 2011)."
+
+ Citations of VersionOne 2011 survey.
+
+ <<Opelt2013>>
+
+Puppet Labs survey
+
+
+=== Some cautions
+However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
 
 _“…some will tell you that when things are this bad, you throw it all away and start again. It's ironic: The same people who would champion incremental and evolutionary approaches to product development seem only too eager to recommend disruptive and revolutionary changes in people-based systems – in which the outcomes are so much less certain.”_ <<Burrows2014>>, Kindle Locations 827-829.
 
@@ -45,16 +62,6 @@ So, how do we undertake Agile transformation? For longer term, more ambitious go
 The idea of the OODA loop is popular in the Agile community. OODA stands for Orient, Observe, Decide, Act, a set of concepts developed by Air Force colonel John Boyd in analyzing the performance of aviators in the Korean War. The faster an actor can move through this cycle, the more effective they will be.
 
 I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to provide the student with a well documented set of observations on IT's current challenges that can orient you for more effective decisions and actions in your journey toward IT excellence.
-
-==== Evidence for Agile
-A rigorous comparison of 26 agile projects against a baseline database of
-7,500 primarily traditional development projects.This study was con
-ducted by Michael Mali, managing partner of QSM Associates (QSMA),
-which has been collecting productivity, quality, and other metrics on
-projects for more than 15 years.The agile projects Mah studied ranged
-in size from 60 to 1,000 people (Mah 2008). (cited in <<Cohn2010>>)
-
-
 
 === Some personal history
 

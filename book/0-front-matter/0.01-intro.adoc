@@ -95,7 +95,7 @@ In the author's experience, small companies avoid formalized process and project
 
 But by the time they are a team of teams, specialization has emerged and more robust processes and tools are required. The danger of course is that the formalization effort may be driven by its own logic, and start to lose track of the all-critical business context.
 
-By careful examining these stages of maturation, and the industry responses to them, it is the author's hope that the student will have effective tools to critically engage with the problem of scaling the digital organization.  
+By careful examining these stages of maturation, and the industry responses to them, it is the author's hope that the student will have effective tools to critically engage with the problem of scaling the digital organization.
 
 ifdef::instructor-ed[]
 ****
@@ -107,9 +107,9 @@ There is benefit to restricting the chapters to 12, as a typical semester runs 1
 
 The governing thought experiment is, "what would I turn my attention to next as my IT-based concerns scale up?" For example, I think work management (implying rudimentary workflow) correctly comes before formalized project management, and project management comes before fully formalized process management (including frameworks such as CMMI, COBIT and ITIL).
 
-Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations adopt ITIL or CMM before formalizing project management, that would indicate that chapters 8 and 9 should be flipped.
+Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations formalize governance, risk, security and compliance practices before formalizing project management, that would indicate that those chapters should be re-ordered.
 
-Any topic in the
+(In my experience, small/medium businesses may have some formal IT project management capability but security & GRC are still tacit, not formalized. This does not mean security is not a concern, but they have not yet hired a CISO, or instituted formal controls).
 
 Also, you may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 

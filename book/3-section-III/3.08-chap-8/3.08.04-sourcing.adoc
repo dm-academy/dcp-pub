@@ -1,7 +1,9 @@
 anchor:it-sourcing[]
 
-
 ==== IT sourcing
+*IT sourcing* is the set of concerns related to identifying suppliers (sources) of the necessary inputs to deliver digital value.
+
+
 
 ===== Basic concerns
 CMMI

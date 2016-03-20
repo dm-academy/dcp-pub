@@ -57,12 +57,12 @@ Elaborating the above outline into chapters, we have:
 ..... *Team*
 [start=4]
 . _Product management_ What exactly is it we are building? How do we better define it for a bigger team?
-. _Work management_ How do we keep track and communicate at the most basic level?
-. _Operations management_ How do we sustain this surprisingly fragile computing-based service, in its ongoing delivery of IT value?
+. _Work management_ How do we keep track of what we are doing, and communicate our progress and needs at the simplest level?
+. _Operations management_ How do we sustain this surprisingly fragile digital service, in its ongoing delivery of value?
 
 ..... *Team of Teams*
 [start=7]
-. _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that? What are the unwritten values and rules in our company?
+. _Organization and culture_ We're getting big. How do we deal with this? How are we structured? Why this way and not that? What are the unwritten values and rules in our company?
 . _Project and resource management_ Work is becoming larger and more complex. We need the ability to track and execute larger segments of it, and coordinate across the teams.
 . _Process management_ We have a structure. Work needs to flow across it. Product and project teams increasingly demand predictable, consistent delivery of internal services, and synchronization points such as enterprise releases are increasingly critical signals.
 

@@ -15,6 +15,7 @@ There is much to learn about Cloud computing. In this introduction, we will disc
 * What differentiates Cloud
 * The various kinds of Cloud services
 
+anchor:virtualization[]
 ===== Virtualization
 
 https://en.wikipedia.org/wiki/Virtualization[Virtualization], for the purposes of this section, starts with the idea of a computer within a computer.footnote:[it has applicability to storage and networking as well but we will skip that for now] In order to understand this, we need to understand a little bit about operating systems and how they relate to the physical computer.

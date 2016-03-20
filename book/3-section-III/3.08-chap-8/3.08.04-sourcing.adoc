@@ -92,8 +92,7 @@ This is not an isolated instance. Major software vendors have earned billions in
 
 ****
 
-Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, which is discussed in more depth in the material on xref:chap-process-mgmt[process management]
- and xref:IT-lifecycles[IT lifecycles].
+Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, which is discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
 
 ===== Impact of Agile
 

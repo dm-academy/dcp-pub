@@ -91,7 +91,7 @@ Formalization means at least one or more of the following:
 * Defined policies and processes
 * Automated tooling
 
-In the author's experience, startups avoid formalized process and project management. To the extent the concerns exist, they are _tacit_ (understood or implied; suggested; implicit). Certainly, a small startup does not invest in an enterprise-class service desk tool supporting a full array of IT management processes, or a full-blown Project Management Office with associated portfolio automation. Simple work management, with a manual or automated Kanban board, is likely their choice for work management.
+In the author's experience, for example, startups avoid formalized process and project management. To the extent the concerns exist, they are _tacit_ (understood or implied; suggested; implicit). Certainly, a small startup does not invest in an enterprise-class service desk tool supporting a full array of IT management processes, or a full-blown Project Management Office with its own Vice President and associated portfolio automation. Simple work management, with a manual or automated Kanban board, is likely their choice for work management.
 
 But by the time they are a team of teams, specialization has emerged and more robust processes and tools are required. The danger of course is that the formalization effort may be driven by its own logic, and start to lose track of the all-critical business context.
 
@@ -111,7 +111,7 @@ Note that this would be a testable and falsifiable theory, if empirical research
 
 (In my experience, small/medium businesses may have some formal IT project management capability but security & GRC are still tacit, not formalized. This does not mean security is not a concern, but they have not yet hired a CISO, nor instituted formal controls).
 
-The presence of Product Management at an early stage is intended to provoke. Product management is poorly addressed in most current CSci/MIS/IT education, as well as the reigning industry standards. Yet formalizing it is one of the earliest concerns for a startup, and the imperatives of the product vision are a fundamental driving force for all that comes after.
+The presence of Product Management at an early stage is intended to provoke. Product management is poorly addressed in most current CSci/MIS/IT education, as well as the reigning industry standards. Yet formalizing it is one of the earliest concerns for a startup, and the imperatives of the product vision drive all that comes after.
 
 Interesting evidence to this effect is seen (as of 2015) at the University of California at Berkeley I-School, which has replaced its Project Management course with http://www.ischool.berkeley.edu/courses/i290m-lapm[Lean/Agile Product Management], taught currently by the esteemed Jez Humble.
 

@@ -64,13 +64,13 @@ Elaborating the above outline into chapters, we have:
 [start=7]
 . _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that? What are the unwritten values and rules in our company?
 . _Project and resource management_ Work is becoming larger and more complex. We need the ability to track and execute larger segments of it, and coordinate across the teams.
-. _Process management_ We have a structure. Work needs to flow across it.
+. _Process management_ We have a structure. Work needs to flow across it. Product and project teams increasingly demand predictable, consistent delivery of internal services, and synchronization points such as enterprise releases are increasingly critical signals.
 
 ..... *Enterprise*
 [start=10]
 . _Security, and governance, risk, and compliance_ We need to cope with external forces (regulators, vendor partners, security adversaries, auditors) increasingly defining our options.
 
-. _Enterprise information management_ We've been concerned with data, information, and knowledge since the earliest days of our journey. But at this scale, we have to formalize our approaches and understandings; without that, we will never capture the full value available with modern analytics and Big Data.
+. _Enterprise information management_ We've been concerned with data, information, and knowledge since the earliest days of our journey. But at this scale, we have to formalize our approaches and understandings; without that, we will never capture the full value available with modern analytics and Big Data. Compliance issues are also compelling us to formalize here.
 
 . _Architecture and portfolio_ We need to understand the big picture of interacting lifecycles, reduce technical debt and redundancy, accelerate development through establishing platforms, and obtain better economies of scale. We need to define our investment strategy based on a sound understanding of both business needs and technology limitations.
 

@@ -3,10 +3,22 @@ anchor:it-sourcing[]
 ==== IT sourcing
 *IT sourcing* is the set of concerns related to identifying suppliers (sources) of the necessary inputs to deliver digital value.
 
+The basic classes of inputs include:
 
+* People (with certain skills and knowledge)
+* Hardware
+* Software
+* Services (which themselves are composed of people, hardware, and/or software)
+
+Practically speaking, these inputs are handled by two different functions:
+
+* People (in particular, full time employees) are handled by a Human Resources function.
+* Hardware, software, and services are handled by a Procurement function. Other terms associated with this are Vendor Management, Contract Management, and Supplier Management. We will not attempt to clarify or rationalize these areas in this section.
+
+We will defer the question of people and their skills and knowledge to the next section.
 
 ===== Basic concerns
-CMMI
+
 
 ===== Impact of Agile
 

@@ -30,5 +30,7 @@ xref:lean-startup[Lean Startup]
 xref:2.04.04-lean-product-dev[Lean Product Development]
 xref:loose-coupling-project[loose coupling and project management]
 xref:Toyota-Kata[Toyota Kata]
+xref:chap-process-mgmt[]
+
 
 [quote, who, what]

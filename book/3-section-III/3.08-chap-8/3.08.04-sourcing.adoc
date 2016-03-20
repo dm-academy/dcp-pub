@@ -19,7 +19,38 @@ We will defer the question of people and their skills and knowledge to the next 
 
 ===== Basic concerns
 
+****
+*Case study: Choosing a telecommunications provider*
+
+When Company X was a startup, its telecommunications needs were limited, as were its options. The founder had one choice for Internet access, the local cable company. Even when the company moved to a larger space, as a single team startup, its options were limited.
+
+However, it is now a company of 50, and moving yet again to a new headquarters where there are a variety of options for network carriers. The company is known to be growing and three telecommunications companies ("carriers") have been sending sales representatives periodically to inquire if their services might be needed.
+
+With the move to a new facility, some systematic effort must be undertaken to choose an appropriate provider. This becomes a sub-project in its own right, part of the larger program required to effectively complete the move.
+
+As part of this project, a formal "Request for Information" (RFI) is sent to all the potential carriers. Part of this RFI consists of a lengthy series of questions, such as:
+
+* What kinds of circuits are available?
+* What is their territory?
+* How much data can they handle?
+* What do they cost (at a high level)?
+* How are they secured?
+* How stable are they (how often are they "down")?
+* Are co-location services available (can the carrier host the company's servers in its data centers?)
+* What other services does the carrier provide?
+
+The responses to these questions are "scored" (assigned a numeric weighting) and the 2 top scoring vendors are issued a Request for Quote (RFQ). The RFQ goes into much more detail in terms of the contract the carrier is willing to offer. After extensive discussions and negotiations, Company X's contract team awards the business to the carrier they believe will provide the greatest value.
+
+The same approach is used to establish relationships with Cloud vendors, software providers, and consultants. In fact, because the approach is so consistent, it is considered a repeatable "process." See the chapter on xref:chap-process-mgmt[process management].
+
+****
+
+A small company may establish binding agreements with vendors relatively casually. For example, when the founder first chose a Cloud platform on which to build the product
 
 ===== Impact of Agile
 
 ===== Impact of Cloud
+
+===== Processes
+
+===== Systems and automation

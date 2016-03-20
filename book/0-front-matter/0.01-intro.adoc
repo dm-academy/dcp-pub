@@ -105,11 +105,15 @@ I have spent considerable time thinking (agonizing) about the correct ordering o
 
 There is benefit to restricting the chapters to 12, as a typical semester runs 14 weeks and the book then fits quite nicely, with one chapter per class and allowing for an introductory session and final exam. (Trying to modfiy the semester system is out of scope for this project.) Of course, a two-semester series, with 2 weeks per chapter, would also work well; each half of the book is also a logical unit.
 
-The governing thought experiment is, "what would I turn my attention to next as my IT-based concerns scale up?" For example, I think work management (implying rudimentary workflow) correctly comes before formalized project management, and project management comes before fully formalized process management (including frameworks such as CMMI, COBIT and ITIL).
+The governing thought experiment is, "what would I turn my attention to next as my IT-based concerns scale up?" For example, I think work management (implying rudimentary workflow, e.g. Kanban) correctly comes before formalized project management, and project management comes before fully formalized process management (including frameworks such as CMMI, COBIT and ITIL).
 
 Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations formalize governance, risk, security and compliance practices before formalizing project management, that would indicate that those chapters should be re-ordered.
 
 (In my experience, small/medium businesses may have some formal IT project management capability but security & GRC are still tacit, not formalized. This does not mean security is not a concern, but they have not yet hired a CISO, nor instituted formal controls).
+
+The presence of Product Management at an early stage is intended to provoke. Product management is poorly addressed in most current CSci/MIS/IT education, as well as the reigning industry standards. Yet formalizing it is one of the earliest concerns for a startup, and the imperatives of the product vision are a fundamental driving force for all that comes after.
+
+Interesting evidence to this effect is seen (as of 2015) at the University of California at Berkeley I-School, which has replaced its Project Management course with http://www.ischool.berkeley.edu/courses/i290m-lapm[Lean/Agile Product Management], taught currently by the esteemed Jez Humble.
 
 Also, you may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 

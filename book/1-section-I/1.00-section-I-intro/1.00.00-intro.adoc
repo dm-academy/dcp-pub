@@ -1,8 +1,8 @@
-== Section I: Inception
+== Section I: Founder
 
 This is the introduction to Section I.
 
-In this section, we  explore the fundamentals of information technology delivery.
+In this section, we  explore the fundamentals of information technology delivery, in terms of the practical concerns required to actually launch a viable digital product.
 
 *Scenario*
 

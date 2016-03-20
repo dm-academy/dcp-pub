@@ -22,9 +22,9 @@ One of the most important and distinguishing features of this book is its "emerg
 
 However, this is not a textbook (or course) on entrepreneurship. It remains IT-centric. *And, the book is also intended to be relevant to students entering directly into large, established enterprises.* In fact, it prepares you for working in all stages of growth because it progresses through these four contexts:
 
-* Individual
+* Individual (founder)
 * Team
-* Small company
+* Small company (team of teams)
 * Enterprise
 
 Whether you are in a startup, or on a journey within a larger, established organization, you will (hopefully) become aware as you progress through a broadening context:
@@ -48,25 +48,25 @@ image::images/ITProgression.png[]
 
 Elaborating the above outline into chapters, we have:
 
-..... *Inception*
+..... *Founder*
 
 . _IT value_. Why do we need computers? What can they do for us?
 . _IT infrastructure_ We want to build something. We have to choose a platform first.
 . _IT applications_ Let's start building something of use to someone.
 
-..... *Collaboration*
+..... *Team*
 [start=4]
 . _Product management_ What exactly is it we are building? How do we better define it for a bigger team?
 . _Work management_ How do we keep track and communicate at the most basic level?
 . _Operations management_ How do we sustain this surprisingly fragile computing-based service, in its ongoing delivery of IT value?
 
-..... *Coordination*
+..... *Team of Teams*
 [start=7]
 . _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that?
-. _Project and resource management_ Work is becoming larger and more complex. We need the ability to track and execute larger segments of it.
+. _Project and resource management_ Work is becoming larger and more complex. We need the ability to track and execute larger segments of it, and coordinate across the teams.
 . _Process management_ We have a structure. Work needs to flow across it.
 
-..... *Maturation*
+..... *Enterprise*
 [start=10]
 . _Security, and governance, risk, and compliance_ We need to cope with external forces (regulators, vendor partners, security adversaries, auditors) increasingly defining our options.
 
@@ -80,6 +80,22 @@ Elaborating the above outline into chapters, we have:
 . _Towards a theory of IT management_
 
 The intent is that the more complex, "enterprise"-scale concerns at the end of the book are presented as part of a logical progression.
+
+=== Emergence means formalization
+The emergence model seeks to define a likely order in which concerns are *formalized*. Any concern may of course arise at any time: the startup founder certainly is concerned with security!
+
+Formalization means one or more of the following:
+
+* Dedicated resources
+* Dedicated organization
+* Defined policies and processes
+* Automated tooling
+
+In the author's experience, small companies avoid formalized process and project management. To the extent the concerns exist, they are _tacit_ (understood or implied; suggested; implicit). Certainly, a small startup does not invest in an enterprise-class service desk tool supporting a full array of IT management processes, or a full-blown Project Management Office with associated portfolio automation. Simple work management, with a manual or automated Kanban board, is likely their choice for work management.
+
+But by the time they are a team of teams, specialization has emerged and more robust processes and tools are required. The danger of course is that the formalization effort may be driven by its own logic, and start to lose track of the all-critical business context.
+
+By careful examining these stages of maturation, and the industry responses to them, it is the author's hope that the student will have effective tools to critically engage with the problem of scaling the digital organization.  
 
 ifdef::instructor-ed[]
 ****

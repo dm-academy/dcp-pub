@@ -1,6 +1,6 @@
 anchor:Section-III-coordination[]
 
-== Section III: Coordination
+== Section III: Team of Teams
 
 *Scenario*
 

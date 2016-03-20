@@ -14,19 +14,19 @@ At this writing I maintain my labs publicly on Github.  My syllabus and lab stru
 |====
 |Lecture|Topic|Business lab |Technical lab |Team size
 |Course introduction |Structure, approach |None|SSH & workstation setup |Individual
-5+|SECTION I: INCEPTION
+5+|SECTION I: FOUNDER
 |Chapter 1 |IT value |Defining an IT product - review SaaS examples |Linux command line | 2
 |Chapter 2 |IT Infrastructure |Reviewing current IaaS offerings |Cloud and infrastructure as code - configuring a Vagrant machine manually & w/script that is checked into Github & modified | 2
 |Chapter 3 |Applications||Continuous delivery pipeline | 2
-5+|SECTION II: COLLABORATION
+5+|SECTION II: TEAM
 |Chapter 4 |Product management |User stories. Fail fast/risk mgmt |Behavior-driven development |6-8
 |Chapter 5 |Work management 2+^|Scrum, ticketing and kanban |6-8
 |Chapter 6 |Operations management |Service definition |Monitoring (Calavera + Nagios) | 6-8
-5+|SECTION III: COORDINATION
+5+|SECTION III: TEAM OF TEAMS
 |Chapter 7 |Organizational structure |Organizational forms & communication channels (paper exercise?) |Continue Nagios | >11 (full class)
 |Chapter 8 |Project & resource management | |Open-source project tool | >11 (full class)
 |Chapter 9 |Process management | |Open-source ITSM suite | >11 (full class)
-5+|SECTION IV: MATURATION
+5+|SECTION IV: ENTERPRISE
 |Chapter 10 |Security, governance, risk, and compliance |  | | 5
 |Chapter 11 |Enterprise Information Management |Portfolio simulation |Porfolio simulation with R? | 5
 |Chapter 12 |Architecture and portfolio | Archi (open source modeling tool) | |5

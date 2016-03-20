@@ -99,7 +99,7 @@ Software licensing is a subset of Software Asset Management, which is itself a s
 [quote, Agile Manifesto]
 Customer collaboration over contract negotiation
 
-Software is often developed and delivered per contractual terms. The desire for control over a contractual relationship is likely one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches.
+Software is often developed and delivered per contractual terms. The desire for control over a contractual relationship is likely one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches. 
 
 ===== Impact of Cloud
 

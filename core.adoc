@@ -171,6 +171,8 @@ include::book/3-section-III/3.99-conclusion/3.99.00-conclusion.adoc[]
 
 include::book/4-section-IV/4.00-intro/4.00-intro.adoc[]
 
+include::book/4-section-IV/4.00-intro/4.01-IT-lifecycles.adoc[]
+
 include::book/4-section-IV/4.10-chap-10/4.10.00-intro.adoc[]
 
 include::book/4-section-IV/4.10-chap-10/4.10.99-conclusion.adoc[]

@@ -38,7 +38,7 @@ Whether you are in a startup, or on a journey within a larger, established organ
 * Senior executives and funders
 * Auditors and regulators
 
-Part of maturing in one's career is understanding how all these relationships figure into your own overall system of value delivery. This will be a lifelong journey for you; my intent is to give you some useful tools.
+Part of maturing in one's career is understanding how all these relationships figure into your own overall system of value delivery. This will be a lifelong journey for the student; the author's intent is to provide some useful tools.
 
 === This book's structure
 
@@ -62,7 +62,7 @@ Elaborating the above outline into chapters, we have:
 
 ..... *Team of Teams*
 [start=7]
-. _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that?
+. _Culture and organization_ We're getting big. How do we deal with this? How are we structured? Why this way and not that? What are the unwritten values and rules in our company?
 . _Project and resource management_ Work is becoming larger and more complex. We need the ability to track and execute larger segments of it, and coordinate across the teams.
 . _Process management_ We have a structure. Work needs to flow across it.
 
@@ -84,14 +84,14 @@ The intent is that the more complex, "enterprise"-scale concerns at the end of t
 === Emergence means formalization
 The emergence model seeks to define a likely order in which concerns are *formalized*. Any concern may of course arise at any time: the startup founder certainly is concerned with security!
 
-Formalization means one or more of the following:
+Formalization means at least one or more of the following:
 
 * Dedicated resources
 * Dedicated organization
 * Defined policies and processes
 * Automated tooling
 
-In the author's experience, small companies avoid formalized process and project management. To the extent the concerns exist, they are _tacit_ (understood or implied; suggested; implicit). Certainly, a small startup does not invest in an enterprise-class service desk tool supporting a full array of IT management processes, or a full-blown Project Management Office with associated portfolio automation. Simple work management, with a manual or automated Kanban board, is likely their choice for work management.
+In the author's experience, startups avoid formalized process and project management. To the extent the concerns exist, they are _tacit_ (understood or implied; suggested; implicit). Certainly, a small startup does not invest in an enterprise-class service desk tool supporting a full array of IT management processes, or a full-blown Project Management Office with associated portfolio automation. Simple work management, with a manual or automated Kanban board, is likely their choice for work management.
 
 But by the time they are a team of teams, specialization has emerged and more robust processes and tools are required. The danger of course is that the formalization effort may be driven by its own logic, and start to lose track of the all-critical business context.
 
@@ -109,7 +109,7 @@ The governing thought experiment is, "what would I turn my attention to next as 
 
 Note that this would be a testable and falsifiable theory, if empirical research were done to inventory and characterize organization scaling patterns. If we found (for example) that a majority of organizations formalize governance, risk, security and compliance practices before formalizing project management, that would indicate that those chapters should be re-ordered.
 
-(In my experience, small/medium businesses may have some formal IT project management capability but security & GRC are still tacit, not formalized. This does not mean security is not a concern, but they have not yet hired a CISO, or instituted formal controls).
+(In my experience, small/medium businesses may have some formal IT project management capability but security & GRC are still tacit, not formalized. This does not mean security is not a concern, but they have not yet hired a CISO, nor instituted formal controls).
 
 Also, you may notice that *the chapter titles don't necessarily reflect "Agile" terminology*. This is also deliberate, as students are going into a diverse world of much long-established IT. Furthermore, putting "Agile" as a qualifier on each chapter seems gratuitous (e.g. "Agile Operations Management" instead of just "Operations Management.")
 

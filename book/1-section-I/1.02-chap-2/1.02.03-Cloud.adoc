@@ -1,3 +1,5 @@
+anchor:cloud[]
+
 ==== From "physical" compute to Cloud
 
 According to the http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf[National Institute for Standards and Technology], Cloud is:

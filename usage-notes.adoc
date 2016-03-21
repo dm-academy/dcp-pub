@@ -11,7 +11,7 @@ xref:0.01-emergence[emergence model]
 xref:cargo-cult[cargo cult]
 xref:1.03.02-Agile-history[]
 
-
+xref:cloud[Cloud]
 xref:3.07.00-Chap-7[Chapter 7]
 xref:2.00.01-feedback[feedback]
 xref:2.00.1-open-loop[open loop]

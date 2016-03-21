@@ -104,6 +104,10 @@ The concept of "scrum of scrums" may make intuitive sense, but starts to run int
 
 In these questions we see the overlap of Agile with seemingly distant fields such as political science, organizational leadership, and the like.
 
+===== Processes
+
+===== Systems and automation
+
 ===== Misc
 The concept of last responsible moment
 

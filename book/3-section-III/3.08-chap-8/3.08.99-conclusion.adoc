@@ -46,6 +46,8 @@ Project management is a deep and wide field, at its most mature showing the infl
 
 * https://www.thoughtworks.com/insights/blog/scaling-agile-problems-and-solutions[Scaling Agile: Problems and Solutions]
 
+* http://www.agilecontracts.com/[Agile Contracts] by Larman & Vodde
+
 *Resources*
 
 

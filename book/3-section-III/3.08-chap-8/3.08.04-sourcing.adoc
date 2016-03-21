@@ -1,7 +1,7 @@
 anchor:it-sourcing[]
 
-==== IT sourcing
-*IT sourcing* is the set of concerns related to identifying suppliers (sources) of the necessary inputs to deliver digital value.
+==== IT sourcing and contract management
+*IT sourcing* is the set of concerns related to identifying suppliers (sources) of the necessary inputs to deliver digital value. *Contract management* is a critical, subsidiary concern, where digital value intersects with law.
 
 The basic classes of inputs include:
 
@@ -94,15 +94,21 @@ This is not an isolated instance. Major software vendors have earned billions in
 
 Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
 
-===== Services and software development
+===== Software development and contracts
 
 [quote, Agile Manifesto]
-Customer collaboration over contract negotiation
+Customer collaboration over contract negotiation.
 
 [quote, Andreas Opelt et al, Agile Contracts: Creating and Managing Successful Projects with Scrum]
-for both suppliers and buyers of information technology (IT) projects, one issue arises repeatedly: how to get out of the trap of fixed pricing without the disadvantages of time and materials contracts.
+For both suppliers and buyers of information technology (IT) projects, one issue arises repeatedly: how to get out of the trap of fixed pricing without the disadvantages of time and materials contracts.
 
-Software is often developed and delivered per contractual terms. There are two major classes of such contracts:
+[quote, Arbogast et  al, Agile Contracts Primer]
+What do lawyers assume is the nature of software projects? First, it is common that they view it as similar to a construction project—relatively predictable—rather than the highly uncertain and variable research and development that it usually is. Second, that in the project (1) there is a long delay before something can be delivered that is well done, with (2) late and weak feedback, (3) long payment cycles, and (4) great problems for the customer if the project is stopped at any arbitrary point in time. *These assumptions are invalidated in agile development.*
+
+Software is often developed and delivered per contractual terms. Contracts are legally binding agreements, typically developed with the assistance of lawyers. As noted in <<Arbogast2012>> (p.5),  "Legal professionals are trained to act, under legal duty, to
+advance their client’s interests and protect them against all pitfalls, seen or unseen." The idea of "customer collaboration over contract negotiation" may strike them as the height of naivete. However, Agile and Lean influences have made substantial inroads in contracting approaches.
+
+There are two major classes of contracts:
 
 * Time and materials
 * Fixed price
@@ -135,7 +141,7 @@ Their recommended approach supports the following benefits:
 
 This is achieved through:
 
-* Defining the contract at the level of product or project vision (epics or high-level stories; see discussion of xref:2.0.4.03-scrum[Scrum])
+* Defining the contract at the level of product or project vision (epics or high-level stories; see discussion of xref:2.0.4.03-scrum[Scrum]) - not detailed specification
 * Developing high-level estimation
 * Establishing agreement for sharing the risk of product development variability
 
@@ -147,6 +153,31 @@ Finally, the ability for either party to exit gracefully and with minimum penalt
 and the product hypothesis is falsified, there is little point to continuing the work from the customer's point of view. AND, if the product vision turns out to be far more work than either party estimated, the supplier should be able to walk away  (or at least insist on comprehensive re-negotiation.)
 
 These ideas are a departure from traditional contract management. As Opelt asks, "How can you sign a contract from which one party can exit at any time?" Recall however that (if Agile principles are applied) the customer is receiving working software continuously through the engagement (e.g. after every sprint).
+
+Arbogast:
+
+may exacerbate or ameliorate, by the language of the legal contract, an
+unhealthy focus on these non-legal ‘contracts’ during project execution. For example, if they
+draft a contract that contains a clause requiring the definition of and the signing-off on the specification
+of all or most requirements before starting implementation, there is a lack of agility in
+the project and an undesirable emphasis on (non-legal) ‘contract’ negotiation. (p7)
+
+
+Figure 1.1 (from the International Association for Contract and Commercial Management, IACCM)
+depicts the top ten (of thirty) contractual terms corporate lawyers were concerned with from 2002 to
+2007. It is difficult to imagine that delivery personnel are concerned on a day-to-day basis with most
+of the issues listed. And it is striking that a description of the object of the contract (the project goal)
+is not mentioned.
+5
+ That is an astounding observation. The very thing the contract is ultimately about,
+the expectation of a deliverable (for example, software that will accelerate bills to be processed), is
+not in the top ten issues. (p8)
+
+
+the real test of a contract is in the execution stage of the project, when the people
+on the ground are working together. During this stage, any need to refer to the contract is arguably
+a sign of failure—not only of collaboration but also of the legal professionals’ ability to
+foster a framework for collaboration and success. (p9)
 
 ===== Cloud sourcing
 

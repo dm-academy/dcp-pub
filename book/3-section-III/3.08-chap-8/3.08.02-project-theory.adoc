@@ -72,6 +72,7 @@ Scope management is a powerful tool and concept, at the heart of the most challe
 
 *Scope Creep.* The uncontrolled expansion to product or project scope without adjustments to time, cost, and resources.
 
+anchor:change-control[]
 *Change Control* A process whereby modifications to documents, deliverables, or baselines associated with the project are identified, documented, approved, or rejected.
 
 In the  xref:lean-startup[Lean Startup] world, products may pivot and pivot again, and their resource requirements may flex rapidly based on market opportunity. Formal project change control processes are in general not used. Even in larger organizations, product teams may be granted certain leeway to adapt their "products, services, and results" and while such adaptations need to be transparent, formal project change control is not the vehicle used.

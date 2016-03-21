@@ -113,8 +113,7 @@ In a *fixed price* contract, the vendor providing the service will make a bindin
 
 Reconciling Agile with fixed-price contracting approaches has been a challenging topic <<Opelt2013>>. The desire for control over a contractual relationship is historically one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches. However, since requirements cannot be known in advance, this is problematic.
 
-
-
+When a contract is signed based on waterfall assumptions, the project management process of xref:change-control[change control] is typically used to govern any alterations to the scope of the effort. Each change order typically implies some increase in cost to the customer. Because of this, the perceived risk mitigation of a fixed price contract may become a false premise. 
 
 
 ===== Impact of Cloud

@@ -7,6 +7,8 @@
 
 - [[[Allspaw2009]]]: Allspaw, J. & Hammond, P. (2009), "10 deploys per day: Dev & ops cooperation at Flickr",  O'Reilly Publications, http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr
 
+- [[[Ambler2005]]]: Ambler, S. (2005) "Agile Outsourcing." _Dr. Dobb's Journal_.  Retrieved from http://www.drdobbs.com/architecture-and-design/agile-outsourcing/184415344. Date Accessed:  3/21/2016.
+
 - [[[Anderson2010]]]: Anderson, D. J. (2010), _Kanban: Successful Evolutionary Change for your Technology Business_, Blue Hole Press, Sequim, WA
 
 - [[[Ashmore2014]]]: Ashmore, S. and K. Runyan, 2014, _Introduction to agile methods_. xix, 307 pages.

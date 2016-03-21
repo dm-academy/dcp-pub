@@ -74,7 +74,7 @@ anchor:9-figure-true-up[]
 *Case study: The 9-figure "true-up"*
 A large enterprise had a long relationship with a major software vendor, who provided a critical software product used widely for many purposes across the enterprise.
 
-The price for this product was set based on the power of the computer running it. A license would cost less for computer with 4 cores and 1 gigabyte of RAM, than it would for a computer with 16 cores and 8 gigabytes of RAM. The largest computers required the most expensive licenses, which got to be quite costly.
+The price for this product was set based on the power of the computer running it. A license would cost less for computer with 4 cores and 1 gigabyte of RAM, than it would for a computer with 16 cores and 8 gigabytes of RAM. The largest computers required the most expensive licenses.
 
 As described previously, the goal of xref:virtualization[virtualization] is to use one powerful physical computer to consolidate more lightly-loaded computers as "virtual machines." This can provide significant savings.
 
@@ -92,9 +92,9 @@ This is not an isolated instance. Major software vendors have earned billions in
 
 ****
 
-Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, which is discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
+Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
 
-===== Impact of Agile
+===== Services and software development
 
 [quote, Agile Manifesto]
 Customer collaboration over contract negotiation
@@ -113,10 +113,42 @@ In a *fixed price* contract, the vendor providing the service will make a bindin
 
 Reconciling Agile with fixed-price contracting approaches has been a challenging topic <<Opelt2013>>. The desire for control over a contractual relationship is historically one of the major drivers of xref:1.03.02-Agile-history[waterfall] approaches. However, since requirements cannot be known in advance, this is problematic.
 
-When a contract is signed based on waterfall assumptions, the project management process of xref:change-control[change control] is typically used to govern any alterations to the scope of the effort. Each change order typically implies some increase in cost to the customer. Because of this, the perceived risk mitigation of a fixed price contract may become a false premise. 
+When a contract is signed based on waterfall assumptions, the project management process of xref:change-control[change control] is typically used to govern any alterations to the scope of the effort. Each change order typically implies some increase in cost to the customer. Because of this, the perceived risk mitigation of a fixed price contract may become a false premise.
 
+This problem has been understood for some time. Scott Ambler argued in 2005 that "It's time to abandon the idea that fixed bids reduce risk. Clients have far more control over a project with a variable, gated approach to funding in which working software is delivered on a regular basis" <<Ambler2005>>. Andreas Opelt states, "For agile IT projects it is therefore necessary to find an agreement that supports the balance between a fixed budget (maximum price range) and agile development (scope not yet defined in detail)..."
 
-===== Impact of Cloud
+How is this done? Opelt and his co-authors further argue that the essential question revolves around the project "iron triangle":
+
+* Scope
+* Cost
+* Deadline
+
+The approach they recommend is determining which of these elements is the "fixed point" and which is estimated. In traditional waterfall projects, scope is fixed, while costs and deadline must be estimated (a problematic approach when xref:2.04.04-lean-product-dev[product development] is required.)
+
+In Opelt's view, in Agile contracting, costs and deadline are fixed, while scope is "estimated" - understood to have some inevitable variability. "...you never know exactly what details will be needed at the start of a project. On the other hand, you do not always need everything that had originally been considered to be important" <<Opelt2013>>.
+
+Their recommended approach supports the following benefits:
+
+* Simplified adaptation to change
+* Non-punitive changes in scope
+* Reduced knowledge decay (large "batches" of requirements degrade in value over time)
+
+This is achieved through:
+
+* Defining the contract at the level of product or project vision (epics or high-level stories; see discussion of xref:2.0.4.03-scrum[Scrum])
+* Developing high-level estimation
+* Establishing agreement for sharing the risk of product development variability
+
+This last point, which Opelt et al term "riskshare," is key. If the schedule or cost expand beyond the initial estimate, both the supplier and the customer pay, according to some agreed %, which they recommend be between 30%-70%. If the supplier proportion is too low, the contract becomes essentially time & materials. If the customer proportion is too low, the contract starts to resemble traditional fixed-price.
+
+Incremental checkpoints are also essential; for example, the supplier/customer interactions should be high bandwidth for the first few sprints, while culture and expectations are being established and the project is developing a rhythm.
+
+Finally, the ability for either party to exit gracefully and with minimum penalty is needed. If the initiative is testing market response (ala xref:lean-startup[Lean Startup])
+and the product hypothesis is falsified, there is little point to continuing the work from the customer's point of view. AND, if the product vision turns out to be far more work than either party estimated, the supplier should be able to walk away  (or at least insist on comprehensive re-negotiation.)
+
+These ideas are a departure from traditional contract management. As Opelt asks, "How can you sign a contract from which one party can exit at any time?" Recall however that (if Agile principles are applied) the customer is receiving working software continuously through the engagement (e.g. after every sprint).
+
+===== Cloud sourcing
 
 ===== Processes
 

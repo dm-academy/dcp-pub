@@ -1,4 +1,4 @@
-anchor:it-sourcing[]
+anchor:sourcing[]
 
 ==== IT sourcing and contract management
 *IT sourcing* is the set of concerns related to identifying suppliers (sources) of the necessary inputs to deliver digital value. *Contract management* is a critical, subsidiary concern, where digital value intersects with law.

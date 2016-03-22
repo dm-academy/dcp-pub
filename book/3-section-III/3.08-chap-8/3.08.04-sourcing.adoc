@@ -63,36 +63,25 @@ Contract and vendor management is more than just establishing the initial agreem
 
 In larger organizations, where a vendor might hold multiple contracts, a concept of "Vendor Management" emerges. Vendors may be provided "scorecards" that aggregate metrics describing their performance and the overall impression of the customer. Perhaps key stakeholders are internally surveyed as to their impression of the vendor's performance and whether they would be likely to recommend them again. Low scores may penalize a vendor's chances in future RFI/RFP processes; high scores may enhance them.
 
-===== Software licensing
+===== Outsourcing and Cloudsourcing
+[quote, Millard et al, Cloud Computing Law]
+Classic outsourcing of data processing, for instance payroll processing, involves users giving instructions to agents who are provided with data and tasked with processing the data actively for users according to the user’s mandate.
 
-As software and digital services are increasingly used by firms large and small, the contractual rights of usage become more and more critical.
+[quote, Millard et al, Cloud Computing Law]
+cloud computing has some fundamental characteristics that distinguish it from traditional outsourcing...many cloud services are merely passive providers of computing resources, utilized by users to perform their own processing.
 
-We mentioned a "clickwrap" licensing agreement above. Software licensing in general is a large and detailed topic, one presenting substantial financial risk to the unwary firm, especially when Cloud and virtualization are concerned.
+Software development is only one form of contracted service. Another major class of contract in the modern digital organization is for xref:cloud[Cloud] services.
 
-anchor:9-figure-true-up[]
-****
-*Case study: The 9-figure "true-up"*
-A large enterprise had a long relationship with a major software vendor, who provided a critical software product used widely for many purposes across the enterprise.
+* Lock-in
 
-The price for this product was set based on the power of the computer running it. A license would cost less for computer with 4 cores and 1 gigabyte of RAM, than it would for a computer with 16 cores and 8 gigabytes of RAM. The largest computers required the most expensive licenses.
+Lack of negotiating power on the part of consumers and small businesses has also been a concern. One pillar of the EU’s cloud strategy is the development of model cloud contract terms to cover key issues, such as data preservation after termination, data disclosure and integrity, data location and transfer, ownership of data, direct and indirect liability, change of service by cloud providers, and sub-contracting. 64
 
-As described previously, the goal of xref:virtualization[virtualization] is to use one powerful physical computer to consolidate more lightly-loaded computers as "virtual machines." This can provide significant savings.
+Millard, Christopher (2013-10-10). Cloud Computing Law (p. 34). Oxford University Press. Kindle Edition.
 
-Over the course of 3 years, the enterprise described here virtualized about 5,000 formerly physical computers, each of which had been running the vendor's software.
+7. Insurance as a Tool for Managing Cloud Risks
+Insurers may cover cloud users, treating cloud as outsourcing, as many policies covering outsourcing risks may already extend to cloud, or they may insure against specific cloud risks. They may also insure providers in relation to liability to users or others under errors and omissions policies. 65 Insurers may influence the promulgation of best practices among both cloud users and providers, for example by insisting on a security certification as a precondition for cover, or possibly for a pricing discount. The role of insurers in cloud seems set to grow, particularly if stricter legal requirements are imposed on cloud users in future.
 
-However, a deadly wrinkle emerged in the software vendor's licensing terms. The formerly physical computers were in general smaller machines. The new virtual farms were clusters of 16 of the most powerful computers available on the market. The vendor held that EACH of the 5,000 instances of its software running in the virtual machines was liable for the FULL licensing fee applicable to the most powerful machine!
-
-Even though each of the 5,000 virtual machines could not possibly have been using the full capacity of the virtual farm, the vendor insisted (and was upheld) that the contract did not account for that, and there was no way of knowing whether any given VM had been using the full capacity of the farm at some point.
-
-The dispute escalated to the CEOs of each company, but the vendor held firm. The enterprise was obliged to pay a "true-up" charge of over $100 million (9 figures).
-
-This is not an isolated instance. Major software vendors have earned billions in such charges and continue to audit aggressively for these kinds of scenarios. This is why contracts and licenses should never be taken lightly. Even startups could be vulnerable, if licensed commercial software is used in un-authorized ways in a Cloud environment, for example.
-
- Steve Russman quote
-
-****
-
-Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
+Millard, Christopher (2013-10-10). Cloud Computing Law (p. 34). Oxford University Press. Kindle Edition.
 
 ===== Software development and contracts
 
@@ -168,5 +157,35 @@ In conclusion, as Arbogas et al argue, "Contracts that promote or mandate
 sequential life cycle development increase project risk... an agile approach
 ... reduces risk because it limits both the scope of the deliverable and extent of the payment [and] allows for inevitable change" (p.13).
 
-===== Cloud sourcing
-Software development is only one form of contracted service. Another major class of contract in the modern digital organization is for xref:cloud[Cloud] services.
+===== Software licensing
+
+As software and digital services are increasingly used by firms large and small, the contractual rights of usage become more and more critical.
+
+We mentioned a "clickwrap" licensing agreement above. Software licensing in general is a large and detailed topic, one presenting substantial financial risk to the unwary firm, especially when Cloud and virtualization are concerned.
+
+anchor:9-figure-true-up[]
+****
+*Case study: The 9-figure "true-up"*
+A large enterprise had a long relationship with a major software vendor, who provided a critical software product used widely for many purposes across the enterprise.
+
+The price for this product was set based on the power of the computer running it. A license would cost less for computer with 4 cores and 1 gigabyte of RAM, than it would for a computer with 16 cores and 8 gigabytes of RAM. The largest computers required the most expensive licenses.
+
+As described previously, the goal of xref:virtualization[virtualization] is to use one powerful physical computer to consolidate more lightly-loaded computers as "virtual machines." This can provide significant savings.
+
+Over the course of 3 years, the enterprise described here virtualized about 5,000 formerly physical computers, each of which had been running the vendor's software.
+
+However, a deadly wrinkle emerged in the software vendor's licensing terms. The formerly physical computers were in general smaller machines. The new virtual farms were clusters of 16 of the most powerful computers available on the market. The vendor held that EACH of the 5,000 instances of its software running in the virtual machines was liable for the FULL licensing fee applicable to the most powerful machine!
+
+Even though each of the 5,000 virtual machines could not possibly have been using the full capacity of the virtual farm, the vendor insisted (and was upheld) that the contract did not account for that, and there was no way of knowing whether any given VM had been using the full capacity of the farm at some point.
+
+The dispute escalated to the CEOs of each company, but the vendor held firm. The enterprise was obliged to pay a "true-up" charge of over $100 million (9 figures).
+
+This is not an isolated instance. Major software vendors have earned billions in such charges and continue to audit aggressively for these kinds of scenarios. This is why contracts and licenses should never be taken lightly. Even startups could be vulnerable, if licensed commercial software is used in un-authorized ways in a Cloud environment, for example.
+
+ Steve Russman quote
+
+****
+
+Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
+
+ FOSS licensing... risks etc

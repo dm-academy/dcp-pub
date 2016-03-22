@@ -1,4 +1,4 @@
-=== Chapter 10: Security, and Governance, Risk, and Compliance
+  === Chapter 10: Security, and Governance, Risk, and Compliance
 
 ==== Introduction to Chapter 10
 
@@ -49,3 +49,5 @@ CIA
 Define vulnerability, threat agent, threat, risk, control, exposure
 
 importance of having the demand/execution framework in place to manage governance demand
+
+We have already covered contracting in terms of software and Cloud. But in terms of the emergence model, it is typical that companies enter into contracts before having a fully mature sourcing and contract management capability with input from the governance, risk, and compliance perspective. 

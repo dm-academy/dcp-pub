@@ -78,8 +78,8 @@ Lack of negotiating power on the part of consumers and small businesses has also
 
 Millard, Christopher (2013-10-10). Cloud Computing Law (p. 34). Oxford University Press. Kindle Edition.
 
-7. Insurance as a Tool for Managing Cloud Risks
-Insurers may cover cloud users, treating cloud as outsourcing, as many policies covering outsourcing risks may already extend to cloud, or they may insure against specific cloud risks. They may also insure providers in relation to liability to users or others under errors and omissions policies. 65 Insurers may influence the promulgation of best practices among both cloud users and providers, for example by insisting on a security certification as a precondition for cover, or possibly for a pricing discount. The role of insurers in cloud seems set to grow, particularly if stricter legal requirements are imposed on cloud users in future.
+"Insurance as a Tool for Managing Cloud Risks
+Insurers may cover cloud users, treating cloud as outsourcing, as many policies covering outsourcing risks may already extend to cloud, or they may insure against specific cloud risks. They may also insure providers in relation to liability to users or others under errors and omissions policies. 65 Insurers may influence the promulgation of best practices among both cloud users and providers, for example by insisting on a security certification as a precondition for cover, or possibly for a pricing discount. The role of insurers in cloud seems set to grow, particularly if stricter legal requirements are imposed on cloud users in future."
 
 Millard, Christopher (2013-10-10). Cloud Computing Law (p. 34). Oxford University Press. Kindle Edition.
 
@@ -191,4 +191,4 @@ Software licensing is a subset of Software Asset Management, which is itself a s
  FOSS licensing... risks etc
 
 ===== The role of industry analysts
-When a company is faced by a sourcing question of any kind, one initial reaction is to research the market alternatives. And rather than research a market  
+When a company is faced by a sourcing question of any kind, one initial reaction is to research the market alternatives. And rather than research a market

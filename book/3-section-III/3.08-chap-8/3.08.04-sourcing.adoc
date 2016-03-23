@@ -191,4 +191,6 @@ Software licensing is a subset of Software Asset Management, which is itself a s
  FOSS licensing... risks etc
 
 ===== The role of industry analysts
-When a company is faced by a sourcing question of any kind, one initial reaction is to research the market alternatives. And rather than research a market
+When a company is faced by a sourcing question of any kind, one initial reaction is to research the market alternatives. But research is time consuming and markets are large and complex. Therefore, the role of industry or market analyst has developed.
+
+In the financial media, one often hears from "industry analysts" who are concerned with whether a company is a good investment in the stock market. While there is some overlap, the industry analysts we are concerned with here are more focused on advising prospective customers of a given market's offerings. 

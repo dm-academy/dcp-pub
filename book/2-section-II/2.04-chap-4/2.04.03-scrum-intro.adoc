@@ -41,3 +41,5 @@ Scrum uses specific practices and artifacts such as sprints, standups, reviews, 
 ** Sprint Execution is the development activity within the sprint
 ** Sprint Review is the “public end of the sprint” when the stakeholders are invited to view the completed work
 ** The Sprint Retrospective is held to identify lessons learned from the sprint and how to apply them in future work.
+
+ elaborate considerably - not difficult

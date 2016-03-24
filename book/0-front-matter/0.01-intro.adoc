@@ -11,6 +11,8 @@ However, you will be presented with material on such topics, including fragments
 anchor:0.01-emergence[]
 
 === A process of emergence
+[quote, John Gall, The Systems Bible]
+A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system.
 
 One of the most important and distinguishing features of this book is its "emergence model." In keeping with the entrepreneurial spirit that gave rise to the Agile movement and works like Ries' http://www.amazon.com/dp/0307887898/[_The Lean Startup_,] the book adopts a progressive, evolutionary approach. Your journey through it reflects a process of emergence. Such processes are often associated with founding and scaling a startup. There are many helpful books on this topic, such as:
 

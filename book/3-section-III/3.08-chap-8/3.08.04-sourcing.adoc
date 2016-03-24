@@ -65,23 +65,14 @@ In larger organizations, where a vendor might hold multiple contracts, a concept
 
 ===== Outsourcing and Cloudsourcing
 [quote, Millard et al, Cloud Computing Law]
-Classic outsourcing of data processing, for instance payroll processing, involves users giving instructions to agents who are provided with data and tasked with processing the data actively for users according to the user’s mandate.
-
-[quote, Millard et al, Cloud Computing Law]
 cloud computing has some fundamental characteristics that distinguish it from traditional outsourcing...many cloud services are merely passive providers of computing resources, utilized by users to perform their own processing.
 
 Software development is only one form of contracted service. Another major class of contract in the modern digital organization is for xref:cloud[Cloud] services.
 
-* Lock-in
+ * lock-in
+ * insurance
 
-Lack of negotiating power on the part of consumers and small businesses has also been a concern. One pillar of the EU’s cloud strategy is the development of model cloud contract terms to cover key issues, such as data preservation after termination, data disclosure and integrity, data location and transfer, ownership of data, direct and indirect liability, change of service by cloud providers, and sub-contracting. 64
-
-Millard, Christopher (2013-10-10). Cloud Computing Law (p. 34). Oxford University Press. Kindle Edition.
-
-"Insurance as a Tool for Managing Cloud Risks
-Insurers may cover cloud users, treating cloud as outsourcing, as many policies covering outsourcing risks may already extend to cloud, or they may insure against specific cloud risks. They may also insure providers in relation to liability to users or others under errors and omissions policies. 65 Insurers may influence the promulgation of best practices among both cloud users and providers, for example by insisting on a security certification as a precondition for cover, or possibly for a pricing discount. The role of insurers in cloud seems set to grow, particularly if stricter legal requirements are imposed on cloud users in future."
-
-Millard, Christopher (2013-10-10). Cloud Computing Law (p. 34). Oxford University Press. Kindle Edition.
+ solicit contributor for Cloud contracting
 
 ===== Software development and contracts
 
@@ -188,9 +179,32 @@ This is not an isolated instance. Major software vendors have earned billions in
 
 Software licensing is a subset of Software Asset Management, which is itself a subset of IT Asset Management, discussed in more depth in the material on xref:chap-process-mgmt[process management] and xref:IT-lifecycles[IT lifecycles].
 
- FOSS licensing... risks etc
+ FOSS licensing... risks etc ... solicit contribution
+ FOSS as IT performance factor, see Forsgren/Humble https://www.youtube.com/watch?v=cJVUtbSmXaM
 
 ===== The role of industry analysts
 When a company is faced by a sourcing question of any kind, one initial reaction is to research the market alternatives. But research is time consuming and markets are large and complex. Therefore, the role of industry or market analyst has developed.
 
-In the financial media, one often hears from "industry analysts" who are concerned with whether a company is a good investment in the stock market. While there is some overlap, the industry analysts we are concerned with here are more focused on advising prospective customers of a given market's offerings. 
+In the financial media, one often hears from "industry analysts" who are concerned with whether a company is a good investment in the stock market. While there is some overlap, the industry analysts we are concerned with here are more focused on advising prospective customers of a given market's offerings.
+
+Because sourcing and contracting is an infrequent activity, especially for smaller companies, it is valuable to have such services. Because they are researching a market and talking to vendors and customers on a regular basis, analysts can be helpful to companies in the purchasing process.
+
+However, analysts take money from the vendors they are covering as well, leading to occasional charges of conflict of interest [cite]. How does this work? There are a couple of ways.
+
+First, the analyst firm engages in objective research of a given market segment. They do this by developing a common set of criteria for who gets included, and a detailed set of questions to assess their capabilities.
+
+For example, an analyst firm might define a market segment of "Cloud Infrastructure as a Service" vendors. Only vendors supporting the basic NIST guidelines for Infrastructure as a Service are invited. Then, the analyst might ask, "Do you support Software Defined Networking, e.g. Network Function Virtualization" as a question. Companies that answer "yes" will be given a higher score than companies that answer "no." The number of questions on a major research report might be as high as 300 or even higher.
+
+Once the report is completed and the vendors are ranked (analyst firms typically use a two-dimensional ranking, such as the Gartner Magic Quadrant), it is made available to end users for a fee. Fees for such research might range from $500 to $5000 or more, depending on how specialized the topic, how difficult the research, and the ability to pay of prospective customers.
+
+ get permission to use an MQ or similar
+
+NOTE: Large companies, e.g. those in the Fortune 500, typically would purchase an "enterprise agreement", often defined as a named "seat" for an individual, who can then access entire categories of research.
+
+Customers may have further questions for the analyst who wrote the research. They may be entitled to some portion of analyst time as part of their license, or they may pay extra for this privilege.
+
+Beyond selling the research to potential customers of a market, the analyst firm has a complex relationship with the vendors they are covering. In our example of a major market research report, the analyst firm's sales team also reaches out the vendors who were covered. The conversation goes something like this:
+
+"Greetings. You did very well in our recent research report. Would you like to be able to give it away to prospective customers, with your success highlighted? If so, you can sponsor the report for $50,000."
+
+Because the analyst report is seen as having some independence, it can be an attractive marketing tool for the vendor, who will often pay (after some negotiating) for the sponsorship. In fact, vendors have so many opportunities along these lines they often find it necessary to establish a function known as "Analyst Relations" to manage all of them.

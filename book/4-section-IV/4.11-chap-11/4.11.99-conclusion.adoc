@@ -11,6 +11,7 @@ Conclusion placeholder
 http://www.amazon.com/Drift-into-Failure-Sidney-Dekker/dp/1409422216
 
 *Books*
+Data Management Body of Knowledge
 
 *Articles*
 
@@ -20,3 +21,4 @@ http://martinfowler.com/bliki/BoundedContext.html
 *Videos*
 
 *Professional*
+Data Management Association

@@ -18,6 +18,7 @@
 
 * The enterprise information model: a failed vision that will never go away.
 
+
 * ontologies. Problems in developing them. BORO, OPAL, CACM 3/16 article on lightweight ontology engineering.
 
 * IT analytics
@@ -25,3 +26,14 @@
  - Portfolio and process data
  - The IT data warehouse
  - Looking ahead: Big Data, machine learning, text analytics
+
+===== Data, information, knowledge
+
+===== The ontology problem
+OPAL, BORO, etc
+
+BoundedContext and domain-driven design
+
+
+
+===== Records vs data

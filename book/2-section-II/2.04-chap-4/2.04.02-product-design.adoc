@@ -33,6 +33,8 @@ Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this
 * Decide to persevere or pivot (change direction while leveraging momentum)
 * New idea development, evolution of MVP
 
+===== Business model canvas
+
 ===== Impact mapping
  [TBW]
  * INVEST

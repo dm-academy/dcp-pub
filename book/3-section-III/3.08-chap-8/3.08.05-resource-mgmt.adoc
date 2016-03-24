@@ -3,14 +3,29 @@ anchor:resource-mgmt[]
 
 ==== IT resource management
  (yes, it's a terrible name)
-  _get permission for Dilbert cartoon "I am not a resource"_
+  _get permission for Dilbert cartoon "I am not a resource"_ http://dilbert.com/strip/1995-09-22
 
 ===== Basic concerns
+
+[quote, Sean Landis, Agile Hiring]
+hiring is one of the most important things an organization does... I'm not sure what is special about this field, but in my experience, the accepted hiring wisdom is not very effective when applied to software professionals.
+
+
+
+
+Some already covered
+
+* Mythical man-month
+* Generalizing specialists
+* Pairing, swarming, mobbing http://www.jrothman.com/mpd/project-management/2014/07/how-pairing-swarming-work-why-they-will-improve-your-products/
+
+
 ===== Impact of Agile
 ===== Impact of Cloud
 ===== Time tracking
 
 the various approaches
+
 * project systems
 * HR systems
 * ticketing systems (process centric)
@@ -28,3 +43,7 @@ sum total of demand - overburden
 Phoenix Project examination - all just work
 
 ===== SFIA framework
+
+good blogs:
+
+Johanna Rothmann

@@ -26,13 +26,11 @@ Sidebar: Introducing ISACA
 * Defining governance
 * The role of internal audit
 
-_ask Patrick Stachenko to write sidebar on how audit moved into IT_
+ _ask Patrick Stachenko to write sidebar on how audit moved into IT_
 
 * Governance, Risk & Compliance as a general space
 
 *  "Rogue" IT
-
-
 
 ===== Chapter 10 learning objectives
 * Identify the basic types of IT architecture
@@ -40,6 +38,7 @@ _ask Patrick Stachenko to write sidebar on how audit moved into IT_
 * Characterize some typical challenges for architects
 * Define governance vs. management
 * Identify common regulatory compliance issues
+** Data privacy (pointer to next chapter?)
 * Discuss basic security concerns and practices
 
 ===== Chapter raw material
@@ -50,4 +49,4 @@ Define vulnerability, threat agent, threat, risk, control, exposure
 
 importance of having the demand/execution framework in place to manage governance demand
 
-We have already covered contracting in terms of software and Cloud. But in terms of the emergence model, it is typical that companies enter into contracts before having a fully mature sourcing and contract management capability with input from the governance, risk, and compliance perspective. 
+We have already covered contracting in terms of software and Cloud. But in terms of the emergence model, it is typical that companies enter into contracts before having a fully mature sourcing and contract management capability with input from the governance, risk, and compliance perspective.

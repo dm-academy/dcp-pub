@@ -30,4 +30,4 @@ billion.
 in http://www.infoq.com/resource/minibooks/why-agile-works/en/pdf/InfoQ-Why-Agile-Works-Mini-book.pdf
 ****
 
-$ 1 billion would have bought a lot of support & vendor leverage for the "nonstandard" technologies.
+ 1 billion pounds ($1.6B) would have bought a lot of support & vendor leverage for the "nonstandard" technologies.

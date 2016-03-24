@@ -62,8 +62,9 @@ Elaborating the above outline into chapters, we have:
 . _Operations management_ How do we sustain this surprisingly fragile digital service, in its ongoing delivery of value?
 
 ..... *Team of Teams*
-[start=7]
+
 _The boundary between the "team" and the "team of teams" is a challenging area, and industry responses remain incomplete and evolving. Hence the notation "THE SCALING PROBLEM" on the diagram._
+[start=7]
 . _Organization and culture_ We're getting big. How do we deal with this? How are we structured? Why this way and not that? How can we benefit from increasing maturity and specialization, while still maintaining a responsive product? What are the unwritten values and rules in our company?
 . _Project and resource management_ Work is becoming larger and more complex. How can we  track and execute larger segments of it, and coordinate across multiple teams?
 . _Process management_ We have a structure. Work needs to flow across it. Product and project teams increasingly demand predictable, consistent delivery of internal services, and synchronization points such as enterprise releases are increasingly critical signals.

@@ -35,6 +35,9 @@ There are deeper philosophical and cultural tenets embedded in Kanban beyond wor
 
  [Reinertsen 204-205 on kanban]
 
+===== The early importance of culture
+We will discuss this in more depth in Chapters 7 and 8. But this chapter on Work Management is the first discussion of "how are we with each other." Culture requires attention at the earliest stages, as it can be very difficult to change later.
+
 ===== Scrum, Kanban, or both?
 
 So, do you choose Scrum, Kanban, both, or neither?

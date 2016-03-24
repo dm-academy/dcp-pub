@@ -7,25 +7,31 @@ anchor:resource-mgmt[]
 
 ===== Basic concerns
 
+
+===== Hiring
 [quote, Sean Landis, Agile Hiring]
-hiring is one of the most important things an organization does... I'm not sure what is special about this field, but in my experience, the accepted hiring wisdom is not very effective when applied to software professionals.
+hiring is one of the most important things a software organization does. Every good hire accelerates your organization; every poor hire is a drag on your organization.
 
+Your organization has been hiring people for some time now, but you have reached the point where a more formal and explicit understanding of how you do this is essential.
 
-
-
-Some already covered
+We covered culture in Chapter 7;
 
 * Mythical man-month
 * Generalizing specialists
 * Pairing, swarming, mobbing http://www.jrothman.com/mpd/project-management/2014/07/how-pairing-swarming-work-why-they-will-improve-your-products/
 
 
-===== Impact of Agile
-===== Impact of Cloud
-===== Time tracking
+===== Resource allocation
+process management in chapter 9
+multi-project fractional allocation
+resources impacted by operational processes
+ad-hoc requests
+sum total of demand - overburden
+Phoenix Project examination - all just work
 
-the various approaches
+the various time tracking approaches
 
+* roll up FTE to product & don't
 * project systems
 * HR systems
 * ticketing systems (process centric)
@@ -33,14 +39,12 @@ the various approaches
 
 project IDs
 
+===== Accountability and performance
 
-===== Resource contention
-process management in chapter 9
-multi-project fractional allocation
-resources impacted by operational processes
-ad-hoc requests
-sum total of demand - overburden
-Phoenix Project examination - all just work
+broken older models - linear 1-5 ranking once a year
+360 degree
+etc.
+
 
 ===== SFIA framework
 

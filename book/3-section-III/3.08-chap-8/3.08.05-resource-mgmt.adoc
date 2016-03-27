@@ -20,6 +20,7 @@ We covered culture in Chapter 7;
 * Generalizing specialists
 * Pairing, swarming, mobbing http://www.jrothman.com/mpd/project-management/2014/07/how-pairing-swarming-work-why-they-will-improve-your-products/
 
+10x controversy
 
 ===== Resource allocation
 process management in chapter 9

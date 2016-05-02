@@ -43,3 +43,5 @@ Scrum uses specific practices and artifacts such as sprints, standups, reviews, 
 ** The Sprint Retrospective is held to identify lessons learned from the sprint and how to apply them in future work.
 
  elaborate considerably - not difficult
+
+ * Pairing, swarming, mobbing http://www.jrothman.com/mpd/project-management/2014/07/how-pairing-swarming-work-why-they-will-improve-your-products/

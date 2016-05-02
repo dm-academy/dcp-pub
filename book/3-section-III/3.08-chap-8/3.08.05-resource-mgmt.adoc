@@ -6,21 +6,20 @@ anchor:resource-mgmt[]
   _get permission for Dilbert cartoon "I am not a resource"_ http://dilbert.com/strip/1995-09-22
 
 ===== Basic concerns
-
+Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management, and eventual exit of individuals from an organization.
 
 ===== Hiring
 [quote, Sean Landis, Agile Hiring]
 hiring is one of the most important things a software organization does. Every good hire accelerates your organization; every poor hire is a drag on your organization.
 
-Your organization has been hiring people for some time now, but you have reached the point where a more formal and explicit understanding of how you do this is essential.
+Your organization has been hiring people for some time now. It's always been one of your most important decisions, but you have reached the point where a more formal and explicit understanding of how you do this is essential.
 
-We covered culture in Chapter 7;
+First, why do you hire new staff? How and when do you perceive a need? It is well established that increasing the size of a team can slow it down. Legendary software engineer Fred Brooks, in his work _The Mythical Man Month_, identified the pattern that "adding more people to a late project makes it later" <<Brooks1995>>.
 
-* Mythical man-month
-* Generalizing specialists
-* Pairing, swarming, mobbing http://www.jrothman.com/mpd/project-management/2014/07/how-pairing-swarming-work-why-they-will-improve-your-products/
+Are you adding people because of a perceived need for specialist skills? While this will always be a reason for new hires, many argue in favor of "T-shaped" people - people who are deep in one skill, and broad in others. Hiring new staff has an impact on culture - is it better to train from within, or source externally?
 
-10x controversy
+
+
 
 ===== Resource allocation
 process management in chapter 9
@@ -47,8 +46,9 @@ broken older models - linear 1-5 ranking once a year
 etc.
 
 
-===== SFIA framework
+===== Skills management
 
-good blogs:
+10x controversy
+good blogs: Johanna Rothmann
 
-Johanna Rothmann
+We covered culture in Chapter 7.

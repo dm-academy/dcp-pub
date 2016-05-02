@@ -122,3 +122,5 @@ Rather than trying to increase testing to better understand things before deploy
 
 ===== When waterfall may be appropriate
  [Packaged software acquisition - relatively more sequential - but open-loop approaches are always more risky - open loop not defined yet - ]
+
+ * Pairing, swarming, mobbing http://www.jrothman.com/mpd/project-management/2014/07/how-pairing-swarming-work-why-they-will-improve-your-products/

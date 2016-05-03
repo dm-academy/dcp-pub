@@ -6,15 +6,20 @@ anchor:resource-mgmt[]
   _get permission for Dilbert cartoon "I am not a resource"_ http://dilbert.com/strip/1995-09-22
 
 ===== Basic concerns
-Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management, and eventual exit of individuals from an organization.
+Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management for value, and eventual exit of individuals from an organization.
 
 ===== Hiring
 [quote, Sean Landis, Agile Hiring]
 hiring is one of the most important things a software organization does. Every good hire accelerates your organization; every poor hire is a drag on your organization.
 
-The basic hiring process is well understood:
+The typical hiring process is well understood:
 
-* Solicit candidates, through various channels such as 
+* Solicit candidates, through various channels such as job boards and recruiters
+* Review resumes and narrow candidate pool down for phone interviews
+* Conduct phone interviews and narrow candidate pool down for in person interviews
+* Conduct in person interviews, identify candidates for offers
+* Make offer, negotiate to acceptance
+* Hire and onboard
 
 Your organization has been hiring people for some time now. It's always been one of your most important decisions, but you have reached the point where a more formal and explicit understanding of how you do this is essential.
 
@@ -22,9 +27,15 @@ First, why do you hire new staff? How and when do you perceive a need? It is wel
 
 Are you adding people because of a perceived need for specialist skills? While this will always be a reason for new hires, many argue in favor of "T-shaped" people - people who are deep in one skill, and broad in others. Hiring new staff has an impact on culture - is it better to train from within, or source externally?
 
-Second, how are you hiring staff? In a traditional, functionally specialized model, someone in a Human Resources organization acts as an intermediary between the hiring manager, and the job applicant (sometimes with a recruiter also in the mix between the company and the applicant). Detailed job descriptions are developed, and applicants not explicitly matching the selection criteria (e.g. in their resume) are not asked in for an interview.
+Second, how are you hiring staff? In a traditional, functionally specialized model, someone in a Human Resources organization acts as an intermediary between the hiring manager, and the job applicant (sometimes with a recruiter also in the mix between the company and the applicant). Detailed job descriptions are developed, and applicants not explicitly matching the selection criteria (e.g. in their resume) are not invited for an interview.
 
 Such practices do not necessarily result in good outcomes. Applicants routinely tailor resumes to the job description. In some cases they have been known to copy the job description into invisible sections of their resume, so that they are guaranteed a "match" if automated resume-scanning software is used.
+
+A compelling case study of the limitations of traditional HR-driven hiring is discussed by Robert Sutton and Huggy Rao in _Scaling up Excellence : Getting to More without Settling for Less_<<Sutton2014>>. The authors describe the company Lotus Software, one of the pioneers of early desktop computing.
+
+====
+With [company founder] Kapor’s permission, [head of organizational development] Klein pulled together the résumés of the first forty Lotus employees...[and] submitted all forty résumés to the Lotus human resources department. Not one of the forty applicants, including Kapor, was invited for a job interview. The founders had built a world that rejected people like them.
+====
 
 Sean Landis, author of _Agile Hiring_ <<Landis2011>>, believes that
 
@@ -33,18 +44,17 @@ Sean Landis, author of _Agile Hiring_ <<Landis2011>>, believes that
 * very few companies hire well.
 * individuals with deep domain knowledge are in the best position to perform great hiring.
 * companies often focus on the wrong candidates.
+* It is important to track metrics on the cost and effectiveness of hiring practices
 
-Hiring is one of the most important decisions the company makes, and it cannot be reduced to a simple process to be executed mechanically.
+Requiring senior technical talent to interview candidates may result in improved hiring decisions, but such requirements add to the overall demand on these individuals.
 
-A compelling case study of the limitations of traditional HR-driven hiring is discussed by Robert Sutton and Huggy Rao in _Scaling up Excellence : Getting to More without Settling for Less_<<Sutton2014>>. The authors describe the company Lotus Software, one of the pioneers of early desktop computing.
+In short, hiring is one of the most important decisions the digital enterprise makes, and it cannot be reduced to a simple process to be executed mechanically.
 
-====
-With [company founder] Kapor’s permission, [head of organizational development] Klein pulled together the résumés of the first forty Lotus employees...[and] submitted all forty résumés to the Lotus human resources department. Not one of the forty applicants, including Kapor, was invited for a job interview. The founders had built a world that rejected people like them.
-====
-
-Cost of hiring
 
 ===== Resource allocation
+
+Once you have hired someone, you have to manage them, at least to the extent of assigning them to a team. We have talked about xref:motivation[Theory X and Theory Y] in the chapter on culture, and it's the assumption of this book that your company is more aligned to Theory Y.
+
 process management in chapter 9
 multi-project fractional allocation
 resources impacted by operational processes

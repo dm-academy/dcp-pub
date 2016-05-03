@@ -25,6 +25,7 @@ xref:2.0.4.03-scrum[Scrum]
 xref:2.05.00-work-management[]
 
 xref:personal-flow[personal flow]
+xref:motivation[]
 
 xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]

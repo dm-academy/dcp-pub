@@ -12,17 +12,37 @@ Resource management can also be termed "people management." It is distinct from 
 [quote, Sean Landis, Agile Hiring]
 hiring is one of the most important things a software organization does. Every good hire accelerates your organization; every poor hire is a drag on your organization.
 
+The basic hiring process is well understood:
+
+* Solicit candidates, through various channels such as 
+
 Your organization has been hiring people for some time now. It's always been one of your most important decisions, but you have reached the point where a more formal and explicit understanding of how you do this is essential.
 
 First, why do you hire new staff? How and when do you perceive a need? It is well established that increasing the size of a team can slow it down. Legendary software engineer Fred Brooks, in his work _The Mythical Man Month_, identified the pattern that "adding more people to a late project makes it later" <<Brooks1995>>.
 
 Are you adding people because of a perceived need for specialist skills? While this will always be a reason for new hires, many argue in favor of "T-shaped" people - people who are deep in one skill, and broad in others. Hiring new staff has an impact on culture - is it better to train from within, or source externally?
 
-Second, how are you hiring staff? In a traditional, functionally specialized model, someone in a Human Resources organization acts as an intermediary between the hiring manager, and the job applicant. Detailed job descriptions are developed, and applicants not matching the selection criteria are
+Second, how are you hiring staff? In a traditional, functionally specialized model, someone in a Human Resources organization acts as an intermediary between the hiring manager, and the job applicant (sometimes with a recruiter also in the mix between the company and the applicant). Detailed job descriptions are developed, and applicants not explicitly matching the selection criteria (e.g. in their resume) are not asked in for an interview.
 
+Such practices do not necessarily result in good outcomes. Applicants routinely tailor resumes to the job description. In some cases they have been known to copy the job description into invisible sections of their resume, so that they are guaranteed a "match" if automated resume-scanning software is used.
 
-Kapor/Lotus case study
+Sean Landis, author of _Agile Hiring_ <<Landis2011>>, believes that
 
+"accepted hiring wisdom is not very effective when applied to software professionals." He further states that:
+
+* very few companies hire well.
+* individuals with deep domain knowledge are in the best position to perform great hiring.
+* companies often focus on the wrong candidates.
+
+Hiring is one of the most important decisions the company makes, and it cannot be reduced to a simple process to be executed mechanically.
+
+A compelling case study of the limitations of traditional HR-driven hiring is discussed by Robert Sutton and Huggy Rao in _Scaling up Excellence : Getting to More without Settling for Less_<<Sutton2014>>. The authors describe the company Lotus Software, one of the pioneers of early desktop computing.
+
+====
+With [company founder] Kapor’s permission, [head of organizational development] Klein pulled together the résumés of the first forty Lotus employees...[and] submitted all forty résumés to the Lotus human resources department. Not one of the forty applicants, including Kapor, was invited for a job interview. The founders had built a world that rejected people like them.
+====
+
+Cost of hiring
 
 ===== Resource allocation
 process management in chapter 9
@@ -48,6 +68,7 @@ broken older models - linear 1-5 ranking once a year
 360 degree
 etc.
 
+Those who don't share don't get promoted.
 
 ===== Skills management
 

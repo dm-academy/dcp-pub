@@ -13,3 +13,5 @@ Lack of resource awareness for processes (Wells vs Realization)
 - Product
 
 and the poor "resources" at their intersection, when badly managed.
+
+checklist manifesto submission process for intra communication - great 

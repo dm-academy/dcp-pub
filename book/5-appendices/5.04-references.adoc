@@ -25,6 +25,8 @@
 
 - [[[Betz2015]]]: Betz, C.T. (2015), "Calavera project", Github, https://github.com/CharlesTBetz/Calavera
 
+- [[[Brooks1995]]]: Brooks, Frederick P. 1995. _The Mythical Man-Month : Essays on Software Engineering._ 25th Anniversary edition. Reading, Mass.: Addison-Wesley Pub. Co.
+
 - [[[Bossavit2015]]]:	Bossavit, L., 2015. _The Leprechauns of Software Engineering: How folklore turns into fact and what to do about it_ 2015. Available from: https://leanpub.com/leprechauns.
 
 - [[[Bouwman]]]: Bouwman, J.-J. & Heistek, M. (), "ITIL and DevOps at war in the enterprise,"" https://www.youtube.com/watch?v=_dDsdbkSgOc, 'DevOpsDays'.
@@ -99,6 +101,8 @@
 - [[[Krafcik1988]]]:Krafcik, J. (1988),"Triumph of the lean production system",  _Sloan Management Review_  30(1), 41-52.
 
 - [[[Ladas2009]]]: Ladas, C. (2009). _Scrumban_, Modus Cooperandi Press (January 12, 2009).
+
+- [[[Landis2011]]]: Sean Landis. 2011. Agile Hiring. Artima, Inc.
 
 - [[[Larman2002]]]: Larman, C. (2002), _Applying UML and patterns : an introduction to object-oriented analysis and design and the unified process_, Prentice Hall PTR, Upper Saddle River, NJ
 
@@ -175,7 +179,9 @@ IEEE Press.
 
 - [[[Sterman2000]]]: 	Sterman, J., 2000. _Business dynamics : systems thinking and modeling for a complex world_ Boston: Irwin/McGraw-Hill. xxvi, 982 p.
 
-- [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum : the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
+- [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum: the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
+
+- [[[Sutton2014]]]: Sutton, Robert I.;, and Huggy Rao. 2014. _Scaling up Excellence : Getting to More without Settling for Less_. Crown Business/Random House.
 
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
 

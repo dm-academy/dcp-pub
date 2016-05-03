@@ -92,10 +92,21 @@ There is little industry consensus on best practices here. There are reasonable 
  Need reviewer input
 
 ===== Accountability and performance
-We have talked about xref:motivation[Theory X and Theory Y] in the chapter on culture, and it's the assumption of this book that your company is more aligned to Theory Y. We are not talking about the daily "management" of the employee's work.
+[quote, Sriram Narayam, Agile IT Organization Design]
+Accountability helps people use their autonomy judiciously.
+
+
+Regardless of whether the company is a modern digital enterprise or more traditional in its approach, the commitment, performance, and results of employees is a critical concern. The traditional
+
+some of the most challenging topics in business management.
+
+We have talked about xref:motivation[Theory X and Theory Y] in the chapter on culture, and it's the assumption of this book that your company is more aligned to Theory Y.
+
+We are not talking about the daily "management" of the employee's work.
 broken older models - linear 1-5 ranking once a year
 360 degree
 etc.
+
 
 Those who don't share don't get promoted.
 
@@ -104,5 +115,3 @@ Those who don't share don't get promoted.
 10x controversy
 
 good blogs: Johanna Rothmann
-
-We covered culture in Chapter 7.

@@ -137,6 +137,8 @@ IEEE Press.
 
 - [[[Ohno1988]]]: Ohno, T. (1988), _Toyota production system : beyond large-scale production_, Productivity Press, Cambridge, Mass.
 
+- [[[Olson2013]]]: Olson, Elizabeth. 2013. “Microsoft, GE, and the Futility of Ranking Employees.” Fortune (November 18, 2013). http://fortune.com/2013/11/18/microsoft-ge-and-the-futility-of-ranking-employees/.
+
 - [[[Opelt2013]]]:Opelt, A., B. Gloger, et al. (2013). _Agile contracts : creating and managing successful projects with Scrum._
 
 - [[[Patton2014]]]: Patton, J., 2014. _User story mapping : discover the whole story, build the right product._ First edition. ed. xliv, 276 pages.

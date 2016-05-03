@@ -105,7 +105,9 @@ This annual rating determines the employee's compensation and career prospects i
 
 As an annual cycle, this is a large "batch" of xref:2.00.01-feedback[feedback] to the employee, and therefore ineffective in terms of systems theory, not much better than an xref:2.00.1-open-loop[open-loop] approach. Because of the weaknesses of such slow feedback (not to mention the large annual costs, expensive infrastructure, and opportunity costs of the time spent), companies are experimenting with other approaches.
 
-Sutton and Rao, in _Scaling up Excellence_, discuss the case of Adobe. At Adobe, "annual reviews required 80,000 hours of time from the 2,000 managers at Adobe each year, the equivalent of 40 full-time employees. After all that effort, internal surveys revealed that employees felt less inspired and motivated afterwards— and turnover increased."
+Deloitte Consulting, as reported in the Harvard Business Review, has undergone a 
+
+Sutton and Rao, in _Scaling up Excellence_, discuss the similar case of Adobe. At Adobe, "annual reviews required 80,000 hours of time from the 2,000 managers at Adobe each year, the equivalent of 40 full-time employees. After all that effort, internal surveys revealed that employees felt less inspired and motivated afterwards— and turnover increased."
 
 Because of such costs and poor results, Adobe scrapped the entire performance management system in favor of a "check-in" approach. In this approach, managers are expected to have regular conversations about performance with employees, and are given much more say in salaries and merit increases. The managers themselves are evaluated through random "pulse surveys" that measure how well each manager "sets expectations, gives and receives feedback, and helps people with their growth and development." <<Sutton2014>>, p. 113.
 
@@ -131,4 +133,4 @@ He further provides many examples of behaviors, such as:
 * Optimistic
 * Relational
 
-Many executives and military leaders have identified the central importance of hiring decisions over the years. In large, complex organizations, choosing the right people is the most powerful lever a leader has to drive organizational performance. As we discussed in Chapter 7 and in this chapter, the organizational context these new hires find themselves in will profoundly affect them and the results of their efforts.
+In conclusion - Many executives and military leaders have identified the central importance of hiring decisions over the years. In large, complex organizations, choosing the right people is the most powerful lever a leader has to drive organizational performance. As we discussed in Chapter 7 and in this chapter, the organizational context these new hires find themselves in will profoundly affect them and the results of their efforts.

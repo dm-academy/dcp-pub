@@ -35,6 +35,8 @@
 
 - [[[Brustein2013]]]: Brustein, Joshua. 2013. “Microsoft Kills Its Hated Stack Rankings. Does Anyone Do Employee Reviews Right?” Bloomberg Business Week. http://www.bloomberg.com/news/articles/2013-11-13/microsoft-kills-its-hated-stack-rankings-dot-does-anyone-do-employee-reviews-right (March 5, 2016).
 
+- [[[Buckingham2015]]]: Buckingham, Marcus, and Ashley Goodall. 2015. “Reinventing Performance Management.” Harvard Business Review 93(4): 40–50. https://hbr.org/2015/04/reinventing-performance-management.
+
 - [[[Burrows2006]]]: Burrows, M. G. I. (2006). "The Chubby lock service for loosely-coupled distributed systems." 7th symposium on Operating systems design and implementation (OSDI '06), USENIX Association Berkeley, CA, USA
 
 - [[[Burrows2014]]]: Burrows, Mike. (2014) _Kanban from the Inside: Understand the Kanban Method, connect it to what you already know, introduce it with impact_. Sequim, WA, Blue Hole Press.

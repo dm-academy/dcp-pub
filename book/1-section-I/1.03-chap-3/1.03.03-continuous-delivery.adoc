@@ -1,4 +1,5 @@
 ==== The DevOps challenge
+ Add in Puppet Labs State of DevOps insights
 
 Consider this inquiry by Mary and Tom Poppendieck (<<Poppendieck2007>>, p. 92):
 
@@ -44,5 +45,6 @@ image::images/1.03-pipeline.png[]
 . When the repository detects the new "check-in," it launches a dedicated environment to build and test the new code. The environment is likely configured using http://dm-academy.github.io/aitm/#_infrastructure_as_code["infrastructure as code"] techniques; in this way, it can be created automatically and quickly.
 . If the code passes all tests, the compiled and built binary executables may then be "checked in" to a package management repository.
 . From the package repository, the code may then be deployed to various environments, for further testing and ultimately to "production," where it can enable the consumer's value experiences.
+
 
 Let's go into more detail on the major phases.

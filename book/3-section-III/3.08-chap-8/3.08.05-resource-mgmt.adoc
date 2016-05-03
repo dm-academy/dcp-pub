@@ -74,10 +74,8 @@ When demand is un-coordinated, these multiple channels can result in multi-taski
 The _Phoenix Project_ presents an effective and realistic dramatization of the resulting challenges. Work is entering the system through multiple channels and the overburden on key individuals (such as Brent, the lead systems engineer) has reached crisis proportions. Through a variety of mechanisms, they take control of the demand channels and greatly improve the organization's success. One of the most important lessons is well articulated by Erik, the mentor:
 
 ****
-“Your job as VP of IT Operations is to ensure the fast, predictable, and uninterrupted flow of planned work that delivers value to the business while minimizing the impact and disruption of unplanned work, so you can provide stable, predictable, and secure IT service...You must figure out how to control the release of work into IT Operations and, more importantly, ensure that your most constrained resources are doing only the work that serves the goal of the entire system, not just one silo.
+“Your job as VP of IT Operations is to ensure the fast, predictable, and uninterrupted flow of planned work that delivers value to the business while minimizing the impact and disruption of unplanned work, so you can provide stable, predictable, and secure IT service...You must figure out how to control the release of work into IT Operations and, more importantly, ensure that your most constrained resources are doing only the work that serves the goal of the entire system, not just one silo. <<Kim2013>>, p.91
 ****
-
-<<Kim2013>>, p.91
 
 In order to understand the work, measuring the consumption of people's time is important. There are various time tracking approaches:
 

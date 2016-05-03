@@ -39,6 +39,7 @@ http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-des
 
 anchor:motivation[]
 ===== Motivation
+
 One of the most important reasons to be concerned for culture is its effect on motivation. There is little doubt that a more motivated team performs better than an unmotivated, "going through the motions" organization.
 
 In general, it is an article of faith in the Agile and Lean communities that motivated teams are more likely to collaborate effectively and seek creative, novel solutions to problems. (I am not sure if there is  evidence to this effect, but it seems intuitively obvious.)

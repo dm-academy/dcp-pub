@@ -51,29 +51,48 @@ Requiring senior technical talent to interview candidates may result in improved
 In short, hiring is one of the most important decisions the digital enterprise makes, and it cannot be reduced to a simple process to be executed mechanically.
 
 
-===== Resource allocation
+===== Resource allocation and tracking
 
-Once you have hired someone, you have to manage them, at least to the extent of assigning them to a team. We have talked about xref:motivation[Theory X and Theory Y] in the chapter on culture, and it's the assumption of this book that your company is more aligned to Theory Y.
+When a new hire enters your organization, they enter a complex system that will structure and direct their daily activities through a myriad of means. The various means that direct their action include:
 
-process management in chapter 9
-multi-project fractional allocation
-resources impacted by operational processes
-ad-hoc requests
-sum total of demand - overburden
-Phoenix Project examination - all just work
+* Team assignment (e.g. to an ongoing product)
+* Project assignment
+* Process responsibilities
 
-the various time tracking approaches
+Notice again the appearance of the xref:2.04.01-process-project-product["3 Ps."]
 
-* roll up FTE to product & don't
-* project systems
-* HR systems
-* ticketing systems (process centric)
-* home built systems
+Product, project, and process become challenging when they are all allowed to generate demand on individuals independently of each other. In the worst case scenario, the *same* individual winds up with:
 
-project IDs
+* Collaborative team responsibilities
+* "Fractional" allocation to one or more projects
+* Ticketed process responsibilities
+
+NOTE: Fractional allocation is the practice of funding individuals through assigning them at some % to a project. For example, a server engineer might be allocated 25% time to a project for 6 months to define its infrastructure architecture, while being assigned 30% to another project to refresh obsolete infrastructure.
+
+When demand is un-coordinated, these multiple channels can result in multi-tasking and dramatic overburden, and in the worst case the individual becomes the constraint to enterprise value. Project managers expect deliverables on time, and have no visibility to operational concerns (e.g. outages) that may affect the ability of staff to deliver. Ad-hoc requests "smaller than a project, bigger than a ticket" further complicate matters.
+
+The _Phoenix Project_ presents an effective and realistic dramatization of the resulting challenges. Work is entering the system through multiple channels and the overburden on key individuals (such as Brent, the lead systems engineer) has reached crisis proportions. Through a variety of mechanisms, they take control of the demand channels and greatly improve the organization's success. One of the most important lessons is well articulated by Erik, the mentor:
+
+****
+“Your job as VP of IT Operations is to ensure the fast, predictable, and uninterrupted flow of planned work that delivers value to the business while minimizing the impact and disruption of unplanned work, so you can provide stable, predictable, and secure IT service...You must figure out how to control the release of work into IT Operations and, more importantly, ensure that your most constrained resources are doing only the work that serves the goal of the entire system, not just one silo.
+****
+
+<<Kim2013>>, p.91
+
+In order to understand the work, measuring the consumption of people's time is important. There are various time tracking approaches:
+
+* Simple allocation of staff payroll to product or organizational line
+* Project management systems (sometimes these are used for weekly time tracking, even for staff that are not assigned to projects - in such cases, placeholder operational projects are created)
+* Human Resource Management systems
+* Ticketing/workflow systems - advanced systems, such as those found in the Professional Services Automation sector, track time when tickets are in an "open" status.
+* Home built systems
+
+There is little industry consensus on best practices here. There are reasonable concerns about the burden of time tracking on employees, and very poor data quality resulting from employees attempting to "code" activities when summarizing their time on a weekly or bi-weekly basis.
+
+ Need reviewer input
 
 ===== Accountability and performance
-
+We have talked about xref:motivation[Theory X and Theory Y] in the chapter on culture, and it's the assumption of this book that your company is more aligned to Theory Y. We are not talking about the daily "management" of the employee's work.
 broken older models - linear 1-5 ranking once a year
 360 degree
 etc.
@@ -83,6 +102,7 @@ Those who don't share don't get promoted.
 ===== Skills management
 
 10x controversy
+
 good blogs: Johanna Rothmann
 
 We covered culture in Chapter 7.

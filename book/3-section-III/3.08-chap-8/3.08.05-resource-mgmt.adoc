@@ -12,7 +12,7 @@ Resource management can also be termed "people management." It is distinct from 
 [quote, Sean Landis, Agile Hiring]
 hiring is one of the most important things a software organization does. Every good hire accelerates your organization; every poor hire is a drag on your organization.
 
-The typical hiring process is well understood:
+Here is a typical hiring process:
 
 * Solicit candidates, through various channels such as job boards and recruiters
 * Review resumes and narrow candidate pool down for phone interviews
@@ -103,20 +103,34 @@ Regardless of whether the company is a modern digital enterprise or more traditi
 4. Exceeded expectation
 5. Significantly exceeded expectations
 
-This annual rating determines the employee's compensation and career prospects in the organization.
+This annual rating determines the employee's compensation and career prospects in the organization. Some companies (notably GE and Microsoft) have attempted "stack rankings" in which the "bottom" performers must be terminated. High profile practitioners however are moving away from this practice <<Brustein2013>>.
 
-As an annual cycle, this is a large "batch" of xref:2.00.01-feedback[feedback] to the employee (and therefore ineffective in terms of systems theory, not much better than an xref:2.00.1-open-loop[open-loop] approach). Because of the weaknesses of such slow feedback (not to mention the large annual costs, expensive infrastructure, and opportunity costs of the time spent), companies are experimenting with other approaches.
+As an annual cycle, this is a large "batch" of xref:2.00.01-feedback[feedback] to the employee, and therefore ineffective in terms of systems theory, not much better than an xref:2.00.1-open-loop[open-loop] approach. Because of the weaknesses of such slow feedback (not to mention the large annual costs, expensive infrastructure, and opportunity costs of the time spent), companies are experimenting with other approaches.
 
 Sutton and Rao, in _Scaling up Excellence_, discuss the case of Adobe. At Adobe, "annual reviews required 80,000 hours of time from the 2,000 managers at Adobe each year, the equivalent of 40 full-time employees. After all that effort, internal surveys revealed that employees felt less inspired and motivated afterwards— and turnover increased."
 
 Because of such costs and poor results, Adobe scrapped the entire performance management system in favor of a "check-in" approach. In this approach, managers are expected to have regular conversations about performance with employees, and are given much more say in salaries and merit increases. The managers themselves are evaluated through random "pulse surveys" that measure how well each manager "sets expectations, gives and receives feedback, and helps people with their growth and development." <<Sutton2014>>, p. 113.
 
-Whether incentives (e.g. pay raises) should be awarded individually or on a team basis is an ongoing topic of discussion in the industry. Results often derive from team performance, but the contributions of any one individual can be
+Whether incentives (e.g. pay raises) should be awarded individually or on a team basis is an ongoing topic of discussion in the industry. Results often derive from team performance, and the contributions of any one individual can be difficult to identify. Because of this, Scrum pioneer Ken Schwaber argues that "The majority of the enterprise's bonus and incentive funds need to be allocated based on the team's performance rather than the individual's performance." <<Schwaber2007>>, p.6.
 
-Those who don't share don't get promoted. -
+However, this runs into another problem: that of the "free-rider." What do we do about team members who do not pull their weight? Even in self-organizing teams, confronting someone about their behavior is not something people do willingly, or well.
 
-===== Skills management
+Ideally, teams will self-police, but this becomes less effective with scale. In one case study in the Harvard Business Review, Continental Airlines found that the free rider problem was less of a concern when metrics were clearly correlated with team activity. In their case, the efforts and cooperation of gate teams had significant influence on On-Time Arrival and Departure metrics, which could then be used as the basis for incentives <<Knez2002>>.
 
-10x controversy
+Ultimately, both individuals and teams need coaching and direction. Team-level management and incentives must still be supplemented with some feedback loops centering on the individual. Perhaps this feedback is not compensation-based, but the organization must still identify individuals with leadership potential and deal with free riders and toxic individuals.
 
-good blogs: Johanna Rothmann
+Observed behaviors are a useful focus. Sean Landis describes the difference between behaviors and skills thus:
+
+****
+Two things make good leaders: behaviors and skills. If you focus on behaviors in your hiring of developers, they will be predisposed for leadership success. The hired candidate may walk in the door with the skills necessary to lead or not. If not, skills are easy to acquire through training and mentoring. People can acquire or modify behaviors, but it is much harder than skill development. Hire for behaviors and train the leadership skills. <<Landis2011>>
+****
+
+He further provides many examples of behaviors, such as:
+
+* Adaptable
+* Accountable
+* Initiative Taker
+* Optimistic
+* Relational
+
+Many executives and military leaders have identified the central importance of hiring decisions over the years. In large, complex organizations, choosing the right people is the most powerful lever a leader has to drive organizational performance. As we discussed in Chapter 7 and in this chapter, the organizational context these new hires find themselves in will profoundly affect them and the results of their efforts.

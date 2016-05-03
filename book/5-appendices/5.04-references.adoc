@@ -31,7 +31,9 @@
 
 - [[[Bouwman]]]: Bouwman, J.-J. & Heistek, M. (), "ITIL and DevOps at war in the enterprise,"" https://www.youtube.com/watch?v=_dDsdbkSgOc, 'DevOpsDays'.
 
-- [[[Brooks1975]]]:Brooks, F. P. (1975). _The mythical man-month: essays on software engineering._ Reading, Mass., Addison-Wesley Pub. Co.
+- [[[Brooks1975]]]: Brooks, F. P. (1975). _The mythical man-month: essays on software engineering._ Reading, Mass., Addison-Wesley Pub. Co.
+
+- [[[Brustein2013]]]: Brustein, Joshua. 2013. “Microsoft Kills Its Hated Stack Rankings. Does Anyone Do Employee Reviews Right?” Bloomberg Business Week. http://www.bloomberg.com/news/articles/2013-11-13/microsoft-kills-its-hated-stack-rankings-dot-does-anyone-do-employee-reviews-right (March 5, 2016).
 
 - [[[Burrows2006]]]: Burrows, M. G. I. (2006). "The Chubby lock service for loosely-coupled distributed systems." 7th symposium on Operating systems design and implementation (OSDI '06), USENIX Association Berkeley, CA, USA
 
@@ -93,6 +95,8 @@
 - [[[Kennaley2010]]]: Kennaley, M., 2010. _SDLC 3.0: Beyond a Tacit Understanding of Agile: Towards the Next Generation of Software Engineering_ Fourth Medium Consulting.
 
 - [[[Kim2013]]]: Kim, G.; Behr, K. & Spafford, G. (2013), _The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win_, IT Revolution Press
+
+- [[[Knez2002]]]: Knez, Mark, and Duncan Simester. 2002. “Making Across-the-Board Incentives Work.” Harvard Business Review (Feb 2002).
 
 - [[[Kniberg2011]]]: Kniberg, H.; Beck, K. & Keppler, K. (2011), _Lean from the trenches : managing large-scale projects with Kanban_, Pragmatic Bookshelf, Dallas, Tex.
 
@@ -156,6 +160,8 @@ IEEE Press.
 - [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
 
 - [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
+
+- [[[Schwaber2007]]]: Schwaber, Ken. 2007. _The Enterprise and Scrum._ Redmond, Wash: Microsoft Press.
 
 - [[[Schwaber2013]]]: Schwaber, K. (2013). unSAFE at any speed. URL: https://kenschwaber.wordpress.com/2013/08/06/unsafe-at-any-speed/. Ken Schwaber's Blog: Telling It Like It Is. 2016.
 

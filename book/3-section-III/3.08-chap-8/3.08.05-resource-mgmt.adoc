@@ -17,10 +17,6 @@ Needs: As you review this, please keep in mind that it is a secondary section to
 * link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
 ****
 
-* Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
-*
-* link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
-
 endif::collaborator-draft[]
 
  Resource management is a terrible name. We will use it anyways.

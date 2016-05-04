@@ -4,7 +4,7 @@ anchor:resource-mgmt[]
 ==== IT resource management
 
 ifdef::collaborator-draft[]
-* https://github.com/dm-academy/aitm/blob/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source for comments/edits]
+* https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source for comments/edits]
 * https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions]
 
  Collaborator note

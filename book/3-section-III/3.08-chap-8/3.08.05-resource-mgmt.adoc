@@ -8,9 +8,12 @@ ifdef::collaborator-draft[]
 ****
 *Collaborative*
 
-Status: This section is 1st draft as of 2016-05-04.
+ Status: This section is 1st draft as of 2016-05-04.
 
-Needs: As you review this, please keep in mind that it is a secondary section to the overall chapter "Project and Resource Management." Another case study would be OK and I think that the end doesn't quite take it home yet. Of course anything I have completely missed would be great feedback!
+ Needs: As you review this, please keep in mind that it is a secondary section to the overall chapter "Project and Resource Management." Another case study would be OK and I think that the end doesn't quite take it home yet. Of course anything I have completely missed would be great feedback!
+
+ Resource management is a terrible name. We will use it anyways.
+ Todo: get permission for Dilbert cartoon "We're human beings not resources" http://dilbert.com/strip/1995-09-22
 
 * Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
 * link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source, window="_blank"]
@@ -19,8 +22,7 @@ Needs: As you review this, please keep in mind that it is a secondary section to
 
 endif::collaborator-draft[]
 
- Resource management is a terrible name. We will use it anyways.
- Todo: get permission for Dilbert cartoon "We're human beings not resources" http://dilbert.com/strip/1995-09-22
+
 
 ===== Basic concerns
 Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management for value, and eventual exit of individuals from an organization.

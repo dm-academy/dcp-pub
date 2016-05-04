@@ -6,6 +6,7 @@ Agile IT Management: From Startup to Enterprise (Student Edition)
 :toclevels: 4
 :front-cover-image: image::images/ITProgression.png[]
 :numbered:
+:linkattrs:
 
 _Note: The README is temporarily included in the actual book build. This will likely be removed for final publication._
 

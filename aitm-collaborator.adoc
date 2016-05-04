@@ -8,6 +8,7 @@ Agile IT Management: From Startup to Enterprise (Collaborative Draft)
 :instructor-ed:
 :collaborator-draft:
 :numbered:
+:linkattrs:
 
 _Note: The README is temporarily included in the actual book build. This will likely be removed for final publication._
 

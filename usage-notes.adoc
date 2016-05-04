@@ -50,6 +50,8 @@ ifdef::instructor-ed[]
 endif::instructor-ed[]
 
 ifdef::collaborator-draft[]
+* Raise an https://github.com/dm-academy/aitm/issues[issue] to comment
+
 * https://raw.githubusercontent.com/dm-academy/aitm/blob/master/book/SOME_PATH_TO_FILE[Github source for comments/edits]
 * https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions]
 

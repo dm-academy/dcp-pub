@@ -50,12 +50,13 @@ ifdef::instructor-ed[]
 endif::instructor-ed[]
 
 ifdef::collaborator-draft[]
-* Raise an https://github.com/dm-academy/aitm/issues[issue] to comment
+* Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
+* link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source, window="_blank"]
+* link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
 
-* https://raw.githubusercontent.com/dm-academy/aitm/blob/master/book/SOME_PATH_TO_FILE[Github source for comments/edits]
-* https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions]
+ Collaborator notes
+ Status: This section is unstarted/WIP/1st draft/2nd draft as of 2016-_____.
 
- _Collaborator note_
- As you review this, please keep in mind that it is a secondary section to the overall chapter "Project and Resource Management." Another case study would be OK and I think that the end doesn't quite take it home yet.
+ Needs:
 
 endif::collaborator-draft[]

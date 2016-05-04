@@ -1,5 +1,17 @@
 ==== IT financial management
 
+ifdef::collaborator-draft[]
+* Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
+* link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source, window="_blank"]
+* link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
+
+ Collaborator notes
+ Status: This section is work in process as of 2016-05-04, expect volatility
+
+ Needs: IT financial management experts also familiar with Beyond Budgeting or Lean Accounting. All 3 of you.
+
+endif::collaborator-draft[]
+
 Our "from startup to enterprise" thought experiment has always been intended to apply to an individual's journey through a large organization, as well as a genuine case of company growth. By this section, however, we are running into the reality that a company scaling up today would often make different decisions from a company who scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
 
 One of the major reasons that projects were conceived as large "batches" of work has been the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)

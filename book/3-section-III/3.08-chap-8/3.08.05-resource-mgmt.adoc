@@ -25,7 +25,9 @@ endif::collaborator-draft[]
 
 
 ===== Basic concerns
-Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management for value, and eventual exit of individuals from an organization.
+Human Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management for value, and eventual exit of individuals from an organization.
+
+This brief section covers the topic as it relates to digital management, incorporating recent cases and perspectives. 
 
 ===== Hiring
 [quote, Sean Landis, Agile Hiring]

@@ -7,13 +7,13 @@ ifdef::collaborator-draft[]
 * https://github.com/dm-academy/aitm/blob/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source for comments/edits]
 * https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions]
 
- _Collaborator note_
+ Collaborator note
  As you review this, please keep in mind that it is a secondary section to the overall chapter "Project and Resource Management." Another case study would be OK and I think that the end doesn't quite take it home yet.
 
 endif::collaborator-draft[]
 
- (yes, it's a terrible name)
-  _get permission for Dilbert cartoon "I am not a resource"_ http://dilbert.com/strip/1995-09-22
+ Resource management is a terrible name. We will use it anyways.
+ Todo: get permission for Dilbert cartoon "We're human beings not resources" http://dilbert.com/strip/1995-09-22
 
 ===== Basic concerns
 Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management for value, and eventual exit of individuals from an organization.
@@ -56,10 +56,8 @@ Sean Landis, author of _Agile Hiring_ <<Landis2011>>, believes that
 * companies often focus on the wrong candidates.
 * It is important to track metrics on the cost and effectiveness of hiring practices
 
-Requiring senior technical talent to interview candidates may result in improved hiring decisions, but such requirements add to the overall demand on these individuals.
-
 In short, hiring is one of the most important decisions the digital enterprise makes, and it cannot be reduced to a simple process to be executed mechanically.
-
+Requiring senior technical talent to interview candidates may result in improved hiring decisions. However, such requirements add to the overall demand on these individuals.
 
 ===== Allocation and tracking people's time
 
@@ -134,10 +132,9 @@ on my team
 In terms of the frequency of performance check-ins, they note:
 
 ****
-Research into the practices of the best team leaders reveals that they conduct regular check-ins with each team member about near term work. These brief conversations allow leaders to set expectations for the upcoming week, review priorities, comment on recent work, and provide course correction, coaching,
-or important new information . . .
+Research into the practices of the best team leaders reveals that they conduct regular check-ins with each team member about near term work . . . to set expectations for the upcoming week, review priorities, comment on recent work, and provide course correction, coaching, or important new information . . .
 
-Our design calls for every team leader to check in with each team member once a week . . . If a leader checks in less often than once a week, the team member’s priorities may become vague . . . the conversation will shift from coaching for near term  work to giving feedback about past performance.
+ . . . If a leader checks in less often than once a week, the team member’s priorities may become vague . . . the conversation will shift from coaching for near term  work to giving feedback about past performance.
 
 \. . . If you want people to talk about how to do their best work in the near future, they need to talk often. And so far we have found in our testing a direct and measurable correlation between the frequency of these conversations and the engagement of team members . . .
 ****

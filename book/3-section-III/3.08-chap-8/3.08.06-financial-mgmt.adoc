@@ -1,5 +1,25 @@
 ==== IT financial management
 
+Our "from startup to enterprise" thought experiment has always been intended to apply to an individual's journey through a large organization, as well as a genuine case of company growth. By this section, however, we are running into the reality that a company scaling up today would often make different decisions from a company who scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
+
+One of the major reasons that projects were conceived as large "batches" of work has been the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
+
+The annual budget has two primary components: capital expenditures and operating expenditures, commonly called CapEx and OpEx. The rules about what must go where are fairly rigid and determined by accounting standards with some leeway for the organization's preferences. Software development in general is capitalized, as it is an investment from which the company hopes to benefit from in the future. Operations is typically expensed. Capitalized activities may be accounted for over multiple years (therefore becoming a reasonable candidate for financing and multi-year amortization.) Expensed activities must be accounted for in-year.
+
+Because one can only "go to the well" once a year, extensive planning and negotiation traditionally takes place around the IT project portfolio. Business units and their IT partners debate the priorities for the capital budget, assess resources, and finalize a list of investments. Project managers are identified and tasked with marshaling the needed resources for execution.
+
+At the same time, the IT operations staff is fighting for its budget, which is usually under constant pressure to "do more with less."
+
+IT is often consumed as a "shared service" which requires internal financial transfers. What does this mean?
+
+Here is a traditional example. An IT group purchases a mainframe computer for $1,000,000. This mainframe is made available to various departments who are charged for it. Because the mainframe is a true shared resource, it can run multiple workloads simultaneously. For the year, we see the following usage:
+
+* 20% Accounting
+* 35% Sales operations
+* 20% Supply chain
+
+Agile and digital transformation disrupt traditional IT finance
+
 ===== Basic concerns
 
 CapEx vs Opex
@@ -8,11 +28,25 @@ Direct
 Indirect
 S,G & A
 
-
-
 project finance
+
 A CFO's view on EVM
 
 ===== Agile challenges (Lean Accounting, Beyond Budgeting)
+
+
+****
+IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.
+
+A large European insurance provider restructured its budgeting processes so that each product domain is assigned a share of the annual budget, to be utilized by chief product owners. (Part of the budget is also reserved for requisite maintenance costs.) Budget responsibilities have been divided into three categories: a development council consisting of business and IT managers meets monthly to make go/no-go decisions on initiatives. Chief product owners are charged with the tactical allocation of funds—making quick decisions in the case of a new business opportunity, for instance—and they meet continually to rebalance allocations.
+
+Meanwhile, product owners are responsible for ensuring execution of software development tasks within 40-hour work windows and for managing maintenance tasks and backlogs; these, too, are reviewed on a rolling basis. As a result of this shift in approach, the company has increased its budgeting flexibility and significantly improved market response times.
+
+A handful of companies are even exploring a venture-capital-style budgeting model. Initial funding is provided for minimally viable products (MVPs), which can be released quickly, refined according to customer feedback, and relaunched in the marketplace—the hallmarks of agile development. And subsequent funding is based on how those MVPs perform in the market. Under this model, companies can reduce the risk that a project will fail, since MVPs are continually monitored and development tasks reprioritized. Typically there is less waste and more transparency among portfolio and product managers, and it becomes easier for the company to scrap low-potential projects early.  <<Comella2016>>
+****
+
+
+
+
 From CapEx to OpEx
 Decline & fall of EVM?

@@ -196,6 +196,9 @@ To meet these goals, we
 
 The above discussion is by no means exhaustive. A wealth of additional techniques is to be found in <<Larman2009>> and <<Cohn2010>>. New techniques are continually emerging from the front lines of the digital industry; the interested student should consider attending industry conferences such as those offered by the Agile Alliance.
 
+===== The end of the "iron triangle?"
+ cite Edwards & others - focus on throughput moves the needle on other metrics - but not the reverse.
+
 ===== The future of project management
 
 Recall our three "Ps":

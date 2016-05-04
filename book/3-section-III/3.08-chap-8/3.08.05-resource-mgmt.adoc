@@ -1,6 +1,10 @@
 
 anchor:resource-mgmt[]
 
+ifdef::collaborator-draft[]
+https://github.com/dm-academy/aitm/blob/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source for comments/edits]
+endif::collaborator-draft[]
+
 ==== IT resource management
  (yes, it's a terrible name)
   _get permission for Dilbert cartoon "I am not a resource"_ http://dilbert.com/strip/1995-09-22

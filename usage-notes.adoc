@@ -42,3 +42,6 @@ xref:sourcing[sourcing]
 
 
 [quote, who, what]
+
+ifdef::collaborator-draft[]
+endif::collaborator-draft[]

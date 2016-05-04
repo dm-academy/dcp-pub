@@ -4,9 +4,9 @@ anchor:resource-mgmt[]
 ==== IT resource management
 
 ifdef::collaborator-draft[]
-* Raise an https://github.com/dm-academy/aitm/issues[issue] to comment
-* https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source]
-* https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions]
+* Raise an https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
+* https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source, window="_blank"]
+* https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
 
  Collaborator note
  As you review this, please keep in mind that it is a secondary section to the overall chapter "Project and Resource Management." Another case study would be OK and I think that the end doesn't quite take it home yet.

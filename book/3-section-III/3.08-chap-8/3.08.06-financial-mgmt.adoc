@@ -13,7 +13,7 @@ ifdef::collaborator-draft[]
  Needs: IT financial management experts also familiar with Beyond Budgeting or Lean Accounting. All 3 of you.
 
 * Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
-* link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-financial-mgmt.adoc[Github source, window="_blank"]
+* link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.06-financial-mgmt.adoc[Github source, window="_blank"]
 * link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
 ****
 

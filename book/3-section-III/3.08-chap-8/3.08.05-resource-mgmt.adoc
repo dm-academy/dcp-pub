@@ -1,7 +1,7 @@
 
 anchor:resource-mgmt[]
 
-==== IT resource management
+==== IT human resource management
 
 ifdef::collaborator-draft[]
 

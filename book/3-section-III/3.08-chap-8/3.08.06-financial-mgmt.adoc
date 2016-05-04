@@ -4,7 +4,8 @@ anchor:financial-mgmt[]
 ==== IT financial management
 
 ifdef::collaborator-draft[]
-[silver-background]##
+
+****
 
 * Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
 * link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source, window="_blank"]
@@ -14,8 +15,7 @@ ifdef::collaborator-draft[]
  Status: This section is work in process as of 2016-05-04, expect volatility
 
  Needs: IT financial management experts also familiar with Beyond Budgeting or Lean Accounting. All 3 of you.
-
-##
+****
 
 endif::collaborator-draft[]
 

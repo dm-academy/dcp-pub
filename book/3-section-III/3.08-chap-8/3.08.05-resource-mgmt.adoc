@@ -27,7 +27,7 @@ endif::collaborator-draft[]
 ===== Basic concerns
 Human Resource management can also be termed "people management." It is distinct from supply chain and technology management, being concerned with the identification and recruitment, onboarding, ongoing management for value, and eventual exit of individuals from an organization.
 
-This brief section covers the topic as it relates to digital management, incorporating recent cases and perspectives. 
+This brief section covers the topic as it relates to digital management, incorporating recent cases and perspectives.
 
 ===== Hiring
 [quote, Sean Landis, Agile Hiring]
@@ -104,7 +104,7 @@ In order to understand the work, measuring the consumption of people's time is i
 * Ticketing/workflow systems - advanced systems, such as those found in the Professional Services Automation sector, track time when tickets are in an "open" status.
 * Home built systems
 
-There is little industry consensus on best practices here. There are reasonable concerns about the burden of time tracking on employees, and very poor data quality resulting from employees attempting to "code" activities when summarizing their time on a weekly or bi-weekly basis.
+There is little industry consensus on best practices here. There are reasonable concerns about the burden of time tracking on employees, and poor data quality resulting from employees attempting to "code" activities when summarizing their time on a weekly or bi-weekly basis.
 
  Need reviewer input
 
@@ -122,7 +122,7 @@ Regardless of whether the company is a modern digital enterprise or more traditi
 
 This annual rating determines the employee's compensation and career prospects in the organization. Some companies (notably GE and Microsoft) have attempted "stack rankings" in which the "bottom" performers must be terminated. High profile practitioners however are moving away from this practice <<Brustein2013>>, <<Olson2013>>.
 
-As an annual cycle, this is a large "batch" of xref:2.00.01-feedback[feedback] to the employee, and therefore ineffective in terms of systems theory, not much better than an xref:2.00.1-open-loop[open-loop] approach. Because of the weaknesses of such slow feedback (not to mention the large annual costs, expensive infrastructure, and opportunity costs of the time spent), companies are experimenting with other approaches.
+The traditional annual review is a large "batch" of xref:2.00.01-feedback[feedback] to the employee, and therefore ineffective in terms of systems theory, not much better than an xref:2.00.1-open-loop[open-loop] approach. Because of the weaknesses of such slow feedback (not to mention the large annual costs, expensive infrastructure, and opportunity costs of the time spent), companies are experimenting with other approaches.
 
 Deloitte Consulting, as reported in the Harvard Business Review <<Buckingham2015>>, realized that its annual performance review process was consuming two million hours of time annually, and yet was not delivering the needed value. In particular, ratings were suffering from the measurable flaw that they tended to reveal more about the person *doing* the rating, than the person being rated!
 
@@ -145,7 +145,7 @@ In terms of the frequency of performance check-ins, they note:
 ****
 Research into the practices of the best team leaders reveals that they conduct regular check-ins with each team member about near term work . . . to set expectations for the upcoming week, review priorities, comment on recent work, and provide course correction, coaching, or important new information . . .
 
- . . . If a leader checks in less often than once a week, the team member’s priorities may become vague . . . the conversation will shift from coaching for near term  work to giving feedback about past performance.
+\. . . If a leader checks in less often than once a week, the team member’s priorities may become vague . . . the conversation will shift from coaching for near term  work to giving feedback about past performance.
 
 \. . . If you want people to talk about how to do their best work in the near future, they need to talk often. And so far we have found in our testing a direct and measurable correlation between the frequency of these conversations and the engagement of team members . . .
 ****

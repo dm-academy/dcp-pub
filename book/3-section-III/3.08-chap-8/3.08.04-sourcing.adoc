@@ -147,9 +147,9 @@ and the product hypothesis is falsified, there is little point to continuing the
 
 These ideas are a departure from traditional contract management. As Opelt asks, "How can you sign a contract from which one party can exit at any time?" Recall however that (if Agile principles are applied) the customer is receiving working software continuously through the engagement (e.g. after every sprint).
 
-In conclusion, as Arbogas et al argue, "Contracts that promote or mandate
+In conclusion, as Arbogast et al argue, "Contracts that promote or mandate
 sequential life cycle development increase project risk... an agile approach
-... reduces risk because it limits both the scope of the deliverable and extent of the payment [and] allows for inevitable change" (p.13).
+... reduces risk because it limits both the scope of the deliverable and extent of the payment [and] allows for inevitable change" <<Arbogast2012>> (p.13).
 
 ===== Software licensing
 

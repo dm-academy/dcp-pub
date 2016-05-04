@@ -45,3 +45,6 @@ xref:sourcing[sourcing]
 
 ifdef::collaborator-draft[]
 endif::collaborator-draft[]
+
+ifdef::instructor-ed[]
+endif::instructor-ed[]

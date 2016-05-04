@@ -5,6 +5,10 @@ anchor:resource-mgmt[]
 
 ifdef::collaborator-draft[]
 https://github.com/dm-academy/aitm/blob/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source for comments/edits]
+
+ _Collaborator note_
+ As you review this, please keep in mind that it is a secondary section to the overall chapter "Project and Resource Management." Another case study would be OK and I think that the end doesn't quite take it home yet.
+
 endif::collaborator-draft[]
 
  (yes, it's a terrible name)
@@ -56,7 +60,7 @@ Requiring senior technical talent to interview candidates may result in improved
 In short, hiring is one of the most important decisions the digital enterprise makes, and it cannot be reduced to a simple process to be executed mechanically.
 
 
-===== Resource allocation and tracking
+===== Allocation and tracking people's time
 
 When a new hire enters your organization, they enter a complex system that will structure and direct their daily activities through a myriad of means. The various means that direct their action include:
 

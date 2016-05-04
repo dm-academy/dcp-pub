@@ -1,0 +1,12 @@
+= Collaborator instructions
+
+First, thank you for having the interest in helping the AITM project.
+
+The simplest thing you can do to provide feedback is to file an  https://github.com/dm-academy/aitm/issues[issue]. Please identify the section or sections and describe as specifically as possible what you believe the problem to be.
+
+If you want to directly contribute, you need to figure out Github.
+
+Install it on your local machine, fork this repo, clone it to your workstation, make your changes, and submit pull requests. You will not regret learning these skills.
+
+* https://help.github.com/articles/set-up-git/
+* https://help.github.com/articles/fork-a-repo/

@@ -23,7 +23,9 @@ Our "from startup to enterprise" thought experiment has always been intended to 
 
 One of the major reasons that projects were conceived as large "batches" of work has been the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
 
-The annual budget has two primary components: capital expenditures and operating expenditures, commonly called CapEx and OpEx. The rules about what must go where are fairly rigid and determined by accounting standards with some leeway for the organization's preferences. Software development in general is capitalized, as it is an investment from which the company hopes to benefit from in the future. Operations is typically expensed. Capitalized activities may be accounted for over multiple years (therefore becoming a reasonable candidate for financing and multi-year amortization.) Expensed activities must be accounted for in-year.
+The annual budget has two primary components: capital expenditures and operating expenditures, commonly called CapEx and OpEx. The rules about what must go where are fairly rigid and determined by accounting standards with some leeway for the organization's preferences.
+
+Software development in general is capitalized, as it is an investment from which the company hopes to benefit from in the future. Operations is typically expensed. Capitalized activities may be accounted for over multiple years (therefore becoming a reasonable candidate for financing and multi-year amortization.) Expensed activities must be accounted for in-year.
 
 Because one can only "go to the well" once a year, extensive planning and negotiation traditionally takes place around the IT project portfolio. Business units and their IT partners debate the priorities for the capital budget, assess resources, and finalize a list of investments. Project managers are identified and tasked with marshaling the needed resources for execution.
 
@@ -36,6 +38,7 @@ Here is a traditional example. An IT group purchases a mainframe computer for $1
 * 20% Accounting
 * 35% Sales operations
 * 20% Supply chain
+
 
 Agile and digital transformation disrupt traditional IT finance
 
@@ -68,4 +71,5 @@ A handful of companies are even exploring a venture-capital-style budgeting mode
 
 
 From CapEx to OpEx
+
 Decline & fall of EVM?

@@ -1,5 +1,6 @@
 
 anchor:resource-mgmt[]
+anchor:_it_resource_management[]
 
 ==== IT human resource management
 

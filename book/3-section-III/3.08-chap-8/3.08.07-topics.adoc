@@ -1,7 +1,11 @@
 ==== Topics in IT project management and related fields
 
 ****
-include::collab-links.adoc[]
+*Collaborative*
+
+ Status: Like most topics sections, this one is in need of work, being deferred to 2nd draft for cleanup & completion.
+
+include::../../../collab-links.adoc[]
 ****
 
 ===== The Agile project frameworks

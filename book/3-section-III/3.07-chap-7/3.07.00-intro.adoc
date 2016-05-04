@@ -14,6 +14,8 @@ Many of your employees and consultants emphasize the role of culture, but what d
 
 You often think about how your company should be structured. There is no shortage of opinions there either. From functional centers of excellence to cross-functional product teams, and from strictly hierarchical models to radical models like holacracy, there seems to be an infinite variety of choices.
 
+ Creating conditions...
+
 ===== Chapter 7 outline
 
 * Why organization matters

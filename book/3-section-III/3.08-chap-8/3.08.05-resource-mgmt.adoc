@@ -102,6 +102,7 @@ In order to understand the work, measuring the consumption of people's time is i
 * Project management systems (sometimes these are used for weekly time tracking, even for staff that are not assigned to projects - in such cases, placeholder operational projects are created)
 * Human Resource Management systems
 * Ticketing/workflow systems - advanced systems, such as those found in the Professional Services Automation sector, track time when tickets are in an "open" status.
+* Backlog management systems (that may seem similar to ticketing systems)
 * Home built systems
 
 There is little industry consensus on best practices here. There are reasonable concerns about the burden of time tracking on employees, and poor data quality resulting from employees attempting to "code" activities when summarizing their time on a weekly or bi-weekly basis.

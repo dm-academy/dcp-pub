@@ -1,6 +1,7 @@
 == Preface to the Instructor
 ****
 *Collaborative*
+
  Status: This section is 1st draft since 2015.
 
  Notes:

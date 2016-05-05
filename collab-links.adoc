@@ -1,3 +1,3 @@
 * Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
-* link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.06-financial-mgmt.adoc[Github source, window="_blank"]
+* link:https://github.com/dm-academy/aitm/tree/master/book[Github source files, window="_blank"]
 * link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]

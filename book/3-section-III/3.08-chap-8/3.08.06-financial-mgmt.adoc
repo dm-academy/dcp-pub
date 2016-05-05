@@ -59,9 +59,6 @@ A CFO's view on EVM
 ===== Agile challenges (Lean Accounting, Beyond Budgeting)
 
 ****
-
-
-****
 IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.
 
 A large European insurance provider restructured its budgeting processes so that each product domain is assigned a share of the annual budget, to be utilized by chief product owners. (Part of the budget is also reserved for requisite maintenance costs.) Budget responsibilities have been divided into three categories: a development council consisting of business and IT managers meets monthly to make go/no-go decisions on initiatives. Chief product owners are charged with the tactical allocation of funds—making quick decisions in the case of a new business opportunity, for instance—and they meet continually to rebalance allocations.

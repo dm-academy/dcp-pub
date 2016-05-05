@@ -12,7 +12,7 @@ ifdef::collaborator-draft[]
 
  Needs: IT financial management experts also familiar with Beyond Budgeting or Lean Accounting. All 3 of you.
 
- include::../../../collab-links.adoc[]
+include::../../../collab-links.adoc[]
 
 ****
 

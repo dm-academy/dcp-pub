@@ -16,7 +16,7 @@ ifdef::collaborator-draft[]
  Resource management is a terrible name. We will use it anyways.
  Todo: get permission for Dilbert cartoon "We're human beings not resources" http://dilbert.com/strip/1995-09-22
 
- include::../../../collab-links.adoc[]
+include::../../../collab-links.adoc[]
 
 ****
 

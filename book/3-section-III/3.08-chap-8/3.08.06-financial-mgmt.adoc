@@ -18,6 +18,9 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
+[quote, ]
+The traditional system provides, at best, a false sense of cost control to any enterprise
+
 Our "from startup to enterprise" thought experiment has always been intended to apply to an individual's journey through a large organization, as well as a genuine case of company growth. By this section, however, we are running into the reality that a company scaling up today would often make different decisions from a company who scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
 
 One of the major reasons that projects were conceived as large "batches" of work has been the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
@@ -55,6 +58,8 @@ A CFO's view on EVM
 
 ===== Agile challenges (Lean Accounting, Beyond Budgeting)
 
+****
+
 
 ****
 IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.
@@ -66,7 +71,7 @@ Meanwhile, product owners are responsible for ensuring execution of software dev
 A handful of companies are even exploring a venture-capital-style budgeting model. Initial funding is provided for minimally viable products (MVPs), which can be released quickly, refined according to customer feedback, and relaunched in the marketplace—the hallmarks of agile development. And subsequent funding is based on how those MVPs perform in the market. Under this model, companies can reduce the risk that a project will fail, since MVPs are continually monitored and development tasks reprioritized. Typically there is less waste and more transparency among portfolio and product managers, and it becomes easier for the company to scrap low-potential projects early.  <<Comella2016>>
 ****
 
-
+Firstly, traditional cost center accounting ex ects a long horizon with detailed cost estimates that must be frequently u dated. Sim ly  ut, agile SW develo ment avoids this detailed and long horizon  lanning. Secondly, traditional cost accounting values  lanning accuracy and executes variance analysis against the original estimate. Agile develo ment instead allows for uncertainty: the final content delivery and total cost may be im acted by the em irical feedback received. Thirdly, traditional budgeting draws attention to budget overruns. In agile develo ment, if the initial feedback  roves to be  ositive we want to allow – and even encourage – further investments. In larger enter rises the division of investment can be controlled via the hierarchy of backlogs – the level of investment is dictated by the changing backlog  riorities, which means the teams allocate tasks flexibly. Fourthly, traditional  roject cost accounting requires a re-°©‐ a  roval for any delays which increase the  roject budget. Rigid a  roval limits  ose an unnecessary control, and thus, in agile develo ment, delays that would traditionally be caused by the budgetary a  roval  rocess means teams can now take their order of develo ment flexibly from the  rioritized backlogs. <<Sirkia2013>>
 
 
 From CapEx to OpEx

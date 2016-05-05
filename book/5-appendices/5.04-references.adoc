@@ -181,6 +181,8 @@ IEEE Press.
 
 - [[[Silverston2008]]]: Silverston, L. (2008), _The data model resource book Vol 3: Universal patterns for data modeling_, Wiley, Indianapolis, Ind.
 
+- [[[Sirkia2013]]]: Sirkiä, Rami, and Maarit Laanti. 2013. Lean and Agile Financial Planning. http://www.scaledagileframework.com/original-whitepaper-lean-agile-financial-planning-with-safe/.
+
 - [[[Sims2012]]]: 	Sims, C.J., Hillary Louise, 2012. _Scrum: a Breathtakingly Brief and Agile Introduction_. Dymaxicon.
 
 - [[[Smith1991]]]: Smith, P. G. and D. G. Reinertsen (1991). _Developing products in half the time : new rules, new tools_ New York ; London, Van Nostrand Reinhold.

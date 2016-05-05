@@ -1,4 +1,16 @@
 == Preface to the Instructor
+****
+*Collaborative*
+ Status: This section is 1st draft since 2015.
+
+ Notes:
+ As is best practice, the preface and introduction will be given a thorough update at the end of the development process.
+
+ More can and should be said about the historic transition to digital; how platform-specific technologies cycle frequently but digital transformation is something much bigger. A scaling-out visual might be helpful.
+
+include::../../collab-links.adoc[]
+****
+
 
 The goal of a preface is to position a book, to frame it and help the interested person decide if it makes sense for them. It also helps to tell the story of the book.
 
@@ -65,6 +77,9 @@ So, how do we undertake Agile transformation? For longer term, more ambitious go
 The idea of the OODA loop is popular in the Agile community. OODA stands for Orient, Observe, Decide, Act, a set of concepts developed by Air Force colonel John Boyd in analyzing the performance of aviators in the Korean War. The faster an actor can move through this cycle, the more effective they will be.
 
 I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to provide the student with a well documented set of observations on IT's current challenges that can orient you for more effective decisions and actions in your journey toward IT excellence.
+
+=== What this book does not cover
+ Specific technologies in any depth. Many examples are used, but carefully framed to not require previous expertise. This is about broader, longer-lifecycle trends.
 
 === Some personal history
 

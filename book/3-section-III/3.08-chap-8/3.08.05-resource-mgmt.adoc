@@ -16,9 +16,8 @@ ifdef::collaborator-draft[]
  Resource management is a terrible name. We will use it anyways.
  Todo: get permission for Dilbert cartoon "We're human beings not resources" http://dilbert.com/strip/1995-09-22
 
-* Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
-* link:https://raw.githubusercontent.com/dm-academy/aitm/master/book/3-section-III/3.08-chap-8/3.08.05-resource-mgmt.adoc[Github source, window="_blank"]
-* link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
+ include::../../../collab-links.adoc[]
+
 ****
 
 endif::collaborator-draft[]

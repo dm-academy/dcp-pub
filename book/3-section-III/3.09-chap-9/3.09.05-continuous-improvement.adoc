@@ -2,3 +2,8 @@
 continuous improvement as demand
 
 what is maturity? Cooke-Davis defines this as "the extent to which an organization has explicitly and consistently deployed processes that are documented, managed, measured, controlled, and continually improved" (Cooke-Davies, 2004). <<Richardson2010>>
+
+
+governance. In the world of agile delivery the role of quality assurance needs to adapt from auditing the quality of the process and product that is delivered at the end of the lifecycle to supporting practices that ensure that quality is built in and validated from the beginning of the project.
+
+Ambler, Scott W.; Lines, Mark (2012-05-31). Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise (IBM Press) (Kindle Locations 8175-8177). Pearson Education. Kindle Edition. 

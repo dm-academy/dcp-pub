@@ -16,6 +16,13 @@ Vendor relationships become a two-edged sword, providing increased value with ac
  - Asset (including physical estate)
  - Technology Product
 
+ * Defining architecture
+  - Enteprise
+  - Business
+  - Data
+  - Solutions
+  - Technical
+  * Architecture processes and practices
 
 * "Service-izaton" - pros and cons
  - need in higher ed, health -

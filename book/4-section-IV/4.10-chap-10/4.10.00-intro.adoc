@@ -4,17 +4,17 @@
 
 Security threats increase proportionally to the company's size. The talent and persistence of these adversaries is remarkable. Another set of antagonists are, on paper, "on the same side," but auditors are never to be taken for granted. Why are they investigating IT systems? What are their motivations and responsibilities? Finally, what laws and regulations are relevant to IT? Data protection, retention, ?
 
+Agile or not, a team ultimately has to meet legal and essential organizational needs, and audits help to ensure this.
 
+Ambler, Scott W.; Lines, Mark (2012-05-31). Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise (IBM Press) (Kindle Locations 7898-7899). Pearson Education. Kindle Edition.
+
+transforming to an agile delivery approach is difficult. Companies or government agencies that have been in existence for decades have built up layers of deep and wide waste, many of them around governance. Business or IT governance constructs and processes that do not support new technology-centric go-to-market models and products must be either replaced or substantially evolved; otherwise, they increase risk on the agile projects.” (Paul Gorans as quoted in ...)
+
+Ambler, Scott W.; Lines, Mark (2012-05-31). Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise (IBM Press) (Kindle Locations 8081-8084). Pearson Education. Kindle Edition.
 
 ===== Chapter 10 outline
 
-* Defining architecture
- - Enteprise
- - Business
- - Data
- - Solutions
- - Technical
- * Architecture processes and practices
+
  * IT governance, risk, compliance
 
 ****

@@ -2,6 +2,8 @@ anchor:Section-III-coordination[]
 
 == Section III: Team of Teams
 
+ Notes on second half of book... as of 2016, this is where the conflict between Agile/Lean IT and the old ways becomes more pronounced ... the first half of the book represents the new industry consensus, but as we seek to scale it up, everywhere one looks one sees unquestioned acceptance of Taylorist approaches unsuited to Lean product management in a services organization ... 
+
 *Scenario*
 
 You are now a "team of teams," at a size where face to face communication is increasingly supplemented by other forms of communication and coordination. You are seeing more and more specialization in your organization, with the tendency of functional specialists to identify more with their field than with the needs of your customers and your business.

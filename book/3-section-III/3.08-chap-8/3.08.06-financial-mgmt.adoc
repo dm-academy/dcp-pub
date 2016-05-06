@@ -35,7 +35,7 @@ At the same time, the IT operations staff is fighting for its budget, which is u
 
 IT is often consumed as a "shared service" which requires internal financial transfers. What does this mean?
 
-Here is a traditional example. An IT group purchases a mainframe computer for $1,000,000. This mainframe is made available to various departments who are charged for it. Because the mainframe is a true shared resource, it can run multiple workloads simultaneously. For the year, we see the following usage:
+Here is a traditional example. An IT group purchases a mainframe computer for $1,000,000. This mainframe is made available to various departments who are charged for it. Because the mainframe is a shared resource, it can run multiple workloads simultaneously. For the year, we see the following usage:
 
 * 30% Accounting
 * 40% Sales operations

@@ -1,7 +1,9 @@
 === References
 [bibliography]
 
-- [[[Akera2007]]]:1.	Akera, A., "Edmund Berkeley and the Origins of the ACM." Communications of the ACM, 2007. 50(5): p. 31-35.
+- [[[Accounting2016]]]: Accounting Coach. 2016. “What Is Cost Accounting?” http://www.accountingcoach.com/blog/what-is-cost-accounting (May 7, 2016).
+
+- [[[Akera2007]]]: Akera, A., "Edmund Berkeley and the Origins of the ACM." Communications of the ACM, 2007. 50(5): p. 31-35.
 
 - [[[Alliance2001]]]: Alliance, A. (2001), "Agile Manifesto and Principles", http://agilemanifesto.org/principles.html
 
@@ -93,6 +95,8 @@
 - [[[Hubbard2010]]]: Hubbard, D. (2010), _How to Measure Anything: Finding the Value of Intangibles in Business_, Wiley, Boston
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
+
+- [[[Huntzinger2007]]]: Huntzinger, James R. 2007. Lean Cost Management: Accounting for Lean by Establishing Flow. Fort Lauderdale, Fl.: J. Ross Publishing.
 
 - [[[Keefer2006]]]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
 
@@ -192,6 +196,8 @@ IEEE Press.
 - [[[Spinellis2015]]]: Spinellis, D. (2015). "Extending Our Field's Reach." _IEEE Software:_ 4-6. December 2015.
 
 - [[[Sterman2000]]]: 	Sterman, J., 2000. _Business dynamics : systems thinking and modeling for a complex world_ Boston: Irwin/McGraw-Hill. xxvi, 982 p.
+
+- [[[TSO2011a]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Strategy: 2011 Edition. Norwich, U.K: The Stationery Office.
 
 - [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum: the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
 

@@ -47,8 +47,11 @@ In the simplest direct allocation model, the departments would pay for the porti
 * What if Sales Operations stops using the mainframe? Do Accounting and Supply Chain have to make up the loss? What if Accounting decides to stop using it because of the price increase? (In public utilities, this is known as a http://www.greentechmedia.com/articles/read/this-is-what-the-utility-death-spiral-looks-like["death spiral."])
 * The mainframe requires power, floor space, and cooling. How are these incorporated into the departmental charges?
 
+IMPORTANT: Financial management is a broad and complex topic, and its intersection with IT and digital management is even more complex as well as evolving. This brief section can only cover a few basics. See the recommended readings for further information.
 
 ===== Basic concerns
+[quote, Terence Quinlan, IT Financial Management Association]
+Computers initially were used to automate manual operations and the benefits were relatively easy to forecast. As organizations use computers more for strategic purposes and management information enhancements, the benefits become harder to forecast. In a growing number of companies the individuals most qualified to forecast the most significant costs and benefits are product managers, financial specialists, marketing specialists, and not the I/S technical specialists . . .
 
 In IT/digital service organizations, there are three basic sources of cost: "cells, atoms, and bits." That is:
 
@@ -60,19 +63,22 @@ However, these are "direct" costs - costs that for example a product or project 
 
 Another class of cost is "indirect." The IT service might be charged $300 per square foot for data center space. This provides access to rackspace, power, cooling, security, and so forth.  This charge represents the bills the Facilities organization in turn receives from power companies, mechanicals vendors, security services, and so forth - not to mention the mortgage!
 
-Finally, the service may depend on other services. Perhaps instead of a dedicated database server, the service subscribes to a database *service* that gives them a high-performance relational database, but where they do not pay directly for the hardware, software, and support services the database is based on. 
+Finally, the service may depend on other services. Perhaps instead of a dedicated database server, the service subscribes to a database *service* that gives them a high-performance relational database, but where they do not pay directly for the hardware, software, and support services the database is based on.
 
-Direct
-Indirect
-S,G & A
+The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. However, with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
 
-project finance
+But this does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
 
-A CFO's view on EVM
+All of these factors contribute to significant challenges in planning and accounting for IT from a financial management perspective.
 
-From CapEx to OpEx
+Historically, *cost accounting* has been the basis for much IT financial management (see e.g. ITIL Service Strategy, <<TSO2011a>>, p.202).
 
-Decline & fall of EVM?
+NOTE: *Cost accounting* is defined as "the techniques for determining the costs of products, processes, projects, etc. in order to report the correct amounts on the financial statements, and assisting management in making decisions and in the planning and control of an organization . . .For example, cost accounting is used to compute the unit cost of a manufacturer's products in order to report the cost of inventory on its balance sheet and the cost of goods sold on its income statement. This is achieved with techniques such as the allocation of manufacturing overhead costs and through the use of process costing, operations costing, and job-order costing systems. <<Accounting2016>>
+
+However, cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota was legendary for stating "It was not enough to chase out the cost accountants from
+the plants, the problem was to chase cost accounting from my people's minds" <<Huntzinger2007>>, p. 24.
+
+The trend in Lean Accounting has been to simplify complex cost accounting
 
 ===== Agile challenges (Lean Accounting, Beyond Budgeting)
 

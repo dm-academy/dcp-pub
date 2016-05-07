@@ -75,10 +75,14 @@ Historically, *cost accounting* has been the basis for much IT financial managem
 
 NOTE: *Cost accounting* is defined as "the techniques for determining the costs of products, processes, projects, etc. in order to report the correct amounts on the financial statements, and assisting management in making decisions and in the planning and control of an organization . . .For example, cost accounting is used to compute the unit cost of a manufacturer's products in order to report the cost of inventory on its balance sheet and the cost of goods sold on its income statement. This is achieved with techniques such as the allocation of manufacturing overhead costs and through the use of process costing, operations costing, and job-order costing systems. <<Accounting2016>>
 
+
+
 However, cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota was legendary for stating "It was not enough to chase out the cost accountants from
 the plants, the problem was to chase cost accounting from my people's minds" <<Huntzinger2007>>, p. 24.
 
 The trend in Lean Accounting has been to simplify complex cost accounting
+
+The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product. https://en.wikipedia.org/wiki/Lean_accounting
 
 ===== Agile challenges (Lean Accounting, Beyond Budgeting)
 

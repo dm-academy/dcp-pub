@@ -8,6 +8,9 @@ anchor:[]
 xref:[]
 
 xref:0.01-emergence[emergence model]
+
+xref:consumer-customer-sponsor[]
+
 xref:cargo-cult[cargo cult]
 xref:1.03.02-Agile-history[]
 

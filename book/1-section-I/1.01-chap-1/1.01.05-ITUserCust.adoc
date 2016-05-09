@@ -1,3 +1,5 @@
+anchor:consumer-customer-sponsor[]
+
 ==== Defining consumer, customer, and sponsor
 
 In understanding IT value, it is essential to clarify the definitions of user, customer, and sponsor. Sometimes, the user *is* the customer. But more often, the user and the customer are different, and one may additionally need to distinguish the role of system or service sponsor.

@@ -23,6 +23,22 @@ The traditional system provides, at best, a false sense of cost control to any e
 
 Our "from startup to enterprise" thought experiment has always been intended to apply to an individual's journey through a large organization, as well as a genuine case of company growth. However, a company scaling up today would often make different decisions from a company who scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
 
+IMPORTANT: Financial management is a broad and complex topic, and its intersection with IT and digital management is even more complex as well as evolving. This brief section can only cover a few basics. However, it is important for you to have an understanding of the intersection of Agile and Lean IT with finance, as your organization's financial management approach can determine the effectiveness of your digital strategy.  See the recommended readings for further information.
+
+===== Basic concerns
+[quote, Terence Quinlan, IT Financial Management Association]
+Computers initially were used to automate manual operations and the benefits were relatively easy to forecast. As organizations use computers more for strategic purposes and management information enhancements, the benefits become harder to forecast. In a growing number of companies the individuals most qualified to forecast the most significant costs and benefits are product managers, financial specialists, marketing specialists, and not the I/S technical specialists . . .
+
+Financial health is an essential dimension of business health. Digital technology has been one of the fastest-growing budget items in modern enterprises. Its relationship to enterprise financial management has been a concern since the first computers were acquired for business purposes.
+
+The core concerns of IT finance include:
+
+* Providing a framework for tracking and accounting for digital income and expenses
+* Supporting financial analysis of digital strategies (business models and operating models, including sourcing)
+* Support the digital and IT-related aspects of the corporate budgetary and reporting processes, including internal and external policy compliance
+* Supporting (where appropriate) internal cost recovery from business units consuming digital services
+* Support accurate and transparent comparison of IT financial performance to peers and market offerings (benchmarking)
+
 One of the major reasons that projects were conceived as large "batches" of work has been the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
 
 The annual budget has two primary components: capital expenditures and operating expenditures, commonly called CapEx and OpEx. The rules about what must go where are fairly rigid and determined by accounting standards with some leeway for the organization's preferences.
@@ -47,11 +63,11 @@ In the simplest direct allocation model, the departments would pay for the porti
 * What if Sales Operations stops using the mainframe? Do Accounting and Supply Chain have to make up the loss? What if Accounting decides to stop using it because of the price increase? (In public utilities, this is known as a http://www.greentechmedia.com/articles/read/this-is-what-the-utility-death-spiral-looks-like["death spiral."])
 * The mainframe requires power, floor space, and cooling. How are these incorporated into the departmental charges?
 
-IMPORTANT: Financial management is a broad and complex topic, and its intersection with IT and digital management is even more complex as well as evolving. This brief section can only cover a few basics. However, it is important for you to have an understanding of the intersection of Agile and Lean IT with finance, as your organization's financial management approach can determine the effectiveness of your digital strategy.  See the recommended readings for further information.
+===== Cost Accounting
 
-===== Basic concerns
-[quote, Terence Quinlan, IT Financial Management Association]
-Computers initially were used to automate manual operations and the benefits were relatively easy to forecast. As organizations use computers more for strategic purposes and management information enhancements, the benefits become harder to forecast. In a growing number of companies the individuals most qualified to forecast the most significant costs and benefits are product managers, financial specialists, marketing specialists, and not the I/S technical specialists . . .
+Historically, *cost accounting* has been the basis for much IT financial management (see e.g. ITIL Service Strategy, <<TSO2011a>>, p.202; <<Quinlan2003>>). Such approaches traditionally seek _full absorption_ of unit costs; that is, each "unit" of inventory ideally represents the total cost of all its inputs: materials, labor, and overhead such as machinery and buildings.
+
+NOTE: *Cost accounting* is defined as "the techniques for determining the costs of products, processes, projects, etc. in order to report the correct amounts on the financial statements, and assisting management in making decisions and in the planning and control of an organization  . . . For example, cost accounting is used to compute the unit cost of a manufacturer's products in order to report the cost of inventory on its balance sheet and the cost of goods sold on its income statement. This is achieved with techniques such as the allocation of manufacturing overhead costs and through the use of process costing, operations costing, and job-order costing systems. <<Accounting2016>>
 
 In IT/digital service organizations, there are three basic sources of cost: "cells, atoms, and bits." That is:
 
@@ -65,21 +81,41 @@ Another class of cost is "indirect." The IT service might be charged $300 per sq
 
 Finally, the service may depend on other services. Perhaps instead of a dedicated database server, the service subscribes to a database *service* that gives them a high-performance relational database, but where they do not pay directly for the hardware, software, and support services the database is based on. Just to make things more complicated, the services might be external (public Cloud) or internal (private Cloud or other offerings).
 
-The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. However, with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
+Those are the major classes of cost. But how do we understand the "unit of inventory" in an IT services context? As
 
-But this does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
+In internal IT organizations (see xref:consumer-customer-sponsor["Defining consumer, customer, and sponsor"]) this cost accounting is then used to transfer funds from the budgets of consuming organizatons to the IT budget. Sometimes this is done via simple allocations (Marketing pays 30%, Sales pays 25%, etc) and sometimes this is done through more sophisticated approaches, such as defining unit costs for services.
+
+For example, the fully absorbed unit cost for a customer account transaction might be determined to be $0.25; this ideally represents the total cost of the hardware, software, and staff divided by the expected transactions. Establishing the models for such costs, and then tracking them, can be a complex undertaking. IT managers have known for years that overly detailed cost accounting approaches can result in consuming large fractions of IT resources. As AT&T financial manager John McAdam noted:
+
+"Utilizing an excessive ronount of resources to capture data takes away resources that could be used more productively to meet other customer needs. Internal processing for IT is typically 30-40% of the workload. Excessive data capturing only adds to this overhead cost." <<McAdam2003>>
+
+There is also the problem that unit costing of this nature creates false expectations. Establishing an internal service pricing scheme implies that if the utilization of the service declines, so should the related billings. But if
+
+. the hardware, software, and staff costs are already sunk, or relatively inflexible and
+. the IT organization is seeking to fully recover costs
+
+the per-transaction cost will simply have to increase if the number of transactions goes down.
+
+The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. But with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
+
+This does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
 
 All of these factors contribute to significant challenges in planning and accounting for IT from a financial management perspective.
 
-====== Cost Accounting
+===== Agile challenges (Lean Accounting, Beyond Budgeting)
 
-Historically, *cost accounting* has been the basis for much IT financial management (see e.g. ITIL Service Strategy, <<TSO2011a>>, p.202).
+====== The investment cycle
 
-NOTE: *Cost accounting* is defined as "the techniques for determining the costs of products, processes, projects, etc. in order to report the correct amounts on the financial statements, and assisting management in making decisions and in the planning and control of an organization  . . . For example, cost accounting is used to compute the unit cost of a manufacturer's products in order to report the cost of inventory on its balance sheet and the cost of goods sold on its income statement. This is achieved with techniques such as the allocation of manufacturing overhead costs and through the use of process costing, operations costing, and job-order costing systems. <<Accounting2016>>
+====== Lean accounting
 
-However, cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach, and stated "It was not enough to chase out the cost accountants from the plants, the problem was to chase cost accounting from my people's minds" <<Huntzinger2007>>, p. 24.
+[quote, Taiichi Ohno]
+It was not enough to chase out the cost accountants from the plants, the problem was to chase cost accounting from my people's minds.
 
-The trend in Lean Accounting has been to simplify complex cost accounting approaches. Such approaches traditionally seek _full absorption_ of unit costs; that is, each "unit" of inventory ideally represents the total cost of all its inputs: materials, labor, and overhead such as machinery and buildings. This has resulted in the creation of detailed and complex accounting systems tracking all transactions and allocating them to the products.
+Cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach.
+
+The trend in Lean Accounting has been to simplify complex cost accounting approaches. This has resulted in the creation of detailed and complex accounting systems tracking all transactions and allocating them to the products.
+
+This is a well known approach in manufacturing, and IT services don't easily translate to such a model.
 
 There are two supposed reasons for this:
 
@@ -90,13 +126,14 @@ Both questionable... Pricing is subject to the market...
 
 The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product. https://en.wikipedia.org/wiki/Lean_accounting
 
-Services: IT cost accounting has sought to reproduce the manufacturing approach. 
+Services: IT cost accounting has sought to reproduce the manufacturing approach.
 
 the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
 
 A machine's value is not determined by its years of service or its age. It is determined by the earning power it still retains. <<Ohno1988>>, p.64.
 
-===== Agile challenges (Lean Accounting, Beyond Budgeting)
+Dean Meyer critiques/approach
+
 
 ****
 IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.

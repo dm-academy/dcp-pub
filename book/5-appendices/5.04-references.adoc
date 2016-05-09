@@ -71,6 +71,8 @@
 
 - [[[Gamma1995]]]: Gamma, E. (1995), _Design patterns : elements of reusable object-oriented software_, Addison-Wesley, Reading, Mass.
 
+- [[[Gawande2010]]]: Gawande, Atul. 2010. _The Checklist Manifesto: How to Get Things Right_. New York, N.Y: Picador.
+
 - [[[Glass1998]]]: Glass, R.L. (1998), _Software runaways_, Upper Saddle River, NJ: Prentice Hall PTR. xvi, 259.
 
 - [[[Glen2003]]]: Glen, P. (2003). Leading Geeks: How to Manag and Lead People who Manage Technology. San Francisco, Jossey-Bass.

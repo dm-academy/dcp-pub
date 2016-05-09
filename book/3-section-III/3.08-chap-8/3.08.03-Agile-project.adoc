@@ -123,6 +123,7 @@ The general problem is, "how do I facilitate the adaptive generation of informat
 
 * digital product development (as all R&D) is essentially xref:2.04.04-lean-product-dev[information generation]
 * as it scales up, we encounter emergent coordination needs
+* that present rapidly increasing combinatoric complexity
 * that may be exacerbated by time and space shifting
 
 We have seen earlier versions of this problem in our discussions of work management. However, simple Kanban and visual Andon is no longer sufficient, given the nature of the coordination we now require. We need a more diverse and comprehensive set of techniques.
@@ -161,7 +162,7 @@ If the team cannot work all the time in one room, then perhaps they can at least
 * Quarterly "all-hands" meetings
 * Open Space inspired "unmeetings" and "unconferences"
 
-All of them are essentially similar in approach and assumption: build a shared understanding of the work, objectives, or mission among smaller or larger sections of the organization.
+All of them are essentially similar in approach and assumption: build a shared understanding of the work, objectives, or mission among smaller or larger sections of the organization, through limited-time face to face interaction, often on a defined time interval.
 
  Meetings bloody meetings
 
@@ -169,6 +170,10 @@ All of them are essentially similar in approach and assumption: build a shared u
  Unmeetings/unconferences/Open space
 
 ====== Liaison and coordination structures
+[quote, Atul Gawande, The Checklist Manifesto]
+The philosophy is that you push the power of decision making out to the periphery and away from the center. You give people the room to adopt, based on their experiences and expertise. All you ask is that they talk to one another and take responsibility. That is what works.
+
+
 A variety of liaison and coordination approaches are suggested by Mike Cohn (<<Cohn2010>>, Chapter 17, "Scaling Scrum") including:
 
 * Shared team members
@@ -182,6 +187,8 @@ Finally, the idea of a "scrum of scrums" is essentially a representative or dele
 
 <<Cohn2010>> (p342) cautions: "A scrum of scrums meeting will feel nothing like a daily scrum despite the similarities in names. The daily scrum is a synchronization meeting: individual team members come together to communicate about their work and synchronize their efforts.The scrum of scrums, on the other hand, is a problem-solving meeting and
 will not have the same quick, get-in-get-out tone of a daily scrum."
+
+Another perspective on this is found in The Checklist Manifesto <<Gawande2010>>. Some work, while detailed, can be planned to a high degree of detail (i.e. the "checklists" of the title). However, emergent complexity requires different approach - no checklist can anticipate all eventualities. To handle all the emergent complexity, the coordination focus must shift to structuring the right communications. In examining modern construction industry techniques, Gawande noted the concept of the "submittal schedule," which "didn't specify construction tasks; it specified _communication_ tasks" (p. 65, emphasis supplied).
 
 ====== Planning techniques
 Techniques of co-location, synchronization, and liaison all support to varying degrees a concept of planning. Fundamentally, we plan so that the work progresses effectively and efficiently. We seek to optimize the following contradictory goals:

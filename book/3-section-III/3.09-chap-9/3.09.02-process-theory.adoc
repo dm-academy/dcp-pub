@@ -1,4 +1,14 @@
 ==== Process theory
+The first question is,whycontrol the process? When we know why, it al
+most automatically clarifies how we must control the process. Is a con
+trolled process inherently better than one that has more uncertainty?
+No. Since the purpose of our process is to make money, it would follow
+that the purpose of controlling the process must be to influence eco-
+197
+198 Managing the DesignFactory
+nomic outcomes. There is no other reason to be interested in process
+control. <<Reinertsen2007>> pp197-198
+
 
 Case mgmt
 
@@ -8,3 +18,6 @@ also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch
 but most refined in process approaches
 
 deeper theory: state charts, Petri nets
+
+===== Decision rules
+Reinertsen Boeing case

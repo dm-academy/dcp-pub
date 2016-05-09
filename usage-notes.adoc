@@ -24,6 +24,9 @@ xref:spotify-model[Spotify model]
 xref:3.08.03-NoEstimates[No Estimates]
 xref:2.04.00-product-mgmt[Product Management]
 xref:2.04.01-process-project-product[process, product, and project management]
+xref:cost-of-delay[Cost of Delay]
+
+
 xref:2.0.4.03-scrum[Scrum]
 xref:2.05.00-work-management[]
 

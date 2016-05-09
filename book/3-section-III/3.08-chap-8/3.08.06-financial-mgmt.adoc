@@ -19,7 +19,7 @@ include::../../../collab-links.adoc[]
 endif::collaborator-draft[]
 
 [quote, Rami  Sirkiä  and  Maarit  Laanti ]
-The traditional system provides, at best, a false sense of cost control to any enterprise
+The traditional system provides, at best, a false sense of cost control to any enterprise . . .
 
 Our "from startup to enterprise" thought experiment has always been intended to apply to an individual's journey through a large organization, as well as a genuine case of company growth. However, a company scaling up today would often make different decisions from a company who scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
 
@@ -81,11 +81,18 @@ Another class of cost is "indirect." The IT service might be charged $300 per sq
 
 Finally, the service may depend on other services. Perhaps instead of a dedicated database server, the service subscribes to a database *service* that gives them a high-performance relational database, but where they do not pay directly for the hardware, software, and support services the database is based on. Just to make things more complicated, the services might be external (public Cloud) or internal (private Cloud or other offerings).
 
-Those are the major classes of cost. But how do we understand the "unit of inventory" in an IT services context? As
+Those are the major classes of cost. But how do we understand the "unit of inventory" in an IT services context? A variety of concepts can be used, depending on the service in question:
+
+* Transactions
+* Users
+* Network ports
+* Storage (e.g. gigabytes of disk)
 
 In internal IT organizations (see xref:consumer-customer-sponsor["Defining consumer, customer, and sponsor"]) this cost accounting is then used to transfer funds from the budgets of consuming organizatons to the IT budget. Sometimes this is done via simple allocations (Marketing pays 30%, Sales pays 25%, etc) and sometimes this is done through more sophisticated approaches, such as defining unit costs for services.
 
-For example, the fully absorbed unit cost for a customer account transaction might be determined to be $0.25; this ideally represents the total cost of the hardware, software, and staff divided by the expected transactions. Establishing the models for such costs, and then tracking them, can be a complex undertaking. IT managers have known for years that overly detailed cost accounting approaches can result in consuming large fractions of IT resources. As AT&T financial manager John McAdam noted:
+For example, the fully absorbed unit cost for a customer account transaction might be determined to be $0.25; this ideally represents the total cost of the hardware, software, and staff divided by the expected transactions. Establishing the models for such costs, and then tracking them, can be a complex undertaking, requiring correspondingly complex systems.
+
+IT managers have known for years that overly detailed cost accounting approaches can result in consuming large fractions of IT resources. As AT&T financial manager John McAdam noted:
 
 "Utilizing an excessive ronount of resources to capture data takes away resources that could be used more productively to meet other customer needs. Internal processing for IT is typically 30-40% of the workload. Excessive data capturing only adds to this overhead cost." <<McAdam2003>>
 
@@ -102,36 +109,99 @@ This does not mean that traditional accounting distinctions between capex and op
 
 All of these factors contribute to significant challenges in planning and accounting for IT from a financial management perspective.
 
-===== Agile challenges (Lean Accounting, Beyond Budgeting)
+===== New approaches to IT finance
+[quote, Orest Fiume and Jean Cunningham, as quoted by James Huntzinger]
+What accounting should do is produce an unadulterated mirror of the business — an uncompromisable truth on which everyone can rely. ... Only an informed team, affer all, is truly capable of making intelligent decisions.
+
+What do critics of cost accounting suggest? A variety of themes and approaches have emerged:
+
+* Internal "venture" funding
+* Lean Product Development
+* Lean Accounting & Beyond Budgeting
+* Internal market economics
+
+We will discuss internal "venture" funding and briefly recap Reinertsen's xref:cost-of-delay[Cost of Delay] (first introduced in Chapter 4) in terms of the investment cycle, Lean alternatives to services cost accounting, and finally the concept of internal market economics.
 
 ====== The investment cycle
+
+Beyond Budgeting
+
+Cost of Delay
 
 ====== Lean accounting
 
 [quote, Taiichi Ohno]
 It was not enough to chase out the cost accountants from the plants, the problem was to chase cost accounting from my people's minds.
 
-Cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach.
-
-The trend in Lean Accounting has been to simplify complex cost accounting approaches. This has resulted in the creation of detailed and complex accounting systems tracking all transactions and allocating them to the products.
-
-This is a well known approach in manufacturing, and IT services don't easily translate to such a model.
-
-There are two supposed reasons for this:
+There are several often-cited motivations for cost accounting:
 
 * Inventory valuation
-* Pricing strategy
+* Informing pricing strategy
+* Management of production costs
+
+Inventory valuation of course is not applicable for intangible services. IT service costing has long presented additional challenges to traditional cost accounting. As IT Financial Management Association president Terry Quinlan notes, "Many factors have contributed to the difficulty of planning EDP expenditures at both application and overall levels. A major factor is the difficulty of measuring fixed and variable cost." <<Quinlan2003>>, p. 6.
+
+However, this begs the broader question: should cost accounting be the primary accounting technique used at all? Cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach. Huntzinger <<Huntzinger2007>> identifies a variety of issues:
+
+* Complexity
+* Un-maintainability
+* Supplies information "too late" (i.e., does not support fast feedback)
 
 Both questionable... Pricing is subject to the market...
 
+The trend in Lean Accounting has been to simplify ....
+
 The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product. https://en.wikipedia.org/wiki/Lean_accounting
 
-Services: IT cost accounting has sought to reproduce the manufacturing approach.
+cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
 
 the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
 
 A machine's value is not determined by its years of service or its age. It is determined by the earning power it still retains. <<Ohno1988>>, p.64.
 
+each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
+
+every activity
+along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
+
+This DIP inventory is actually more important than inventory in the
+factory, because it is much larger and more expensive to hold. Manufac
+turing plants turn their inventory with incredibly fast cycle times. Mod
+ern plants can turn their inventory more than fifty times a year. In
+contrast, it is the rare development process that achieves more than one
+turn per year. Thus, DIP can be a much larger number than WIP in most
+companies. As the data in the Figure 1.1 show, DIP can easily be ten
+times bigger than WIP in many situations.
+Furthermore, holding costs are much higher for DIP than for WIP. A
+traditional rule of thumb for the cost of holding WIP is about 25 percent
+of the inventory value per year. This takes into account the cost of stor
+age, the risk of obsolescence, the cost of capital employed, and so on.
+The holding costs for DIP are much higher because the risk of obsoles
+cence is high. In certain categories, a product that arrives to market two
+years late will have zero value. Most manufacturing inventory does not
+drop to zero value nearly as quickly.
+You would think that the high levels of DIP and the high cost of hold
+ing DIP wouldbe incentives for managementto measure and manage it.
+Sadly, it is ignored, due to a critical weakness of our accounting systems.
+The invisibility of DIP is actually a cruel trick played on us by Gener
+ally Accepted Accounting Principles (GAAP). Long ago, accountants
+agreed that R&D expenses should be recognized at the time the money
+is spent. They maintained that the value of a partially completed design
+could not be assessed with enough accuracy to treat it as a financial
+asset. They asserted that companies would inflate their balance sheets
+and overstate their profits by claiming that money spent on R&D was
+the same as deposits in a bank.
+These arguments are sound, but the unfortunate consequence of such
+sound accounting practices is that DIP is invisible on our financial state
+ments. Neither shareholders nor managers have any clue whether they
+are managing this resource well. Because we never show it on our bal
+ance sheet, we do not think of DIP as an asset to be managed, and we do
+not manage it. <<Reinertsen1997>> p13
+
+
+
+
+====== Internal market economics
 Dean Meyer critiques/approach
 
 

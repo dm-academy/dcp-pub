@@ -61,8 +61,13 @@ image::images/2.04-pyramid.png[]
 
  [the original sin according to Reinertsen: confusing production with product development]
 
+
+
+anchor:cost-of-delay[]
 ===== Cost of Delay
  [TBW]
+
+===== Beneficial variability
 
 ===== OODA sidebar
 After the Korean War, the US Air Force wished to clarify why its pilots had performed in a superior manner to the opposing pilots who were flying aircraft viewed as more capable.

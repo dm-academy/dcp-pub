@@ -133,6 +133,8 @@
 - [[[Madachy2008]]]: Madachy, R. J. (2008). _Software process dynamics._ Hoboken, NJ Piscataway, NJ, Wiley;
 IEEE Press.
 
+- [[[McAdam2003]]]: McAdam, John. 2003. “Information Technology Measurements.” In _Chargeback and IT Cost Accounting_, ed. Terence A Quinlan. Santa Barbara, CA: IT Financial Management Association, 90–91.
+
 - [[[Minick2012]]]: Minick, E. (2012), "A DevOps Toolchain: There and back again",  Slideshare.net, http://www.slideshare.net/Urbancode/building-devops-toolchain
 
 - [[[Mintzberg1983]]]: Mintzberg, H. (1983). _Structure in fives : designing effective organizations. Englewood Cliffs, N.J., Prentice-Hall._
@@ -158,6 +160,8 @@ IEEE Press.
 - [[[Portny2013]]]: Portny, S. (2013). Project Management for Dummies. Hoboken, New Jersey, John Wiley & Sons.
 
 - [[[PMI2013]]]: Project Management Institute, 2013. A guide to the project management body of knowledge (PMBOK guide). Fifth edition.
+
+- [[[Quinlan2003]]]: Quinlan, Terence A. 2003. _Chargeback and IT Cost Accounting_. ed. Terence A Quinlan. Santa Barbara, CA: IT Financial Management Association.
 
 - [[[Reinertsen1997]]]: Reinertsen, D. G. (1997), _Managing the design factory: a product developer's toolkit_, Free Press, New York ; London
 

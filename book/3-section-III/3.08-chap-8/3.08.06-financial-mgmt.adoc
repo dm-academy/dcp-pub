@@ -285,31 +285,19 @@ value stream and product line managers, like so much in the lean world, are "fra
 [quote, Jeremy Hope and Robin Fraser, Beyond Budgeting Questions and Answers]
 Coordinate cross-company interactions through “market-like” forces.
 
-IT has long been viewed as a "business within a business." The increasing sourcing options including various Cloud options make it more and important that internal digital services be comparable to external markets.
+IT has long been viewed as a "business within a business." In the internal market model, services consume other services, ad infinitum <<Meyer2013>>. Sometimes the relationship is hierarchical (an application team consuming infrastructure services) and sometimes it is peer to peer (an application team consuming another's services, or a network support team consuming email services, which in turn require network services.)
 
-In the internal market model, services 
-
-This in turn puts constraints on traditional IT cost recovery approaches, which often result in charges with no seeming relationship to reasonable market prices.
+The increasing sourcing options including various Cloud options make it more and important that internal digital services be comparable to external markets. This in turn puts constraints on traditional IT cost recovery approaches, which often result in charges with no seeming relationship to reasonable market prices.
 
 There are several reasons for this. One commonly cited reason is that internal IT costs include support services, and therefore cannot fairly be compared to simple retail prices (e.g. for a computer as a good.)
 
 Another, more insidious reason is the rolling in of unrelated IT overhead to product prices. We have quoted James Huntzinger's work above in various places on this topic. Dean Meyer has elaborated this topic in greater depth from an IT financial management perspective, calling for some organzational "goods" to be funded as either Ventures (similar to above discussion) or "subsidies" (for enterprise-wide benefits such as technical standardization) <<Meyer2013>>, p.92.
 
-Combining Meyer's and Huntzinger's thinking, for example, excess capacity waste would be owned at the top of the house (either as a Subsidy or a Venture), and not rolled into value stream cost accounting.
-
 Meyer presents a sophisticated framework for understanding and managing an internal market of digital services. His work is at some variance with the Lean community in that he accepts indirect charges more readily. He does not articulate the Lean goal that indirect should be as much as possible translated to direct. However, he provides a conceptual set of tools that might make achieving this goal more realistic, if desired.
 
 ====== Service brokerage
-Finally, there is the idea that digital or IT services should be aggregated and "brokered" by some party (perhaps the descendant of a traditional IT organization).
+Finally, there is the idea that digital or IT services should be aggregated and "brokered" by some party (perhaps the descendant of a traditional IT organization). In partcular, this helps with capacity management, which can be a troublesome source of internal pricing distortions. This has been seen not only in IT services, but in Lean attention to manufacturing; when unused capacity is figured into product cost accounting, distortions occur <<Huntzinger2007>>, chapter 7, "Church and Excess Capacity."
 
-lso helps with excess capacity problem - brokered services can be direct VS charges
-Can overcome the excess capacity problem by sourcing
+Applying Meyer's principles, excess capacity would be identified as a Subsidy or a Venture as a distinct line item.
 
-====== quotes/notes
- the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
-
- cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
-
- each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
-
- every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
+But Cloud services can assist even further. Excess capacity often results from the available quantities in the market - e.g., one purchases hardware in large-grained capital units. But more flexibly priced, expensed compute on demand services are available, it is feasible to allocate and de-allocate capacity on demand, eliminating the need for accounting for excess capacity.

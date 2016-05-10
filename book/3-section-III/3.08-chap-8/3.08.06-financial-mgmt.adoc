@@ -78,8 +78,6 @@ This does not mean that traditional accounting distinctions between capex and op
 
 
 ====== Cost accounting and chargeback
-Operational expenses are
-
 IT is often consumed as a "shared service" which requires internal financial transfers. What does this mean?
 
 Here is a traditional example. An IT group purchases a mainframe computer for $1,000,000. This mainframe is made available to various departments who are charged for it. Because the mainframe is a shared resource, it can run multiple workloads simultaneously. For the year, we see the following usage:
@@ -97,6 +95,7 @@ In the simplest direct allocation model, the departments would pay for the porti
 Historically, *cost accounting* has been the basis for much IT financial management (see e.g. ITIL Service Strategy, <<TSO2011a>>, p.202; <<Quinlan2003>>). Such approaches traditionally seek _full absorption_ of unit costs; that is, each "unit" of inventory ideally represents the total cost of all its inputs: materials, labor, and overhead such as machinery and buildings.
 
 anchor:cost-accounting-def[]
+
 NOTE: *Cost accounting* is defined as "the techniques for determining the costs of products, processes, projects, etc. in order to report the correct amounts on the financial statements, and assisting management in making decisions and in the planning and control of an organization  . . . For example, cost accounting is used to compute the unit cost of a manufacturer's products in order to report the cost of inventory on its balance sheet and the cost of goods sold on its income statement. This is achieved with techniques such as the allocation of manufacturing overhead costs and through the use of process costing, operations costing, and job-order costing systems. <<Accounting2016>>
 
 In IT/digital service organizations, there are three basic sources of cost: "cells, atoms, and bits." That is:
@@ -148,7 +147,7 @@ As digital transformation accelerates and companies turn to Agile operating mode
 * Bureaucratic re-approval processes for project changes
 * Inflexible and slow resource re-allocation  <<Sirkia2013>>
 
-What do critics of cost accounting, allocated chargebacks, and large batch project funding suggest as alternatives to the historic approaches? A variety of themes and approaches have emerged, that we will discuss below:
+What do critics of cost accounting, allocated chargebacks, and large batch project funding suggest as alternatives to the historic approaches? There are some limitations evident in many discussions of Lean Accounting, notably an emphasis on manufactured goods. However, a variety of themes and approaches have emerged relevant to IT services, that we will discuss below:
 
 * Beyond Budgeting
 * Internal "venture" funding
@@ -208,48 +207,34 @@ A handful of companies are even exploring a venture-capital-style budgeting mode
 
 As we have discussed xref:2.04.01-process-project-product[previously], product and project management are distinct. Product management in particular has more concern for overall business outcomes. If we take this to a logical conclusion, the product portfolio becomes a form of investment portfolio, managed not in terms of schedule and resources, but rather in terms of business results.
 
-This implies the need for some form of internal venture funding model, to cover the initial investment in a minimum viable product. If and when this internal investment bears fruit, it may become the basis for a value stream organization, which can then serve as a vehicle for direct costs and an internal services market (see below).
+This implies the need for some form of internal venture funding model, to cover the initial investment in a minimum viable product. If and when this internal investment bears fruit, it may become the basis for a value stream organization, which can then serve as a vehicle for direct costs and an internal services market (see below). McKinsey reports the following case:
 
-====== Lean Product Development
-Reinertsen's
 ****
 A large European insurance provider restructured its budgeting processes so that each product domain is assigned a share of the annual budget, to be utilized by chief product owners. (Part of the budget is also reserved for requisite maintenance costs.) Budget responsibilities have been divided into three categories: a development council consisting of business and IT managers meets monthly to make go/no-go decisions on initiatives. Chief product owners are charged with the tactical allocation of funds—making quick decisions in the case of a new business opportunity, for instance—and they meet continually to rebalance allocations.
 
 Meanwhile, product owners are responsible for ensuring execution of software development tasks within 40-hour work windows and for managing maintenance tasks and backlogs; these, too, are reviewed on a rolling basis. As a result of this shift in approach, the company has increased its budgeting flexibility and significantly improved market response times. <<Comella2016>>
 ****
- the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
 
-xref:cost-of-delay[Cost of Delay]
+With a rolling backlog and stable funding that decouples annual allocation from ongoing execution, the venture-funded product paradigm is likely to continue growing. A product management mindset activates a variety of useful practices, as we will discuss in the next section.
 
-the cost-management system in a lean environment must be more reflective of the
+====== Lean Product Development
+[quote, Don Reinertsen, Managing the Design Factory]
+Because we never show it on our balance sheet, we do not think of [Design in Process] as an asset to be managed, and we do not manage it.
+
+The xref:2.04.04-lean-product-dev[Lean Product Development] thought of Don Reinertsen was discussed extensively in Chapter 4. His emphasis on employing an economic framework for decisionmaking is relevant to this discussion as well. In particular, his concept of xref:cost-of-delay[Cost of Delay] is poorly addressed in much IT financial planning. Other Lean accounting thinkers share this concern, e.g.:
+
+_the cost-management system in a lean environment must be more reflective of the
 physical operation. It must not be confined to monetary measures but must also
-include nonfinancial measures, such as quality and throughput times.^<<Huntzinger2007>>
+include nonfinancial measures, such as quality and throughput times._<<Huntzinger2007>>
 
-cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
+Another useful Reinertsen concept is that of *design in process* or DIP. This is an explicit analog to the well-known Lean concept of *work in process* (WIP). Reinertsen  makes the following points  <<Reinertsen1997>>,  p13:
 
-each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
+* DIP is larger and more expensive to hold than WIP
+* It has much lower turn rates
+* It has much higher holding costs (e.g. due to obsolescence)
+* DIP's liabilities are ignored due to weaknesses in accounting standards
 
-every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
-
-Rewrite/summarize
-
-****
-This DIP inventory is actually more important than inventory in the factory, because it is much larger and more expensive to hold. Manufacturing plants turn their inventory with incredibly fast cycle times. Modern plants can turn their inventory more than fifty times a year. In contrast, it is the rare development process that achieves more than one turn per year. Thus, DIP can be a much larger number than WIP in most
-companies . . .
-Furthermore, holding costs are much higher for DIP than for WIP. A traditional rule of thumb for the cost of holding WIP is about 25 percent of the inventory value per year. This takes into account the cost of storage, the risk of obsolescence, the cost of capital employed, and so on.
-
-The holding costs for DIP are much higher because the risk of obsolescence is high. In certain categories, a product that arrives to market two years late will have zero value. Most manufacturing inventory does not drop to zero value nearly as quickly.
-
-You would think that the high levels of DIP and the high cost of hold ing DIP wouldbe incentives for managementto measure and manage it. Sadly, it is ignored, due to a critical weakness of our accounting systems. The invisibility of DIP is actually a cruel trick played on us by Generally Accepted Accounting Principles (GAAP). Long ago, accountants agreed that R&D expenses should be recognized at the time the money
-is spent. They maintained that the value of a partially completed design could not be assessed with enough accuracy to treat it as a financial asset. They asserted that companies would inflate their balance sheets and overstate their profits by claiming that money spent on R&D was the same as deposits in a bank.
-
-These arguments are sound, but the unfortunate consequence of such sound accounting practices is that DIP is invisible on our financial state ments. Neither shareholders nor managers have any clue whether they are managing this resource well. Because we never show it on our balance sheet, we do not think of DIP as an asset to be managed, and we do not manage it. <<Reinertsen1997>> p13
-****
-
-
-[quote, Mark Kennallay, SDLC 3.0]
-"Rather than launching into discrete multi-year batched planning exercises that coincide with budgeting cycles, single Business-IT Alignment requests should continuously flow downstream." <<Kennaley2010>> pp 205-206.
-
+These concerns give powerful economic incentives for managing throughput and flow, continuously re-prioritizing for maximum economic benefit and driving towards the Lean ideal of single-piece flow.
 
 ====== Lean Accounting
 [quote, Taiichi Ohno]
@@ -309,3 +294,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ====== quotes/notes
+ the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
+
+ cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
+
+ each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
+
+
+
+ every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]

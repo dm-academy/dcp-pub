@@ -29,9 +29,9 @@ IMPORTANT: Financial management is a broad and complex topic, and its intersecti
 [quote, Terence Quinlan, IT Financial Management Association]
 Computers initially were used to automate manual operations and the benefits were relatively easy to forecast. As organizations use computers more for strategic purposes and management information enhancements, the benefits become harder to forecast. In a growing number of companies the individuals most qualified to forecast the most significant costs and benefits are product managers, financial specialists, marketing specialists, and not the I/S technical specialists . . .
 
-Financial health is an essential dimension of business health. Digital technology has been one of the fastest-growing budget items in modern enterprises. Its relationship to enterprise financial management has been a concern since the first computers were acquired for business purposes.
+Financial health is an essential dimension of business health. And digital technology has been one of the fastest-growing budget items in modern enterprises. Its relationship to enterprise financial management has been a concern since the first computers were acquired for business purposes.
 
-The core concerns of IT finance include:
+The objectives of IT finance include:
 
 * Providing a framework for tracking and accounting for digital income and expenses
 * Supporting financial analysis of digital strategies (business models and operating models, including sourcing)
@@ -63,6 +63,8 @@ In the simplest direct allocation model, the departments would pay for the porti
 * What if Sales Operations stops using the mainframe? Do Accounting and Supply Chain have to make up the loss? What if Accounting decides to stop using it because of the price increase? (In public utilities, this is known as a http://www.greentechmedia.com/articles/read/this-is-what-the-utility-death-spiral-looks-like["death spiral."])
 * The mainframe requires power, floor space, and cooling. How are these incorporated into the departmental charges?
 
+Two major themes have characterized IT financial management for the past decades: cost accounting and project management.
+
 ===== Cost Accounting
 
 Historically, *cost accounting* has been the basis for much IT financial management (see e.g. ITIL Service Strategy, <<TSO2011a>>, p.202; <<Quinlan2003>>). Such approaches traditionally seek _full absorption_ of unit costs; that is, each "unit" of inventory ideally represents the total cost of all its inputs: materials, labor, and overhead such as machinery and buildings.
@@ -88,13 +90,13 @@ Those are the major classes of cost. But how do we understand the "unit of inven
 * Network ports
 * Storage (e.g. gigabytes of disk)
 
-In internal IT organizations (see xref:consumer-customer-sponsor["Defining consumer, customer, and sponsor"]) this cost accounting is then used to transfer funds from the budgets of consuming organizatons to the IT budget. Sometimes this is done via simple allocations (Marketing pays 30%, Sales pays 25%, etc) and sometimes this is done through more sophisticated approaches, such as defining unit costs for services.
+In internal IT organizations (see xref:consumer-customer-sponsor["Defining consumer, customer, and sponsor"]) this cost accounting is then used to transfer funds from the budgets of consuming organizations to the IT budget. Sometimes this is done via simple allocations (Marketing pays 30%, Sales pays 25%, etc) and sometimes this is done through more sophisticated approaches, such as defining unit costs for services.
 
 For example, the fully absorbed unit cost for a customer account transaction might be determined to be $0.25; this ideally represents the total cost of the hardware, software, and staff divided by the expected transactions. Establishing the models for such costs, and then tracking them, can be a complex undertaking, requiring correspondingly complex systems.
 
 IT managers have known for years that overly detailed cost accounting approaches can result in consuming large fractions of IT resources. As AT&T financial manager John McAdam noted:
 
-"Utilizing an excessive ronount of resources to capture data takes away resources that could be used more productively to meet other customer needs. Internal processing for IT is typically 30-40% of the workload. Excessive data capturing only adds to this overhead cost." <<McAdam2003>>
+"Utilizing an excessive amount of resources to capture data takes away resources that could be used more productively to meet other customer needs. Internal processing for IT is typically 30-40% of the workload. Excessive data capturing only adds to this overhead cost." <<McAdam2003>>
 
 There is also the problem that unit costing of this nature creates false expectations. Establishing an internal service pricing scheme implies that if the utilization of the service declines, so should the related billings. But if
 
@@ -103,6 +105,8 @@ There is also the problem that unit costing of this nature creates false expecta
 
 the per-transaction cost will simply have to increase if the number of transactions goes down.
 
+===== Project funding
+
 The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. But with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
 
 This does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
@@ -110,22 +114,21 @@ This does not mean that traditional accounting distinctions between capex and op
 All of these factors contribute to significant challenges in planning and accounting for IT from a financial management perspective.
 
 
-However carefully the incidence of the various services at the tool
-point may be determined, it is an absolutely necessary element of accurate representa
-tion of the facts of production that some provisions be made for keeping the cost of
-wasted time and resources separate from normal costs."^<<Huntzinger2007>> re the death spiral problem
+"it is an absolutely necessary element of accurate representation of the facts of production that some provisions be made for keeping the cost of wasted time and resources separate from normal costs." <<Huntzinger2007>> re the death spiral problem
 
 ===== New approaches to IT finance
 [quote, Orest Fiume and Jean Cunningham, as quoted by James Huntzinger]
 What accounting should do is produce an unadulterated mirror of the business — an uncompromisable truth on which everyone can rely. ... Only an informed team, affer all, is truly capable of making intelligent decisions.
 
-What do critics of cost accounting suggest? A variety of themes and approaches have emerged:
+What do critics of cost accounting and large batch project funding suggest? A variety of themes and approaches have emerged:
 
 * Value stream orientation
 * Internal "venture" funding
 * Lean Product Development
 * Lean Accounting & Beyond Budgeting
 * Internal market economics
+* Service brokerage
+
 
 We will discuss the value stream orientation, internal "venture" funding and briefly recap Reinertsen's xref:cost-of-delay[Cost of Delay] (first introduced in Chapter 4) in terms of the investment cycle, Lean alternatives to services cost accounting, and finally the concept of internal market economics.
 
@@ -174,15 +177,10 @@ The trend in Lean Accounting has been to simplify ....
 
 The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product. https://en.wikipedia.org/wiki/Lean_accounting
 
-cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
+====== Service brokerage
+Can overcome the excess capacity problem by sourcing
 
-the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
 
-A machine's value is not determined by its years of service or its age. It is determined by the earning power it still retains. <<Ohno1988>>, p.64.
-
-each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
-
-every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
 
 ====== Internal market economics
 collecting costs into traditional financial accounting categories, like labor, material, overhead, selling, distribution, and administrative, will conceal the underlying cost structure of products . . .
@@ -190,6 +188,18 @@ collecting costs into traditional financial accounting categories, like labor, m
 The alternative to traditional methods, which Church developed and promoted and Dr. Johnson and Kaplan allude to, is the creation of an environment that moves indirect costs and allocation into direct costs. This change is achieved by implementing physical changes or one-piece flow in the form of cellular manufacturing of value streams. Managers of the manufacturing enterprise must understand what changes must be made and where they must be made in order to be successful.
 
  <<Huntzinger2007>>
+
+====== quotes/notes
+
+ cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
+
+ the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
+
+ A machine's value is not determined by its years of service or its age. It is determined by the earning power it still retains. <<Ohno1988>>, p.64.
+
+ each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
+
+ every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
 
 This DIP inventory is actually more important than inventory in the
 factory, because it is much larger and more expensive to hold. Manufac

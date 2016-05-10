@@ -221,11 +221,9 @@ With a rolling backlog and stable funding that decouples annual allocation from 
 [quote, Don Reinertsen, Managing the Design Factory]
 Because we never show it on our balance sheet, we do not think of [Design in Process] as an asset to be managed, and we do not manage it.
 
-The xref:2.04.04-lean-product-dev[Lean Product Development] thought of Don Reinertsen was discussed extensively in Chapter 4. His emphasis on employing an economic framework for decisionmaking is relevant to this discussion as well. In particular, his concept of xref:cost-of-delay[Cost of Delay] is poorly addressed in much IT financial planning. Other Lean accounting thinkers share this concern, e.g.:
+The xref:2.04.04-lean-product-dev[Lean Product Development] thought of Don Reinertsen was discussed extensively in Chapter 4. His emphasis on employing an economic framework for decisionmaking is relevant to this discussion as well. In particular, his concept of xref:cost-of-delay[Cost of Delay] is poorly addressed in much IT financial planning, with its concerns for full utilization, efficiency, and variance analysis. Other Lean accounting thinkers share this concern, e.g.:
 
-_the cost-management system in a lean environment must be more reflective of the
-physical operation. It must not be confined to monetary measures but must also
-include nonfinancial measures, such as quality and throughput times._<<Huntzinger2007>>
+_the cost-management system in a lean environment must be more reflective of the physical operation. It must not be confined to monetary measures but must also include nonfinancial measures, such as quality and throughput times._<<Huntzinger2007>>
 
 Another useful Reinertsen concept is that of *design in process* or DIP. This is an explicit analog to the well-known Lean concept of *work in process* (WIP). Reinertsen  makes the following points  <<Reinertsen1997>>,  p13:
 

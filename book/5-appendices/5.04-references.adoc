@@ -55,7 +55,7 @@
 
 - [[[Cohn2010]]]: Cohn, M., _Succeeding with Agile: Software Development Using Scrum_, Addison-Wesley: Upper Saddle River, New Jersey.
 
-- [[[Comella2016]]]: Comella-Dorda, Santiago Lohiya, Swati, and Gerard Speksnijder. 2016. “An Operating Model for Company-Wide Agile Development.” McKinsey & Company. http://www.mckinsey.com/Business-Functions/Business-Technology/Our-Insights/An-operating-model-for-company-wide-agile-development.
+- [[[Comella2016]]]: Comella-Dorda, Santiago, Lohiya, Swati, and Gerard Speksnijder. 2016. “An Operating Model for Company-Wide Agile Development.” McKinsey & Company. http://www.mckinsey.com/Business-Functions/Business-Technology/Our-Insights/An-operating-model-for-company-wide-agile-development.
 
 - [[[Csikszentmihalyi1990]]]: Csikszentmihalyi, M. (1990). Flow : the psychology of optimal experience. New York, Harper & Row.
 

@@ -21,7 +21,7 @@ endif::collaborator-draft[]
 [quote, Rami  Sirkiä  and  Maarit  Laanti ]
 The traditional system provides, at best, a false sense of cost control to any enterprise . . .
 
-Our "from startup to enterprise" thought experiment has always been intended to apply to an individual's journey through a large organization, as well as a genuine case of company growth. However, a company scaling up today would often make different decisions from a company who scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
+A company scaling up today would often make different decisions from a company that scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
 
 IMPORTANT: Financial management is a broad and complex topic, and its intersection with IT and digital management is even more complex as well as evolving. This brief section can only cover a few basics. However, it is important for you to have an understanding of the intersection of Agile and Lean IT with finance, as your organization's financial management approach can determine the effectiveness of your digital strategy.  See the recommended readings for further information.
 
@@ -39,15 +39,47 @@ The objectives of IT finance include:
 * Supporting (where appropriate) internal cost recovery from business units consuming digital services
 * Support accurate and transparent comparison of IT financial performance to peers and market offerings (benchmarking)
 
-One of the major reasons that projects were conceived as large "batches" of work has been the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
+This section has the following outline:
+
+* Historic IT financial practices
+** Annual budgeting and project funding
+** Cost accounting and chargeback
+
+* Next generation IT finance
+** Lean Accounting & Beyond Budgeting
+** Lean Product Development
+** Internal "venture" funding
+** Value stream orientation
+** Internal market economics
+** Service brokerage
+
+===== Historic IT financial practices
+
+Historically, IT financial management has been defined by two major practices:
+
+* An annual budgeting cycle, in which project funding is decided
+* Cost accounting, sometimes with associated internal transfers (chargebacks) as a primary tool for understanding and controlling IT expenses
+
+Both of these practices are being challenged by Agile and Lean IT thinking.
+
+====== Annual budgeting & project funding
+From a Lean perspective, projects can be equated to large batches of work. One reason for their size is the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
 
 The annual budget has two primary components: capital expenditures and operating expenditures, commonly called CapEx and OpEx. The rules about what must go where are fairly rigid and determined by accounting standards with some leeway for the organization's preferences.
 
-Software development in general is capitalized, as it is an investment from which the company hopes to benefit from in the future. Operations is typically expensed. Capitalized activities may be accounted for over multiple years (therefore becoming a reasonable candidate for financing and multi-year amortization.) Expensed activities must be accounted for in-year.
+Software development can be capitalized, as it is an investment from which the company hopes to benefit from in the future. Operations is typically expensed. Capitalized activities may be accounted for over multiple years (therefore becoming a reasonable candidate for financing and multi-year amortization.) Expensed activities must be accounted for in-year.
 
 Because one can only "go to the well" once a year, extensive planning and negotiation traditionally takes place around the IT project portfolio. Business units and their IT partners debate the priorities for the capital budget, assess resources, and finalize a list of investments. Project managers are identified and tasked with marshaling the needed resources for execution.
 
-At the same time, the IT operations staff is fighting for its budget, which is usually under constant pressure to "do more with less."
+This annual cycle receives much criticism in the Agile and Lean communities. It results in misguided attempts to plan large batches of complex work in great detail, so that resource requirements can be known well in advance. The history of the Agile movement is in many ways a challenge and correction of this thinking, as we have discussed in many places in this book.
+
+The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. But with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
+
+This does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
+
+
+====== Cost accounting and chargeback
+Operational expenses are
 
 IT is often consumed as a "shared service" which requires internal financial transfers. What does this mean?
 
@@ -63,12 +95,9 @@ In the simplest direct allocation model, the departments would pay for the porti
 * What if Sales Operations stops using the mainframe? Do Accounting and Supply Chain have to make up the loss? What if Accounting decides to stop using it because of the price increase? (In public utilities, this is known as a http://www.greentechmedia.com/articles/read/this-is-what-the-utility-death-spiral-looks-like["death spiral."])
 * The mainframe requires power, floor space, and cooling. How are these incorporated into the departmental charges?
 
-Two major themes have characterized IT financial management for the past decades: cost accounting and project management.
-
-===== Cost Accounting
-
 Historically, *cost accounting* has been the basis for much IT financial management (see e.g. ITIL Service Strategy, <<TSO2011a>>, p.202; <<Quinlan2003>>). Such approaches traditionally seek _full absorption_ of unit costs; that is, each "unit" of inventory ideally represents the total cost of all its inputs: materials, labor, and overhead such as machinery and buildings.
 
+anchor:cost-accounting-def[]
 NOTE: *Cost accounting* is defined as "the techniques for determining the costs of products, processes, projects, etc. in order to report the correct amounts on the financial statements, and assisting management in making decisions and in the planning and control of an organization  . . . For example, cost accounting is used to compute the unit cost of a manufacturer's products in order to report the cost of inventory on its balance sheet and the cost of goods sold on its income statement. This is achieved with techniques such as the allocation of manufacturing overhead costs and through the use of process costing, operations costing, and job-order costing systems. <<Accounting2016>>
 
 In IT/digital service organizations, there are three basic sources of cost: "cells, atoms, and bits." That is:
@@ -105,144 +134,39 @@ There is also the problem that unit costing of this nature creates false expecta
 
 the per-transaction cost will simply have to increase if the number of transactions goes down.
 
-===== Project funding
+James R. Huntzinger discusses the problem of excess capacity distorting unit costs, and states "it is an absolutely necessary element of accurate representation of the facts of production that some provisions be made for keeping the cost of wasted time and resources separate from normal costs" <<Huntzinger2007>>. Approaches for doing this will be discussed below.
 
-The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. But with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
+===== Next generation IT finance
 
-This does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
-
-All of these factors contribute to significant challenges in planning and accounting for IT from a financial management perspective.
-
-
-"it is an absolutely necessary element of accurate representation of the facts of production that some provisions be made for keeping the cost of wasted time and resources separate from normal costs." <<Huntzinger2007>> re the death spiral problem
-
-===== New approaches to IT finance
 [quote, Orest Fiume and Jean Cunningham, as quoted by James Huntzinger]
 What accounting should do is produce an unadulterated mirror of the business — an uncompromisable truth on which everyone can rely. ... Only an informed team, affer all, is truly capable of making intelligent decisions.
 
-What do critics of cost accounting and large batch project funding suggest? A variety of themes and approaches have emerged:
+What do critics of cost accounting, allocated chargebacks, and large batch project funding suggest? A variety of themes and approaches have emerged, that we will discuss below:
 
-* Value stream orientation
+* Beyond Budgeting
 * Internal "venture" funding
+* Value stream orientation
+* Lean Accounting
 * Lean Product Development
-* Lean Accounting & Beyond Budgeting
 * Internal market economics
 * Service brokerage
 
 
-We will discuss the value stream orientation, internal "venture" funding and briefly recap Reinertsen's xref:cost-of-delay[Cost of Delay] (first introduced in Chapter 4) in terms of the investment cycle, Lean alternatives to services cost accounting, and finally the concept of internal market economics.
-
-====== Value stream orientation
-
-
-
-====== The investment cycle
-
-Beyond Budgeting
-
-Cost of Delay
-
-====== Lean accounting
-
-[quote, Taiichi Ohno]
-It was not enough to chase out the cost accountants from the plants, the problem was to chase cost accounting from my people's minds.
-
-There are several often-cited motivations for cost accounting (<<Huntzinger2007>> p 13):
-
-* Inventory valuation
-* Informing pricing strategy
-* Management of production costs
-
-Inventory valuation of course is not applicable for intangible services. IT service costing has long presented additional challenges to traditional cost accounting. As IT Financial Management Association president Terry Quinlan notes, "Many factors have contributed to the difficulty of planning EDP expenditures at both application and overall levels. A major factor is the difficulty of measuring fixed and variable cost." <<Quinlan2003>>, p. 6.
-
-the cost-management system in a lean environment must be more reflective of the
-physical operation. It must not be confined to monetary measures but must also
-include nonfinancial measures, such as quality and throughput times.^<<Huntzinger2007>>
-
-However, this begs the broader question: should cost accounting be the primary accounting technique used at all? Cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach. Huntzinger <<Huntzinger2007>> identifies a variety of issues:
-
-* Complexity
-* Un-maintainability
-* Supplies information "too late" (i.e., does not support fast feedback)
-
-Shingo Prize winner Steve Bell observes:
+====== Beyond Budgeting
+[quote, Mark Kennallay, SDLC 3.0]
+"Rather than launching into discrete multi-year batched planning exercises that coincide with budgeting cycles, single Business-IT Alignment requests should continuously flow downstream." <<Kennaley2010>> pp 205-206.
 
 ****
-It is usually impossible to tie  . . . abstract cost allocations and the resulting variances back to the originating activities and the value they may or may not produce; thus, they can't help you improve. But they can waste your time and distract you from the activities that produce the desired outcomes . . . <<Bell2013>>, p 110.
+Firstly, traditional cost center accounting expects a long horizon with detailed cost estimates that must be frequently updated. Simply put, agile SW development avoids this detailed and long horizon  planning. Secondly, traditional cost accounting values  planning accuracy and executes variance analysis against the original estimate. Agile development instead allows for uncertainty: the final content delivery and total cost may be impacted by the empirical feedback received. Thirdly, traditional budgeting draws attention to budget overruns. In agile development, if the initial feedback  proves to be  positive we want to allow – and even encourage – further investments. In larger enter rises the division of investment can be controlled via the hierarchy of backlogs – the level of investment is dictated by the changing backlog priorities, which means the teams allocate tasks flexibly. Fourthly, traditional  project cost accounting requires a re-approval for any delays which increase the  project budget. Rigid approval limits  pose an unnecessary control, and thus, in agile development, delays that would traditionally be caused by the budgetary approval process means teams can now take their order of development flexibly from the  prioritized backlogs.
+
+...The rigid organizational structure, narrow competence profiles and detailed level of projects with dedicated resources prevented prompt and flexible resource reallocation. The idea of allowing more flexible organization structure with empowered teams was born and supported by our R&D management team roughly at the same time when the idea of more flexible investment planning and control was born.
+
+...While agile development has largely been adopted around the globe, traditional management methods need to be changed in response.
+
+<<Sirkia2013>>
 ****
 
-Both questionable... Pricing is subject to the market...
-
-The trend in Lean Accounting has been to simplify ....
-
-The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product. https://en.wikipedia.org/wiki/Lean_accounting
-
-====== Service brokerage
-Can overcome the excess capacity problem by sourcing
-
-
-
-====== Internal market economics
-collecting costs into traditional financial accounting categories, like labor, material, overhead, selling, distribution, and administrative, will conceal the underlying cost structure of products . . .
-
-The alternative to traditional methods, which Church developed and promoted and Dr. Johnson and Kaplan allude to, is the creation of an environment that moves indirect costs and allocation into direct costs. This change is achieved by implementing physical changes or one-piece flow in the form of cellular manufacturing of value streams. Managers of the manufacturing enterprise must understand what changes must be made and where they must be made in order to be successful.
-
- <<Huntzinger2007>>
-
-====== quotes/notes
-
- cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
-
- the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
-
- A machine's value is not determined by its years of service or its age. It is determined by the earning power it still retains. <<Ohno1988>>, p.64.
-
- each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
-
- every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
-
-This DIP inventory is actually more important than inventory in the
-factory, because it is much larger and more expensive to hold. Manufac
-turing plants turn their inventory with incredibly fast cycle times. Mod
-ern plants can turn their inventory more than fifty times a year. In
-contrast, it is the rare development process that achieves more than one
-turn per year. Thus, DIP can be a much larger number than WIP in most
-companies. As the data in the Figure 1.1 show, DIP can easily be ten
-times bigger than WIP in many situations.
-Furthermore, holding costs are much higher for DIP than for WIP. A
-traditional rule of thumb for the cost of holding WIP is about 25 percent
-of the inventory value per year. This takes into account the cost of stor
-age, the risk of obsolescence, the cost of capital employed, and so on.
-The holding costs for DIP are much higher because the risk of obsoles
-cence is high. In certain categories, a product that arrives to market two
-years late will have zero value. Most manufacturing inventory does not
-drop to zero value nearly as quickly.
-You would think that the high levels of DIP and the high cost of hold
-ing DIP wouldbe incentives for managementto measure and manage it.
-Sadly, it is ignored, due to a critical weakness of our accounting systems.
-The invisibility of DIP is actually a cruel trick played on us by Gener
-ally Accepted Accounting Principles (GAAP). Long ago, accountants
-agreed that R&D expenses should be recognized at the time the money
-is spent. They maintained that the value of a partially completed design
-could not be assessed with enough accuracy to treat it as a financial
-asset. They asserted that companies would inflate their balance sheets
-and overstate their profits by claiming that money spent on R&D was
-the same as deposits in a bank.
-These arguments are sound, but the unfortunate consequence of such
-sound accounting practices is that DIP is invisible on our financial state
-ments. Neither shareholders nor managers have any clue whether they
-are managing this resource well. Because we never show it on our bal
-ance sheet, we do not think of DIP as an asset to be managed, and we do
-not manage it. <<Reinertsen1997>> p13
-
-
-
-
-====== Internal market economics
-Dean Meyer critiques/approach
-
-Fractal / lean
-
+====== Internal "venture" funding
 ****
 IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.
 
@@ -252,13 +176,88 @@ Meanwhile, product owners are responsible for ensuring execution of software dev
 
 A handful of companies are even exploring a venture-capital-style budgeting model. Initial funding is provided for minimally viable products (MVPs), which can be released quickly, refined according to customer feedback, and relaunched in the marketplace—the hallmarks of agile development. And subsequent funding is based on how those MVPs perform in the market. Under this model, companies can reduce the risk that a project will fail, since MVPs are continually monitored and development tasks reprioritized. Typically there is less waste and more transparency among portfolio and product managers, and it becomes easier for the company to scrap low-potential projects early.  <<Comella2016>>
 ****
+====== Lean Product Development
+ the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
+
+xref:cost-of-delay[Cost of Delay]
+
+the cost-management system in a lean environment must be more reflective of the
+physical operation. It must not be confined to monetary measures but must also
+include nonfinancial measures, such as quality and throughput times.^<<Huntzinger2007>>
+
+cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
+
+each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
+
+every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
+
+Rewrite/summarize
 
 ****
-Firstly, traditional cost center accounting ex ects a long horizon with detailed cost estimates that must be frequently u dated. Sim ly  ut, agile SW develo ment avoids this detailed and long horizon  lanning. Secondly, traditional cost accounting values  lanning accuracy and executes variance analysis against the original estimate. Agile develo ment instead allows for uncertainty: the final content delivery and total cost may be im acted by the em irical feedback received. Thirdly, traditional budgeting draws attention to budget overruns. In agile develo ment, if the initial feedback  roves to be  ositive we want to allow – and even encourage – further investments. In larger enter rises the division of investment can be controlled via the hierarchy of backlogs – the level of investment is dictated by the changing backlog  riorities, which means the teams allocate tasks flexibly. Fourthly, traditional  roject cost accounting requires a re-°©‐ a  roval for any delays which increase the  roject budget. Rigid a  roval limits  ose an unnecessary control, and thus, in agile develo ment, delays that would traditionally be caused by the budgetary a  roval  rocess means teams can now take their order of develo ment flexibly from the  rioritized backlogs.
+This DIP inventory is actually more important than inventory in the factory, because it is much larger and more expensive to hold. Manufacturing plants turn their inventory with incredibly fast cycle times. Modern plants can turn their inventory more than fifty times a year. In contrast, it is the rare development process that achieves more than one turn per year. Thus, DIP can be a much larger number than WIP in most
+companies . . .
+Furthermore, holding costs are much higher for DIP than for WIP. A traditional rule of thumb for the cost of holding WIP is about 25 percent of the inventory value per year. This takes into account the cost of storage, the risk of obsolescence, the cost of capital employed, and so on.
 
-...The rigid organizational structure, narrow competence profiles and detailed level of projects with dedicated resources prevented prompt and flexible resource reallocation. The idea of allowing more flexible organization structure with empowered teams was born and supported by our R&D management team roughly at the same time when the idea of more flexible investment planning and control was born.
+The holding costs for DIP are much higher because the risk of obsolescence is high. In certain categories, a product that arrives to market two years late will have zero value. Most manufacturing inventory does not drop to zero value nearly as quickly.
 
-...While agile development has largely been adopted around the globe, traditional management methods need to be changed in response.
+You would think that the high levels of DIP and the high cost of hold ing DIP wouldbe incentives for managementto measure and manage it. Sadly, it is ignored, due to a critical weakness of our accounting systems. The invisibility of DIP is actually a cruel trick played on us by Generally Accepted Accounting Principles (GAAP). Long ago, accountants agreed that R&D expenses should be recognized at the time the money
+is spent. They maintained that the value of a partially completed design could not be assessed with enough accuracy to treat it as a financial asset. They asserted that companies would inflate their balance sheets and overstate their profits by claiming that money spent on R&D was the same as deposits in a bank.
 
-<<Sirkia2013>>
+These arguments are sound, but the unfortunate consequence of such sound accounting practices is that DIP is invisible on our financial state ments. Neither shareholders nor managers have any clue whether they are managing this resource well. Because we never show it on our balance sheet, we do not think of DIP as an asset to be managed, and we do not manage it. <<Reinertsen1997>> p13
 ****
+
+====== Lean Accounting
+[quote, Taiichi Ohno]
+It was not enough to chase out the cost accountants from the plants, the problem was to chase cost accounting from my people's minds.
+
+There are several often-cited motivations for cost accounting (<<Huntzinger2007>> p 13):
+
+* Inventory valuation (not applicable for intangible services)
+* Informing pricing strategy
+* Management of production costs
+
+NOTE: The term "cost accounting" is used here with its xref:cost-accounting-def[full implications], including allocated overhead. It is not the same as just "accounting for costs," which is always a concern for any organization.
+
+IT service costing has long presented additional challenges to traditional cost accounting. As IT Financial Management Association president Terry Quinlan notes, "Many factors have contributed to the difficulty of planning EDP expenditures at both application and overall levels. A major factor is the difficulty of measuring fixed and variable cost." <<Quinlan2003>>, p. 6.
+
+This begs the broader question: should traditional cost accounting be the primary accounting technique used at all? Cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach. Huntzinger <<Huntzinger2007>> identifies a variety of issues:
+
+* Complexity
+* Un-maintainability
+* Supplies information "too late" (i.e., does not support fast feedback)
+* "Overhead" allocations result in distortions
+
+Shingo Prize winner Steve Bell observes:
+
+****
+It is usually impossible to tie  . . . abstract cost allocations and the resulting variances back to the originating activities and the value they may or may not produce; thus, they can't help you improve. But they can waste your time and distract you from the activities that produce the desired outcomes . . . <<Bell2013>>, p 110.
+****
+
+The trend in Lean Accounting has been to simplify. A guiding ideal is seen in the https://en.wikipedia.org/wiki/Lean_accounting[Wikipedia article on Lean Accounting]:
+
+_The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product._
+
+Concepts such as value stream orientation, internal market economics, and service brokering all can contribute towards achiving this ideal.
+
+====== Value stream orientation
+collecting costs into traditional financial accounting categories, like labor, material, overhead, selling, distribution, and administrative, will conceal the underlying cost structure of products . . .
+
+The alternative to traditional methods, which Church developed and promoted and Dr. Johnson and Kaplan allude to, is the creation of an environment that moves indirect costs and allocation into direct costs. This change is achieved by implementing physical changes or one-piece flow in the form of cellular manufacturing of value streams. Managers of the manufacturing enterprise must understand what changes must be made and where they must be made in order to be successful.  <<Huntzinger2007>>
+
+
+====== Internal market economics
+
+Fractal / lean
+
+Excess capacity waste is owned at the top of the house (venture funding), and not rolled into value stream cost accounting.
+
+
+====== Service brokerage
+Also helps with excess capacity problem - brokered services can be direct VS charges
+Can overcome the excess capacity problem by sourcing
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+====== quotes/notes

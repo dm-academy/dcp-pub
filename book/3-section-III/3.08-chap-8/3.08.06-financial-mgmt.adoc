@@ -267,31 +267,43 @@ The trend in Lean Accounting has been to simplify. A guiding ideal is seen in th
 
 _The "ideal" for a manufacturing company is to have only two types of transactions within the production processes; the receipt of raw materials and the shipment of finished product._
 
-Concepts such as value stream orientation, internal market economics, and service brokering all can contribute towards achiving this ideal.
+Concepts such as value stream orientation, internal market economics, and service brokering all can contribute towards achieving this ideal.
 
 ====== Value stream orientation
-collecting costs into traditional financial accounting categories, like labor, material, overhead, selling, distribution, and administrative, will conceal the underlying cost structure of products . . .
+[quote, James R. Huntzinger, Lean Cost Management]
+Collecting costs into traditional financial accounting categories, like labor, material, overhead, selling, distribution, and administrative, will conceal the underlying cost structure of products . . . The alternative to traditional methods . . . is the creation of an environment that moves indirect costs and allocation into direct costs.<<Huntzinger2007>>
 
-The alternative to traditional methods, which Church developed and promoted and Dr. Johnson and Kaplan allude to, is the creation of an environment that moves indirect costs and allocation into direct costs. This change is achieved by implementing physical changes or one-piece flow in the form of cellular manufacturing of value streams. Managers of the manufacturing enterprise must understand what changes must be made and where they must be made in order to be successful.  <<Huntzinger2007>>
+As discussed above, Lean thinking discourages the use of any concept of overhead, sometimes disparaged as "peanut butter" costing. Rather, direct assignment of all costs to the maximum degree is encouraged, in the interest of accounting simplicity.
 
+We discussed a venture-funded product model above, as an alternative to project-centric approaches. Once a product has proven its viability and becomes an operational concern, it becomes the primary vehicle for those concerns previously handled through cost accounting and chargeback. The term for a product that has reached this stage is "value stream." As Huntzinger notes, "Lean principles demand that companies align their operations around products and not processes." <<Huntzinger2007>> p 19.
+
+By combinining a value stream orientation in conjunction with organizational principles such as frugality, internal market economics, and decentralized decision-making (see e.g. <<Hope2001>> p 12), both Lean and Beyond Budgeting argue that more customer-satisfying and profitable results will ensue. The fact that the product in this case is digital (not manufactured), and the value stream centers around product development (not production) does not change the argument.
 
 ====== Internal market economics
+[quote, Womack and Jones, Lean Thinking]
+value stream and product line managers, like so much in the lean world, are "fractal."
 [quote, Jeremy Hope and Robin Fraser, Beyond Budgeting Questions and Answers]
-Coordinate cross-company interactions through “market-like” forces
+Coordinate cross-company interactions through “market-like” forces.
 
+IT has long been viewed as a "business within a business." The increasing sourcing options including various Cloud options make it more and important that internal digital services be comparable to external markets.
 
-Fractal / lean
+In the internal market model, services 
 
-Excess capacity waste is owned at the top of the house (venture funding), and not rolled into value stream cost accounting.
+This in turn puts constraints on traditional IT cost recovery approaches, which often result in charges with no seeming relationship to reasonable market prices.
 
+There are several reasons for this. One commonly cited reason is that internal IT costs include support services, and therefore cannot fairly be compared to simple retail prices (e.g. for a computer as a good.)
+
+Another, more insidious reason is the rolling in of unrelated IT overhead to product prices. We have quoted James Huntzinger's work above in various places on this topic. Dean Meyer has elaborated this topic in greater depth from an IT financial management perspective, calling for some organzational "goods" to be funded as either Ventures (similar to above discussion) or "subsidies" (for enterprise-wide benefits such as technical standardization) <<Meyer2013>>, p.92.
+
+Combining Meyer's and Huntzinger's thinking, for example, excess capacity waste would be owned at the top of the house (either as a Subsidy or a Venture), and not rolled into value stream cost accounting.
+
+Meyer presents a sophisticated framework for understanding and managing an internal market of digital services. His work is at some variance with the Lean community in that he accepts indirect charges more readily. He does not articulate the Lean goal that indirect should be as much as possible translated to direct. However, he provides a conceptual set of tools that might make achieving this goal more realistic, if desired.
 
 ====== Service brokerage
-Also helps with excess capacity problem - brokered services can be direct VS charges
+Finally, there is the idea that digital or IT services should be aggregated and "brokered" by some party (perhaps the descendant of a traditional IT organization).
+
+lso helps with excess capacity problem - brokered services can be direct VS charges
 Can overcome the excess capacity problem by sourcing
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
 
 ====== quotes/notes
  the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
@@ -299,7 +311,5 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  cost information is formed and calculated by a direct reflection of the physical flow of products within the value stream. <<Huntzinger2007>> p.6-7 - [how to interpret for services]
 
  each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
-
-
 
  every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]

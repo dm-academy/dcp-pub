@@ -138,6 +138,8 @@ IEEE Press.
 
 - [[[McAdam2003]]]: McAdam, John. 2003. “Information Technology Measurements.” In _Chargeback and IT Cost Accounting_, ed. Terence A Quinlan. Santa Barbara, CA: IT Financial Management Association, 90–91.
 
+- [[[Meyer2013]]]: Meyer, N. Dean. 2013. Internal Market Economics: Practical Resource-Governance Processes Based on Principles We All Believe in. Dansbury, CT: NDMA Publishing.
+
 - [[[Minick2012]]]: Minick, E. (2012), "A DevOps Toolchain: There and back again",  Slideshare.net, http://www.slideshare.net/Urbancode/building-devops-toolchain
 
 - [[[Mintzberg1983]]]: Mintzberg, H. (1983). _Structure in fives : designing effective organizations. Englewood Cliffs, N.J., Prentice-Hall._

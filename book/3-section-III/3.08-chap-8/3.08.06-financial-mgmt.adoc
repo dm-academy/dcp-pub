@@ -68,13 +68,13 @@ The annual budget has two primary components: capital expenditures and operating
 
 Software development can be capitalized, as it is an investment from which the company hopes to benefit from in the future. Operations is typically expensed. Capitalized activities may be accounted for over multiple years (therefore becoming a reasonable candidate for financing and multi-year amortization.) Expensed activities must be accounted for in-year.
 
-Because one can only "go to the well" once a year, extensive planning and negotiation traditionally takes place around the IT project portfolio. Business units and their IT partners debate the priorities for the capital budget, assess resources, and finalize a list of investments. Project managers are identified and tasked with marshaling the needed resources for execution.
+Because one can only "go to the well" once a year, extensive planning and negotiation traditionally take place around the IT project portfolio. Business units and their IT partners debate the priorities for the capital budget, assess resources, and finalize a list of investments. Project managers are identified and tasked with marshaling the needed resources for execution.
 
-This annual cycle receives much criticism in the Agile and Lean communities. It results in misguided attempts to plan large batches of complex work in great detail, so that resource requirements can be known well in advance. The history of the Agile movement is in many ways a challenge and correction of this thinking, as we have discussed in many places in this book.
+This annual cycle receives much criticism in the Agile and Lean communities. It results in misguided attempts to plan large batches of complex work in great detail, so that resource requirements can be known well in advance. The history of the Agile movement is in many ways a challenge and correction of this thinking, as we have discussed throughout this book.
 
 The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. But with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
 
-This does not mean that traditional accounting distinctions between capex and opex go away. Software development may still be capitalized, as may software licenses.
+This does not mean that traditional accounting distinctions between capex and opex go away. Even with expensed Cloud infrastructure services, software development may still be capitalized, as may software licenses.
 
 
 ====== Cost accounting and chargeback

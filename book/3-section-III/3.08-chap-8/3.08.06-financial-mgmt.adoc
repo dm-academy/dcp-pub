@@ -8,7 +8,7 @@ ifdef::collaborator-draft[]
 ****
 *Collaborative*
 
- Status: This section is work in process as of 2016-05-04, expect volatility
+ Status: This section is first draft complete as of 10 May 2016. Reviews and comments appreciated. Some minor changes may be seen as I review over next few days.
 
  Needs: IT financial management experts also familiar with Beyond Budgeting or Lean Accounting. All 3 of you.
 
@@ -301,3 +301,5 @@ Finally, there is the idea that digital or IT services should be aggregated and 
 Applying Meyer's principles, excess capacity would be identified as a Subsidy or a Venture as a distinct line item.
 
 But Cloud services can assist even further. Excess capacity often results from the available quantities in the market - e.g., one purchases hardware in large-grained capital units. But more flexibly priced, expensed compute on demand services are available, it is feasible to allocate and de-allocate capacity on demand, eliminating the need for accounting for excess capacity.
+
+ End of IT finance section

@@ -21,6 +21,8 @@
 
 - [[[Bell2010]]]: Bell, S. C. & Orzen, M. A. (2010), _Lean IT_, CRC Press, Boca Raton, Florida
 
+- [[[Bell2013]]]: Bell, Steve et al. 2013. _Run Grow Transform : Integrating Business and Lean IT_. Boca Raton, FL: CRC Press.
+
 - [[[Betz2011]]]: Betz, C. (2011), "Release management integration pattern - seeking devops comments", http://www.lean4it.com/2011/01/release-management-integration-pattern-seeking-devops-comments.html
 
 - [[[Betz2011a]]]: Betz, C. T. (2011), _Architecture and Patterns for IT: Service and Portfolio Management and Governance (Making Shoes for the Cobbler's Children), 2nd Edition_, Elsevier/Morgan Kaufman, Amsterdam

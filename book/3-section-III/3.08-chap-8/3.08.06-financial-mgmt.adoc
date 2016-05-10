@@ -109,18 +109,29 @@ This does not mean that traditional accounting distinctions between capex and op
 
 All of these factors contribute to significant challenges in planning and accounting for IT from a financial management perspective.
 
+
+However carefully the incidence of the various services at the tool
+point may be determined, it is an absolutely necessary element of accurate representa
+tion of the facts of production that some provisions be made for keeping the cost of
+wasted time and resources separate from normal costs."^<<Huntzinger2007>> re the death spiral problem
+
 ===== New approaches to IT finance
 [quote, Orest Fiume and Jean Cunningham, as quoted by James Huntzinger]
 What accounting should do is produce an unadulterated mirror of the business — an uncompromisable truth on which everyone can rely. ... Only an informed team, affer all, is truly capable of making intelligent decisions.
 
 What do critics of cost accounting suggest? A variety of themes and approaches have emerged:
 
+* Value stream orientation
 * Internal "venture" funding
 * Lean Product Development
 * Lean Accounting & Beyond Budgeting
 * Internal market economics
 
-We will discuss internal "venture" funding and briefly recap Reinertsen's xref:cost-of-delay[Cost of Delay] (first introduced in Chapter 4) in terms of the investment cycle, Lean alternatives to services cost accounting, and finally the concept of internal market economics.
+We will discuss the value stream orientation, internal "venture" funding and briefly recap Reinertsen's xref:cost-of-delay[Cost of Delay] (first introduced in Chapter 4) in terms of the investment cycle, Lean alternatives to services cost accounting, and finally the concept of internal market economics.
+
+====== Value stream orientation
+
+
 
 ====== The investment cycle
 
@@ -133,7 +144,7 @@ Cost of Delay
 [quote, Taiichi Ohno]
 It was not enough to chase out the cost accountants from the plants, the problem was to chase cost accounting from my people's minds.
 
-There are several often-cited motivations for cost accounting:
+There are several often-cited motivations for cost accounting (<<Huntzinger2007>> p 13):
 
 * Inventory valuation
 * Informing pricing strategy
@@ -141,11 +152,21 @@ There are several often-cited motivations for cost accounting:
 
 Inventory valuation of course is not applicable for intangible services. IT service costing has long presented additional challenges to traditional cost accounting. As IT Financial Management Association president Terry Quinlan notes, "Many factors have contributed to the difficulty of planning EDP expenditures at both application and overall levels. A major factor is the difficulty of measuring fixed and variable cost." <<Quinlan2003>>, p. 6.
 
+the cost-management system in a lean environment must be more reflective of the
+physical operation. It must not be confined to monetary measures but must also
+include nonfinancial measures, such as quality and throughput times.^<<Huntzinger2007>>
+
 However, this begs the broader question: should cost accounting be the primary accounting technique used at all? Cost accounting in Lean and Agile organizations is often controversial. Lean pioneer Taiichi Ohno of Toyota thought it was a flawed approach. Huntzinger <<Huntzinger2007>> identifies a variety of issues:
 
 * Complexity
 * Un-maintainability
 * Supplies information "too late" (i.e., does not support fast feedback)
+
+Shingo Prize winner Steve Bell observes:
+
+****
+It is usually impossible to tie  . . . abstract cost allocations and the resulting variances back to the originating activities and the value they may or may not produce; thus, they can't help you improve. But they can waste your time and distract you from the activities that produce the desired outcomes . . . <<Bell2013>>, p 110.
+****
 
 Both questionable... Pricing is subject to the market...
 
@@ -161,8 +182,14 @@ A machine's value is not determined by its years of service or its age. It is de
 
 each good, service, and piece of information must have a simple, prespecified, self-diagnostic flow-path over which it will travel as it takes form. (Spear as in Huntzinger, waiting on source material)
 
-every activity
-along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
+every activity along the value stream or flow-path is predetermined, meaning predesigned and prelearned. [OK this really doesn't work for dev, b/c systems development IS a learning - but does work for transactional ops]
+
+====== Internal market economics
+collecting costs into traditional financial accounting categories, like labor, material, overhead, selling, distribution, and administrative, will conceal the underlying cost structure of products . . .
+
+The alternative to traditional methods, which Church developed and promoted and Dr. Johnson and Kaplan allude to, is the creation of an environment that moves indirect costs and allocation into direct costs. This change is achieved by implementing physical changes or one-piece flow in the form of cellular manufacturing of value streams. Managers of the manufacturing enterprise must understand what changes must be made and where they must be made in order to be successful.
+
+ <<Huntzinger2007>>
 
 This DIP inventory is actually more important than inventory in the
 factory, because it is much larger and more expensive to hold. Manufac
@@ -204,6 +231,7 @@ not manage it. <<Reinertsen1997>> p13
 ====== Internal market economics
 Dean Meyer critiques/approach
 
+Fractal / lean
 
 ****
 IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.

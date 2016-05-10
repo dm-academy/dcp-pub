@@ -5,3 +5,8 @@ Process is "adaptive" only to a degree
 Standard + case
 
 Scrum of scrums as a synch point
+
+
+Cost of delay & process cycles
+
+"It will be seen that the cost of a process on a single part becomes a perfectly definite and tangible thing and can be recorded as such." Church quoted in <<Huntzinger2007>> p 85

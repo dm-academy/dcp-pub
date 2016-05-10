@@ -2,7 +2,7 @@
 
 First, thank you for having the interest in helping the AITM project.
 
-The simplest thing you can do to provide feedback is to file an  https://github.com/dm-academy/aitm/issues[issue]. Please identify the section or sections and describe as specifically as possible what you believe the problem to be.
+The simplest thing you can do to provide feedback is to file an  https://github.com/dm-academy/aitm/issues[issue]. Please identify the section or sections and describe as specifically as possible what you believe the problem to be, or the suggestion you would like to make.
 
 If you want to directly contribute, you need to figure out Github.
 

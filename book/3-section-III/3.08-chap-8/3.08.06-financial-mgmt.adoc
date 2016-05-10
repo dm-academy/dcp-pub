@@ -18,8 +18,8 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
-[quote, Rami  Sirkiä  and  Maarit  Laanti ]
-The traditional system provides, at best, a false sense of cost control to any enterprise . . .
+[quote, Comella-Dorda et al, An Operating Model for Company-Wide Agile Development]
+IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually. <<Comella2016>>
 
 A company scaling up today would often make different decisions from a company that scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
 
@@ -141,7 +141,15 @@ James R. Huntzinger discusses the problem of excess capacity distorting unit cos
 [quote, Orest Fiume and Jean Cunningham, as quoted by James Huntzinger]
 What accounting should do is produce an unadulterated mirror of the business — an uncompromisable truth on which everyone can rely. ... Only an informed team, affer all, is truly capable of making intelligent decisions.
 
-What do critics of cost accounting, allocated chargebacks, and large batch project funding suggest? A variety of themes and approaches have emerged, that we will discuss below:
+As digital transformation accelerates and companies turn to Agile operating models, criticisms of  traditional approaches to IT finance have increased. Rami Sirkiä and Maarit Laanti (in a paper used as the basis for the Scaled Agile Framework's financial module) describe the following shortcomings:
+
+* Long planning horizons, detailed cost estimates that must be frequently updated
+* Emphasis on planning accuracy and variance analysis
+* Context-free concern over budget overruns (even if a product is succeeding in the market, variances are viewed unfavorably)
+* Bureaucratic re-approval processes for project changes
+* Inflexible and slow resource re-allocation  <<Sirkia2013>>
+
+What do critics of cost accounting, allocated chargebacks, and large batch project funding suggest as alternatives to the historic approaches? A variety of themes and approaches have emerged, that we will discuss below:
 
 * Beyond Budgeting
 * Internal "venture" funding
@@ -151,32 +159,65 @@ What do critics of cost accounting, allocated chargebacks, and large batch proje
 * Internal market economics
 * Service brokerage
 
-
 ====== Beyond Budgeting
-[quote, Mark Kennallay, SDLC 3.0]
-"Rather than launching into discrete multi-year batched planning exercises that coincide with budgeting cycles, single Business-IT Alignment requests should continuously flow downstream." <<Kennaley2010>> pp 205-206.
+[quote, Jeremy Hope and Robin Fraser, Beyond Budgeting Questions and Answers]
+Setting a numerical target and controlling performance against it is the foundation stone of the budget contract in today’s organization. But, as a concept, it is fundamentally flawed. It is like telling a motor racing driver to achieve an exact time for each lap . . . it cannot predict and control extraneous factors, any one of which could render the target totally meaningless. Nor does it help to build the capability to respond quickly to new situations. But, above all, *it doesn’t teach people how to win*.
 
-****
-Firstly, traditional cost center accounting expects a long horizon with detailed cost estimates that must be frequently updated. Simply put, agile SW development avoids this detailed and long horizon  planning. Secondly, traditional cost accounting values  planning accuracy and executes variance analysis against the original estimate. Agile development instead allows for uncertainty: the final content delivery and total cost may be impacted by the empirical feedback received. Thirdly, traditional budgeting draws attention to budget overruns. In agile development, if the initial feedback  proves to be  positive we want to allow – and even encourage – further investments. In larger enter rises the division of investment can be controlled via the hierarchy of backlogs – the level of investment is dictated by the changing backlog priorities, which means the teams allocate tasks flexibly. Fourthly, traditional  project cost accounting requires a re-approval for any delays which increase the  project budget. Rigid approval limits  pose an unnecessary control, and thus, in agile development, delays that would traditionally be caused by the budgetary approval process means teams can now take their order of development flexibly from the  prioritized backlogs.
 
-...The rigid organizational structure, narrow competence profiles and detailed level of projects with dedicated resources prevented prompt and flexible resource reallocation. The idea of allowing more flexible organization structure with empowered teams was born and supported by our R&D management team roughly at the same time when the idea of more flexible investment planning and control was born.
+_Beyond Budgeting_ is the name of a 2003 book by Jeremy Hope and Robin Fraser. It written in part as an outcome of meetings and discussions between a number of large, mostly European firms dissatisfied with traditional budgeting approaches. Beyond Budgeting's goals are described as:
 
-...While agile development has largely been adopted around the globe, traditional management methods need to be changed in response.
+_releasing capable people from the chains of the top-down performance contract and enabling them to use the knowledge resources of the organization to satisfy customers profitably and consistently beat the competition_
 
-<<Sirkia2013>>
-****
+In particular, Beyond Budgeting critiques the concept of the "budget contract." A simple "budget" is merely a "financial view of the future . . . [a] 'most likely outcome' given known information at the time . . . " A "budget contract" by comparison is intended to "delegate the accountability for achieving agreed outcomes to divisional, functional, and departmental managers." It includes concerns and mechanisms such as
+
+* Targets
+* Rewards
+* Plans
+* Resources
+* Coordination
+* Reporting
+
+and is intended to "*commit* a subordinate or team to achieving an agreed outcome."
+
+Beyond Budgeting identifies various fallacies with this approach, including:
+
+* The idea that fixed financial targets maximize profit potential
+* Financial incentives build motivation and commitment (see discussion on xref:motivation[])
+* Annual plans direct actions that maximize market opportunities
+* Central resource allocation optimizes efficiency
+* Central coordination brings coherence
+* Financial reports provide relevant information for strategic decision-
+making
+
+Beyond the poor outcomes that these assumptions generate, up to 20 to 30% of senior executives' time is spent on the annual budget contract. Overall, the Beyond Budgeting view is that the budget contract is
+
+_a relic from an earlier age. It is expensive, absorbs far too much time, adds little value, and should be replaced by a more appropriate performance management model._ <<Hope2001>>, p 4, emphasis added.
+
+Readers of this textbook should at this point notice that many of the Beyond Budgeting concerns reflect an Agile/Lean perspective. The fallacies of efficiency and central coordination have been discussed throughout this book. However, if an organization's financial authorities remain committed to these as operating principles, digital transformation will be difficult at best.
+
+Beyond Budgeting proposes a number of principles for understanding and enabling organizational financial performance. These include:
+
+* Event-driven over annual planning
+* On-demand resources over centrally allocated resources
+* Relative targets ("beating the competition") over fixed annual targets
+* Team-based rewards over individual rewards
+* Multi-faceted, multi-level, forward-looking analysis over analyzing historical variances
 
 ====== Internal "venture" funding
-****
-IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually.
+[quote, Comella-Dorda et al, An Operating Model for Company-Wide Agile Development]
+A handful of companies are even exploring a venture-capital-style budgeting model. Initial funding is provided for minimally viable products (MVPs), which can be released quickly, refined according to customer feedback, and relaunched in the marketplace . . . And subsequent funding is based on how those MVPs perform in the market. Under this model, companies can reduce the risk that a project will fail, since MVPs are continually monitored and development tasks reprioritized . . . <<Comella2016>>
 
+As we have discussed xref:2.04.01-process-project-product[previously], product and project management are distinct. Product management in particular has more concern for overall business outcomes. If we take this to a logical conclusion, the product portfolio becomes a form of investment portfolio, managed not in terms of schedule and resources, but rather in terms of business results.
+
+This implies the need for some form of internal venture funding model, to cover the initial investment in a minimum viable product. If and when this internal investment bears fruit, it may become the basis for a value stream organization, which can then serve as a vehicle for direct costs and an internal services market (see below).
+
+====== Lean Product Development
+Reinertsen's
+****
 A large European insurance provider restructured its budgeting processes so that each product domain is assigned a share of the annual budget, to be utilized by chief product owners. (Part of the budget is also reserved for requisite maintenance costs.) Budget responsibilities have been divided into three categories: a development council consisting of business and IT managers meets monthly to make go/no-go decisions on initiatives. Chief product owners are charged with the tactical allocation of funds—making quick decisions in the case of a new business opportunity, for instance—and they meet continually to rebalance allocations.
 
-Meanwhile, product owners are responsible for ensuring execution of software development tasks within 40-hour work windows and for managing maintenance tasks and backlogs; these, too, are reviewed on a rolling basis. As a result of this shift in approach, the company has increased its budgeting flexibility and significantly improved market response times.
-
-A handful of companies are even exploring a venture-capital-style budgeting model. Initial funding is provided for minimally viable products (MVPs), which can be released quickly, refined according to customer feedback, and relaunched in the marketplace—the hallmarks of agile development. And subsequent funding is based on how those MVPs perform in the market. Under this model, companies can reduce the risk that a project will fail, since MVPs are continually monitored and development tasks reprioritized. Typically there is less waste and more transparency among portfolio and product managers, and it becomes easier for the company to scrap low-potential projects early.  <<Comella2016>>
+Meanwhile, product owners are responsible for ensuring execution of software development tasks within 40-hour work windows and for managing maintenance tasks and backlogs; these, too, are reviewed on a rolling basis. As a result of this shift in approach, the company has increased its budgeting flexibility and significantly improved market response times. <<Comella2016>>
 ****
-====== Lean Product Development
  the accounting system must be a subservient system to the production system <<Huntzinger2007>> p.3.
 
 xref:cost-of-delay[Cost of Delay]
@@ -205,6 +246,11 @@ is spent. They maintained that the value of a partially completed design could n
 
 These arguments are sound, but the unfortunate consequence of such sound accounting practices is that DIP is invisible on our financial state ments. Neither shareholders nor managers have any clue whether they are managing this resource well. Because we never show it on our balance sheet, we do not think of DIP as an asset to be managed, and we do not manage it. <<Reinertsen1997>> p13
 ****
+
+
+[quote, Mark Kennallay, SDLC 3.0]
+"Rather than launching into discrete multi-year batched planning exercises that coincide with budgeting cycles, single Business-IT Alignment requests should continuously flow downstream." <<Kennaley2010>> pp 205-206.
+
 
 ====== Lean Accounting
 [quote, Taiichi Ohno]
@@ -246,6 +292,9 @@ The alternative to traditional methods, which Church developed and promoted and 
 
 
 ====== Internal market economics
+[quote, Jeremy Hope and Robin Fraser, Beyond Budgeting Questions and Answers]
+Coordinate cross-company interactions through “market-like” forces
+
 
 Fractal / lean
 

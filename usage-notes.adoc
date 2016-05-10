@@ -33,6 +33,7 @@ xref:2.05.00-work-management[]
 xref:personal-flow[personal flow]
 xref:motivation[]
 
+chapter 8
 xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]
 xref:trad-IT-decline[decline of traditional IT]
@@ -43,6 +44,10 @@ xref:Toyota-Kata[Toyota Kata]
 xref:chap-process-mgmt[chapter on process management]
 xref:virtualization[virtualization]
 xref:9-figure-true-up[9 figure true-up]
+
+xref:cost-accounting-def[]
+
+chapter 10
 xref:IT-lifecycles[IT lifecycles]
 xref:sourcing[sourcing]
 

@@ -89,12 +89,13 @@
 
 - [[[Gruver2013]]]:	Gruver, G., M. Young, and P. Fulghum, 2013, _A practical approach to large-scale Agile development : how HP transformed laserjet futuresmart firmware_ xxiv, 183 pages.
 
-
 - [[[Hay2006]]]: Hay, D. C. (2006), _Data model patterns : a metadata map_, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.
 
 - [[[Hay1996]]]: Hay, D. C. (1996), _Data model patterns : conventions of thought_, Dorset House Pub., New York
 
 - [[[Hohpe2003]]]: Hohpe, G. & Woolf, B. (2003), _Enterprise integration patterns : designing, building, and deploying messaging solutions_, Addison-Wesley, Boston
+
+- [[[Hope2001]]]: Hope, Jeremy, and Robin Fraser. 2001. Beyond Budgeting Questions and Answers. http://bbrt.org/product/bbrt-qa-white-paper-october-2001/.
 
 - [[[Hubbard2010]]]: Hubbard, D. (2010), _How to Measure Anything: Finding the Value of Intangibles in Business_, Wiley, Boston
 

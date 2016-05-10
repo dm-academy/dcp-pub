@@ -85,6 +85,8 @@ http://www.industrialbrand.com/why-great-design-doesnt-come-fast-and-cheap[photo
 
 The same applies to project management and reflects well the "iron triangle" of tradeoffs.
 
+ note: we will critique the iron triangle subsquently
+
 ===== How is a project different from simple "work management"?
 
 In xref:2.05.00-work-management[Chapter 5], we covered a simple concept of "work management" that deliberately did not differentiate product, project, and/or process-based work. As was noted at the time, for smaller organizations, most or all of the organization would be the "project team," so what would be the point?

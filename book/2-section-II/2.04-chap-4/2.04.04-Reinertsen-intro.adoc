@@ -64,7 +64,12 @@ image::images/2.04-pyramid.png[]
 
 
 anchor:cost-of-delay[]
+
 ===== Cost of Delay
+Reinertsen is well known for advocating the concept of "Cost of Delay" in understanding product economics. The term is intuitive; it represents the loss one experiences by delaying the delivery of some value. For example, if a delayed product misses a key trade show, and therefore its opportunity to launch against competitors, the cost of delay might be the entire market.
+
+ see http://blackswanfarming.com/cost-of-delay/
+
  [TBW]
 
 ===== Beneficial variability

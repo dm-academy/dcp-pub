@@ -23,9 +23,7 @@ Computers initially were used to automate manual operations and the benefits wer
 
 Financial health is an essential dimension of business health. And digital technology has been one of the fastest-growing budget items in modern enterprises. Its relationship to enterprise financial management has been a concern since the first computers were acquired for business purposes.
 
-A company scaling up today would often make different decisions from a company that scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations.
-
-IMPORTANT: Financial management is a broad, complex, and evolving topic, and its relationship to IT and digital management is even more so. This brief section can only cover a few basics. However, it is important for you to have an understanding of the intersection of Agile and Lean IT with finance, as your organization's financial management approach can determine the effectiveness of your digital strategy.  See the recommended readings for further information.
+IMPORTANT: Financial management is a broad, complex, and evolving topic, and its relationship to IT and digital management is even more so. This brief section can only cover a few basics. However, it is important for you to have an understanding of the intersection of Agile and Lean IT with finance, as your organization's financial management approach can determine the effectiveness of your digital strategy.  See the cited sourced for further information.
 
 The objectives of IT finance include:
 
@@ -34,6 +32,8 @@ The objectives of IT finance include:
 * Support the digital and IT-related aspects of the corporate budgetary and reporting processes, including internal and external policy compliance
 * Supporting (where appropriate) internal cost recovery from business units consuming digital services
 * Support accurate and transparent comparison of IT financial performance to peers and market offerings (benchmarking)
+
+A company scaling up today would often make different decisions from a company that scaled up 40 years ago. This is especially apparent in the matter of how to finance digital/IT systems development and operations. The intent of this section is to explore both the traditional approaches to IT financial management and the emerging Agile/Lean responses.
 
 This section has the following outline:
 
@@ -62,7 +62,7 @@ Both of these practices are being challenged by Agile and Lean IT thinking.
 [quote, Comella-Dorda et al, An Operating Model for Company-Wide Agile Development]
 IT organizations typically adhere to annual budgeting and planning cycles—which can involve painful rebalancing exercises across an entire portfolio of technology initiatives, as well as a sizable amount of rework and waste. This approach is anathema to companies that are seeking to deploy agile at scale. Some businesses in our research base are taking a different approach. Overall budgeting is still done yearly, but road maps and plans are revisited quarterly or monthly, and projects are reprioritized continually. <<Comella2016>>
 
-From a Lean perspective, projects can be equated to large batches of work. One reason for their size is the annual budgeting cycle. In this well established practice, companies once a year embark on a detailed planning cycle to forecast revenues and plan how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
+In the common practice of the annual budget cycle, companies once a year embark on a detailed planning effort to forecast revenues and how they will be spent. Much emphasis is placed on the accuracy of such forecasts, despite its near-impossibility. (If estimating one large software project is challenging, how much more challenging to estimate an entire enterprise's income and expenditures?)
 
 The annual budget has two primary components: capital expenditures and operating expenditures, commonly called CapEx and OpEx. The rules about what must go where are fairly rigid and determined by accounting standards with some leeway for the organization's preferences.
 
@@ -70,7 +70,7 @@ Software development can be capitalized, as it is an investment from which the c
 
 Because one can only "go to the well" once a year, extensive planning and negotiation traditionally take place around the IT project portfolio. Business units and their IT partners debate the priorities for the capital budget, assess resources, and finalize a list of investments. Project managers are identified and tasked with marshaling the needed resources for execution.
 
-This annual cycle receives much criticism in the Agile and Lean communities. It results in misguided attempts to plan large batches of complex work in great detail, so that resource requirements can be known well in advance. The history of the Agile movement is in many ways a challenge and correction of this thinking, as we have discussed throughout this book.
+This annual cycle receives much criticism in the Agile and Lean communities. From a Lean perspective, projects can be equated to large "batches" of work. Using annual projects as a basis for investment can result in misguided attempts to plan large batches of complex work in great detail, so that resource requirements can be known well in advance. The history of the Agile movement is in many ways a challenge and correction of this thinking, as we have discussed throughout this book.
 
 The execution model for digital/IT acquisition adds further complexity. Traditionally, project management has been the major funding vehicle for capital investments, distinct from operational expense. But with the rise of Cloud computing and product-centric management, companies are moving away from traditional capital projects. New products are created with greater agility, in response to market need, and without the large capital investments of the past in physical hardware.
 

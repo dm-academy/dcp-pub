@@ -1,23 +1,38 @@
 ==== Process theory
-The first question is,whycontrol the process? When we know why, it al
-most automatically clarifies how we must control the process. Is a con
-trolled process inherently better than one that has more uncertainty?
-No. Since the purpose of our process is to make money, it would follow
-that the purpose of controlling the process must be to influence eco-
-197
-198 Managing the DesignFactory
-nomic outcomes. There is no other reason to be interested in process
-control. <<Reinertsen2007>> pp197-198
+[quote, Don Reinertsen, Managing the Design Factory pp. 197-198]
+The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
 
 
-Case mgmt
+===== BPM fundamentals
+
+
+
+====== Process granularity
+[quote, Alex Sharp, Workflow Modeling]
+One organization enthusiastically embraced process improvement, with good reason: customers, suppliers, and employees found the company's processes slow, inconsistent, and error prone. Unfortunately, they were so enthusiastic that each team defined the work of their small group or department as a complete process. Of course, each of these was in fact the contribution of a specialized functional group to some larger, but unidentified, processes. Each of these "processes" was "improved" independently, and you can guess what happened. +
+ +
+ Within the boundaries of each process, improvements were implemented that made work more efficient from the perspective of the performer. However, these mini-processes were efficient largely because they had front-end constraints that made work easier for the performer but imposed a burden on the customer or the preceding process. The attendant delay and effort meant that the true business processes behaved even more poorly than they had before. This is a common outcome when processes are defined too "small." Moral: Don't confuse subprocesses or activities with business processes.
+
+If processes are connected on a 1:1 basis, then we say that they are part of a single, end-to-end, business process.
+
+ <<Sharp2009>>
 
 ===== RACI
 also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch
 
 but most refined in process approaches
 
-deeper theory: state charts, Petri nets
+How to structure the matrix
 
-===== Decision rules
-Reinertsen Boeing case
+RACI
+focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."
+
+reinertsen has stuff on this
+
+===== Cynefin and the Checklist Manifesto
+ The problem of determinism
+
+====== Case Management
+
+====== Decision rules
+ Reinertsen Boeing case

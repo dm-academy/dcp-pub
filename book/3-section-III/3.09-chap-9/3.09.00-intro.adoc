@@ -4,7 +4,21 @@ anchor:chap-process-mgmt[]
 
 ==== Introduction to Chapter 9
 
-No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall performance is an ongoing activity in most if not all organizations.
+What is "process?"
+
+http://www.dictionary.com/browse/process[Dictionary.com] defines it as "a systematic series of actions directed to some end . . . a continuous action, operation, or series of changes taking place in a definite manner."
+
+We've discussed xref:2.05.00-work-management[work management], which is an important precursor of process management. Work management is less formalized; a wide variety of activities are handled through flexible Kanban boards based on the simplest "process" of:
+
+* To do
+* Doing
+* Done
+
+Process management starts with the fundamental capability for coordinated work management, and refines it much further. 
+
+
+
+Process, in terms of "business process," has been a topic of study and professional development for many years. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations (<<Rother2010>>, chapters 5-6).  Designing processes, improving them, and using them to improve overall performance is an ongoing activity in most if not all organizations.
 
 However, process can cause problems. Processes imply xref:queuing[queues], and in digital organizations this means invisible work in process. Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model.
 
@@ -60,32 +74,3 @@ Sidebar: Quality and Continuous Improvement
 * Describe the relationship between business process and business performance
 * Describe the origins, purpose, and scope of ITIL and CMMI
 * Identify the problems of process proliferation with respect to execution and demand
-
-==== Input material
-
-[quote, Alex Sharp, Workflow Modeling]
-One organization enthusiastically embraced process improvement, with good reason: customers, suppliers, and employees found the company's processes slow, inconsistent, and error prone. Unfortunately, they were so enthusiastic that each team defined the work of their small group or department as a complete process. Of course, each of these was in fact the contribution of a specialized functional group to some larger, but unidentified, processes. Each of these "processes" was "improved" independently, and you can guess what happened. +
- +
- Within the boundaries of each process, improvements were implemented that made work more efficient from the perspective of the performer. However, these mini-processes were efficient largely because they had front-end constraints that made work easier for the performer but imposed a burden on the customer or the preceding process. The attendant delay and effort meant that the true business processes behaved even more poorly than they had before. This is a common outcome when processes are defined too "small." Moral: Don't confuse subprocesses or activities with business processes.
-
-If processes are connected on a 1:1 basis, then we say that they are part of a single, end-to-end, business process.
-
- <<Sharp2009>>
-
- [Domain modeling]
-
-http://12factor.net/build-release-run
-
-Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.
-
-Adapting a services model to improve flow
-
-
-(Notice that the services a functional area provides can be viewed as a form of product in and of themselves.)
-
-
-How to structure the matrix
-
-RACI
-
-focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."

@@ -7,3 +7,10 @@ This chapter as of fall 2015 is yet to be written. Will summarize key insights f
 ===== Technology lifecycle management
 
  [to be written]
+
+
+===== additional material
+
+ http://12factor.net/build-release-run
+
+ Releases are an append-only ledger and a release cannot be mutated once it is created. Any change must create a new release.

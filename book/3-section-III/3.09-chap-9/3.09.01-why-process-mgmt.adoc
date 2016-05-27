@@ -4,6 +4,12 @@
 Scenario: repetitive yet error prone work
 team to team interactions that become "servicized"
 
+from work to process mgmt
+
+kanban board starts to elaborate
+
+
+
 A glance at the frameworks? At least examples are needed.
 
 ===== The fundamental point
@@ -25,3 +31,6 @@ Need an overall concept of product/project/process
 perils of "take a number" service-ization
 
 Measuring process. KPIs across a 36-process operating model?
+
+===== Self-organization and process
+Control vs ... 

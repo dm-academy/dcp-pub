@@ -291,7 +291,7 @@ There are several reasons for this. One commonly cited reason is that internal I
 
 Another, more insidious reason is the rolling in of unrelated IT overhead to product prices. We have quoted James Huntzinger's work above in various places on this topic. Dean Meyer has elaborated this topic in greater depth from an IT financial management perspective, calling for some organzational "goods" to be funded as either Ventures (similar to above discussion) or "subsidies" (for enterprise-wide benefits such as technical standardization) <<Meyer2013>>, p.92.
 
-As discussed above, a particularly challenging form of IT overhead is excess capacity. The saying "the first person on the bus has to buy the bus" is often used in IT shared services, but is problematic. A new, venture-funded startup cannot operate this way - expecting the first few customers to fully fund the investment! Nor can this work in an internal market, unless heavy handed political pressure is brought to bear. This is where internal venture funding is required. 
+As discussed above, a particularly challenging form of IT overhead is excess capacity. The saying "the first person on the bus has to buy the bus" is often used in IT shared services, but is problematic. A new, venture-funded startup cannot operate this way - expecting the first few customers to fully fund the investment! Nor can this work in an internal market, unless heavy handed political pressure is brought to bear. This is where internal venture funding is required.
 
 Meyer presents a sophisticated framework for understanding and managing an internal market of digital services. This is not a simple undertaking; for example, correctly setting service prices can be surprisingly complex.
 

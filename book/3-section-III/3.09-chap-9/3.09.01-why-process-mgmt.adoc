@@ -1,5 +1,8 @@
 ==== Why process management?
- Work will have already been specializing. Sales process, HR process, etc. This is about a certain degree of formalization that includes explicit process improvement.
+
+Process management starts with the fundamental capability for coordinated work management, and refines it much further.
+
+Work will have already been specializing. Sales process, HR process, etc. This is about a certain degree of formalization that includes explicit process improvement.
 
 Scenario: repetitive yet error prone work
 team to team interactions that become "servicized"
@@ -21,6 +24,10 @@ Ordered tasks are something we've had since Chapter 5. Process management is whe
 
 "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>>
 
+checklist... wait, didn't we see that in Project Mgmt?
+
+the difference is that in PM, the checklist is usually re-created every time. Process mgmt re-uses.
+
 ===== Process vs function
 Will functions stay with product centricity?
 
@@ -33,4 +40,4 @@ perils of "take a number" service-ization
 Measuring process. KPIs across a 36-process operating model?
 
 ===== Self-organization and process
-Control vs ... 
+Control vs ...

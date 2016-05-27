@@ -21,15 +21,18 @@ What is "process?"
 
 http://www.dictionary.com/browse/process[Dictionary.com] defines it as "a systematic series of actions directed to some end . . . a continuous action, operation, or series of changes taking place in a definite manner."
 
-We've discussed xref:2.05.00-work-management[work management], which is an important precursor of process management. Work management is less formalized; a wide variety of activities are handled through flexible Kanban boards based on the simplest "process" of:
+We've discussed xref:2.05.00-work-management[work management], which is an important precursor of process management. Work management is less formalized; a wide variety of activities are handled through flexible Kanban-style boards based on the simplest "process" of:
 
 * To do
 * Doing
 * Done
 
-Process management starts with the fundamental capability for coordinated work management, and refines it much further.
+However, the simple Kanban board can easily become much more complex, with the addition of swimlanes and additional columns, including holding areas for blocked work:
 
+image::images/3.09-complexKanban.png[]
+ to be redrawn
 
+And when tasks become more routine and specialized, formal process management starts to emerge.
 
 Process, in terms of "business process," has been a topic of study and professional development for many years. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations (<<Rother2010>>, chapters 5-6).  Designing processes, improving them, and using them to improve overall performance is an ongoing activity in most if not all organizations.
 

@@ -2,6 +2,19 @@ anchor:chap-process-mgmt[]
 
 === Chapter 9: Process Management
 
+ifdef::collaborator-draft[]
+
+****
+*Collaborative*
+
+ Status: This section is in process as of May 27 2016. Expect volatility.
+
+include::../../../collab-links.adoc[]
+
+****
+
+endif::collaborator-draft[]
+
 ==== Introduction to Chapter 9
 
 What is "process?"
@@ -14,7 +27,7 @@ We've discussed xref:2.05.00-work-management[work management], which is an impor
 * Doing
 * Done
 
-Process management starts with the fundamental capability for coordinated work management, and refines it much further. 
+Process management starts with the fundamental capability for coordinated work management, and refines it much further.
 
 
 

@@ -27,8 +27,10 @@ xref:cost-of-delay[Cost of Delay]
 
 
 xref:2.0.4.03-scrum[Scrum]
-xref:2.05.00-work-management[]
 
+Chapter 5
+xref:2.05.00-work-management[]
+xref:queuing[]
 
 xref:Section-III-coordination[Coordination]
 xref:personal-flow[personal flow]

@@ -1,12 +1,21 @@
 ==== Agile and IT process management
 
-Invariants
-Process is "adaptive" only to a degree
-Standard + case
 
-Scrum of scrums as a synch point
+===== Process management in the organization
+[quote, Mike Cohn]
+Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems.
+
+ example of service-ized process dysfunction
+ is expediting the only option?
+ alternatives...
+
+ Invariants
+ Process is "adaptive" only to a degree
+ Standard + case
+
+ Scrum of scrums as a synch point
 
 
-Cost of delay & process cycles
+ Cost of delay & process cycles
 
 "It will be seen that the cost of a process on a single part becomes a perfectly definite and tangible thing and can be recorded as such." Church quoted in <<Huntzinger2007>> p 85

@@ -4,19 +4,12 @@ anchor:chap-process-mgmt[]
 
 ==== Introduction to Chapter 9
 
-No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall  performance is an ongoing activity in most if not all organizations.
+No matter what your organization structure, you need process. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations. Process, in terms of "business process," has been a topic of study and professional education for many years. Designing processes, improving them, and using them to improve overall performance is an ongoing activity in most if not all organizations.
 
-However, some less than effective things have been done in the name of "process." Both ITIL and the Capability Maturity Model-Integrated claim to be "process"-oriented, but their results have been questioned. In particular, there is risk in allowing processes to proliferate - the organization can only tolerate a certain number of processes before people start to become confused and demoralized by all the "bureaucracy." Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model.
+However, process can cause problems. Processes imply xref:queuing[queues], and in digital organizations this means invisible work in process. Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model.
 
 Nevertheless, process remains an important tool in the toolkit for organization design.
 
-===== Process management in the organization
-[quote, Mike Cohn]
-Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems.
-
- example of service-ized process dysfunction
- is expediting the only option?
- alternatives...
 
 ===== Chapter 9 overview
 

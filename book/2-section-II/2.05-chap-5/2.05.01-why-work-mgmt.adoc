@@ -48,7 +48,15 @@ This is usually called a “Kanban board” (from <<Anderson2010>>), although Sc
 
 The basic board is widely used because it is a powerful artifact. Behind its deceptive simplicity is considerable industrial experience and relevant theory from operations management and human factors <<Anderson2010>>. However, it has scalability limitations. What if the team is not all in the same room? We will cover this in Section 3.
 
-===== Limiting work in process
+anchor:queuing[]
+
+===== Queuing theory and limiting work in process
+
+ Mentioned Reinertsen in last chapter
+ Product development is invisible WIP
+ Digital product mgmt - doubly so
+
+
 
 At this time, we’ll foreshadow some material to be covered more in depth in Section 3. But even at this stage of our evolution, with just one co-located collaborative team, it’s important to consider work in progress and how to limit it. We’ll touch on the queuing theory in section 3. For now, some rules of thumb are advisable:
 

@@ -1,6 +1,6 @@
 ==== Why process management?
 
-Process management starts with the fundamental capability for coordinated work management, and refines it much further.
+Process management starts with the fundamental capability for coordinated xref:2.05.00-work-management[work management], and refines it much further.
 
 Work will have already been specializing. Sales process, HR process, etc. This is about a certain degree of formalization that includes explicit process improvement.
 

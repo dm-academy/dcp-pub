@@ -40,16 +40,12 @@ However, process can cause problems. Processes imply xref:queuing[queues], and i
 
 Nevertheless, process remains an important tool in the toolkit for organization design.
 
+Process is a broad concept used throughout business operations. The coverage here is about process as applied to the digital organization. There is a bit of a recursive paradox here; we are talking about the process by which business processes are analyzed and automated. The degree to which this process can be seen as deterministic and repeatable is an ongoing source of controversy.
 
 ===== Chapter 9 overview
 
 * Process management basics
  - BPM community
- - Process as a Mintzberg liaison mechanism
-
-****
-Sidebar: Can microservices eliminate most or all need for cross-team communication & liaison mechanisms?
-****
 
 * Function vs process
 
@@ -58,14 +54,6 @@ Sidebar: Can microservices eliminate most or all need for cross-team communicati
 * Process and execution (execution includes concern for resource)
 
 * "Process" at Toyota (Rother)
-
-****
-Sidebar: Lessons from manufacturing, operations research, etc
-
-Controversy of application to IT
-
-Will this have been foreshadowed?
-****
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
@@ -80,9 +68,6 @@ Will this have been foreshadowed?
 * SLAs and the service catalog
 ** Service-izing functions: pros and cons
 
-****
-Sidebar: Quality and Continuous Improvement
-****
 
 ===== Chapter 9 learning objectives
 

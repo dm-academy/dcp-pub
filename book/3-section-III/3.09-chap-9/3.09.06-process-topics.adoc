@@ -30,3 +30,16 @@ Degree of automation
 
 
 ===== formal process control
+
+
+****
+Sidebar: Can microservices eliminate most or all need for cross-team communication & liaison mechanisms?
+****
+
+****
+Sidebar: Lessons from manufacturing, operations research, etc
+
+Controversy of application to IT
+
+Will this have been foreshadowed?
+****

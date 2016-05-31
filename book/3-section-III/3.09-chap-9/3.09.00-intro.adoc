@@ -44,30 +44,6 @@ Process is a broad concept used throughout business operations. The coverage her
 
 ===== Chapter 9 overview
 
-* Process management basics
- - BPM community
-
-* Function vs process
-
-* Practice, discipline, capability vs process
-
-* Process and execution (execution includes concern for resource)
-
-* "Process" at Toyota (Rother)
-
-* Self-organizing (kanban) processes vs. formalized process frameworks.
-
-* IT "process" frameworks (ITIL etc - also in appendix)
-
-* Process in product-centric organizations
-
-* Process antipatterns (should I do more with antipatterns in each chapter?)
- - Process proliferation
- - Process without execution model (demand management failure)
-
-* SLAs and the service catalog
-** Service-izing functions: pros and cons
-
 
 ===== Chapter 9 learning objectives
 

@@ -9,24 +9,24 @@ team to team interactions that become "servicized"
 
 from work to process mgmt
 
-kanban board starts to elaborate
-
-
-
 A glance at the frameworks? At least examples are needed.
 
 ===== The fundamental point
 The digital service *is* fundamentally an automated process. That's what computers do.
 
-===== Process vs work management
-Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common engines and methods to define them.
 
+===== Process vs work management
+kanban board starts to elaborate
+
+Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common engines and methods to define them.
 
 "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>>
 
 checklist... wait, didn't we see that in Project Mgmt?
 
 the difference is that in PM, the checklist is usually re-created every time. Process mgmt re-uses.
+
+* Self-organizing (kanban) processes vs. formalized process frameworks.
 
 ===== Process vs function
 Will functions stay with product centricity?
@@ -41,3 +41,9 @@ Measuring process. KPIs across a 36-process operating model?
 
 ===== Self-organization and process
 Control vs ...
+
+* "Process" at Toyota (Rother)
+
+===== "Business" vs "IT" process
+
+===== Process in the product-centric organization

@@ -48,6 +48,9 @@ Will this have been foreshadowed?
 * SLAs and the service catalog
 ** Service-izing functions: pros and cons
 
+Scenario: repetitive yet error prone work
+team to team interactions that become "servicized"
+
 ===== The BPM community
 
 * Process antipatterns

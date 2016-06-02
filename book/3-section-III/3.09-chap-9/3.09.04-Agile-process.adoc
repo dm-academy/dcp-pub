@@ -3,11 +3,23 @@
 
 ===== Process management in the organization
 [quote, Mike Cohn]
+
+===== Bureaucratic friction
 Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems.
 
  example of service-ized process dysfunction
  is expediting the only option?
  alternatives...
+
+===== The design factory problem
+Misunderstanding variation
+
+===== Process as a source of demand
+
+===== Cost of delay of aggregate process
+
+===== Cultural aspects
+overcome through rational, specific understanding of concepts like cadence and synch
 
  Invariants
  Process is "adaptive" only to a degree

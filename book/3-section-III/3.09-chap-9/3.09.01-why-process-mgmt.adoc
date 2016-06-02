@@ -2,25 +2,38 @@
 [quote, Don Reinertsen, Managing the Design Factory pp. 197-198]
 The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
 
+We have previously discussed product and project management. You may wish to review our summary description of xref:2.04.01-process-project-product[process, product, and project management].
+
 Process management starts with the fundamental capability for coordinated xref:2.05.00-work-management[work management], and refines it much further.
 
-Work will have already been specializing. Sales process, HR process, etc. This is about a certain degree of formalization that includes explicit process improvement.
+In our company, work has been specializing. A simple card-based kanban approach is no longer sufficient. We are finding that some work is repetitive, and we need to remember to do certain things in certain orders.
 
-Scenario: repetitive yet error prone work
-team to team interactions that become "servicized"
+For example, a new Human Resources (HR) manager was hired. The HR manager decided that a simple Kanban card of "hire someone new for us" was not sufficient. As she pointed out to the team, hiring needed to follow a defined sequence of tasks:
 
-from work to process mgmt
+* Establishing the need and purpose for the position
+* Soliciting candidates
+* Filtering the candidates
+* Selecting a final choice
+* Registering that new employee in the payroll system
+* Getting the new employee set up with benefits providers (insurance, retirement, etc)
+* Getting the new employee working space, equipment, and access to systems
+* Training the new employee in organizational policies as well as any position-specific orientation
 
-A glance at the frameworks? At least examples are needed.
+The sales, marketing, and finance teams have similarly been developing ordered lists of tasks that are consistently executed as end to end sequences. And even in the core digital development and operations teams, they are finding that some tasks are repetitive and need documentation so they are performed consistently.
+
+However, some team members are very cautious. The term "process police" comes up in an unhappy way. "We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no-one ever looked at," another person says.
+
+
 
 ===== The fundamental point
 The digital service *is* fundamentally an automated process. That's what computers do.
 
 
-===== Process vs work management
+===== From work to process management
+
 kanban board starts to elaborate
 
-Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common engines and methods to define them.
+Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common methods to define them and even common tooling to support multiple processes.
 
 "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>>
 
@@ -30,7 +43,7 @@ the difference is that in PM, the checklist is usually re-created every time. Pr
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.
 
-===== Process vs function
+===== Process vs organization
 Will functions stay with product centricity?
 
 Need an overall concept of product/project/process
@@ -39,13 +52,16 @@ Need an overall concept of product/project/process
 
 perils of "take a number" service-ization
 
-Measuring process. KPIs across a 36-process operating model?
 
 ===== Self-organization and process
 Control vs ...
 
 * "Process" at Toyota (Rother)
 
+
 ===== "Business" vs "IT" process
 
-===== Process in the product-centric organization
+
+===== Measuring process
+
+Measuring process. KPIs across a 36-process operating model?

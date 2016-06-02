@@ -42,6 +42,7 @@ If processes are connected on a 1:1 basis, then we say that they are part of a s
 ===== Cynefin and the Checklist Manifesto
   The problem of determinism
 
+===== raw material
 
 http://blogs.forrester.com/jean_pierre_garbani/09-06-26-my_issue_itil
 

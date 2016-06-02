@@ -34,3 +34,6 @@ http://techblog.netflix.com/2011/07/netflix-simian-army.html[The Netflix Simian 
 http://www.slideshare.net/JoshEvans2/beyond-devops-how-netflix-bridges-the-gap[Beyond DevOps - How Netflix Bridges the Gap]
 
 https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab/[Continuous Integration Platform using Docker Container: Jenkins, SonarQube, Nexus, GitLab]
+
+https://www.heavybit.com/library/video/hiring-a-tech-ops-team/[Hiring a Tech Ops Team]
+ work into chapter

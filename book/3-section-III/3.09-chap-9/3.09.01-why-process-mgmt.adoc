@@ -35,7 +35,7 @@ To repeat, the digital service *is* fundamentally an automated process. That's w
 
 ===== From work to process management
 
-So, the kanban board has started to elaborate. We're seeing more and more work that needs to follow a sequence, or checklist... Wait, didn't we see that in Project Mgmt?
+So, the kanban board has started to elaborate. We're seeing more and more work that needs to follow a sequence, or checklist... Wait, didn't we see that in the chapter on Project Management?
 
 We discussed task ordering in Chapter 8. However, projects are not usually seen as repeatable. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common methods to define them and even common tooling to support multiple processes. The following diagram might help:
 
@@ -46,15 +46,9 @@ Project management adds concerns of task ordering and resource management, for p
 Project management and process management interact in 2 primary ways:
 
 * Projects often are used to create and deploy processes. A large system implementation (e.g. of a Enterprise Resource Planning module such as Human Resource Management) will often be responsible for process implementation including training.
-* As environments mature, projects require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. To the extent these are managed as repeatable, optimized processes, project risk is reduced. 
+* As environments mature, projects require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. To the extent these are managed as repeatable, optimized processes, project risk is reduced.
 
-
-
-the difference is that in PM, the checklist is usually re-created every time. Process mgmt re-uses.
-
-* Self-organizing (kanban) processes vs. formalized process frameworks.
-
-===== Process vs organization
+===== Process and organization
 Will functions stay with product centricity?
 
 Need an overall concept of product/project/process
@@ -63,11 +57,10 @@ Need an overall concept of product/project/process
 
 perils of "take a number" service-ization
 
-
-===== Self-organization and process
 Control vs ...
 
 * "Process" at Toyota (Rother)
+* Self-organizing (kanban) processes vs. formalized process frameworks.
 
 
 ===== "Business" vs "IT" process

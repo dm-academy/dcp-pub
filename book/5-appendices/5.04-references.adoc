@@ -91,6 +91,8 @@
 
 - [[[Hay2006]]]: Hay, D. C. (2006), _Data model patterns : a metadata map_, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.
 
+- [[[Hammer1993]]]: Hammer, Michael, and James Champy. 1993. Reengineering the Corporation : A Manifesto for Business Revolution. Brealey Publishing.
+
 - [[[Hay1996]]]: Hay, D. C. (1996), _Data model patterns : conventions of thought_, Dorset House Pub., New York
 
 - [[[Hohpe2003]]]: Hohpe, G. & Woolf, B. (2003), _Enterprise integration patterns : designing, building, and deploying messaging solutions_, Addison-Wesley, Boston
@@ -181,6 +183,8 @@ IEEE Press.
 - [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
 
 - [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
+
+- [[[Rummler1995]]]: Rummler, Geary A, and Alan P Brache. 1995. _Improving Performance: How to Manage the White Space on the Organization Chart._ The Jossey-Bass Management Series. 2nd ed. San Francisco, CA: Jossey-Bass. http://www.loc.gov/catdir/toc/wiley041/94048105.html.
 
 - [[[Schwaber2007]]]: Schwaber, Ken. 2007. _The Enterprise and Scrum._ Redmond, Wash: Microsoft Press.
 

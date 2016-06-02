@@ -43,3 +43,13 @@ Controversy of application to IT
 
 Will this have been foreshadowed?
 ****
+
+===== Process and service management
+* SLAs and the service catalog
+** Service-izing functions: pros and cons
+
+===== The BPM community
+
+* Process antipatterns
+ - Process proliferation
+ - Process without execution model (demand management failure)

@@ -21,23 +21,34 @@ For example, a new Human Resources (HR) manager was hired. The HR manager decide
 
 The sales, marketing, and finance teams have similarly been developing ordered lists of tasks that are consistently executed as end to end sequences. And even in the core digital development and operations teams, they are finding that some tasks are repetitive and need documentation so they are performed consistently.
 
-However, some team members are very cautious. The term "process police" comes up in an unhappy way. "We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no-one ever looked at," another person says.
+More broadly, your entire digital product pipeline is sometimes called a "process." From initial feature idea through production, you seek a consistent means for identifying and implementing valuable functionality. Sometimes this work requires intensive, iterative collaboration and is unpredictable (e.g. developing a user interface); sometimes, the work is more repeatable (e.g. packaging and releasing tested functionality).
 
+However, some team members are cautious of the word "process". The term "process police" comes up in an unhappy way. "Are we going to have auditors tracking whether we filled out all our forms correctly?," one asks. "We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no-one ever looked at," another person says.
 
+The irony is that digital products are based on process automation. The idea that certain tasks can be done repeatably and at scale through digitization is fundamental to all use of computers:
 
-===== The fundamental point
-The digital service *is* fundamentally an automated process. That's what computers do.
+* ride sharing applications
+* electronic mail transmission
+* "Hire Employee" as an automated transaction in a Human Resource Management System
 
+To repeat, the digital service *is* fundamentally an automated process. That's what computers do.
 
 ===== From work to process management
 
-kanban board starts to elaborate
+So, the kanban board has started to elaborate. We're seeing more and more work that needs to follow a sequence, or checklist... Wait, didn't we see that in Project Mgmt?
 
-Ordered tasks are something we've had since Chapter 5. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common methods to define them and even common tooling to support multiple processes.
+We discussed task ordering in Chapter 8. However, projects are not usually seen as repeatable. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common methods to define them and even common tooling to support multiple processes. The following diagram might help:
 
-"there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>>
+image::images/3.09-wrk-prj-proc.png[]
 
-checklist... wait, didn't we see that in Project Mgmt?
+Project management adds concerns of task ordering and resource management, for projects typically executed on a one-time basis. Process management is also concerned with ordering, but less so with the resource load (more on this below), and instead is concerned with repeatability and ongoing improvement.
+
+Project management and process management interact in 2 primary ways:
+
+* Projects often are used to create and deploy processes. A large system implementation (e.g. of a Enterprise Resource Planning module such as Human Resource Management) will often be responsible for process implementation including training.
+* As environments mature, projects require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. To the extent these are managed as repeatable, optimized processes, project risk is reduced. 
+
+
 
 the difference is that in PM, the checklist is usually re-created every time. Process mgmt re-uses.
 

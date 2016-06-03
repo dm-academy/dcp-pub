@@ -1,8 +1,13 @@
 ==== Test-driven development and refactoring
+[quote, Fred Brooks, Mythical Man-Month]
+As a consequence of the introduction of new bugs, program maintenance requires far more system testing per statement written than any other programming. Theoretically, after each fix one must run the entire bank of test cases previously run against the system, to ensure that it has not been damaged in an obscure way.
+In practice such regression testing must indeed approximate this theoretical ideal, and it is very costly.
+
 
 [quote, Martin Fowler, http://martinfowler.com/books/meszaros.html]
 _The reason JUnit is important . . . is that the presence of this tiny tool has been essential to a fundamental shift for many programmers. A shift where testing has moved to a front and central part of programming. People have advocated it before, but JUnit made it happen more than anything else._ +
 
+ comment on Brooks
 
 In test-driven development, the idea essence is to write code that tests itself. This is done through the creation of test harnesses and the tight association of tests with requirements. The logical culmination of test-driven development was expressed by Kent Beck in _eXtreme Programming_: write the test first <<Beck2000>>. Thus:
 

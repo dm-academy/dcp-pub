@@ -17,6 +17,16 @@ endif::collaborator-draft[]
 
 ==== Introduction to Chapter 9
 
+You're hiring more specialized people with specialized backgrounds. Many of them enter your organization and immediately ask process questions:
+
+* What's your Change process?
+* What's your Problem process?
+* What's your Portfolio process?
+
+You've not had these conversations before. What do they mean by these different "processes?"
+
+They seem to have some expectation from their previous employment, and if you say "we don't have one" they tend to be confused. You're starting to become concerned that your company may be running some risk, although you also are wary that process might mean slowing things down, and you can't affort that. 
+
 What is "process?"
 
 http://www.dictionary.com/browse/process[Dictionary.com] defines it as "a systematic series of actions directed to some end . . . a continuous action, operation, or series of changes taking place in a definite manner."
@@ -36,7 +46,7 @@ And when tasks become more routine and specialized, formal process management st
 
 Process, in terms of "business process," has been a topic of study and professional development for many years. Pioneering BPM (Business Process Management) authors such as Michael Hammer <<Hammer1993>> and Geary Rummler <<Rummler1995>> have had an immense impact on business operations. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations (<<Rother2010>>, chapters 5-6).  Designing processes, improving them, and using them to improve overall performance is an ongoing activity in most if not all organizations.
 
-However, process can cause problems. Processes imply xref:queuing[queues], and in digital and other product development-based organizations, this means invisible work in process. Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model. 
+However, process can cause problems. Processes imply xref:queuing[queues], and in digital and other product development-based organizations, this means invisible work in process. Organzational improvement approaches that encourage the formation of processes and associated metrics at all levels may therefore not be an effective model.
 
 Nevertheless, process remains an important tool in the toolkit for organization design.
 

@@ -6,6 +6,9 @@
 
 Will functions stay with product centricity?
 
+===== Self organization?
+
+* Self-organizing (kanban) processes vs. formalized process frameworks.
 
 ===== Bureaucratic friction
 [quote, Mike Cohn]

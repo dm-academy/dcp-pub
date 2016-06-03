@@ -56,17 +56,17 @@ The concept of process is often contrasted with that of function or organization
 
 As we know from our discussion of product management, developing new products is not a particularly repeatable process. The Agile movement in some ways arose in opposition to attempts to apply process concepts of "repeatability" to developing software. These concerns remain.
 
-However, this book is not only about digital R&D processes. It is also about a spectrum of operations and effort that spans from the unique to the highly repeatable. There is an interesting middle ground, of processes that are semi-repeatable, more repeatable than the stereotypically non-deterministic development process.
+However, this book is not only about digital R&D processes. It is also about a spectrum of operations and effort that spans from the unique to the highly repeatable. There is an interesting middle ground, of processes that are semi-repeatable, more repeatable than the stereotypically non-deterministic development process. Examples often found in the large digital organization include:
 
-We will talk about a wide variety of such processes in the chapter section on process frameworks.
+* Assessing, approving, and completing changes
+* End user equipment provisioning
+* Resolving incidents and answering user
 
-<<Cohn2010>> p144 assumes functional mgrs will stay
+And many others. We will talk about a wide variety of such processes in the chapter section on process frameworks.
 
+It is important to realize, however, that just as the traditional IT project is under pressure, there are similar challenges for the traditional IT process. Continuous deployment techniques are eroding the need for formal change management. Consumerization is challenging traditional internal IT provisioning practices. And self-service help desks are eliminating some traditional support activities.
 
-Control vs ...
-
-* "Process" at Toyota (Rother)
-* Self-organizing (kanban) processes vs. formalized process frameworks.
+Nevertheless, any rumors of an "end to process" are probably greatly exaggerated. There will likely always be complex combinations of automated, semi-automated, and manual activity in digital organizations. Some of this activity will be repeatable enough that the "process" construct will be applied to it. It is therefore useful to understand more fundamentally what processes are, how they operate, and how they are managed and improved.
 
 ===== "Business" vs "IT" process
 

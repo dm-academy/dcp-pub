@@ -55,3 +55,7 @@ CPRET is a mnemonic for the basic definition of process in process engineering: 
 Schwaber process author - chem e guy
 
 Kennelay - PID model
+
+
+
+* "Process" at Toyota (Rother)

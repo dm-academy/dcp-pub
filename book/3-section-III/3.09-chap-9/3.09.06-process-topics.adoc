@@ -24,6 +24,7 @@ Adapting a services model to improve flow
 (Notice that the services a functional area provides can be viewed as a form of product in and of themselves.)
 
 Degree of automation
+perils of "take a number" service-ization
 
 
 ===== deeper theory: state charts, Petri nets

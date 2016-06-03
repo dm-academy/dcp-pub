@@ -2,9 +2,13 @@
 
 
 ===== Process management in the organization
-[quote, Mike Cohn]
+
+
+Will functions stay with product centricity?
+
 
 ===== Bureaucratic friction
+[quote, Mike Cohn]
 Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems.
 
  example of service-ized process dysfunction
@@ -14,7 +18,7 @@ Many companies have at least one dysfunctional area. This may be the “furnitur
 ===== The design factory problem
 Misunderstanding variation
 
-===== Process as a source of demand
+===== Process as a source of demand/resource
 
 ===== Cost of delay of aggregate process
 

@@ -1,6 +1,7 @@
 ==== Why process management?
-[quote, Don Reinertsen, Managing the Design Factory pp. 197-198]
-The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
+[quote, Michael Porter, Competitive Advantage]
+Is a firm a collection of activities or a set of resources and capabilities? Clearly, a firm is both. But activities are what firms do, and they define the resources and capabilities that are relevant.
+
 
 We have previously discussed product and project management. You may wish to review our summary description of xref:2.04.01-process-project-product[process, product, and project management].
 
@@ -49,19 +50,23 @@ Project management and process management interact in 2 primary ways:
 * As environments mature, projects require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. To the extent these are managed as repeatable, optimized processes, project risk is reduced.
 
 ===== Process and organization
-Will functions stay with product centricity?
+Processes are much more than repeatable activities. Many leading thinkers (such as Michael Porter, quoted at the start of this chapter section) see organizations primarily as sets of interacting processes, supporting fundamental end to end value chains or value streams. We will talk more about this in the next chapter section.
 
-Need an overall concept of product/project/process
+The concept of process is often contrasted with that of function or organization. We have seen in previous chapters how product development and project management must drive results across organizational boundaries. Process management has a similar challenge; its goal is to drive *repeatable* results across organizational boundaries.
+
+As we know from our discussion of product management, developing new products is not a particularly repeatable process. The Agile movement in some ways arose in opposition to attempts to apply process concepts of "repeatability" to developing software. These concerns remain.
+
+However, this book is not only about digital R&D processes. It is also about a spectrum of operations and effort that spans from the unique to the highly repeatable. There is an interesting middle ground, of processes that are semi-repeatable, more repeatable than the stereotypically non-deterministic development process.
+
+We will talk about a wide variety of such processes in the chapter section on process frameworks.
 
 <<Cohn2010>> p144 assumes functional mgrs will stay
 
-perils of "take a number" service-ization
 
 Control vs ...
 
 * "Process" at Toyota (Rother)
 * Self-organizing (kanban) processes vs. formalized process frameworks.
-
 
 ===== "Business" vs "IT" process
 

@@ -114,6 +114,10 @@ We can understand Toyota Kata partly in terms of systems theory (Section II) - t
  Conjecture: "command and control culture" means open loop control.
 ****
 
+===== others
+ Liker quadrant from Toyota Way (cited by Cohn)
+ Westrum typology (State of DevOps)
+
 ===== Agile coaching and culture
 Lyssa Adkins
 

@@ -68,14 +68,27 @@ It is important to realize, however, that just as the traditional IT project is 
 
 Nevertheless, any rumors of an "end to process" are probably greatly exaggerated. There will likely always be complex combinations of automated, semi-automated, and manual activity in digital organizations. Some of this activity will be repeatable enough that the "process" construct will be applied to it. It is therefore useful to understand more fundamentally what processes are, how they operate, and how they are managed and improved.
 
-===== "Business" vs "IT" process
-
-
-===== Process as a vehicle for industry understanding
 As we discussed at the beginning of this chapter, sometimes new employees come in expecting that you are following certain processes. This is in part because "process" experience can be an important part of an employee's career background. A skilled HR manager may consider their experience with large-scale enterprise hiring processes to be a major part of their qualifications for a position in your company.
 
+This applies to both "business" and "IT" processes. In fact, in the digital world, there is no real difference. Digital processes:
 
+* Initiate new systems, from idea to construction
+* Publicize and grant access to the new systems
+* Capture revenue from the systems
+* Support people in their interactions with the systems
+* Fix the systems when they break
+* Improve the systems based on stakeholder feedback
+
+It's not clear which of these are "IT" versus "business" processes. But they are definitely processes. Some of them are more predictable, some less so, but they all represent some form of ordered work that is repeatable to some degree.
 
 ===== Measuring process
+One of the most important reasons for repeatable processes is so that they can be measured and understood. Repeatable processes are measured in terms of:
 
-Measuring process. KPIs across a 36-process operating model?
+* Speed
+* Effort
+* Quality
+* Outcomes
+
+at the most general level, and of course all of those measurements must be defined much more specifically depending on the process.
+
+Measurement is an essential aspect of process management, but must be carefully designed. Process participants will behave according to how the process is measured. If a help desk operator is measured and rated on how many calls they process an hour, the quality of those interactions may suffer. It is critical that any process "key performance indicator" be understood in terms of the highest possible business objectives. Is the objective truly to process as many calls as possible? Or is it to satisfy the customer so they need not turn to other channels to get their answers? 

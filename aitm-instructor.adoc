@@ -1,4 +1,4 @@
-Digital: From Startup to Enterprise (Instructor's Edition)
+Agile IT Management: From Startup to Enterprise (Instructor's Edition)
 ======================================================================
 :doctype:   book
 :docinfo:

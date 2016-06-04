@@ -29,6 +29,8 @@
 
 - [[[Betz2015]]]: Betz, C.T. (2015), "Calavera project", Github, https://github.com/CharlesTBetz/Calavera
 
+- [[[BPTrends2013]]]: BPTrends. 2013. “Scope Diagram (or Input-Guides-Outputs-Enablers – IGOE Diagram).” BPTrends. http://www.bptrends.com/resources/glossary/scope-diagram-or-input-guides-outputs-enablers-igoe-diagram/.
+
 - [[[Brooks1995]]]: Brooks, Frederick P. 1995. _The Mythical Man-Month : Essays on Software Engineering._ 25th Anniversary edition. Reading, Mass.: Addison-Wesley Pub. Co.
 
 - [[[Bossavit2015]]]:	Bossavit, L., 2015. _The Leprechauns of Software Engineering: How folklore turns into fact and what to do about it_ 2015. Available from: https://leanpub.com/leprechauns.

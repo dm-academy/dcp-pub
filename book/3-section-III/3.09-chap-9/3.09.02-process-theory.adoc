@@ -102,7 +102,7 @@ However, you have a value adding activity of bringing in a new employee that inv
 
 image::images/3.09-ProcXFunc.png[]
 
-. The HR department enters the employee in the HR system.
+. The HR department enters the employee in the HR system (including payroll).
 . Either the HR department or the hiring manager requests space from Facilities Management.
 . A workstation and smart phone are requested from IT Asset Management
 . When those devices are received, Security authorizes them (and the employee) to enterprise systems (critically the enterprise directory)
@@ -142,7 +142,7 @@ The idea that a box can represent an activity or objective, and can be linked in
 
 A *modeling language* is a set of concepts and definitions that describes a given problem space. Modeling languages can be formalized to different degrees of precision.
 
-A *notation* is a specific set of visual symbols mapped onto a modeling language. One modeling language might have different notations.
+A *notation* is a specific set of visual symbols mapped onto a modeling language. One modeling language might have different notations; for example, Data Flow Diagrams have two notations but both communicate essentially the same language.
 
 A *model* is a specific usage of a modeling language and notation to communicate some idea about a system. It may also be a verb, e.g. "I am going to *model* the system."
 
@@ -152,7 +152,7 @@ There are many different forms of modeling, extending far beyond IT and digital 
 * Its data structures might be modeled somewhat later
 * And when the system is running under load, capacity analysts might model its consumption of compute and network resources and develop projections for when additional capacity might be needed.
 
-Process modeling is therefore only a subset, but an important one. Process analysis is one of most important activities in the broader area of business analysis and architecture, which in turn are key to xref:2.04.00-product-mgmt[product Management] in general (as we briefly mentioned in Chapter 4).
+Process modeling is therefore only a subset, but an important one. Process analysis is one of most important activities in the broader area of business analysis and architecture, which in turn are key to xref:2.04.00-product-mgmt[product management] in general (as we briefly mentioned in Chapter 4).
 
 There are many process modeling languages and notations:
 
@@ -168,21 +168,46 @@ There are many references on these in the concluding chapter section. We will on
 * Swimlanes
 
 ====== IGOE (Input/Guide/Output/Enabler)
-A useful framework for thinking about activities represented as icons is the IGOE approach. IGOE stands for:
+A useful framework for thinking about activities represented as icons is the IGOE approach <<BPTrends2013>>. IGOE stands for:
 
-* Input
-* Output
-* Guide
-* Enabler
+* Inputs
+* Outputs
+* Guides
+* Enablers
 
+image::images/3.09-IGOE.png[]
 
+*Inputs* include the information or event stimulus that initiates the activity. They also include resources that will be consumed in the course of the activity.
+
+*Outputs* include the final, value-added outcome of the activity, and also serve as a signal for downstream activities to commence.
+
+*Guides* govern the process, setting constraints and expectations (e.g. current HR policies). They are not consumed.
+
+*Enablers* support the process, without being immediately consumed. Examples include infrastructure and facilities support.
 
 ====== Ordering, synchronization, and conditionality
+Multiple activities can be sequenced and this is often represented as a series of shapes connected by arrows:
+
+image::images/3.09-ordering1.png[]
+
+Notice these activities align to the overall cross-functional flow we discussed above:
+
+image::images/3.09-ordering2.png[]
+
+However, we encounter a problem with this ordering. It is taking too long, because people are waiting for space to be assigned before doing anything else. This is a well understood problem; processes can branch and run in parallel (you may well be writing code that works this way; human processes also do this):
+
+
+
+Similarities to project management - except with project management they only solve this one.
+
 
 ====== Swimlanes
 
 ====== A final caution on technique
+endless nuances and debates
+
 Don't get caught up in it
+
 Keep it simple - more to come when we discuss Agile Modeling
 
 ===== RACI

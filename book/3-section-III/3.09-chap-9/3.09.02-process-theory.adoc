@@ -122,9 +122,11 @@ image::images/3.09-PXFNamed.png[]
 
 Finally, context is everything. Notice that this end to end process of "onboard employee" belongs to the overall supporting activity of Human Resource Management in terms of the value chain we started with:
 
+image::images/3.09-ProcContext.png[]
 
+There is a rich variety of ways to think about enterprises and their operations at the largest scale. We will return to the question of process context and value chain in the chapter section on process frameworks. For now, we will move to a more detailed level of process modeling, now that we have introduced certain key concepts.
 
-===== Process notation
+===== Process modeling
 
 It's not all about this
 
@@ -161,6 +163,8 @@ If processes are connected on a 1:1 basis, then we say that they are part of a s
 
  <<Sharp2009>>
 
+Precision and accuracy in process management?
+
 ====== Case Management
 
 ===== Process vs execution (execution includes concern for resource)
@@ -175,15 +179,7 @@ Rule engines
   Required interactions as well as required steps
   Process as a Mintzberg liaison mechanism
 
-===== Deeper theory
 
-http://blogs.forrester.com/jean_pierre_garbani/09-06-26-my_issue_itil
-
-CPRET is a mnemonic for the basic definition of process in process engineering: it stands for Constraints, Product, Resources, input Elements and Transformation which are the basic components of a process. In process engineering, a process is a suite of transformations of elements into a given output (product) given a set of constraints and resources. From this definition, we can see that technology has a strong influence on the process: the transformation part is a clear function of the technology available as input and resources in IT are strongly influenced by the technology used. As we mostly deal with information and data in IT management processes, the type of data available is either helping or impeding the transformation part.
-
-Schwaber process author - chem e guy
-
-Kennelay - PID model
 
 
 

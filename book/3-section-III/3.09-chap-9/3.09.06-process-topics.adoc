@@ -29,6 +29,9 @@ perils of "take a number" service-ization
 
 ===== deeper theory: state charts, Petri nets
 
+===== simulations
+
+ systems dynamics & DES
 
 ===== formal process control
 

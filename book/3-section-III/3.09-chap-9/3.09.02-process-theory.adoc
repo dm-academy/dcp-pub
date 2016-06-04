@@ -61,17 +61,18 @@ image::images/3.09-chevrons.png[]
 
 Functions, especially when they are closely aligned to an organizational structure, may be represented as a hierarchy:
 
-
+image::images/3.09-hier.png[]
 
 The following two terms are also unordered, but have different connotations from function:
 
 * Capability
-Service (sometimes)
+* Service (sometimes)
+
+Finally, the concept of *practice* has the following characteristics: It is the least formalized of the concepts. It represents a loose, conceptual area that may represent a community of interest (for example, a Java community of interest). It's not usually measured or tracked for improvement. Some topics may start as a practice and formalize into a function, for example Capacity management.
+
+To repeat: we say that an IT management capability may be implemented by a process, function, or practice
 
 
-
-
-Naming
 Processes, as a best practice, are named with active verbs.
 
 

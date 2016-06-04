@@ -1,5 +1,5 @@
 ==== Agile and IT process management
-
+Manifesto quote
 
 ===== Process management in the organization
 
@@ -12,11 +12,20 @@ Will functions stay with product centricity?
 
 ===== Bureaucratic friction
 [quote, Mike Cohn]
-Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems.
+"Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems."
 
  example of service-ized process dysfunction
  is expediting the only option?
  alternatives...
+
+===== Failure of CASE
+past a certain point of complexity (especially in event driven systems) nodes and edges do not work.
+
+orchestration vs choreography
+
+===== Agile modeling (Ambler)
+
+===== Failure of CMM
 
 ===== The design factory problem
 Misunderstanding variation

@@ -41,6 +41,8 @@ Lean Startup calls for an iterative, "Build-Measure-Learn" cycle. Repeating this
  * MoSCoW
  * 5 Whys
 
+===== Business analysis and architecture
+ Foreshadow BPM
 
 ===== Features vs. components
 

@@ -83,7 +83,9 @@ A *capability* is a generic term for a capacity or potential.
 
 A *service* is a transactional act of value, simultaneously produced and delivered (more on this later)
 
-Finally, the concept of *practice* has the following characteristics: It is the least formalized of the concepts. It represents a loose, conceptual area that may represent a community of interest (for example, a Java community of interest). It's not usually measured or tracked for improvement. Some topics may start as a practice and formalize into a function, for example Capacity management.
+Finally, the concept of *practice* is the least formalized of the concepts. It represents a loose, conceptual area that may represent a community of common interest (for example, a Java community of practice). It's not usually measured or tracked for improvement. Some topics may start as a practice and formalize into a function, for example Capacity management.
+
+Review the section on the xref:spotify-model[Spotify model]. How does it relate to the discussion here?
 
 We say that an IT management capability may be implemented by a process, function, or practice.
 
@@ -116,9 +118,13 @@ This is a deliberately older, traditional workflow. Modern organizations may acc
 
 Notice however that even in the modern scenario we have an end to end, repeatable value flow that crosses distinct domains of concern. The employee is not productive until all these steps are taken. Since the employee starts drawing payroll on hire, there is a substantial cost of delay for this entire process. A week's unproductive time could amount to $10,000 or more, wasted.
 
-Such delays can easily happen, when functional areas are focused just on their responsibility, and no-one is concerned for the overall process. This is why Rummler and Brache titled their book, _Improving Performance: How to Manage the White Space on the Organization Chart_. The "white space" they are talking about is the spaces between the functions, also termed "silos" or "towers:"
+Such delays can easily happen, when functional areas are focused just on their responsibility, and no-one is concerned for the overall process. This is why Rummler and Brache chose the title _Improving Performance: How to Manage the White Space on the Organization Chart_ for their groundbreaking book on business process. The "white space" they are talking about is the spaces between the functions, also termed "silos" or "towers:"
 
 image::images/3.09-PXFNamed.png[]
+
+You may notice that the cross functional process is named with an active verb, "Onboard." This is in contrast to the functional silos, which end in "management." This is deliberate and a well-established BPM best practice. "Onboard employee" is event-driven and countable; it has a clear beginning and end and therefore can be measured in various ways. "Human Resource Management" on the other hand has no beginning or end; it is a steady-state set of organizational concerns and resources.
+
+IMPORTANT: The idea that processes are active and countable, while functions are passive and ongoing, is critical to effective organizational design and performance management.
 
 Finally, context is everything. Notice that this end to end process of "onboard employee" belongs to the overall supporting activity of Human Resource Management in terms of the value chain we started with:
 
@@ -128,18 +134,56 @@ There is a rich variety of ways to think about enterprises and their operations 
 
 ===== Process modeling
 
-It's not all about this
+If you page back through this book, you will see many graphics: some are pictures from real life, while others are conceptual. The practice of communicating concepts through graphical forms has a long history and great breadth of application. If you have access to the Microsoft product Visio, you can get a sense of this through looking at the various templates and solutions:
+
+image::images/3.09-visio.png[]
+
+The idea that a box can represent an activity or objective, and can be linked in sequence to other boxes though lines, has been around since at least the 1920s. Many different visual languages have been developed over the years for various purposes. Some are highly formalized, others less so. The following definitions may help:
+
+A *modeling language* is a set of concepts and definitions that describes a given problem space. Modeling languages can be formalized to different degrees of precision.
+
+A *notation* is a specific set of visual symbols mapped onto a modeling language. One modeling language might have different notations.
+
+A *model* is a specific usage of a modeling language and notation to communicate some idea about a system. It may also be a verb, e.g. "I am going to *model* the system."
+
+There are many different forms of modeling, extending far beyond IT and digital management. Scientists develop models of physical processes; financial analysts develop models of the stock market. Different aspects of a digital system might be modeled at different times:
+
+* The process it is automating might be modeled as part of analysis
+* Its data structures might be modeled somewhat later
+* And when the system is running under load, capacity analysts might model its consumption of compute and network resources and develop projections for when additional capacity might be needed.
+
+Process modeling is therefore only a subset, but an important one. Process analysis is one of most important activities in the broader area of business analysis and architecture, which in turn are key to xref:2.04.00-product-mgmt[product Management] in general (as we briefly mentioned in Chapter 4).
+
+There are many process modeling languages and notations:
+
+* Generic flowcharting
+* The IDEF family
+* The Unified Modeling Language
+* Business Process Modeling Notation
+
+There are many references on these in the concluding chapter section. We will only discuss some of the more important concepts in this section:
+
+* The IGOE foundation (Input/Guide/Output/Enabler)
+* Ordering, conditionality, and synchronization
+* Swimlanes
+
+====== IGOE (Input/Guide/Output/Enabler)
+A useful framework for thinking about activities represented as icons is the IGOE approach. IGOE stands for:
+
+* Input
+* Output
+* Guide
+* Enabler
 
 
 
+====== Ordering, synchronization, and conditionality
 
-Processes, as a best practice, are named with active verbs.
+====== Swimlanes
 
-ordering, synch, conditionality
-
-Swimlanes
-
-BPMN, BPEL
+====== A final caution on technique
+Don't get caught up in it
+Keep it simple - more to come when we discuss Agile Modeling
 
 ===== RACI
 also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch

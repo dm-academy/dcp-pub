@@ -23,7 +23,7 @@ This preface covers:
 
 * A vision for a new, collaborative Agile text
 
-=== The IT industry, and the rise of Agile
+=== The IT industry, and the rise of digital
 
 A primary goal of this book, as a textbook, is to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
 
@@ -50,7 +50,7 @@ endif::collaborator-draft[]
 The challenges of this legacy are an ongoing theme throughout this introductory text. The successes of Agile are notable.
 
 === The digital challenge
- digital implies Agile. Recent HBR + McKinsey.
+ digital implies Agile. Recent HBR + McKinsey. Westerman.
 
 === Evidence for Agile
  at least 500 words well cited on the success of the new approaches and the industry consensus that Agile is here to stay.
@@ -60,6 +60,8 @@ The challenges of this legacy are an ongoing theme throughout this introductory 
  "Companies such as Immobilienscout24.de at least doubled their productivity due to the introduction of Scrum (Zeitler, 2011)."
 
  Citations of VersionOne 2011 survey.
+
+ HBR article
 
  <<Opelt2013>>
 

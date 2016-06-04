@@ -1,4 +1,4 @@
-Agile IT Management: From Startup to Enterprise (Student Edition)
+Digital: From Startup to Enterprise (Student Edition)
 =================================================================
 :doctype:   book
 :docinfo:

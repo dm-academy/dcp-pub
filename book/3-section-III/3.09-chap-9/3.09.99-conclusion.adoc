@@ -4,6 +4,8 @@ Conclusion placeholder
 
 ===== Discussion questions
 
+. Review the section on the xref:spotify-model[Spotify model]. How does it relate to the discussion here?
+
 ===== Research & practice
 
 ===== Further reading

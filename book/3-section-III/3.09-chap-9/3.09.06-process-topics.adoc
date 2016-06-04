@@ -27,6 +27,8 @@ perils of "take a number" service-ization
 
 ===== deeper theory: state charts, Petri nets
 
+===== BPMN, BPEL, and more
+
 ===== simulations
 
  systems dynamics & DES

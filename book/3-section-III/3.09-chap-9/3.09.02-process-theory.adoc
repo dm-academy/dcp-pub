@@ -63,28 +63,78 @@ Functions, especially when they are closely aligned to an organizational structu
 
 image::images/3.09-hier.png[]
 
-The following two terms are also unordered, but have different connotations from function:
+They may also be represented as nested shapes:
+
+image::images/3.09-hier-nested.png[]
+
+However - and this is an important point - functions do *not* necessarily need to reflect the organizational chart. Often, they are used as a "logical" construct, to help with organizational design.
+
+What do we mean by this?
+
+Suppose two companies merge. They may leave their organizational charts untouched for a time, because they do not know what parts of each company should merge together. They have two sets of developers, two sets of sales staff, and so on. They do not feel that either company's organizational structure is a good basis for the new, larger company.
+
+To solve this, they might create a logical functional hierarchy, with no-one's name on any part. Where their actual organization structure (temporarily) has duplication, the logical hierarchy does not. They then start to populate it with individuals and teams from the previous companies and in this way develop a new organizational structure.
+
+image::images/3.09-hier2.png[]
+
+This kind of thinking can help the organization evolve over time. If different teams are finding themselves performing similar activities, a functional analysis might indicate a new organizational structure.
+
+Finally, the following two terms are also unordered, but have different connotations from function:
 
 * Capability
 * Service (sometimes)
 
-A *capability* is a generic term for a capacity or potential
+A *capability* is a generic term for a capacity or potential.
+
 A *service* is a transactional act of value, simultaneously produced and delivered (more on this later)
 
 Finally, the concept of *practice* has the following characteristics: It is the least formalized of the concepts. It represents a loose, conceptual area that may represent a community of interest (for example, a Java community of interest). It's not usually measured or tracked for improvement. Some topics may start as a practice and formalize into a function, for example Capacity management.
 
-To repeat: we say that an IT management capability may be implemented by a process, function, or practice
+We say that an IT management capability may be implemented by a process, function, or practice.
 
-===== Naming
+===== A deeper look at processes and functions
+Processes cross functions in a repeatable way. You may have deep organizational functions such as
 
-Processes, as a best practice, are named with active verbs.
+* Human Resource Management
+* Facilities Management
+* IT Asset Management
+* Security Management
+* Network Management
+
+However, you have a value adding activity of bringing in a new employee that involved ALL of these functions:
+
+image::images/3.09-ProcXFunc.png[]
+
+. The HR department enters the employee in the HR system.
+. Either the HR department or the hiring manager requests space from Facilities Management.
+. A workstation and smart phone are requested from IT Asset Management
+. When those devices are received, Security authorizes them (and the employee) to enterprise systems (critically the enterprise directory)
+. If a wired connection is needed, Network Management may be required to "turn  on" a port in the employee's location.
+
+This is a deliberately older, traditional workflow. Modern organizations may accelerate things:
+
+. HR enters a record
+. All employees use common "hoteling" space, so the major Facilities concern is whether the space can accommodate the peak # of employees seen (e.g. at 10 AM on a Monday)
+. Equipment is either BYOD (Bring Your Own Device) or is ordered from an authorized vendor and drop-shipped directly to the employee
+. In either case, security must establish some control over the devices, so that organizational data remains secure. There are various approaches for this, even for devices owned by the employee.
+. Networking in modern organizations is almost all wireless, but the employee still requires the appropriate credentials, likely provided by security. As with facilities, Networking's concerns now move to questions of capacity and availability of the overall infrastructure.
+
+Notice however that even in the modern scenario we have an end to end, repeatable value flow that crosses distinct domains of concern. The employee is not productive until all these steps are taken. Since the employee starts drawing payroll on hire, there is a substantial cost of delay for this entire process. A week's unproductive time could amount to $10,000 or more, wasted.
+
+Such delays can easily happen, when functional areas are focused just on their responsibility, and no-one is concerned for the overall process. This is why Rummler and Brache titled their book, _Improving Performance: How to Manage the White Space on the Organization Chart_. The "white space" they are talking about is the spaces between the functions, also termed "silos" or "towers:"
+
+image::images/3.09-PXFNamed.png[]
 
 ===== Process notation
+
 It's not all about this
+Processes, as a best practice, are named with active verbs.
 
 ordering, synch, conditionality
 
 Swimlanes
+
+BPMN, BPEL
 
 ===== RACI
 also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch

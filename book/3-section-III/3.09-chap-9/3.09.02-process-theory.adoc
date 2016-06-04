@@ -24,9 +24,56 @@ However, this does not change the fact that most value has some rough ordering t
 
 The value chain as a whole is high level. We can think of a large company in these terms, but we cannot easily manage it this way. Value chains therefore are the ultimate "process" but in order for process to have value, we need to take it down a level or two.
 
- 
+In order to do this, we should clarify some terms.
 
- Practice, discipline, capability vs process
+===== Process and related terms
+
+The following terms often appear in discussions of process:
+
+* Function
+* Capability
+* Practice
+
+We will use the following definitions:
+*Process*: event-driven, value-add sequence
+*Capability*: general term for a capacity or potential
+*Practice*: set of norms, guidelines, professional identity
+
+We will say that a capability may be implemented by a process, function, or practice.
+
+A *process* is an ordered, countable set of activities; an event-driven, value-adding sequence that can be measured and improved. The following terms often are used to describe processes or their components:
+
+* Value chain
+* Value stream
+* Business process
+* Workflow
+* Procedure
+* Task
+* Step
+
+Processes *cross* functions.
+
+Visually, processes are often represented with chevrons, like Porter's original value chain:
+
+image::images/3.09-chevrons.png[]
+
+*Functions* are unordered, steady state domains of activity. An organizational chart often can be based on various functions. Functions also often imply hierarchy. They are more difficult to measure or improve; usually, improving a function means improving some process it owns or performs.
+
+Functions, especially when they are closely aligned to an organizational structure, may be represented as a hierarchy:
+
+
+
+The following two terms are also unordered, but have different connotations from function:
+
+* Capability
+Service (sometimes)
+
+
+
+
+Naming
+Processes, as a best practice, are named with active verbs.
+
 
  ordering, synch, conditionality
 

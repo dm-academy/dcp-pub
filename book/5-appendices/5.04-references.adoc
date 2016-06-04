@@ -164,6 +164,8 @@ IEEE Press.
 
 - [[[Poppendieck2003]]]: Poppendieck, M. & Poppendieck, T. D. (2003), _Lean Software Development: An Agile Toolkit_, Addison Wesley, Boston
 
+- [[[POrter1998]]]:Porter, Michael E. 1998. _Competitive Advantage: Creating and Sustaining Superior Performance : With a New Introduction._ 1st Free P. New York: Free Press. http://www.loc.gov/catdir/bios/simon051/98009581.html.
+
 - [[[Portny2013]]]: Portny, S. (2013). Project Management for Dummies. Hoboken, New Jersey, John Wiley & Sons.
 
 - [[[PMI2013]]]: Project Management Institute, 2013. A guide to the project management body of knowledge (PMBOK guide). Fifth edition.

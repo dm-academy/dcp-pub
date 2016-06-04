@@ -61,21 +61,30 @@ image::images/3.09-chevrons.png[]
 
 Functions, especially when they are closely aligned to an organizational structure, may be represented as a hierarchy:
 
-
+image::images/3.09-hier.png[]
 
 The following two terms are also unordered, but have different connotations from function:
 
 * Capability
-Service (sometimes)
+* Service (sometimes)
 
+A *capability* is a generic term for a capacity or potential
+A *service* is a transactional act of value, simultaneously produced and delivered (more on this later)
 
+Finally, the concept of *practice* has the following characteristics: It is the least formalized of the concepts. It represents a loose, conceptual area that may represent a community of interest (for example, a Java community of interest). It's not usually measured or tracked for improvement. Some topics may start as a practice and formalize into a function, for example Capacity management.
 
+To repeat: we say that an IT management capability may be implemented by a process, function, or practice
 
-Naming
+===== Naming
+
 Processes, as a best practice, are named with active verbs.
 
+===== Process notation
+It's not all about this
 
- ordering, synch, conditionality
+ordering, synch, conditionality
+
+Swimlanes
 
 ===== RACI
 also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch
@@ -98,7 +107,6 @@ One organization enthusiastically embraced process improvement, with good reason
 If processes are connected on a 1:1 basis, then we say that they are part of a single, end-to-end, business process.
 
  <<Sharp2009>>
-
 
 ====== Case Management
 

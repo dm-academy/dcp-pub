@@ -33,6 +33,15 @@ perils of "take a number" service-ization
 
  systems dynamics & DES
 
+===== Deeper theory 
+
+ http://blogs.forrester.com/jean_pierre_garbani/09-06-26-my_issue_itil
+
+ CPRET is a mnemonic for the basic definition of process in process engineering: it stands for Constraints, Product, Resources, input Elements and Transformation which are the basic components of a process. In process engineering, a process is a suite of transformations of elements into a given output (product) given a set of constraints and resources. From this definition, we can see that technology has a strong influence on the process: the transformation part is a clear function of the technology available as input and resources in IT are strongly influenced by the technology used. As we mostly deal with information and data in IT management processes, the type of data available is either helping or impeding the transformation part.
+
+ Schwaber process author - chem e guy
+
+ Kennelay - PID model
 ===== formal process control
 
 

@@ -35,11 +35,6 @@ The following terms often appear in discussions of process:
 * Practice
 
 We will use the following definitions:
-*Process*: event-driven, value-add sequence
-*Capability*: general term for a capacity or potential
-*Practice*: set of norms, guidelines, professional identity
-
-We will say that a capability may be implemented by a process, function, or practice.
 
 A *process* is an ordered, countable set of activities; an event-driven, value-adding sequence that can be measured and improved. The following terms often are used to describe processes or their components:
 
@@ -125,9 +120,17 @@ Such delays can easily happen, when functional areas are focused just on their r
 
 image::images/3.09-PXFNamed.png[]
 
+Finally, context is everything. Notice that this end to end process of "onboard employee" belongs to the overall supporting activity of Human Resource Management in terms of the value chain we started with:
+
+
+
 ===== Process notation
 
 It's not all about this
+
+
+
+
 Processes, as a best practice, are named with active verbs.
 
 ordering, synch, conditionality

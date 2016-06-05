@@ -13,6 +13,46 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
+So, what is a "framework?"
+
+The term IIprocess framework" is generally used to characterize comprehensive
+and systematic representations of a major business area by focusing on its ac-
+tivities. The first goal of any framework is to be Mutually Exclusive, Collectively
+Exhaustive (MECE) - that is, for a given conceptual space, provide a "map" that
+outlines the boundaries and covers the entire space. You are either doing Inci-
+dent 0 R Change Or Release 0 R one of several dozen other processes, and there
+should be no "in the cracks" concerns.
+
+Ve ndo rs, co nsulting firms, and academics have been apply ing analyses of va r-
+ious types to IT itself for yea rs. Many framewo rks have em erged to help und er-
+stand the overall problem . (See th e section "What is a process fram ewo rk ?"
+earlier in this chapter.) The three major fram ewo rks hav ing th e most effect
+on enterprise IT in th e United States at this writing are CO Brr"', CMMI " ,
+and ITIL "', altho ugh there are other public and semi pub I ic fram ewo rks such
+as the App lication Services Library, Business In formation Servi ces Library,
+and Info rm ati o n Systems Procurem ent Libra ry, as well as less formalized pub-
+lish ing ho use li braries and propri etary fram eworks owned by th e major consul-
+tancies and research firms .
+COB IT<8>, ITIL <8>, and CMM I<8> provide significant perspecti ves o n major o ngoing
+capabil ities and fun ctions th at the large IT o rgan iza tion must perform and in
+general are developed fro m the perspective of steady-state functi o ns, as o pposed
+to a value strea m or rigorous process perspective. (Agai n, revi ew lheir major
+concepts and ask yo urself which are "countable." ) Alo ng with the value stream
+ana lys is presented in th e previo us cha pter, they serve as useful statem ents of
+requirem ents for the data, system , and pattern analysis in the next chapters.
+
+In closing, IT capability frameworks can be harmful if they lead to fragmen-
+tation of improvement effort and lack of focus on the flow of IT value. In
+the imagery of Eli Goldratt, the problem with CMMI@, COBIT®, and mL <II>
+is that they do not help you find the heavy Boy Scout. They don't point
+you towards the IT equivalent of the $2 million computerized machine
+tool that actually reduced the plant's profitability. And it seems likely that
+large-scale IT might be vulnerable to such constraints.
+So, the synthesized capability framework in the following section is presented
+with the caution that although it serves as a reasonable consensus representa-
+tion of all of the major concerns one encounters in the large IT organization, it
+is distinct from and subordinate to the process architecture.
+
 ===== Process vs function in the frameworks
 
 ===== ITIL

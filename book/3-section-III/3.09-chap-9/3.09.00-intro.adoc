@@ -53,7 +53,7 @@ image::images/3.09-complexKanban.png[]
 
 And when tasks become more routine and specialized, formal process management starts to emerge.
 
-Processes are how we ensure consistency, repeatability, and quality. You get expected treatment at banks, coffee shops, and dentists because they follow processes. IT systems often enable processes – a mortgage origination system is based on IT software that enforces a consistent process. IT management itself follows certain processes, for all the same reasons as above
+Processes are how we ensure consistency, repeatability, and quality. You get expected treatment at banks, coffee shops, and dentists because they follow processes. IT systems often enable processes – a mortgage origination system is based on IT software that enforces a consistent process. IT management itself follows certain processes, for all the same reasons as above.
 
 Process, in terms of "business process," has been a topic of study and professional development for many years. Pioneering Business Process Management (BPM) authors such as Michael Hammer <<Hammer1993>> and Geary Rummler <<Rummler1995>> have had an immense impact on business operations. Toyota considers a clear process vision, or "target condition," to be the most fundamental objective in improving operations (<<Rother2010>>, chapters 5-6).  Designing processes, improving them, and using them to improve overall performance is an ongoing activity in most if not all organizations.
 

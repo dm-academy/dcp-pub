@@ -171,21 +171,41 @@ There are many references on these in the concluding chapter section. We will on
 A useful framework for thinking about activities represented as icons is the IGOE approach <<BPTrends2013>>. IGOE stands for:
 
 * Inputs
-* Outputs
 * Guides
+* Outputs
 * Enablers
 
 image::images/3.09-IGOE.png[]
 
 *Inputs* include the information or event stimulus that initiates the activity. They also include resources that will be consumed in the course of the activity.
 
-*Outputs* include the final, value-added outcome of the activity, and also serve as a signal for downstream activities to commence.
-
 *Guides* govern the process, setting constraints and expectations (e.g. current HR policies). They are not consumed.
+
+*Outputs* include the final, value-added outcome of the activity, and also serve as a signal for downstream activities to commence.
 
 *Enablers* support the process, without being immediately consumed. Examples include infrastructure and facilities support.
 
+The IGOE approach is seen in the classic IDEF0 standard (the terms used there were Inputs, Controls, Outputs, Mechanisms). This is a form of *functional modeling* which is *not* event driven but rather is used to scope higher level interactions between areas.
+
+The original intent of the IDEF0 standard was for a multi-level, decomposition approach, A high level scope would be elaborated thus:
+
+image::images/3.09-IGOE2.png[]
+
+However, there is not a clear sense of the events, since the primary objects are still the functions. There also is the temptation to insert extraneous information, as indicated in the line between Facilities Management and IT Asset Management labeled "Provides space for ??".
+
+It is true that Facilities Management does provide space for the IT Asset Management Team (in fact, all of these functions provide services to each other), but to draw this would result in a "spaghetti" diagram with several dozen lines, and not much explanatory power.
+
+Purely functional modeling of this nature is therefore limited in usefulness, although it can be a good place to start.
+
 ====== Ordering, synchronization, and conditionality
+Activities in process modeling, by contrast, emphasize active verbs:
+
+* Hire
+* Assign
+* Supply
+* Create
+* Authorize
+
 Multiple activities can be sequenced and this is often represented as a series of shapes connected by arrows:
 
 image::images/3.09-ordering1.png[]
@@ -211,25 +231,45 @@ image::images/3.09-swimlanes.png[]
 
 Adding the swimlanes helps us understand the cross-functional handoffs, and also where certain activities will remain within the scope of one function. Another interesting, finer point is the question of the synch points. Observe the synch point in the Network Management swimlane. Its presence implies that the Network Management function must confirm that the employee has equipment and a directory in the enterprise directory.
 
-You may notice that this diagram has been "rotated." The diagram was becoming too long if drawn left to right. UML Activity Diagrams frequently use this approach. The meaning of the diagram is not changed.
+You may notice that this diagram has been "rotated." The diagram was becoming too long if drawn left to right. UML Activity Diagrams frequently use a top-to-bottom approach. The meaning of the diagram is not changed.
 
-With the above discussion, we have covered in a summary form the basics of business process modeling. We finish this chapter section with a discussion of some higher-level BPM practices and concerns.
+====== A final caution on technique
+The techniques briefly discussed here can be applied and combined in many different ways, and result in models of large scope and complexity. However there are crucial limitations to visual representations of complexity.
 
-===== Process granularity
+There are endless nuances and debates about BPM notations, methodology, and philosophy. Don't get caught up in it. Modeling should generate simple, clear artifacts that are useful by a broad audience, and it should not become an end in itself, or (in general) consume inordinate amounts of time. We will discuss this further in the chapter section on Agile.
+
+With the above discussion, we have covered in a summary form the basics of business process modeling. We finish this chapter section with a discussion of some higher-level BPM pitfalls.
+
+
+===== The pitfall of process "silos"
 [quote, Alex Sharp, Workflow Modeling]
 One organization enthusiastically embraced process improvement, with good reason: customers, suppliers, and employees found the company's processes slow, inconsistent, and error prone. Unfortunately, they were so enthusiastic that each team defined the work of their small group or department as a complete process. Of course, each of these was in fact the contribution of a specialized functional group to some larger, but unidentified, processes. Each of these "processes" was "improved" independently, and you can guess what happened. +
  +
 Within the boundaries of each process, improvements were implemented that made work more efficient from the perspective of the performer. However, these mini-processes were efficient largely because they had front-end constraints that made work easier for the performer but imposed a burden on the customer or the preceding process. The attendant delay and effort meant that the true business processes behaved even more poorly than they had before. This is a common outcome when processes are defined too "small." Moral: Don't confuse subprocesses or activities with business processes.
 
+ obtain permission
+
+The above quote well illustrates the dangers of combining local optimization and  process management. Many current authors speak highly of self-organizing teams, but self-organizing teams may seek to optimize locally. Process management was originally intended to overcome this problem, but modeling techniques can be applied at various levels, including within specific departments. This is where enterprise business architecture can assist, to identify these longer, end to end flows of value and highlight the handoff areas, so that the process benefits the larger objective.
+
+===== The pitfall of process complexity
+A related problem is when the process simply becomes too complex for humans to follow. Multi-page process models are rarely consulted, even if the team affected developed them. This is especially true when there are many optional or conditional steps in the process.
+
+There are two related lines of response to this:
+
+* Case Management
+* The Checklist Manifesto
+
 ====== Case Management
 
-===== Process vs execution
+NOTE: Do not confuse "Case" here with Computer Assisted Software Engineering.
 
-(execution includes concern for resource)
+Case management is a concept used in medicine, law, and social services. Case management can be thought of as a high-level process supporting the skilled knowledge worker applying their professional expertise.
 
+image::images/3.09-casemgmt.png[]
 
+Case
 
-===== The Checklist Manifesto
+====== The Checklist Manifesto
 RACI revisited
 Steady state expectations become tasks for PMs to track
 
@@ -237,13 +277,7 @@ The problem of determinism
 Required interactions as well as required steps
 Process as a Mintzberg liaison mechanism
 
-===== A final caution on technique
-The techniques briefly discussed here can be applied and combined in many different ways, and result in models of large scope and complexity. However there are crucial limitations to visual representations of complexity.
+====== Process proliferation
 
-There are endless nuances and debates about BPM notations, methodology, and philosophy.
 
-Don't get caught up in it
-
-Keep it simple - more to come when we discuss Agile Modeling
-
-* "Process" at Toyota (Rother)
+(execution includes concern for resource)

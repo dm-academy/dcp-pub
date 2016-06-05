@@ -150,6 +150,8 @@ IEEE Press.
 
 - [[[Narayam2015]]]: Narayam, S. (2015). Agile IT organization design: for digital transformation and continuous delivery, Pearson Education Inc. .
 
+- [[[NIST1993]]]: NIST. 1993. “Integration Definition for Function Modeling (IDEF0).” http://www.idef.com/idefo-function_modeling_method/.
+
 - [[[Nygard2007]]]: Nygard, M.T., 2007. _Release it! : design and deploy production-ready software._ The pragmatic programmers, Raleigh, N.C.: Pragmatic Bookshelf. xvi, 350 p.
 
 - [[[OASIS2013]]]: OASIS (2013), "Topology and Orchestration Specification for Cloud Applications Version 1.0 (TOSCA)", http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html

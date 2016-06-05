@@ -75,7 +75,32 @@ _“…some will tell you that when things are this bad, you throw it all away a
 
 IT management at scale within an organization is a complex system. Complex systems do not respond well to dramatic perturbations. They are best changed incrementally, with careful monitoring of the consequences of each small change. (This is part of the systems theory foundation underlying the Agile movement.)
 
-So, how do we undertake Agile transformation? For longer term, more ambitious goals, while we cannot plan in advance how any given change initiative will play out, we *can* develop awareness.
+This is why the book, especially in the later chapters, starts with relatively straightforward and uncritical presentations of the following topics:
+
+* Project management
+* Process management
+* Governance, risk, security, and compliance
+* Enterprise information management
+* Enterprise architecture and portfolio management
+
+While these practices, and their associated approaches and policies, have caused friction with digital and Agile practitioners, they all have their reasons for existing. The goal of this book is to understand their interaction with the new digital approaches, but in order to do this we must first understand them on their own terms. It does no good to develop a critique based on misconceptions or exaggerations about what (for example) "process management" is all about.
+
+Instead, we try to break these large and sometimes controversial topics down into smaller, more specific topics - "lowest common denominators," perhaps:
+
+* Work
+* Ordering of tasks
+* Task dependencies
+* Estimation vs. commitment
+* Repeatability
+* Synchronization and cadence
+* Resource demand
+* Shared mental models
+* Mission objectives vs perimeter defense
+* Technical debt
+
+and so forth.
+
+So, how do we undertake digital transformation? For longer term, more ambitious goals, while we cannot plan in advance how any given change initiative will play out, we *can* develop awareness.
 
 The idea of the OODA loop is popular in the Agile community. OODA stands for Orient, Observe, Decide, Act, a set of concepts developed by Air Force colonel John Boyd in analyzing the performance of aviators in the Korean War. The faster an actor can move through this cycle, the more effective they will be.
 

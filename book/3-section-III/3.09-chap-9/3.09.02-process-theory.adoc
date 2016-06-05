@@ -213,16 +213,18 @@ Adding the swimlanes helps us understand the cross-functional handoffs, and also
 
 You may notice that this diagram has been "rotated." The diagram was becoming too long if drawn left to right. UML Activity Diagrams frequently use this approach. The meaning of the diagram is not changed.
 
-====== A final caution on technique
-The techniques briefly discussed here can be applied and combined in many different ways, and result in models of large scope and complexity. However there are crucial limitations to visual representations of complexity.
-
-There are endless nuances and debates about notations, methodology, and philosophy. 
-
-Don't get caught up in it
-
-Keep it simple - more to come when we discuss Agile Modeling
+With the above discussion, we have covered in a summary form the basics of business process modeling. We finish this chapter section with a discussion of some higher-level BPM practices and concerns.
 
 ===== RACI
+RACI stands for
+
+* Responsible
+*  Accountable
+* Consulted
+* Informed
+
+A RACI analysis is often used when accountability must be  
+
 also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch
 
 but most refined in process approaches
@@ -260,8 +262,14 @@ Rule engines
   Required interactions as well as required steps
   Process as a Mintzberg liaison mechanism
 
+====== A final caution on technique
+The techniques briefly discussed here can be applied and combined in many different ways, and result in models of large scope and complexity. However there are crucial limitations to visual representations of complexity.
 
+There are endless nuances and debates about BPM notations, methodology, and philosophy.
 
+Don't get caught up in it
+
+Keep it simple - more to come when we discuss Agile Modeling
 
 
 * "Process" at Toyota (Rother)

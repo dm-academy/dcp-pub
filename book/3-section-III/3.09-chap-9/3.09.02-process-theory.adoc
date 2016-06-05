@@ -194,21 +194,29 @@ Notice these activities align to the overall cross-functional flow we discussed 
 
 image::images/3.09-ordering2.png[]
 
-However, we encounter a problem with
+However, we encounter a complication. In order to describe this process accurately, we should note that some people do not have space assigned, if they are primarily telecommuting and/or working in "hoteling" space. We want to show a decision point, which in many notations is represented by a diamond.
+
+image::images/3.09-ordering4.png[]
 
 Finally, this ordering is taking too long, because people are waiting for space to be assigned before doing anything else. This is a well understood problem; processes can branch and run in parallel (you may well be writing code that works this way; human processes also do this). In UML, the term is "fork" for when processes diverge to run in parallel, and "join" when they must again synchronize for the next activity to continue:
 
 image::images/3.09-ordering3.png[]
 
-In the above diagram, we see that 3 activities can commence independently when the employee is hired, but network access requires that the employee have both an entry in the enterprise directory, as well as their hardware supplied.
-
-Similarities to project management - except with project management they only solve this one.
-
+In the above diagram, we see that 3 activities (including the decision point) can commence independently when the employee is hired, but network access requires that the employee have both an entry in the enterprise directory, as well as their hardware supplied. The entire process is complete when their space, equipment, and access needs have been met.
 
 ====== Swimlanes
+We made much of the fact that processes cross functions, and yet with our final diagram we have lost our view of this fact. We can re-introduce the functional boundaries through the use of swimlanes (pioneered by Rummler in <<Rummler1995>>):
+
+image::images/3.09-swimlanes.png[]
+
+Adding the swimlanes helps us understand the cross-functional handoffs, and also where certain activities will remain within the scope of one function. Another interesting, finer point is the question of the synch points. Observe the synch point in the Network Management swimlane. Its presence implies that the Network Management function must confirm that the employee has equipment and a directory in the enterprise directory.
+
+You may notice that this diagram has been "rotated." The diagram was becoming too long if drawn left to right. UML Activity Diagrams frequently use this approach. The meaning of the diagram is not changed.
 
 ====== A final caution on technique
-endless nuances and debates
+The techniques briefly discussed here can be applied and combined in many different ways, and result in models of large scope and complexity. However there are crucial limitations to visual representations of complexity.
+
+There are endless nuances and debates about notations, methodology, and philosophy. 
 
 Don't get caught up in it
 

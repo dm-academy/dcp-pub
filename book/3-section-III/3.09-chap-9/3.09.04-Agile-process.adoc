@@ -6,6 +6,8 @@ Manifesto quote
 
 Will functions stay with product centricity?
 
+Binary thinking - Stroustrup quote. 
+
 ===== Self organization?
 
 * Self-organizing (kanban) processes vs. formalized process frameworks.

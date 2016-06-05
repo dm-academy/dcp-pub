@@ -8,6 +8,7 @@ Architecture and governance are two topics that become more important as a compa
 
 Vendor relationships become a two-edged sword, providing increased value with access to higher levels of vendor resources, but at the cost of increased lock-in. Pure open-source strategies inevitably become corrupted by business realities.
 
+IMPORTANT: As with other chapters in the later part of this book, we are going to introduce this topic "on its own terms." We will then add additional context and critique in subsequent sections.
 
 ===== Chapter 12 outline
 * the IT lifecycles

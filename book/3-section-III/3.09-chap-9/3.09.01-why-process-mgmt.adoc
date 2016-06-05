@@ -5,6 +5,8 @@ Is a firm a collection of activities or a set of resources and capabilities? Cle
 
 We have previously discussed product and project management. You may wish to review our summary description of xref:2.04.01-process-project-product[process, product, and project management].
 
+IMPORTANT: As with other chapters in the later part of this book, we are going to introduce Process Mangement "on its own terms." We will then add additional context and critique in subsequent sections. 
+
 Process management starts with the fundamental capability for coordinated xref:2.05.00-work-management[work management], and refines it much further.
 
 In our company, work has been specializing. A simple card-based kanban approach is no longer sufficient. We are finding that some work is repetitive, and we need to remember to do certain things in certain orders.
@@ -47,7 +49,7 @@ Project management adds concerns of task ordering and resource management, for p
 Project management and process management interact in 2 primary ways:
 
 * Projects often are used to create and deploy processes. A large system implementation (e.g. of a Enterprise Resource Planning module such as Human Resource Management) will often be responsible for process implementation including training.
-* As environments mature, projects require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. To the extent these are managed as repeatable, optimized processes, project risk is reduced.
+* As environments mature, product and/or project teams require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. The same is true for product teams that may not be using a "project" concept to manage their work. To the extent these are managed as repeatable, optimized processes, risk is reduced.
 
 ===== Process and organization
 Processes are much more than repeatable activities. Many leading thinkers (such as Michael Porter, quoted at the start of this chapter section) see organizations primarily as sets of interacting processes, supporting fundamental end to end value chains or value streams. We will talk more about this in the next chapter section.

@@ -42,6 +42,8 @@ Chapter 7
 xref:spotify-model[Spotify model]
 
 chapter 8
+xref:submittal-schedule[submittal schedule]
+
 xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]
 xref:trad-IT-decline[decline of traditional IT]

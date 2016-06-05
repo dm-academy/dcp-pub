@@ -65,6 +65,8 @@
 
 - [[[Edwards2012]]]: Edwards, D. (2012), "Integrating DevOps tools into a Service Delivery Platform", http://dev2ops.org/2012/07/integrating-devops-tools-into-a-service-delivery-platform-video/
 
+- [[[England2013]]]: England, Rob. 2013. _Plus! The Standard+Case Approach: See Service Response in a New Light_. Mana, New Zealand: Two Hills Ltd.
+
 - [[[Flahiff2016]]]: Flahiff, J. (2016). "How organizational agility will save and destroy your company." from http://searchcio.techtarget.com/tip/How-organizational-agility-will-save-and-destroy-your-company. Accessed March 19, 2016.
 
 - [[[Fowler2003]]]: Fowler, M. (2003), _Patterns of enterprise application architecture_, Addison-Wesley, Boston
@@ -184,6 +186,8 @@ IEEE Press.
 
 - [[[Ries2011]]]: Ries, E. (2011), _The lean startup : how today's entrepreneurs use continuous innovation to create radically successful businesses_, Crown Business, New York
 
+- [[[Rother2003]]]: Rother, Mike, and John Shook. 2003. “Learning to See: Value Stream Mapping to Add Value and Eliminate MUDA [Spiral-Bound].” Lean Enterprise Institute. doi:10.1109/6.490058.
+
 - [[[Rother2010]]]: Rother, M. (2010). _Toyota kata : managing people for improvement, adaptiveness, and superior results_. New York, McGraw Hill.
 
 - [[[Royce1970]]]: Royce, W. "Managing the Development of Large Software Systems."" in Proc. IEEE WESCON. 1970. Los Angeles: IEEE.
@@ -227,6 +231,8 @@ IEEE Press.
 - [[[Thompson2014]]]: Thompson, L. (2014), "Hitchhikers Guide to OpenStack Toolchains", https://www.openstack.org/assets/presentation-media/Hitchhikers-Guide-to-OpenStack-Toolchains.pdf
 
 - [[[Tikka2013]]]: Tikka, A., 2013. "Coordination Chaos." Slideshare deck. http://www.slideshare.net/gosei/coordination-chaos?related=1 Accessed: 2015.10.25.
+
+- [[[WFMC2010]]]: WFMC. 2010. “Adaptive Case Management.”  http://www.xpdl.org/nugen/p/adaptive-case-management/public.htm. Accessed 2016-06-04.
 
 - [[[Whittaker2012]]]: Whittaker, J.A., J. Arbon, and J. Carollo, 2012, _How Google tests software_, Upper Saddle River, NJ: Addison-Wesley. xxvii, 281 p.
 

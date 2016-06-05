@@ -175,13 +175,14 @@ All of them are essentially similar in approach and assumption: build a shared u
 [quote, Atul Gawande, The Checklist Manifesto]
 The philosophy is that you push the power of decision making out to the periphery and away from the center. You give people the room to adopt, based on their experiences and expertise. All you ask is that they talk to one another and take responsibility. That is what works.
 
-
 A variety of liaison and coordination approaches are suggested by Mike Cohn (<<Cohn2010>>, Chapter 17, "Scaling Scrum") including:
 
 * Shared team members
 * Integration teams
 * Communities of practice
 * Scrum of scrums
+
+ Refactor this. Include submittal schedules in list. Find out Cohn's original sources. Other techniques?
 
 *Shared team members* are suggested when two teams have a persistent interface requiring focus and ownership. When a product has multiple interfaces that emerge as a problem requiring focus, an *integration team* may be called for. *Communities of practice* were introduced in Chapter 7 as we discussed the xref:spotify-model[Spotify model]. Considered here, they may also play a coordination role as well as a practice development/maturity role.
 
@@ -190,6 +191,7 @@ Finally, the idea of a "scrum of scrums" is essentially a representative or dele
 <<Cohn2010>> (p342) cautions: "A scrum of scrums meeting will feel nothing like a daily scrum despite the similarities in names. The daily scrum is a synchronization meeting: individual team members come together to communicate about their work and synchronize their efforts.The scrum of scrums, on the other hand, is a problem-solving meeting and
 will not have the same quick, get-in-get-out tone of a daily scrum."
 
+anchor:submittal-schedule[]
 Another perspective on this is found in The Checklist Manifesto <<Gawande2010>>. Some work, while detailed, can be planned to a high degree of detail (i.e. the "checklists" of the title). However, emergent complexity requires different approach - no checklist can anticipate all eventualities. To handle all the emergent complexity, the coordination focus must shift to structuring the right communications. In examining modern construction industry techniques, Gawande noted the concept of the "submittal schedule," which "didn't specify construction tasks; it specified _communication_ tasks" (p. 65, emphasis supplied).
 
 ====== Planning techniques

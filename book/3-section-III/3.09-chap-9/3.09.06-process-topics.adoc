@@ -24,6 +24,7 @@ Degree of automation
 perils of "take a number" service-ization
 
 
+
 ===== deeper theory: state charts, Petri nets
 
 ===== BPMN, BPEL, and more
@@ -33,6 +34,7 @@ perils of "take a number" service-ization
  systems dynamics & DES
 
 ===== Deeper theory
+ Process as a Mintzberg liaison mechanism
 
  http://blogs.forrester.com/jean_pierre_garbani/09-06-26-my_issue_itil
 

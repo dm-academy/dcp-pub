@@ -52,6 +52,8 @@ Visually, processes are often represented with chevrons, like Porter's original 
 
 image::images/3.09-chevrons.png[]
 
+There is no industry standard that definitely lists the concepts above in terms of granularity. Is a "task" larger or smaller than a "procedure?" We will not discuss these much. However, between the high level concept of "value chain" and the concepts of "process" and "activity," is the concept of "value stream."  This is a key concept from the Lean community, and is a relatively higher-level concept (a value chain decomposes into value streams, according to some.) A value stream for example could be the complete manufacturing and sales process for one product family. Because they are more specific, value streams are more measurable and countable. Optimizing them in terms of eliminating wasted time, effort and inventory is an objective of Lean thinking. See _Learning to See_ by Rother and Shook <<Rother2003>>.
+
 *Functions* are unordered, steady state domains of activity. An organizational chart often can be based on various functions. Functions also often imply hierarchy. They are more difficult to measure or improve; usually, improving a function means improving some process it owns or performs.
 
 Functions, especially when they are closely aligned to an organizational structure, may be represented as a hierarchy:
@@ -267,17 +269,33 @@ Case management is a concept used in medicine, law, and social services. Case ma
 
 image::images/3.09-casemgmt.png[]
 
-Case
+To quote the Workflow Management Coalition:
+****
+[Business Process Modeling] and [Case Management] are useful for different kinds of business situations.
+
+* Highly predictable and highly repeatable business situations are best supported with BPM.
+** For example signing up for cell phone service: it happens thousands of times a day, and the process is essentially fixed.
+* Unpredictable and unrepeatable business situations are best handled with ACM.
+** For example investigation of a crime will require following up on various clues, down various paths, which are not predictable before hand. The are various tests and procedures to use, but they will be called only when needed.
+<<WFMC2010>>, via <<England2013>>
+****
+
+Noted IT consultant and author Rob England contrasts "case management" with "standard process" in his book  _Plus! The Standard+Case Approach: See Service Response in a New Light_. Some processes are repeatable and can be precisely standardized, but it is critical for anyone working in complex environments to understand the limits of this.
 
 ====== The Checklist Manifesto
-RACI revisited
-Steady state expectations become tasks for PMs to track
+The Checklist Manifesto is the name of a notable book by author/surgeon Atul Gawande <<Gawande2010>>. The title can be misleading; the book in no way suggests that all work can be reduced to repeatable checklists. Instead, it is another in depth examination of the  relationship between standardization and complexity. Like case management, it addresses the problem of complex activities requiring professional judgement.
 
-The problem of determinism
-Required interactions as well as required steps
-Process as a Mintzberg liaison mechanism
+Unlike case management, it explores more time-limited and often urgent activities such as flight operations, large scale construction, and surgery. These activities, as a whole, cannot be reduced to one master process; there is too much variation and complexity.
 
-====== Process proliferation
+However, within the overall bounds of flight operations, or construction, or surgery, there are critical sequences of events that MUST be executed, often in a specific order. Gawande discusses the airline industry as a key exemplar of this. Instead of one "master checklist" there are specific, clear, brief checklists for a wide variety of scenarios, such as a cargo hold door becoming unlatched.
 
+There are similarities and differences between core BPM approaches and checklists. Often, business process management is employed to describe processes that are automated and where their progress is tracked in a database. Checklists, on the other hand, may be more manual, and may represent a briefer period of time.
 
-(execution includes concern for resource)
+Finally, in chapter 8, we discussed the concept of the xref:submittal-schedule[submittal schedule], which Gawande encountered in his discussions with the construction industry. In this approach, the actual, trackable task is that *two or more parties consult with each other.* This technique is also applicable in a BPM and Case Management sense.
+
+===== Process proliferation
+The final pitfall we cover here is that of process proliferation.
+
+resource
+complexity
+context switching

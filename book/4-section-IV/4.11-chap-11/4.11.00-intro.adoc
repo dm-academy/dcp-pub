@@ -8,6 +8,7 @@
 
  Analytics and metrics are a related topic for IT management. There are many ways that metrics can be used and misused. A clear understanding of organizational goals is essential to any metrics strategy. Analytics similarly requre an overall framework of continuous improvement so that their insights lead to real actions and value.
 
+IMPORTANT: As with other chapters in the later part of this book, we are going to introduce this topic "on its own terms." We will then add additional context and critique in subsequent sections.
 
 ===== Chapter 11 outline
 

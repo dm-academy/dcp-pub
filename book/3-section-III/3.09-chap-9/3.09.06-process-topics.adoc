@@ -1,6 +1,5 @@
 ==== Topics in process management
 
-
 ===== Cynefin and "best practice"
 
 ===== Process antipatterns
@@ -33,7 +32,7 @@ perils of "take a number" service-ization
 
  systems dynamics & DES
 
-===== Deeper theory 
+===== Deeper theory
 
  http://blogs.forrester.com/jean_pierre_garbani/09-06-26-my_issue_itil
 

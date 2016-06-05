@@ -10,7 +10,7 @@ Process management is grounded in business fundamentals. Businesses convert inpu
 This act of *conversion* is a *process*. The overall process has been described by Michael Porter as a "value chain."
 
 image::images/3.09-valCh.png[]
-Value Chain similar to <<Porter1998>>.
+_Value Chain similar to <<Porter1998>>._
 
 Note the progression along the bottom: first, raw materials are acquired, then manufactured, then distributed at which point they are marketed and sold, and ultimately serviced. Porter termed this set of activities "Primary."
 
@@ -289,13 +289,37 @@ Unlike case management, it explores more time-limited and often urgent activitie
 
 However, within the overall bounds of flight operations, or construction, or surgery, there are critical sequences of events that MUST be executed, often in a specific order. Gawande discusses the airline industry as a key exemplar of this. Instead of one "master checklist" there are specific, clear, brief checklists for a wide variety of scenarios, such as a cargo hold door becoming unlatched.
 
-There are similarities and differences between core BPM approaches and checklists. Often, business process management is employed to describe processes that are automated and where their progress is tracked in a database. Checklists, on the other hand, may be more manual, and may represent a briefer period of time.
+There are similarities and differences between core BPM approaches and checklists. Often, business process management is employed to describe processes that are automated and whose progress is tracked in a database. Checklists, on the other hand, may be more manual, and may represent a briefer period of time.
 
 Finally, in chapter 8, we discussed the concept of the xref:submittal-schedule[submittal schedule], which Gawande encountered in his discussions with the construction industry. In this approach, the actual, trackable task is that *two or more parties consult with each other.* This technique is also applicable in a BPM and Case Management sense.
 
 ===== Process proliferation
 The final pitfall we cover here is that of process proliferation.
 
-resource
-complexity
-context switching
+Process is a powerful tool. Ultimately it is how value is delivered. However, too many processes can have negative results on an organization.
+
+Review the fundmentals of process modeling above. One thing that you do not see is any attention to the resource impacts of the process. This is a primary difference between project and process management; in process management, resource availability is in general assumed.
+
+More advanced forms of process modeling and simulation (see " https://www.google.com/search?q=discrete+event+simulation[discrete event simulation])" can provide insight into the resource demands for processes. However, such techniques 1) require specialized tooling and 2) are not part of the typical BPM practitioner's skillset.
+
+Many enterprise environments have multiple cross-functional processes:
+
+* service requests,
+* compliance certifications,
+* asset validations,
+* provisioning requests,
+* capacity assessments,
+* change approvals,
+* training obligations,
+* performance assessments,
+* audit responses,
+* expense reporting,
+* travel approvals,
+
+and many more.
+
+Such processes can be implemented on the assumption that enterprises can always accommodate another process. The result can be dramatic overburden for digital staff in complex environments.
+
+It is therefore advisable to at least keep an inventory of processes that may impose demand on staff, and understand both the aggregate demand as well as the degree of xref:multi-tasking[multi-tasking and context-switching] that may result (as discussed in Chapter 5). Thorough automation of all processes to the maximum extent possible can also drive value, as both load and distraction are reduced.
+
+We now turn to one of the causes for process proliferation: the industry frameworks.

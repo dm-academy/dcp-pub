@@ -5,7 +5,7 @@ Is a firm a collection of activities or a set of resources and capabilities? Cle
 
 We have previously discussed product and project management. You may wish to review our summary description of xref:2.04.01-process-project-product[process, product, and project management].
 
-IMPORTANT: As with other chapters in the later part of this book, we are going to introduce Process Mangement "on its own terms." We will then add additional context and critique in subsequent sections. 
+IMPORTANT: As with other chapters in the later part of this book, we are going to introduce Process Mangement "on its own terms." We will then add additional context and critique in subsequent sections.
 
 Process management starts with the fundamental capability for coordinated xref:2.05.00-work-management[work management], and refines it much further.
 
@@ -40,16 +40,31 @@ To repeat, the digital service *is* fundamentally an automated process. That's w
 
 So, the kanban board has started to elaborate. We're seeing more and more work that needs to follow a sequence, or checklist... Wait, didn't we see that in the chapter on Project Management?
 
-We discussed task ordering in Chapter 8. However, projects are not usually seen as repeatable. Process management is when we need to start managing multiple processes and considering their interdependencies, perhaps using common methods to define them and even common tooling to support multiple processes. The following diagram might help:
+We discussed task ordering in Chapter 8. However, projects are not usually seen as repeatable.
+
+It all starts with just "work." The following diagram might help:
 
 image::images/3.09-wrk-prj-proc.png[]
 
-Project management adds concerns of task ordering and resource management, for projects typically executed on a one-time basis. Process management is also concerned with ordering, but less so with the resource load (more on this below), and instead is concerned with repeatability and ongoing improvement.
+Project management adds concerns of task ordering and resource management, for projects typically executed on a one-time basis.
+
+Process management is also concerned with ordering, but less so with the resource load (more on this below), and instead is concerned with repeatability and ongoing improvement.
+
+Process management is when we need to start managing
+
+* multiple,
+* repeatable,
+* measurable sequences of activity,
+* considering their interdependencies,
+* perhaps using common methods to define them,
+* and even common tooling to support multiple processes.
 
 Project management and process management interact in 2 primary ways:
 
 * Projects often are used to create and deploy processes. A large system implementation (e.g. of a Enterprise Resource Planning module such as Human Resource Management) will often be responsible for process implementation including training.
-* As environments mature, product and/or project teams require process support. As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. The same is true for product teams that may not be using a "project" concept to manage their work. To the extent these are managed as repeatable, optimized processes, risk is reduced.
+* As environments mature, product and/or project teams require process support.
+
+As Richardson notes in _Project Management Theory and Practice_, "there are many organizational processes that are needed to optimally support a successful project." <<Richardson2010>> For example, the project may require predictable contractor hiring, or infrastructure provisioning, or security reviews. The same is true for product teams that may not be using a "project" concept to manage their work. To the extent these are managed as repeatable, optimized processes, risk is reduced.
 
 ===== Process and organization
 Processes are much more than repeatable activities. Many leading thinkers (such as Michael Porter, quoted at the start of this chapter section) see organizations primarily as sets of interacting processes, supporting fundamental end to end value chains or value streams. We will talk more about this in the next chapter section.

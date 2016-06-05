@@ -32,13 +32,7 @@ However, some team members are cautious of the word "process". The term "process
 
 "I can't write code according to someone's recipe!," a third says with some passion, and to general agreement from the developers in the room.
 
-The irony is that digital products are based on process automation. The idea that certain tasks can be done repeatably and at scale through digitization is fundamental to all use of computers:
-
-* ride sharing applications
-* electronic mail transmission
-* "Hire Employee" as an automated transaction in a Human Resource Management System
-
-To repeat, the digital service *is* fundamentally an automated process, one that can be intricate and complicated. That's what computers do. But process management also spans human activities, and that's where things get more complex.
+The irony is that digital products are based on process automation. The idea that certain tasks can be done repeatably and at scale through digitization is fundamental to all use of computers. The digital service *is* fundamentally an automated process, one that can be intricate and complicated. That's what computers do. But process management also spans human activities, and that's where things get more complex.
 
 ===== From work to process management
 

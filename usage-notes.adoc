@@ -59,6 +59,9 @@ xref:9-figure-true-up[9 figure true-up]
 
 xref:cost-accounting-def[]
 
+chapter 9
+xref:continuous-improvement[]
+
 chapter 10
 xref:IT-lifecycles[IT lifecycles]
 xref:sourcing[sourcing]

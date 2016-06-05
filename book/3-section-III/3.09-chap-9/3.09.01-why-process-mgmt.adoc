@@ -5,13 +5,11 @@ Is a firm a collection of activities or a set of resources and capabilities? Cle
 
 We have previously discussed product and project management. You may wish to review our summary description of xref:2.04.01-process-project-product[process, product, and project management].
 
-IMPORTANT: As with other chapters in the later part of this book, we are going to introduce Process Mangement "on its own terms." We will then add additional context and critique in subsequent sections.
-
 Process management starts with the fundamental capability for coordinated xref:2.05.00-work-management[work management], and refines it much further.
 
 In our company, work has been specializing. A simple card-based kanban approach is no longer sufficient. We are finding that some work is repetitive, and we need to remember to do certain things in certain orders.
 
-For example, a new Human Resources (HR) manager was hired. The HR manager decided that a simple Kanban card of "hire someone new for us" was not sufficient. As she pointed out to the team, hiring needed to follow a defined sequence of tasks:
+For example, a new Human Resources (HR) manager was hired. The HR manager decided that a sticky note of "hire someone new for us" was not sufficient. As she pointed out to the team, hiring needed to follow a defined sequence of tasks:
 
 * Establishing the need and purpose for the position
 * Soliciting candidates
@@ -26,7 +24,13 @@ The sales, marketing, and finance teams have similarly been developing ordered l
 
 More broadly, your entire digital product pipeline is sometimes called a "process." From initial feature idea through production, you seek a consistent means for identifying and implementing valuable functionality. Sometimes this work requires intensive, iterative collaboration and is unpredictable (e.g. developing a user interface); sometimes, the work is more repeatable (e.g. packaging and releasing tested functionality).
 
-However, some team members are cautious of the word "process". The term "process police" comes up in an unhappy way. "Are we going to have auditors tracking whether we filled out all our forms correctly?," one asks. "We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no-one ever looked at," another person says.
+However, some team members are cautious of the word "process". The term "process police" comes up in an unhappy way.
+
+"Are we going to have auditors tracking whether we filled out all our forms correctly?," one asks.
+
+"We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no-one ever looked at," another person says.
+
+"I can't write code according to someone's recipe!," a third says with some passion, and to general agreement from the developers in the room.
 
 The irony is that digital products are based on process automation. The idea that certain tasks can be done repeatably and at scale through digitization is fundamental to all use of computers:
 
@@ -34,7 +38,7 @@ The irony is that digital products are based on process automation. The idea tha
 * electronic mail transmission
 * "Hire Employee" as an automated transaction in a Human Resource Management System
 
-To repeat, the digital service *is* fundamentally an automated process. That's what computers do.
+To repeat, the digital service *is* fundamentally an automated process, one that can be intricate and complicated. That's what computers do. But process management also spans human activities, and that's where things get more complex.
 
 ===== From work to process management
 
@@ -71,20 +75,24 @@ Processes are much more than repeatable activities. Many leading thinkers (such 
 
 The concept of process is often contrasted with that of function or organization. We have seen in previous chapters how product development and project management must drive results across organizational boundaries. Process management has a similar challenge; its goal is to drive *repeatable* results across organizational boundaries.
 
-As we know from our discussion of product management, developing new products is not a particularly repeatable process. The Agile movement in some ways arose in opposition to attempts to apply process concepts of "repeatability" to developing software. These concerns remain.
+As we know from our discussion of xref:2.04.00-product-mgmt[Product Management], developing new products is not a particularly repeatable process. The Agile movement in some ways arose in opposition to attempts to apply process concepts of "repeatability" to developing software. These concerns remain.
 
-However, this book is not only about digital R&D processes. It is also about a spectrum of operations and effort that spans from the unique to the highly repeatable. There is an interesting middle ground, of processes that are semi-repeatable, more repeatable than the stereotypically non-deterministic development process. Examples often found in the large digital organization include:
+However, this book is not only about digital R&D processes. It is also about a spectrum of operations and effort that spans from the unique to the highly repeatable. There is an interesting middle ground, of processes that are at least semi-repeatable. Examples often found in the large digital organization include:
 
 * Assessing, approving, and completing changes
 * End user equipment provisioning
-* Resolving incidents and answering user
+* Resolving incidents and answering user inquiries
+* Troubleshooting problems
 
 And many others. We will talk about a wide variety of such processes in the chapter section on process frameworks.
 
 It is important to realize, however, that just as the traditional IT project is under pressure, there are similar challenges for the traditional IT process. Continuous deployment techniques are eroding the need for formal change management. Consumerization is challenging traditional internal IT provisioning practices. And self-service help desks are eliminating some traditional support activities.
 
-Nevertheless, any rumors of an "end to process" are probably greatly exaggerated. There will likely always be complex combinations of automated, semi-automated, and manual activity in digital organizations. Some of this activity will be repeatable enough that the "process" construct will be applied to it. It is therefore useful to understand more fundamentally what processes are, how they operate, and how they are managed and improved.
+Nevertheless, any rumors of an "end to process" are probably greatly exaggerated. There will likely always be complex combinations of automated, semi-automated, and manual activity in digital organizations. Some of this activity will be repeatable enough that the "process" construct will be applied to it. Measurability remains a concern; the Lean philosophy underpinning much Agile thought emphasizes this.
 
+It is therefore useful to understand more fundamentally what processes are, how they operate, and how they are managed and improved.
+
+====== Process as skill
 As we discussed at the beginning of this chapter, sometimes new employees come in expecting that you are following certain processes. This is in part because "process" experience can be an important part of an employee's career background. A skilled HR manager may consider their experience with large-scale enterprise hiring processes to be a major part of their qualifications for a position in your company.
 
 This applies to both "business" and "IT" processes. In fact, in the digital world, there is no real difference. Digital processes:
@@ -96,7 +104,7 @@ This applies to both "business" and "IT" processes. In fact, in the digital worl
 * Fix the systems when they break
 * Improve the systems based on stakeholder feedback
 
-It's not clear which of these are "IT" versus "business" processes. But they are definitely processes. Some of them are more predictable, some less so, but they all represent some form of ordered work that is repeatable to some degree.
+It's not clear which of these are "IT" versus "business" processes. But they are definitely processes. Some of them are more predictable, some less so, but they all represent some form of ordered work that is repeatable to some degree. And to some extent, you are seeking people with experience defined at least in part by their exposure to processes.
 
 ===== Measuring process
 One of the most important reasons for repeatable processes is so that they can be measured and understood. Repeatable processes are measured in terms of:
@@ -108,4 +116,4 @@ One of the most important reasons for repeatable processes is so that they can b
 
 at the most general level, and of course all of those measurements must be defined much more specifically depending on the process.
 
-Measurement is an essential aspect of process management, but must be carefully designed. Process participants will behave according to how the process is measured. If a help desk operator is measured and rated on how many calls they process an hour, the quality of those interactions may suffer. It is critical that any process "key performance indicator" be understood in terms of the highest possible business objectives. Is the objective truly to process as many calls as possible? Or is it to satisfy the customer so they need not turn to other channels to get their answers?
+Measurement is an essential aspect of process management, but must be carefully designed. Process participants will behave according to how the process is measured. If a help desk operator is measured and rated on how many calls they process an hour, the quality of those interactions may suffer. It is critical that any process "key performance indicator" be understood in terms of the highest possible business objectives. Is the objective truly to process as many calls as possible? Or is it to satisfy the customer so they need not turn to other channels to get their answers? (More on measurement in the chapter section on xref:continuous-improvement[Continuous Improvement].)

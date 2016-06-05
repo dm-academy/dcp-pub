@@ -1,4 +1,9 @@
+anchor:continuous-improvement[]
+
 ==== Continuous improvement
+[quote, Don Reinertsen, Managing the Design Factory pp. 197-198]
+The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
+
 continuous improvement as demand
 
 what is maturity? Cooke-Davis defines this as "the extent to which an organization has explicitly and consistently deployed processes that are documented, managed, measured, controlled, and continually improved" (Cooke-Davies, 2004). <<Richardson2010>>

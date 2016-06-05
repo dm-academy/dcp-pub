@@ -1,6 +1,5 @@
 ==== Process management practices
-[quote, Don Reinertsen, Managing the Design Factory pp. 197-198]
-The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
+
 
 ===== BPM fundamentals
 We've discussed some of the factors leading to the need for process management, but we haven't yet come to grips with what it *is*.
@@ -52,7 +51,9 @@ Visually, processes are often represented with chevrons, like Porter's original 
 
 image::images/3.09-chevrons.png[]
 
-There is no industry standard that definitely lists the concepts above in terms of granularity. Is a "task" larger or smaller than a "procedure?" We will not discuss these much. However, between the high level concept of "value chain" and the concepts of "process" and "activity," is the concept of "value stream."  This is a key concept from the Lean community, and is a relatively higher-level concept (a value chain decomposes into value streams, according to some.) A value stream for example could be the complete manufacturing and sales process for one product family. Because they are more specific, value streams are more measurable and countable. Optimizing them in terms of eliminating wasted time, effort and inventory is an objective of Lean thinking. See _Learning to See_ by Rother and Shook <<Rother2003>>.
+There is no industry standard that definitely lists the concepts above in terms of granularity. Is a "task" larger or smaller than a "procedure?" We will not discuss these much. However, between the high level concept of "value chain" and the concepts of "process" and "activity," is the concept of "*value stream*."  This is a key concept from the Lean community, and is a relatively higher-level concept (a value chain decomposes into value streams, according to some.)
+
+A value stream for example could be the complete manufacturing and sales process for one product family. Because they are more specific, value streams are more measurable and countable. Optimizing them in terms of eliminating wasted time, effort and inventory is an objective of Lean thinking. See _Learning to See_ by Rother and Shook <<Rother2003>>.
 
 *Functions* are unordered, steady state domains of activity. An organizational chart often can be based on various functions. Functions also often imply hierarchy. They are more difficult to measure or improve; usually, improving a function means improving some process it owns or performs.
 
@@ -113,7 +114,7 @@ image::images/3.09-ProcXFunc.png[]
 This is a deliberately older, traditional workflow. Modern organizations may accelerate things:
 
 . HR enters a record
-. All employees use common "hoteling" space, so the major Facilities concern is whether the space can accommodate the peak # of employees seen (e.g. at 10 AM on a Monday)
+. All employees use common "hoteling" space, so the major Facilities concern is whether the space can accommodate the peak # of employees seen (e.g. at 10 AM on a Wednesday)
 . Equipment is either BYOD (Bring Your Own Device) or is ordered from an authorized vendor and drop-shipped directly to the employee
 . In either case, security must establish some control over the devices, so that organizational data remains secure. There are various approaches for this, even for devices owned by the employee.
 . Networking in modern organizations is almost all wireless, but the employee still requires the appropriate credentials, likely provided by security. As with facilities, Networking's concerns now move to questions of capacity and availability of the overall infrastructure.

@@ -80,3 +80,19 @@ More advanced systems may also be able to:
 * Link to communication channels such as conference bridges and paging systems
 
 The first system you may find yourself acquiring along these lines is a help desk system.
+
+===== RACI
+RACI stands for
+
+* Responsible
+* Accountable
+* Consulted
+* Informed
+
+A RACI analysis is often used when accountability must be defined for complex activities. It is used in process management, and also is seen in   project management and general organizational structure.
+
+Since it is a precursor of both process and project management, it's therefore appropriate to cover it as part of generic work management.
+
+ bring in reinertsen discussion 
+
+ focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."

@@ -194,66 +194,56 @@ Notice these activities align to the overall cross-functional flow we discussed 
 
 image::images/3.09-ordering2.png[]
 
-However, we encounter a problem with
+However, we encounter a complication. In order to describe this process accurately, we should note that some people do not have space assigned, if they are primarily telecommuting and/or working in "hoteling" space. We want to show a decision point, which in many notations is represented by a diamond.
+
+image::images/3.09-ordering4.png[]
 
 Finally, this ordering is taking too long, because people are waiting for space to be assigned before doing anything else. This is a well understood problem; processes can branch and run in parallel (you may well be writing code that works this way; human processes also do this). In UML, the term is "fork" for when processes diverge to run in parallel, and "join" when they must again synchronize for the next activity to continue:
 
 image::images/3.09-ordering3.png[]
 
-In the above diagram, we see that 3 activities can commence independently when the employee is hired, but network access requires that the employee have both an entry in the enterprise directory, as well as their hardware supplied.
-
-Similarities to project management - except with project management they only solve this one.
-
+In the above diagram, we see that 3 activities (including the decision point) can commence independently when the employee is hired, but network access requires that the employee have both an entry in the enterprise directory, as well as their hardware supplied. The entire process is complete when their space, equipment, and access needs have been met.
 
 ====== Swimlanes
+We made much of the fact that processes cross functions, and yet with our final diagram we have lost our view of this fact. We can re-introduce the functional boundaries through the use of swimlanes (pioneered by Rummler in <<Rummler1995>>):
 
-====== A final caution on technique
-endless nuances and debates
+image::images/3.09-swimlanes.png[]
 
-Don't get caught up in it
+Adding the swimlanes helps us understand the cross-functional handoffs, and also where certain activities will remain within the scope of one function. Another interesting, finer point is the question of the synch points. Observe the synch point in the Network Management swimlane. Its presence implies that the Network Management function must confirm that the employee has equipment and a directory in the enterprise directory.
 
-Keep it simple - more to come when we discuss Agile Modeling
+You may notice that this diagram has been "rotated." The diagram was becoming too long if drawn left to right. UML Activity Diagrams frequently use this approach. The meaning of the diagram is not changed.
 
-===== RACI
-also seen in general treatments of mgmt, project mgmt, etc - also EA/BizArch
-
-but most refined in process approaches
-
-How to structure the matrix
-
-RACI
-focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."
-
-reinertsen has stuff on this
+With the above discussion, we have covered in a summary form the basics of business process modeling. We finish this chapter section with a discussion of some higher-level BPM practices and concerns.
 
 ===== Process granularity
 [quote, Alex Sharp, Workflow Modeling]
 One organization enthusiastically embraced process improvement, with good reason: customers, suppliers, and employees found the company's processes slow, inconsistent, and error prone. Unfortunately, they were so enthusiastic that each team defined the work of their small group or department as a complete process. Of course, each of these was in fact the contribution of a specialized functional group to some larger, but unidentified, processes. Each of these "processes" was "improved" independently, and you can guess what happened. +
  +
- Within the boundaries of each process, improvements were implemented that made work more efficient from the perspective of the performer. However, these mini-processes were efficient largely because they had front-end constraints that made work easier for the performer but imposed a burden on the customer or the preceding process. The attendant delay and effort meant that the true business processes behaved even more poorly than they had before. This is a common outcome when processes are defined too "small." Moral: Don't confuse subprocesses or activities with business processes.
-
-If processes are connected on a 1:1 basis, then we say that they are part of a single, end-to-end, business process.
-
- <<Sharp2009>>
-
-Precision and accuracy in process management?
+Within the boundaries of each process, improvements were implemented that made work more efficient from the perspective of the performer. However, these mini-processes were efficient largely because they had front-end constraints that made work easier for the performer but imposed a burden on the customer or the preceding process. The attendant delay and effort meant that the true business processes behaved even more poorly than they had before. This is a common outcome when processes are defined too "small." Moral: Don't confuse subprocesses or activities with business processes.
 
 ====== Case Management
 
-===== Process vs execution (execution includes concern for resource)
+===== Process vs execution
 
-====== Decision rules
- Reinertsen Boeing case
-
-Rule engines
-
-===== Cynefin and the Checklist Manifesto
-  The problem of determinism
-  Required interactions as well as required steps
-  Process as a Mintzberg liaison mechanism
+(execution includes concern for resource)
 
 
 
+===== The Checklist Manifesto
+RACI revisited
+Steady state expectations become tasks for PMs to track
 
+The problem of determinism
+Required interactions as well as required steps
+Process as a Mintzberg liaison mechanism
+
+===== A final caution on technique
+The techniques briefly discussed here can be applied and combined in many different ways, and result in models of large scope and complexity. However there are crucial limitations to visual representations of complexity.
+
+There are endless nuances and debates about BPM notations, methodology, and philosophy.
+
+Don't get caught up in it
+
+Keep it simple - more to come when we discuss Agile Modeling
 
 * "Process" at Toyota (Rother)

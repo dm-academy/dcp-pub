@@ -4,6 +4,11 @@
 
 ===== Relationship between features and tasks
 
+===== Decision rules
+ Reinertsen Boeing case
+
+ Rule engines
+
 ===== Context switching and multi-tasking
  [Human factors discussion]
 

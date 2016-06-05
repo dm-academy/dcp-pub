@@ -9,9 +9,10 @@ ifdef::collaborator-draft[]
 
  Status: These three chapter sections are in first draft as of 4 June 2016:
 
-* http://dm-academy.github.io/aitm/aitm-collaborator.html#_chapter_9_process_management[Introduction]
-* http://dm-academy.github.io/aitm/aitm-collaborator.html#_why_process_management[Why Process Management?]
-* http://dm-academy.github.io/aitm/aitm-collaborator.html#_process_management_practices[Process Management Practices]
+http://dm-academy.github.io/aitm/aitm-collaborator.html#_chapter_9_process_management[Introduction]
+http://dm-academy.github.io/aitm/aitm-collaborator.html#_why_process_management[Why Process Management?]
+http://dm-academy.github.io/aitm/aitm-collaborator.html#_process_management_practices[Process Management Practices]
+
 
 include::../../../collab-links.adoc[]
 

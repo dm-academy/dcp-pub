@@ -1,17 +1,6 @@
 
 ==== Process frameworks
-ifdef::collaborator-draft[]
 
-****
-*Collaborative*
-
- Status: This section is in process as of June 4, 2016. Expect volatility.
-
-include::../../../collab-links.adoc[]
-
-****
-
-endif::collaborator-draft[]
 
 So, what is a "framework?"
 

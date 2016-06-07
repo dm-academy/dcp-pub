@@ -106,8 +106,9 @@ One of the most important reasons for repeatable processes is so that they can b
 * Speed
 * Effort
 * Quality
+* Variation
 * Outcomes
 
 at the most general level, and of course all of those measurements must be defined much more specifically depending on the process.
 
-Measurement is an essential aspect of process management, but must be carefully designed. Process participants will behave according to how the process is measured. If a help desk operator is measured and rated on how many calls they process an hour, the quality of those interactions may suffer. It is critical that any process "key performance indicator" be understood in terms of the highest possible business objectives. Is the objective truly to process as many calls as possible? Or is it to satisfy the customer so they need not turn to other channels to get their answers? (More on measurement in the chapter section on xref:continuous-improvement[Continuous Improvement].)
+Measurement is an essential aspect of process management, but must be carefully designed. Measuring process can have unforeseen results. Process participants will behave according to how the process is measured. If a help desk operator is measured and rated on how many calls they process an hour, the quality of those interactions may suffer. It is critical that any process "key performance indicator" be understood in terms of the highest possible business objectives. Is the objective truly to process as many calls as possible? Or is it to satisfy the customer so they need not turn to other channels to get their answers? (More on measurement in the chapter section on xref:continuous-improvement[Continuous Improvement].)

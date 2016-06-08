@@ -15,19 +15,14 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
-[quote, Don Reinertsen, Managing the Design Factory]
-the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
-
 [quote, Martin Fowler, preface to Agile Software Development with Scrum]
 a process can still be controlled even if it can't be defined.
 
 In this chapter section, we take a deeper look at the concept of process and how processes are managed and controlled. In particular, we will explore the concept of continuous (or continual) improvement and its rich history and complex relationship to Agile.
 
+You are now at a stage in your company's evolution, or your career, where an understanding of continuous improvement is helpful. Without this, you will increasingly find you don't understand the language and motivations of leaders in your organization, especially those with business degrees or background.
 
-
-Companies institute processes because it has been long understood that repetitive activities can be optimized when they are better understood, and if they are optimized, they are more likely to be economical and even profitable.
-
-However, we have emphasized throughout this book that the process by which complex systems are created is not repetitive. It is a process of *product development*, not *production.*
+NOTE: There is a debate over to use the term "continuous" or "continual" improvement. We will use "continuous" here as it is the more commonly seen. Advocates of "continual" argue it is the more grammatically correct.
 
 The scope of the word "process" is immense. Examples include:
 
@@ -39,6 +34,31 @@ The scope of the word "process" is immense. Examples include:
 * The overall flow of work in software development, from idea to operation
 
 This breadth of usage requires us to be careful and specific in any discussion of the word "process." In particular, we need to be careful and critical in understanding the concepts of efficiency, variation, and effectiveness. These concepts lie at the heart of understanding continuous improvement and how to correctly apply it in the digital economy.
+
+Companies institute processes because it has been long understood that repetitive activities can be optimized when they are better understood, and if they are optimized, they are more likely to be economical and even profitable.
+
+We have emphasized throughout this book that the process by which complex systems are created is not repetitive. Such creation is a process of *product development*, not *production.* And yet, the entire digital organization covers a broad spectrum of process possibilities, from the repetitive to the unique. You need to be able to identify what kind of process you are dealing with, and to choose the right techniques to manage it.
+
+===== History of continuous improvement
+NOTE: History is important. You may think your career is far removed from the early days of the industrial revolution, but the influence of early management thinkers such as Frederick Taylor remains. You need to be able to recognize when his ideas are being applied, especially if they are being applied inappropriately (as continues to happen, even a hundred years later).
+
+The history of continuous improvement is intertwined with the history of 20th century business itself. Before the industrial revolution, goods and services were produced primarily by local farmers, artisans, and merchants. Techniques were jealously guarded, not shared. A given blacksmith might have two or three workers, who might all forge a pan or a sword in a different way. The term "productivity" itself was unknown.
+
+Then the Industrial Revolution happened.
+
+As steam and electric power increased the productivity of industry, requiring greater sums of capital to fund, a search for improvements began. Blacksmith shops began to consolidate into larger organizations, and technology became more complex and dangerous. It started to become clear that allowing each worker to perform the work as they preferred was not feasible.
+
+Enter the scientific method. Thinkers such as Frederick Taylor and Frank and Lillian Gilbreth (of "Cheaper by the Dozen" fame) started applying careful techniques of measurement and comparison, in search of the "one best way" to dig ditches or assemble vehicles. An entire profession of industrial engineering was established.
+
+As Peter Drucker, one of the most influential management thinkers, says of Frederick Taylor:
+
+The application of knowledge to work explosively increased productivity. For hundreds of years there had been no increase in the ability of workers to turn out goods or to move goods . . . But within a few years after Taylor began to apply knowledge to work, productivity began to rise at a rate of 3.5 to 4 percent compound a year—which means doubling every eighteen years or so. Since Taylor began, productivity has increased some fiftyfold in all advanced countries. On this unprecedented expansion rest all the increases in both standard of living and quality of life in the developed countries.
+
+ From Taylor to Deming to Reinertsen
+
+ BOHICA
+ Kaizen and kamikaze kaizen
+
 
 ===== Efficiency
 Let's go back to some fundamentals.
@@ -58,25 +78,27 @@ Discussions of efficiency usually focus on productivity given a certain set of i
 
 However, the question of time becomes a game-changer in the "process" of new product development. Starting with a series of influential articles starting in the early 1980s, Don Reinertsen developed the idea of "cost of delay" for product development. Where the cost of a delayed product shipment might be some percentage, the cost of delay for a delayed product could be much more substantial. For example, if a new product launch misses a key trade show where competitors will be presenting similar innovations, the cost to the company might be millions of dollars of lost revenue - many times the product development investment. (Perhaps even orders of magnitude larger.)
 
-This is not really a question of "efficiency;" of comparing inputs to outputs. It is more a matter of effectiveness; of the company's ability to execute on complex knowledge work.
+This is not really a question of "efficiency;" of comparing inputs to outputs and looking for a few percentage points improvement. It is more a matter of effectiveness; of the company's ability to execute on complex knowledge work.
 
 ===== Variation
+[quote, Don Reinertsen, Managing the Design Factory]
+the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
 
-The quest for effiency leads to the long-standing management interest in variability. What do we mean by this?
+The quest for effiency leads to the long-standing management interest in variability and variation. What do we mean by this?
 
 If you expect a process to take 5 days, what do you make of occurrences when it takes 7 days? 4 days? If you expect a manufacturing process to yield 98% usable product, what do you do when it falls to 97%? 92%?
 
-Analyzing such "variation" has been a part of management technique for decades, and is an important part of disciplines such as Six Sigma.
+In highly repeatable manufacturing processes, statistical techniques can be applied. Analyzing such "variation" has been a part of management for decades, and is an important part of disciplines such as Six Sigma. This is why Six Sigma is of such interest to manufacturing firms.
+
+However, understanding variation and when to manage it requires care.
+
+For example, let's say you are working at a large manufacturer, in their IT organization, and you see the KPI "variance from project plan." The idea is that your actual project time, scope and resources should be the same, or close to, what you planned. In practice, this tends to become a discussion about time, as resources and scope are often fixed.
+
+The assumption is that, for your project tasks, you should be able to estimate to a meaningful degree of accuracy.
+
+It was one of the major parts of Deming's "System of Profound Knowledge."
 
 
-
-===== History of continuous improvement
-
- Frederick Taylor and the "one best way"
- From Taylor to Deming to Reinertsen
-
- BOHICA
- Kaizen and kamikaze kaizen
 
 ===== Process "Maturity" and "quality"
 

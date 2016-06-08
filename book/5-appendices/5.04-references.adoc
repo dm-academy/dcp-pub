@@ -61,6 +61,8 @@
 
 - [[[Csikszentmihalyi1990]]]: Csikszentmihalyi, M. (1990). Flow : the psychology of optimal experience. New York, Harper & Row.
 
+- [[[Drucker1993]]]: Drucker, Peter F. 1993. _Post-Capitalist Society_. 1st ed. New York, NY: HarperBusiness.
+
 - [[[Duvall2007]]]: Duvall, P. M.; Matyas, S. & Glover, A. (2007), _Continuous integration : improving software quality and reducing risk_, Addison-Wesley, Upper Saddle River, NJ
 
 - [[[Edwards2012]]]: Edwards, D. (2012), "Integrating DevOps tools into a Service Delivery Platform", http://dev2ops.org/2012/07/integrating-devops-tools-into-a-service-delivery-platform-video/

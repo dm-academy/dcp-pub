@@ -7,7 +7,7 @@ ifdef::collaborator-draft[]
 ****
 *Collaborative*
 
- Status: This section is in process as of June 4, 2016. Expect volatility.
+ Status: This section is in first draft as of 8 Jun 2016. Comments appreciated.
 
 include::../../../collab-links.adoc[]
 

@@ -1,15 +1,23 @@
+anchor: frameworks[]
 
 ==== Process frameworks
+ifdef::collaborator-draft[]
 
+****
+*Collaborative*
+
+ Status: This section is in development as of 8 Jun 2016. Expect volatility.
+
+include::../../../collab-links.adoc[]
+
+****
+
+endif::collaborator-draft[]
 
 So, what is a "framework?"
 
-The term IIprocess framework" is generally used to characterize comprehensive
-and systematic representations of a major business area by focusing on its ac-
-tivities. The first goal of any framework is to be Mutually Exclusive, Collectively
-Exhaustive (MECE) - that is, for a given conceptual space, provide a "map" that
-outlines the boundaries and covers the entire space. You are either doing Inci-
-dent 0 R Change Or Release 0 R one of several dozen other processes, and there
+The term process framework" is generally used to characterize comprehensive
+and systematic representations of a major business area by focusing on its activities. The first goal of any framework is to be Mutually Exclusive, Collectively Exhaustive (MECE) - that is, for a given conceptual space, provide a "map" that outlines the boundaries and covers the entire space. You are either doing Incident OR Change Or Release 0 R one of several dozen other processes, and there
 should be no "in the cracks" concerns.
 
 Ve ndo rs, co nsulting firms, and academics have been apply ing analyses of va r-

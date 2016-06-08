@@ -17,12 +17,13 @@ endif::collaborator-draft[]
 
 So, what is a "framework?"
 
-The term process framework" is generally used to characterize comprehensive
-and systematic representations of a major business area by focusing on its activities. The first goal of any framework is to be Mutually Exclusive, Collectively Exhaustive (MECE) - that is, for a given conceptual space, provide a "map" that outlines the boundaries and covers the entire space. You are either doing Incident OR Change Or Release 0 R one of several dozen other processes, and there
-should be no "in the cracks" concerns.
+The term "framework," in the context of business process, is used for comprehensive and systematic representations of a major business area's activities. The first goal of any framework is, for a given conceptual space, to provide a "map" of its components and their relationships. Doing this serves a variety of goals:
 
-Ve ndo rs, co nsulting firms, and academics have been apply ing analyses of va r-
-ious types to IT itself for yea rs. Many framewo rks have em erged to help und er-
+
+
+
+
+Many framewo rks have em erged to help und er-
 stand the overall problem . (See th e section "What is a process fram ewo rk ?"
 earlier in this chapter.) The three major fram ewo rks hav ing th e most effect
 on enterprise IT in th e United States at this writing are CO Brr"', CMMI " ,
@@ -46,10 +47,7 @@ is that they do not help you find the heavy Boy Scout. They don't point
 you towards the IT equivalent of the $2 million computerized machine
 tool that actually reduced the plant's profitability. And it seems likely that
 large-scale IT might be vulnerable to such constraints.
-So, the synthesized capability framework in the following section is presented
-with the caution that although it serves as a reasonable consensus representa-
-tion of all of the major concerns one encounters in the large IT organization, it
-is distinct from and subordinate to the process architecture.
+
 
 ===== Continuous improvement frameworks
 

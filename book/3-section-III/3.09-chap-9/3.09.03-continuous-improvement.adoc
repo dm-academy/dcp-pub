@@ -92,13 +92,15 @@ Deming in particular was an advocate of the control chart, a technique to unders
 image::images/3.09-controlChart.jpg[]
 _image from https://www.flickr.com/photos/internetarchivebookimages/14775750673/, no known copyright restrictions_
 
-However, using techniques of this nature makes certain critical assumptions about the nature of the process. Understanding variation and when to manage it requires care. These techniques were defined to understand *physical* processes that in general follow normal distributions.
+However, using techniques of this nature makes certain critical assumptions about the nature of the process. Understanding variation and when to manage it requires care. These techniques were defined to understand *physical* processes that in general follow https://en.wikipedia.org/wiki/Normal_distribution[normal distributions].
 
-For example, let's say you are working at a large manufacturer, in their IT organization, and you see the KPI "variance from project plan." The idea is that your actual project time, scope and resources should be the same, or close to, what you planned. In practice, this tends to become a discussion about time, as resources and scope are often fixed.
+IMPORTANT: Learning some statistics is essential, if you want to progress in your career. This section assumes you are comfortable with the concept of a "distribution" and in particular what the "normal distribution" is.
 
-The assumption is that, for your project tasks, you should be able to estimate to a meaningful degree of accuracy. Your estimates are equally likely to be too low, or too high. Furthermore, it should be somehow possible to improve the accuracy of your estimates.
+For example, let's say you are working at a large manufacturer, in their IT organization, and you see the a metric of "variance from project plan." The idea is that your actual project time, scope and resources should be the same, or close to, what you planned. In practice, this tends to become a discussion about time, as resources and scope are often fixed.
 
-The problem is that neither of these are true. Despite heroic efforts, you cannot improve your estimation. In process control jargon, there are too many causes of variation for "best practices" to emerge. Project tasks remain unpredictable, and the variability does not follow a normal distribution - there is a long tail to the right, of tasks that take 2x, 3x or 10x longer than estimated.
+The assumption is that, for your project tasks, you should be able to estimate to a meaningful degree of accuracy. Your estimates are equally likely to be too low, or too high. Furthermore, it should be somehow possible to improve the accuracy of your estimates. Your annual review depends on this, in fact.
+
+The problem is that neither of these are true. Despite heroic efforts, you cannot improve your estimation. In process control jargon, there are too many causes of variation for "best practices" to emerge. Project tasks remain unpredictable, and the variability does not follow a normal distribution. Very few tasks get finished earlier than you estimated, and there is a https://en.wikipedia.org/wiki/Long_tail[long tail] to the right, of tasks that take 2x, 3x or 10x longer than estimated.
 
 In general, applying statistical process control to variable, creative product development processes is inappropriate. For software development, Steven Kan states: "Many assumptions that underlie control charts are not being met in software data. Perhaps the most critical one is that data variation is from homogeneous sources of variation." That is, the causes of variation are knowable and can be addressed. This is in general not true of development work. <<Kan2003>>
 
@@ -110,7 +112,7 @@ the purpose of controlling the process must be to influence economic outcomes. T
 
 Discussions of efficiency usually focus on productivity given a certain set of inputs. Time can be one of those inputs. Everything else being equal, a company that can produce the pizza cutters more quickly is also viewed as more efficient. Customers may pay a premium for early delivery, and may penalize late delivery; such charges typically would be some percentage (say plus or minus 20%) of the final price of the finished goods.
 
-However, the question of time becomes a game-changer in the "process" of new product development. As we have discussed previously: Starting with a series of influential articles starting in the early 1980s, Don Reinertsen developed the idea of "cost of delay" for product development.
+However, the question of time becomes a game-changer in the "process" of new product development. As we have discussed previously: Starting with a series of influential articles starting in the early 1980s, Don Reinertsen developed the idea of "cost of delay" for product development (<<Reinertsen1997>>). 
 
 Where the cost of a delayed product shipment might be some percentage, the cost of delay for a delayed product could be much more substantial. For example, if a new product launch misses a key trade show where competitors will be presenting similar innovations, the cost to the company might be millions of dollars of lost revenue - many times the product development investment. (Perhaps even orders of magnitude larger.)
 

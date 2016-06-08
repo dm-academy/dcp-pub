@@ -2,7 +2,6 @@
 [quote, Michael Porter, Competitive Advantage]
 Is a firm a collection of activities or a set of resources and capabilities? Clearly, a firm is both. But activities are what firms do, and they define the resources and capabilities that are relevant.
 
-
 We have previously discussed product and project management. You may wish to review our summary description of xref:2.04.01-process-project-product[process, product, and project management].
 
 Process management starts with the fundamental capability for coordinated xref:2.05.00-work-management[work management], and refines it much further.

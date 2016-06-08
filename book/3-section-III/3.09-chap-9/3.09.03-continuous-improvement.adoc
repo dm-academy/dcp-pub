@@ -15,32 +15,69 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
-[quote, Don Reinertsen, Managing the Design Factory pp. 197-198]
-The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
+[quote, Don Reinertsen, Managing the Design Factory]
+the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
+
+[quote, Martin Fowler, preface to Agile Software Development with Scrum]
+a process can still be controlled even if it can't be defined.
+
+In this chapter section, we take a deeper look at the concept of process and how processes are managed and controlled. In particular, we will explore the concept of continuous (or continual) improvement and its rich history and complex relationship to Agile.
 
 
 
+Companies institute processes because it has been long understood that repetitive activities can be optimized when they are better understood, and if they are optimized, they are more likely to be economical and even profitable.
 
-===== History of continuous improvement
+However, we have emphasized throughout this book that the process by which complex systems are created is not repetitive. It is a process of *product development*, not *production.*
 
+The scope of the word "process" is immense. Examples include:
 
-BOHICA
+* The end to end flow of chemicals through a refinery
+* The set of activities across a manufacturing assembly line, resulting in a product for sale
+* The steps expected of a customer service representative in handling an inquiry
+* The steps followed in troubleshooting a software-based system
+* The general steps followed in creating and executing a project
+* The overall flow of work in software development, from idea to operation
 
+This breadth of usage requires us to be careful and specific in any discussion of the word "process." In particular, we need to be careful and critical in understanding the concepts of efficiency, variation, and effectiveness. These concepts lie at the heart of understanding continuous improvement and how to correctly apply it in the digital economy.
 
-===== The question of variation
+===== Efficiency
+Let's go back to some fundamentals.
 
-First, there is a long-standing management interest in variability. What do we mean by this?
+Human beings engage in repetitive activities. These activities consume inputs and produce outputs. It is often possible to compare the outputs against the inputs, numerically, and understand how "productive" the process is.
+
+For example, suppose you have two factories producing identical kitchen utensils (pizza cutters, say).
+
+If one factory can produce 50,000 pizza cutters for $2,000, while the other requires $5,000, the first factory is more productive.
+
+Assume for a moment that the workers are all earning the same across each factory. There is possibly a "process" problem. The first factory is more _efficient_ than the second; it can produce more given the same set of inputs. Why?
+
+There are many possible reasons. Perhaps the second factory is poorly laid out and the work in progress must be moved too many times in order for workers to perform their tasks. Perhaps the workers are using tools that require more manual steps. Understanding the differences between the two factories, and recommending the "best way," is what industrial engineers do. (See sidebar on Frederick Taylor.)
+
+===== Effectiveness
+Discussions of efficiency usually focus on productivity given a certain set of inputs. Time can be one of those inputs. Everything else being equal, a company that can produce the pizza cutters more quickly is also viewed as more efficient. Customers may pay a premium for early delivery, and may penalize late delivery; such charges typically would be some percentage (say plus or minus 20%) of the final price of the finished goods.
+
+However, the question of time becomes a game-changer in the "process" of new product development. Starting with a series of influential articles starting in the early 1980s, Don Reinertsen developed the idea of "cost of delay" for product development. Where the cost of a delayed product shipment might be some percentage, the cost of delay for a delayed product could be much more substantial. For example, if a new product launch misses a key trade show where competitors will be presenting similar innovations, the cost to the company might be millions of dollars of lost revenue - many times the product development investment. (Perhaps even orders of magnitude larger.)
+
+This is not really a question of "efficiency;" of comparing inputs to outputs. It is more a matter of effectiveness; of the company's ability to execute on complex knowledge work.
+
+===== Variation
+
+The quest for effiency leads to the long-standing management interest in variability. What do we mean by this?
 
 If you expect a process to take 5 days, what do you make of occurrences when it takes 7 days? 4 days? If you expect a manufacturing process to yield 98% usable product, what do you do when it falls to 97%? 92%?
 
 Analyzing such "variation" has been a part of management technique for decades, and is an important part of disciplines such as Six Sigma.
 
 
-what is maturity? Cooke-Davis defines this as "the extent to which an organization has explicitly and consistently deployed processes that are documented, managed, measured, controlled, and continually improved" (Cooke-Davies, 2004). <<Richardson2010>>
 
-In the world of agile delivery the role of quality assurance needs to adapt from auditing the quality of the process and product that is delivered at the end of the lifecycle to supporting practices that ensure that quality is built in and validated from the beginning of the project.
+===== History of continuous improvement
 
-Ambler, Scott W.; Lines, Mark (2012-05-31). Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise (IBM Press) (Kindle Locations 8175-8177). Pearson Education. Kindle Edition.
+ Frederick Taylor and the "one best way"
+ From Taylor to Deming to Reinertsen
 
-
+ BOHICA
  Kaizen and kamikaze kaizen
+
+===== Process "Maturity" and "quality"
+
+what is maturity? Cooke-Davis defines this as "the extent to which an organization has explicitly and consistently deployed processes that are documented, managed, measured, controlled, and continually improved" (Cooke-Davies, 2004). <<Richardson2010>>

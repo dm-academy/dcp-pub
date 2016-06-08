@@ -155,7 +155,7 @@ include::book/3-section-III/3.09-chap-9/3.09.00-intro.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.01-why-process-mgmt.adoc[]
 
-include::book/3-section-III/3.09-chap-9/3.09.02-process-theory.adoc[]
+include::book/3-section-III/3.09-chap-9/3.09.02-process-basics.adoc[]
 
 include::book/3-section-III/3.09-chap-9/3.09.03-continuous-improvement.adoc[]
 

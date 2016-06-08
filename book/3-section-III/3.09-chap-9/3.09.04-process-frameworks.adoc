@@ -42,16 +42,20 @@ with the caution that although it serves as a reasonable consensus representa-
 tion of all of the major concerns one encounters in the large IT organization, it
 is distinct from and subordinate to the process architecture.
 
-===== Process vs function in the frameworks
+===== Continuous improvement frameworks
 
-===== ITIL
+===== IT management frameworks
 
-===== COBIT
+====== Process vs function in the frameworks
 
-===== TOGAF
+====== ITIL
 
-===== IT4IT
+====== COBIT
 
-===== The particular case of CMMI
+====== TOGAF
 
-===== Other frameworks
+====== IT4IT
+
+====== The particular case of CMMI
+
+====== Other frameworks

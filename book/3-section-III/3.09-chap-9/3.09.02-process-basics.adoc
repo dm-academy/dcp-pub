@@ -1,5 +1,4 @@
-==== Process management practices
-
+==== Process basics
 
 ===== BPM fundamentals
 We've discussed some of the factors leading to the need for process management, but we haven't yet come to grips with what it *is*.
@@ -15,7 +14,7 @@ Note the progression along the bottom: first, raw materials are acquired, then m
 
 The upper half represents what Porter termed "support." Supporting activities represent necessary, but not value adding, functions.
 
-There are many criticisms of the Porter value chain. Without research and development, there is no product, so why is it considered a support activity? Surely, marketing and sales help drive demand for the product, especially with manufacturing lead times shrinking, so why do they appear so late in the game?
+There are many criticisms of the Porter value chain. Without research and development, there is no product, so why is it considered a support activity (and confusingly named just "Technology Development")? Surely, marketing and sales help drive demand for the product, especially with manufacturing lead times shrinking, so why do they appear so late in the game?
 
 Overall, the model represents a manufacturing-centric world where customers were happy to buy what was on offer.
 

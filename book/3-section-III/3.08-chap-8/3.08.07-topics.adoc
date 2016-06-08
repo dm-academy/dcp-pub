@@ -80,6 +80,8 @@ anchor:3.08.03-NoEstimates[]
 *The estimation controversy*
 
 ****
+http://www.jrothman.com/mpd/project-management/2016/06/the-case-for-and-against-estimates-part-1/
+http://www.jrothman.com/mpd/project-management/2016/06/the-case-for-and-against-estimates-part-2/?platform=hootsuite
 
 ====== The systems problem
 

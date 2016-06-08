@@ -24,7 +24,7 @@ xref:2.04.04-lean-product-dev[Lean Product Development]
 xref:2.04.00-product-mgmt[Product Management]
 xref:2.04.01-process-project-product[process, product, and project management]
 xref:cost-of-delay[Cost of Delay]
-
+xref:lean-startup[Lean Startup]
 
 xref:2.0.4.03-scrum[Scrum]
 
@@ -41,6 +41,7 @@ xref:motivation[]
 
 Chapter 7
 xref:spotify-model[Spotify model]
+xref:Toyota-Kata[Toyota Kata]
 
 chapter 8
 xref:submittal-schedule[submittal schedule]
@@ -48,11 +49,11 @@ xref:submittal-schedule[submittal schedule]
 xref:resource-mgmt[resource management]
 xref:it-sourcing[IT sourcing]
 xref:trad-IT-decline[decline of traditional IT]
-xref:lean-startup[Lean Startup]
+
 xref:3.08.03-NoEstimates[No Estimates]
 
 xref:loose-coupling-project[loose coupling and project management]
-xref:Toyota-Kata[Toyota Kata]
+
 xref:chap-process-mgmt[chapter on process management]
 xref:virtualization[virtualization]
 xref:9-figure-true-up[9 figure true-up]

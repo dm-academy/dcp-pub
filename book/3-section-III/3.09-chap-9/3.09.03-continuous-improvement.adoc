@@ -22,7 +22,7 @@ In this chapter section, we take a deeper look at the concept of process and how
 
 You are now at a stage in your company's evolution, or your career, where an understanding of continuous improvement is helpful. Without this, you will increasingly find you don't understand the language and motivations of leaders in your organization, especially those with business degrees or background.
 
-NOTE: There is a debate over to use the term "continuous" or "continual" improvement. We will use "continuous" here as it is the more commonly seen. Advocates of "continual" argue it is the more grammatically correct.
+NOTE: There is a debate over whether to use the term "continuous" or "continual" improvement. We will use "continuous" here as it is the more commonly seen. Advocates of "continual" argue it is the more grammatically correct.
 
 The scope of the word "process" is immense. Examples include:
 
@@ -33,17 +33,17 @@ The scope of the word "process" is immense. Examples include:
 * The general steps followed in creating and executing a project
 * The overall flow of work in software development, from idea to operation
 
-This breadth of usage requires us to be careful and specific in any discussion of the word "process." In particular, we need to be careful and critical in understanding the concepts of efficiency, variation, and effectiveness. These concepts lie at the heart of understanding continuous improvement and how to correctly apply it in the digital economy.
+This breadth of usage requires us to be specific in any discussion of the word "process." In particular, we need to be careful in understanding the concepts of efficiency, variation, and effectiveness. These concepts lie at the heart of understanding process control and improvement and how to correctly apply it in the digital economy.
 
 Companies institute processes because it has been long understood that repetitive activities can be optimized when they are better understood, and if they are optimized, they are more likely to be economical and even profitable.
 
 We have emphasized throughout this book that the process by which complex systems are created is not repetitive. Such creation is a process of *product development*, not *production.* And yet, the entire digital organization covers a broad spectrum of process possibilities, from the repetitive to the unique. You need to be able to identify what kind of process you are dealing with, and to choose the right techniques to manage it.
 
-For example, the employee provisioning process flow shown in the previous chapter is simple and prescriptive. Measuring its efficiency and variability would be possible, and perhaps useful.
+(For example, the employee provisioning process flow shown in the previous chapter is simple and prescriptive. Measuring its efficiency and variability would be possible, and perhaps useful.)
 
 There are many aspects of continuous improvement we won't cover in this brief section. Some of them (systems thinking, culture, and others) have already been covered in this book. This book is based in part on Lean and Agile premises, and continuous improvement is one of the major influences on Lean and Agile, so in some ways we come full circle.
 
-We are focusing on continuous improvement in the context of processes and process improvement. We'll therefore scope this to a few concerns: efficiency, variation, effectiveness, and empirical process control.
+We are focusing on continuous improvement in the context of processes and process improvement. We'll therefore scope this to a few concerns: efficiency, variation, effectiveness, and process control.
 
 ===== History of continuous improvement
 NOTE: History is important. You may think your career is far removed from the early days of the industrial revolution, but the influence of early management thinkers such as Frederick Taylor remains. You need to be able to recognize when his ideas are being applied, especially if they are being applied inappropriately (as continues to happen, even a hundred years later).
@@ -102,6 +102,8 @@ The problem is that neither of these are true. Despite heroic efforts, you canno
 
 In general, applying statistical process control to variable, creative product development processes is inappropriate. For software development, Steven Kan states: "Many assumptions that underlie control charts are not being met in software data. Perhaps the most critical one is that data variation is from homogeneous sources of variation." That is, the causes of variation are knowable and can be addressed. This is in general not true of development work. <<Kan2003>>
 
+Deming (along with Juran) is also known for "continuous improvement" as a cycle, e.g. "Plan/Do/Check/Act." Such cycles are akin to the scientific method, as they essentially engage in the ongoing development and testing of hypotheses, and the implementation of validated learning. We have touched on similar cycles in our discussions of xref:lean-startup[Lean Startup] and xref:Toyota-Kata[Toyota Kata].
+
 ===== Don Reinertsen and effectiveness
 [quote, Don Reinertsen, Managing the Design Factory]
 the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
@@ -128,4 +130,4 @@ Empirical process control relies on frequent inspection and adaptation. After ex
 
 _During my visit to DuPont . . . I realized why [software development] was in such trouble and had such a poor reputation. We were wasting our time trying to control our work by thinking we had an assembly line when the only proper control was frequent and first-hand inspection, followed by immediate adjustments._ <<Schwaber2002>>, p. 25.
 
-We will now turn to a critical examination of the IT management frameworks. While there is much of value in them, there are many places where they may lead you into the "defined process" trap, and they may not provide enough support for the alternative approach of empirical process control. 
+We will now turn to a critical examination of the IT management frameworks. While there is much of value in them, there are many places where they may lead you into the "defined process" trap, and they may not provide enough support for the alternative approach of empirical process control.

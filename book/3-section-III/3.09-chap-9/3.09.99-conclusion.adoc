@@ -5,6 +5,7 @@ Conclusion placeholder
 ===== Discussion questions
 
 . Review the section on the xref:spotify-model[Spotify model]. How does it relate to the discussion here?
+. Sometimes, organizations try to treat a complex process as defined, instead of managing it empirically. Sometimes, people react by calling this "Taylorism." Why? Discuss.
 
 ===== Research & practice
 

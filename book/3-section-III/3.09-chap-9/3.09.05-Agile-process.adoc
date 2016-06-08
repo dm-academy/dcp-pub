@@ -1,13 +1,10 @@
 ==== Agile and IT process management
-
-
-
-
 [quote, Manifesto for Agile Software Development]
 Individuals and interactions over processes and tools.
 
 Like project management, the practice of process management is under scrutiny in the new Lean and Agile world. The idea of
 
+problems: process conception, content, execution, and improvement
 
 continuous improvement as demand
 

@@ -19,6 +19,14 @@ endif::collaborator-draft[]
 The first question is, why control the process? When we know why, it almost automatically clarifies how we must control the process. Is a controlled process inherently better than one that has more uncertainty? No. Since the purpose of our process is to make money, it would follow that the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
 
 
+
+
+===== History of continuous improvement
+
+
+BOHICA
+
+
 ===== The question of variation
 
 First, there is a long-standing management interest in variability. What do we mean by this?

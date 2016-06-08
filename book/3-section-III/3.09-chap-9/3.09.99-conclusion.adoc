@@ -18,6 +18,9 @@ http://wwwis.win.tue.nl/~wvdaalst/publications/p712.pdf
 
 http://www.computing.dcu.ie/~mcrane/CA441/BPMLectureNotes.pdf
 
+Bob Raczynski and Bill Curtis (2008) Software Data Violate SPC's Underlying Assumptions, IEEE Software, May/June 2008, Vol. 25, No. 3, pp. 49-51
+Robert V. Binder (1997) Can a Manufacturing Quality Model Work for Software?, IEEE Software, September/October 1997, pp. 101-105
+
 *Videos*
 
 *Professional*

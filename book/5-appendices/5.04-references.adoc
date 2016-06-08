@@ -109,7 +109,9 @@
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
 
-- [[[Huntzinger2007]]]: Huntzinger, James R. 2007. Lean Cost Management: Accounting for Lean by Establishing Flow. Fort Lauderdale, Fl.: J. Ross Publishing.
+- [[[Huntzinger2007]]]: Huntzinger, James R. 2007. _Lean Cost Management: Accounting for Lean by Establishing Flow_. Fort Lauderdale, Fl.: J. Ross Publishing.
+
+- [[[Kan2003]]]: Kan, Stephen H. 1995. _Metrics and Models in Software Quality Engineering_. Second Edition. Reading, Mass.: Addison-Wesley.
 
 - [[[Keefer2006]]]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
 
@@ -197,6 +199,8 @@ IEEE Press.
 - [[[Rubin2012]]]: Rubin, K.S., 2012. _Essential Scrum : a practical guide to the most popular agile process_, Upper Saddle River, NJ: Addison-Wesley. xliii, 452 p.
 
 - [[[Rummler1995]]]: Rummler, Geary A, and Alan P Brache. 1995. _Improving Performance: How to Manage the White Space on the Organization Chart._ The Jossey-Bass Management Series. 2nd ed. San Francisco, CA: Jossey-Bass. http://www.loc.gov/catdir/toc/wiley041/94048105.html.
+
+- [[[Schwaber2002]]]: Schwaber, Ken. 2002. Agile Software Development with Scrum. Upper Saddle River, N.J.: Prentice Hall.
 
 - [[[Schwaber2007]]]: Schwaber, Ken. 2007. _The Enterprise and Scrum._ Redmond, Wash: Microsoft Press.
 

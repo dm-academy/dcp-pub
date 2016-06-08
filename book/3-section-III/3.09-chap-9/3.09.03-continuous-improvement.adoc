@@ -56,7 +56,7 @@ As steam and electric power increased the productivity of industry, requiring gr
 
 Enter the scientific method. Thinkers such as Frederick Taylor and Frank and Lillian Gilbreth (of "Cheaper by the Dozen" fame) started applying careful techniques of measurement and comparison, in search of the "one best way" to dig ditches or assemble vehicles. An entire profession of industrial engineering was established, along with the formal study of business management itself.
 
-====== Frederick Taylor and efficiency
+===== Frederick Taylor and efficiency
 
 Frederick Taylor (1856-1915)  was a mechanical engineer and one of the first industrial engineers. In 1911, he wrote _Principles of Scientific Management_.
 
@@ -78,7 +78,7 @@ As Peter Drucker, one of the most influential management thinkers, says of Frede
 The application of knowledge to work explosively increased productivity. For hundreds of years there had been no increase in the ability of workers to turn out goods or to move goods . . . But within a few years after Taylor began to apply knowledge to work, productivity began to rise at a rate of 3.5 to 4 percent compound a year—which means doubling every eighteen years or so. Since Taylor began, productivity has increased some fiftyfold in all advanced countries. On this unprecedented expansion rest all the increases in both standard of living and quality of life in the developed countries. <<Drucker1993>>, pp.37-38.
 ****
 
-====== W.E. Deming and variation
+===== W.E. Deming and variation
 The quest for effiency leads to the long-standing management interest in variability and variation. What do we mean by this?
 
 If you expect a process to take 5 days, what do you make of occurrences when it takes 7 days? 4 days? If you expect a manufacturing process to yield 98% usable product, what do you do when it falls to 97%? 92%?
@@ -92,9 +92,7 @@ Deming in particular was an advocate of the control chart, a technique to unders
 image::images/3.09-controlChart.jpg[]
 _image from https://www.flickr.com/photos/internetarchivebookimages/14775750673/, no known copyright restrictions_
 
-However, using techniques of this nature makes certain critical assumptions about the nature of the process. These techniques were defined to understand *physical* processes that in general follow normal distributions. In general, applying statistical process control to variable, creative product development processes is inappropriate.
-
-Understanding variation and when to manage it therefore requires care.
+However, using techniques of this nature makes certain critical assumptions about the nature of the process. Understanding variation and when to manage it requires care. These techniques were defined to understand *physical* processes that in general follow normal distributions.
 
 For example, let's say you are working at a large manufacturer, in their IT organization, and you see the KPI "variance from project plan." The idea is that your actual project time, scope and resources should be the same, or close to, what you planned. In practice, this tends to become a discussion about time, as resources and scope are often fixed.
 
@@ -102,7 +100,9 @@ The assumption is that, for your project tasks, you should be able to estimate t
 
 The problem is that neither of these are true. Despite heroic efforts, you cannot improve your estimation. In process control jargon, there are too many causes of variation for "best practices" to emerge. Project tasks remain unpredictable, and the variability does not follow a normal distribution - there is a long tail to the right, of tasks that take 2x, 3x or 10x longer than estimated.
 
-====== Don Reinertsen and effectiveness
+In general, applying statistical process control to variable, creative product development processes is inappropriate. For software development, Steven Kan states: "Many assumptions that underlie control charts are not being met in software data. Perhaps the most critical one is that data variation is from homogeneous sources of variation." That is, the causes of variation are knowable and can be addressed. This is in general not true of development work. <<Kan2003>>
+
+===== Don Reinertsen and effectiveness
 [quote, Don Reinertsen, Managing the Design Factory]
 the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
 
@@ -115,4 +115,17 @@ Where the cost of a delayed product shipment might be some percentage, the cost 
 This is not really a question of "efficiency;" of comparing inputs to outputs and looking for a few percentage points improvement. It is more a matter of effectiveness; of the company's ability to execute on complex knowledge work.
 
 ===== Ken Schwaber and empirical process control
-Ken Schwaber, inventor of the Scrum methodology (along with Jeff Sutherland) 
+[quote, Ken Schwaber, Agile Software Development with Scrum]
+process theory experts . . . were amazed and appalled that my industry, systems development, was trying to do its work using a completely inappropriate process control model.
+
+Ken Schwaber, inventor of the Scrum methodology (along with Jeff Sutherland), like many other software engineers in the 1990s, experienced discomfort with the process control approach at the time. Mainstream software development processes sought to make software development predictable and repeatable in the sense of a defined process.
+
+As Schwaber discusses (<<Schwaber2002>>, pp. 24-25), defined processes are completely understood, which is not the case with creative processes. Highly automated industrial processes run predictably, with consistent results. By contrast, complex processes that are not understood require the *empirical model.*
+
+NOTE: The defined and empirical models of process control are concepts from formal https://en.wikipedia.org/wiki/Process_control[process control theory]. We touched on some related topics in our discussion of systems theory and xref:2.00.01-feedback[feedback].
+
+Empirical process control relies on frequent inspection and adaptation. After exposure to Dupont process theory experts who clarified the difference between defined and empirical process control, Schwaber went on to develop the influential Scrum methodology. As he notes:
+
+_During my visit to DuPont . . . I realized why [software development] was in such trouble and had such a poor reputation. We were wasting our time trying to control our work by thinking we had an assembly line when the only proper control was frequent and first-hand inspection, followed by immediate adjustments._ <<Schwaber2002>>, p. 25.
+
+We will now turn to a critical examination of the IT management frameworks. While there is much of value in them, there are many places where they may lead you into the "defined process" trap, and they may not provide enough support for the alternative approach of empirical process control. 

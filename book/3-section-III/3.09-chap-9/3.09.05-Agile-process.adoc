@@ -159,4 +159,6 @@ Richard Knaster, IBM Rational’s worldwide agile practice manager, has helped s
 
 Ambler, Scott W.; Lines, Mark (2012-05-31). Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise (IBM Press) (Kindle Locations 8337-8348). Pearson Education. Kindle Edition.
 
- checklist manifesto
+
+
+ Kaizen and kamikaze kaizen

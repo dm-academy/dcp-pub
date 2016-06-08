@@ -19,7 +19,9 @@ So, what is a "framework?"
 
 The term "framework," in the context of business process, is used for comprehensive and systematic representations of a major business area's activities. The first goal of any framework is, for a given conceptual space, to provide a "map" of its components and their relationships. Doing this serves a variety of goals:
 
-
+* Develop and support professional consensus on the business area
+* Support training and orientation of professionals new to the area (or its finer points)
+* Support governance and control activities related to the area
 
 
 

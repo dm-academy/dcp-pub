@@ -2,6 +2,8 @@
 
 First, thank you for having the interest in helping the AITM project.
 
+Please remember that the intended audience of this survey text is incoming students at a Masters' level in Information Technology, Information Systems, and Software Engineering programs. The most useful feedback comes from the perspective of, "what do you think today's students need to learn, given the last 20 years' developments with Agile, Lean IT, DevOps, and related themes?"
+
 The simplest thing you can do to provide feedback is to file an  https://github.com/dm-academy/aitm/issues[issue]. Please identify the section or sections and describe as specifically as possible what you believe the problem to be, or the suggestion you would like to make.
 
 If you want to directly contribute, you need to figure out Github.

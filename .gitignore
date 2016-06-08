@@ -1,4 +1,5 @@
 *.~vsd
+*.~vsdx
 *.html
 thumbs.db
 Thumbs.db:encryptable

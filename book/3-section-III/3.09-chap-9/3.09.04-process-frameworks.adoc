@@ -252,8 +252,7 @@ In CMM terms, empirical processes start by measuring and immediately optimizing 
 
 *In short, the CMMI staged model encourages the thought that process improvement (optimization) only  is possible at Level 5. Many companies implementing CMMI stages however will pragmatically say "Maybe we only need to get to level 3." This implies that they define and manage their processes, but never improve them.*
 
-This runs against much current thinking and practice, especially that deriving from Lean philosophy, in which processes are seen as always under improvement. (See discussion of xref:Toyota-Kata[Toyota Kata]
-.) All definition, measurement, and control must serve that end.
+This runs against much current thinking and practice, especially that deriving from Lean philosophy, in which processes are seen as always under improvement. (See discussion of xref:Toyota-Kata[Toyota Kata].) All definition, measurement, and control must serve that end.
 
 The CMMI has evolved since Humphrey's initial vision, but between its  unrealistic emphasis on statistical process control, and the idea that that process optimization is only relevant at the highest maturity, it is (in the view of this author) badly out of step with the reality of the new digital economy.
 

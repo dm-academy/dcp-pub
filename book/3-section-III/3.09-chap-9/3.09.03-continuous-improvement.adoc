@@ -106,7 +106,7 @@ In general, applying statistical process control to variable, creative product d
 
 Deming (along with Juran) is also known for "continuous improvement" as a cycle, e.g. "Plan/Do/Check/Act." Such cycles are akin to the scientific method, as they essentially engage in the ongoing development and testing of hypotheses, and the implementation of validated learning. We have touched on similar cycles in our discussions of xref:lean-startup[Lean Startup] and xref:Toyota-Kata[Toyota Kata].
 
-===== Don Reinertsen and effectiveness
+===== Lean Product Development and cost of delay
 [quote, Don Reinertsen, Managing the Design Factory]
 the purpose of controlling the process must be to influence economic outcomes. There is no other reason to be interested in process control.
 
@@ -120,7 +120,7 @@ This is not really a question of "efficiency;" of comparing inputs to outputs an
 
 anchor:empirical-process-control[]
 
-===== Ken Schwaber and empirical process control
+===== Scrum and empirical process control
 [quote, Ken Schwaber, Agile Software Development with Scrum]
 process theory experts . . . were amazed and appalled that my industry, systems development, was trying to do its work using a completely inappropriate process control model.
 

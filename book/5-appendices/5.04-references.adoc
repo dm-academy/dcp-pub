@@ -131,6 +131,8 @@
 
 - [[[Kennaley2010]]]: Kennaley, M., 2010. _SDLC 3.0: Beyond a Tacit Understanding of Agile: Towards the Next Generation of Software Engineering_ Fourth Medium Consulting.
 
+- [[[KARE2015]]]: KARE 11 Staff. 2015. “Target Cuts 275 Positions, Most in Technology.” http://www.kare11.com/story/news/2015/09/01/target-cuts-275-jobs-most--technology/71512016/.
+
 - [[[Kim2013]]]: Kim, G.; Behr, K. & Spafford, G. (2013), _The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win_, IT Revolution Press
 
 - [[[Knez2002]]]: Knez, Mark, and Duncan Simester. 2002. “Making Across-the-Board Incentives Work.” Harvard Business Review (Feb 2002).

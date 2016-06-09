@@ -96,7 +96,19 @@ This runs counter to much current thinking and practice, especially that derivin
 The CMMI has evolved since Humphrey's initial vision, but retains an emphasis on statistical process control that (in the view of this author) seems increasingly out of step with the reality of the new digital economy.
 
 ====== ITIL
-ITIL, originally the Information Technology Infrastructure Library, is a publication of the UK government, now via the Axelos commercial joint venture with Capita Group. It is in its 4th major edition (2011). While often considered an “operational” framework, ITIL spans the lifecycle of IT services and systems, from Strategy to Design to Transition to Operations to Continual Service Improvement. However, due to the particular structure of UK government publications, ITIL does not cover project management or the SDLC per se, or analysis, architecture and design.
+About the same time as the CMM's initial creation and transition to the Software Engineering Institute, the Central Computer and Telecommunications Agency of the United Kingdom recognized that IT practices were becoming fragmented. In response, a multi-volume set of guidance known as the IT Infrastructure Library was created. A 2nd edition consolidated and updated this guidance, and achieved worldwide acceptance as a de facto standard for IT management. The term "service" was inserted, i.e. "IT Service Management" but the distinction between the ITSM term and simple "IT Management" has always been somewhat unclear.
+
+Due to the particular structure of UK government publications, ITIL has never covered project management or the SDLC per se, or analysis, architecture and design.
+
+ITIL is currently published via the Axelos commercial joint venture between the UK government and Capita Group. It is now in its 4th major edition (2011). While often considered an “operational” framework, ITIL spans the lifecycle of IT services and systems; the current volumes reflect a lifecycle:
+
+* Service Strategy
+* Service Design
+* Service Transition
+* Service Operations
+* Continual Service Improvement
+
+Within these volumes, ITIL defines a number of activities, functions, and what it calls processes (more on this below). These definitions have helped stabilize industry practice and  
 
 ====== COBIT
 COBIT, originally the Control Objectives for Information Technology, is a set of guidance from the IS Audit and Control Association. It has a broader scope than ITIL, as it includes architecture and project management. Where ITIL contains narrative of considerable length, COBIT is more terse and structured, providing a useful framework for the construction and testing of suitable controls for IT governance.
@@ -115,6 +127,8 @@ The Project Management Body of Knowledge, is a publication of the Project Manage
 
 ====== Other frameworks
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
+
+===== The process terminology disconnect
 
 ===== Pros and cons of the frameworks
 IT capability frameworks can be harmful if they lead to fragmentation of improvement effort and lack of focus on the flow of IT value.

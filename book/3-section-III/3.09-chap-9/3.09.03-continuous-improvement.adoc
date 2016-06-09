@@ -119,6 +119,7 @@ Where the cost of a delayed product shipment might be some percentage, the cost 
 This is not really a question of "efficiency;" of comparing inputs to outputs and looking for a few percentage points improvement. It is more a matter of effectiveness; of the company's ability to execute on complex knowledge work.
 
 anchor:empirical-process-control[]
+
 ===== Ken Schwaber and empirical process control
 [quote, Ken Schwaber, Agile Software Development with Scrum]
 process theory experts . . . were amazed and appalled that my industry, systems development, was trying to do its work using a completely inappropriate process control model.

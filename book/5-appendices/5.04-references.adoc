@@ -27,6 +27,8 @@
 
 - [[[Betz2011a]]]: Betz, C. T. (2011), _Architecture and Patterns for IT: Service and Portfolio Management and Governance (Making Shoes for the Cobbler's Children), 2nd Edition_, Elsevier/Morgan Kaufman, Amsterdam
 
+- [[[Betz2011b]]]:Betz, C. (2011). "ITIL®, COBIT®, and CMMI®: Ongoing Confusion of Process and Function."" BPTrends. Retrieved from http://www.bptrends.com/publicationfiles/10-04-2011-ART-Ongoing Confusion of Process and Function-Betz-Final.pdf
+
 - [[[Betz2015]]]: Betz, C.T. (2015), "Calavera project", Github, https://github.com/CharlesTBetz/Calavera
 
 - [[[BPTrends2013]]]: BPTrends. 2013. “Scope Diagram (or Input-Guides-Outputs-Enablers – IGOE Diagram).” BPTrends. http://www.bptrends.com/resources/glossary/scope-diagram-or-input-guides-outputs-enablers-igoe-diagram/.

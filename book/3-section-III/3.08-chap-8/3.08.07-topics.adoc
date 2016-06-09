@@ -8,6 +8,8 @@
 include::../../../collab-links.adoc[]
 ****
 
+ Investment management? 
+
 ===== The Agile project frameworks
 
 As of this writing, a number of frameworks have been developed at the intersection of Agile and project management. Notable examples include:

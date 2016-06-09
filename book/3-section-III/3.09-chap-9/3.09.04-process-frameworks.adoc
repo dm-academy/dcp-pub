@@ -234,18 +234,39 @@ We will discuss architecture more in Chapter 12.
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
 ===== General observations on the frameworks
-We have discussed the problems of process control with respect to the CMM in particular. There are a variety of other concerns with respect to the process frameworks:
+We have discussed the problems of process control with respect to the CMM and CMMI in particular. While the other frameworks seem more cautious in their approach to variation,there are a variety of other concerns with respect to them:
 
 * Local optimization temptation
 * Confusion of process definition
+* Lack of execution model
+* Large batch orientation
 
-
-===== Confusion of process definition
-One
+====== Local optimization temptation
 
 IT capability frameworks can be harmful if they lead to fragmentation of improvement effort and lack of focus on the flow of IT value.
 
-Process vs function in the frameworks
+The digital delivery system at scale is a complex socio-technical system, including people, process, and technology. Frameworks help in understanding it, by breaking it down into component parts in various ways. This is all well and good, but the danger of *reductionism* emerges.
+
+NOTE: There are various definitions of "reductionism." This discussion reflects one of the more basic versions.
+
+A reductionist view implies that a system is nothing but the sum of its parts. Therefore, if each of the parts is attended to, the system will also function well.
+
+This can lead to a compulsive desire to do "all" of a framework. If ITIL calls for 25 processes, then a large, mature organization by definition should be good at all of them. But the 25 processes (and dozens more sub-processes and activities) called for by ITIL are somewhat arbitrary divisions. They overlap with each other. Furthermore, there are many digital organizations that do not use the full ITIL process portfolio and yet deliver value as well as organizations that do use ITIL. (Most Silicon Valley startups avoid process framworks, even when they scale up.)
+
+====== Confusion of process definition
+
+Another issue with the "process" frameworks is that, while they use the word "process" prominently, they are not aligned with Business Process Management best practices. <<Betz2011b>>
+
 All of these frameworks provide notable descriptions of major ongoing capabilities and functions that the large IT organization must perform. They in general are developed from the perspective of steady-state functions, as opposed to a value stream or defined process perspective.
 
-Large batch orientation with complex spiderweb of interations surrounding each major phase
+This can be seen by looking above at ITIL, for example. A Business Process Management consultant would see the term "Capacity Management" and observe that it is not countable or event-driven. "How many Capacities did you do today," might be the question.
+
+====== Lack of execution model
+However, specifying too many event-driven processes has its own complications. Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs. But processes do not run themselves. These process handoffs require staff attention. They impose demand on the system.
+
+We have discussed the issue of overburden previously. Too many organizations have contending execution models, where projects, processes, and miscellaneous work all compete for people's attention. In such environments, the overburden and wasteful multi-tasking can reach crisis levels.
+
+====== Large batch orientation
+Finally, even if a given process framework does not specifically call for waterfall, one can sometimes still see its legacy. Calls for thorough project planning and estimation, heavy documentation requirements, and so forth can signal a large batch orientation even in frameworks making some claim of supporting Agile.
+
+In the next chapter on Agile process management, we'll consider these and further issues with process management in general, and some current  responses consistent with current digital approaches.

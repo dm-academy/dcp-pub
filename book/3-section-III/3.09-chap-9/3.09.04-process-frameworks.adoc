@@ -234,13 +234,13 @@ Many other frameworks exist, under varying governance models from open to propri
 ===== General observations on the frameworks
 In terms of the new digital delivery approaches, there are a number of issues and concerns with the frameworks:
 
-* Statistical process control in the CMM & CMMI
+* The fallacy of statistical process control
 * Local optimization temptation
 * Lack of execution model
 * Artifact-centricity and batch orientation
 * Confusion of process definition
 
-====== Statistical process control
+====== The fallacy of statistical process control
 
 CMM author Watts Humphrey's original vision was to apply full statistical process control to the software process. As he stated at the time:
 

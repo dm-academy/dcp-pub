@@ -226,7 +226,7 @@ The Open Group Architecture Framework, is a framework and method for IT and ente
 
 TOGAF can be freely accessed through www.opengroup.org.
 
-We will discuss architecture more in Chapter 12.
+We will discuss architecture and TOGAF more in Chapter 12.
 
 ====== Other frameworks
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
@@ -276,8 +276,10 @@ Furthermore, there are many digital organizations that do not use the full ITIL 
 
 This temptation for local, process-level optimization runs counter to core principles of Lean and Systems Thinking. Many management thinkers, including W.E. Deming, Eli Goldratt, and others have emphasized the dangers of local optimization, and the need for taking a systems view.
 
+As this book's structure suggests, delivering IT value requires different approaches at different scales. There is recognition of this among framework practitioners; however, the frameworks themselves provide insufficient guidance on how they scale up and down.
+
 ====== Lack of execution model
-However, specifying too many event-driven processes has its own complications. Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs.
+It is also questionable whether even the largest actual IT organizations on the planet could fully implement the frameworks. Specifying too many event-driven processes has its own complications. Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs.
 
 As a part of every process definition, ITIL has a section entitled "Triggers, inputs, outputs, and interfaces." The Service Level Management Process ()<<TSO2011b>>, pp 120-122) for example, lists:
 
@@ -321,7 +323,7 @@ Finally, even if a given process framework does not specifically call for waterf
 
 All of these tend to signal a large batch orientation even in frameworks making some claim of supporting Agile.
 
-Good system design is a complex process, and we will discuss technical debt in Chapter 12. But the slow feedback signals that result from the artifact-centric batch processes implied by some frameworks are unacceptable in current industry, which is why new approaches are being adopted.
+Good system design is a complex process, and we will discuss technical debt in Chapter 12. But the slow xref:2.00.01-feedback[feedback] signals resulting from the artifact-centric batch processes implied by some frameworks are unacceptable in current industry. This is in part why new approaches are being adopted.
 
 ====== Confusion of process definition
 

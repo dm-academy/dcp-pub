@@ -1,4 +1,6 @@
-  === Chapter 10: Security, and Governance, Risk, and Compliance
+
+
+=== Chapter 10: Governance, Risk, Security, and Compliance
 
 ==== Introduction to Chapter 10
 
@@ -12,7 +14,7 @@ transforming to an agile delivery approach is difficult. Companies or government
 
 Ambler, Scott W.; Lines, Mark (2012-05-31). Disciplined Agile Delivery: A Practitioner's Guide to Agile Software Delivery in the Enterprise (IBM Press) (Kindle Locations 8081-8084). Pearson Education. Kindle Edition.
 
-IMPORTANT: As with other chapters in the later part of this book, we are going to introduce this topic "on its own terms." We will then add additional context and critique in subsequent sections. 
+IMPORTANT: As with other chapters in the later part of this book, we are going to introduce this topic "on its own terms." We will then add additional context and critique in subsequent sections.
 
 ===== Chapter 10 outline
 

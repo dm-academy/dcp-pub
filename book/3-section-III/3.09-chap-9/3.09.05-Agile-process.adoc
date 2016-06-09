@@ -46,7 +46,7 @@ Within the boundaries of each process, improvements were implemented that made w
 
 The above quote well illustrates the dangers of combining local optimization and  process management. Many current authors speak highly of self-organizing teams, but self-organizing teams may seek to optimize locally. Process management was originally intended to overcome this problem, but modeling techniques can be applied at various levels, including within specific departments. This is where enterprise business architecture can assist, to identify these longer, end to end flows of value and highlight the handoff areas, so that the process benefits the larger objective.
 
-===== Process proliferation
+====== Process proliferation
 The final pitfall we cover here is that of process proliferation.
 
 Process is a powerful tool. Ultimately it is how value is delivered. However, too many processes can have negative results on an organization.
@@ -131,6 +131,13 @@ continuous improvement as demand
 orchestration vs choreography
 Cost of delay of aggregate process
 Visual Andon
+
+- Project
+- Process
+- Product
+
+and the poor "resources" at their intersection, when badly managed.
+
 
 ====== Bureaucratic friction
 [quote, Mike Cohn]

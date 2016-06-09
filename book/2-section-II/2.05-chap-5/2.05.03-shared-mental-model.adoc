@@ -10,6 +10,7 @@ Whether you choose Scrum, Kanban, or choose not to label your work management at
 
 image::images/2.05-work-mental-model.png[]
 
+anchor:andon[]
 ===== Andon, and the Andon Cord
 
 Another related concept from Lean is the idea of andon:
@@ -93,6 +94,6 @@ A RACI analysis is often used when accountability must be defined for complex ac
 
 Since it is a precursor of both process and project management, it's therefore appropriate to cover it as part of generic work management.
 
- bring in reinertsen discussion 
+ bring in reinertsen discussion
 
  focus on specific decisions rather than abstract concepts like empowerment and strong vs. weak teams. It is much more useful for teams to know which product features they can change without outside approval than it is to find out they are "empowered."

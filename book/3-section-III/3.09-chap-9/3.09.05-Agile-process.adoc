@@ -137,39 +137,60 @@ Unlike case management, it explores more time-limited and often urgent activitie
 
 However, within the overall bounds of flight operations, or construction, or surgery, there are critical sequences of events that MUST be executed, often in a specific order. Gawande discusses the airline industry as a key exemplar of this. Instead of one "master checklist" there are specific, clear, brief checklists for a wide variety of scenarios, such as a cargo hold door becoming unlatched.
 
-There are similarities and differences between core BPM approaches and checklists. Often, business process management is employed to describe processes that are automated and whose progress is tracked in a database. Checklists, on the other hand, may be more manual, and may represent a briefer period of time.
+There are similarities and differences between core BPM approaches and checklists. Often, business process management is employed to describe processes that are automated and whose progress is tracked in a database. Checklists, on the other hand, may be more manual, intended for use in a closely collaborative environment (such as a an aircraft cockpit or operating room), and may represent a briefer period of time.
 
 Finally, in chapter 8, we discussed the concept of the xref:submittal-schedule[submittal schedule], which Gawande encountered in his discussions with the construction industry. In this approach, the actual, trackable task is that *two or more parties consult with each other.* This technique is also applicable in a BPM and Case Management sense.
 
 ===== Process execution
+Since our initial discussions in Chapter 5 on Work Management, we have progressed through Project and Process Management, and find ourselves returning full circle. Despite the various ways in which work is conceived, funded, and formulated, at the end "it's all just work." We must retain our concern for the "human resources" (that is, people) who find themselves at the mercy of:
 
+* project fractional allocations driving multi-tasking
+* processes imposed top down with no demand analysis or evaluation of benefits.
+* and the myriads of demands that, although critical, do not seem to fit into either of the first two categories.
 
-- Project
-- Process
-- Product
+The Lean movement manages through minimizing waste and over-processing. This means both taking out un-necessary steps from processes, *AND eliminating un-necessary processes completely when required*. And correspondingly, the processes that remain should have high levels of visibility. They should be taken with the utmost seriousness, and their status should be central to most people's awareness. (This is the purpose of xref:andon[Andon].)
 
-and the poor "resources" at their intersection, when badly managed.
+====== From workflow tools to collaboration and digital exhaust
+One reason process tends to generate friction and be unpopular is the poor usability of workflow tools. Older tools tend to present myriads of data fields to the user and expect a high degree of training. Each state change in the process is supposed to be logged and tracked by having someone sign in to the tool and update status manually.
 
-orchestration vs choreography
-Process as a source of demand/resource
-From workflow tools to Digital exhaust
-continuous improvement as demand
-Cost of delay of aggregate process
-Visual Andon
+By contrast, modern workflow approaches take full advantage of mobile platforms and integration with technology like chat rooms. Mobile development imposes higher standards for user experience (UX) design, which makes trackiing workflow somewhat easier. Integrated software pipelines that integrate application lifecycle and/or project management with source code and build management are increasingly gaining favor. For example:
 
+. A new feature request is logged in the ALM tool
+. When assigned to a developer, automatically creates a feature branch in the source control system for developer to work on
+. Developer writes tests and associated code, when all passes merges changes back to the central repository
+. Build tests automatically are run
+. ALM tool is automatically updated accordingly with completion if all tests pass
 
-====== Process as an irritation?
+In an operations context, certain operational commands can be executed directly from the chat window. This is known as "ChatOps:"
 
+****
+While in a chat room, team members type commands that the chat bot is configured to execute through custom scripts and plugins. These can range from code deployments to security event responses to team member notifications. The entire team collaborates in real-time as commands are executed. <<Sigler2014>>
+****
 
- example of service-ized process dysfunction
- is expediting the only option?
- alternatives...
+Properly configured ChatOps provides a rich audit trail of who did what, when, and who else was involved. Fundamental governance objectives of accountability can be considered fulfilled in this way, just as much as having paper or digital forms routed for approval (and with corresponding delays).
+
+In general, the idea is that we can understand digital processes not through painful manual status updates, but rather through their digital exhaust - the data byproducts of people performing the value-add day to day work, at speed and with flow instead of constant delays for approvals and status updates.
 
 ===== Process improvement
-misunderstanding variation
+[quote, Womack and Jones, Lean Thinking]
+There tended to be no big picture waiting to be revealed . . . there was only
+process kaizen . . . focused on isolated individual steps. . . . We coined the
+term “kamikaze kaizen” . . . to describe the likely result: lots of commotion,
+many isolated victories . . . [and] loss of the war when no sustainable benefits
+reached the customer or the bottom line.
 
-"quality"
+Finally, what is there to say about process improvement from an Agile and Lean perspective? Since these movements are founded on improvement cycles, fast feedback, and self-organization, it might seem redundant to have a section on Agile Process Improvement.
 
-In the world of agile delivery the role of quality assurance needs to adapt from auditing the quality of the process and product that is delivered at the end of the lifecycle, to supporting practices that ensure that quality is built in and validated from the beginning of the project. <<Ambler2012>> (Kindle Locations 8175-8177).
+But dysfunction and antipatterns exist here:
 
-Kaizen and kamikaze kaizen
+* Not basing process improvement in an empirical understanding of the situation
+* Process improvement activities that do not involve those affected
+* Not treating process activities as demand in and of themselves
+* Uncoordinated improvement activities, far from the bottom line
+
+The solutions are to be found largely within Lean theory.
+
+* Understand the facts of the process; do not pretend to understand based on remote reports. "Go and see," in other words.
+* Respect people, and understand that best understanding of the situation is held by those closest to it.
+* Make time and resources available for improvement activities. For example, assign them a Problem ticket and ensure there are resources specifically tasked with working it, who are given relief from other duties.
+* Periodically review improvement activities as part of the overall portfolio. You are placing "bets" on them just as with new features. Do they merit your investment?

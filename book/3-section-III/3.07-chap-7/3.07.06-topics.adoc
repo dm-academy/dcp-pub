@@ -1,5 +1,16 @@
 ==== Topics in organization and culture
+ifdef::collaborator-draft[]
 
+****
+*Collaborative*
+
+_ 20160609 Status: Like most topics sections, this one will remain rough until 2nd draft. Suggestions appreciated._
+
+include::../../../collab-links.adoc[]
+
+****
+
+endif::collaborator-draft[]
 
 ===== The mainstreaming of IT into the business
 

@@ -11,7 +11,7 @@
 
 - [[[Ambler2005]]]: Ambler, S. (2005) "Agile Outsourcing." _Dr. Dobb's Journal_.  Retrieved from http://www.drdobbs.com/architecture-and-design/agile-outsourcing/184415344. Date Accessed:  3/21/2016.
 
-- [[[Ambler2012]]]: Ambler, Scott W, and Mark Lines. 2012. Disciplined Agile Delivery: A Practitioner’s Guide to Agile Software Delivery in the Enterprise. IBM Press. 
+- [[[Ambler2012]]]: Ambler, Scott W, and Mark Lines. 2012. Disciplined Agile Delivery: A Practitioner’s Guide to Agile Software Delivery in the Enterprise. IBM Press.
 
 - [[[Anderson2010]]]: Anderson, D. J. (2010), _Kanban: Successful Evolutionary Change for your Technology Business_, Blue Hole Press, Sequim, WA
 
@@ -223,6 +223,8 @@ IEEE Press.
 - [[[Sharp2009]]]: Sharp, A. and P. McDermott (2009). _Workflow modeling: tools for process improvement and applications development._ Second edition. Boston, Artech House.
 
 - [[[Shortland2012]]]: Shortland, A. & Lei, M. (2012), "Using Rundeck and Chef to build DevOps Toolchains", http://dev2ops.org/2012/05/using-rundeck-and-chef-to-build-devops-toolchains-at-chefcon/
+
+- [[[Sigler2014]]]: Sigler, Eric. 2014. “So, What Is ChatOps? And How Do I Get Started?” Pagerduty.Com. https://www.pagerduty.com/blog/what-is-chatops/.
 
 - [[[Silverston2008]]]: Silverston, L. (2008), _The data model resource book Vol 3: Universal patterns for data modeling_, Wiley, Indianapolis, Ind.
 

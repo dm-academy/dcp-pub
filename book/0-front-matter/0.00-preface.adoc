@@ -22,6 +22,9 @@ This preface covers:
 * A vision for a new, collaborative Agile text
 
 === The IT industry, and the rise of digital
+[quote, Darrell Rigby et al, Harvard Business Review]
+Now agile methodologies—which involve new values, principles, practices, and benefits and are a radical alternative to command-and-control-style management—are spreading across a broad range of industries and functions and even into the C-suite.
+
 Let us start this preface with two industry reports:
 
 In September 2015, Minneapolis-based Target Corporation laid off 275 workers with IT skillsets such as business analysis and project management, while simultaneously hiring workers with newer “Agile” skills. As quoted by a local news site, Target stated:
@@ -38,14 +41,24 @@ Consider also the following from Jim Fowler, Chief Information Officer at Genera
 [W]e've moved to a flatter organizational model with "teams of teams" who are focused on outcomes. These are colocated groups of people who own a small, minimal viable product deliverable that they can produce in 90 days. The team focuses on one piece of work that they will own through its complete lifecycle…in [the “back office”] model, the CIO controls infrastructure, the network, storage, and makes the PCs run. The CIOs who choose to play that role will not be relevant for long…” <<Heller2016>>
 ****
 
-
 Fowler echoes the strategic concerns and directions of leading CIOs around the world. And beneath his words lie fundamentally new approaches to delivering IT and digital  value. These approaches carry a number of names, but the term “Agile” is prominent, with a number of variants (DevOps, Lean IT, Lean Product Development, Web-scale IT, Lean UX, and so forth). These trends, decades in the making, cannot be dismissed as "flavor of the month" or a fad.
+
+The successes of Agile are notable. Evidence for Agile software development methods, and a related set of approaches that have coalesced into what we might call the digital ecosystem, continues to accumulate.
+
+The annual State of DevOps report presents extraordinary, order of magnitude claims in terms of IT delivery and stability for organizations with mature Agile and DevOps practices <<Puppet2015>>:
+
+* 60x fewer failures
+* 168x better Mean Time To Recovery
+* 30x more frequent delivery
+* 200x shorter lead times
+
+The proven effectiveness of these methods in managing many forms of complexity, including problems not usually seen as “IT” or even “digital,” leads to broader and broader appetite for appropriate instruction and curricula.
 
 The new IT-based digital economy is informed top to bottom by an ecosystem of ideas founded on Agile software development. This is accompanied by rethinking or outright rejection of certain practices, including waterfall software development, lengthy “analysis and design” phases, stage-gated project management, and the use of process improvement frameworks. Many are introduced to such practices via formal education, where they are still often presented uncritically.
 
 Startups; large, established firms; and now mid-size companies are embracing the insights and practices of digital transformation, and local workforce requirements are shifting. We believe that academic systems and curriculum owners need up to date understanding and relevant, mainstream offerings appropriate to these trends.
 
-A primary goal of this book, as a textbook, is therefore to prepare the student for an information technology career in industry, “industry” being broadly defined as both those industries that offer IT products, as well as industries that rely on IT instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
+A primary goal of this book, as a textbook, is to prepare the student for a career in this new digital industry. “Industry” is broadly defined as both those industries that offer digital products per se, as well as industries that rely on digital technology instrumentally for delivering all kinds of products. A central theme of the book is that “IT,” considered as a component, represents an increasing proportion of ALL industrial products (both consumer and business facing). This is known as "digital transformation."
 
 Because of this, the IT industry, and my understanding of it, have transformed dramatically in the past ten years, and the transformation has accelerated even more in the last five.
 
@@ -57,22 +70,7 @@ However, IT remains under-managed and poorly understood relative to peer functio
 * IT service management practices, and
 * IT governance concerns
 
-The challenges of this legacy are an ongoing theme throughout this introductory text.
-
-=== Evidence for Agile
-[quote, Darrell Rigby et al, Harvard Business Review]
-Now agile methodologies—which involve new values, principles, practices, and benefits and are a radical alternative to command-and-control-style management—are spreading across a broad range of industries and functions and even into the C-suite.
-
-The successes of Agile are notable. Evidence for Agile software develop methods, and a related set of approaches that have coalesced into what we might call the digital ecosystem, continues to accumulate.
-
-The annual State of DevOps report presents extraordinary, order of magnitude claims in terms of IT delivery and stability for organizations with mature Agile and DevOps practices <<Puppet2015>>:
-
-* 60x fewer failures
-* 168x better Mean Time To Recovery
-* 30x more frequent delivery
-* 200x shorter lead times
-
-The proven effectiveness of these methods in managing many forms of complexity, including problems not usually seen as “IT” or even “digital,” leads to broader and broader appetite for appropriate instruction and curricula.
+Understanding and engaging with the challenges of this legacy are an ongoing theme throughout this introductory text.
 
 === Some cautions
 However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:

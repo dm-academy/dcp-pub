@@ -246,7 +246,7 @@ CMM author Watts Humphrey's original vision was to apply full statistical proces
 
 _Dr. W. E. Deming, in his work with the Japanese after World War II, applied the concepts of statistical process control to many of their industries. While there are important differences, these concepts are just as applicable to software as they are to producing consumer goods like cameras, television sets, or auto mobiles._ (<<Humphrey1989>>, p. 3)
 
-The overall CMM/CMMI idea (in the well-known staged model) is that a process cannot be improved and optimized until it is fully under control. Perhaps well-defined industrial processes should not be optimized until they are fully "managed." However, as we discussed in the previous section,  process control theorists see creative, knowledge-intensive processes as requiring xref:empirical-process-control[empirical control].
+The overall CMM/CMMI idea (in the well-known staged model) is that a process cannot be improved and optimized until it is fully under control. Perhaps well-defined industrial processes should not be optimized until they are fully "managed." However, as we discussed in the previous section,  process control theorists see creative, knowledge-intensive processes as requiring xref:empirical-process-control[empirical control]. SPC applied to software has therefore been criticized as inappropriate <<Racynski2008>>.
 
 In CMM terms, empirical processes start by measuring and immediately optimizing (adjusting). They need not -- and *cannot* -- be fully defined. One of the most questionable aspects of CMMI therefore, is its implication that process optimization is something only done at the highest levels of maturity.
 

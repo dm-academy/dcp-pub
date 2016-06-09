@@ -232,6 +232,19 @@ We will discuss architecture and TOGAF more in Chapter 12.
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
 ===== General observations on the frameworks
+ifdef::collaborator-draft[]
+
+****
+*Collaborative*
+
+ Status: This section is in first draft as of 9 Jun 2016. Comments appreciated.
+
+include::../../../collab-links.adoc[]
+
+****
+
+endif::collaborator-draft[]
+
 In terms of the new digital delivery approaches, there are a number of issues and concerns with the frameworks:
 
 * The fallacy of statistical process control

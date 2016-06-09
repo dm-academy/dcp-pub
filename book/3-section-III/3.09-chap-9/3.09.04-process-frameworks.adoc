@@ -231,7 +231,7 @@ We will discuss architecture and TOGAF more in Chapter 12.
 ====== Other frameworks
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
-===== General observations on the frameworks
+===== Observations on the frameworks
 ifdef::collaborator-draft[]
 
 ****
@@ -267,7 +267,7 @@ In CMM terms, empirical process control starts by measuring and immediately opti
 
 This runs against much current thinking and practice, especially that deriving from Lean philosophy, in which processes are seen as always under improvement. (See discussion of xref:Toyota-Kata[Toyota Kata].) All definition, measurement, and control must serve that end.
 
-The CMMI has evolved since Humphrey's initial vision, but between its  unrealistic emphasis on statistical process control, and the idea that that process optimization is only relevant at the highest maturity, it is (in the view of this author) badly out of step with current digital trends.
+The CMMI has evolved since Humphrey's initial vision, but between its  mis-applicaton of statistical process control, and the idea that that process optimization is only relevant at the highest maturity, it is (in the view of this author) badly out of step with current digital trends.
 
 The other frameworks do not embrace statistical process control to the same extent as the CMMI. PMBOK suggests that "control charts may also be used to monitor cost and schedule variances, volume, and frequency of scope changes, or other management results to help determine if the project management processes are in control." This also contradicts the insights of empirical process control, unless the project were also a fully defined process -- unlikely from a process control perspective. (<<PMI2013>>, Kindle Locations 4108-4109).
 

@@ -11,6 +11,8 @@
 
 - [[[Ambler2005]]]: Ambler, S. (2005) "Agile Outsourcing." _Dr. Dobb's Journal_.  Retrieved from http://www.drdobbs.com/architecture-and-design/agile-outsourcing/184415344. Date Accessed:  3/21/2016.
 
+- [[[Ambler2012]]]: Ambler, Scott W, and Mark Lines. 2012. Disciplined Agile Delivery: A Practitioner’s Guide to Agile Software Delivery in the Enterprise. IBM Press. 
+
 - [[[Anderson2010]]]: Anderson, D. J. (2010), _Kanban: Successful Evolutionary Change for your Technology Business_, Blue Hole Press, Sequim, WA
 
 - [[[Arbogast2012]]]: Arbogast, T. L., Craig; Vodde, Bas (2012) "Agile Contracts Primer."  Retrieved from http://www.agilecontracts.com/agile_contracts_primer.pdf. Date Accessed:  March 21, 2016.

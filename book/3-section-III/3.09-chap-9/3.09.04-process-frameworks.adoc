@@ -29,6 +29,8 @@ The first goal of any framework is, for a given conceptual space, to provide a "
 * Support training and orientation of professionals new to the area (or its finer points)
 * Support governance and control activities related to the area
 
+===== An overview of the major frameworks
+
 Many frameworks have emerged in the IT space, with broader and narrower domains of concern. Some are owned by non-profit standards bodies; others are commercial. We will focus on five in this book. In roughly chronological order, they are:
 
 * CMMI (Capability Maturity Model-Integrated)
@@ -269,7 +271,7 @@ This runs against much current thinking and practice, especially that deriving f
 
 The CMMI has evolved since Humphrey's initial vision, but between its  mis-applicaton of statistical process control, and the idea that that process optimization is only relevant at the highest maturity, it is (in the view of this author) badly out of step with current digital trends.
 
-The other frameworks do not embrace statistical process control to the same extent as the CMMI. PMBOK suggests that "control charts may also be used to monitor cost and schedule variances, volume, and frequency of scope changes, or other management results to help determine if the project management processes are in control" (<<PMI2013>>, Kindle Locations 4108-4109). This also contradicts the insights of empirical process control, unless the project were also a fully defined process -- unlikely from a process control perspective. 
+The other frameworks do not embrace statistical process control to the same extent as the CMMI. PMBOK suggests that "control charts may also be used to monitor cost and schedule variances, volume, and frequency of scope changes, or other management results to help determine if the project management processes are in control" (<<PMI2013>>, Kindle Locations 4108-4109). This also contradicts the insights of empirical process control, unless the project were also a fully defined process -- unlikely from a process control perspective.
 
 ====== Local optimization temptation
 [quote, Eli Goldratt, The Goal]

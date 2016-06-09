@@ -1,4 +1,18 @@
 ==== Agile and IT process management
+
+ifdef::collaborator-draft[]
+
+****
+*Collaborative*
+
+ Status: This section is in development as of 9 Jun 2016. Expect volatility.
+
+include::../../../collab-links.adoc[]
+
+****
+
+endif::collaborator-draft[]
+
 [quote, Manifesto for Agile Software Development]
 Individuals and interactions over processes and tools.
 

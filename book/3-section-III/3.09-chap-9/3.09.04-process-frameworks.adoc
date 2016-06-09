@@ -311,13 +311,19 @@ and so on. Again, artifacts do not create themselves. Hundreds of artifacts are 
 
 Unstructured artifacts such as plans, designs, and reports in particular impose high cognitive load. As digital organizations automate their pipelines, it becomes essential to identify the key events and elements they may represent, so that they can be embedded into the automation layer.
 
-Finally, even if a given process framework does not specifically call for waterfall, one can sometimes still see its legacy. Calls for thorough project planning and estimation, cautions against "cutting corners," "design specifications" moving through approval pipelines, and so forth tend to signal a large batch orientation even in frameworks making some claim of supporting Agile.
+Finally, even if a given process framework does not specifically call for waterfall, one can sometimes still see its legacy. For example:
 
-Good system design is a complex process, and we will discuss technical debt in Chapter 12. But the slow feedback signals that result from artifact-centric, larger batch processes such as implied by some frameworks are unacceptable in current industry, which is why new approaches are being adopted.
+* Calls for thorough project planning and estimation
+* Cautions against "cutting corners"
+* "design specifications" moving through approval pipelines (and following a progression from general to detailed)
+
+All of these tend to signal a large batch orientation even in frameworks making some claim of supporting Agile.
+
+Good system design is a complex process, and we will discuss technical debt in Chapter 12. But the slow feedback signals that result from the artifact-centric batch processes implied by some frameworks are unacceptable in current industry, which is why new approaches are being adopted.
 
 ====== Confusion of process definition
 
-Another issue with the "process" frameworks is that, while they use the word "process" prominently, they are not aligned with Business Process Management best practices. <<Betz2011b>>
+One final issue with the "process" frameworks is that, while they use the word "process" prominently, they are not aligned with Business Process Management best practices. <<Betz2011b>>
 
 All of these frameworks provide useful descriptions of major ongoing capabilities and functions that the large IT organization must perform. But in terms of our preceding discussion on process method, they in general are developed from the perspective of steady-state functions, as opposed to a value stream or defined process perspective.
 
@@ -333,4 +339,4 @@ The BPM community is clear that processes and countable and event-driven (see <<
 
 The lack of countability throughout the IT frameworks' conception of "process" has caused confusion and lack of alignment with BPM professionals for years, and remains an ongoing problem.
 
-In the next chapter on Agile process management, we'll consider these and further issues with process management in general, and some current  responses consistent with current digital approaches.
+In the next chapter, we'll consider some of these further, and responses consistent with current Agile, Lean, and digital approaches.

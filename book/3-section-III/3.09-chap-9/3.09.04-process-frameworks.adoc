@@ -29,42 +29,95 @@ The first goal of any framework is, for a given conceptual space, to provide a "
 * Support training and orientation of professionals new to the area (or its finer points)
 * Support governance and control activities related to the area
 
-Many frameworks have emerged in the IT space, with broader and narrower domains of concern. Some are owned by non-profit standards bodies; others are commercial. We will focus on five in this book:
+Many frameworks have emerged in the IT space, with broader and narrower domains of concern. Some are owned by non-profit standards bodies; others are commercial. We will focus on five in this book. In roughly chronological order, they are:
 
+* CMMI (Capability Maturity Model-Integrated)
+* PMBOK (The Project Management Body of Knowledge)
 * ITIL (originally the Information Technology Infrastructure Library)
 * COBIT (aka Control Objectives for Information Technology)
 * TOGAF (The Open Group Architecture Framework)
-* PMBOK (The Project Management Body of Knowledge)
-* CMMI (Capability Maturity Model-Integrated)
-IT capability frameworks can be harmful if they lead to fragmentation of improvement effort and lack of focus on the flow of IT value.
+
+====== CMMI
+The Capability Maturity Model was originally published by Watts Humphrey in 1989 in the book _Managing the Software Process_ <<Humphrey1989>>. Humphrey's original vision was to apply full statistical process control to the software process. As he stated at the time:
+
+_Dr. W. E. Deming, in his work with the Japanese after World War II, applied the concepts of statistical process control to many of their industries. While there are important differences, these concepts are just as applicable to software as they are to producing consumer goods like cameras, television sets, or auto
+mobiles._
+
+The CMM was later taken on by the Software Engineering Institute at Carnegie-Mellon University, and is now managed by the CMMI Institute at Carnegie-Mellon.
+
+The CMM has had considerable influence on software development and IT management more generally. It popularized the idea that process management tends to evolve in the same way across organizations, following a "staged" model:
+
+Stage 1: Initial
+
+Stage 2: Repeatable
+
+Stage 3: Defined
+
+Stage 4: Managed
+
+Stage 5: Optimizing
+
+(These are Humphrey's original levels. There are some differences with the current CMMI, but the concept is the same.)
+
+These ideas can be seen reflected in later guidance such as COBIT and ITIL.
+
+Within this overall framework of maturation, CMMI currently calls for 22 process areas:
+
+* Causal Analysis and Resolution (CAR)
+* Configuration Management (CM)
+* Decision Analysis and Resolution (DAR)
+* Integrated Project Management (IPM)
+* Measurement and Analysis (MA)
+* Organizational Process Definition (OPD)
+* Organizational Process Focus (OPF)
+* Organizational Performance Management (OPM)
+* Organizational Process Performance (OPP)
+* Organizational Training (OT)
+* Product Integration (PI)
+* Project Monitoring and Control (PMC)
+* Project Planning (PP)
+* Process and Product Quality Assurance (PPQA)
+* Quantitative Project Management (QPM)
+* Requirements Development (RD)
+* Requirements Management (REQM)
+* Risk Management (RSKM)
+* Supplier Agreement Management (SAM)
+* Technical Solution (TS)
+* Validation (VAL)
+* Verification (VER)
+
+The overall idea is that a process cannot be improved and optimized until it is fully under control. As we discussed in the previous section, this may be true for defined processes, but  process theorists see creative, knowledge-intensive processes as requiring empirical control.
+
+In CMM terms, empirical processes start by measuring and immediately optimizing. They need not -- cannot -- be fully defined. One of the most questionable aspects of CMM, is its framing process optimization as something only done at the highest levels of maturity.
+
+This runs counter to much current thinking and practice, especially that deriving from Lean philosophy, in which processes are seen as always under improvement. (See discussion of xref:Toyota-Kata[Toyota Kata]
+.) All definition, measurement, and control serve that end.
+
+The CMMI has evolved since Humphrey's initial vision, but retains an emphasis on statistical process control that (in the view of this author) seems increasingly out of step with the reality of the new digital economy.
 
 ====== ITIL
-*ITIL,* originally the Information Technology Infrastructure Library, is a publication of the UK government, now via the Axelos commercial joint venture with Capita Group. It is in its 4th major edition (2011). While often considered an “operational” framework, ITIL spans the lifecycle of IT services and systems, from Strategy to Design to Transition to Operations to Continual Service Improvement. However, due to the particular structure of UK government publications, ITIL does not cover project management or the SDLC per se, or analysis, architecture and design.
-
-ITIL is a lengthy and expensive to obtain publication, containing about 2000 pages of narrative guidance covering 26 processes and additional IS/IT functions and activities, from IT Finance to Event Management.
+ITIL, originally the Information Technology Infrastructure Library, is a publication of the UK government, now via the Axelos commercial joint venture with Capita Group. It is in its 4th major edition (2011). While often considered an “operational” framework, ITIL spans the lifecycle of IT services and systems, from Strategy to Design to Transition to Operations to Continual Service Improvement. However, due to the particular structure of UK government publications, ITIL does not cover project management or the SDLC per se, or analysis, architecture and design.
 
 ====== COBIT
-*COBIT,* originally the Control Objectives for Information Technology, is a set of guidance from the IS Audit and Control Association. It has a broader scope than ITIL, as it includes architecture and project management. Where ITIL contains narrative of considerable length, COBIT is terser and more structured, providing a useful framework for the construction and testing of suitable controls for IT governance.
+COBIT, originally the Control Objectives for Information Technology, is a set of guidance from the IS Audit and Control Association. It has a broader scope than ITIL, as it includes architecture and project management. Where ITIL contains narrative of considerable length, COBIT is more terse and structured, providing a useful framework for the construction and testing of suitable controls for IT governance.
 
 COBIT can be freely accessed through www.isaca.org.
 
 ====== TOGAF
-*TOGAF,* or The Open Group Architecture Framework, is a framework and method for IT and enterprise architecture practices.
+The Open Group Architecture Framework, is a framework and method for IT and enterprise architecture practices.
 
 TOGAF can be freely accessed through www.opengroup.org
 
 ====== PMBOK
-*PMBOK,* or the Project Management Body of Knowledge, is a publication of the Project Management Institute. It represents the codification of formal project management knowledge. There is a comparable Axelos publication, Prince2, not covered here. PMBOK was covered in Chapter 8.
+The Project Management Body of Knowledge, is a publication of the Project Management Institute. It represents the codification of formal project management knowledge. There is a comparable Axelos publication, Prince2, not covered here. PMBOK was covered in Chapter 8.
 
-====== The particular case of CMMI
-Process capability is the inherent variation of the process in relation to the specification limits. The smaller the process variation, the better the process's capability. <<Kan1995>>
 
-what is maturity? Cooke-Davis defines this as "the extent to which an organization has explicitly and consistently deployed processes that are documented, managed, measured, controlled, and continually improved" (Cooke-Davies, 2004). <<Richardson2010>>
 
 ====== Other frameworks
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
 ===== Pros and cons of the frameworks
+IT capability frameworks can be harmful if they lead to fragmentation of improvement effort and lack of focus on the flow of IT value.
 
 Process vs function in the frameworks
 All of these frameworks provide notable descriptions of major ongoing capabilities and functions that the large IT organization must perform. They in general are developed from the perspective of steady-state functions, as opposed to a value stream or defined process perspective.

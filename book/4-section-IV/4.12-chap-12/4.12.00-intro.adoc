@@ -128,3 +128,5 @@ https://www.itpreneurs.com/blog/agile-togaf-and-enterprise-architecture-will-the
 * Identify current approaches to understanding complex systems and their failure modes
 
 * Describe Snowden's Cynefin and its major elements
+
+Process capability is the inherent variation of the process in relation to the specification limits. The smaller the process variation, the better the process's capability. <<Kan1995>>

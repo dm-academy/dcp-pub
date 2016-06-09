@@ -109,6 +109,8 @@
 
 - [[[Humble2011]]]: Humble, J. & Farley, D. (2011), _Continuous delivery_, Addison-Wesley, Boston
 
+- [[[Humphrey1989]]]: Humphrey, Watts S. 1989. _Managing the Software Process._ Reading, Mass.: Addison-Wesley.
+
 - [[[Huntzinger2007]]]: Huntzinger, James R. 2007. _Lean Cost Management: Accounting for Lean by Establishing Flow_. Fort Lauderdale, Fl.: J. Ross Publishing.
 
 - [[[Kan2003]]]: Kan, Stephen H. 1995. _Metrics and Models in Software Quality Engineering_. Second Edition. Reading, Mass.: Addison-Wesley.

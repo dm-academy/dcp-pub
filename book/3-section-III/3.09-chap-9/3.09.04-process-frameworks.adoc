@@ -7,7 +7,7 @@ ifdef::collaborator-draft[]
 ****
 *Collaborative*
 
- Status: This section is in development as of 8 Jun 2016. Expect volatility.
+ Status: This section is in first draft as of 9 Jun 2016. Comments appreciated.
 
 include::../../../collab-links.adoc[]
 
@@ -279,7 +279,7 @@ This temptation for local, process-level optimization runs counter to core princ
 As this book's structure suggests, delivering IT value requires different approaches at different scales. There is recognition of this among framework practitioners; however, the frameworks themselves provide insufficient guidance on how they scale up and down.
 
 ====== Lack of execution model
-It is also questionable whether even the largest actual IT organizations on the planet could fully implement the frameworks. Specifying too many interacting processes has its own complications. 
+It is also questionable whether even the largest actual IT organizations on the planet could fully implement the frameworks. Specifying too many interacting processes has its own complications.
 
 Consider: Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs.
 

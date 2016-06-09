@@ -1,3 +1,5 @@
 * link:https://github.com/dm-academy/aitm/blob/master/collaborator-instructions.adoc[Collaborator instructions, window="_blank"]
 * Raise an link:https://github.com/dm-academy/aitm/issues[issue, window="_blank"] to comment
 * link:https://github.com/dm-academy/aitm/tree/master/book[Github source files, window="_blank"]
+
+Please remember that the intended audience of this survey text is incoming students at a Masters' level in Information Technology, Information Systems, and Software Engineering programs. The most useful feedback comes from the perspective of, "what do you think today's students need to learn, given the last 20 years' developments with Agile, Lean IT, DevOps, web- and cloud-scale IT, digital transformation, and related themes?"

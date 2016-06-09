@@ -30,7 +30,32 @@ Clearly, the concept of "process" is important and will persist through digital 
 Although we don't preface these topics with "Agile" or "Lean," bringing those and related perspectives is the intent of this chapter.
 
 ===== Process conception
-Many of the issues with process comes from a failure to correctly understand and analyze the organization needs. This is the focus of xref:toyota-kata[Toyota Kata]. A process is a technique, a tool, and no technique should be implemented without a thorough understanding of the business context. Nor should any technique be implemented without rigorous, disciplined follow-up as to its real effects, both direct and indirect.
+[quote, Mike Cohn, Succeeding with Agile: Software Development Using Scrum]
+"Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects."
+
+Processes can generate various emotional reactions:
+
+"Dysfunctional! Insanity!" (as above)
+
+"Follow the process!"
+
+"What bureaucracy!"
+
+"Don't create a 'Process Police'!"
+
+"I am an ITIL professional. I believe in ITIL!"
+
+"I don't write code on an assembly line!"
+
+Such reactions are commonplace in social media, but we need a more objective and rational approach to understand the pros and cons of processes. Don Reinertsen uses a number of neutral concepts towards this end (<<Reinertsen2009>>, chapters 3, 6 and 7):
+
+* Queues
+* Work in Process
+* Cadence
+* Synchronization
+* Sequencing
+
+Many of the issues with process comes from a failure to correctly understand and analyze the organization needs in objective terms such as these. This is the focus of xref:toyota-kata[Toyota Kata]. A process is a technique, a tool, and no technique should be implemented without a thorough understanding of the business context. Nor should any technique be implemented without rigorous, disciplined follow-up as to its real effects, both direct and indirect.
 
 A skeptical and self-critical, "go and see" approach is therefore essential. Too often, processes are instituted in reaction to the last data point, imposed top down, and rarely evaluated for effectiveness. Allowing affected parties to lead a process re-design is a core Lean principle (kaizen).
 
@@ -77,8 +102,7 @@ It is therefore advisable to at least keep an inventory of processes that may im
 
 ===== Process content
 
-====== The pitfall of process complexity
-A related problem is when the process simply becomes too complex for humans to follow. Multi-page process models are rarely consulted, even if the team affected developed them. This is especially true when there are many optional or conditional steps in the process.
+Sometimes, the process simply becomes too complex for humans to follow. Multi-page process models are rarely consulted, even if the team affected developed them. This is especially true when there are many optional or conditional steps in the process.
 
 There are two related lines of response to this:
 
@@ -118,11 +142,7 @@ There are similarities and differences between core BPM approaches and checklist
 Finally, in chapter 8, we discussed the concept of the xref:submittal-schedule[submittal schedule], which Gawande encountered in his discussions with the construction industry. In this approach, the actual, trackable task is that *two or more parties consult with each other.* This technique is also applicable in a BPM and Case Management sense.
 
 ===== Process execution
-Process as a source of demand/resource
-continuous improvement as demand
-orchestration vs choreography
-Cost of delay of aggregate process
-Visual Andon
+
 
 - Project
 - Process
@@ -130,10 +150,16 @@ Visual Andon
 
 and the poor "resources" at their intersection, when badly managed.
 
+orchestration vs choreography
+Process as a source of demand/resource
+From workflow tools to Digital exhaust
+continuous improvement as demand
+Cost of delay of aggregate process
+Visual Andon
+
 
 ====== Process as an irritation?
-[quote, Mike Cohn]
-"Many companies have at least one dysfunctional area. This may be the “furniture police” who won’t let programmers rearrange furniture to facilitate pair programming. Or it may be a purchasing group that takes six weeks to process a standard software order. In any event these types of insanity get in the way of successful projects. One way to view the project manager is as the bulldozer responsible for quickly removing these problems."
+
 
  example of service-ized process dysfunction
  is expediting the only option?

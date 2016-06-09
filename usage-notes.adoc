@@ -70,6 +70,7 @@ xref:cost-accounting-def[]
 chapter 9
 xref:continuous-improvement[]
 xref:frameworks[frameworks]
+xref:empirical-process-control[empirical process control]
 
 chapter 10
 xref:IT-lifecycles[IT lifecycles]

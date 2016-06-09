@@ -7,7 +7,7 @@ ifdef::collaborator-draft[]
 ****
 *Collaborative*
 
- Status: This section is in first draft as of 9 Jun 2016. Comments appreciated.
+_Status: This section is in first draft as of 9 Jun 2016. Comments appreciated._
 
 include::../../../collab-links.adoc[]
 
@@ -237,7 +237,7 @@ ifdef::collaborator-draft[]
 ****
 *Collaborative*
 
-Status: This section is in first draft as of 9 Jun 2016. Comments appreciated.
+_Status: This section is in first draft as of 9 Jun 2016. Comments appreciated._
 
 include::../../../collab-links.adoc[]
 

@@ -95,7 +95,7 @@ In CMM terms, empirical processes start by measuring and immediately optimizing.
 This runs counter to much current thinking and practice, especially that deriving from Lean philosophy, in which processes are seen as always under improvement. (See discussion of xref:Toyota-Kata[Toyota Kata]
 .) All definition, measurement, and control serve that end.
 
-The CMMI has evolved since Humphrey's initial vision, but retains an emphasis on statistical process control that (in the view of this author) seems increasingly out of step with the reality of the new digital economy.
+The CMMI has evolved since Humphrey's initial vision, but retains an  unrealistic emphasis on statistical process control that (in the view of this author) is  out of step with the reality of the new digital economy.
 
 ====== ITIL
 About the same time as the CMM's initial creation and transition to the Software Engineering Institute, the Central Computer and Telecommunications Agency of the United Kingdom recognized that IT practices were becoming fragmented. In response, a multi-volume set of guidance known as the IT Infrastructure Library was created. A 2nd edition consolidated and updated this guidance, and achieved worldwide acceptance as a de facto standard for IT management. The term "service" was inserted, i.e. "IT Service Management" but the distinction between the ITSM term and simple "IT Management" has always been somewhat unclear.
@@ -171,46 +171,54 @@ Where ITIL contains narrative of considerable length, COBIT is more terse and st
 
 [cols="2,6", options="header"]
 |====
-|CObIT Domain|Processes
-|Plan and Organize (PO)
-|PO1 Define a strategic IT plan +
-PO2 Define the information architecture +
-PO3 Determine technological direction +
-PO4 Define the IT processes, organization and relationships +
-PO5 Manage the IT investment +
-PO6 Communicate management aims and direction +
-PO7 Manage IT human resources +
-PO8 Manage quality +
-PO9 Assess and manage IT risks +
-PO10 Manage projects +
-|Acquire and Implement (AI)
-|AI1 Identify automated solution +
-AI2 Acquire and maintain application software +
-AI3 Acquire and maintain technology infrastructure +
-AI4 Enable operation and use +
-AI5 Procure IT resources +
-AI6 Manage changes +
-AI7 Install and accredit solutions and changes +
-|Deliver and Support (DS)
-|DS1 Define and manage service levels +
-DS2 Manage third-party service +
-DS3 Manage performance and capacity +
-DS4 Ensure continuous service +
-DS5 Ensure systems security +
-DS6 Identify and allocate costs +
-DS7 Educate and train users +
-DS8 Manage service desk and incidents +
-DS9 Manage the configuration +
-DS10 Manage problems +
-DS11 Manage data +
-DS12 Manage the physical environment +
-DS13 Manage operations +
-|Monitor and Evaluate (ME)
-|ME1 Monitor and evaluate IT performance. +
-ME2 Monitor and evaluate internal control. +
-ME3 Ensure compliance with external requirements. +
-ME4 Provide IT governance +
+|CObIT Domain|Process
+|Align, Plan and Organize (APO)
+|APO01	Manage the IT Management Framework +
+APO02	Manage Strategy +
+APO03	Manage Entreprise Architecture +
+APO04	Manage Innovation +
+APO05	Manage Portfolio +
+APO06	Manage Budget and Costs +
+APO07	Manage Human Relations +
+APO08	Manage Relationships +
+APO09	Manage Service Agreements +
+APO10	Manage Suppliers +
+APO11	Manage Quality +
+APO12	Manage Risk +
+APO13	Manage Security +
+|Build, Acquire and Implement (BAI)
+|BAI01	Manage Programs and Projects +
+BAI02	Manage Requirements Definition +
+BAI03	Manage Solutions Identification and Build +
+BAI04	Manage Availability and Capacity +
+BAI05	Manage Organisational Change Enablement +
+BAI06	Manage Changes +
+BAI07	Manage Changes Acceptance and Transitioning +
+BAI08	Manage Knowledge +
+BAI09	Manage Assets +
+BAI10	Manage Configuration +
+|Deliver, Service and Support (DSS)
+|DSS01	Manage Operations +
+DSS02	Manage Service Requests and Incidents +
+DSS03	Manage Problems +
+DSS04	Manage Continuity +
+DSS05	Manage Security Services +
+DSS06	Manage Business Process Controls +
+|Monitor, Evaluate and Assess (MEA)
+|MEA01	Monitor, Evaluate and Assess Performance and Conformance +
+MEA02	Monitor, Evaluate and Asses the System of Internal Control +
+MEA03	Evaluate and Assess Compliance with External Requirements +
 |====
+
+Each process is further elaborated into practices. For example, the process APO08 (Manage Relationships) has the following management practices:
+
+* APO08.01 Understand business expectations.
+* APO08.02 Identify opportunities, risk and constraints for IT to enhance the business.
+* APO08.03 Manage the business relationship.
+* APO08.04 Co-ordinate and communicate.
+* APO08.05 Provide input to the continual improvement of services.
+
+Inputs and outputs are documented at the management practice level.
 
 COBIT can be freely accessed through www.isaca.org.
 
@@ -234,14 +242,16 @@ We will discuss architecture more in Chapter 12.
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
 ===== General observations on the frameworks
-We have discussed the problems of process control with respect to the CMM and CMMI in particular. While the other frameworks seem more cautious in their approach to variation,there are a variety of other concerns with respect to them:
+We have discussed the problems of process control with respect to the CMM and CMMI in particular. While the other frameworks seem more cautious in their approach to variation,there are other concerns with respect to them:
 
 * Local optimization temptation
 * Confusion of process definition
 * Lack of execution model
-* Large batch orientation
+* Artifact-centricity and batch orientation
 
 ====== Local optimization temptation
+[quote, Eli Goldratt, The Goal]
+We must not seek to optimize every resource in the system … A system of local optimums is not an optimum system at all; it is a very inefficient system.
 
 IT capability frameworks can be harmful if they lead to fragmentation of improvement effort and lack of focus on the flow of IT value.
 
@@ -251,22 +261,67 @@ NOTE: There are various definitions of "reductionism." This discussion reflects 
 
 A reductionist view implies that a system is nothing but the sum of its parts. Therefore, if each of the parts is attended to, the system will also function well.
 
-This can lead to a compulsive desire to do "all" of a framework. If ITIL calls for 25 processes, then a large, mature organization by definition should be good at all of them. But the 25 processes (and dozens more sub-processes and activities) called for by ITIL are somewhat arbitrary divisions. They overlap with each other. Furthermore, there are many digital organizations that do not use the full ITIL process portfolio and yet deliver value as well as organizations that do use ITIL. (Most Silicon Valley startups avoid process framworks, even when they scale up.)
+This can lead to a compulsive desire to do "all" of a framework. If ITIL calls for 25 processes, then a large, mature organization by definition should be good at all of them. But the 25 processes (and dozens more sub-processes and activities) called for by ITIL, or the 32 called for by COBIT, are somewhat arbitrary divisions. They overlap with each other. Furthermore, there are many digital organizations that do not use the full ITIL process portfolio and yet deliver value as well as organizations that do use ITIL. (Most Silicon Valley startups avoid process frameworks, even when they scale up.)
+
+This temptation for local, process-level optimization runs counter to core principles of Lean and Systems Thinking. Many management thinkers, including W.E. Deming, Eli Goldratt, and others have emphasized the dangers of local optimization, and the need for taking a systems view.
 
 ====== Confusion of process definition
 
 Another issue with the "process" frameworks is that, while they use the word "process" prominently, they are not aligned with Business Process Management best practices. <<Betz2011b>>
 
-All of these frameworks provide notable descriptions of major ongoing capabilities and functions that the large IT organization must perform. They in general are developed from the perspective of steady-state functions, as opposed to a value stream or defined process perspective.
+All of these frameworks provide useful descriptions of major ongoing capabilities and functions that the large IT organization must perform. But in terms of our preceding discussion on process method, they in general are developed from the perspective of steady-state functions, as opposed to a value stream or defined process perspective.
 
-This can be seen by looking above at ITIL, for example. A Business Process Management consultant would see the term "Capacity Management" and observe that it is not countable or event-driven. "How many Capacities did you do today," might be the question.
+This can be seen by looking above at ITIL, for example. A Business Process Management consultant would see the term "Capacity Management" and observe that it is not countable or event-driven. "How many Capacities did you do today?," might be the question.
+
+The BPM community is clear that processes and countable and event-driven (see <<Sharp2009>>). Naming them with a strong active verb is seen as essential. "True" IT processes therefore might include:
+
+* Accept Demand
+* Deliver Release
+* Complete Change
+* Resolve Incident
+* Improve Service
+
+The lack of countability throughout the IT frameworks' conception of "process" has caused confusion and lack of alignment with BPM professionals for years, and remains an ongoing problem.
 
 ====== Lack of execution model
-However, specifying too many event-driven processes has its own complications. Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs. But processes do not run themselves. These process handoffs require staff attention. They impose demand on the system.
+However, specifying too many event-driven processes has its own complications. Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs.
 
-We have discussed the issue of overburden previously. Too many organizations have contending execution models, where projects, processes, and miscellaneous work all compete for people's attention. In such environments, the overburden and wasteful multi-tasking can reach crisis levels.
+As a part of every process definition, ITIL has a section entitled "Triggers, inputs, outputs, and interfaces." The Service Level Management Process ()<<TSO2011b>>, pp 120-122) for example, lists:
 
-====== Large batch orientation
-Finally, even if a given process framework does not specifically call for waterfall, one can sometimes still see its legacy. Calls for thorough project planning and estimation, heavy documentation requirements, and so forth can signal a large batch orientation even in frameworks making some claim of supporting Agile.
+* 7 triggers (e.g. "service breaches")
+* 10 inputs (e.g. "customer feedback")
+* 10 outputs (e.g. "reports on OLAs")
+* 7 interfaces (e.g. "Supplier management")
+
+COBIT similarly details process inputs and outputs. In the Enabling Processes guidance, each management practice suggests inputs and outputs. For example, the APO08 process "Manage Relationships" has an activity of "Provide input to the continual improvement of services," with
+
+* 6 inputs
+* 2 outputs
+
+But processes do not run themselves. These process inputs and outputs require staff attention. They impose demand on the system and every such handoff represents transactional friction. Some handoffs may be implemented within the context of an IT management suite; others may require procedural standards, which themselves need to be created and maintained. The industry currently lacks understanding of how feasible such fully elaborated frameworks are, in terms of the time, effort, and organizational structure they imply.
+
+We have discussed the issue of overburden previously. Too many organizations have contending execution models, where projects, processes, and miscellaneous work all compete for people's attention. In such environments, the overburden and wasteful multi-tasking can reach crisis levels. With ITIL in particular, because it does not cover project management or architecture, we have a very large quantity of potential process interactions that is nevertheless incomplete.
+
+====== Artifact-centricity and batch orientation
+The process handoffs also imply that artifacts (documents of various sorts, models, software, etc.) are being created and transferred in between teams, or at least between roles on the same team with some degree of formality.
+
+A brief examination of the ITIL and COBIT process interactions shows that many of the artifacts are "plans," or "reports:"
+
+* Design specifications (high level and detailed)
+* Operation and use plan
+* Performance reports
+* Action plans
+
+and so on. Again, artifacts do not create themselves. Hundreds of artifacts are implied in the process frameworks. Every artifact implies:
+
+* Some template or known technique for performing it
+* Some ability to version it
+* People trained in its creation and interpretation
+
+Unstructured artifacts such as plans, designs, and reports in particular impose high cognitive load. As digital organizations automate their pipelines, it becomes essential to identify the key events and elements they may represent, so that they can be embedded into the automation layer.
+
+Finally, even if a given process framework does not specifically call for waterfall, one can sometimes still see its legacy. Calls for thorough project planning and estimation, cautions against "cutting corners," "design specifications" moving through approval pipelines, and so forth tend to signal a large batch orientation even in frameworks making some claim of supporting Agile.
+
+Good system design is a complex process, and we will discuss technical debt in Chapter 12. But the slow feedback signals that result from artifact-centric, larger batch processes such as implied by some frameworks are unacceptable in current industry, which is why new approaches are being adopted.
 
 In the next chapter on Agile process management, we'll consider these and further issues with process management in general, and some current  responses consistent with current digital approaches.

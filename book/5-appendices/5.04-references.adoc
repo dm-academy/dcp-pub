@@ -115,6 +115,8 @@
 
 - [[[Huntzinger2007]]]: Huntzinger, James R. 2007. _Lean Cost Management: Accounting for Lean by Establishing Flow_. Fort Lauderdale, Fl.: J. Ross Publishing.
 
+- [[[ISACA2012]]]: ISACA. 2012. _COBIT 5: Enabling Processes._
+
 - [[[Kan2003]]]: Kan, Stephen H. 1995. _Metrics and Models in Software Quality Engineering_. Second Edition. Reading, Mass.: Addison-Wesley.
 
 - [[[Keefer2006]]]: Keefer, G. "The CMMI Considered Harmful For Quality Improvement And Supplier Selection."" 2006. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4292&rep=rep1&type=pdf
@@ -234,7 +236,9 @@ IEEE Press.
 
 - [[[TSO2011a]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Strategy: 2011 Edition. Norwich, U.K: The Stationery Office.
 
-- [[[TSO2011b]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Transition: 2011 Edition. Norwich, U.K: The Stationery Office.
+- [[[TSO2011b]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Design: 2011 Edition. Norwich, U.K: The Stationery Office.
+
+- [[[TSO2011c]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Transition: 2011 Edition. Norwich, U.K: The Stationery Office.
 
 - [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum: the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
 

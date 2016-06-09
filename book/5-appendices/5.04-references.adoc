@@ -188,11 +188,13 @@ IEEE Press.
 
 - [[[Poppendieck2003]]]: Poppendieck, M. & Poppendieck, T. D. (2003), _Lean Software Development: An Agile Toolkit_, Addison Wesley, Boston
 
-- [[[POrter1998]]]:Porter, Michael E. 1998. _Competitive Advantage: Creating and Sustaining Superior Performance : With a New Introduction._ 1st Free P. New York: Free Press. http://www.loc.gov/catdir/bios/simon051/98009581.html.
+- [[[Porter1998]]]:Porter, Michael E. 1998. _Competitive Advantage: Creating and Sustaining Superior Performance : With a New Introduction._ 1st Free P. New York: Free Press. http://www.loc.gov/catdir/bios/simon051/98009581.html.
 
 - [[[Portny2013]]]: Portny, S. (2013). Project Management for Dummies. Hoboken, New Jersey, John Wiley & Sons.
 
 - [[[PMI2013]]]: Project Management Institute, 2013. A guide to the project management body of knowledge (PMBOK guide). Fifth edition.
+
+- [[[Puppet2015]]]: Puppet Labs. 2015. “2015 State of DevOps Report.”
 
 - [[[Quinlan2003]]]: Quinlan, Terence A. 2003. _Chargeback and IT Cost Accounting_. ed. Terence A Quinlan. Santa Barbara, CA: IT Financial Management Association.
 
@@ -205,6 +207,8 @@ IEEE Press.
 - [[[Richardson2010]]]: Richardson, G.L., 2010. Project Management Theory and Practice, Boca Raton: Auerbach Publications, Taylor & Francis Group.
 
 - [[[Ries2011]]]: Ries, E. (2011), _The lean startup : how today's entrepreneurs use continuous innovation to create radically successful businesses_, Crown Business, New York
+
+- [[[Rigby2016]]]: Rigby, Darrell K., Jeff Sutherland, and Hirotaka Takeuchi. 2016. “Embracing Agile.” Harvard Business Review, no. May. https://hbr.org/2016/05/embracing-agile.
 
 - [[[Rother2003]]]: Rother, Mike, and John Shook. 2003. “Learning to See: Value Stream Mapping to Add Value and Eliminate MUDA [Spiral-Bound].” Lean Enterprise Institute. doi:10.1109/6.490058.
 

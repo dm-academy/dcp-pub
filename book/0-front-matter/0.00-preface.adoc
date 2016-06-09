@@ -4,10 +4,9 @@
 
  Status: This section is 1st draft since 2015.
 
- Notes:
- As is best practice, the preface and introduction will be given a thorough update at the end of the development process.
+ Notes: These intro parts may seem rough. As is best practice, the preface and introduction will be given a thorough update at the end of the development process.
 
- More can and should be said about the historic transition to digital; how platform-specific technologies cycle frequently but digital transformation is something much bigger. A scaling-out visual might be helpful.
+ More can and should be said about the historic transition to digital; how platform-specific technologies cycle frequently but digital transformation is something much bigger.
 
 include::../../collab-links.adoc[]
 ****
@@ -53,20 +52,19 @@ The challenges of this legacy are an ongoing theme throughout this introductory 
  digital implies Agile. Recent HBR + McKinsey. Westerman.
 
 === Evidence for Agile
- at least 500 words well cited on the success of the new approaches and the industry consensus that Agile is here to stay.
+[quote, Darrell Rigby et al, Harvard Business Review]
+Now agile methodologies—which involve new values, principles, practices, and benefits and are a radical alternative to command-and-control-style management—are spreading across a broad range of industries and functions and even into the C-suite.
 
-"A rigorous comparison of 26 agile projects against a baseline database of 7,500 primarily traditional development projects.This study was conducted by Michael Mali, managing partner of QSM Associates (QSMA), which has been collecting productivity, quality, and other metrics on projects for more than 15 years.The agile projects Mah studied ranged in size from 60 to 1,000 people (Mah 2008). (cited in <<Cohn2010>>)
+Evidence for Agile software develop methods, and a related set of approaches that have coalesced into what we might call the digital ecosystem, continues to accumulate.
 
- "Companies such as Immobilienscout24.de at least doubled their productivity due to the introduction of Scrum (Zeitler, 2011)."
+The annual State of DevOps report presents extraordinary, order of magnitude claims in terms of IT delivery and stability for organizations with mature Agile and DevOps practices <<Puppet2015>>:
 
- Citations of VersionOne 2011 survey.
+* 60x fewer failures
+* 168x better Mean Time To Recovery
+* 30x more frequent delivery
+* 200x shorter lead times
 
- HBR article
-
- <<Opelt2013>>
-
-Puppet Labs survey
-
+The proven effectiveness of these methods in managing many forms of complexity, including problems not usually seen as “IT” or even “digital,” leads to broader and broader appetite for appropriate instruction and curricula.
 
 === Some cautions
 However, some of the more radical voices in the Agile movement seem to think that the legacy can be simply swept away. The following cautionary message from Mike Burrows shows that, in terms of core Agile philosophy, this would be ill-advised:
@@ -92,6 +90,7 @@ Instead, we try to break these large and sometimes controversial topics down int
 * Task dependencies
 * Estimation vs. commitment
 * Repeatability
+* Defined vs. empirical process control
 * Synchronization and cadence
 * Resource demand
 * Shared mental models
@@ -107,7 +106,7 @@ The idea of the OODA loop is popular in the Agile community. OODA stands for Ori
 I propose this book as an initial “OO” of the “OODA” loop for those seeking Agile transformation of their IT capabilities. Its purpose is to provide the student with a well documented set of observations on IT's current challenges that can orient you for more effective decisions and actions in your journey toward IT excellence.
 
 === What this book does not cover
- Specific technologies in any depth. Many examples are used, but carefully framed to not require previous expertise. This is about broader, longer-lifecycle trends.
+This book does not cover specific technologies in any depth. Many examples are used, but carefully framed to not require previous expertise. This is about broader, longer-lifecycle trends.
 
 === Some personal history
 
@@ -246,10 +245,10 @@ There are hundreds of books on Agile. In this section I will seek to credit spec
 
 * Ashmore, Sondra and Kristin Runyan, http://www.goodreads.com/book/show/18349912-introduction-to-agile-methods[_Introduction to Agile Methods_]
 
- * Cobb, Charles G. http://www.goodreads.com/book/show/24844947-the-project-manager-s-guide-to-mastering-agile[_The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach_]
+* Cobb, Charles G. http://www.goodreads.com/book/show/24844947-the-project-manager-s-guide-to-mastering-agile[_The Project MANAGER'S GUIDE TO MASTERING AGILE: Principles and Practices for an Adaptive Approach_]
 
- * Limoncelli, Thomas A., Strata R. Chalup, Christina J. Hogan http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[_The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2_]
-  - While not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
+* Limoncelli, Thomas A., Strata R. Chalup, Christina J. Hogan http://www.goodreads.com/book/show/23131211-the-practice-of-cloud-system-administration[_The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems, Volume 2_]
+- While not an academic text per se, does have user questions and exercises at end of chapters; I currently use as supplementary text and am scoping this one to complement it
 
 ****
 

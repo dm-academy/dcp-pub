@@ -1,3 +1,9 @@
+Table
+
+[cols="3*", options="header"]
+|====
+|||
+|====
 
 Inline linking
 
@@ -44,6 +50,7 @@ xref:spotify-model[Spotify model]
 xref:Toyota-Kata[Toyota Kata]
 
 chapter 8
+anchor:PMBOK[]
 xref:submittal-schedule[submittal schedule]
 
 xref:resource-mgmt[resource management]

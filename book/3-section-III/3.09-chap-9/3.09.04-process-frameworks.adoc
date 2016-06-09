@@ -32,10 +32,12 @@ The first goal of any framework is, for a given conceptual space, to provide a "
 Many frameworks have emerged in the IT space, with broader and narrower domains of concern. Some are owned by non-profit standards bodies; others are commercial. We will focus on five in this book. In roughly chronological order, they are:
 
 * CMMI (Capability Maturity Model-Integrated)
-* PMBOK (The Project Management Body of Knowledge)
 * ITIL (originally the Information Technology Infrastructure Library)
+* PMBOK (The Project Management Body of Knowledge)
 * COBIT (aka Control Objectives for Information Technology)
 * TOGAF (The Open Group Architecture Framework)
+
+A 6th framework, IT4IT, will be discussed in Chapter 12.
 
 ====== CMMI
 The Capability Maturity Model was originally published by Watts Humphrey in 1989 in the book _Managing the Software Process_ <<Humphrey1989>>. Humphrey's original vision was to apply full statistical process control to the software process. As he stated at the time:
@@ -108,30 +110,142 @@ ITIL is currently published via the Axelos commercial joint venture between the 
 * Service Operations
 * Continual Service Improvement
 
-Within these volumes, ITIL defines a number of activities, functions, and what it calls processes (more on this below). These definitions have helped stabilize industry practice and  
+Within these volumes, ITIL defines a number of activities, functions, and what it calls processes (more on this below). These definitions have helped stabilize industry practice and  provided a basis for industry training and certification of individuals.
+
+ITIL's processes include:
+
+[cols="2,6", options="header"]
+|====
+|ITIL Stage|Processes
+|Service Strategy
+|Strategy Management for IT Services +
+Service Portfolio Management +
+Demand Management +
+Financial Management for IT Services +
+Business Relationships Management +
+|Service Design
+|Design Coordination +
+Service Catalogue Management +
+Service Level Management +
+Risk Management +
+Capacity Management +
+Availability Management +
+IT Service Continuity Management +
+Information Security Management +
+Compliance Management +
+Architecture Management +
+Supplier Management +
+|Service Transition
+|Change Management
+Change Evaluation +
+Project Management (Transition Planning and Support) +
+Application Development +
+Release and Deployment Management +
+Service Validation and Testing +
+Service Asset and Configuration Management +
+Knowledge Management +
+|Service Operation
+|Event Management +
+Incident Management +
+Request Fulfillment +
+Access Management +
+Problem Management +
+IT Operations Control +
+Facilities Management +
+Application Management +
+Technical Management +
+|Continual Service Improvement
+|Service Review +
+Process Evaluation +
+Definition of CSI Initiatives +
+Monitoring of CSI Initiatives +
+|====
+
+====== PMBOK
+The Project Management Body of Knowledge, is a publication of the Project Management Institute. It represents the codification of formal project management knowledge. There is a comparable Axelos publication, Prince2, not covered here. PMBOK was covered in xref:PMBOK[Chapter 8].
 
 ====== COBIT
-COBIT, originally the Control Objectives for Information Technology, is a set of guidance from the IS Audit and Control Association. It has a broader scope than ITIL, as it includes architecture and project management. Where ITIL contains narrative of considerable length, COBIT is more terse and structured, providing a useful framework for the construction and testing of suitable controls for IT governance.
+COBIT, originally the Control Objectives for Information Technology, is a set of guidance from the IS Audit and Control Association. It has a broader scope than ITIL, as it includes architecture and project management.
+
+Where ITIL contains narrative of considerable length, COBIT is more terse and structured, providing a useful framework for the construction and testing of suitable controls for IT governance.
+
+[cols="2,6", options="header"]
+|====
+|CObIT Domain|Processes
+|Plan and Organize (PO)
+|PO1 Define a strategic IT plan +
+PO2 Define the information architecture +
+PO3 Determine technological direction +
+PO4 Define the IT processes, organization and relationships +
+PO5 Manage the IT investment +
+PO6 Communicate management aims and direction +
+PO7 Manage IT human resources +
+PO8 Manage quality +
+PO9 Assess and manage IT risks +
+PO10 Manage projects +
+|Acquire and Implement (AI)
+|AI1 Identify automated solution +
+AI2 Acquire and maintain application software +
+AI3 Acquire and maintain technology infrastructure +
+AI4 Enable operation and use +
+AI5 Procure IT resources +
+AI6 Manage changes +
+AI7 Install and accredit solutions and changes +
+|Deliver and Support (DS)
+|DS1 Define and manage service levels +
+DS2 Manage third-party service +
+DS3 Manage performance and capacity +
+DS4 Ensure continuous service +
+DS5 Ensure systems security +
+DS6 Identify and allocate costs +
+DS7 Educate and train users +
+DS8 Manage service desk and incidents +
+DS9 Manage the configuration +
+DS10 Manage problems +
+DS11 Manage data +
+DS12 Manage the physical environment +
+DS13 Manage operations +
+|Monitor and Evaluate (ME)
+|ME1 Monitor and evaluate IT performance. +
+ME2 Monitor and evaluate internal control. +
+ME3 Ensure compliance with external requirements. +
+ME4 Provide IT governance +
+|====
 
 COBIT can be freely accessed through www.isaca.org.
 
 ====== TOGAF
-The Open Group Architecture Framework, is a framework and method for IT and enterprise architecture practices.
+The Open Group Architecture Framework, is a framework and method for IT and enterprise architecture practices. TOGAF advocates an "Architecture Development Method" consisting of:
 
-TOGAF can be freely accessed through www.opengroup.org
+* Architecture Vision
+* Business Architecture
+* Information Systems Architectures
+* Technology Architecture
+* Opportunities and Solutions
+* Migration Planning
+* Implementation, Governance
+* Architecture Change Management
 
-====== PMBOK
-The Project Management Body of Knowledge, is a publication of the Project Management Institute. It represents the codification of formal project management knowledge. There is a comparable Axelos publication, Prince2, not covered here. PMBOK was covered in Chapter 8.
+TOGAF can be freely accessed through www.opengroup.org.
 
-
+We will discuss architecture more in Chapter 12.
 
 ====== Other frameworks
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
-===== The process terminology disconnect
+===== General observations on the frameworks
+We have discussed the problems of process control with respect to the CMM in particular. There are a variety of other concerns with respect to the process frameworks:
 
-===== Pros and cons of the frameworks
+* Local optimization temptation
+* Confusion of process definition
+
+
+===== Confusion of process definition
+One
+
 IT capability frameworks can be harmful if they lead to fragmentation of improvement effort and lack of focus on the flow of IT value.
 
 Process vs function in the frameworks
 All of these frameworks provide notable descriptions of major ongoing capabilities and functions that the large IT organization must perform. They in general are developed from the perspective of steady-state functions, as opposed to a value stream or defined process perspective.
+
+Large batch orientation with complex spiderweb of interations surrounding each major phase

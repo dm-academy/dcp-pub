@@ -232,6 +232,8 @@ IEEE Press.
 
 - [[[TSO2011a]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Strategy: 2011 Edition. Norwich, U.K: The Stationery Office.
 
+- [[[TSO2011b]]]: 	The Stationery Office. 2011. Information Technology Infrastructure Library ITIL Service Transition: 2011 Edition. Norwich, U.K: The Stationery Office.
+
 - [[[Sutherland2014]]]: Sutherland, J.V., 2014. _Scrum: the art of doing twice the work in half the time_. Crown Business. First Edition. ed. viii, 248 pages.
 
 - [[[Sutton2014]]]: Sutton, Robert I.;, and Huggy Rao. 2014. _Scaling up Excellence : Getting to More without Settling for Less_. Crown Business/Random House.

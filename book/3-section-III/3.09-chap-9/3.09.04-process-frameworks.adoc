@@ -294,9 +294,7 @@ As this book's structure suggests, delivering IT value requires different approa
 ====== Lack of execution model
 It is also questionable whether even the largest actual IT organizations on the planet could fully implement the frameworks. Specifying too many interacting processes has its own complications.
 
-Consider: Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs.
-
-As a part of every process definition, ITIL has a section entitled "Triggers, inputs, outputs, and interfaces." The Service Level Management Process ()<<TSO2011b>>, pp 120-122) for example, lists:
+Consider: Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs. As a part of every process definition, ITIL has a section entitled "Triggers, inputs, outputs, and interfaces." The Service Level Management Process ()<<TSO2011b>>, pp 120-122) for example, lists:
 
 * 7 triggers (e.g. "service breaches")
 * 10 inputs (e.g. "customer feedback")

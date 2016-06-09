@@ -8,7 +8,7 @@
 include::../../../collab-links.adoc[]
 ****
 
- Investment management? 
+ Investment management?
 
 ===== The Agile project frameworks
 
@@ -62,8 +62,18 @@ Some forms of work may lead to other forms of work. For example, Projects may ma
 
 The final point of this diagram: you only have so much capacity to execute the work it implies. If you have a disaster, it may impact your ability to deliver user stories, changes, or even meet transactional demand. Trade-offs must be considered.
 
-===== Earned value management
+===== Controversies in PM history
+PERT chart history, Mcnamara, etc
 
+anchor:3.08.03-NoEstimates[]
+
+====== The estimation controversy
+
+
+http://www.jrothman.com/mpd/project-management/2016/06/the-case-for-and-against-estimates-part-1/
+http://www.jrothman.com/mpd/project-management/2016/06/the-case-for-and-against-estimates-part-2/?platform=hootsuite
+
+====== Earned value management
 EVM could be described as a "model" used for understanding the
 execution of software projects. It includes mathematical formulae
 which are intended to provide insights into project dynamics. However
@@ -72,21 +82,7 @@ feedback. It is an Open-Loop system model. Kennaley p44
 
 or translating EVM directly to the balance sheet (EVM always being a fiction and less and less useful in a digitally transforming world)
 
-
-===== Controversies in PM history
-PERT chart history, Mcnamara, etc
-
-anchor:3.08.03-NoEstimates[]
-
-****
-*The estimation controversy*
-
-****
-http://www.jrothman.com/mpd/project-management/2016/06/the-case-for-and-against-estimates-part-1/
-http://www.jrothman.com/mpd/project-management/2016/06/the-case-for-and-against-estimates-part-2/?platform=hootsuite
-
 ====== The systems problem
-
 [quote, Mark Kennaley, SDLC 3.0]
 When risk and uncertainty are present with ongoing demand, like in the case of architectural changes and related high-stake decisions, batching demand into a project for governance reasons makes sense...
 
@@ -103,7 +99,6 @@ Dogmatic approaches to solving this are unhelpful.  Multi-constraint optimizatio
 
 When taken to an extreme, the PMO becomes the arbiter of ALL IT investments in some organizations. Support and operational activities are chartered as long-running "projects" and staff time is billed through them (more on this in the section on Resource Management.) Essentially, this is how a product management approach emerges from taking the project management paradigm to an ultimate conclusion.
 
-
 ===== Scrum of scrums and its critiques
 identical to a chapter-based grassroots organization
 trouble is that emergent problems at each level start to distract & take over
@@ -116,19 +111,13 @@ The concept of "scrum of scrums" may make intuitive sense, but starts to run int
 
 In these questions we see the overlap of Agile with seemingly distant fields such as political science, organizational leadership, and the like.
 
-===== Processes
-
-===== Systems and automation
-
-===== Skills management
-
-10x controversy
-
-
 ===== Misc
 The concept of last responsible moment
+Systems and automation
+Skills management-10x controversy
+Processes within projects-risk, action, issue, etc
 
-idea: interview St. Thomas IT staff on moving to Office 365.
+idea: interview St. Thomas IT staff on moving to Office 365 (resource angle).
 
 ===== Notes
 

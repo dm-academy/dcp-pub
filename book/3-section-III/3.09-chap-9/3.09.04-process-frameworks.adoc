@@ -232,16 +232,17 @@ We will discuss architecture more in Chapter 12.
 Many other frameworks exist, under varying governance models from open to proprietary. An up to date list is maintained by Van Haren Publishing in their publication Global Standards and Publications (Van Haren Publishing, 2016). A variety of Agile frameworks also have formed, which will be discussed separately. Finally, there is a broad ecosystem of vendor-specific certifications as well, to educate practitioners in the specifics of various commercial products.
 
 ===== General observations on the frameworks
-We have discussed the problems of process control with respect to the CMM and CMMI in particular. While the other frameworks seem more cautious in their approach to variation,there are other concerns with respect to them:
+In terms of the new digital delivery approaches, there are a number of issues and concerns with the frameworks:
 
 * Statistical process control in the CMM & CMMI
 * Local optimization temptation
-* Confusion of process definition
 * Lack of execution model
 * Artifact-centricity and batch orientation
+* Confusion of process definition
 
-====== Statistical process control in the CMM & CMMI
-Humphrey's original vision was to apply full statistical process control to the software process. As he stated at the time:
+====== Statistical process control
+
+CMM author Watts Humphrey's original vision was to apply full statistical process control to the software process. As he stated at the time:
 
 _Dr. W. E. Deming, in his work with the Japanese after World War II, applied the concepts of statistical process control to many of their industries. While there are important differences, these concepts are just as applicable to software as they are to producing consumer goods like cameras, television sets, or auto mobiles._ (<<Humphrey1989>>, p. 3)
 
@@ -255,6 +256,8 @@ This runs against much current thinking and practice, especially that deriving f
 .) All definition, measurement, and control must serve that end.
 
 The CMMI has evolved since Humphrey's initial vision, but between the idea that that process optimization is only relevant at the highest maturity, and its  unrealistic emphasis on statistical process control, it is (in the view of this author) out of step with the reality of the new digital economy.
+
+The other frameworks do not embrace statistical process control to the same extent as the CMMI. PMBOK suggests that control charts "control charts may also be used to monitor cost and schedule variances, volume, and frequency of scope changes, or other management results to help determine if the project management processes are in control." This also contradicts the insights of empirical process control, unless the project were also a fully defined process (unlikely). (<<PMI2013>>, Kindle Locations 4108-4109).
 
 ====== Local optimization temptation
 [quote, Eli Goldratt, The Goal]

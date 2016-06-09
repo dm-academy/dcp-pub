@@ -245,7 +245,7 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
-In terms of the new digital delivery approaches, there are a number of issues and concerns with the frameworks:
+In terms of the new digital delivery approaches, there are a number of issues and concerns with frameworks summarized xref:frameworks[above]:
 
 * The fallacy of statistical process control
 * Local optimization temptation

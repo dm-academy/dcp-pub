@@ -63,6 +63,7 @@ Moody, but what are his sources?
 http://simplybrainy.com/wp-content/uploads/2011/01/2008-Int-Vis-Other-Senses-All-Illustrations.pdf
 
 Further reading on visual processing:
+
 Moody
 Tufte & others (that comparison paper cited by Moody)
 
@@ -70,11 +71,11 @@ The true measure of the value of a model is whether it actually influences behav
 
 Instead of tapping into the existing knowledge of the organization the autonomous team is prone to reinvent the wheel, and the wheel that they reinvent will not always be superior to the one we are currently using. <<Reinertsen1997>> p 104
 
-Flexibility
-at high levels in the architecture comes from standardization at low lev
-els in the architecture. Paradoxically, structure is the key to freedom. ibid 120
+Flexibility at high levels in the architecture comes from standardization at low levels in the architecture. Paradoxically, structure is the key to freedom. ibid 120
 
 this chapter brings us full circle
+
+developers seeking experience, it is in part how they are compensated. this leads to conflicts over choice of tools. (good blog as well). rational framework for deciding. might go to chapter 8, resource mgmt. intersection between that & tech lifecycle is key.
 
 EA makes the decision to insource or outsource
 
@@ -122,6 +123,9 @@ difficult for them to stay hands on
 "work not done"
 
 https://www.itpreneurs.com/blog/agile-togaf-and-enterprise-architecture-will-they-blend/?utm_content=buffer1b060&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer
+
+
+
 
 ===== Learning objectives
 

@@ -296,7 +296,7 @@ As this book's structure suggests, delivering IT value requires different approa
 ====== Lack of execution model
 It is also questionable whether even the largest actual IT organizations on the planet could fully implement the frameworks. Specifying too many interacting processes has its own complications.
 
-Consider: Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs. As a part of every process definition, ITIL has a section entitled "Triggers, inputs, outputs, and interfaces." The Service Level Management Process ()<<TSO2011b>>, pp 120-122) for example, lists:
+Consider: Both ITIL and COBIT devote considerable time to documenting possible process inputs and outputs. As a part of every process definition, ITIL has a section entitled "Triggers, inputs, outputs, and interfaces." The Service Level Management Process (<<TSO2011b>>, pp 120-122) for example, lists:
 
 * 7 triggers (e.g. "service breaches")
 * 10 inputs (e.g. "customer feedback")
@@ -315,7 +315,7 @@ We have discussed the issue of overburden previously. Too many organizations hav
 ====== Artifact-centricity and batch orientation
 The process handoffs also imply that artifacts (documents of various sorts, models, software, etc.) are being created and transferred in between teams, or at least between roles on the same team with some degree of formality.
 
-A brief examination of the ITIL and COBIT process interactions shows that many of the artifacts are "plans," or "reports:"
+A brief examination of the ITIL and COBIT process interactions shows that many of the artifacts are "plans," "designs," or "reports:"
 
 * Design specifications (high level and detailed)
 * Operation and use plan
@@ -325,8 +325,8 @@ A brief examination of the ITIL and COBIT process interactions shows that many o
 and so on. Again, artifacts do not create themselves. Hundreds of artifacts are implied in the process frameworks. Every artifact implies:
 
 * Some template or known technique for performing it
-* Some ability to version it
 * People trained in its creation and interpretation
+* Some capability to store, version, and transmit it
 
 Unstructured artifacts such as plans, designs, and reports in particular impose high cognitive load. As digital organizations automate their pipelines, it becomes essential to identify the key events and elements they may represent, so that they can be embedded into the automation layer.
 

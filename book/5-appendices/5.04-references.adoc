@@ -33,6 +33,8 @@
 
 - [[[Betz2015]]]: Betz, C.T. (2015), "Calavera project", Github, https://github.com/CharlesTBetz/Calavera
 
+- [[[Binder1997]]]: Binder, R.V. 1997. “Can a Manufacturing Quality Model Work for Software?” IEEE Software 14 (5). IEEE: 101–2, 105. doi:10.1109/52.605937.
+
 - [[[BPTrends2013]]]: BPTrends. 2013. “Scope Diagram (or Input-Guides-Outputs-Enablers – IGOE Diagram).” BPTrends. http://www.bptrends.com/resources/glossary/scope-diagram-or-input-guides-outputs-enablers-igoe-diagram/.
 
 - [[[Brooks1995]]]: Brooks, Frederick P. 1995. _The Mythical Man-Month : Essays on Software Engineering._ 25th Anniversary edition. Reading, Mass.: Addison-Wesley Pub. Co.
@@ -46,6 +48,8 @@
 - [[[Brustein2013]]]: Brustein, Joshua. 2013. “Microsoft Kills Its Hated Stack Rankings. Does Anyone Do Employee Reviews Right?” Bloomberg Business Week. http://www.bloomberg.com/news/articles/2013-11-13/microsoft-kills-its-hated-stack-rankings-dot-does-anyone-do-employee-reviews-right (March 5, 2016).
 
 - [[[Buckingham2015]]]: Buckingham, Marcus, and Ashley Goodall. 2015. “Reinventing Performance Management.” Harvard Business Review 93(4): 40–50. https://hbr.org/2015/04/reinventing-performance-management.
+
+- [[[Burlton2001]]]: Burlton, Roger. 2001. Business Process Management: Profiting from Process. Indianapolis, Indiana: SAMS.
 
 - [[[Burrows2006]]]: Burrows, M. G. I. (2006). "The Chubby lock service for loosely-coupled distributed systems." 7th symposium on Operating systems design and implementation (OSDI '06), USENIX Association Berkeley, CA, USA
 
@@ -102,6 +106,8 @@
 - [[[Hay2006]]]: Hay, D. C. (2006), _Data model patterns : a metadata map_, Morgan Kaufmann ; Oxford : Elsevier Science [distributor], San Francisco, Calif.
 
 - [[[Hammer1993]]]: Hammer, Michael, and James Champy. 1993. Reengineering the Corporation : A Manifesto for Business Revolution. Brealey Publishing.
+
+- [[[Harmon2003]]]: Harmon, Paul. 2003. Business Process Change: A Manager’s Guide to Improving, Redesigning, and Automating Processes. Amsterdam: Elsevier.
 
 - [[[Hay1996]]]: Hay, D. C. (1996), _Data model patterns : conventions of thought_, Dorset House Pub., New York
 

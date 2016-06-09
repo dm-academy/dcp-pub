@@ -64,3 +64,5 @@ formalisms
 
  Will this have been foreshadowed?
  ****
+
+ review & incorporate more grouding from http://www.computing.dcu.ie/~mcrane/CA441/BPMLectureNotes.pdf[BPM Lecture Notes]

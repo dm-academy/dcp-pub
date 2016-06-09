@@ -25,17 +25,33 @@ As you stand on the threshold of scaling your company yet again, to the enterpri
 
 ===== Further reading
 
+The definitive BPM reference is <<Rummler1995>>. Good practical applications are found in <<Burlton2001>>, <<Harmon2003>>, and <<Sharp2009>>.
+
+The history of Scrum is relevant, in particular <<Schwaber2002>>.
+
+Lean theory is also essential, e.g. <<Womack2003>>, <<Rother2010>>.
+
+Critiques of statistical process control for software are found in <<Binder1997>> and <<Racynski2008>>.
+
 *Books*
 
+* https://www.goodreads.com/book/show/390829.Improving_Performance[Improving Performance: How to Manage the White Space in the Organization Chart]
+
+* https://www.goodreads.com/book/show/1219780.Business_Process_Change[Business Process Change: A Guide for Business Managers and BPM and Six Sigma Professionals]
+
 *Articles*
-http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/
-http://wwwis.win.tue.nl/~wvdaalst/publications/p712.pdf
 
-http://www.computing.dcu.ie/~mcrane/CA441/BPMLectureNotes.pdf
+* http://wwwis.win.tue.nl/~wvdaalst/publications/p712.pdf[Business Process Management: A Comprehensive Survey]
 
-Bob Raczynski and Bill Curtis (2008) Software Data Violate SPC's Underlying Assumptions, IEEE Software, May/June 2008, Vol. 25, No. 3, pp. 49-51
-Robert V. Binder (1997) Can a Manufacturing Quality Model Work for Software?, IEEE Software, September/October 1997, pp. 101-105
+* http://devops.com/2014/11/10/enterprise-devops-doesnt-make-sense/[Why “Enterprise DevOps” Doesn’t Make Sense]
+
+* http://www.computing.dcu.ie/~mcrane/CA441/BPMLectureNotes.pdf[BPM Lecture Notes]
 
 *Videos*
 
+* https://www.youtube.com/watch?v=zGD7-lolujE[Geary Rummler in 1981]
+
 *Professional*
+
+* http://www.bptrends.com/[BPTrends: BPM Analysis, Opinion, and Insight]
+* http://www.processrenewal.com/articles-resources/[Process Renewal Group Articles and Resources]

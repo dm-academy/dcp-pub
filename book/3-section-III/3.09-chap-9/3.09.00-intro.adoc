@@ -69,12 +69,21 @@ There is a rich body of industry practice we will draw on in our discussion. Bus
 
 ===== Chapter 9 overview
 
- write up when chapter is complete
+In this section, we will cover: 
 
+* Why process management matters, and is not likely to go away
+* The basics of process description and modeling
+* Some background and history of continuous improvement and process control
+* The major IT-related process frameworks
+* Emerging approaches for digital process management.
+
+This remains a textbook primarily aimed at digital product management (from concept to operations), and this chapter is primarily about business process *in that context.* However, one of the problems with process management in IT and digital management is that it has not been well aligned to the broader topic of business process management in general. Therefore, this chapter starts with discussion of BPM fundamentals, and then covers IT process management in that light.
 
 ===== Chapter 9 learning objectives
 
 * Identify differences between process and project management
 * Describe a business process and how it crosses functions
+* Demonstrate familiarity with basic principles of process modeling
+* Understand the difference between defined and empirically controlled processes, and why this is important for digital product management
 * Identify the problems of process proliferation with respect to execution and demand
 * Describe the origins, purpose, and scope of IT industry frameworks

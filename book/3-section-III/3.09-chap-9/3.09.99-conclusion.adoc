@@ -1,13 +1,27 @@
 ==== Conclusion
 
-In conclusion, we have
+In conclusion, we have considered:
+
+* Why process management matters, and is not likely to go away
+* The basics of process description and modeling
+* Some background and history of continuous improvement and process control
+* The major IT-related process frameworks
+* Emerging approaches for digital process management.
+
+As you stand on the threshold of scaling your company yet again, to the enterprise level, you will find process management an essential tool. Like any powerful tool, it has its dangers if misused. Be wary of claims of statistical process control in creative activities, and avoid burdensome process tracking and compliance approaches. Challenge all proposed processes, keep them lean, but if they "make the cut," then make sure everyone knows their existence and status.
 
 ===== Discussion questions
 
+. What processes do you experience daily? Weekly?
 . Review the section on the xref:spotify-model[Spotify model]. How does it relate to the discussion here?
-. Sometimes, organizations try to treat a complex process as defined, instead of managing it empirically. Sometimes, people react by calling this "Taylorism." Why? Discuss.
+. Sometimes, organizations try to treat a complex process as defined, instead of managing it empirically. Sometimes, people react by calling this "Taylorism." Why? Google and discuss.
+. Have you experienced a problem where an improved process would have helped? What about a problem where process seemed to be the cause of it?
 
 ===== Research & practice
+. Compare and contrast the Scaled Agile Framework and COBIT.
+. Research BPMN notation and use it to document a process familiar to you
+. Research process simulation and prepare a report. Optionally, compare process simulation with systems dynamics modeling.
+. We know that completely defined processes can be placed under statistical control, and that creative processes cannot be. What about processes falling between these two extremes, such as help desk call management? What does the research say about statistical control of such processes?
 
 ===== Further reading
 

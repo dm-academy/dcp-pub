@@ -261,7 +261,7 @@ _Dr. W. E. Deming, in his work with the Japanese after World War II, applied the
 
 The overall CMM/CMMI idea (in the well-known staged model) is that a process cannot be improved and optimized until it is fully under control. Perhaps well-defined industrial processes should not be optimized until they are fully "managed." However, as we discussed in the previous section,  process control theorists see creative, knowledge-intensive processes as requiring xref:empirical-process-control[empirical control]. SPC applied to software has therefore been criticized as inappropriate <<Racynski2008>>.
 
-In CMM terms, empirical processes start by measuring and immediately optimizing (adjusting). They need not -- and *cannot* -- be fully defined. One of the most questionable aspects of CMMI therefore, is its implication that process optimization is something only done at the highest levels of maturity.
+In CMM terms, empirical process control start by measuring and immediately optimizing (adjusting). To restate the Martin Fowler quote from the last section: "a process can still be controlled even if it can't be defined."<<Schwaber2002>> They need not -- and *cannot* -- be fully defined. One of the most questionable aspects of CMMI therefore, is its implication that process optimization is _something only done at the highest levels of maturity_.
 
 *In short, the CMMI staged model encourages the thought that process improvement (optimization) only  is possible at Level 5. Many companies implementing CMMI stages however will pragmatically say "Maybe we only need to get to level 3." This implies that they define and manage their processes, but never improve them.*
 

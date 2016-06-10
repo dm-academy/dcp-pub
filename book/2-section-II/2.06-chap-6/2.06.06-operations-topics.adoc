@@ -1,18 +1,18 @@
 ==== Advanced topics in operations
 
-===== A critique of the "NoOps" idea
+ A critique of the "NoOps" idea
 
-===== Human in the loop problem
+ Human in the loop problem
 
-===== The feedback loop from ops to dev
+ The feedback loop from ops to dev
 
-=====  Re-visiting dual-axis
+ Re-visiting dual-axis
 
-===== Classes of work
+ Classes of work
 
-===== A deeper look at measurement
+ A deeper look at measurement
 
-===== Deeper theory
+ Deeper theory
 ....
   * States and sense-making and risk management around state transitions
   (Systems that are too big, complex, and fluid to be considered as having a “state”??)

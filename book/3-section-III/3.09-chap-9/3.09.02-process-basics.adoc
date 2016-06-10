@@ -52,7 +52,7 @@ image::images/3.09-chevrons.png[]
 
 There is no industry standard that definitely lists the concepts above in terms of granularity. Is a "task" larger or smaller than a "procedure?" We will not discuss these much. However, between the high level concept of "value chain" and the concepts of "process" and "activity," is the concept of "*value stream*."  This is a key concept from the Lean community, and is a relatively higher-level concept (a value chain decomposes into value streams, according to some.)
 
-A value stream for example could be the complete manufacturing and sales process for one product family. Because they are more specific, value streams are more measurable and countable. Optimizing them in terms of eliminating wasted time, effort and inventory is an objective of Lean thinking. See _Learning to See_ by Rother and Shook <<Rother2003>>.
+An example of a value stream could be the complete manufacturing and sales process for one product family. Because they are more specific, value streams are more measurable and countable. Optimizing them in terms of eliminating wasted time, effort and inventory is an objective of Lean thinking. See _Learning to See_ by Rother and Shook <<Rother2003>>.
 
 *Functions* are unordered, steady state domains of activity. An organizational chart often can be based on various functions. Functions also often imply hierarchy. They are more difficult to measure or improve; usually, improving a function means improving some process it owns or performs.
 
@@ -74,7 +74,7 @@ To solve this, they might create a logical functional hierarchy, with no-one's n
 
 image::images/3.09-hier2.png[]
 
-This kind of thinking can help the organization evolve over time. If different teams are finding themselves performing similar activities, a functional analysis might indicate a new organizational structure.
+This kind of thinking can help the organization evolve over time. If different teams find themselves performing similar activities, a functional analysis might indicate a new organizational structure.
 
 Finally, the following two terms are also unordered, but have different connotations from function:
 
@@ -83,7 +83,7 @@ Finally, the following two terms are also unordered, but have different connotat
 
 A *capability* is a generic term for a capacity or potential.
 
-A *service* is a transactional act of value, simultaneously produced and delivered (more on this later)
+A *service* is a transactional act of value, simultaneously produced and delivered (more on this later).
 
 Finally, the concept of *practice* is the least formalized of the concepts. It represents a loose, conceptual area that may represent a community of common interest (for example, a Java community of practice). It's not usually measured or tracked for improvement. Some topics may start as a practice and formalize into a function, for example Capacity management.
 
@@ -118,13 +118,13 @@ This is a deliberately older, traditional workflow. Modern organizations may acc
 . In either case, security must establish some control over the devices, so that organizational data remains secure. There are various approaches for this, even for devices owned by the employee.
 . Networking in modern organizations is almost all wireless, but the employee still requires the appropriate credentials, likely provided by security. As with facilities, Networking's concerns now move to questions of capacity and availability of the overall infrastructure.
 
-Notice however that even in the modern scenario we have an end to end, repeatable value flow that crosses distinct domains of concern. The employee is not productive until all these steps are taken. Since the employee starts drawing payroll on hire, there is a substantial cost of delay for this entire process. A week's unproductive time could amount to $10,000 or more, wasted.
+Notice however that even in the modern scenario, we have an end to end, repeatable value flow that crosses distinct domains of concern. The employee is not productive until all these steps are taken. Since the employee starts drawing payroll on hire, there is a substantial cost of delay for this entire process. A week's unproductive time could amount to $10,000 or more, wasted.
 
-Such delays can easily happen, when functional areas are focused just on their responsibility, and no-one is concerned for the overall process. This is why Rummler and Brache chose the title _Improving Performance: How to Manage the White Space on the Organization Chart_ for their groundbreaking book on business process. The "white space" they are talking about is the spaces between the functions, also termed "silos" or "towers:"
+Such delays can easily happen when functional areas are focused just on their responsibility, and no one is concerned for the overall process. This is why Rummler and Brache chose the title _Improving Performance: How to Manage the White Space on the Organization Chart_ for their groundbreaking book on business process. The "white space" they are talking about is the spaces between the functions, also termed "silos" or "towers:"
 
 image::images/3.09-PXFNamed.png[]
 
-You may notice that the cross functional process is named with an active verb, "Onboard." This is in contrast to the functional silos, which end in "management." This is deliberate and a well-established BPM best practice. "Onboard employee" is event-driven and countable; it has a clear beginning and end and therefore can be measured in various ways. "Human Resource Management" on the other hand has no beginning or end; it is a steady-state set of organizational concerns and resources.
+You may notice that the cross functional process is named with an active verb, "Onboard." This is in contrast to the functional silos, which end in "management." This is deliberate and a well-established BPM best practice. "Onboard employee" is event-driven and countable; it has a clear beginning and end and therefore can be measured in various ways. "Human Resource Management", on the other hand, has no beginning or end; it is a steady-state set of organizational concerns and resources.
 
 IMPORTANT: The idea that processes are active and countable, while functions are passive and ongoing, is critical to effective organizational design and performance management.
 
@@ -152,7 +152,7 @@ There are many different forms of modeling, extending far beyond IT and digital 
 
 * The process it is automating might be modeled as part of analysis
 * Its data structures might be modeled somewhat later
-* And when the system is running under load, capacity analysts might model its consumption of compute and network resources and develop projections for when additional capacity might be needed.
+* When the system is running under load, capacity analysts might model its consumption of compute and network resources and develop projections for when additional capacity might be needed
 
 Process modeling is therefore only a subset, but an important one. Process analysis is one of most important activities in the broader area of business analysis and architecture, which in turn are key to xref:2.04.00-product-mgmt[product management] in general (as we briefly mentioned in Chapter 4).
 
@@ -199,7 +199,7 @@ image::images/3.09-IGOE2.png[]
 
 However, there is not a clear sense of the events, since the primary objects are still the functions. There also is the temptation to insert extraneous information, as indicated in the line between Facilities Management and IT Asset Management labeled "Provides space for ??".
 
-It is true that Facilities Management does provide space for the IT Asset Management Team (in fact, all of these functions provide services to each other), but to draw this would result in a "spaghetti" diagram with several dozen lines, and not much explanatory power.
+It is true that Facilities Management does provide space for the IT Asset Management Team (in fact, all of these functions provide services to each other), but to draw this would result in a "spaghetti" diagram with several dozen lines and not much explanatory power.
 
 Purely functional modeling of this nature is therefore limited in usefulness, although it can be a good place to start.
 

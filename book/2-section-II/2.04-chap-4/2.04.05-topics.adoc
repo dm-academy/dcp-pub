@@ -1,9 +1,9 @@
 ==== Assorted topics in Product Management
 
-===== The often-minimal value of "expert" opinion
+ The often-minimal value of "expert" opinion
 http://www.paulgraham.com/swan.html[Black Swan Farming]
 
-===== The production spectrum
+ The production spectrum
 * Make to Stock
 * Assemble to Order
 * Make to Order
@@ -11,5 +11,5 @@ http://www.paulgraham.com/swan.html[Black Swan Farming]
 
  [more]
 
-==== Lean UX & Service Design
+ Lean UX & Service Design
  Managed services are not 3 truck rolls: The screwdriver truck, the wire cutters truck, the conduit truck

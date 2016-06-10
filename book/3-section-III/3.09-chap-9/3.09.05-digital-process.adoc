@@ -27,7 +27,7 @@ Clearly, the concept of "process" is important and will persist through digital 
 * Process execution
 * Process improvement
 
-Although we don't preface these topics with "Agile" or "Lean," bringing those and related perspectives is the intent of this chapter.
+Although we don't preface these topics with "Agile" or "Lean," bringing those and related perspectives to these ideas is the intent of this chapter.
 
 ===== Process conception
 [quote, Mike Cohn, Succeeding with Agile: Software Development Using Scrum]
@@ -69,7 +69,7 @@ Within the boundaries of each process, improvements were implemented that made w
 
  obtain permission
 
-The above quote well illustrates the dangers of combining local optimization and  process management. Many current authors speak highly of self-organizing teams, but self-organizing teams may seek to optimize locally. Process management was originally intended to overcome this problem, but modeling techniques can be applied at various levels, including within specific departments. This is where enterprise business architecture can assist, to identify these longer, end to end flows of value and highlight the handoff areas, so that the process benefits the larger objective.
+The above quote well illustrates the dangers of combining local optimization and  process management. Many current authors speak highly of self-organizing teams, but self-organizing teams may seek to optimize locally. Process management was originally intended to overcome this problem, but modeling techniques can be applied at various levels, including within specific departments. This is where enterprise business architecture can assist, by identifying these longer, end to end flows of value and highlighting the handoff areas, so that the process benefits the larger objective.
 
 ====== Process proliferation
 Another pitfall we cover here is that of process proliferation.
@@ -128,7 +128,7 @@ To quote the Workflow Management Coalition:
 <<WFMC2010>>, via <<England2013>>
 ****
 
-Noted IT consultant and author Rob England contrasts "case management" with "standard process" in his book  _Plus! The Standard+Case Approach: See Service Response in a New Light_. Some processes are repeatable and can be precisely standardized, but it is critical for anyone working in complex environments to understand the limits of this.
+Noted IT consultant and author Rob England contrasts "case management" with "standard process" in his book  _Plus! The Standard+Case Approach: See Service Response in a New Light_. Some processes are repeatable and can be precisely standardized, but it is critical for anyone working in complex environments to understand the limits of standard process.
 
 ====== The Checklist Manifesto
 The Checklist Manifesto is the name of a notable book by author/surgeon Atul Gawande <<Gawande2010>>. The title can be misleading; the book in no way suggests that all work can be reduced to repeatable checklists. Instead, it is another in depth examination of the  relationship between standardization and complexity. Like case management, it addresses the problem of complex activities requiring professional judgement.
@@ -145,21 +145,21 @@ Finally, in chapter 8, we discussed the concept of the xref:submittal-schedule[s
 Since our initial discussions in Chapter 5 on Work Management, we have progressed through Project and Process Management, and find ourselves returning full circle. Despite the various ways in which work is conceived, funded, and formulated, at the end "it's all just work." We must retain our concern for the "human resources" (that is, people) who find themselves at the mercy of:
 
 * project fractional allocations driving multi-tasking
-* processes imposed top down with no demand analysis or evaluation of benefits.
-* and the myriads of demands that, although critical, do not seem to fit into either of the first two categories.
+* processes imposed top down with no demand analysis or evaluation of benefits
+* myriad demands that, although critical, do not seem to fit into either of the first two categories
 
-The Lean movement manages through minimizing waste and over-processing. This means both taking out un-necessary steps from processes, *AND eliminating un-necessary processes completely when required*. And correspondingly, the processes that remain should have high levels of visibility. They should be taken with the utmost seriousness, and their status should be central to most people's awareness. (This is the purpose of xref:andon[Andon].)
+The Lean movement manages through minimizing waste and over-processing. This means both taking out un-necessary steps from processes, *AND eliminating un-necessary processes completely when required*. Correspondingly, the processes that remain should have high levels of visibility. They should be taken with the utmost seriousness, and their status should be central to most people's awareness. (This is the purpose of xref:andon[Andon].)
 
 ====== From workflow tools to collaboration and digital exhaust
 One reason process tends to generate friction and be unpopular is the poor usability of workflow tools. Older tools tend to present myriads of data fields to the user and expect a high degree of training. Each state change in the process is supposed to be logged and tracked by having someone sign in to the tool and update status manually.
 
-By contrast, modern workflow approaches take full advantage of mobile platforms and integration with technology like chat rooms. Mobile development imposes higher standards for user experience (UX) design, which makes trackiing workflow somewhat easier. Integrated software pipelines that integrate application lifecycle and/or project management with source code and build management are increasingly gaining favor. For example:
+By contrast, modern workflow approaches take full advantage of mobile platforms and integration with technology like chat rooms. Mobile development imposes higher standards for user experience (UX) design, which makes tracking workflow somewhat easier. Integrated software pipelines that integrate application lifecycle management and/or project management with source code and build management are increasingly gaining favor. For example:
 
-. A new feature request is logged in the ALM tool
-. When assigned to a developer, automatically creates a feature branch in the source control system for developer to work on
-. Developer writes tests and associated code, when all passes merges changes back to the central repository
-. Build tests automatically are run
-. ALM tool is automatically updated accordingly with completion if all tests pass
+. A user logs a new feature request in the ALM tool
+. When the request is assigned to a developer, the tool automatically creates a feature branch in the source control system for the developer to work on
+. The developer writes tests and associated code that merge changes back to the central repository once tests are passed successfully
+. The system automatically runs build tests
+. The ALM tool is automatically updated accordingly with completion if all tests pass
 
 In an operations context, certain operational commands can be executed directly from the chat window. This is known as "ChatOps:"
 
@@ -167,7 +167,7 @@ In an operations context, certain operational commands can be executed directly 
 While in a chat room, team members type commands that the chat bot is configured to execute through custom scripts and plugins. These can range from code deployments to security event responses to team member notifications. The entire team collaborates in real-time as commands are executed. <<Sigler2014>>
 ****
 
-Properly configured ChatOps provides a rich audit trail of who did what, when, and who else was involved. Fundamental governance objectives of accountability can be considered fulfilled in this way, just as much as having paper or digital forms routed for approval (and with corresponding delays).
+Properly configured ChatOps provides a rich audit trail of who did what, when, and who else was involved. Fundamental governance objectives of accountability can be considered fulfilled in this way, on par with paper or digital forms routed for approval (and with corresponding delays).
 
 In general, the idea is that we can understand digital processes not through painful manual status updates, but rather through their digital exhaust - the data byproducts of people performing the value-add day to day work, at speed and with flow instead of constant delays for approvals and status updates.
 

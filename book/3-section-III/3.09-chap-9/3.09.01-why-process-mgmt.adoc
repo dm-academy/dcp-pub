@@ -17,7 +17,7 @@ For example, a new Human Resources (HR) manager was hired. The HR manager decide
 * Registering that new employee in the payroll system
 * Getting the new employee set up with benefits providers (insurance, retirement, etc)
 * Getting the new employee working space, equipment, and access to systems
-* Training the new employee in organizational policies as well as any position-specific orientation
+* Training the new employee in organizational policies, as well as any position-specific orientation
 
 The sales, marketing, and finance teams have similarly been developing ordered lists of tasks that are consistently executed as end to end sequences. And even in the core digital development and operations teams, they are finding that some tasks are repetitive and need documentation so they are performed consistently.
 
@@ -27,7 +27,7 @@ However, some team members are cautious of the word "process". The term "process
 
 "Are we going to have auditors tracking whether we filled out all our forms correctly?," one asks.
 
-"We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no-one ever looked at," another person says.
+"We used to get these consultants in at my old company and they would leave piles of 3 ring binders on the shelf that no one ever looked at," another person says.
 
 "I can't write code according to someone's recipe!," a third says with some passion, and to general agreement from the developers in the room.
 

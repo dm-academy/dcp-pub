@@ -114,44 +114,44 @@ We can understand Toyota Kata partly in terms of systems theory (Section II) - t
  Conjecture: "command and control culture" means open loop control.
 ****
 
-===== others
+====== Notes
  Liker quadrant from Toyota Way (cited by Cohn)
  Westrum typology (State of DevOps)
 
-===== Agile coaching and culture
-Lyssa Adkins
+ Agile coaching and culture
+ Lyssa Adkins
 
-The role of external facilitators
+ The role of external facilitators
 
-===== Google research on high trust cultures
+ Google research on high trust cultures
 http://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html?_r=0
 
-===== Emotional intelligence
+ Emotional intelligence
  - Culture != 'collaborate & be nice' - but intelligent IT pros do sometimes have issues - autism spectrum/Aspergers, empathy, etc ...
 
  (to be written)
 
 anchor:personal-flow[]
 
-===== "Flow" and the individual
+ "Flow" and the individual
 Summarize <<Csikszentmihalyi1990>>
 
-===== "Leading Geeks"
+ "Leading Geeks"
 
 [quote, Paul Glen, Leading Geeks]
 Because power is about the regulation of behavior, it has very little effect on creativity. Traditional methods of exercising control have little positive effect on the inner state of mind of geeks.
 
  (to be written)
 
-===== Teaming (Amy Edmondson)
+ Teaming (Amy Edmondson)
 
-===== The problem of culture "change"
+ The problem of culture "change"
 
  [to be written]
 
 effective practices: traditions, cadence
 
-===== Sidebar: Basics of professional conduct
+ Basics of professional conduct
 
 Authority, responsibility, accountability
 Delegation, commitment

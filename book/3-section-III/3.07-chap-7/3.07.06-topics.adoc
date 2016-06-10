@@ -12,38 +12,38 @@ include::../../../collab-links.adoc[]
 
 endif::collaborator-draft[]
 
-===== The mainstreaming of IT into the business
+ The mainstreaming of IT into the business
 
 "Rogue" IT
 
 Convergence diagram.
 
 
-===== Communities of practice
+ Communities of practice
 originated by Wenger, McDermott, and Snyder2002.
 
 Types of COPs
 
-===== Feature vs Component at scale
+ Feature vs Component at scale
 
 We have previously discussed xref:2.04.02-features-v-components[feature vs component teams]. As a reminder, features are functional aspects of software (things people find directly valuable) while components are how software is organized (e.g. shared services and platforms such as data management).
 
 As an organization grows, we see both the feature and component sides scale. Feature teams start to diverge into multiple products, while component teams continue to grow in the guise of shared services and platforms. Their concerns continue to differentiate and communication friction may start to emerge between the teams. How an organization handles this is critical.
 
-===== Adam Smith and Frederick Taylor
+ Adam Smith and Frederick Taylor
 - Taylor & cultural antipatterns (including the 'you just don't get X' antipattern)
 
-===== Bi-modal IT, a critique
+ Bi-modal IT, a critique
 
  [to be written]
 
 reference http://www.computerweekly.com/feature/How-CIOs-can-ramp-up-their-IT-clock-speed-as-pressure-grows[How CIOs can raise their 'IT clock speed' as pressure to innovate grows]
 
-===== Solving for decisionmaking & governance
+ Solving for decisionmaking & governance
 No choice but to allocate fine-grained decision rights between product lines & guilds. See Reinertsen/Smith.
 
 
-===== The problem of epistemic closure
+ The problem of epistemic closure
 
-===== additional material
+ additional material
 Toyota Way quadrant as cited in <<Cohn2010>> p145

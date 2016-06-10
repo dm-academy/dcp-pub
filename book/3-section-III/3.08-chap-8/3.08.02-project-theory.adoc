@@ -134,7 +134,7 @@ This means that the sub-activity "Food for party" is the critical path. If the m
 
 anchor:loose-coupling-project[]
 
-===== Loose coupling to the project plan rescue?
+====== Loose coupling to the project plan rescue?
 
 While this book does not go into systems architectural styles in depth, a project with a large number of dependencies may be an indication that the system or product being constructed also has significant interdependencies.
 
@@ -157,7 +157,7 @@ However, when a particular organizational objective requires changes to more tha
 In this discussion we see the emergence of enterprise architecture, which will be discussed in depth in Chapter 12.
 
 
-===== Risk management
+====== Risk management
 Project management is where we see the first formalization of risk management (which will be more extensively covered in Chapter 10). Briefly, risk is classically defined as the probability of an adverse event times its cost. Project managers are alert to risks to their timelines, resource estimates, and deliverables.
 
 Risks may be formally identified in project management tooling. They may be accepted, avoided, transferred, or mitigated. Unmanaged risks to a project may result in the project as a whole reporting an unfavorable status.
@@ -224,7 +224,7 @@ More on this in the following section on resource management.
 
  there have got to be good cites on this
 
-===== Critical chain
+====== Critical chain
 
 Goldratt in the above-cited book Critical Chain develops a sophisticated critique of project estimation and the dysfunctions it promotes.
 

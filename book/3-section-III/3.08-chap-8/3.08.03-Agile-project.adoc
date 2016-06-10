@@ -111,7 +111,7 @@ So, what of project management in this new world? A project manager may still be
 
 It is also useful to have a third party who is knowledgeable about the product, yet has some emotional distance from its success. This can be a difficult balance to strike, but the existence of the role of Scrum coach is indicative of its importance.
 
-===== Governing outsourced work
+====== Governing outsourced work
 A third major reason for the continued use of project management and its techniques is governing work that has been outsourced to third parties. This is covered in detail in the section on xref:sourcing[sourcing].
 
 ===== Organizational tools and techniques
@@ -207,8 +207,9 @@ To meet these goals, we
 
 The above discussion is by no means exhaustive. A wealth of additional techniques is to be found in <<Larman2009>> and <<Cohn2010>>. New techniques are continually emerging from the front lines of the digital industry; the interested student should consider attending industry conferences such as those offered by the Agile Alliance.
 
-===== The end of the "iron triangle?"
+====== The end of the "iron triangle?"
  cite Edwards & others - focus on throughput moves the needle on other metrics - but not the reverse.
+ Humble toyota quote
 
 ===== The future of project management
 

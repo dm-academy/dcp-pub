@@ -2,26 +2,26 @@
  Need to allocate between chapters 5, 8, 9 - or touch on & elaborate later?
 
 
-===== Relationship between features and tasks
+ Relationship between features and tasks
 
-===== Decision rules
+ Decision rules
  Reinertsen Boeing case
 
  Rule engines
 
 anchor:multi-tasking[]
 
-===== Context switching and multi-tasking
+ Context switching and multi-tasking
  [Human factors discussion]
 
-===== Synchronization
+ Synchronization
 
  I think there is a fundamental abstract model here of tasks and synch points - OS scheduling analogs? Mutexes/semaphores? emergent dependencies?
 
-===== Cadence
+ Cadence
 Cadence is an important form of synchronization. [more]
 
-===== Velocity
+ Velocity
 
 Stories are meant to be independent and valuable. Tasks aren’t. By earning velocity at the level of tasks, it is possible to be 70% dev-complete for a release without a single story being dev-complete. <<Narayan2015>>
 
@@ -81,7 +81,7 @@ I realize the red flags that come up with any suggestion of a centralized system
 Thoughts?
 ****
 
-===== A look ahead to project and process
+ A look ahead to project and process
 
 Projects: fixed time/duration/scope, not repeatable.
 

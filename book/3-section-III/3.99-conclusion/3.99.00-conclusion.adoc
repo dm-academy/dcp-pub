@@ -1,13 +1,9 @@
 === Section conclusion
 
-Internal productization, service catalog, & dysfunctions
+It's been an interesting ride, scaling up from a team to a team of teams.
 
-Process, project, product revisited: from dysfunction to success (!)
+We've considered our organizational structure and our culture, and the importance of culture in organizational effectiveness.
 
-Blocking problem
+We've also considered the fundamentals of project and resource management, with some caution and with an understanding that not all work is performed through classical project management and its iron triangle of cost, quality, and scope.
 
-The modern product manager: a purple squirrel? <<Cohn2010>>pp130-132
-
-Process success: project mgr happy
-Project success: product mgmt happy
-Product success: market happy
+Finally, process management is a critical practice in business operations, and will continue into the digital era. There are a variety of approaches, concerns and techniques that must be considered and correctly applied.

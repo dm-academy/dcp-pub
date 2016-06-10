@@ -111,6 +111,8 @@
 
 - [[[Hay1996]]]: Hay, D. C. (1996), _Data model patterns : conventions of thought_, Dorset House Pub., New York
 
+- [[[Heller2016]]]: Heller, Martha. 2016. “GE’s Jim Fowler on the CIO Role in the Digital Industrial Economy.” CIO Magazine Online. http://www.cio.com/article/3048805/leadership-management/ges-jim-fowler-on-the-cio-role-in-the-digital-industrial-economy.html.
+
 - [[[Hohpe2003]]]: Hohpe, G. & Woolf, B. (2003), _Enterprise integration patterns : designing, building, and deploying messaging solutions_, Addison-Wesley, Boston
 
 - [[[Hope2001]]]: Hope, Jeremy, and Robin Fraser. 2001. Beyond Budgeting Questions and Answers. http://bbrt.org/product/bbrt-qa-white-paper-october-2001/.

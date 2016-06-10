@@ -90,6 +90,10 @@ Here is another view that frames the three as a short of hierarchy:
 * Project: Activities, Resources/Skills
 * Product: Activities, Resources/Skills, Outcomes
 
+ Process success: project mgr happy
+ Project success: product mgmt happy
+ Product success: market happy
+
 In our scenario, you are now on a tight-knit, collaborative team. It is preferable that you think in terms of developing and sustaining a product. However, projects still exist, and sometimes you may find yourself on a team that is funded and operated on that basis. We will return to projects in Chapter 8.
 
 ===== Market facing, supporting, back office

@@ -113,12 +113,13 @@ The concept of "scrum of scrums" may make intuitive sense, but starts to run int
 In these questions we see the overlap of Agile with seemingly distant fields such as political science, organizational leadership, and the like.
 
 ===== Misc
-The concept of last responsible moment
-Systems and automation
-Skills management-10x controversy
-Processes within projects-risk, action, issue, etc
+ The concept of last responsible moment
+ Systems and automation
+ Skills management-10x controversy
+ Processes within projects-risk, action, issue, etc
 
-idea: interview St. Thomas IT staff on moving to Office 365 (resource angle).
+ idea: interview St. Thomas IT staff on moving to Office 365 (resource angle).
+ The modern product manager: a purple squirrel? <<Cohn2010>>pp130-132
 
 ===== Notes
 

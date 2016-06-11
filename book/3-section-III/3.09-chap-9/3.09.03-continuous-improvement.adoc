@@ -33,7 +33,7 @@ The scope of the word "process" is immense. Examples include:
 * The general steps followed in creating and executing a project
 * The overall flow of work in software development, from idea to operation
 
-This breadth of usage requires us to be specific in any discussion of the word "process." In particular, we need to be careful in understanding the concepts of efficiency, variation, and effectiveness. These concepts lie at the heart of understanding process control and improvement and how to correctly apply it in the digital economy.
+This breadth of usage requires us to be specific in any discussion of the word "process". In particular, we need to be careful in understanding the concepts of efficiency, variation, and effectiveness. These concepts lie at the heart of understanding process control and improvement and how to correctly apply it in the digital economy.
 
 Companies institute processes because it has been long understood that repetitive activities can be optimized when they are better understood, and if they are optimized, they are more likely to be economical and even profitable.
 
@@ -85,7 +85,7 @@ If you expect a process to take 5 days, what do you make of occurrences when it 
 
 In highly repeatable manufacturing processes, statistical techniques can be applied. Analyzing such "variation" has been a part of management for decades, and is an important part of disciplines such as Six Sigma. This is why Six Sigma is of such interest to manufacturing firms.
 
-\W. Edwards Deming (1900-1993) is noted for (among many other things) his understanding of variation and organizational responses to it. Understanding variation is one of the major parts of his "System of Profound Knowledge." He emphasizes the need to distinguish special causes from  common causes of variation; special causes are those requiring management attention.
+\W. Edwards Deming (1900-1993) is noted for (among many other things) his understanding of variation and organizational responses to it. Understanding variation is one of the major parts of his "System of Profound Knowledge." He emphasized the need to distinguish special causes from  common causes of variation; special causes are those requiring management attention.
 
 Deming in particular was an advocate of the control chart, a technique to understand whether a process was within statistical control:
 
@@ -130,7 +130,7 @@ As Schwaber discusses (<<Schwaber2002>>, pp. 24-25), defined processes are compl
 
 NOTE: The defined and empirical models of process control are concepts from formal https://en.wikipedia.org/wiki/Process_control[process control theory]. We touched on some related topics in our discussion of systems theory and xref:2.00.01-feedback[feedback].
 
-Empirical process control relies on frequent inspection and adaptation. After exposure to Dupont process theory experts who clarified the difference between defined and empirical process control, Schwaber went on to develop the influential Scrum methodology. As he notes:
+Empirical process control relies on frequent inspection and adaptation. After exposure to DuPont process theory experts who clarified the difference between defined and empirical process control, Schwaber went on to develop the influential Scrum methodology. As he notes:
 
 _During my visit to DuPont . . . I realized why [software development] was in such trouble and had such a poor reputation. We were wasting our time trying to control our work by thinking we had an assembly line when the only proper control was frequent and first-hand inspection, followed by immediate adjustments._ <<Schwaber2002>>, p. 25.
 

@@ -21,9 +21,9 @@ NOTE: There are other usages of the term "framework," especially in terms of sof
 
 So, what is a "framework?"
 
-The term "framework," in the context of business process, is used for comprehensive and systematic representations of a major business area's activities. In general, an industry framework is structured artifact that seeks to articulate a professional consensus regarding a domain of practice. The intent is usually that the guidance be mutually exclusive and collectively exhaustive within the domain, so that persons knowledgeable in the framework have a broad understanding of domain concerns.
+The term "framework," in the context of business process, is used for comprehensive and systematic representations of a major business area's activities. In general, an industry framework is a structured artifact that seeks to articulate a professional consensus regarding a domain of practice. The intent is usually that the guidance be mutually exclusive and collectively exhaustive within the domain, so that persons knowledgeable in the framework have a broad understanding of domain concerns.
 
-The first goal of any framework is, for a given conceptual space, to provide a "map" of its components and their relationships. Doing this serves a variety of goals:
+The first goal of any framework, for a given conceptual space, is to provide a "map" of its components and their relationships. Doing this serves a variety of goals:
 
 * Develop and support professional consensus on the business area
 * Support training and orientation of professionals new to the area (or its finer points)
@@ -102,7 +102,7 @@ ITIL is currently published via the Axelos commercial joint venture between the 
 * Service Operations
 * Continual Service Improvement
 
-Within these volumes, ITIL defines a number of activities, functions, and what it calls processes (more on this below). These definitions have helped stabilize industry practice and  provided a basis for industry training and certification of individuals.
+Within these volumes, ITIL defines a number of activities, functions, and what it calls processes (more on this below). These definitions have helped stabilize industry practice and provided a basis for industry training and certification of individuals.
 
 ITIL's processes include:
 
@@ -154,7 +154,7 @@ Monitoring of CSI Initiatives +
 |====
 
 ====== PMBOK
-The Project Management Body of Knowledge, is a publication of the Project Management Institute. It represents the codification of formal project management knowledge. There is a comparable Axelos publication, Prince2, not covered here. PMBOK was covered in xref:PMBOK[Chapter 8].
+The Project Management Body of Knowledge is a publication of the Project Management Institute. It represents the codification of formal project management knowledge. There is a comparable Axelos publication, Prince2, not covered here. PMBOK was covered in xref:PMBOK[Chapter 8].
 
 ====== COBIT
 COBIT, originally the Control Objectives for Information Technology, is a set of guidance from the IS Audit and Control Association. It has a broader scope than ITIL, as it includes architecture and project management.
@@ -164,6 +164,12 @@ Where ITIL contains narrative of considerable length, COBIT is more terse and st
 [cols="2,6", options="header"]
 |====
 |CObIT Domain|Process
+|Evaluate, Direct and Monitor (EDM)
+|EDM01 Ensure Governance Framework Setting and Maintenance +
+EDM02	Ensure Benefits Delivery +
+EDM03	Ensure Risk Optimisation +
+EDM04	Ensure Resource Optimisation +
+EDM05	Ensure Stakeholder Transparency +
 |Align, Plan and Organize (APO)
 |APO01	Manage the IT Management Framework +
 APO02	Manage Strategy +
@@ -308,7 +314,7 @@ COBIT similarly details process inputs and outputs. In the Enabling Processes gu
 * 6 inputs
 * 2 outputs
 
-But processes do not run themselves. These process inputs and outputs require staff attention. They often implie xref:queuing[queues] and therefore Work in Process, often invisible. They impose demand on the system and every such handoff represents transactional friction. Some handoffs may be implemented within the context of an IT management suite; others may require procedural standards, which themselves need to be created and maintained. The industry currently lacks understanding of how feasible such fully elaborated frameworks are, in terms of the time, effort, and organizational structure they imply.
+But processes do not run themselves. These process inputs and outputs require staff attention. They often imply xref:queuing[queues] and therefore Work in Process, often invisible. They impose demand on the system and each handoff represents transactional friction. Some handoffs may be implemented within the context of an IT management suite; others may require procedural standards, which themselves need to be created and maintained. The industry currently lacks understanding of how feasible such fully elaborated frameworks are, in terms of the time, effort, and organizational structure they imply.
 
 We have discussed the issue of overburden previously. Too many organizations have contending execution models, where projects, processes, and miscellaneous work all compete for people's attention. In such environments, the overburden and wasteful xref:multi-tasking[multi-tasking] can reach crisis levels. With ITIL in particular, because it does not cover project management or architecture, we have a very large quantity of potential process interactions that is nevertheless incomplete.
 
@@ -334,9 +340,9 @@ Finally, even if a given process framework does not specifically call for waterf
 
 * Calls for thorough project planning and estimation
 * Cautions against "cutting corners"
-* "design specifications" moving through approval pipelines (and following a progression from general to detailed)
+* "Design specifications" moving through approval pipelines (and following a progression from general to detailed)
 
-All of these tend to signal a large batch orientation even in frameworks making some claim of supporting Agile.
+All of these tend to signal a large batch orientation, even in frameworks making some claim of supporting Agile.
 
 Good system design is a complex process, and we will discuss technical debt in Chapter 12. But the slow xref:2.00.01-feedback[feedback] signals resulting from the artifact-centric batch processes implied by some frameworks are unacceptable in current industry. This is in part why new approaches are being adopted.
 
@@ -358,4 +364,4 @@ The BPM community is clear that processes and countable and event-driven (see <<
 
 The lack of countability throughout the IT frameworks' conception of "process" has caused confusion and lack of alignment with BPM professionals for years, and remains an ongoing problem.
 
-In the next chapter, we'll consider some of these further, and responses consistent with current Agile, Lean, and digital approaches.
+In the next chapter, we'll consider some of these concerns further, and responses consistent with current Agile, Lean, and digital approaches.

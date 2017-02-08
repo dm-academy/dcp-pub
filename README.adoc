@@ -13,4 +13,6 @@ This repo was renamed from aitm to dcp to reflect the new working title of the b
 
 Thanks to everyone who participated and assisted.
 
+More on the book and related topics on http://www.lean4it.com/[my blog], https://www.linkedin.com/in/charlestbetz[LinkedIn], and https://twitter.com/i/notifications[Twitter].
+
 Charles T. Betz

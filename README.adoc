@@ -7,7 +7,7 @@ _formerly Agile IT management: from startup to enterprise_
 
 Greetings
 
-As of February 7th, this work has been https://leanpub.com/digitaldelivery[published to LeanPub] and is in progress for other platforms. Public access has been discontinued. Anyone who contributed to the book prior to this date is entitled to a free copy in perpetuity; contact me.
+As of February 7th, the work in progress has been https://leanpub.com/digitaldelivery[published to LeanPub] and is in progress for other platforms. Public access has been discontinued. Anyone who contributed to the book prior to this date is entitled to a free copy in perpetuity; contact me.
 
 This repo was renamed from aitm to dcp to reflect the new working title of the book, _Digital: concepts and practices._ It will remain a public resource for discussion and enablement of the work.
 
